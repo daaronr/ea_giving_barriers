@@ -1,0 +1,1122 @@
+[[Link to Parallel Notes
+here]{.underline}](parallel_notes_details.Rmd)
+
+*Content moved to present_puzzle.Rmd*
+
+
+> [2.1. A major underlying issue: Are charities in competition? Is the
+> ineffective giving reducing effective giving? Ask people to give to EA
+> charity "instead"? \[discussion and
+> evidence\]](#a-major-underlying-issue-are-charities-in-competition-is-the-ineffective-giving-reducing-effective-giving-ask-people-to-give-to-ea-charity-instead-discussion-and-evidence)
+> 5
+>
+> [2.2. Barriers considered (economic, psychological,
+> systemic)](#barriers-considered-economic-psychological-systemic) 5
+>
+> [2.2.1. Conceptual classifications of barriers to
+> EG](#conceptual-classifications-of-barriers-to-eg) 5
+>
+> [2.2.2. Functional classification of
+> barriers](#a-practical-classification-of-barriers) 6
+>
+> [2.3. Barrier: Awareness and
+> consideration](#barrier-awareness-and-consideration) 7
+>
+> [2.3.1. Distance - Spatial/Physical: parochial altruism/ingroup
+> bias](#distance---hypothetical-probability-to-happen) 7
+>
+> [2.3.2. Distance - Temporal (future problems and
+> people)](#distance---hypothetical-probability-to-happen) 7
+>
+> [2.3.3. Distance - Social/Cultural (interpersonal and identity e.g.,
+> race, gender, age,
+> etc)](#distance---hypothetical-probability-to-happen) 7
+>
+> [2.3.4. Distance - Hypothetical (probability to
+> happen)](#distance---hypothetical-probability-to-happen) 7
+>
+> [2.3.5. Distance - Emotional (Small's
+> paper)](#distance---emotional-smalls-paper) 7
+>
+> [2.3.6. Consistent problems aren't in the
+> news](#consistent-problems-arent-in-the-news) 7
+>
+> [2.3.7. Social/geographic distance attenuates empathy (and other
+> motivators), aka,
+> parochialism](#socialgeographic-distance-attenuates-empathy-and-other-motivators-aka-parochialism)
+> 7
+>
+> [2.4. Barrier: Identity](#barrier-identity) 7
+>
+> [2.4.1. Self-interest/local public
+> good](#self-interestlocal-public-good) 7
+>
+> [2.4.2. Cognitive dissonance \[or is this
+> 'inertia'\]](#cognitive-dissonance-or-is-this-inertia) 7
+>
+> [2.4.3. Social perceptions and signaling empathy vs
+> effectiveness](#social-perceptions-and-signaling-empathy-vs-effectiveness)
+> 7
+>
+> [2.4.4. \[Not sure where this one belongs:\] Barriers: Strong local
+> appeals (\'the ask\'), social obligations to give locally, and need
+> for "virtue-signaling" (and \'crowding out\'/moral licensing may
+> exist)](#not-sure-where-this-one-belongs-barriers-strong-local-appeals-the-ask-social-obligations-to-give-locally-and-need-for-virtue-signaling-and-crowding-outmoral-licensing-may-exist)
+> 7
+>
+> [2.5. Barrier: Inertia and systemic/institutional
+> factors](#barrier-inertia-and-systemicinstitutional-factors) 8
+>
+> [2.5.1. Social norms](#asks) 8
+>
+> [2.5.2. Asks](#asks) 8
+>
+> [2.6. Barrier: Obstacles to doing
+> evaluations](#barrier-obstacles-to-doing-evaluations) 8
+>
+> [2.6.1. Market & Social Norms](#market-social-norms) 8
+>
+> [2.6.2. Taboo Trade-Offs (c.f., Protected
+> Values)](#taboo-trade-offs-c.f.-protected-values) 8
+>
+> [2.6.3. Cost effectiveness (analytical) information may turn off
+> System-1 and reduce giving; statistics diminish impact of
+> \'identifiable
+> victim\'](#cost-effectiveness-analytical-information-may-turn-off-system-1-and-reduce-giving-statistics-diminish-impact-of-identifiable-victim)
+> 8
+>
+> [2.7. Barrier: Quantitative biases](#barrier-quantitative-biases) 9
+>
+> [2.7.1. Scope insensitivity](#scope-insensitivity) 9
+>
+> [2.7.2. Proportional dominance effect/drop in bucket/psychosocial
+> numbing](#proportional-dominance-effectdrop-in-bucketpsychosocial-numbing)
+> 10
+>
+> [2.7.3. Biases in perceiving impact (or in perceiving the importance
+> of
+> impact)](#biases-in-perceiving-impact-or-in-perceiving-the-importance-of-impact)
+> 10
+>
+> [2.7.4. Misunderstanding need](#overhead-aversion) 10
+>
+> [2.7.5. Availability heuristic](#overhead-aversion) 10
+>
+> [2.7.6. Number of deaths (they're already dead)](#overhead-aversion)
+> 10
+>
+> [2.7.7. Statistical victim effect](#overhead-aversion) 10
+>
+> [2.7.8. Overhead aversion](#overhead-aversion) 10
+>
+> [2.7.9. Opportunity cost neglect](#opportunity-cost-neglect) 10
+>
+> [2.8. 2b. Barriers: "Waste aversion"; Perfectionism/deontological
+> aversion to \'waste\' (or excuse-driven, motivated reasoning),
+> Perceived lack of transparency, and perceived/actual corruption
+> overseas ('protected value'); "risky
+> charities"](#b.-barriers-waste-aversion-perfectionismdeontological-aversion-to-waste-or-excuse-driven-motivated-reasoning-perceived-lack-of-transparency-and-perceivedactual-corruption-overseas-protected-value-risky-charities)
+> 10
+
+**[3. Tools for motivating EA giving](#tools-for-motivating-ea-giving)
+10**
+
+> [3.1. Psych/behavioral tools; applicability to EA
+> charities](#psychbehavioral-tools-applicability-to-ea-charities) 10
+>
+> [3.2. 3.2. De-biasing and
+> misperception-correction](#de-biasing-and-misperception-correction) 11
+>
+> [3.3. 3.3. innovative proposals](#innovative-proposals) 11
+>
+> [3.4. 3.4. EA-movement approaches and
+> pitfalls](#ea-movement-approaches-and-pitfalls) 11
+
+**[4. Conclusion; a research agenda](#conclusion-a-research-agenda)
+11**
+
+**[5. Works Cited](#works-cited) 11**
+
+Increasing effective charitable giving: The puzzle, what we know, what
+we need to know next
+
+PI: Reinstein (for now); Other co-authors: Fitz, Kagan,
+^(possible:\ Nemirow,\ Robin\ Bergh,\ Paul\ Smeets,\ Janek\ Kretschmer,\ Yoeli,\ others)^
+
+> [[Parallel notes/work found
+> HERE]{.underline}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#heading=h.zf0eu3jghz5z)
+> ^(I.e.,\ further\ details\ to\ avoid\ cluttering\ this\ up)^
+>
+> Links to detailed writeups provided throughout
+
+1. Presenting the challenge: What explains our ineffective giving[^1]
+======================================================================
+
+When faced with the "girl drowning in the pond"
+^\[Singer\ ref\ (https://www.thelifeyoucansave.org/videos\#pondvideo)\]^
+we are willing to sacrifice substantial wealth to save a life and
+express horror at those who would not
+do^\[Bugatti\ example,\ Singer's\ TLYCs\]^. However, most people *don't*
+make large donations to the very poor, even though lives can be saved
+for less than \$10,000
+^\[Givewell\ estimate\ of\ around\ \$4-8k\ to\ save\ a\ life\ here\]^,
+and vastly improved for roughly
+\$500.^(cost\ of\ Fistula\ surgery\ here)^
+^\[stats\ on\ amounts\ given\ here\]^
+
+This is probably not for lack of generosity; individuals do give
+substantial amounts (e.g., US charity represents roughly 2% of GDP
+^\[ref:\ GivingUSA\ or\ similar\]^, and intra-family transfers are far
+higher ^\[ref\]^) However, most charitable donations go towards
+charities that are worthwhile but improve well-being far less per dollar
+than basic medical interventions in poor countries, such as antimalarial
+bednets (see [[Givewell,
+2016]{.underline}](http://www.givewell.org/giving101/Your-dollar-goes-further-overseas)).[^2]
+
+These facts presents two related, puzzling questions: 1. Why don't we
+give more to the most effective charities and to those most in need?,
+and 2. When we *do* donate, why are we not more efficient with our
+charitable choices?[^3]
+
+Social science, biology and philosophy present a range of potential
+theoretical explanations of how values, preferences, and biases drive
+this "inefficient altruism" and limit the amount donated to the most
+effective causes.
+
+We aim to provide a useful conceptual and organizational framework for
+this question, bringing together perspectives from Psychology,
+Economics, and Biology. While related surveys have considered
+^(XXX)\ (see\ section\ "1.4.\ Previous\ literature\ reviews\ and\ surveys,\ lack\ of\ previous\ work")^,
+our paper takes a uniquely comprehensive look at the question of
+obstacles to effective giving,
+
+We further present a rigorous assessment of the evidence. Evidence for
+these factors (e.g. for "availability bias", or for "scope
+insensitivity") comes largely from small-scale experiments, often
+involving hypothetical choices, or in domains outside of
+charitable-giving. Where researchers *have* been able to work with
+fundraisers on larger-scale natural field experiments, these have mainly
+involved single-charity specialized appeals and events for targeted
+audiences, and treatment variations often combine multiple differences;
+it is not clear to what extent the results apply to the overall
+population and to charitable giving in general.[^4]
+
+It can be difficult to distinguish robust, credible findings from
+one-off results vulnerable to hype, p-hacking and publication-bias
+(echoing the "replication crisis" in experimental social science
+^\[REF\]^). Given the limited, scattered findings, we do not yet have a
+definitive picture of which factors substantially impact effective
+giving (henceforth "EG").[^5] This paper synthesizes and evaluates the
+existing evidence on this. We critically consider each proposed factor,
+considering the designs, methodologies, data and evidence, emphasizing
+replication, convergent evidence and robustness; favoring rigorous,
+replicated evidence, in line with the tools and standards of the
+"credibility revolution in social science".[^6] Through this paper and
+its accompanying resources, we provide an informed judgement as well as
+organized building blocks for more formal meta-analyses. We present a
+rigorous picture of "what we know, with what confidence, and where we
+need to explore further."[^7]
+
+1.1. (Motivation) Why should you care about this? Descriptives of giving (US, international) and how \'ineffective\' it is. Who does give effectively? Potential global welfare gains to changing "where we give."
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-   References making this same point: McCaskill, Gertler, Science of
+    > Giving\... \[Quotes
+    > [[HERE]{.underline}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#heading=h.zf0eu3jghz5z)\]
+
+**(Motivation) Why should you care about this?** Descriptives of giving
+(US, international) and how \'ineffective\' it is. Potential global
+welfare gains to changing "where we give."
+
+-   *References making this same point:* McCaskill, Gertler*,* Science
+    > of Giving\...
+
+Nemirow: "Effectiveness doesn't track popularity with donors\... Using
+ratings of financial efficiency and transparency as a proxy for efficacy
+[[(Oppenheimer and Olivola
+2011)]{.underline}](https://paperpile.com/c/lJEeEp/N59C), observed a
+correlation of .002"
+
+*Evidence and descriptives on giving behavior*
+
+*Who does give internationally/effectively (descriptives)? Briefly
+define the EA movement as an important force "we" (economists,
+psychologists) need to discuss. (Or put this at bottom?)*
+
+> Fitz/Kagan: Understanding Effective Givers: In this study we attempt
+> to understand who is predisposed towards effective giving. After
+> providing a description of the effective giving movement, we measure
+> support for effective giving and measure a wide range of personality
+> traits and demographics that may predict support for effective giving.
+> ^\[Fill\ in\ key\ findings\ here,\ other\ sources\]^
+
+1.2. Is this a puzzle?
+----------------------
+
+[Utilitarianism]{.underline}
+
+^→\ Normative\ (why\ not?)^
+
+^There\ is\ a\ strong\ case\ to\ be\ made\ for\ moral\ utilitarianism,\ and\ surveys\ show\ strong\ agreement\ with\ the\ following\ statements...\ \[++\]\ To\ the\ extent\ that\ people\'s\ behavior\ is\ fundamentally\ at\ odds\ with\ this,\ it\ may\ be\ seen\ as\ a\ puzzle.^
+
+Why (under what models) is this a puzzle? Economics and psych models →
+puzzle? Models where people care about the impact of their gift or just
+\'amount sacrificed\' (naive warm glow). Does impact map into the \'good
+feeling\' from giving, can it do so?
+
+-   Baron: "we propose utilitarianism, or the totality of good that
+    > comes about from a choice, as our gold standard for assessing the
+    > effectiveness of choices make in the context of charitable
+    > contributions"
+
+Are people Utilitarians?
+
+****
+
+*Preferences/values: To what extent does a "moral utilitarian' ethic
+govern beliefs and behaviour?*[^8]*"* To the extent it does, the limited
+effective giving represents a puzzling intention/action gap, potentially
+driven by biases and 'barriers'. For non-utilitarians this is no puzzle;
+however, specific campaigns, tools, and fundraising approaches may still
+help align their parochial, self-interested, or reputation-seeking
+values and intentions with more effective giving.[^9]
+
+> → Descriptive (prominent model wrong? Why does the
+> prominent/reasonable model differ so much from model of
+> own-consumption)
+
+[Prominent]{.underline} [descriptive model: Charity as "consumption good
+motivated by universal desire to help others"]{.underline}
+
+A common
+conception^\[references:\ Impact\ model;\ Gertler;\ 'Science\ of\ Giving',\ Burm\ citations?...\ straw\ man?\]^
+considers giving a form of consumption, motivated by concern for others
+(as well as for intrinsic social goods such as the preservation of
+animals). In this conception charitable donations, like standard goods,
+may have diminishing marginal returns, implying that individuals will
+consume each up to the point that the last dollar gives them the same
+value as the last dollar spent on anything else they consume. If the
+last dollar spent on one good yields more benefit than the first dollar
+spent on some other good, the individual will not purchase any of the
+latter. Thus, if one charity always provides less of the "desired
+outcome" per dollar than another charity, the individual will donate
+only to the first charity. If the *outcome* they are purchasing is
+*impact on the welfare of others* (especially considering
+humanitarian/poverty charities) such individuals would only give to the
+one charity that can alleviate the most suffering or save the most lives
+per dollar.[^10]
+
+Most individuals ^(ref?)^ in wealthy countries also state agreement with
+statements such as "all humans have equal value", and "we should not
+privilege one life over another"
+^\[I'm\ making\ this\ up\ for\ now,\ let\'s\ get\ an\ actual\ reference;\ WVS?\].^
+Thus, if their concern for others is in line with this stated belief,
+they should donate only to the most effective charities (in the sense
+described above), regardless of the country or population
+targeted.^ref:\ Cause\ neutrality^ Furthermore, if the "good" being
+purchased is "helping others", the willingness to sacrifice one's own
+consumption to do this should not depend on the
+context.^(cf\ the\ drowning\ child\ example).^
+
+This issue is raised by numerous authors:
+
+McCaskill\...
+
+> "The Science of Giving" (2011) contrasts giving towards the Indian
+> Occean Tsunami, the Pakistan earthquake, and September 11 victims. "A
+> startling level of inconsistency in the way donations are raised and
+> allocated to needy recipients... mirrored by biases in media
+> attention. (Armstrong ea '06, Eisensee & S '07, Slovic '07)"....
+> Simple analysis finds a near-zero correlation to Charity Navigator
+> efficiency/transparency ratings... \[This references Oppenheimer and
+> Olivola\]
+>
+> "So, if people's donations aren't governed by the amount of the need
+> or the quality of the organizations, what are the factors that govern
+> charitable giving?"^Is\ this\ a\ quote\ or\ our\ own\ words?^
+>
+> Gertler**: "**Given that information on charities' work is available
+> to the public, why do trade-offs like that between guide dogs and eye
+> surgery still exist? Basic economic theory holds that similar goods
+> should not differ widely in price, but while no major restaurant chain
+> sells a \$500 hamburger5, some major charities still offer very
+> expensive services that accomplish much less good per dollar than
+> their cheaper equivalents. If the purpose of charity is to help other
+> people, why are the world's most effective charities not also the most
+> popular? How can relatively ineffective charities continue to thrive?"
+
+Even if they are not cause-neutral, there are still very clear
+differences in effectiveness even *within fairly narrowly defined
+causes^\[Examples\]^*, and even among charities serving similar
+populations^\[examples\]^.
+
+We may take the evidence to suggest that "having an impact on outcomes"
+is not the sole nor even the main driver of giving choices. Furthermore,
+there is evidence that efficiency/impact is often not a major part of
+the decision process^ref,^ and recognizing this, fundraisers do not
+consistently advertise a charity's "bang for the buck"
+^\[evidence/ref\]^ [^11]. To the extent that donation behavior is *not*
+substantially driven by moral utilitarianism, the "puzzle" is less
+obvious: people give to when and where giving makes them feel good (or
+avoid feeling bad). The value a donor attains from the donation
+"purchased and consumed" need not have any connection to its impact on
+outcomes. Still, to the extent that donations are driven by these
+*non-impact-related factors*, assessing the relative importance of these
+factors, and their relative (non)-alignment to effectiveness, will
+inform "EA responses". E.g., if empathy is attenuated by cultural
+distance \[[[section
+2.3,3]{.underline}](#distance---hypothetical-probability-to-happen)\],
+charities helping culturally isolated groups may use social media and
+direct communication to lessen this distance. If signaling empathy to
+peers is driving giving, and this is particularly easy to coordinate for
+charities that appeal to emotions ([[Section
+2.4.3]{.underline}](#social-perceptions-and-signaling-empathy-vs-effectiveness)),
+effective charities may seek ways of tying effectiveness to emotional
+stimuli, and finding ways of making donation outcomes visible on social
+media.
+
+Still, it seems too strong to suggest that donors "never care about
+effectiveness", and to reject MU as a substantial motivator: charities
+*do* substantially advertise their good works, and the value of these,
+and ^XXX\ strengthen\ this\ argument^ . If people *are* substantially
+moral utilitarians, their lack of effectiveness is clearly a puzzle
+demanding explanation(s). We consider ways they may simply be *bad* at
+being effective, particularly in the giving domain. E.g., they may be
+*unaware* or *insensitive* to certain needs, because of distance or lack
+of media coverage (see section
+[[2.3]{.underline}](#barrier-awareness-and-consideration).). They may
+have quantitative biases [[(section
+2.7)]{.underline}](#barrier-quantitative-biases), such as insensitivity
+to the scope of a problem, misunderstanding the importance of overhead,
+or neglecting opportunity costs. Alternatively, they may have more
+fundamental obstacles to doing such evaluations (section
+[[2.6]{.underline}](#barrier-obstacles-to-doing-evaluations)), finding
+it innapropriate or painful to consider effetiveness in this domain; the
+act of making these analytical considerations may also reduce their
+feelings of empathy. Other barriers are institutional and inertial
+(section
+[[2.5]{.underline}](#barrier-inertia-and-systemicinstitutional-factors))
+or more difficult to classify.
+
+To the extent that lack of effective giving is a puzzle, it may be a
+puzzle with *too many* explanations. We aim to organize these
+explanations and consolidate those that overlap. Admittedly, it is often
+difficult to distinguish between a departure from MU and a bias or
+obstacle to effective MU optimization. We discuss conceptual issues with
+these classifications in section
+[[2.2]{.underline}](#barriers-considered-economic-psychological-systemic),
+and we ultimately adopt what we believe to be a *practical*
+categorization.
+
+1.3. Overview of research Question/Problem: Why don't people give in an
+evidence-based way?
+
+People make evidence-based decisions when they invest/buy, but typically
+not when they give (why?).
+^References:\ Berman\ ea,\ \'18\ -\ hypothetical;\ other\ references\ to\ 'share\ of\ people\ who\ consulted\ a\ rating\ when\ they\ made\ their\ donation\ decision'\ ,\[Hope\ Consulting\]^
+
+What are the psychological motivations for *not* giving effectively?.
+
+People say they want to give effectively (Money for Good)
+
+\- Intention/Action gaps
+
+\- People say they want to do good and be effective, but they don't
+actually - Why?
+
+There are biases that hurt effective charities, and make it harder to
+think about things that are most effective
+
+Miller, evolutionary concerns:
+
+-   Make us not want to be utilitarians?
+
+-   Make our system-1 instincts distract us from this?
+
+-   Make our system-2 bad at optimization and judgement (esp in this
+    > domain).
+
+Broadly
+
+-   "Information is weak"; limited feedback (cf, own-consumption direct
+    > experience)
+
+-   People are not utilitarian? System 1 is not utilitarian even if
+    > system 2 is (and it distracts)? System II cognitive judgements are
+    > particularly bad at this (biases/ barriers)
+
+-   Other structural and social barriers
+
+1.4. Previous literature reviews and surveys, lack of previous work
+---------------------------------------------------------------------
+
+Comparison of outlines
+[[HERE]{.underline}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#)
+
+-   Ideas42: \"We did not find many field-based, experimental studies on
+    > the factors that encourage people to choose thoughtfully among
+    > charities or to plan ahead to give. \"
+
+Effectiveness-specific:
+
+-   Gertler, "[[Charitable Fundraising and Smart
+    > Giving]{.underline}](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf)\"
+
+-   [[(Baron and
+    > Szymanska 2011)]{.underline}](http://f1000.com/work/citation?ids=5505890&pre=&suf=&sa=0) -
+    > Heuristics and Biases in Charity: Largely conceptual, minimal
+    > survey of specific empirical/experimental papers ([[outline
+    > here]{.underline}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#))
+
+Loewenstein and Small ("Scarecrow") \-- survey; theme is similar to
+review in '07[^12]
+
+See also:
+
+-   [[Charity Science: Trials and synthesis of research for Effective
+    > Altruism
+    > Outreach]{.underline}](http://www.charityscience.com/outreach-research.html)
+
+-   Geoffrey Miller\'s \"10 cognitive and emotional challenges in EA\"
+
+-   Nemirow presentation: Psychological Phenomena Hindering Effective
+    > Altruism
+
+-   Yoeli (?Burm): "Hidden Motives Behind Ineffective Altruism"
+
+Charitable giving, more general
+
+-   [[Bekkers and Wiepking, (2011). \"A Literature Review of Empirical
+    > Studies of Philanthropy: Eight Mechanisms That Drive Charitable
+    > Giving" esp "Part 2: why do people give"; Nonprofit and Voluntary
+    > Sector
+    > Quarterly]{.underline}](http://www.wiepking.com/papers/BekkersWiepking_2011_NVSQ.pdf):
+    > "awareness of need," "solicitation," "costs and benefits,"
+    > "altruism," "reputation," "psychological benefits," "values," and
+    > "efficacy."
+
+-   Andreoni and Payne (2013). Chapter 1 "Charitable Giving" in
+    > Auerbach, Alan J., et al., eds. Handbook of Public Economics.
+    > Vol. 5. Newnes;
+
+-   Andreoni (2006), "Philanthropy" in Handbook of Giving, Reciprocity
+    > and Altruism
+
+-   "Gift giving: an interdisciplinary review" [[Sargent and
+    > Woodliffe]{.underline}](http://onlinelibrary.wiley.com/doi/10.1002/nvsm.308/abstract)
+    > (2007), Nonprofit and Voluntary Sector Marketing
+
+-   List (2011). Econ Perspectives or List (2008, ExpEcon),
+    > "Introduction to field experiments in economics with applications
+    > to the economics of charity"
+
+-   Zagefka and James, 2015, "The Psychology of Charitable Donations to
+    > Disaster Victims and Beyond", Social Issues and Policy Review
+
+-   Also: Duncan (2004); Atkinson (2008)
+
+\...Less academic:
+
+-   [Ideas42- Behavior and Charitable Giving]{.underline}
+
+-   [Science of Philanthropy Initiative \'Practical
+    > Takeaways]{.underline}
+
+-   [[Behavioural Insights Team (2013), "Applying Behavioural Insights
+    > to Charitable
+    > Giving."]{.underline}](http://www.behaviouralinsights.co.uk/publications/applying-behavioural-insights-to-charitable-giving/)
+
+-   Behar: "Camber Collective's three Money for Good reports
+    > ([[2010]{.underline}](https://static1.squarespace.com/static/55723b6be4b05ed81f077108/t/566efb6cc647ad2b441e2c55/1450113900596/Money+for+Good+I.pdf),
+    > [[2011]{.underline}](https://static1.squarespace.com/static/55723b6be4b05ed81f077108/t/55d24c66e4b05537993238fc/1439845478132/%24FG+II_2011_Full+Report.pdf),
+    > and
+    > [[2015]{.underline}](http://static1.squarespace.com/static/55723b6be4b05ed81f077108/t/56957ee6df40f330ae018b81/1452637938035/$FG+2015_Final+Report_01122016.pdf))
+    > each include significant research (generally from focus groups) on
+    > donor preferences regarding intermediaries."
+
+-   "EA profiling" work:[^13]
+
+\+
+
+l
+
+2.  2. Explaining the puzzle: Barriers to EA giving and potential responses, evidence
+    ===================================================================================
+
+    2.1. A major underlying issue: Are charities in competition? Is the ineffective giving reducing effective giving? Ask people to give to EA charity "instead"? \[discussion and evidence\]
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Does one ask (or donation) crowd out another\... when and how? This is
+critical to understanding the extent to which gains can be achieved by
+getting people to \'switch\' from other charities. To the extent this is
+the case, factors driving giving to the non-EA charities, especially
+local obligations (e.g., neighbors pressure you to give to local orgs)
+themselves represent barriers to EA giving (see below).
+
+(David Reinstein has a simultaneous research project on this
+\'expenditure substitution\' question; can 'paste extract' here\].)
+
+(Reinstein, \'10), (Meer, \'17), Donkers2017, Diepen2009,
+scharf2015disaster, reinstein2010does, meer\_2017, deryugina2015causes,
+Harwell, van2009does, reinstein2010substitution
+
+4.  2.2. Barriers considered (economic, psychological, systemic)
+    --------------------------------------------------------------
+
+    As noted above, if people have fundamental Utilitarian preferences
+    and values,[^14] then the charitable giving patterns present a
+    puzzle. We might consider what "barriers" are preventing people from
+    being effective Utilitarians. Below, we discuss conceptual and
+    functional categorizations. The conceptual categorization is more
+    theoretically rigorous, but implies a great deal of overlap and
+    ambiguity for particular cases; we thus use the functional
+    categorization in presenting the practical barriers and evidence.
+
+    ### 2.2.1. Conceptual classifications of barriers to EG
+
+    We briefly consider the process and elements that would lead people
+    to or away from EA behavior. Essentially, people must deeply want to
+    be EA, they must be aware of both the idea of EA and the evidence,
+    they must be able within their society's constraints to donate
+    effectively, they must be adept at choosing efficiently, and their
+    emotions must not override their cognition.
+
+    Base values may be non-utilitarian (a 'barrier' not a 'bias'):
+    \"People may fundamentally not be Utilitarian in their values and
+    goals. Thus they may not even try to maximize others\' well-being in
+    their charitable giving, even when acting analytically and
+    consciously. They may be parochial, they may want to signal
+    particular traits, or they may have other motives entirely
+
+    Misinformation/lack of awareness (of needs/effectiveness and/or of
+    utilitarian arguments)
+
+    Systemic: Social, economic, and institutional factors impede
+    effective giving (even if people are utilitarians and want and know
+    how to be effective)
+
+    Judgement/cognition failures: (even if utilitarian), in using
+    system-II to maximize, they make mistakes and do this sub-optimally,
+    due to misperceptions, cognitive biases, logical errors. They do
+    this in ways that particularly make them less effective (although,
+    by definition, any departure from maximization does this somewhat).
+    Some biases tend to hurt more effective charities in particular. We
+    will focus on those biases that have a particular impact given the
+    current mis-allocation. We pose the thought-experiment/heuristic
+    "(addressing) which biases will have the greatest impact on
+    effective giving?" ("If we could snap our fingers and remove this
+    barrier from the world, would this disproportionately increase
+    giving to Effective Charities?)
+
+-   Limitations to processing information and understanding utilitarian
+    > maximization
+
+```{=html}
+<!-- -->
+```
+-   Some biases/factors just move decisions away from effectiveness
+    > because they maximize on a different metric
+
+-   Conceptual Barriers: Biases in perceiving impact (or in perceiving
+    > the importance of impact)[^15]
+
+15. Emotion overrides cognition: System-1 hijacks and frustrates
+    attempts to be analytical in making charitable decisions; relatedly,
+    system-1 sustains generosity but it is turned off by switching to an
+    analytical mode. Moral emotions not aligned to effectiveness (and
+    \'crowding out\'/moral licensing may exist) (Miller).
+
+### 2.2.2. A practical classification of barriers
+
+The above conceptual definitions do not easily map into practical
+specific barriers and biases; we thus offer a less
+theoretically-rigorous classification to aid exposition. (Here we do not
+discuss simple 'non-utilitarian motives').
+
+Awareness and consideration
+
+Whether a cause/charity is something people are aware of, feel is
+important/salient, and feel close to.
+
+Identity
+
+Things that run against one\'s self-perception and how one believes
+others will will see you.
+
+Inertia and systemic/institutional; Inherent
+
+Factors limiting individual and social change in behavior
+
+Longstanding or inherent societal and material factors
+
+Obstacles to doing evaluations (CBA is a component)
+
+Things that make people reluctant to evaluate and consider the
+effectiveness of charities, and ways that doing these evaluations reduce
+generosity.[^16]
+
+Quantitative biases
+
+Problems dealing with numbers and making logical evaluations involving
+numbers, values and amounts. Common cognitive errors or intuitive and
+emotional reactions triggered in these contexts
+
+16. 2.3. Barrier: Awareness and consideration
+    -------------------------------------------
+
+    (Whether a cause/charity is something people are aware of, feel is
+    important/salient, and feel close to.)
+
+### 2.3.1. Distance - Spatial/Physical: parochial altruism/ingroup bias
+
+### 2.3.2. Distance - Temporal (future problems and people)
+
+### 2.3.3. Distance - Social/Cultural (interpersonal and identity e.g., race, gender, age, etc)
+
+### 2.3.4. Distance - Hypothetical (probability to happen)
+
+### 2.3.5. Distance - Emotional (Small's paper)
+
+### 2.3.6. Consistent problems aren't in the news
+
+### 2.3.7. Social/geographic distance attenuates empathy (and other motivators), aka, parochialism[^17]
+
+> (Info enhancing) social closeness of recipient -
+>
+> ?cuddy\_ea\_2007 (Sudhir ea, \'16)
+
+18. 2.4. Barrier: Identity
+    ------------------------
+
+    (Things that run against one\'s self-perception and how one believes
+    others will will see you.)
+
+    ### 2.4.1. Self-interest/local public good
+
+    ### 2.4.2. Cognitive dissonance \[or is this 'inertia'\]
+
+    ### 2.4.3. Social perceptions and signaling empathy vs effectiveness
+
+    1.  ### 2.4.4. \[Not sure where this one belongs:\] Barriers: Strong local appeals (\'the ask\'), social obligations to give locally, and need for "virtue-signaling" (and \'crowding out\'/moral licensing may exist)
+
+        \- most of this belongs above we won't completely separate
+        factors determining 'ask your neighbors' from factors
+        determining giving
+
+        \- However there is the 'local public goods' and self-interest
+        issue
+
+> (Meer, \'11)
+>
+> Look into: Ratner ea, '11 "the norm of self interest", in the Science
+> of Giving \-- 'people feel it is only culturally acceptable to donate
+> to causes in which they have a personal stake' I
+>
+> 2b. Barriers: Cognitive dissonance with previous decisions and
+> identity, family/cognitive decisions
+
+23. 2.5. Barrier: Inertia and systemic/institutional factors
+    ----------------------------------------------------------
+
+    (Factors limiting individual and social \*change\* in behavior)
+
+    ### 2.5.1. Social norms
+
+    ### 2.5.2. Asks
+
+(also recall cognitive dissonance here)
+
+27. (Longstanding or inherent societal and material factors)
+
+    All
+
+    1.  2.6. Barrier: Obstacles to doing evaluations
+        ----------------------------------------------
+
+        (Things that make people reluctant to evaluate and consider the
+        effectiveness of charities, and ways that doing these
+        evaluations reduce generosity)
+
+        In general, this is largely overlapping the concept of
+        "Cost-benefit analysis (CBA) aversion" (or simply finding it
+        less appropriate/normal/virtuous)
+
+        Link to David's discussion
+        [[HERE]{.underline}](https://docs.google.com/document/d/1UWUEihJ-XpgW4VJSNDPnwHk8LLx9_xoT8mXArlONK50/edit)
+
+        Link to Nick's discussion
+        [[HERE]{.underline}](https://docs.google.com/document/d/1XKHhkznR6bj-DKPUkAInZrNXBMF0CpDtaluilDh0LqM/edit)
+
+        Ari's notes
+        [[HERE]{.underline}](https://docs.google.com/document/d/11hINulIECcgv4mv7WVpz3UhSyaQ1fIjQz8AmxHEoMlw/edit#heading=h.7muf8zjnf5k4)
+
+### 2.6.1. Market & Social Norms
+
+Effectiveness may be seen as switching charity to a 'market
+activity'/market norm. This may seem repulsive and inappropriate and
+thus people avoid it.
+
+### 2.6.2. Taboo Trade-Offs (c.f., Protected Values)
+
+### 2.6.3. Cost effectiveness (analytical) information may turn off System-1 and reduce giving; statistics diminish impact of \'identifiable victim\'
+
+-   Preliminary notes
+    > [[LINK]{.underline}](https://docs.google.com/document/d/1VqcZ4Um00dgzTtrOX_8dxtLIebRsN789aBd6F1FS9jY/edit#)
+
+Barriers: Avoiding information, motivated reasoning in processing it
+andreoni2017avoiding, Exley2016, Exley2015, dellavigna2012
+Kellner\_EA\_2017,
+
+-   Format for each: Description, Theoretical/conceptual discussion,
+    > Relevance to EG, Evidence ("e.g,. "People rarely seek out
+    > effectiveness information and are reluctant to purchase it")
+
+What about?: Avoiding information, motivated reasoning in processing it
+andreoni2017avoiding, Exley2016, Exley2015, dellavigna2012
+Kellner\_EA\_2017,
+
+29. 2.7. Barrier: Quantitative biases
+    -----------------------------------
+
+    (Problems dealing with numbers and making logical evaluations
+    involving numbers, values and amounts. Common cognitive errors
+    \*or\* intuitive and emotional reactions triggered in these
+    contexts.)
+
+> Cognitive biases: Overweighting and underweighting probabilities
+> (relates to availability bias)[^18], misunderstanding marginality
+> (e.g., marginal vs average, also relates to drop-in-the-bucket, which
+> could also be system-I), scope-insensitivity,[^19] Opportunity-cost
+> Neglect., confirmation bias, status quo bias, identifiable victims
+> effect (system 1), etc.
+>
+> Responses: De-biasing, etc.
+>
+> small2007sympathy, Gneezy2014 ein2013giving, kogut2005identified,
+> kogut\_2005b, Kinsbergen\_tolsma\_13
+
+### 2.7.1. Scope insensitivity
+
+Description
+
+People\'s stated valuation or "willingness to pay" for an outcome seems
+not to strongly increase in the magnitude of that outcome. For example,
+when asked in isolation people might say they are willing to pay \$50 to
+save 100 eagles. Other people asked in isolation may say they are
+willing to pay \$50 to save 5000 eagles.
+
+Theoretical/conceptual discussion here
+
+There is some imprecision in defining this for the individual charitable
+donation context.
+
+Relevance to EG
+
+When assessing effectiveness in determining which charity to donate to (
+and how much), a utilitarian should be very sensitive to the scale of
+the impact (essentially the benefit per cost). If people are scope
+insensitive they will be bad at making these judgments (particularly
+when presented in isolation). However, it is hard to envision a remedy
+for this; if there is a massive scope of need, one could present a donor
+with a small portion of this only, but a donor who does research will
+learn of the larger scale.
+
+Evidence
+
+Discussion/evaluation of general evidence
+
+Discussion/evaluation of specific evidence here
+
+### 2.7.2. Proportional dominance effect/drop in bucket/psychosocial numbing
+
+-   Ari Kagan's notes
+    > [[HERE]{.underline}](https://docs.google.com/document/d/1zzGTkF5sZnDUtzE-NS3sYOHOLQw8eDxC5Qt3_Wy62wA/edit?ts=5aeb75c1#)
+
+-   David's notes [[linked
+    > HERE]{.underline}](https://docs.google.com/document/d/1JtodnZZeSd0ZfkjgnuNe-RaxE3SJpGBArPaULQs-TNE/edit#)
+
+### 2.7.3. Biases in perceiving impact (or in perceiving the importance of impact)[^20]
+
+> Responses: De-biasing, etc.
+>
+> small2007sympathy, Gneezy2014 ein2013giving, kogut2005identified,
+> kogut\_2005b, Kinsbergen\_tolsma\_13
+
+### 2.7.4. Misunderstanding need
+
+### 2.7.5. Availability heuristic
+
+### 2.7.6. Number of deaths (they're already dead)
+
+### 2.7.7. Statistical victim effect
+
+### 2.7.8. Overhead aversion
+
+-
+
+### 2.7.9. Opportunity cost neglect
+
+Not sure where this belongs:
+
+2.8. 2b. Barriers: "Waste aversion"; Perfectionism/deontological aversion to \'waste\' (or excuse-driven, motivated reasoning), Perceived lack of transparency, and perceived/actual corruption overseas ('protected value'); "risky charities"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+> \"Overhead aversion, Information about recipients\' deservingness -,
+> \"Avoid uncertainties/excuses not to give/mental transactions costs -
+> \"
+
+31. Effective charities tend to operate in ldc's, which tend to have
+    higher corruption indices.
+
+    Aversion to overhead will lead people to be biased against
+    evidence-based charities that evaluate their own programs
+
+> (Gneezy ea, \'14), (Fong & O, \'10), (Exley, \'16b) (Andreoni ea,
+> \'17), (Dellavigna ea, \'1
+
+and
+
+33. 3. Tools for motivating EA giving
+    ===================================
+
+    1.  3.1. Psych/behavioral tools; applicability to EA charities
+        ------------------------------------------------------------
+
+Briefly highlight those \'tools\' that give non-EA an advantage, but
+focus on the actionable\--how EA lessen or flip that advantage. 2. Which
+tools present particular challenges or opportunities for EA
+
+Recipient\'s plight as \'loss\' vs previous state -, Unconditional gift
+(Gift exchange) -, \"Percentage donations tied to purchases, especially
+in online auctions -\", Give more tomorrow -, Give if you win -, \"Size
+of ask; Low-ball, \'Legitimation of paltry donation\' (LPD/LPC) -\",
+Solicitor characteristics -, Visibility (of giver), Visibility -
+Recognition \'to influence others\', Visibility - Recognition tiers,
+Reveal previous donor/donation (also \'info\') -
+
+(Sudhir ea, \'16), (Falk, \'07), (Elfenbein ea, \'12), (Breman, \'11),
+(Kellner ea, \'17), (Fraser ea, \'89), (Cialdini and S, \'76), (Andrews
+ea, \'08), (Gneezy ea, \'17), (Landry ea, \'05), (Meer, \'11),
+(Harbaugh, \'98), (Soetevent, \'05), (Reinstein & R, \'12), (Karlan & M
+\'14), (Harbaugh, \'98), (Karlan & M \'14), (Harbaugh, \'98),
+(Soetevent, \'05) (Karlan & M \'14), (Karlan & M \'14)
+
+3.2. 3.2. De-biasing and misperception-correction
+---------------------------------------------------
+
+(Kogut & R, \'05) (Caviola ea, \'14)
+
+3.3. 3.3. innovative proposals
+--------------------------------
+
+Smeets?, Kellner\_EA\_2017
+
+3.4. 3.4. EA-movement approaches and pitfalls
+-----------------------------------------------
+
+What has EA tried and how has it worked; evaluate approaches in light of
+the evidence. Is the movement too \'purist\' (e.g., focusing on only the
+most effective, proven charities instead of those with broader potential
+appeal but less evidence)?
+
+Charity science
+
+Wiepking2012?
+
+4. Conclusion; a research agenda
+==================================
+
+Need for systematic platforms to study this, systematic experimentation
+and data sharing among effective/international charities. Platforms
+available, proposals for particular research projects and approaches.
+
+-   Who gives to the truly most effective international charities?
+
+-   Who is most likely to be convinced, and which
+    > arguments/presentations work in the SR and LR, and for whom
+    > (heterogeneity)?
+
+    -   Statistical learning-based analyses
+
+-   Practicable techniques in a range of higher-stakes real-world
+    > environments
+
+-   Replication (and verification), pooled evidence, meta-analysis
+
+    -   Context-sensitivity, large SE $\rightarrow$ large samples,
+        > statistical learning controls, sharing data
+
+    -   Responses to \'obvious contrasts\' seem to not reflect
+        > between-subject responses\"
+
+Also see gatesproposal.md (Gates foundation)
+
+5. Works Cited
+================
+
+[Oppenheimer, Daniel M., and Christopher Y. Olivola. 2011. *The Science
+of Giving: Experimental Approaches to the Study of Charity*. Psychology
+Press.](http://paperpile.com/b/lJEeEp/N59C)
+
+Checks and considerations for evaluating papers
+===============================================
+
+-   [[http://spsp.org/sites/default/files/dialogue\_26%282%29.pdf]{.underline}](http://spsp.org/sites/default/files/dialogue_26%282%29.pdf)
+
+-   Michèle Nuijten Tilburg University, NL Checking Robustness in 4
+    > Steps
+
+-   'critiques' in airtable
+
+-
+
+[^1]: CF Burm: When we spend money on ourselves---on a weekend trip, a
+    new coat, a dinner out---we typically attend to the value we are
+    getting for our money. We weigh alternatives, read reviews, and ask
+    our friends for advice. Yet when we instead donate our money or time
+    to charities, value has a surprisingly minor impact on our
+    decisions. Although Americans donate 2% of GDP to charity1 and
+    volunteer for over 7 billion hours a year55, we devote relatively
+    little time and money to determining which charities are effective
+    before we donate13, 14. As a result, there is little correlation
+    between a charity's value and its popularity2-5, though charities
+    vary widely in how effectively they use the money donated to them.
+    Even direct manipulations of value often matter little to us: we
+    will pay the same to save 2,000 as 200,000 birds from an oil spill,
+    and do not donate more when matching grants will multiply the impact
+    of our dollar39-40. Likewise, the emotions that motivate us to give
+    are insensitive to impact and potential impact; warm glow tends to
+    arise from the act of giving, not the outcome13, 17, and we often
+    feel more empathy for one stranger in need than for many15, 16.
+
+[^2]: Foreign aid budgets are often substantial in absolute terms (e.g.,
+    the UK pledge of 1% of GDP), but pale in comparison to domestic
+    welfare spending. In spite of aid and private charity, billions
+    around the world remain hungry, lacking medication, and in desperate
+    poverty. International aid is also often targeted ininefficient ways
+    \[references\]. Most of the arguments and discussion below also
+    pertains to individual attitudes towards government-provided aid
+    (ODA); however, we focus on charitable giving.
+
+[^3]: Burm: "Why are we motivated to give, but not motivated to give
+    effectively?"
+
+[^4]: Innovationsinfundraising.org (12 Mar 2019) reports lists 44 papers
+    on field experiments involving charitable giving. However, many of
+    these are small-scale and many do not involve issues relevant to the
+    effectiveness puzzle.
+
+[^5]: Furthermore, given the non-representative environments and
+    experimental populations, existing findings tell us little about the
+    relative importance of each factor, i.e., the magnitude of the
+    impact on the amounts donated to effective causes.
+
+[^6]: Angrist, J. D., & Pischke, J. S. (2010). 'The credibility
+    revolution in empirical economics: How better research design is
+    taking the con out of econometrics'. *Journal of Economic
+    Perspectives*, 24, 3--30. Nelson, L. D., Simmons, J. P., &
+    Simonsohn, U. (2018). 'Psychology's renaissance'. *Annual Review of
+    Psychology*, 69, 17.1--17.24.
+
+[^7]: Although we provide some assesment of the relative *economic*
+    importance of each factor, we mainly leave this for future work.
+
+[^8]: In layman's terms, Moral Utilitarians believe one should do 'the
+    greatest good for the greatest number'. If MUs do not give
+    effectively, it is a puzzle, because they are not acting on their
+    beliefs.
+
+[^9]: Non-MU donors may (e.g.) prioritise their own local community;
+    this would explain their non-effective giving. However, they might
+    (e.g.) be persuaded to expand their definition of their own
+    \'community\'.
+
+[^10]: Consider a typical non---super-rich individual. The amount this
+    individual can donate to a typical cause (e.g., malaria protection
+    in Africa, or general Cancer research) is tiny in comparison to the
+    total donations/aid. "Diminishing marginal impact" is not likely to
+    matter here; the charity that has the most impact for dollar will be
+    the same for the first all of this individual donates as for the
+    last. (The same may not hold for a Bill Gates.) This argument is
+    made more formally by Sugden \[ref\]. However, some donors may
+    derive a diminishing feeling of benefit for each cause they give to;
+    e.g., if they have a particular Kantian ethic, a particular form of
+    risk-aversion over impact, or are responding to cause-specific
+    social pressure in a number of areas. (See models/conceptions in
+    Reinstein 2014)
+
+[^11]: We do not pose the dichotomous question: "are people MU or not"
+    (or deontologists or not).
+    ^\[Evidence\ here\ that\ moral\ motivations\ can\ be\ fluid\ and\ situational.\]^
+
+[^12]: *D Small \-- "most of the previous research is considering a case
+    without a comparison... single evaluation; they might go away"*
+
+[^13]: Existing 'profiling' research includes:
+
+    > Money for Good
+    > [[2010]{.underline}](https://static1.squarespace.com/static/55723b6be4b05ed81f077108/t/566efb6cc647ad2b441e2c55/1450113900596/Money+for+Good+I.pdf)'s
+    > behavioral segmentation analysis
+
+    > Money for Good
+    > [[2015]{.underline}](http://static1.squarespace.com/static/55723b6be4b05ed81f077108/t/56957ee6df40f330ae018b81/1452637938035/$FG+2015_Final+Report_01122016.pdf)
+    > contains additional segmentation analysis and tools, including
+    > discussion of "opportunities within specific demographic segments,
+    > such as Millennials and women."
+
+    > [[US Trust study of High Net Worth
+    > Philanthropy]{.underline}](https://www.ustrust.com/publish/content/application/pdf/GWMOL/USTp_ARMCGDN7_oct_2017.pdf)
+    > provides a detailed look at the giving habits of this important
+    > demographic.
+
+    > [[Understanding Effective
+    > Givers]{.underline}](https://www.dropbox.com/s/9ywputy5v0qzu3t/Understanding%20Effective%20Givers.pdf?dl=0)
+    > examines inclination toward effective giving across demographic
+    > variables (discussed more
+    > [[here]{.underline}](https://www.thelifeyoucansave.org/blog/id/1433/to-grow-a-healthy-movement-pick-low-hanging-fruit)).
+
+    > [[GiveWell's 2016 Metrics
+    > Report]{.underline}](http://files.givewell.org/files/metrics/GiveWell_Metrics_Report_2016.pdf)
+    > suggests their audience differs significantly from the general
+    > population in terms of demographics and occupation
+
+    > *Fitz/Kagan (slides
+    > [[here]{.underline}](http://www.academia.edu/35258430/Understanding_effective_givers_talk_)),*
+
+[^14]: We refer to Utilitarian in its moral "greatest good for the
+    greatest number" philosophical sense; this is not the "consistent
+    maximization" Economics framework.
+
+[^15]: Relates to Geoffrey Miller's "EA challenges 7: instinctive moral
+    judgment don't update very well"\... mentions confirmation bias
+    (Plous '93), status-quo bias (Kahneman ea '91), difficulty with
+    moral uncertainty (MacAskill '14), 'bad at Bayesian updateing,
+    counterfactual reasoning, and steelmanning arguments'
+
+[^16]: "Bloom (2016) argued that \`\`empathy is a spotlight focusing on
+    certain people in the here and now \[...\] It is innumerate,
+    favoring the one over the many ...\'\'" (-Bergh)
+
+[^17]: Geoffrey Miller: "EA challenges 1: Selfish genes vs. the
+    expanding circle... Kin selection → family... Reciprocal altruism →
+    friends... Sexual selection → mates ... Group selection →
+    tribe\...Humans show parochialism: favor domestic charities over
+    global charities than may be 100x more cost-effective". This could
+    be extended to the "distance" to "non-humans"; see Miller "EA
+    challenges 9: Theory of Mind fails for non-humans"
+
+[^18]: G Miller "EA challenges 4: Availability bias in utilitarian
+    judgments"; he contrasts US rifle homicides to global malaria
+    deaths, mentions news coverage
+
+[^19]: G Miller's "EA challenges 3: Scope-insensitivity in utilitarian
+    judgments"; notes Scope ('number of beings affected, current and
+    future'), Suffering, and Duration... Challenge 10
+    "Scope-insensitivity about long-term stakes" \[In CBA I don't
+    consider the benefit correctly\]
+
+[^20]: Relates to Geoffrey Miller's "EA challenges 7: instinctive moral
+    judgment don't update very well"\... mentions confirmation bias
+    (Plous '93), status-quo bias (Kahneman ea '91), difficulty with
+    moral uncertainty (MacAskill '14), 'bad at Bayesian updateing,
+    counterfactual reasoning, and steelmanning arguments'

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/yosemite/.vim/pythonx/vim_pandoc/async.py", line 38, in <module>
+    Popen(command)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+AttributeError: 'NoneType' object has no attribute 'rfind'

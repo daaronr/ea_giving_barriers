@@ -1,0 +1,49 @@
+# Second sample chapter {#chapter_2}
+
+
+Blah blah
+
+## Test
+
+### Link back to first chapter
+
+Link back to the first chapter [here](link_back)
+
+## Blah
+
+### A proposed lecture programme {-}
+
+*Note:* I have slides covering a range of key topics, which tie in with this web book. Please contact me directly for details.
+
+<br>
+
+Large lectures have limited value in this context. From my experience students appreciate *occasional* lectures for motivation and clarification, and to ask questions, but more than 5-6 traditional lectures seems to be overkill.
+
+If resources permit, it will be helpful to intersperse this with casual scheduled 'research coffees', encouraging students to discuss their ideas with instructors and with each other. I recommend a 'light-touch approach' in sessions. Let the students take the lead in presenting and responding (making occasional course-corrections where necessary). From our experience, students engage actively in these contexts!
+
+
+
+
+# Works Cited
+
+# Appendix
+
+## Alphabetical list of abbreviations
+
+
+## Abbreviations: Notes for paper marking and commenting
+
+Here is a categorized list of abbreviations I use in marking; you may
+find it useful just to read these to be aware of common issues.
+
+- (abbreviations as pdf)[https://github.com/daaronr/writing_econ_research/blob/master/ec831%20lecture%20slides%20(powerpoint)/abbreviations%20for%20editing%20-%20alphaall%20(David%20Reinstein's%20conflicted%20copy%202012-05-15).pdf] - download and view
+
+- (link to page to download spreadsheet)](https://github.com/daaronr/writing_econ_research/blob/master/ec831%20lecture%20slides%20(powerpoint)/abbreviations%20for%20marking%20-%20forstudents.xlsx)
+
+- [Airtable view link (sortable etc)](https://airtable.com/shrPGYSbNvnUV4TzU)
+
+
+\
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrPGYSbNvnUV4TzU?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+

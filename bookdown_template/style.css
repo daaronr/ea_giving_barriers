@@ -1,0 +1,184 @@
+h3.subtitle em {
+  font-style: normal;
+}
+
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal {
+    line-height: 1.5
+}
+
+h1 {
+        line-height: 1.4;
+            margin-top: .8em;
+         margin-bottom: 0.5em;
+}
+
+
+
+h2 {
+        line-height: 1.2;
+            margin-top: 0.7em;
+    margin-bottom: 0.4em;
+}
+
+h3 {
+        line-height: 1.2;
+        margin-top: 0.6em;
+    margin-bottom: 0.3em;
+}
+
+h4 {
+        line-height: 1.2;
+        margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+
+.book .book-body .page-wrapper .page-inner section.normal blockquote, .book .book-body .page-wrapper .page-inner section.normal dl, .book .book-body .page-wrapper .page-inner section.normal ol, .book .book-body .page-wrapper .page-inner section.normal p, .book .book-body .page-wrapper .page-inner section.normal table, .book .book-body .page-wrapper .page-inner section.normal ul {
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    width: 95%; !important;
+    max-width: 1200px !important;
+}
+
+
+div.FOO {
+  font-weight: bold;
+  color: red;
+}
+.rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning {
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 5px;
+  background: #f5f5f5 5px center/3em no-repeat;
+}
+.note{
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 5px;
+  background: #ffb972 5px center/3em no-repeat;
+}
+.technote{
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 5px;
+  background: #bfffdf 5px center/3em no-repeat;
+}
+.warning{
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 5px;
+  background: #ffaaa5 5px center/3em no-repeat;
+}
+.tip{
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 5px;
+  background: #f8e6ff 5px center/3em no-repeat;
+}
+.compqn{
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 5px;
+  background: #cbecf2 5px center/3em no-repeat;
+}
+.goofus{
+  margin-bottom: 2px;
+  background: #fcd1c2 2px center/3em no-repeat;
+}
+.gallant{
+  margin-bottom: 2px;
+  background: #c9f5c9 2px center/3em no-repeat;
+}
+.boo {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5;
+  position:relative;
+}
+div.boo:before {
+    content: "\f518";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top: 0px;
+    font-size: 45px;
+ }
+
+.rmdtipi {
+  background-image: url("../images/tip.png");
+}
+
+.book .book-body .page-wrapper .page-inner {
+  max-width: 95%;
+}
+
+.page-inner {
+  width: 80%;
+}
+
+/* Tufte style Sidenotes, margin notes*/
+
+.marginnote img { display: block; }
+
+.sidenote, .marginnote { float: right;
+                         clear: right;
+                         margin-right: -15%;
+                         width: 40%;
+                         margin-top: 0;
+                         margin-bottom: 1rem;
+                         font-size: 1.1rem;
+                         line-height: 1.3;
+                         vertical-align: baseline;
+                         position: relative; }
+
+.marginnote p {font-size:80%!important;
+				line-height:1.3;}
+
+.marginnote ul { width: 100%;
+			padding-right:30%!important;
+			line-height:1.2!important;
+         -webkit-padding-start: 0%;
+         -webkit-padding-end: 0%; }
+
+.marginnote li {width: 80%;
+				padding-right: 5%;}
+
+.marginnote ol {font-size:90%!important;
+				width: 100%;
+				padding-right:5%!important;}
+
+.sidenote-number { font-family: et-book-roman-old-style;
+                                           position: relative;
+                                           vertical-align: baseline; }
+
+.sidenote-number { font-size: 1rem;
+                         top: -0.5rem;
+                         left: 0.1rem; }
+                         
+
+.marginnote code, .sidenote code { font-size: 1rem; }
+
+pre { width: 70%;
+           overflow-x: auto; }
+
+.fullwidth { max-width: 90%;
+             clear:both; }
+
+span.newthought { font-variant: small-caps;
+                  font-size: 1.2em; }
+
+input.margin-toggle { display: none; }
+
+label.sidenote-number { display: inline; }
+
+label.margin-toggle:not(.sidenote-number) { display: none; }                         
+                    

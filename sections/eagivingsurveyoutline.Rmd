@@ -1,0 +1,141 @@
+# Outline {#outline}
+
+Increasing effective charitable giving: The puzzle, what we know, what we need to know next
+
+<!-- #TODO: reconcile this with the outline in 'EA giving survey-working version'... -->
+
+```{block2,  type='note'}
+This outline links, and gives a brief description of each section
+```
+
+<!-- David Reinstein (drafted this version) with Nick Fitz and Ari Kagan -->
+
+## Extended abstract {-#abstract} 
+
+### Non-technical abstract {-#pop-abstract} 
+
+Hunger, homelessness, mental and physical illness, environmental degradation: the needs are boundless, but the resources to solve these problems are limited. Even with the best of intentions and impressive generosity (Americans give roughly 2% of their income to charity!), donors often contribute to inefficient charities -- ones that spend more but accomplish less than others that may be competing for the same funds. Each dollar given to the most effective charities (like those rated by [[Givewell.org]{.underline}](http://givewell.org)) benefits greater numbers of people in more significant ways than the least effective ones. However, donors do not always consider "Effective Altruism" (EA) when deciding how much to give and to which organizations.
+
+Academics (in Economics, Psychology, Biology, and Philosophy) have applied a range of theories to explain what drives "inefficient altruism." Evidence comes from a variety of studies, involving surveys, observational work, laboratory experiments, and, where feasible, natural field experiments.[^1] These have not been run as part of a systematic project addressing this issue; goals, contexts, and approaches have varied as opportunities presented. Given the disparate findings, we do not have a definitive picture of which factors impact effective giving.
+
+## [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle) {-}
+
+Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
+
+##  [Definitions - "Efficiency" versus impact](#impact-definitions) {-}
+
+Charity 'quality ratings', Overhead aversion
+
+### [Why (under what models) is this a puzzle?](#why-puzzle) {-}
+
+Why (under what models) is this a puzzle? Economics and psych models --> puzzle?
+Models where people care about the impact of their gift or just 'amount sacrificed' (naive warm glow). Does impact map into the 'good feeling' from giving, can it do so?
+
+Here we also  give a general ['conceptual' overview of these barriers in the next chapter](#barriers-concept). We dig into each barrier more carefully in subsequent chapters.
+
+## [Do people *actually care about* impact? Does moral utilitarianism matter?](#doesimpactmatter) {-}
+
+<!-- Economic and psych models conceptualizing this -->
+
+##  [Are charities in competition? Is the ineffective giving reducing effective giving? Ask people to give to EA charity 'instead'?](#substitution) {-}
+
+<!-- (Or put in section 2?) -->
+
+Does one ask (or donation) crowd out another... when and how? This is critical to understanding  the extent to which gains can be achieved by getting people to 'switch'  from other charities. To the extent this is the case, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressure you to give to local orgs) themselves represent barriers to EA giving (see below).
+
+<!-- (David Reinstein has a simultaneous research project on this 'expenditure substitution' question.) -->
+
+
+@Donkers2017, @VanDiepen2009a:1, [@Scharf2017], [@Deryugina2015b; @Harwella:1; @Meer2017; @Reinstein2010a:1; @Reinstein2011d]
+
+
+##  [Explaining the puzzle: Barriers to EA giving and potential responses, evidence](#barriers-intro) {-}
+
+<!-- moved old classification to barriers_old_classification.Rmd -->
+
+
+## [Barriers: Awareness, consideration, and distance](#aware-distance) {-}
+
+<div class="marginnote">
+Whether a cause/charity is something people are aware of, feel is important/salient, and feel close to.
+</div>
+
+<div class="marginnote">
+Responses?:  (Info enhancing) social closeness of recipient 
+</div>
+
+## [Barriers: Identity and cognitive dissonance](#identity) {-}
+
+<!-- Volunteer experience unlocks emotion and giving -->
+
+## [Barriers: Signaling and social pressures/social identity](#social) {-}
+
+<!-- Self-interest/local public good [put elsewhere or remove??
+Social perceptions and signaling empathy vs effectiveness; related: difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness'
+-->
+
+## [Barriers: Aversion/obstacles to *doing* (and using) evaluations](#eval-aversion) {-}
+ 
+## [Barriers: Quantitative biases](#quant-biases) {-}
+
+## [Barriers: Inertia and systemic/institutional](#inertia) {-}
+
+## [Tools for motivating EA giving](#tools) {-}
+
+### Psych/behavioral tools; applicability to EA charities {-}
+
+<div class="marginnote">
+Briefly highlight those 'tools' that give non-EA an advantage, but focus on the actionable--how EA lessen or flip that advantage. Which tools present particular challenges or opportunities for EA?
+</div>
+ 
+- Recipient's plight as 'loss' vs previous state 
+- Unconditional gift (Gift exchange) 
+- "Percentage donations tied to purchases, especially in online auctions -", Give more tomorrow  
+- Give if you win 
+- "Size of ask; Low-ball, 'Legitimation of paltry donation' (LPD/LPC) 
+- Solicitor characteristics 
+- Visibility  (of giver), Visibility 
+- Recognition 'to influence others', Visibility 
+
+- Recognition tiers, Reveal previous donor/donation (also 'info') 
+
+
+<!-- (Sudhir ea, '16), (Falk, '07), (Elfenbein ea, '12), (Breman, '11), (Kellner ea, '17), (Fraser ea, '89), (Cialdini and S, '76), (Andrews ea, '08), (Gneezy ea, '17), (Landry ea, '05), (Meer, '11), (Harbaugh, '98), (Soetevent, '05), (Reinstein & R, '12), (Karlan & M  '14), (Harbaugh, '98), (Karlan & M  '14), (Harbaugh, '98), (Soetevent, '05)	(Karlan & M  '14), (Karlan & M  '14) -->
+ 
+### De-biasing and misperception-correction {-}
+
+
+[@Caviola2014a]
+@kogut2005identified
+
+### Innovative proposals {-}
+
+Smeets?, Kellner_EA_2017
+
+### EA-movement approaches and pitfalls {-}
+
+What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too 'purist' (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)?
+
+<!-- Charity science
+Wiepking2012? -->
+
+## [Conclusion; a research agenda](#conclusion-agenda) {-}
+
+Need for systematic platforms to study this, systematic experimentation and data sharing among effective/international charities. Platforms available, proposals for particular research projects and approaches.
+
+- Who gives to the *truly* most effective international charities?
+
+- Who is most likely to be convinced, and which arguments/presentations work in the SR and LR, and for whom (heterogeneity)?
+
+- Statistical learning-based analyses
+
+- Practicable techniques in a range of higher-stakes real-world environments
+
+- Replication (and verification), pooled evidence, meta-analysis
+    - Context-sensitivity, large SE $\rightarrow$ large samples, statistical learning controls, sharing data
+
+    - Responses to 'obvious contrasts' seem to not reflect between-subject responses"
+
+
+Also see gatesproposal.md (Gates foundation)
+

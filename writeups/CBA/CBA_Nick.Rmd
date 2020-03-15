@@ -1,0 +1,161 @@
+**Opposition to Cost-Benefit Analysis (CBA) in Charitable Giving and/or
+subjectivity \> objectivity for prosocial decision-making**
+
+**Description/Definition**
+
+People are less likely to engage in cost-benefit analyses for prosocial
+behaviors such as charitable giving than for self-oriented market
+decisions such as investing or consuming.
+
+**EG Relevance**
+
+Effective Giving is predicated on conducting CBA for programs and
+organizations. To the extent that people are uncomfortable with CBA in
+the charitable domain, they will be uncomfortable with giving
+effectively.
+
+**Theory (broader umbrella, mechanisms, related concepts → established
+theories that this plugs into)**
+
+This CBA discomfort brings together several overlapping theoretical
+frameworks:
+
+-   Fiske's Relational Theory (1992; also see Aggarwal, 2004), which
+    > proposes four basic types of social relationships: communal
+    > sharing, authority ranking, equality matching, and market pricing.
+    > For more here, see Heyman & Ariely, 2004 on social vs economic
+    > markets.
+
+-   Taboo Tradeoffs & Protected Values: to the extent that CBA requires
+    > making taboo tradeoffs that clash with protected values, people
+    > may be reticent to engage in CBA for prosocial purposes.
+
+-   Distorted Altruists as the existing dominant view (contrast) c.f.,
+    > Loewenstein & Small, 2007; Slovic, 2007 \-- people care about
+    > welfare maximization, **but without clear information to make
+    > comparisons**, they rely on their feelings to guide choice
+    > (Loewenstein & Small, 2007; Slovic, 2007). Berman et al 2018 build
+    > on this.
+
+NB: we distinguish CBA opposition from the inability to conduct CBA. The
+former is treated here while the latter involves a series of
+quantitative biases discussed later.
+
+**Evidence**
+
+**People don't engage in CBA even though they want to...**When it comes
+to selecting a charity, a study through the Money for Good
+([[2015]{.underline}](http://www.cambercollective.com/moneyforgood/))
+project looked at whether charity performance dictates how people make
+their giving decisions. Sure enough, when asked, 85 percent of donors
+said they care about the effectiveness of the charities they support.
+However, only 21 percent of those respondents admitted to actually
+researching organizational performance, and more remarkably, just 3
+percent donated based on the relative performance of multiple
+nonprofits.
+
+**On social vs economic markets, or when prosocial behaviors move into
+the economic realm...** \[Evidence that there are switches between
+market and social norms\]
+
+Gneezy and Rustichini (2000a) documented the ironic outcome that emerged
+when the owners of a childcare center instituted fines for parents who
+were late to pick up their children. Lateness actually increased when
+fines were instituted; while most parents had made a good faith effort
+to arrive on time when not doing so was rude to the owners of the
+center, the institution of fines made showing up late an economic
+matter, with parents simply calculating the costs and benefits of
+tardiness. Most troubling, when the owners discontinued the fines,
+parents did not revert to their earlier behavior, suggesting that when
+social markets are made economic, it may be difficult to change them
+back.
+
+**People work harder for no money than for low pay** (Gneezy &
+Rustichini, 2000b). People are willing to engage in effort such as
+helping others or doing favors for them for social reasons; once money
+is introduced, however, people engage in cost-benefit analysis, and
+small amounts of money are not sufficient to incentivize them to do the
+work they were willing to do for free for more altruistic reasons.
+
+**Mixed markets -- where both social and economic incentives are present
+-- look like economic markets**, as though the mere whiff of monetary
+incentives corrupts social motivations (Heyman & Ariely, 2004).
+
+In the standard model of labor supply individuals trade their time and
+energy in return for monetary rewards .(More formally, they choose the
+mix of leisure and consumption that maximizes their utility function
+subject to a budget constraint whose slope is their after-tax wage, and
+subject to a time constraint.) **Building on Fiske's relational theory
+(1992), Heyman & Ariely (2004) propose that there are** **two types of
+markets that determine relationships between effort and payment:
+monetary and social.** They found that monetary markets are highly
+sensitive to the magnitude of compensation, whereas social markets are
+not. Taken together, evidence from three experiments support these
+ideas. Their results also demonstrates that mixed markets (markets that
+include aspects of both social and monetary markets) more closely
+resemble monetary than social markets.
+
+**People don't engage in CBA because they view charity as relatively
+subjective decision** (Berman et al, 2018, c.f., Goodwin & Darley, 2008;
+Spiller & Belogolova, 2017), and they're less likely to conduct CBA for
+charitable giving decisions than for financial investment decisions
+(Berman et al, 2018). People often feel justified to discount
+welfare-maximization concerns in order to choose in accordance with
+their personal preferences. Moreover, people were less likely to engage
+in CBA when making a charity decision than when making a financial
+investment decision. Across several studies, Berman et al (2018),
+provide evidence for this:
+
+-   the results of Study 1 suggest that, relative to many personal
+    > decisions, individuals view charity as being relatively
+    > subjective.
+
+-   Study 2 showed that individuals prioritize emotional connection over
+    > welfare maximization when comparing charity options.
+
+-   Study 3 examined choice processes and found that people are more
+    > likely to override welfare maximization when choosing a charity
+    > than when choosing a financial investment.
+
+-   Studies 4 and 5 found that individuals are less likely to license
+    > themselves (Study 4) and others (Study 5) to select an ineffective
+    > option when a decision maker assumes a position of responsibility
+    > -- this suggests a novel mechanism for reducing CBA aversion
+    > (e.g., elicit responsibility in charitable donations)
+
+It's not just that people are 'distorted altruists' -- that they care
+about welfare maximization, but without clear information to make
+comparisons, they rely on their feelings to guide choice (Loewenstein &
+Small, 2007; Slovic, 2007). It's that they can care more about their own
+subjective preferences than they may about welfare maximization such
+that even with the relevant welfare-maximization information, people
+still prioritize emotional connection.
+
+\--
+
+Looked into these from David:
+
+On rarely seeking out effectiveness information and are reticent to
+purchase it...
+
+Null (2011) found that most (60%) of people were not willing to give up
+a small portion of endowed money in order to learn cost-effectiveness
+information about matching. Interestingly, these people who did not
+purchase the information forfeited matching funds that ranged between
+30-150% of the value of their unmatched gifts. The median donor gave up
+matching funds exactly equal to the value of her unmatched gift: "a
+truly staggering sum" (Null, 2011). It's possible that subjects "simply
+\[did\] not care about the potential to substitute into the charity with
+the highest matching rate," driven perhaps by both risk aversion and
+warm glow. It may also be due to simple misunderstanding or fatigue (in
+an incentivized elicitation, she found some evidence of incomplete
+comprehension).  
+
+People are less interested in information about cost-effectiveness than
+they are in information about recipients...Metzger and Gunther (2015)
+found that only than 18.5% of people were willing to purchase
+information about effectiveness (e.g., aid impact) while 28% were
+willing to purchase information about administrative costs (e.g.,
+overhead), and 41% were willing to purchase information about the
+recipients (e.g., individual beneficiaries). The difference between
+effectiveness and recipients was significant.

@@ -1,0 +1,348 @@
+*Report by David Reinstein*
+
+*See also (Ari's writeup
+[[HERE]{.underline}](https://docs.google.com/document/d/1zzGTkF5sZnDUtzE-NS3sYOHOLQw8eDxC5Qt3_Wy62wA/edit#heading=h.r4qi0rwohl6r))*
+
+Related Terms 
+=============
+
+Drop in the bucket; mechanisms include "futility thinking" (Unger?),
+psychosocial numbing, quantitative confusion/innumeracy
+
+Description 
+===========
+
+*1-4 sentence description/definition of the barrier*
+
+(For a given per-dollar impact on the outcome), people are be less
+willing to donate towards a cause when the magnitude of the underlying
+problem is (framed as) larger. \[Move to mechanisms: A certain amount of
+impact (e.g., relieving suffering) is perceived as smaller and thus less
+valuable when the underlying problem is larger.\]
+
+Conceptual Discussion: 
+======================
+
+*Overview of findings from papers, caveats, how the concept works, etc.
+Provides context for evidence section; Discussion of the relevant
+mechanisms at play; Discussion of the relevant established theories*
+
+**Brief on the evidence here**
+
+*[Definitional issues and disambiguation]{.underline}*
+
+This needs to be distinguished from scope insensitivity. Note that if
+people are being analytical, they must *care* about scope in order to
+care about their impact, and thus (mistakenly) react to the perceived
+lower impact of donating when the needs are much greater.
+
+PD arguments may also be used as vehicle for motivated reasoning, and
+thus not be an important driver in itself: E.g., I don't want to donate
+so I focus on my impact being a share of the overwhelming need (which I
+might opportunistically define broadly) to conclude that helping is
+futile.[^1]
+
+To operationalize this, we need to define what the numerator and
+denominator represent. For the numerator, an (EA) impact-driven
+individualist donor might consider of her *own* contribution (per dollar
+or overall) relative to the size of the need. In contrast, a more
+collectivist/team-reasoning/communitarian thinker might consider the
+impact of the *total* expected donation relative to the size of the
+need. We also need to better define the denominator; how do individuals
+lump together different groups/problems to define the overall scale of
+the need, and how sensitive is this to the fundraisers' framing?
+
+*[Mechanisms]{.underline}*
+
+Fetherstonhaugh et al (1997) highlight "Weber's law": Humans are
+sensitive to proportional changes/proportional differences in stimuli
+(loudness, brightness, etc); thus we are less sensitive to small changes
+relative to a larger baseline. There is evidence this also holds in
+assessing losses of life. \... the "subjective value of saving the
+specified number of lives is greater for a smaller tragedy than for a
+larger one" .
+
+Baron attributes PD to quantity confusion and classifies this as
+"contamination by an irrelevant factor"; more generally, this could be
+seen in terms of *innumeracy*.
+
+This may lead to a lower willingness to contribute to a problem when the
+apparent scale (or "denominator") of the problem is larger (e.g., more
+lives at risk), holding constant the benefit per dollar contributed
+(cost per life saved). The *perceived* scale of the problem may depend
+on how it is framed by fundraisers, charities, and the media. However,
+this may not be completely manipulable: e.g., massive global problems
+may not be easy to "frame down."
+
+"Loewenstein and Small (2007) suggested that the PDE is driven by
+increased sympathy towards the victims when one can help a large
+proportion of the victim reference-group." \-- Erlandsson et al
+
+EG Relevance
+============
+
+*How this particular barrier proves problematic for effective giving*
+
+This effect represents a general departure from appropriate assessment
+of the marginal benefit (per cost) of a particular charity/intervention.
+Thus this is a general barrier to accurate assessment of effectiveness
+ergo a barrier to effective giving.
+
+In addition, it might be argued that more effective interventions (e.g.,
+targeting poor Africans versus US poverty) may tend to address problems
+that are inherently larger in scale and magnitude. These may be
+intrinsically harder to "frame down", implying EG will suffer more from
+this bias.
+
+State of Evidence
+=================
+
+*Key papers: Summarize findings and key takeaways, Short description of
+methods for relevant studies, Make sure to include both description of
+evidence and evaluation of evidence*
+
+**Fetherstonhaugh et al 1997** (notes
+[[HERE]{.underline}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#heading=h.8ax2rgfz70of))
+
+[Methods]{.underline}
+
+Range of hypothetical scenariae and evaluations, within-subject
+manipulations only (with clear contrasts), framed as aid/targeting not
+charitable donations, standard (mostly Economics) student subject pools.
+
+These authors conducted survey experiments on standard (fairly small
+sample?) student participants. They presented a variety of hypothetical
+scenariae (e.g., "imagine themselves as a government official of a
+small, developing country"\...), asking for ratings, rankings, etc.
+
+[Findings]{.underline}
+
+\> Studies 1 and 2 found that an intervention saving a fixed number of
+lives was judged significantly more beneficial when fewer lives were at
+risk overall. Study 3 found that respondents wanted the minimum number
+of lives a medical treatment would have to save to merit a fixed amount
+of funding to be much greater for a disease with a larger number of
+potential victims than for a disease with a smaller number.
+
+[Evaluation of paper's evidence:]{.underline}
+
+Strengths - Reasonably realistic frames, (mostly) consistent results
+across a variety of frames
+
+Limitations - Hypothetical, framed, nonrepresentative, and does not
+directly address *own* contributions
+
+Within-subject treatments here:
+
+(+) allow estimation of heterogeneous responses,
+
+(+/-) highlight the difference in denominators/proportions, making them
+salient; but this might also be expected to be an inhibitor of this
+(seemingly non-rational) effect, especially for the Economics-trained
+sample
+
+Statistical tests (ANOVA) appear strong and highly significant in most
+cases, but further investigation warranted (e.g., pre-registration?
+Evidence of specification fishing and MHT?)
+
+**Erlansson et al (2015)**
+
+(Study 4)
+
+> \>The PDE-ad was in part based on text from the homepage of a
+> well-known global charity organization focusing on poverty in
+> developing countries. Participants read about Polio and were told that
+> if receiving the expected amount of private donations, it would be
+> possible to vaccinate children so the death rate would decrease by
+> approximately 500 children per year. In the large reference-group
+> version, participants read that 60,000 children in Africa annually die
+> from Polio so the project had a potential rescue proportion of 0.83%.
+> In the small reference-group version, partici pants read that around
+> 500 children in Botswana annually die from Polio so the project had a
+> potential rescue proportion of more than 99%.
+>
+> \...followed by eight questions about par-icipants' reactions towards
+> the advertisement. The suggested mediators (distress, sympathy,
+> perceived impact and perceived responsibility) were measured with two
+> questions each
+>
+> \...after reading and responding to the three ads, participants were
+> told that thanks to their participation, 10 Swedish Kronor (SEK)
+> \$1.50 would be donated to charity. The participants were asked to
+> allocate the money between the three organizations by writing an
+> amount (0--10) after each ad and the sum had to be 10 SEK
+>
+> \...All participants read either one ad from the low end of the
+> effects (statistical victim, large reference-group, out-group victims)
+> plus two ads from the high end of the effects (identified victim,
+> small reference-group, in-group victims) or two ads from the low end
+> plus one ad from the high end.
+>
+> \[Results\]
+>
+> Participants who read the PDE-ad in the small reference-group version
+> had higher helping intentions (M = 3.77, SD = 1.64) than participants
+> who read the large reference-group version, M = 3.46, SD = 1.57;
+> t(430) = 2.01, p = .045. However, participants who read the small
+> reference-group version did not write that they would donate more
+> money if asked (Mean rank = 213.68) than participants who read the
+> large reference-group version (Mean rank = 218.31; Mann--Whitney U =
+> 22720.50, Z = 0.40, p = .686). Despite this, participants who read the
+> small reference-group version allocated more money to the organization
+> distributing Polio- vaccines (M = 4.30 SEK, SD = 2.85) than the
+> participants who read the large reference-group version, M = 3.50 SEK,
+> SD = 2.87; t(430) = 2.91, p = .004. Although not perfectly consistent
+> between the different outcome variables, the results suggest that we
+> replicated the PDE.
+
+[Evaluation of evidence (Study 4):]{.underline}
+
+Strengths - Realistic charity frame, reasonable implementation of
+small/large "reference group" frames, outcomes record both
+intentional/attitudinal and actual (small) donation measures
+
+Limitations - A choice *among* charities only
+
+Statistical tests -
+
+**[Brief on tangential papers (non charity) and papers supporting the
+mechanism]{.underline}**
+
+**Baron, 1997: "Confusion of Relative and Absolute Risk in Valuation"**
+
+[Methods]{.underline}
+
+Hypothetical willingness to pay (wtp) questions. Within-subject
+manipulations only[^2]; standard student subject pools, small samples.
+
+S1: Questions about (hypothetical wtp for components of government
+government health insurance. "\[Denominator\] people die from this
+disease each year. Their average age is 60. How much are you willing to
+pay to cover a treatment that will save the lives of \[Numerator\] of
+these people?"\... (Numerator=90 or 900; Denominator=100, 1000, or
+10,000), all combinations presented to all participants.
+
+S2: Set of causes, each gave wtp for a government program for a 5%
+reduction in that cause of death and for saving 2,600 lives, also rating
+prevalence and importance. He reports a very high correlation between
+wtp by these two measures, an "insensitivity to quantity", and both wtp
+measures are higher when subjects report a higher prevalence (even
+controlling for stated importance).
+
+[Evaluation of paper's evidence]{.underline}: This evidence appears
+highly limited. There is some evidence that denominators matter when
+they (arguably) should not, and participants show confusion between
+proportions and absolute amounts. The second experiment is highly
+cognitively demanding and participants have no strong incentive to "get
+this right." The first experiment has arguable confounds: e.g., one
+might question the scientific credibility of the treatment that (claims
+to) save only a small number of lives out of a very large population.
+The evidence does not seem to offer much strength over and above the
+Fetherstonhaugh paper. I also found much of the statistical reporting to
+be incomplete or unclear, especially for study two. In general, this is,
+at its best, evidence of quantitative confusion which may go in either
+direction in any given context.
+
+It is also detached from the charity realm, considering the domain of
+government expenditure and benefits that will accrue to the participant
+him or herself. For this reason, I listed it is tangential evidence and
+not charity specific evidence.
+
+**Jenni and Loewenstein (1997)** Provides support for the "reference
+group effect" (proportional dominance) as an explanation for the
+identifiable victims bias. (notes
+[[HERE]{.underline}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#))
+
+**Friedrich et al (2008)**
+
+\> PN was investigated by varying the supposed number of brak-
+ing-related traffic fatalities each year as a within-subjects variable
+and then obtain- ingjudgments of support for a new antilock brake
+requirement.
+
+\> Experiment 1 manipulated respondents\' accountability \["\...the
+experimenter will ask you at this time to explain the reasoning behind
+your decisions and to justify how you arrived at your recommendations"\]
+as a way of exploring whether PN responding is the result of careless or
+heuristic processing. Extensive work with accountability manipulations
+has shown them to be effective in debiasing\... \[other stuff\]. ...
+when they expect to have to justify their reason- ing to others, should
+also be revealing in terms of what they believe constitutes a
+defensible, normative strategy.
+
+\> \[also\] a manipulation designed to highlight the sa- lience of the
+individual lives at risk ... \[a\] description of a preventable, fatal
+accident with named individuals...
+
+\> , par- ticipants read that the \"Federal Transportation Board"
+estimated annual fatalities due to driver error in the use of
+conventional braking systems to be approximately 41,000 (\"large
+problem\") or 9,000 (\"small problem\").
+
+Outcome measures:
+
+-   \"support-for-intervention\", 7-point scale
+
+-   "Lives-to-save" "What is the minimum number of these (9,000/41,000)
+    > lives at risk \... saved each year before you... require consumers
+    > to pay for anti-lock brakes"
+
+Treatments started with one size, then presented a "task force\'s new
+estimate" with the reverse.
+
+***[Overall evaluation of evidence]{.underline}***
+
+***[Evidence gap and suggestions for future work and
+approaches]{.underline}***
+
+Solutions
+=========
+
+1.  Framing
+
+    a.  Frame down denominator (suggestive evidence from
+        > Fetherstonhaugh, etc)
+
+    b.  Report absolute or proportional number of lives that could be
+        > saved by an intervention depending on which suggests a smaller
+        > denominator (how do you know?)
+
+    c.  Highlight numerator (impact) (evidence?)
+
+    d.  (Ari:) "Increase evaluability: putting interventions on same
+        > page instead of separate pages"
+
+2.  De-biasing (discussed further in Friedrich et al - expand)
+
+*Consider:*
+
+-   *"The proportion dominance effect was primarily mediated by
+    > perceived impact." (Erlandsson et al, 2015, OBHDP)*
+
+-   *"Perceived Utility (not Sympathy) Mediates the Proportion Dominance
+    > Effect in Helping Decisions" (Erlandsson et al, 2013)*
+
+*Evidenced solutions, Possible solutions*
+
+[^1]: My thought was that people who do not value saving lives (or are
+    in general unwilling to contribute to it or oppose policies spending
+    money on foreign aid for some other reason, e.g. prejudice) exercise
+    a form of motivated reasoning to justify this (perhaps in a
+    nonstandard way). They choose to reason according to the
+    \'proportional\' standard in order to conclude that it is not worth
+    donating to these causes because \'the scope of the problem is too
+    large and they will never be completely solved\'. I suggest that
+    people apply this reasoning to problems specifically when they do
+    not want to take action to address these problems. (In contrast, in
+    domains where they do want to make a change, they may use a
+    different, more marginal and \'consistent\' sort of reasoning.)
+    E.g., (to be stereotypical) imagine a MAGA person who wants to end
+    foreign aid because \"Africa will always have endless problems\" but
+    who wants to impose restrictions on abortion (even knowing millions
+    of abortions will continue to occur) because \"every unborn life
+    matters.\"
+
+[^2]: They do reverse order of presentations for half the participants.
+    They report a lack of significant order effects, but fail to discuss
+    the power of such tests or examine first-presented choices in
+    isolation.

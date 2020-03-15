@@ -1,0 +1,46 @@
+%Zachary Ryan Smith characterization
+
+#Summary
+
+The site is "Innovations in Fundraising", which seems to be working to manage and provide data on fundraising tools. Its purpose statement: "To explain and promote practical fundraising innovations stemming from academic research, to encourage trials and experiments, to promote effective giving and encourage collaboration and knowledge-sharing".
+
+Its users might be:
+
+- researchers (eg, academic or within a charitable organization)
+- fundraisers. Eg:
+    - charitable foundations fundraising for themselves
+    - businesses fundraising for others
+    - individuals fundraising for others/themselves
+
+*DR: These are the main users. However, I would also add EA activists and possibly government policymakers*
+
+To put it in terms of data models, maybe the main model is a Tool, like "Give more tomorrow" (people increase their giving if asked to start doing so in the future vs now), and that Tool's related data might be ResearchPapers, Theories (eg, "fairness", "social signaling"), and EvidenceTypes (eg, field, lab).
+
+##Example Potential Use Cases:
+
+- A Researcher uses data to answer, "What is the current evidence? What research will I do next?"
+    - Researcher needs: Ability to assess evidence for a Tool(s) and/or a Theory(ies).
+
+*DR: Yes, and also a researcher will be able to use the evidence and available data to help calibrate their study. E.g., using previous estimated standard errors to help  them do a power test to determine their required sample size for an experiment*
+
+- A Non-Technical Fundraiser uses data to answer, "What Tool(s) should we use for our fundraiser?"
+    - Non-Tech Fundraiser needs: Ability to assess non-technical evidence for what best matches their goals and constraints.
+
+- A Technical Fundraiser uses data to answer, "What Tool(s) should we use for our fundraiser?"
+    - Technical Fundraiser needs: Ability to assess technical evidence for what best matches their goals and constraints.
+
+***
+
+
+Given my above understanding, I'll ask others what tool(s) they think would be good.
+
+By the way, you mentioned GitHub, and it sounded like GitHub has a feature you want that your current setup does not have? If so, what is that feature?
+
+Also, I think you said that you copy&paste into AirTable.  If you continue using AirTable and if that copy&pasting takes too much time, it might be a good idea to get a developer to create an interface around AirTable's APIs. But hopefully AirTable's integrations would suffice? https://airtable.com/integrations But maybe you've already looked into those integrations.
+
+***
+
+PS Will you be talking with any User Experience (UX) people?  UX design is sort of like writing a novel: anyone can do it, but few do it well.
+
+I'm still interested in the project, but I think innovations in fundraising (IiF) might currently be better off with someone with more experience in UX design (please pardon the unsolicited advice after only a couple of hours of learning about IiF).
+

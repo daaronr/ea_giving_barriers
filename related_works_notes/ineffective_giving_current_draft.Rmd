@@ -1,0 +1,1432 @@
+Hidden Motives Behind Ineffective Altruism
+
+Current Draft: April 21, 2018
+
+(Bethany Burm)
+
+Abstract
+
+We donate billions of dollars to charities each year^1^, yet much of our
+giving is ineffective^2-4^. Why are we motivated to give, but not
+motivated to give effectively^6-8^? Standard evolutionary game theory
+can explain why we contribute to public goods, but not why ignore
+efficacy^10,\ 12,\ 37^. Behavioral research makes a strong case that
+proximate motivations for giving---such as warm glow and empathy---are
+insensitive to effectiveness, but does not explain what is driving this
+insensitivity^13-17^. We explain why by pointing out that people do not
+have an incentive to attend to effectiveness. Building on recent
+theoretical advances demonstrating the role of common knowledge and
+categorical distinctions, we argue that donors are insensitive to
+efficacy because: (i) effectiveness is difficult to observe, (ii) even
+those who do observe effectiveness do not know if others do, and (iii)
+even if effectiveness were observed it could not be used to coordinate
+norm enforcement^21,\ 38^. We present five pieces of novel experimental
+evidence: (i) donors are insensitive to donation matches but sensitive
+to savings matches; (ii) donors are sensitive to the number of people
+suffering when making choices on behalf of family members, but not
+strangers; (iii) third party rewarders are insensitive to how much
+donations are matched; (iv) third party rewarders are insensitive to how
+much the donor gave; and, (v) third party rewarders are insensitive to
+what fraction the donor gave. We end by discussing implications for the
+evolution of cooperation, norm enforcement, moral realism, behavioral
+models, and practical ramifications for the effective altruism movement.
+
+Reputations Can Explain Ineffective Altruism
+
+When we spend money on ourselves---on a weekend trip, a new coat, a
+dinner out---we typically attend to the value we are getting for our
+money. We weigh alternatives, read reviews, and ask our friends for
+advice. Yet when we instead donate our money or time to charities, value
+has a surprisingly minor impact on our decisions. Although Americans
+donate 2% of GDP to charity^1^ and volunteer for over 7 billion hours a
+year^55^, we devote relatively little time and money to determining
+which charities are effective before we donate^13,\ 14^. As a result,
+there is little correlation between a charity's value and its
+popularity^2-5^, though charities vary widely in how effectively they
+use the money donated to them. Even direct manipulations of value often
+matter little to us: we will pay the same to save 2,000 as 200,000 birds
+from an oil spill, and do not donate more when matching grants will
+multiply the impact of our dollar^39-40^. Likewise, the emotions that
+motivate us to give are insensitive to impact and potential impact;
+positive feelings tend to arise from the act of giving, not the
+outcome^13,\ 17^, and we often feel more empathy for one stranger in
+need than for many^15,\ 16^.
+
+This is puzzling because it seems to contradict our experience. We feel
+as if we care about the impact we are having with our altruistic giving.
+We feel that we give because we believe that it is important to help
+others, because we want to make a difference to those suffering from
+poverty, disease, inequality and so on. And yet, we don't act as if we
+want to make a difference. We often do not even feel better when we make
+a bigger difference. Why this discrepancy?
+
+Behavioral research shows that proximate motivations for giving---such
+as warm glow and empathy---are insensitive to effectiveness, but does
+not explain why this is the case. We suggest that our proximate motives
+are insensitive to effectiveness because we do not have an incentive to
+attend to effectiveness.
+
+Evolutionary game theory models have widely demonstrated that norms such
+as giving to charity can be sustained through a recursive logic.
+^10,\ 21,\ 31,\ 37^ People follow the norm because others reward them
+for it, those others reward them because they are rewarded for
+rewarding, and so on. (Alternatively, people can be punished for not
+following the norm or for not punishing when they should.)
+
+There is considerable evidence in favor of these evolutionary game
+theory accounts. We give substantially more when our contributions are
+made observable^22-26^, and when giving is the norm.^27^ We are rewarded
+when we give^45,\ 48^, penalized when we do not
+give^43-45,\ 48-49,\ 56^, preferred for helping those who give^46-47^,
+and penalized for not penalizing those who do not give^46-47^. Further,
+there is evidence that these behaviors are deeply ingrained: even young
+children have been shown to exhibit some of these behaviors^44-46^, and
+we exhibit them even when it is clear we are not consciously
+deliberating^41,\ 43,\ 56^.
+
+If these evolutionary game theory accounts explain charitable giving,
+giving should be relatively insensitive to effectiveness. This is for
+two key reasons. First, norms cannot be enforced when compliance is
+difficult to ascertain. Conditioning reward and punishment on the
+effectiveness of a gift requires observers to know two things instead of
+one: that I gave, and also that the gift was effective. Even if an
+individual observer obtains this knowledge, he knows that other
+observers are unlikely to have put in the effort to do so. Thus, he can
+still anticipate being rewarded for rewarding me.
+
+Second, norms cannot be enforced when they depend on thresholds in a
+continuous underlying variable. The effectiveness of charitable giving,
+unlike the decision to give, is such a variable. Sufficiently close to
+the threshold, an observer cannot be confident that other observers
+believe what he believes. This creates an incentive for the giver to
+deviate from the norm and thereby weakens the threshold.
+
+We provide novel experimental evidence supporting that these features of
+norm enforcement explain ineffective giving. In studies 1 and 2 we test
+the prediction that insensitivity to effectiveness is vastly reduced in
+domains where the motivation to give has less to do with norm
+enforcement, specifically when giving to one\'s future self (i.e.,
+saving; study 1) and when giving to one\'s family members (study 2),
+which is primarily motivated by a distinct evolutionary mechanism that
+does not rely on higher order beliefs^12,\ 33,\ 34^. In studies 3-5 we
+test two other key predictions: that third-party rewards are insensitive
+to effectiveness (study 4), and that third-party rewards are likewise
+insensitive to the size of the gift (studies 4 and 5).
+
+Our first study found that people respond to effectiveness when saving
+but not when donating to charity. As discussed earlier, one reason that
+we might give ineffectively is that we are incapable of responding to
+certain kinds of information. For example, perhaps because of the way
+that our minds process numbers we cannot respond to certain differences
+in magnitude unless the comparison is very salient, and this often leads
+us to give ineffectively, ignoring factors such as whether there is a
+matching grant magnifying our impact^39-40^. Our first study ruled this
+out. In study 1a we manipulated the multiplier by which we matched
+subjects' contributions when they gave to a charity of their choice,
+with multipliers ranging from one to ten (see Figure 1). Giving was
+almost completely insensitive to the multiplier. However, when the
+contributions were matched but then returned to subjects at a later date
+instead of being donated to a charity, as in a standard savings decision
+with varying interest rates, subjects were highly sensitive to the
+multiplier. A replication replaced the charity with a specific family in
+need. (See SI for experimental stimuli and details of analyses for these
+and all subsequent experiments.)
+
+Our second study found that people respond to effectiveness when helping
+family members but not when helping strangers. A common way that our
+giving is ineffective is that we give the same amount regardless of how
+many people (or animals) we could help, as when we are willing to pay
+the same to save 200,000 or 2,000 birds^6^. One possible explanation for
+this is that the psychological mechanisms that motivate us to give, such
+as empathy and moral concern, are incapable of being sensitive to how
+many recipients we are helping^15,16^. Our second study ruled this out.
+We predicted that the motivation to help family members would be more
+sensitive to the number of people we could help than the motivation to
+help strangers. This is because our motivation to help family members is
+largely explained by the genes we share with them^33,34^. Unlike
+psychology based on norm enforcement, the disposition to help those who
+share our genes should be sensitive to effectiveness, because helping
+those genes succeed is what makes them more likely to continue on in the
+gene pool. In study 2 we asked subjects to imagine that one or five
+people were going to go hungry for a year, and varied whether these
+people were unknown children in their country or members of their family
+(see Figure 2). Each subject only saw one of these four versions. Using
+a variant of a common technique in the literature^6^, we then asked
+subjects to indicate what percentage of their income they would give up
+to prevent this from happening, assuming that no one else could prevent
+it. Subjects were willing to pay more to save more family members from
+hunger, but were not similarly willing to pay more to save more
+strangers, even though they were willing to contribute substantially to
+helping these strangers (see Figure 2).
+
+Our third study found that when others reward us for giving they respond
+to whether we give but not to how efficiently we give. In this study, we
+paired subjects with a donor who chose whether to donate all or none of
+their bonus to a charity, and who was told that their donation would be
+matched with a multiplier ranging from one to ten. Subjects were given
+the option to pay any percentage of their bonus to reward this donor. As
+an incentive to give, the donor received triple what subjects paid.
+Subjects rewarded donors more if they chose to donate, but rewards were
+not sensitive to the multiplier (see Figure 3). It might seem reasonable
+that we wouldn't reward donations more because they happen to have a
+greater impact for reasons outside of the donor's control, but we might
+at least have expected that keeping money would be punished more when
+the gift could have done more good. Yet, the reduction in reward
+incurred for keeping the bonus was not sensitive to the multiplier. This
+was not because subjects didn't care about the effect of the multiplier:
+a separate sample of subject from the same pool reported being willing
+to wait 16.24 days for a gain in their bonus equivalent to the effect of
+the smallest multiplier (doubling). We also collected judgments of the
+donor's character as another measure of reward, as often rewards or
+punishments come in the form of other people's impressions that become
+gossip, influencing who wants to cooperate with us^49^. Character
+judgments showed the same pattern as monetary rewards (see SI for
+details).
+
+In our next two studies we manipulated the amount of money and the
+fraction of an allotment that the donor had donated (see Figure 4). Like
+effectiveness, amount and fraction are continuous variables that are
+more difficult to make known to observers than the act of giving. Our
+theory predicts, then, that donors should be relatively insensitive to
+these features of a gift. In study 4 we paired subjects with a donor who
+decided whether to donate all or none of their bonus to a charity. This
+bonus was either X or 2X. Thus, subjects could be paired with a donor
+who kept a bonus of X, kept a bonus of 2X, donated a bonus of X, or
+donated a bonus of 2X. As in study 3, subjects could pay any percentage
+of a bonus to reward the donor they were paired with, and any amount
+that they paid was tripled. Subjects rewarded donors more if they chose
+to donate, but rewards were insensitive to effectiveness. Subjects did
+not reward donors who donated 2X more than those who donated X, and did
+not reward donors who kept 2X less than those who kept X. This was not
+because subjects didn't care about the doubled amount: a separate sample
+of subject from the same pool reported being willing to wait 2.67 days
+more for a 2X bonus than for an X bonus (subjects responded either about
+waiting for X or waiting for 2X). In study 5 we paired subjects with a
+donor who was given the option to donate a fraction of a bonus to a
+charity (among multiple options, ranging from none to all), and either
+kept their entire bonus or donated a certain amount of it. We kept this
+amount constant, but varied the size of the bonus, such that the donor
+had donated either 67% or 80% of the total allotment. Subjects rewarded
+donors more if they chose to donate, but did not reward donors more for
+donating a larger fraction of their bonus, and did not penalize donors
+for keeping all of a larger bonus. In both studies 4 and 5, character
+judgments mirrored monetary rewards (see SI for details).
+
+These studies provide converging evidence that reputational rewards can
+explain our ineffective giving. As models of norm enforcement predict,
+reputational rewards were relatively insensitive to effectiveness and
+other factors that do not easily become common knowledge. Further,
+subjects were capable of attending to effectiveness under conditions
+where we would expect norm enforcement to play a lesser part in their
+motivation, and an incentive tied closely to outcome to play a large
+part.
+
+Understanding this phenomenon is of first order importance. As has been
+highlighted by a growing "Effective Altruism" movement, we could
+multiply the impact of charitable giving simply by diverting funds to
+more effective charities^57^. Further, scholars from multiple fields
+have devoted classic papers and popular books to understanding why
+altruism is so far removed from consequences^13-17,\ 54^.
+
+Our findings have several important implications. First, they are
+evidence that models of norm enforcement are the right way to think
+about what motivates much of our charitable giving, and perhaps much of
+our contributions to public goods in general. In theory models of norm
+enforcement can explain why people contribute to public goods and why
+this giving is ineffective^10,\ 21,\ 32,\ 37^; in our studies, these
+models also map on well to the behavior we see in practice.
+
+Our studies also take advantage of the fact that there are different
+motives for cooperation. In addition to norm enforcement, cooperation
+may be motivated by genetic relatedness---by an evolved disposition to
+help one's genes in another body^12,\ 33,\ 34^. Unlike cooperation
+motivated by norm enforcement, cooperation motivated by genetic
+relatedness should be directly sensitive to effectiveness. Helping one's
+relatives succeed makes those genes that promote familial helping more
+likely to continue in the gene pool, irrespective of what others know
+about the helping or whether there is a discrete definition of what
+helping means. In other words, to the degree that genetic relatedness
+drives helping we should see behavior consistent with Becker's classic
+model of altruism^10^, in which the recipient's welfare is included in
+our utility function. This key difference between helping based on norm
+enforcement and that based on genetic relatedness offers a valuable tool
+for testing norm enforcement models---comparing giving to strangers with
+giving to family members.
+
+Unfortunately, to the degree that norm enforcement motivates our public
+goods contributions, these contributions will be ineffective to at least
+some degree because of the constraints on incentivizing individuals to
+follow the norm, including observability and a discrete definition of
+what it means to do something "good" and "bad". Even if processes such
+as group-level selection^50^ or the interests of those setting the norms
+help to select for more socially beneficial norms over time, these
+processes have to contend with the limitations imposed by individual
+incentives.
+
+At the same time, our research has the practical implication that we can
+make giving more effective by working with these constraints. For
+instance, norms sustaining giving should be more effective if
+effectiveness is more visible, which could be helped by efforts to
+create a common, widely accepted metric system and make people's impact
+on this metric as easy to share as whether they gave. This might be best
+combined with efforts to create discrete categories for effective versus
+ineffective charities, as charity navigator attempts to do^21-32^. In
+addition, it may help to call people out for the inconsistency between
+their stated desire to have a positive impact and the ineffectiveness of
+their giving, as the effective altruism movement often does in its
+efforts to increase contributions to highly effective charities.
+Explicitly pointing out this hypocrisy harms our ability to maintain the
+cover story that we care about the outcome without actually impacting
+the outcome very effectively.
+
+Our studies are likely to raise several questions. One is how to explain
+the instances in which people do attend to effectiveness and/or give
+more than the minimum, even when we lack discrete categories for what
+constitutes "good enough" effectiveness or giving a "good enough"
+amount. To the degree that giving is sensitive to effectiveness and
+givers are particularly generous, it may be motivated by social rewards
+that can be conferred unilaterally, such as choosing to be someone's
+friend or mate, as these don't share all of the constraints of
+coordinating with others. Another question is how to explain anonymous
+giving and giving in one-shot interactions. Anonymous gifts are often
+discovered by at least some people, who may then appreciate that the
+giver did not require the approval of the masses. Further, because
+social rewards often operate unconsciously, shaping our cognitive and
+emotional motivations to give^20,\ 21,\ 47^ , these motivations are
+sticky, spilling over into contexts---like anonymous lab experiments or
+online solicitations---where the standard reputational incentives no
+longer apply. A third puzzle is the one we began with---why do we feel
+like we care about the impact we are having, if our own behavior often
+contradicts this? This may be in service of pooling with those who can
+be trusted to genuinely help a cause succeed, perhaps because their fate
+is tied to it (e.g., through the capacity to build a legacy that will
+benefit their children). Or, it could benefit us to distinguish
+ourselves from those who are consciously thinking about reputational
+rewards and will stop giving the minute no one is watching. In both
+cases, our presentation to others may be more convincing if we believe
+it ourselves^58-59^.
+
+It seems counterintuitive that norms promoting the public good, such as
+those that support giving to charity, would be relatively insensitive to
+variables important to the public good, such as the effectiveness of our
+donations. Yet models of norm enforcement predict just this. Experiments
+like those presented here can confirm the predictions from these models,
+joining a broader effort^9,\ 12,\ 20-21,\ 49,\ 51,\ 58-60^ demonstrating
+that, with the right tools, puzzling social behavior can be seen as a
+signature of the hidden laws that shape social behavior as a whole.
+
+References
+
+1.  *Giving USA: The Annual Report on Philanthropy for the year of 2015*
+    > (2016). Chicago: Giving USA Foundation.
+
+2.  Your dollar goes farther oversees. (2016). Retrieved from
+    > http://www.givewell.org/giving101/Your-dollar-goes-further-overseas
+
+3.  Highest and lowest rated charities. (2016). Retrieved from
+    > http://www.charitynavigator.org/index.cfm?bay=content.view&cpid=521
+
+4.  Ord, T. (2013, March 12). The moral imperative toward
+    > cost-effectiveness in global health. *Center for Global
+    > Development.* Retrieved from
+    > www.cgdev.org/content/publications/detail/1427016
+
+5.  Our methodology. (2016). Retrieved from
+    > [[https://www.givingwhatwecan.org/research/methodology/]{.underline}](https://www.givingwhatwecan.org/research/methodology/)
+
+6.  Desvousges, W. H., Johnson, F. R., Dunford, R. W., Boyle, K. J.,
+    > Hudson, S. P., & Wilson, K. N. (1992). *Measuring nonuse damages
+    > using contingent valuation: An experimental evaluation of
+    > accuracy*, 2^nd^ Ed. Research Triangle Park, NC: RTI
+    > International.
+
+7.  Diamond, P. A., Hausman, J. A., Leonard, G. K., & Denning, M. A.
+    > (1993). Does contingent valuation measure preferences? Some
+    > experimental evidence. In J. A.Hausman (Ed.), *Contingent
+    > valuation: A critical assessment* (pp. 3--38). Amsterdam: North
+    > Holland Press. (NOTE: Try to get the original chapter)
+
+8.  A. Gelman, N. Silver, A. Edlin, (2012). What is the probability your
+    > vote will make a difference? *Economic Inquiry, 50,* 321.
+
+9.  Pinker, S., Nowak, M. A., & Lee, J. J. (2008). The logic of indirect
+    > speech. *Proceedings of the National Academy of
+    > sciences*, *105*(3), 833-838.
+
+10. Panchanathan, K., & Boyd, R. (2004). Indirect reciprocity can
+    > stabilize cooperation without the second-order free rider problem.
+    > *Nature, 432*(7016), 499--502. 
+
+11. Rand, D. G., Dreber, A., Ellingsen, T., Fudenberg, D., & Nowak, M.
+    > A. (2009). Positive interactions promote public cooperation.
+    > *Science*, *325*(5945), 1272-1275.
+
+12. Nowak, M. A. (2006). Five rules for the evolution of cooperation.
+    > *Science*, *314*(5805), 1560-1563.
+
+13. Baron, J., & Greene, J. (1996). Determinants of insensitivity to
+    > quantity in valuation of public goods: Contribution, warm glow,
+    > budget constraints, availability, and prominence. *Journal of
+    > Experimental Psychology: Applied*, *2*(2), 107.
+
+14. Kahneman, D., Ritov, I., Schkade, D., Sherman, S. J., & Varian, H.
+    > R. (1999). Economic preferences or attitude expressions?: An
+    > analysis of dollar responses to public issues. *Journal of Risk
+    > and Uncertainty, 19,* 203-235.
+
+15. Jenni, K., & Loewenstein, G. (1997). Explaining the identifiable
+    > victim effect. *Journal of Risk and Uncertainty*, *14*(3),
+    > 235-257.
+
+16. Loewenstein, G., Small, D., & Strnad, J. (2005). Statistical,
+    > identifiable and iconic victims and perpetrators. Stanford Law and
+    > Economics Olin Working Paper No. 301. Available at SSRN:
+    > https://ssrn.com/abstract=678281
+
+17. Andreoni, J. (1990). Impure altruism and donations to public goods:
+    > A theory of warm-glow giving. *The Economic Journal*, *100*(401),
+    > 464-477.
+
+18. Where to donate. (2016). Retrieved from
+    > https://www.thelifeyoucansave.org/Where-to-Donate
+
+19. Meyer, A. N., Singh, H., & Graber, M. L. (2015). Evaluation of
+    > outcomes from a national patient-initiated second-opinion program.
+    > *The American Journal of Medicine*, *128*(10), 1138-e25. (NOTE:
+    > Might want to find more citations for this)
+
+20. Trivers, R. L. (1971). The evolution of reciprocal altruism.
+    > *Quarterly Review of Biology, 46*, 35--57. 
+
+21. Hoffman, M., Yoeli, E., & Navarrete, C. D. (2016). Game Theory and
+    > Morality. In *The Evolution of Morality* (pp. 289-316). New York:
+    > Springer International Publishing.
+
+22. Yoeli, E., Hoffman, M., Rand, D. G., & Nowak, M. A. (2013). Powering
+    > up with indirect reciprocity in a large-scale field experiment.
+    > *Proceedings of the National Academy of Sciences*,
+    > *110*(Supplement 2), 10424-10429.
+
+23. List, J. A., Berrens, R. P., Bohara, A. K., & Kerkvliet, J. (2004).
+    > Examining the role of social isolation on stated preferences.
+    > *American Economic Review, 94*, 741--752.
+
+24. Lacetera, N., & Macis, M. (2010). Social image concerns and
+    > prosocial behavior: Field evidence from a nonlinear incentive
+    > scheme. *Journal of Economic Behavior & Organization, 76*(2),
+    > 225--237.
+
+25. Alpizar, F., Carlsson, F., & Johansson-Stenman, O. (2008).
+    > Anonymity, reciprocity, and conformity: Evidence from voluntary
+    > contributions to a national park in Costa Rica. *Journal of Public
+    > Economics, 92*(5), 1047--1060.
+
+26. Kraft-Todd, G., Yoeli, E., Bhanot, S., & Rand, D. (2015). Promoting
+    > cooperation in the field. *Current Opinion in Behavioral
+    > Sciences*, *3*, 96-101.
+
+27. Goldstein, N. J., Cialdini, R. B., & Griskevicius, V. (2008). A room
+    > with a viewpoint: Using social norms to motivate environmental
+    > conservation in hotels. *Journal of consumer Research*, *35*(3),
+    > 472-482.
+
+28. Andreoni, J., Rao, J. M., & Trachtman, H. (2011). *Avoiding the ask:
+    > A field experiment on altruism, empathy, and charitable giving*.
+    > Technical report, National Bureau of Economic Research.
+
+29. Dana, J., Cain, D. M., & Dawes, R. M. (2006). What you don't know
+    > won't hurt me: Costly (but quiet) exit in dictator games.
+    > *Organizational Behavior and Human Decision Processes, 100*(2),
+    > 193--201.
+
+30. Dana, J., Weber, R. A., & Kuang, J. X. (2007). Exploiting moral
+    > wiggle room: Experiments demonstrating an illusory preference for
+    > fairness. *Economic Theory, 33*(1), 67--80.
+
+31. Nowak, M. A. (2006). *Evolutionary dynamics*. Harvard University
+    > Press.
+
+32. Hoffman, M. & Yoeli, E. (Working paper). Why are norms categorical?
+    > Available:
+    > https://www.dropbox.com/s/0nledyb9zc2yxt8/MH\_2016\_Categorical\_Norms.pdf?dl=0
+
+33. Darwin, C. (1859). *On the origin of species by means of natural
+    > selection, or, the preservation of favoured races in the struggle
+    > for life.* New York: P.F. Collier & Son.
+
+34. Hamilton, W. D. (1963). *The evolution of altruistic behavior.
+    > [American
+    > Naturalist](https://en.wikipedia.org/wiki/American_Naturalist)*,
+    > *97*(896), 354--356.
+
+35. Dalkiran, N. A., Hoffman, M., Paturi, R., Ricketts, D., &
+    > Vattani, A. (2012). Common knowledge and state-dependent
+    > equilibria. In *Algorithmic game theory* (pp. 84-95). Berlin, DE:
+    > Springer Berlin Heidelberg.
+
+36. DeScioli, P., Bruening, R., & Kurzban, R. (2011). The omission
+    > effect in moral cognition: Toward a functional explanation.
+    > *Evolution and Human Behavior*, *32*(3), 204-215.
+
+37. Fudenberg, D. & Maskin, E. (1986). The Folk Theorem in Repeated
+    > Games with Discounting or with Incomplete Information.
+    > *Econometrica*. *54*(3), 533.
+
+38. Hoffman, M., Yoeli, E., Dalkiran, N. A., & Nowak, M. (under review).
+    > Categorical Norms.
+
+39. Rondeau, D., & List, J. A. (2008). Matching and challenge gifts to
+    > charity: evidence from laboratory and natural field experiments.
+    > *Experimental economics*, *11*(3), 253-267.
+
+40. Karlan, D., List, J. A., & Shafir, E. (2011). Small matches and
+    > charitable giving: Evidence from a natural field experiment.
+    > *Journal of Public Economics*, *95*(5), 344-350.
+
+41. Haley, K. J., & Fessler, D. M. (2005). Nobody\'s watching?: Subtle
+    > cues affect generosity in an anonymous economic game. *Evolution
+    > and Human behavior*, *26*(3), 245-256.
+
+42. Kahneman, D (2003). A perspective on judgment and choice. *American
+    > Psychologist*, *58,* 697--720.
+
+43. Fehr, E., & Fischbacher, U. (2004). Third-party punishment and
+    > social norms. *Evolution and human behavior*, *25*(2), 63-87.
+
+44. McAuliffe, K., Jordan, J. J., & Warneken, F. (2015). Costly
+    > third-party punishment in young children. *Cognition*, *134*,
+    > 1-10.
+
+45. Hamlin, J. K., & Wynn, K. (2011). Young infants prefer prosocial to
+    > antisocial others. *Cognitive development*, *26*(1), 30-39.
+
+46. Hamlin, J. K., Wynn, K., Bloom, P., & Mahajan, N. (2011). How
+    > infants and toddlers react to antisocial others. *Proceedings of
+    > the national academy of sciences*, *108*(50), 19931-19936.
+
+47. Jordan, J. J., Hoffman, M., Bloom, P., & Rand, D. G. (2016).
+    > Third-party punishment as a costly signal of trustworthiness.
+    > *Nature*, *530*(7591), 473-476.
+
+48. Almenberg J, Dreber, A, Apicella, C.L., & Rand, D. G. (2011). Third
+    > party reward and punishment: Group size, effectiveness and public
+    > goods, in "Psychology of Punishment", Eds. NM Palmetti et al.
+    > Hauppauge, NY: Nova Publishers.
+
+49. Henrich, J. (2015). *The secret of our success: how culture is
+    > driving human evolution, domesticating our species, and making us
+    > smarter*. Princeton University Press.
+
+50. R. Boyd, How humans became outliers in the natural world,
+    > http://econ.as. nyu.edu/docs/IO/41614/Outliers.pdf. Online;
+    > accessed October 16, 2016.  
+
+51. Pinker, S. (1999). How the mind works. *Annals of the New York
+    > Academy of Sciences*, *882*(1), 119-127.
+
+52. Becker, G. S. (1974). A theory of social interactions. *Journal of
+    > political economy*, *82*(6), 1063-1093.
+
+53. Dalkiran, N., Hoffman, M., Paturi, R., Ricketts, D., & Vattani, A.
+    > (2012). Common knowledge and state-dependent equilibria.
+    > *Algorithmic game theory*, 84-95.
+
+54. Bloom, P. Against Empathy The Case for Rational Compassion.
+    > 2016. *London, England: Bodley Head*.
+
+55. Bureau of Labor Statistics, U.S. Department of Labor, Economic News
+    > Release, Volunteering in the United States, 2015, February 2016.
+    > Retrieved from
+    > [[https://www.bls.gov/news.release/volun.nr0.htm]{.underline}](https://www.bls.gov/news.release/volun.nr0.htm).
+
+56. Fehr, E., Fischbacher, U., & Gächter, S. (2002). Strong reciprocity,
+    > human cooperation, and the enforcement of social norms. Human
+    > nature, 13(1), 1-25.
+
+57. Singer, P. (2010). *The life you can save: How to play your part in
+    > ending world poverty*. Pan Macmillan.
+
+58. von Hippel, W., & Trivers, R. (2011). The evolution and psychology
+    > of self-deception. *Behavioral Brain Sciences, 34*(1), 1-16.
+
+59. Kurzban, R. (2012). *Why everyone (else) is a hypocrite: Evolution
+    > and the modular mind*. Princeton University Press.
+
+60. Boyd, R. (2017). *A different kind of animal: How culture
+    > transformed our species.* Princeton University Press.
+
+**Study 1.** **Savings but not donations are sensitive to match rate**
+
+![../../Desktop/Screen%20Shot%202018-04-21%20at%207.07.58%20PM.png](media/image3.png){width="6.4944444444444445in"
+height="5.461805555555555in"}
+
+**Figure 1.** Half of subjects in study 1 decided what percentage of
+their bonus to keep and what percentage to donate to the charity of
+their choice (selected earlier in the study). The other subjects in
+study 1 decided what percentage of their bonus to receive immediately
+and what percentage to save to receive in three months. Donations and
+savings were assigned a multiplier ranging from none to ten. (Note that
+all manipulations here and in subsequent studies were between subjects.)
+Donations to charity were not affected by the multiplier (regression
+Beta = 0.11, 95% CI \[-0.05, 0.27\], *t*(148) = 1.32, *p* = .188), but
+savings were highly affected by the multiplier (regression Beta = 0.35,
+95% CI \[0.20, 0.50\],*t*(150) = 4.56, *p* \< .001). (Dot area is
+proportional to the number of data points with a given value; lines
+represent the best fit line for donations or savings regressed on the
+multiplier.) As expected, the effect of the multiplier is significantly
+larger for savings than for charitable giving (regression Beta = -0.31,
+95% CI \[-0.56, -0.06\], *t*(301) = -2.40, *p* = .009 for the
+interaction of match and donating versus saving).
+
+**Study 2. Willingness to help is sensitive to the number helped for
+family members but not strangers**
+
+![../../Desktop/Screen%20Shot%202018-04-11%20at%2012.31.37%20PM.png](media/image1.png){width="4.986933508311461in"
+height="6.781753062117235in"}
+
+**Figure 2.** Subjects in study 2 were asked to imagine that one or five
+people went hungry for a year. These people were either members of their
+family or unknown children in their country (strangers). Subjects then
+reported their (hypothetical) willingness to pay to prevent this
+suffering. Subjects were willing to pay a greater percentage of their
+salary to prevent five family members from going hungry than to prevent
+one from going hungry, but were not willing to pay more to prevent five
+strangers from going hungry than to prevent one from going hungry
+(regression Beta = 0.20, 95% CI \[0.08, 0.32\], *t*(604) = 3.36, *p* \<
+.001 for the interaction of relationship and number). Error bars are +/-
+s.e.m.
+
+**Study 3. Reputational rewards are sensitive to whether a donor gives,
+but not match rate**
+
+![../../Desktop/Screen%20Shot%202018-04-11%20at%2012.33.07%20PM.png](media/image4.png){width="6.4944444444444445in"
+height="6.230555555555555in"}
+
+**Figure 3.** In study 3 subjects were given the option to pay any
+percentage of their bonus to reward a donor. The donor received triple
+what subjects paid. We paired subjects with a donor who chose whether to
+donate all or none of their bonus to a charity, and who was told that
+their donation had been assigned a multiplier from none to ten. Subjects
+rewarded donors more if they chose to donate (regression Beta = 0.24,
+95% CI \[0.06, 0.41\], *t*(538) = 2.67, *p* = .004 for the effect of
+donating), but rewards were not higher for donating when there was a
+higher multiplier, nor lower for not donating when there was a higher
+multiplier (regression Beta = 0.07, 95% CI \[-0.12, 0.26\], *t*(538) =
+-0.42, *p* = .868 for the interaction of donating and the multiplier).
+(Dot area is proportional to the number of data points with a given
+value; lines represent the best fit line for reward payments regressed
+on the multiplier, separated by whether donors donated or kept their
+bonus.) Judgments of the donor's character demonstrated the same pattern
+of results.
+
+**Study 4 & 5. Reputational rewards are sensitive to whether a donor
+gives, but not donation amount or percent**
+
+![../../Desktop/Screen%20Shot%202018-04-11%20at%2011.51.56%20AM.png](media/image2.png){width="6.648832020997375in"
+height="2.7382983377077865in"}
+
+**Figure 4**.  **a.** In study 4, we paired subjects with a donor who
+chose whether to donate all or none of their bonus to a charity, and
+whose bonus was either 10 cents or 20 cents. Subjects were given the
+option to pay any percentage of their bonus to reward the donor. The
+donor received triple what subjects paid. Subjects rewarded donors more
+if they chose to donate (regression Beta = 0.25, 95% CI \[0.12, 0.38\],
+*t*(419) = 3.70, *p* \< .001 for the effect of donating), but did not
+reward donors who donated 20 cents more than those who donated 10 cents,
+and did not reward donors who kept 20 cents less than those who kept 10
+cents (regression Beta = 0.04, 95% CI \[-0.12, 0.20\], *t*(419) = 0.51,
+*p* = .608 for the interaction of donating and bonus size). **b.** In
+study 5, we paired subjects with a donor who chose to donate some or all
+of a bonus to charity, and whose bonus was either 90 cents or 75 cents.
+We paired subjects with donors who chose to donate either 60 cents or
+none of their bonus. Subjects were given the option to pay any
+percentage of their bonus to reward the donor. The donor received triple
+what subjects paid. Subjects rewarded donors more if they chose to
+donate (regression Beta = 0.27, 95% CI \[0.14, 0.40\], *t*(398) = 4.05,
+*p* \< .001 for the effect of donating), but did not reward donors more
+for donating a larger fraction of their bonus (regression Beta = 0.09,
+95% CI \[-0.08, 0.25\], *t*(398) = 1.05, *p* = .294 for the interaction
+of donating and bonus size). Judgments of the donor's character
+demonstrated the same pattern of results. Error bars are +/- s.e.m.
+
+Supplementary Information
+
+Experimental Methods and Results
+
+**Study 1: Savings are sensitive to a multiplier but charitable
+donations are not**
+
+**Study 1a. Sensitivity to a multiplier when saving versus donating to
+charity**
+
+**Experimental design overview.** This study contrasted how sensitive
+subjects were to a multiplier when giving to charity and saving for the
+future. Subjects were given a bonus and the option either to donate some
+or all of the bonus to charity, or to save some or all of the bonus for
+the future. Donations and savings were assigned a match ranging from no
+match to 9:1.
+
+**Subject recruitment method and the use of Amazon Turk.** We recruited
+all subjects for all studies online through Amazon Mechanical Turk (AMT)
+\[1--4\]. AMT is an online marketplace where employers pay users for
+completing short tasks (generally about 10 minutes), usually referred to
+as Human Intelligence Tasks (HITs) -- for a relatively small payment
+(generally less than a \$1). Workers who have been recruited on AMT
+receive a baseline payment and can also be paid a bonus depending on
+their performance in the task. This setup lends itself well to
+incentivized experiments: the baseline payment acts as the 'show up' fee
+and the bonus payment is based on the workers' behavior in the economic
+game, if applicable.
+
+**Subjects.** Subjects were 304 respondents on Amazon Mechanical Turk
+(mean age = 34.23, SD = 10.22, range from 18 to 67).[^1] Participation
+was limited to subjects from the United States and Canada. 60% were
+male, 40% female. 77% were White/Caucasian, 5% African American, 5%
+Hispanic, 10% Asian American, 1% marked "other," and 1% marked "prefer
+not to say." 99% had graduated at least from high school, and 55% had
+graduated at least from college. One subject did not answer all relevant
+questions needed for the primary analyses.
+
+**Procedure.** Subjects in this study began by selecting their top
+choice charity from a list of six options: The American Cancer Society,
+The Ocean Conservancy, World Animal Protection, Living Beyond Breast
+Cancer, the Society for the Improvement of the Conditions of Stray
+Animals, and The Nature Conservancy. They were then given a 30-cent
+bonus. Half of subjects were randomly assigned to the Charity Condition
+and were asked to divide this bonus any way they wished between
+themselves and the charity that they had selected as their top choice
+from the list of six. We also manipulated (between subjects) whether any
+money donated to the charity would be matched, multiplying it. The match
+levels ranged in integers from no match (donation is not increased) to
+1:9 match (multiplying the donation by 10).
+
+For example, a subject in the Charity Condition who selected the
+American Cancer Society as their favorite charity, and was assigned a
+1:3 match, saw the following text:
+
+In addition to the 30 cents that you will be paid for participating, we
+are giving you an additional 30 cents. You can choose to keep this 30
+cents for yourself, or to donate some or all of it to the American
+Cancer Society, the charity that you selected as your top choice. For
+every one cent that you give, we will give three cents, so that **The
+American Cancer Society receives quadruple what you give. **
+
+How much of the 30 cents would you like to donate to **The American
+Cancer Society**? (Total must sum to 30. Recall that for every one cent
+that you give, we will give three cents, **quadrupling the amount**.) 
+
+The other half of subjects were randomly assigned to the Savings
+Condition and were instead asked to divide the 30-cent bonus any way
+they wished between what they would receive with their study payment,
+and what they would receive in three months (save). We manipulated
+(between subjects) whether any money saved would be matched, multiplying
+it. The match levels ranged in integers from no match (donation is not
+increased) to 1:9 match (multiplying the donation by 10).
+
+For example, a subject in the Savings Condition who was assigned a 1:3
+match would see the following text:
+
+In addition to the 30 cents that you will be paid for participating, we
+are giving you an additional 30 cents. You can choose to either earn
+some or all of this 30 cents with your study payment, or **wait to
+receive some or all of it in three months**. For every one cent that you
+give, we will give three cents, so that **in three months you receive
+quadruple**.  
+
+How much of the 30 cents would you like **to receive in three months**?
+(Total must sum to 30. Recall that for every one cent that you give, we
+will give three cents, **quadrupling it**.)
+
+* *
+
+Subjects concluded the study by answering some standard demographic
+questions and providing open-ended feedback on the survey.
+
+**Results**
+
+We ran a regression that predicted amount saved or donated from the
+multiplier (from 1 to 10), whether participants donated or saved (coded
+0 = saved, 1 = donated), and the interaction (multiplier\*donated or
+saved). As predicted, there was a significant effect of the multiplier,
+Beta = 0.36, 95% CI \[0.21, 0.51\], *t*(301) = 4.65, *p* \< .001.[^2] We
+made no prediction about the amount donated versus saved, but report the
+coeffective here for completeness: Beta = 0.02, 95% CI \[-0.21, 0.25\],
+*t*(301) = 0.18, *p* = .855 (two-sided).
+
+As Figure 1 shows, the predicted interaction was significant, such that
+the multiplier predicts savings more strongly than it predicts
+donations, Beta = -0.31, 95% CI \[-0.56, -0.06\], *t*(301) = -2.40, *p*
+= .009.
+
+**Study 1b. Sensitivity to a multiplier when saving versus donating to a
+family in need**
+
+**Experimental design overview.** Study 1b contrasted sensitivity to
+multipliers for saving versus donating to a few identified individuals,
+whose total scope of finances is more comparable to an individual
+subject's finances than that of a charitable organization. Methods were
+identical to those in study 1a, except that subjects had the opportunity
+to donate to an individual family in need instead of a charitable
+organization, and we used only no match and a 1:1 match.
+
+**Subjects**. Subjects were 505 respondents on Amazon Mechanical Turk
+(mean age = 35.31, SD = 11.55, range from 18 to 75). Participation was
+limited to subjects from the United States and Canada. 57% were male,
+42% female, the remaining 1% marked "other/prefer not to say." 77% were
+White/Caucasian, 6% African American, 6% Hispanic, 10% Asian American,
+1% Native American. 99% had graduated at least from high school, and 55%
+had graduated at least from college. Two subjects did not answer all
+relevant questions needed for the analyses.
+
+**Procedure.** Subjects in this study began by reading a campaign from
+the crowdsourcing website GoFundMe.org. The campaign was for a family
+with a young child recently diagnosed with childhood leukemia. The text
+of the campaign was as follows:
+
+Our friends, Lisa and Derek Wolfe, are two of the finest people you will
+ever meet. Lisa is one of those mom\'s you can\'t help but be jealous
+of. She is more loving, nurturing, and giving than I could ever hope to
+be. Lisa is one of those people that puts everyone before herself. She
+is always taking care of others. It is our turn to take care of Lisa.\
+\
+Lisa and her little girl, Arlie, have this mesmorizing bond. In June
+2016, Arlie was diagnosed with Pre B ALL, a form of childhood leukemia.
+Lisa and Derek are living every parents worst nightmare. I know Arlie
+will beat this cancer and come out stronger than ever, but the Wolfe\'s
+have a long, hard road ahead. Let\'s ease their burden a bit so that
+medical bills are the last thing on their mind.\
+\
+You kick cancers butt, Lady A! We love you!
+
+Help spread the word!
+
+After reading about the campaign, subjects were given a 30-cent bonus.
+Half of subjects were randomly assigned to the Charity Condition and
+were asked to divide this bonus any way they wished between themselves
+and the charitable campaign that they had read about. We also
+manipulated (between subjects) whether any money donated to the campaign
+would be matched, multiplying it. The match levels were no match or 1:1
+match.
+
+A subject in the Charity Condition who was assigned no match saw the
+following text:
+
+In addition to the 30 cents that you will be paid for participating, we
+are giving you an additional 30 cents. You can choose to keep this 30
+cents for yourself, or to **donate some or all of it to the campaign you
+just read about**.
+
+How much of the 30 cents would you like to **donate to the campaign**?
+(Total must sum to 30.) 
+
+A subject in the Charity Condition who was assigned a 1:1 match saw the
+following text:
+
+In addition to the 30 cents that you will be paid for participating, we
+are giving you an additional 30 cents. You can choose to keep this 30
+cents for yourself, or to **donate some or all of it to the campaign you
+just read about**. For every one cent that you give, we will also give
+one cent, so that **this campaign receives double what you give**. 
+
+How much of the 30 cents would you like to **donate to the campaign**?
+(Total must sum to 30. Recall that for every one cent that you give, we
+will also give one cent, **doubling the amount**.) 
+
+The other half of subjects were randomly assigned to the Savings
+Condition and were instead asked to divide the 30-cent bonus anyway they
+wished between what they would receive soon after their study payment,
+and what they would receive in three months (save). We manipulated
+(between subjects) whether any money saved would be matched, multiplying
+it. The match levels were no match or 1:1 match.
+
+A subject in the Savings Condition who was assigned no match saw the
+following text:
+
+In addition to the 30 cents that you will be paid for participating, we
+are giving you an additional 30 cents. You can choose to either earn
+some or all of this 30 cents with your study payment, or **wait to
+receive some or all of it in three months**.
+
+How much of the 30 cents would you like to **receive in three months**?
+(Total must sum to 30.) 
+
+A subject in the Savings Condition who was assigned a 1:1 match saw the
+following text:
+
+In addition to the 30 cents that you will be paid for participating, we
+are giving you an additional 30 cents. You can choose to either earn
+some or all of this 30 cents with your study payment, or **wait to
+receive some or all of it in three months**. For every one cent that you
+give, we will also give one cent, so that **in three months you receive
+double.  **
+
+How much of the 30 cents would you like to **receive in three months**?
+(Total must sum to 30. Recall that for every one cent that you give, we
+will also give one cent, **doubling it**.) 
+
+Subjects concluded the study by answering some standard demographic
+questions and providing open-ended feedback on the survey.
+
+**Results**
+
+We ran a regression that predicted amount saved or donated from whether
+there was a multiplier (coded 0 = no multiplier, 1 = multiplier),
+whether participants donated or saved (coded 0 = saved, 1 = donated),
+and the interaction (multiplier\*donated or saved). As predicted, there
+was a significant effect of the multiplier, Beta = 0.44, 95% CI \[0.32,
+0.56\], *t*(501) = 7.38, *p* \< .001. We made no prediction about the
+amount donated versus saved, but report the coeffective here for
+completeness: Beta = 8.68, 95% CI for Beta \[0.22, 0.45\], *t*(501) =
+5.58, *p* \<.001 (two-sided).
+
+The predicted interaction was significant, such that the presence of a
+match predicts savings more strongly than it predicts donations, Beta =
+-0.36, 95% CI \[-0.51, -0.22\], *t*(501) = -4.95, *p* \< .001. The
+pattern of means was as follows: donations: *M* = 13.72, *SD* = 12.64
+for no match, *M* = 14.34, *SD* = 12.31 for 1:1 match; savings: *M* =
+5.04, *SD* = 10.27 for no match, *M* = 16.50, *SD* = 13.69 for 1:1
+match.
+
+**Study 2: Donors' willingness to pay to prevent suffering is sensitive
+to the scope of suffering when helping family members but not when
+helping strangers**
+
+**Experimental design overview.** Study 2 asked subjects what percentage
+of their income they would give up to prevent one or five people from
+going hungry for a year. These people were either members of their
+family or unknown children in their country (strangers).
+
+**Subjects**. Subjects were 606 respondents on Amazon Mechanical Turk
+(mean age = 36.00, SD = 11.99, range from 18 to 80). Participation was
+limited to subjects from the United States and Canada. 46% were male,
+54% female. 72% were White/Caucasian, 8% African American, 6% Hispanic,
+10% Asian American, 1% Native American, 2% marked "other," and 1% marked
+"prefer not to say." 99% had graduated at least from high school, and
+54% had graduated at least from college.
+
+**Procedure.** Subjects were asked to imagine that either one or five
+people would go hungry for a year (varied between subjects). These
+people were described as either unknown children in the United States
+(strangers), or members of their own family (also varied between
+subjects). The text for the four conditions is included below.
+
+Subjects asked to imagine one unknown child going hungry saw the
+following text:
+
+**Imagine that you learned that a child in the United States was going
+to go hungry for a year. Really imagine this child. Every day for a
+year, this child will be hungry. All year this child will never get
+enough to eat. **
+
+Subjects asked to imagine five unknown children going hungry saw the
+following text:
+
+**Imagine that you learned that five children in the United States were
+going to go hungry for a year. Really imagine these children. Every day
+for a year, these five children will be hungry. All year these children
+will never get enough to eat. **
+
+Subjects asked to imagine one family member going hungry saw the
+following text:
+
+**Imagine that you learned that a member of your family was going to go
+hungry for a year. Really imagine this family member. Every day for a
+year, this family member will be hungry. All year this family member
+will never get enough to eat. **
+
+Subjects asked to imagine five family members going hungry saw the
+following text:
+
+**Imagine that you learned that five members of your family were going
+to go hungry for a year. Really imagine these five family members. Every
+day for a year, these family members will be hungry. All year these
+family members will never get enough to eat. **
+
+Subjects were then asked how much of their income they would be willing
+to give up to prevent this from happening. The text for this question
+was as follows (participants answered using a slider bar that went from
+0 percent to 100 percent):
+
+What percentage of your income during that year would you be willing to
+give up to prevent this from happening (assuming that no one else could
+prevent it)?
+
+**Results**
+
+We ran a regression that predicted the percentage of their income that
+subjects reported being willing to pay from whether the hungry victims
+were strangers or family members (coded 0 = strangers, 1 = family
+members), whether there was one victim or five (0 = one victim, 1 =
+five), and the interaction (victim status \* number). As predicted,
+there was a significant effect of whether the victim was a stranger or a
+family member, Beta = 0.41, 95% CI \[0.32, 0.51\], *t*(604) = 8.54, *p*
+\< .001. We made no prediction about the overall effect of whether there
+was one versus five victims, but report the coeffective here for
+completeness: Beta = -0.01, 95% CI for Beta \[-0.11, 0.08\], *t*(604) =
+-0.29, *p* =.769 (two-sided).
+
+As Figure 2 shows, the predicted interaction was significant, such that
+subjects were not willing to donate more of their income to save five
+strangers from hunger than they were willing to donate to save one, but
+they were willing to donate more of their income to save five family
+members from hunger than they were willing to donate to save one, Beta =
+0.20, 95% CI \[0.08, 0.32\], *t*(604) = 3.36, *p* \< .001. The pattern
+of means was: strangers: *M* = 14.31, *SD* = 15.55 for one, *M* = 13.54,
+*SD* = 15.67 for five; family: *M* = 36.83, *SD* = 28.34 for one, *M* =
+48.55, *SD* = 28.79 for five.
+
+**Study 3: Reputational Rewards Are Sensitive to Giving but Insensitive
+to Giving with a Multiplier**
+
+**Experimental design overview.** Study 3 tested whether donors were
+rewarded more for donating to charity when it did more good (the
+donation was multiplied), and whether it cost participants to refrain
+from donating when their donation could have done more good (when the
+donation would have been multiplied). Donors were given a 30-cent bonus
+that they could either keep or donate to charity. Donations were
+assigned a match ranging from no match to 9:1.
+
+Subjects were paired with a donor and told the match rate for that donor
+and whether the donor had donated or kept their 30-cent bonus. Subjects
+then then had the opportunity to pay to reward the donor.
+
+**Study 3a. No match and 1:1 match**
+
+**Subjects**. Subjects were 221 respondents on Amazon Mechanical Turk
+(mean age = 35.85, SD = 11.27, range from 18 to 69). Participation was
+limited to subjects from the United States and Canada. 52% were male,
+48% female. 78% were White/Caucasian, 7% African American, 5% Hispanic,
+9% Asian American, and 1% Native American. 99% had graduated at least
+from high school, and 54% had graduated at least from college. One
+subject did not answer all relevant questions needed for the primary
+analyses. We also ran 30 donors to pair with subjects (we paired
+multiple subjects with a donor), so that the study could be fully
+incentivized.
+
+**Procedure.** Subjects selected their top choice charity from the same
+list used in Study 1a: The American Cancer Society, The Ocean
+Conservancy, World Animal Protection, Living Beyond Breast Cancer, the
+Society for the Improvement of the Conditions of Stray Animals, and The
+Nature Conservancy. Subjects then read about a donor who selected their
+top charity from the same list and had the choice to donate or keep all
+of a bonus. We manipulated (between subjects) whether we paired subjects
+with a donor who chose to donate or keep the bonus, and whether this
+donor was told that their bonus would be matched 1:1 if they donated
+(compared to no match being used or mentioned).
+
+A subject paired with a donor who chose to keep the bonus when donations
+would not be matched saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate a 30 cent bonus to the charity that they selected
+as their top choice. They had a choice between two options: donate the
+entire 30 cent bonus to their top charity, or keep the entire 30 cent
+bonus for themselves. **This other MTurk worker decided to keep the
+entire 30 cent bonus for themself.**
+
+ A subject paired with a donor who chose to donate the bonus when
+donations would not be matched saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate a 30 cent bonus to the charity that they selected
+as their top choice. They had a choice between two options: donate the
+entire 30 cent bonus to their top charity, or keep the entire 30 cent
+bonus for themselves. **This other MTurk worker decided to donate the
+entire 30 cent bonus to their top charity.**
+
+A subject paired with a donor who chose to keep the bonus when donations
+would be matched saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate a 30 cent bonus to the charity that they selected
+as their top choice. They had a choice between two options: donate the
+entire 30 cent bonus to their top charity, or keep the entire 30 cent
+bonus for themselves. **We informed this other Mturk Worker that if they
+donated, we would match their donation 1:1, doubling it,** so that their
+top charity received 60 cents. **This other MTurk worker decided to keep
+the entire 30 cent bonus for themself.**
+
+A subject paired with a donor who chose to donate the bonus when
+donations would be matched saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate a 30 cent bonus to the charity that they selected
+as their top choice. They had a choice between two options: donate the
+entire 30 cent bonus to their top charity, or keep the entire 30 cent
+bonus for themselves. **We informed this other Mturk Worker that if they
+donated, we would match their donation 1:1, doubling it,** so that their
+top charity received 60 cents. **This other MTurk worker decided to
+donate the entire 30 cent bonus to their top charity.**
+
+After reading about this donor's decision, subjects were given a bonus
+of 30 cents and had the opportunity to pay some or all of this bonus to
+reward the donor. To give subjects some incentive to reward, they were
+informed that every cent that they paid would be tripled, such that the
+donor received three cents. Participants indicated how many cents (up to
+30) they would like to pay to reward the donor. We also asked
+participants a series of questions about the donor's character (rated on
+7-point Likert scale): how generous, giving, good a person, ethical,
+moral, and deserving of praise the donor was, and how much the donor
+cares about helping others and cares about charitable causes.
+
+Subjects concluded the study by answering some standard demographic
+questions and giving open-ended feedback on the survey.
+
+**Results**
+
+We ran a regression that predicted the amount subjects paid to reward
+the donor from whether the donor donated (coded 0 = kept bonus, 1 =
+donated bonus), whether there was a multiplier (coded 0 = no multiplier,
+1= multiplier), and the interaction (donated\*multiplier). As predicted,
+there was a significant effect of whether the donor donated, Beta =
+0.38, 95% CI \[0.21, 0.55\], *t*(218) = 4.42, *p* \< .001. Also as
+expected, there was no significant effect of the multiplier, Beta =
+0.04, 95% CI \[-0.14, 0.22\], *t*(218) = 0.46, *p* = .645 (two-sided),
+and no significant interaction between whether subjects donated and
+whether there was a multiplier, Beta = -0.03, 95% CI \[-0.24, 0.19\],
+*t*(218) = -0.27, *p* = .788 (two-sided). The pattern of means for
+amount paid to reward (in cents) was: did not donate: *M* = 4.68, *SD* =
+8.75 for no match, *M* = 5.64, *SD* = 10.79 for 1:1 match; donated: *M*
+= 13.58, *SD* = 11.70 for no match, *M* = 13.76, *SD* = 12.24 for 1:1
+match.
+
+In addition, the eight character questions were standardized and
+averaged into an average character judgment index (alpha = .974). As
+predicted, there was a significant effect of whether the partner donated
+on subjects' judgments of the partner's character, Beta = 0.71, 95% CI
+\[0.59, 0.84\], *t*(218) = 11.12, *p* \< .001. Also as expected, there
+was no significant effect of the multiplier, Beta = -0.04, 95% CI
+\[-0.17, 0.09\], *t*(218) = -0.60, *p* = .551 (two-sided), and no
+significant interaction between whether subjects donated and whether
+there was a multiplier, Beta = 0.02, 95% CI \[-0.14, 0.18\], *t*(218) =
+0.22, *p* = .826 (two-sided). The pattern of means for standardized
+average character judgments was: did not donate: *M* = -0.65, *SD* =
+0.58 for no match; *M* = -0.72, *SD* = 0.71 for 1:1 match; donated: *M*
+= 0.67, *SD* = 0.58 for no match, *M* = 0.63, *SD* = 0.74 for 1:1 match.
+
+**Validating that subjects discriminate between the relevant donation
+amounts**
+
+To validate that participants could cognitively process the difference
+between the amount donated with and without a match in Study 3, we
+recruited a separate sample (*N* = 103) from Amazon Mechanical Turk and
+asked subjects how many days they would wait to receive a 60 cent bonus
+instead of a 30 cent bonus. These participants indicated that they would
+wait an average of 16.24 days for the doubled bonus (*SD* = 10.96),
+one-sample *t*-test *t*(101) = 16.24, *p* \< .001.
+
+**Study 3b. No match through 1:9**
+
+**Subjects**. Subjects were 545 respondents on Amazon Mechanical Turk
+(mean age = 34.58, SD = 10.84, range from 18 to 73). Participation was
+limited to subjects from the United States and Canada. 48% were male,
+50% female, 1% preferred not to indicate sex. 75% were White/Caucasian,
+8% African American, 7% Hispanic, 7% Asian American, and 1% Native
+American, 2% were another race/ethnicity or preferred not to indicate
+their race/ethnicity. 98% had graduated at least from high school, and
+56% had graduated at least from college. Three subjects did not answer
+all relevant questions needed for the primary analyses. We also ran 61
+donors to pair with subjects (we paired multiple subjects with a donor),
+so that the study could be fully incentivized.
+
+**Procedure.** The procedure was identical to that for study 3a, except
+that instead of using only two match levels donors were assigned a match
+ranging from none to 1:9.
+
+**Results**
+
+We ran a regression that predicted the amount subjects paid to reward
+the donor from whether the donor donated (coded 0 = kept bonus, 1 =
+donated bonus), the multiplier (from 1 to 10), and the interaction
+(donated\*multiplier). As predicted, there was a significant effect of
+whether the donor donated, Beta = 0.24, 95% CI \[0.06, 0.41\], *t*(538)
+= 2.67, *p* = .004 (see Figure 3). Also as expected, there was no
+significant effect of the multiplier, Beta = -0.05, 95% CI \[-0.17,
+0.06\], *t*(218) = -0.92, *p* = .358 (two-sided), and no significant
+interaction between whether subjects donated and whether there was a
+multiplier, regression Beta = 0.07, 95% CI \[-0.12, 0.26\], *t*(538) =
+-0.42, *p* = .868.
+
+In addition, the eight character questions were standardized and
+averaged into an average character judgment index (alpha = 975). As
+predicted, there was a significant effect of whether the partner donated
+on subjects' judgments of the partner's character, Beta = 0.60, 95% CI
+\[0.47, 0.73\], *t*(528) = 8.75, *p* \< .001. Also as expected, there
+was no significant effect of the multiplier, Beta = -0.08, 95% CI
+\[-0.17, 0.003\], *t*(528) = -1.87, *p* = .062 (two-sided), and no
+significant interaction between whether subjects donated and whether
+there was a multiplier, Beta = 0.09, 95% CI \[-0.06, 0.24\], *t*(528) =
+1.18, *p* = .239 (two-sided).
+
+**Study 4:** **Reputational Rewards Are Sensitive to Giving but
+Insensitive to Amount Given**
+
+**Experimental design overview.** Study 4 tested whether donors were
+rewarded more for donating to charity when they donated twice as much.
+Donors were given a bonus of either 10 cents or 20 cents that they could
+either keep or donate to charity. Subjects then had the opportunity to
+pay to reward donors who: donated a 10 cent bonus, did not donate a 10
+cent bonus, donated a 20 cent bonus, did not donate a 20 cent bonus.
+
+**Subjects**. Subjects were 422 respondents on Amazon Mechanical Turk
+(mean age = 35.50, SD = 11.82, range from 18 to 72). Participation was
+limited to subjects from the United States and Canada. 47% were male,
+53% female. 77% were White/Caucasian, 6% African American, 7% Hispanic,
+7% Asian American, 1% Native American, 2% marked "other." 98% had
+graduated at least from high school, and 50% had graduated at least from
+college. One subjects did not answer all relevant questions needed for
+the analyses. We also ran 114 donors to pair with subjects (we paired
+multiple subjects with each donor), so that the study could be fully
+incentivized.
+
+**Procedure.** Subjects selected their top choice charity from the same
+list used in Study 1: The American Cancer Society, The Ocean
+Conservancy, World Animal Protection, Living Beyond Breast Cancer, the
+Society for the Improvement of the Conditions of Stray Animals, and The
+Nature Conservancy. Subjects then read about a donor who selected their
+top charity from the same list and had the choice to donate or keep all
+of a bonus. We manipulated (between subjects) whether we paired subjects
+with a donor who chose to donate or keep the bonus, and whether this
+donor's bonus was 10 cents or 20 cents.
+
+A subject paired with a donor who chose to keep the bonus when the bonus
+was 10 cents saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate a 10 cent bonus to the charity that they selected
+as their top choice. They had a choice between two options: donate the
+entire 10 cent bonus to their top charity, or keep the entire 10 cent
+bonus for themselves. **This other MTurk worker decided to keep the
+entire 10 cent bonus for themself.**
+
+A subject paired with a donor who chose to donate the bonus when the
+bonus was 10 cents saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate a 10 cent bonus to the charity that they selected
+as their top choice. They had a choice between two options: donate the
+entire 10 cent bonus to their top charity, or keep the entire 10 cent
+bonus for themselves. **This other MTurk worker decided to donate the
+entire 10 cent bonus to their top charity.**
+
+A subject paired with a donor who chose to keep the bonus when the bonus
+was 20 cents saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate a 20 cent bonus to the charity that they selected
+as their top choice. They had a choice between two options: donate the
+entire 20 cent bonus to their top charity, or keep the entire 20 cent
+bonus for themselves. **This other MTurk worker decided to keep the
+entire 20 cent bonus for themselves.**
+
+A subject paired with a donor who chose to donate the bonus when the
+bonus was 20 cents saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate a 20 cent bonus to the charity that they selected
+as their top choice. They had a choice between two options: donate the
+entire 20 cent bonus to their top charity, or keep the entire 20 cent
+bonus for themselves. **This other MTurk worker decided to donate the
+entire 20 cent bonus to their top charity.**
+
+After reading about this donor's decision, subjects were given a bonus
+of 30 cents and had the opportunity to pay some or all of this bonus to
+reward the donor. To give subjects some incentive to reward, they were
+informed that every cent that they paid would be tripled, such that the
+donor received three cents. We also asked participants a series of
+questions about the donor's character (rated on 7-point Likert scale):
+how generous, giving, good a person, ethical, moral, and deserving of
+praise the donor was, and how much the donor cares about helping others
+and cares about charitable causes.
+
+**Results**
+
+We ran a regression that predicted the amount subjects paid to reward
+the donor from whether the donor donated (coded 0 = kept bonus, 1 =
+donated bonus), the size of the bonus (coded 0 = 10 cents, 1= 20 cents),
+and the interaction (donated\*bonus size). As predicted, there was a
+significant effect of whether the donor donated, Beta = 0.25, 95% CI
+\[0.12, 0.38\], *t*(419) = 3.70, *p* \< .001 (see Figure 4). Also as
+expected, there was no significant effect of bonus size, Beta = 0.07,
+95% CI \[-0.06, 0.20\], *t*(419) = 1.00, *p* = .322 (two-sided), and no
+significant interaction between whether the donor donated and whether
+there was a multiplier, Beta = 0.04, 95% CI \[-0.12, 0.20\], *t*(419) =
+0.51, *p* = .608 (two-sided). The patterns of means for the amounts paid
+to reward (in cents) was: did not donate: *M* = 5.38, *SD* = 9.18 for 10
+cents, *M* = 6.83, *SD* = 10.04 for 20 cents; donated: *M* = 10.84, *SD*
+= 11.18 for 10 cents, *M* = 13.35, *SD* = 11.93 for 20 cents.
+
+In addition, the eight character questions were standardized and
+averaged into an average character judgment index (alpha = .967). As
+predicted, there was a significant effect of whether the donor donated
+on subjects' judgments of the donor's character, Beta = 0.54, 95% CI
+\[0.43, 0.65\], *t*(419) = 9.72, *p* \< .001. Also as expected, there
+was no significant effect of bonus size, Beta = -0.01, 95% CI \[-0.12,
+0.10\], *t*(419) = -0.15, *p* = .881 (two-sided), and no significant
+interaction between whether subjects donated and the size of the bonus,
+Beta = 0.11, 95% CI \[-0.02, 0.24\], *t*(419) = 1.67, *p* = .095
+(two-sided). The pattern of means for average standardized character
+judgments was: did not donate: *M* = -0.53, *SD* = 0.73 for 10 cents,
+*M* = -0.55, *SD* = 0.76 for 20 cents; donated: *M* = 0.43, *SD* = 0.68
+for 10 cents, *M* = 0.65, *SD* = 0.70 for 20 cents.
+
+**Validating that subjects discriminate between the relevant donation
+amounts**
+
+To verify that participants could discriminate the difference between
+the donation amounts, we recruited a separate sample (*N* =103) from the
+same pool, and asked them (between subjects) how many days they would
+wait to receive a 10 cent bonus or a 20 cent bonus. These participants
+indicated that they would wait an average of 2.67 days longer for the 20
+cent bonus, *t*(199) = 1.79, *p* = .038.
+
+**Study 5:** **Reputational Rewards Are Sensitive to Giving but
+Insensitive to Percent Given**
+
+**Experimental design overview.** Study 5 tested whether donors were
+rewarded more for donating to charity when they donated a greater
+percent of their available funds. Donors were given a bonus of either 75
+cents or 90 cents that they could either keep or donate some portion of
+to charity. Subjects then then had the opportunity to pay to reward
+donors who: donated 60 cents out of a 75 cent bonus, did not donate any
+of a 75 cent bonus, donated 60 cents out of a 90 cent bonus, did not
+donate any of a 90 cent bonus.
+
+**Subjects**. Subjects were 401 respondents on Amazon Mechanical Turk
+(mean age = 35.53, SD = 11.73, range from 18 to 74). Participation was
+limited to subjects from the United States and Canada. 55% were male,
+44% female, and 1% marked other/prefer not to say. 70% were
+White/Caucasian, 8% African American, 7% Hispanic, 11% Asian American,
+1% Native American, 2% marked "other," and 1% marked "prefer not to
+say." 99% had graduated at least from high school, and 57% had graduated
+at least from college. One subject did not answer all relevant questions
+needed for the primary analyses. We also ran 81 donors to pair with
+subjects (we paired multiple subjects with each donor), so that the
+study could be fully incentivized.
+
+**Procedure.** Subjects selected their top choice charity from the same
+list used in Study 1: The American Cancer Society, The Ocean
+Conservancy, World Animal Protection, Living Beyond Breast Cancer, the
+Society for the Improvement of the Conditions of Stray Animals, and The
+Nature Conservancy. Subjects then read about a donor who selected their
+top charity from the same list and had the choice to donate or keep some
+or all of a bonus. We manipulated (between subjects) whether we paired
+subjects with a donor who chose to donate 60 cents or keep the entire
+bonus, and whether this donor's bonus was 75 cents or 90 cents.
+
+A subject paired with a donor who chose to keep the entire bonus when
+the bonus was 75 cents saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate some or all of a 75 cent bonus to the charity that
+they selected as their top choice. **This other MTurk worker decided to
+keep the entire 75 cent bonus for themself.**
+
+A subject paired with a donor who chose to donate 60 cents of the bonus
+when the bonus was 75 cents saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate some or all of a 75 cent bonus to the charity that
+they selected as their top choice. **This other MTurk worker decided to
+donate 60 cents from the 75 cent bonus.**
+
+A subject paired with a donor who chose to keep the entire bonus when
+the bonus was 90 cents saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate some or all of a 90 cent bonus to the charity that
+they selected as their top choice. **This other MTurk worker decided to
+keep the entire 90 cent bonus for themself.**
+
+A subject paired with a donor who chose to donate 60 cents of the bonus
+when the bonus was 90 cents saw the following text:
+
+For the next part of this study, we are pairing you with another MTurk
+worker who saw the same list of charities that you saw, and had the
+opportunity to donate some or all of a 90 cent bonus to the charity that
+they selected as their top choice. **This other MTurk worker decided to
+donate 60 cents from the 90 cent bonus.**
+
+After reading about this donor's decision, subjects were given a bonus
+of 30 cents and had the opportunity to pay some or all of this bonus to
+reward the donor. To give subjects some incentive to reward, they were
+informed that every cent that they paid would be tripled, such that the
+potential donor received three cents. We also asked participants a
+series of questions about the potential donor's character (rated on
+7-point Likert scale): how generous, giving, good a person, ethical,
+moral, and deserving of praise the potential donor was, and how much the
+potential donor cares about helping others and cares about charitable
+causes.
+
+**Results**
+
+We ran a regression that predicted the amount subjects paid to reward
+the donor from whether the donor donated (coded 0 = kept bonus, 1 =
+donated 60 cents of the bonus), the size of the bonus (coded 0 = 75
+cents, 1= 90 cents), and the interaction (donated\*bonus size). As
+predicted, there was a significant effect of whether the donor donated,
+Beta = 0.27, 95% CI \[0.14, 0.40\], *t*(398) = 4.05, *p* \< .001 (see
+Figure 4). Also as expected, there was no significant effect of bonus
+size, Beta = -0.06, 95% CI \[-0.20, 0.07\], *t*(398) = -0.95, *p* = .341
+(two-sided), and no significant interaction between whether the donor
+donated and the bonus size, Beta = 0.09, 95% CI \[-0.08, 0.25\],
+*t*(398) = 1.05, *p* = .294 (two-sided). The patterns of means for
+amounts paid to reward (in cents) was: did not donate: *M* = 4.77, *SD*
+= 9.91 for 75 cents, *M* = 3.41, *SD* = 8.59 for 90 cents; donated: *M*
+= 10.50, *SD* = 11.11 for 75 cents, *M* = 11.26, *SD* = 11.59 for 90
+cents.
+
+In addition, the eight character questions were standardized and
+averaged into an average character judgment index (alpha = .977). As
+predicted, there was a significant effect of whether donors donated on
+subjects' ratings of the donors' character, Beta = 0.74, 95% CI \[0.63,
+0.84\], *t*(398) = 14.32, *p* \< .001. Also as expected, there was no
+significant effect of bonus size, Beta = -0.01, 95% CI \[-0.11, 0.10\],
+*t*(398) = -0.11, *p* = .915 (two-sided), and no significant interaction
+between whether subjects donated and the size of the bonus, Beta =
+-0.10, 95% CI \[-0.21, 0.03\], *t*(398) = -1.43, *p* = .153 (two-sided).
+The pattern of means for average standardized character judgments was:
+did not donate: *M* = -0.63, *SD* = 0.76 for 75 cent bonus, *M* = -0.64,
+*SD* = 0.69 for 90 cent bonus; donated: *M* = 0.73, *SD* = 0.63 for 75
+cent bonus, *M* = 0.53, *SD* = 0.62 for 90 cent bonus.
+
+\[1\] Michael Buhrmester, Tracy Kwang, and Samuel D Gosling. Amazon's
+mechanical turk a new source of inexpensive, yet high-quality, data?
+Perspectives on psychological science, 6(1):3--5, 2011.
+
+ 
+
+\[2\] Ofra Amir, David G Rand, et al. Economic games on the internet:
+The e↵ect of 1 dollar stakes. PLos One, 7(2), 2012.  
+
+\[3\] John J Horton, David G Rand, and Richard J Zeckhauser. The online
+laboratory: Conducting experi- ments in a real labor market.
+Experimental Economics, 14(3):399--425, 2011.  
+
+\[4\] David G Rand. The promise of mechanical turk: How online labor
+markets can help theorists run behavioral experiments. Journal of
+theoretical biology, 299:172--179, 2012.  
+
+[^1]: Note that we always requested round numbers of participants from
+    Amazon Mechanical Turk (e.g., in this study we requested 300).
+    However, we often received a few more participants than we
+    requested, presumably because some participants completed our survey
+    (which they reached through a link from Amazon Mechanical Turk) but
+    did not enter the completion code into Amazon Mechanical Turk, and
+    therefore were not counted by that system.
+
+[^2]: Note that all *p*-values that derive from cases where we had a
+    directional prediction are reported as one-sided *p*-values.
+    *P*-values for cases where we had no directional prediction are
+    reported two-sided, as is indicated in parentheses.

@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Overview of Enhancing effective charitable giving and Innovations in Fundraising database resources (Airtable)</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Overview of <em>Enhancing effective charitable giving</em> and <em>Innovations in Fundraising</em> database resources (Airtable)</h1>
+</div>
+<p><em>Summary, David Reinstein, 2 Aug 2018</em></p>
+<h1 id="summary">Summary</h1>
+<p>This document explains the resources available on the &quot;Airtable&quot; database &quot;giving-researchers-shared&quot;, particularly those relevant to Innovations in Fundraising project and the &quot;Enhancing effective charitable giving&quot; projects. This database is by invitation only, but much of the content is currently automatically fed into the  DokuWiki site using the Airtable API and our &quot;fundingwiki&quot; package (documented <a href="http://fundingwiki.readthedocs.io/en/latest/index.html#features">HERE</a>).</p>
+<h1 id="airtable">Airtable</h1>
+<p><a href="https://airtable.com/">Airtable</a> is a collaborative web-based software with a variety of displays and organizational structures; it has many features of a relational database, and even more features if one engages their API. It is user-friendly, with a gui resembling a spreadsheet, and easy tutorials, instructions and examples. You can operate it from a browser or a web-driven app.</p>
+<p>(While we are using Airtable for now, we may switch to using more powerful database and content management tools in future.)</p>
+<h1 id="key-features-of-tables-in-airtables-quick-views">Key features of tables in Airtables (quick views)</h1>
+<p>Each Airtable user can have any number of <em>Bases</em>, and bases can be shared in work groups.</p>
+<p><img src="picsfigs/command-k-jump_to_base.png" alt="Command-K to jump to any other Base" /><br />
+Here, I outline the base &quot;giving-researchers-shared&quot;</p>
+<h1 id="tools-table">Tools table</h1>
+<p>There can be any number of tables in each Airtable Base.</p>
+<p>Here, the &quot;Tools&quot; table defines, discusses, and considers the evidence on a variety of methods that have been used and proposed to increase and improve charitable giving.</p>
+<p>The &quot;description&quot; field gives a plain language Description of this tool.</p>
+<p>Note that the first column field of every table is its identifier or &quot;primary key&quot; used to identify it in other tables; this should take unique values (but can be a variety of types). Here, the primary field is &quot;toolname&quot;.</p>
+<p>Note that some of these toolnames begin with &quot;c- &quot;; these are tools that we are considering including, but we are not fully convinced yet that the evidence is reasonably strong or the tool is well defined.</p>
+<p><img src="picsfigs/toolsbig.png" alt="Tools table, grid view" /><br />
+ ***</p>
+<p>There are a number of helpful shortcut keys you can use to get around an Airtable (click the question mark in the upper right corner to see these). Clicking command/control-j gives a list of all of the tables in the base. This base is used for a variety of purposes, thus it has many tables.</p>
+<p><br />
+<img src="picsfigs/command%20-J-see_all_tables_in_base.png" alt="Cmd-J see all tables in base" /><br />
+ ***</p>
+<p>Here, you see the tools table, sorted by the column &quot;evidence strength&quot;. We are aiming at a formal classification of the evidence strength for each tool, tied into a quantitative meta-analysis, Relying on examples from psychology, the medical literature, and the work of Eva Vivalt (AidGrade). However, for now, these measures of evidence strength are based on our own ad hoc judgments, considering the apparent internal and external validity/generalizability of the experiments and other evidence, the credibility of the techniques used, and whether the results have been replicated by other authors and with other approaches providing &quot;conversion validation&quot;..</p>
+<p><br />
+<img src="picsfigs/tools_sorted_by_ad_hoc_evidence_strength.png" alt="tools sorted by ad hoc evidence strength" /><br />
+</p>
+<hr />
+<p>Here we see the tools grouped by the field &quot;category&quot;; a functional classification which is further explained in the &quot;categories&quot; table.</p>
+<p><img src="picsfigs/tools_grouped_by_category.png" alt="tools grouped by category" /><br />
+</p>
+<hr />
+<p>One can create and move between a variety of &quot;views&quot; for each table (control/command-shift-K to quickly access the views). These can have types, including the grids we have already seen, forms for easy input of new rows, galleries to display visual content, and Kanban to organize tasks.</p>
+<p><img src="picsfigs/command_shift_k_forviews.png" alt="command shift k forviews" /><br />
+</p>
+<p>Here we see a &quot;form view&quot; to allow people to suggest a new tool, particularly users of the InnovationsinFundraising.org wiki. We can share a link to this form or embedded in a webpage. We will be notified when a new tool as suggested. It will be incorporated directly into the Airtable, and we can examine and adapt it before potentially including it on the wiki.</p>
+<p><img src="picsfigs/form_view.png" alt="form view" /><br />
+</p>
+<p>We can adjust the properties of each field (column), give it a description, or use it for sorting, filtering, etc., by clicking the tiny arrow on the upper right of that column.</p>
+<p><img src="picsfigs/column_options.png" alt="column options" /><br />
+</p>
+<p>Each field must have a particular type (which can be reassigned later). Most of these field types are just different formats for storing and displaying data/text (also, allowing for easier means of inputting with autofills/dropdowns, or different calculations in &quot;formula&quot; and &quot;count&quot; fields.)</p>
+<p>However, one kind of field, the &quot;Link to another record&quot;, is distinct and perhaps the most interesting. This field tells me that this row relates to a row in another table, identified by its primary key. Such a link allows you to display information from different fields of each table to the other table. A table may have multiple such &quot;Link&quot; fields, and each link field can Linked to multiple records in the other field (if you specify that option).</p>
+<p><img src="picsfigs/column_field_types.png" alt="column field types" /><br />
+</p>
+<p>These link fields display as boxes in a table (grid view).</p>
+<p><img src="picsfigs/click_box_link_field.png" alt="click box link field" /><br />
+</p>
+<p>Here we see that the &quot;category&quot; field in the tools table is actually a link to the &quot;Categories&quot; table. By clicking on that box (In the tool table) you can view and edit the entry in its own &quot;home&quot; table.</p>
+<p>You can by adding a <em>new</em> entry to a link field in a table, and that field will be added as a new row in its home table.</p>
+<p><img src="picsfigs/opens_entry_in_that_table.png" alt="opens entry in that table" /><br />
+</p>
+<p>Some more relevant fields in the tools table:</p>
+<ul>
+<li><p>&quot;Findings summarized&quot; gives the plain language description of what the evidence suggests about the impact of this tool (and where the evidence is limited).</p></li>
+<li><p>&quot;Relevance to EA charities&quot;: Is this tool especially relevant to more effective charities (&quot;effective&quot; in the sense endorsed by GiveWell and the EA movement), and if so, why?</p></li>
+</ul>
+<p><img src="picsfigs/summarizing_findings.png" alt="summarizing findings" /><br />
+</p>
+<p>Through our API/application (fundingwiki), we can easily push new entries and updates to the Tools table onto the related table on the Innovations in Fundraising wiki.</p>
+<p><img src="picsfigs/pushed_tool_table_iiff.png" alt="pushed_tool table iiff" /><br />
+</p>
+<p>This also pushes relevant material into the wiki page entry (on the same site) linked to the table on the wiki.</p>
+<p><img src="picsfigs/wiki_entry_1.png" alt="wiki entry 1" /><br />
+</p>
+<p>... screenshot continued</p>
+<p><img src="picsfigs/wiki_entry2.png" alt="wiki entry2" /><br />
+</p>
+<p>Note (above) that wiki entries also have links to the relevant academic papers' wiki entries, and the full texts of the papers.</p>
+<p>Most pages on the wiki also allow discussion (at the moment, not integrated with the Airtable), and we are informed of new comments.</p>
+<p></p>
+<h1 id="other-tables">Other tables</h1>
+<p>The tools table links to the &quot;papers_mass&quot; table in several fields, including &quot;key_papers&quot;; the papers providing the most relevant and strongest evidence for the tool, and &quot;secondary papers&quot;.</p>
+<p><img src="picsfigs/key_papers.png" alt="key papers" /><br />
+</p>
+<p>Again, clicking on this box both reveals the link to its home table, and allows you to view and edit this entry within its home table. Note the doi and bibtex citation format is included for this paper.</p>
+<p><img src="picsfigs/link_karlan.png" alt="link karlan" /><br />
+</p>
+<p>Here is the &quot;papers_mass&quot; table, the largest table in this base. We are working to include and flesh out entries the largest set of academic papers relevant to motivators and influencers of charitable giving decisions. We have particularly focused on Economics and Psychology, on <em>empirical</em> work directly involving or addressing <em>actual</em> charitable giving, and on published or well-cited papers. There is also a focus on studies considering variables that could be <em>adjusted</em> to influence giving patterns, and also on issues relating to giving effectiveness. However, none of these are exclusive restrictions.</p>
+<p><img src="picsfigs/papers_table.png" alt="papers table" /><br />
+</p>
+<p>The papers Airtable table is also automatically integrated with the wiki (both an overall &quot;papers&quot; table, and a large set of pages).</p>
+<p><img src="picsfigs/paper_in_wiki.png" alt="paper in wiki" /><br />
+</p>
+<p>We are working towards collecting a key set of variables from each empirical paper to use in meta-analyses, to feed into our overall evaluations, as well as yielding additional cross-study findings. (We are also tracking, and interested in collecting, archiving, and sharing the full datasets). This will be an involved and time-consuming process; Vivalt (2017; &quot;How much can we generalize from impact evaluations&quot;) describes a somewhat-comparable undertaking, which required a substantial organization and time commitment from AidGrade staff and volunteers.</p>
+<p><img src="picsfigs/collecting_metadata.png" alt="collecting metadata" /><br />
+</p>
+<p>The fundingwiki app automatically populates and updates information on the number of times each paper has been cited, using the Crossref database. Tool such as these will enable this to be a perrenial resource, rather than a frozen in time evaluation.</p>
+<p><img src="picsfigs/citations_auto_update.png" alt="citations auto update" /><br />
+</p>
+<p>The &quot;Categories&quot; table provides and explains a number of &quot;schema&quot; we use to characterize both the tools and the &quot;Barriers to effective giving&quot; (discussed later).</p>
+<p><img src="picsfigs/categories_table.png" alt="categories table" /><br />
+</p>
+<p>Our literature survey and synthesis work also engages and connects to previous relevant work, such as the Ideas42 &quot;Behavior and Charitable Giving&quot; report, which is outlined in the table below.</p>
+<p><img src="picsfigs/connect_ideas42.png" alt="connect ideas42" /><br />
+</p>
+<p>This Airtable contains a host of other tables relevant to the projects mentioned here, and related academic and impact collaborations.</p>
+<p><img src="picsfigs/othertables.png" alt="othertables" /><br />
+</p>
+<p>A different airtable base includes a table giving &quot;instructions&quot; for how the giving-researchers-shared Airtable should be integrated with the innovationsinfundraising.org wiki. This is accomplished through the continued coding and running of the fundingwiki app.</p>
+<p><img src="picsfigs/wiki_instructions_not_auto.png" alt="wiki_instructions not auto" /><br />
+</p>
+<p></p>
+<h1 id="increasing-effective-charitable-giving-a-review">Increasing effective charitable giving: a review</h1>
+<p>With a team of academic collaborators, we are working on a review paper highlighting the &quot;puzzle&quot; that while people donate a great deal to charity, they donate relatively little to charities that evidence suggests are the most effective ones.</p>
+<p>This paper draws from the the database and wiki, a each of these will be integrated with one another. The analysis and discussion in the survey paper will be mirrored on the wiki, providing a platform for discussion and continuous updating. Each element of the surveyed evidence will be provided as a database entry, cross-referencing relevant papers, theories, use-cases, and available raw data.</p>
+<p>The table &quot;EAlit_sections&quot; outlines the structure of the paper, already providing links to information that will be integrated.</p>
+<p><img src="picsfigs/organizing_ealitpaper.png" alt="organizing ealitpaper" /><br />
+</p>
+<p>This table also links directly to the papers_mass table, organizing the papers we are referencing and reviewing in each section.</p>
+<p><img src="picsfigs/organizing_EAlit_papers.png" alt="organizing EAlit papers" /><br />
+</p>
+<p>The separate &quot;Barriers to EAG&quot; table... This organizes and assembles the discussion and evidence on potential factors and categories of factors that may explain the limited amount of &quot;effective giving&quot;. This represents the largest part of our review paper; we focus on clear definitions of the most relevant psychological (and &quot;behavioral economic&quot;) biases, and carefully asses the available evidence. We focus specifically on evidence in the charitable domain, but we also consider the broader evidence for these biases in other contexts.</p>
+<p><img src="picsfigs/barriers_to_EAG.png" alt="barriers to EAG" /><br />
+</p>
+<p>For each barrier or bias, we consider why it is may Be particularly relevant to <em>effective</em> giving.</p>
+<p><img src="picsfigs/barriers_to_EAG_whyrelevant.png" alt="barriers to EAG whyrelevant" /><br />
+</p>
+<p>We further propose and discuss tools addressing these barriers and promoting effective charitable giving.</p>
+<p><img src="picsfigs/tools_remedies.png" alt="tools remedies" /><br />
+</p>
+<p>We also use the &quot;Kanban&quot; view for some Airtable tables to manage our tasks.</p>
+<p><img src="picsfigs/kanban_ea_Lit.png" alt="kanban_ea Lit" /><br />
+</p>
+<p>Our preliminary paper outline</p>
+<p><img src="picsfigs/paper_outline_1.png" alt="paper outline 1" /><br />
+</p>
+<p>Our preliminary paper outline ...continued</p>
+<p><img src="picsfigs/paper_outline_2.png" alt="paper_outline_2" /><br />
+</p>
+<p>Our work is informed by other survey papers and scoping exercises. However, there is very little published work in this area .</p>
+<p><img src="picsfigs/prev_surveys.png" alt="prev_surveys" /><br />
+</p>
+<p>For each &quot;barrier to effective giving&quot; we have a template for writing up this concept and explaining, characterizing, and evaluating the evidence. These broader &quot;reports&quot; may be later incorporated into our database. However, we will need to substantially reduce and consolidate this for our review paper itself.</p>
+<p><img src="picsfigs/barrier_template.png" alt="barrier_template" /><br />
+</p>
+<p>Here is one writeup (in progress) on the proposed barrier &quot;Cost-benefit analysis aversion&quot;. For this barrier, we ultimately decided that, while this is clearly important and ties to a variety of evidence, the category is somewhat too broad, and we will treat it under different headings</p>
+<p><img src="picsfigs/writeup1.png" alt="writeup1" /><br />
+</p>
+<p><img src="picsfigs/writeup_2.png" alt="writeup_2" /><br />
+</p>
+<hr />
+<p></p>
+<h1 id="aidgrade-offers-a-partial-model">AidGrade offers a partial model</h1>
+</body>
+</html>

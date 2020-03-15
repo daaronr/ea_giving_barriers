@@ -1,0 +1,353 @@
+%Overview of *Enhancing effective charitable giving* and *Innovations in Fundraising* database resources (Airtable)
+*Summary, David Reinstein, 2 Aug 2018*
+
+---
+geometry: margin=0.7in
+---
+
+
+#Summary
+
+This document explains the resources available on the "Airtable" database "giving-researchers-shared", particularly those relevant to Innovations in Fundraising project and the "Enhancing effective charitable giving" projects. This database is by invitation only, but much of the content is currently automatically fed into the \url{innovationsinfundraising.org} DokuWiki site using the Airtable API and our "fundingwiki" package (documented [HERE](http://fundingwiki.readthedocs.io/en/latest/index.html#features)).
+
+#Airtable
+
+[Airtable](https://airtable.com/) is a collaborative web-based software with a variety of displays and organizational structures; it has many features of a relational database, and even more features if one engages their API. It is user-friendly, with a gui resembling a spreadsheet, and easy tutorials,  instructions and examples. You can operate it from a browser or a web-driven app.
+
+(While we are using Airtable for now, we may switch to using more powerful database and content management tools in future.)
+
+#Key features of tables in Airtables (quick views)
+
+Each Airtable user can have any number of *Bases*,  and bases can be shared in work groups.
+
+![Command-K to jump to any other Base](picsfigs/command-k-jump_to_base.png)
+
+\clearpage
+
+
+Here, I outline the base "giving-researchers-shared"
+
+
+#Tools table
+
+There can be  any number of tables in each Airtable Base.
+
+Here, the "Tools" table  defines, discusses, and considers the evidence on a variety of methods that have been used and proposed to increase and improve charitable giving.
+
+The "description" field gives a plain language Description of this tool.
+
+Note that the first column field of every table is its identifier or "primary key" used to identify it in other tables; this should take unique values (but can be a variety of types). Here, the primary field is "toolname".
+
+Note that some of these toolnames begin with "c- "; these are tools that we are considering including, but we are not fully convinced yet that the evidence is reasonably strong or the tool is well defined.
+
+![Tools table, grid view](picsfigs/toolsbig.png)
+
+\clearpage
+
+
+
+There are a number of helpful shortcut keys you can use to get around an Airtable (click the question mark in the upper right corner to see these). Clicking command/control-j gives a list of all of the tables in the base. This base is used for a variety of purposes, thus it has many tables.
+
+
+![Cmd-J see all tables in base](picsfigs/command -J-see_all_tables_in_base.png)
+
+\clearpage
+
+
+
+Here, you see the tools table, sorted by the column "evidence strength". We are aiming at a formal classification of the evidence strength for each tool, tied into a quantitative meta-analysis, relying on examples from psychology, the medical literature, and the work of Eva Vivalt (AidGrade). We will consider both the *size* of estimated effects (strength of the effects) and the strength of the evidence base; the confidence we can have in these results. However, for now, these measures of evidence strength are based on our own ad hoc judgments, considering the apparent internal and external validity/generalizability of the experiments and other evidence, the credibility of the techniques used, and whether the results have been replicated by other authors and with other approaches providing "converging validation".
+
+
+
+![tools sorted by ad hoc evidence strength](picsfigs/tools_sorted_by_ad_hoc_evidence_strength.png)
+
+\clearpage
+
+
+
+
+
+Here we see the tools grouped by the field "category"; a functional classification  which is further explained in the "categories" table.
+
+![tools grouped by category](picsfigs/tools_grouped_by_category.png)
+
+\clearpage
+
+
+
+
+One can create and move between a variety of "views" for each table (control/command-shift-K to quickly access the views). These can have types, including the grids we have already seen, forms for easy input of new rows, galleries to display visual content, and Kanban to organize tasks.
+
+![command shift k for views](picsfigs/command_shift_k_forviews.png)
+
+\clearpage
+
+
+Here we see a "form view" to allow people to suggest a new tool, particularly users of the InnovationsinFundraising.org wiki. We can share a link to this form or embedded in a webpage. We will be notified when a new tool as suggested. It will be incorporated directly into the Airtable, and we can examine and adapt it before potentially including it on the  wiki.
+
+![form view](picsfigs/form_view.png)
+
+\clearpage
+
+
+We can adjust the properties of each field (column), give it a description, or use it for sorting, filtering, etc., by clicking the tiny arrow on the upper right of that column.
+
+![column options](picsfigs/column_options.png)
+
+\clearpage
+
+
+Each field must have a particular type (which can be reassigned later). Most of these field types are just different formats for storing and displaying data/text (also, allowing for easier means of inputting with autofills/dropdowns, or different calculations in "formula" and "count" fields.)
+
+However, one kind of field, the "Link to another record", is distinct and perhaps the most interesting. This field tells me that this row relates to a row in another table, identified by its primary key.  Such a  link allows you to display information from different fields of each table to the other table. A table may have multiple such "Link" fields, and each link field can Linked to multiple records in the other field (if you specify that option).
+
+![column field types](picsfigs/column_field_types.png)
+
+\clearpage
+
+
+These link fields display as boxes in a table (grid view).
+
+![click box link field](picsfigs/click_box_link_field.png)
+
+
+Here we see that the "category" field in the tools table is actually a link to the "Categories" table. By clicking on that box (in the tool table) you can view and edit the entry in its own "home" table.
+
+You can by adding a *new* entry to a link field in a table, and that field will be added as a new row in its home table.
+
+![opens entry in that table](picsfigs/opens_entry_in_that_table.png)
+
+\clearpage
+
+
+Some more relevant fields in the tools table:
+
+- "Findings summarized" gives the plain language description of what the evidence suggests about the impact of this tool (and where the evidence is limited).
+
+- "Relevance to EA charities": Is this tool especially relevant to more effective charities ("effective" in the sense endorsed by GiveWell and the EA movement), and if so, why?
+
+![summarizing findings](picsfigs/summarizing_findings.png)
+
+\clearpage
+
+
+Through our API/application (fundingwiki), we can easily push new entries and updates to the Tools table onto the related table on the Innovations in Fundraising wiki.
+
+![pushed_tool table iiff](picsfigs/pushed_tool_table_iiff.png)
+
+\clearpage
+
+
+This also pushes relevant material into the wiki page entry (on the same site) linked to the table on the wiki.
+
+![wiki entry 1](picsfigs/wiki_entry_1.png)
+
+![wiki entry2](picsfigs/wiki_entry2.png)
+
+
+Note (above) that wiki entries also have links to the relevant academic papers' wiki entries, and the full texts of the papers.
+
+Most pages on the wiki also allow discussion (at the moment, not integrated with the Airtable), and we are informed of new comments.
+
+\clearpage
+
+#Other tables
+
+The tools table links to the "papers_mass" table in several fields, including "key_papers"; the papers providing the most relevant and strongest evidence for the tool, and "secondary papers".
+
+![key papers](picsfigs/key_papers.png)
+
+\clearpage
+
+Again, clicking on this box both reveals the link to its home table, and allows you to view and edit this entry within its home table. Note the doi and bibtex citation format is included for this paper.
+
+\includegraphics[height=3in]{picsfigs/link_karlan.png}
+
+\clearpage
+
+
+Here is the "papers_mass" table, the largest table in this base. We are working to include and flesh out entries the largest set of academic papers relevant to motivators and influencers of charitable giving decisions. We have particularly focused on Economics and Psychology, on *empirical* work directly involving or addressing *actual* charitable giving, and on published or well-cited papers. There is also a focus on studies considering variables that could be *adjusted* to influence giving patterns, and also on issues relating to giving effectiveness. However, none of these are exclusive restrictions.
+
+![papers table](picsfigs/papers_table.png)
+
+\clearpage
+
+
+The papers Airtable table is also automatically integrated with the wiki (both an overall "papers" table, and a large set of pages).
+
+![paper in wiki](picsfigs/paper_in_wiki.png)
+
+\clearpage
+
+
+We are working towards collecting a key set of variables from each empirical paper to use in meta-analyses, to feed into our overall evaluations, as well as yielding additional cross-study findings. (We are also tracking, and interested in collecting, archiving, and sharing the full datasets). This will be an involved and time-consuming process; Vivalt (2017; "How much can we generalize from impact evaluations") describes a somewhat-comparable undertaking, which required a substantial organization and time commitment from AidGrade staff and volunteers.
+
+![collecting metadata](picsfigs/collecting_metadata.png)
+
+
+The fundingwiki app automatically populates and updates information on the number of times each paper has been cited, using the Crossref database. Tool such as these will enable this to be a perrenial resource, rather than a frozen-in-time evaluation.
+
+![citations auto update](picsfigs/citations_auto_update.png)
+
+\clearpage
+
+
+The "Categories" table provides and explains a number of "schema" we use to characterize both the tools and the "Barriers to effective giving" (discussed later).
+
+![categories table](picsfigs/categories_table.png)
+
+\clearpage
+
+
+Our literature survey and synthesis work also engages and connects to previous relevant work, such as the Ideas42 "Behavior and Charitable Giving" report, which is outlined in the  table below.
+
+![connect ideas42](picsfigs/connect_ideas42.png)
+
+\clearpage
+
+
+This Airtable contains a host of other tables relevant to the projects mentioned here, and related academic and impact collaborations.
+
+![othertables](picsfigs/othertables.png)
+
+\clearpage
+
+
+A different airtable base includes a table giving "instructions" for how the giving-researchers-shared Airtable should be integrated with the innovationsinfundraising.org wiki. This is accomplished through the continued coding and running of the fundingwiki app.
+
+![wiki_instructions not auto](picsfigs/wiki_instructions_not_auto.png)
+
+\clearpage
+
+
+#Increasing effective charitable giving: a review
+
+With a team of academic collaborators, we are working on a review paper highlighting the "puzzle" that while people donate a great deal to charity, they donate relatively little to charities that evidence suggests are the most effective ones.
+
+This paper draws from the database and wiki, and each of these will be integrated with one another. The analysis and discussion in the survey paper will be mirrored on the wiki, providing a platform for discussion and continuous updating. Each element of the surveyed evidence will be provided as a database entry, cross-referencing relevant papers, theories, use-cases, and available raw data.
+
+The table "EAlit_sections" outlines the structure of the paper, already providing links to information that will be integrated.
+
+![organizing ealitpaper](picsfigs/organizing_ealitpaper.png)
+
+\clearpage
+
+
+This table also links directly to the papers_mass table, organizing the papers we are referencing and reviewing in each section.
+
+![organizing EAlit papers](picsfigs/organizing_EAlit_papers.png)
+
+\clearpage
+
+
+The separate "Barriers to EAG" table is below.
+
+This organizes and assembles the discussion and evidence on potential factors and categories of factors that may explain the limited amount of "effective giving". This represents the largest part of our review paper; we focus on clear definitions of the most relevant psychological (and "behavioral economic") biases, and carefully asses the available evidence. We focus specifically on evidence in the charitable domain, but we also consider the broader evidence for these biases in other contexts.
+
+![barriers to EAG](picsfigs/barriers_to_EAG.png)
+
+\clearpage
+
+
+For each barrier or bias, we consider why it is may be particularly relevant to *effective* giving.
+
+![barriers to EAG, why relevant](picsfigs/barriers_to_EAG_whyrelevant.png)
+
+\clearpage
+
+
+We further propose and discuss tools addressing these barriers and promoting effective charitable giving.
+
+![tools remedies](picsfigs/tools_remedies.png)
+
+\clearpage
+
+
+We also use the "Kanban" view for some Airtable tables to manage our tasks.
+
+![kanban_ea Lit](picsfigs/kanban_ea_Lit.png)
+
+\clearpage
+
+
+A glimpse of our preliminary paper outline
+
+![paper outline 1](picsfigs/paper_outline_1.png)
+
+![paper_outline_2](picsfigs/paper_outline_2.png)
+
+\clearpage
+
+
+Our work is informed by other survey papers and scoping exercises. However, there is very little published work in this area.
+
+![previous surveys](picsfigs/prev_surveys.png)
+
+\clearpage
+
+
+
+For each "barrier to effective giving" we have a template for writing up this concept and explaining, characterizing, and evaluating the evidence. These broader "reports" may be later incorporated into our database. However, we will need to substantially reduce and consolidate this for our review paper itself.
+
+![barrier template](picsfigs/barrier_template.png)
+
+\clearpage
+
+
+Here is one writeup (in progress) on the proposed barrier "Cost-benefit analysis aversion". For this barrier, we ultimately decided that, while this is clearly important and ties to a variety of evidence, the category is somewhat too broad, and we will treat it under different headings
+
+![writeup1](picsfigs/writeup1.png)
+
+\clearpage
+
+
+![writeup_2](picsfigs/writeup_2.png)
+
+\clearpage
+
+#AidGrade offers a partial model for the evaluation and dissemination process
+
+\includegraphics[height=3in]{picsfigs/aidgrade_build_your_own.png}
+
+
+\includegraphics[height=3in]{picsfigs/AidGrade 2018-08-02 at 13.25.13.png}
+
+\includegraphics[height=3in]{picsfigs/AidGrade 2018-08-02 at 13.25.34.png}
+
+\includegraphics[height=3in]{picsfigs/AidGrade 2018-08-02 at 13.26.05.png}
+
+\includegraphics[height=3in]{picsfigs/AidGrade 2018-08-02 at 13.26.31.png}
+
+\includegraphics[height=3in]{picsfigs/AidGrade 2018-08-02 at 13.27.04.png}
+
+
+# Notes on potential integration with PriorityWiki/Rethink Charity
+
+How have EA orgs been brought together ...e sp at unis
+
+- Effective thesis project
+- EA hub -- add a button here?
+- Facebook group
+
+## Conversation with David Janku, Effective thesis project
+
+DR Ideas:
+
+- Effective thesis can link to innovationsinfundraising.org and some of the resources and 'tools' --> projects
+
+Considering how the website works. As a student who opens it and tries to explore it. It was not very clear.
+
+Re-position it more as 'here are some open and interesting questions'
+
+I suggested a list/recognition of coaches... some sort of register of who/where is interested in supervising 'EA PHd's
+
+I will get back to him on who/how to reach out to universities
+
+He advises me to get in touch with people in the EA community focused on charitable giving
+
+Feedback on Effective Thesis project at EA Global
+
+He will connect me with the academic session people at EA Global
+
+Planning to set up a specific page on Effective Thesis website ... dedicated to building research skills; best online courses on methods, writing, etc
+

@@ -1,0 +1,192 @@
+%Notating Slides from Geoffrey Miller: The Psychology of Effective Altruism Cognitive and emotional barriers to reducing sentient suffering and existential risk
+
+Geoffrey Miller Psychology Dept Colloquium University of New Mexico, March 9, 2018 Effective Altruism (EA): A new social movement to do good, better Principles:
+
+***
+
+Utilitarianism: increase utility for sentient beings – people, animals, future beings
+
+Rationality: Use reason, evidence, & open debate to find effective, scalable interventions
+
+Cause prioritization: focus on problems that are global, tractable, and neglected
+Effective Altruism as a movement Founded in 2011 by Oxford moral philosophers Will MacAskill & Toby Ord, + Peter Singer Fast growth among bright young rationalists: Oxford, London, Berlin, Bay Area, NYC, Sydney Skeptical of traditional charities, causes, activism, policies, virtue-signaling
+Open, transparent, rational, self-critical, evidence-based; strong public outreach
+Updates ‘cause priorities’ often, given evidence
+Prefer fast, informal communication with peers: blogs, tech reports, forums, conferences, & informal discussions (journals too slow)
+Strategic about ‘movement building’ – optimize growth rate, recruitment strategies, PR strategies
+
+A new(ish) research direction for me
+15 publications since 1994 on moral virtues, evolution of altruism, research ethics
+Got involved in EA in 2015; esp. 2016 sabbatical
+10 talks since then on EA topics: SF, SD, NY, Puerto Rico, Chile, England, Australia
+New paper in Biological Theory on existential risks of SETI/METI
+Visiting this summer at FHI Oxford and/or MIRI Berkeley
+New course this term: Psych 450/650:              “The Psychology of Effective Altruism”
+
+#Main EA causes (currently)
+Reduce global poverty
+
+Reduce neglected tropical diseases
+
+Reduce animal suffering
+
+Reduce global existential risks
+
+#EA initiatives:
+New Academic Centers
+Many are hiring now and offer research grants and great collaborators
+
+EA initiatives:
+Non-profits, foundations, etc.
+EA impacts so far
+Charity evaluation from ‘minimize overheads’ to ‘measure cost-effectiveness with RCTs’
+Increased scope-sensitivity of smart donors
+‘The Giving Pledge’ raised over \$350bn from donors such as Bill Gates, Mark Zuckerberg, & Elon Musk
+Shifted animal welfare activism strategies (work with industry rather than virtue-signaling)
+Introduced new concepts like ‘earning to give’, ‘moral offsetting’, ‘cosmic endowment’
+Giving EA career advice to many bright young people
+Raised awareness of AI X-risks among researchers (Asilomar Principles, OpenAI), and leaders like Elon Musk, Sam Harris, Bill Gates, Max Tegmark, Sir Martin Rees, & Steven Hawking
+
+#Problems: 10 cognitive and emotional challenges in EA
+
+
+Solution:
+Psychology?
+
+
+#EA challenges 1:
+Selfish genes vs. the expanding circle
+
+Kin selection  family
+Reciprocal altruism  friends
+Sexual selection  mates
+Group selection  tribe
+
+Humans show parochialism: favor domestic charities over global charities than may be 100x more cost-effective
+
+
+#EA challenges 2:
+Descriptive vs. normative morality
+
+Descriptive: what we actually do, given human nature (moral psychology)
+
+Normative: what we should do ideally (moral philosophy)
+
+Prescriptive: what we should try to do, practically (moral activism), given our traits, resources, circumstances, knowledge society’s laws, norms, technology, etc.
+
+- DR: I don't understand this question/challenge
+
+EA challenges 3: Scope-insensitivity in utilitarian judgments
+Normative utilitarian analysis:
+Total impact = multiply:
+Scope: number of beings affected, current and future
+Suffering: how much each being’s suffering could be reduced or well-being improved
+Duration: how long each being would suffer without intervention
+
+EA challenges 4:
+Availability bias in utilitarian judgments
+Rifle homicides in US: 300/year, ~50 QALYs lost per death = 15k total QALYs lost
+Malaria deaths worldwide: 450k/year, ~70 QALYs lost per death = 32 million QALYs lost
+Malaria is about 2,000x more deadly than U.S. rifle homicides
+Plus, malaria disability rates are higher; bed nets are cheap and work; no political controversy or constitutional law issues
+
+EA challenges 5: Moral emotions don’t track utilitarian outcomes
+Moral self-consciousness: shame, guilt, pride, embarrassment
+Moral condemnation: contempt, anger, disgust, outrage
+Other-suffering: empathy, sympathy, compassion
+Other-praising: gratitude, awe
+
+None evolved to track expected global long-term sentient utility
+
+EA challenges 6: Moral instincts make utilitarianism counter-intuitive and repulsive
+People
+use empathy towards identified lives rather than compassion about statistical lives (Paul Bloom, 2016)
+are disgusted by people who use utilitarian reasoning in moral dilemmas (Graham et al., 2017)
+see utilitarians as sociopaths, and as unreliable exchange partners, friends, and mates (Everett et al., 2017)
+
+EA challenges 7:
+instinctive moral judgment don’t update very well
+
+People:
+show confirmation bias about their moral world-views (Plous, 1993)
+show status quo bias, esp. in bioethics (‘wisdom of repugnance’ vs. the ‘reversal test’) (Kahneman et al., 1991)
+can’t handle ‘moral uncertainty’ about moral principles (MacAskill, 2014)
+are bad at Bayesian updating, counter-factual reasoning, and ‘steelmanning’ arguments
+
+EA challenges 8:
+Virtue-signaling
+Social & sexual selection favored virtue-signaling in humans (Miller, 2007)
+Costly signaling logic: cost imposed on signaler (‘sacrifice’) was a more reliable cue of personality traits than benefit delivered to receiver
+Virtue-signaling dominates charity giving, green consumerism, ethical investment, & social activism (Miller, 1999, 2009, 2013)
+
+EA challenges 9:
+Theory of Mind fails for non-humans
+People
+show poorly-calibrated judgments of sentience across species – pigs vs. chickens vs. fish vs. oysters (chicken psych: Marino, 2017)
+show arbitrary ‘speciesism’ in loving their pets, but ignoring the well-being of food animals (Caviola et al., 2018)
+Animal sentience
+Animal nervous systems evolve to track threats (fear, pain, suffering) and opportunities (desire, pleasure, well-being)
+Sentience (the ability to feel & suffer) is common across species
+Human evolved to fear some predators, hunt some game animals, care for some domesticated animals, and ignore the sentience of most animals
+
+Animal welfare: The stakes
+Human population: 7.6 billion
+
+About 50 billion land animals per year raised & killed for food (mostly chickens)
+
+About 1 trillion fish per year killed
+EA approaches
+to animal welfare
+Important: factory farming, especially chickens, pigs, & fish
+Less important: free range cows, animal shelters, lab experiments
+Unknown importance: wild animal suffering?
+
+Need more research on sentience and intervention effectiveness
+
+EA challenges 9b:
+Theory of Mind fails for AI
+People
+anthropomorphize AI systems, so can’t judge how AIs will work or whether their values will be ‘aligned’ with ours
+equate intelligence with embodiment, so can’t take AI risks seriously unless they’re in ‘killer robot’ bodies
+can’t imagine a Superintelligence far beyond our abilities – project its likely personality traits, morals, and goals from human geniuses
+EA challenges 10: Scope-insensitivity about long-term stakes
+
+No prehistoric selection to distinguish tribal from planetary disasters
+Hard to appreciate the cosmic stakes in existential risk (X-risk) problems (Bostrom, 2013; Yudkowsky, 2008)
+Spatial scale: the colonizable supercluster (100,000 galaxies across 520m light-years)
+Temporal scale: the aestivatable future light-cone (>20 billion years)
+Computational scale: if we convert most baryonic mass in the light-cone into ‘computronium’ (Amato, 1991), how much sentience can we get?
+
+Catastrophic vs. existential risks
+Global catastrophic risks (GCRs): billions could die, but the species would survive
+global warming, natural pandemics
+Existential risks (X-risk): everybody could die; the species wouldn’t recover
+Very low probability: asteroid strike, supervolcano
+Much higher probability: nuclear war, engineered pandemics, AGI
+extinction by bad AI wouldn’t just kill 7 billion current humans, but could prevent well over 1035 future sentient lives from coming into being
+
+
+Astronomical Stakes
+Every year we delay colonizing Mars, we increase the chance of human extinction (Elon Musk)
+
+Every second we delay colonizing the supercluster, we lose 1029 potential future human-level sentient beings (Bostrom, 2003)
+EA approaches to X-risk
+Human-caused X-risks are thousands of times more likely per year than natural X-risks
+AI, nuclear war, & engineered bioweapons are much more serious X-risks than global warming
+AI is especially worrying, since it will be smarter than us, sooner or later
+Current political systems neglect X-risks that the voters, policy wonks, and politicians don’t understand
+Worries about AI X-risk
+Fast recent progress in machine learning
+Huge corporate investment (Deepmind, Google, Facebook OpenAI, Microsoft, Apple)
+Geopolitical arms races (China, US, Russia)
+AIs will help run military, police, finance, energy, transport, medicine, food, education, news, social media, politics
+‘Intelligence explosion’ from sub-human AI to human-level AGI to superintelligence
+‘Value alignment problem’: can we ensure AIs have stable, human-friendly values & ethics?
+Conclusions about EA
+Worth attention: fast-growing, ambitious, empirical, full of bright young people
+Mostly moral philosophers & computer scientists; psychology can improve EA’s effectiveness in understanding people, animals, and AI systems
+Offers psychology more scalable, scope-sensitive ways to improve human welfare (vs. individual therapy)
+Has a lot of money but needs more talent; offers a new source of research funding & new career paths
+Questions?
+
+

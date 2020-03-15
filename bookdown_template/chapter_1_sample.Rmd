@@ -1,0 +1,194 @@
+# About this work {-}
+
+```{block2,  type='note'}
+Click [HERE](#why-and-how) to jump to first chapter (actual content).
+```
+
+`r format_with_col("**Note to friends I've asked to look at this book...**","brown")`
+
+`r format_with_col("Thanks for looking at this.", "brown")`
+
+## Preface {#preface}
+
+
+**Leaving feedback, asking questions, seeking other's feedback/notes/questions:**
+
+*All feedback is appreciated, and I will try to respond to your questions.* An easy way to take notes and leave feedback: sign up for ['hypothes.is'](https://web.hypothes.is/) and you can put your 'public notes' *directly on this web book.* Don't worry, these comments are saved even if the web book is updated.
+
+<!--
+(As noted at <https://www.econometrics-with-r.org/>; thanks for this example:)
+-->
+
+<div class = rmdreview>
+This book is in <b>Open Review</b>. We want your feedback to make the book better for you and other students. You may annotate some text by <span style="background-color: #3297FD; color: white">selecting it with the cursor</span> and then click the <i class="h-icon-annotate"></i> on the pop-up menu. You can also see the annotations of others: click the <i class="h-icon-chevron-left"></i> in the upper right hand corner of the page <i class="fa fa-arrow-circle-right  fa-rotate-315" aria-hidden="true"></i>
+</div>
+
+If you have benefitted from this work (and you are not one of my students), please consider giving me some sort of ''kudos'' on Twitter or wherever. One way to materially express gratitude: make a donation in my honor to an *effective and international charity*, such as those listed at [givewell.org](givewell.org). If you make this donation and share it on a social media site with the hashtag #DRWritingEcon, that would be greatly appreciated.
+
+### Licence {-}
+
+Essentially:
+
+- You can use this freely and create other versions as long as you give proper attribution, and you make your work publicly available
+
+- You cannot sell this or use it, or any part of it, for commercial purposes
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Researching and writing in Economics (Essays, term paper, dissertations for Economics undergraduates and MSc students)</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/daaronr/writing_econ_research" property="cc:attributionName" rel="cc:attributionURL">David Reinstein</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+## Examples of the sort of fancy interactive stuff I hope to incorporate in this web book
+
+Thanks to Yihui and many others, this book should permit lots of flexible tools. Trying some of these below (with code shown, but it could also be hidden). Thanks Yihui for the [Bookdown package](https://bookdown.org/yihui/bookdown/).
+
+### Questions with folded answers, folded expanded discussions
+
+Can I ask you a question? (Answer below the fold.)
+
+```{block2,  type='fold'}
+
+Yes: I just did.
+
+```
+
+
+\
+
+I can also put expansive detail into the fold, to avoid clutter. If you want to know more about spittlebugs, feel free (to open the fold below).
+
+
+```{block2,  type='fold'}
+
+> These families are best known for the nymphal stage, which produces a cover of foamed-up plant sap visually resembling saliva; the nymphs are therefore commonly known as spittlebugs and their foam as cuckoo spit, frog spit, or snake spit. This characteristic spittle production is associated with the unusual trait of xylem feeding. Whereas most insects that feed on sap feed on the nutrient-rich fluid from the phloem, Cercopidae utilize the much more dilute sap flowing upward from the roots via the xylem. The large amount of excess water that must be excreted and the evolution of special breathing tubes allow the young spittlebug nymphs to grown in the relatively protective environment of the spittle.
+
+Indirect source: [wikipedia: Froghopper, accessed 21 Feb 2020](https://en.wikipedia.org/wiki/Froghopper)
+
+```
+
+### A Shiny app {-#shiny_test}
+
+```{r knitrapp}
+
+knitr::include_app("https://yihui.shinyapps.io/miniUI/",
+  height = "600px")
+
+```
+
+### My web pages {-}
+
+[innovationsinfundraising.org](https://innovationsinfundraising.org/doku.php)
+
+(This page couldn't embed)
+
+***
+
+```{r wppage}
+
+knitr::include_url("https://davidreinstein.wordpress.com/")
+
+```
+
+***
+
+### Scary math {-}
+
+$$\Theta = \begin{pmatrix}\alpha & \beta\\
+\gamma & \delta
+\end{pmatrix}$$
+
+### R code and data {-}
+
+These are "code chunks"
+
+```{r chunk-label, echo = FALSE, fig.cap = 'A figure caption.'}
+x <- 1 + 1
+rnorm(10)  # 10 random numbers
+plot(dist ~ speed, cars)  # a scatterplot
+```
+
+And I can refer to the results of the r code in the text itself, e.g., by writing
+
+````
+``  one plus one equals  ` r x `   ``
+````
+
+I get ... one plus one equals `r x`.
+
+### Other fancy stuff {-}
+
+
+```{r, eval = my_output == "html", results='asis', echo=F, purl=F}
+cat('
+<div class = "keyconcept" id="KC5.4">
+<h3 class = "right"> Key Concept 5.4 </h3>
+<h3 class = "left"> Heteroskedasticity and Homoskedasticity </h3>
+- The error term of our regression model is homoskedastic if the variance of the conditional distribution of $u_i$ given $X_i$, $Var(u_i|X_i=x)$, is constant *for all* observations in our sample:
+\\[ \\text{Var}(u_i|X_i=x) = \\sigma^2 \\ \\forall \\ i=1,\\dots,n. \\]
+
+</div>
+')
+```
+
+"Note"
+
+```{block2,  type='note'}
+
+"Aside" notes look like this.
+
+```
+
+```{block2,  type='warning'}
+
+Warnings look like this.
+
+```
+
+### Notes for instructors and course organisers {-}
+
+Note: related pptx slides (covering Ch 1-3, adapted to Exeter) are downloadable:
+
+
+<button onclick="window.open('Lecture1_intro_andyourtopic_exeter.pptx')">Download</button>
+
+### A margin note
+
+
+<div class="marginnote">
+If you are considering pursuing an MSc or PhD this will typically be centered on doing research; it's worth knowing whether this is for you before diving in. Doing research is also a key component of much professional work in the private and public (government) sectors, including at 'think tanks', some government agencies, and many private consulting and 'data analytics' firms.
+</div>
+
+
+## We link back here in the next chapter -- check it out {#link_back}
+
+
+Jump to [next chapter](#chapter_2)
+
+
+### A fun acronym
+
+**Six simple rules for writing a good paper** (and, incidentally, for getting a good mark)
+
+1. Frame your topic as an interesting, well-defined **Economic** question. Demonstrate that you understand your question.
+
+2. Explain what others have written about your topic and which techniques they used. **[Critically](#crit_examine) discuss** the strengths and limitations these. Explain how these relate to and inform your own work. Cite correctly and do not plagiarise.
+
+3. **Apply economics** (and econometrics) to your question. Demonstrate an understanding of your approach and techniques.
+
+4. **Organise and present** your work clearly, including an outline and labels and explanations of any tables, graphs, and equations.
+
+5. Write clearly, logically, and in a professional **academic** style.
+
+6. If you are aiming to produce a great paper, make an original contribution or **insight.** (This can be a small insight, and it is not always necessary for a top mark.)
+
+***
+
+```{r  fig.cap = 'Just remember...', out.width='40%', fig.asp=.4, fig.align='center',  echo = FALSE}
+
+knitr::include_graphics("images/ecacoacin4life.jpg")
+
+```
+
+Just remember the simple acronym "ECAOAcIn":^[(Isn’t that catchy?)]
+
+**E**conomic question -- **C**ritical discussion -- **A**pply economics --  **O**rganise/present well -- **Ac**ademic writing -- original **In**sight
+

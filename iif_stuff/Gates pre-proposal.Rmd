@@ -1,0 +1,237 @@
+-   *Summary and proposal for collaboration with Ideas42 and the Gates
+    > foundation, draft composed by David Reinstein; survey paper is
+    > with Nick Fitz, Ari Kagan, Robin Bergh, and Jason Nemirow*
+
+**[Purpose and proposed outputs]{.underline}:** Our research,
+communication, and impact program aims to provide practical methods to
+increase the level and impact of *informed and intentional generosity*.
+We are building a database of evidence on *what works*, with a
+particular focus on impact-driven donation behavior. We will assess,
+evaluate, and present this in several ways, including an interactive
+database, [[a collaborative]{.underline}
+[wiki]{.underline}](http://innovationsinfundraising.org), and a
+meta-analysis survey paper. Each of these will be carefully linked and
+integrated. For example, the analysis and discussion in the survey paper
+will be mirrored in the structure of the wiki, providing a platform for
+discussion and updating. Each element of the surveyed evidence will be
+provided as a database entry, cross-referencing relevant papers,
+theories, use-cases, and available raw data. This *living resource* will
+be able to quickly compile and disseminate the best available evidence
+to users. The meta-analysis will be presented in the database and wiki,
+as well as in a web app (e.g., R Shiny Rstudio). This will permit users
+to consider alternate assumptions and methodological criteria, and to
+focus on particular domains as relevant to their own practice. We aim to
+engage a diverse user-base, including fundraisers, charities, academics,
+and donors/philanthropists. Thus we will offer multiple formats (while
+avoiding confusing overlap), allowing users to choose their preferred
+level of technicality and detail.
+
+*Partial and preliminary work can be found on the* [[Innovations in
+Fundraising
+wiki]{.underline}](http://innovationsinfundraising.org/doku.php?id=iifwiki:evidence_tools);
+further work is compiled in a database format (Airtable).
+
+1.  Key questions
+    -------------
+
+    1.  *Targeting and basic approach*
+
+-   Who gives to effective charities, and can we predict who is likely
+    > to be convinced to do so? How can we best target and persuade the
+    > general population as well as high-ńet-worth individuals?
+
+-   Is it productive to ask people to *shift* their giving towards more
+    > impactful charities? If so, when and how is this effective?
+    > Underlying this: are charities in competition and do people "rob
+    > Peter to pay Paul?"
+
+*Psychology*
+
+-   Individual barriers to moving toward more effective giving may
+    > include cognitive dissonance avoidance, cost-benefit aversion, and
+    > opportunity-cost neglect; as well as common factual misconceptions
+    > about international charities. Will de-biasing and correcting
+    > misconceptions lead to more effective giving?
+
+-   How can we present effectiveness information in a way that *works*,
+    > without dampening emotional motivations to give? Can we avoid
+    > self-interested "motivated reasoning" responses to this?
+
+-   How can we reduce the *empathic distance* to international
+    > recipients and make those geographically-distant feel local?
+
+-   How can we best apply standard emotional and behavioral approaches
+    > (evidence-based fundraising tools like \"gift exchange\") to
+    > *effective* charities. In applying these tools, what superpowers
+    > and weaknesses do the most effective charities have?
+
+-   How can we incorporate psychological and social *rewards for donors*
+    > without overly sacrificing efficiency? What is the tradeoff
+    > between promoting the purest, best-evidenced charities (e.g.,
+    > GiveWell\'s list) and increasing the overall donation amounts?
+
+```{=html}
+<!-- -->
+```
+-   
+
+*Policy*
+
+-   \- Will the tools that boost effective giving also increase support
+    > for foreign aid and pro-poor policies?
+
+-   \- What is the interaction between private giving, the level of
+    > public funding for effective causes, and support for government
+    > policies, and how can we boost the *net* public and private
+    > impact?
+
+-   1.  A program for future work and evaluating previous work
+        ------------------------------------------------------
+
+```{=html}
+<!-- -->
+```
+-   [Build platforms]{.underline} to observe relevant giving behavior
+    > and run experiments to understand the impact of approaches across
+    > several contexts.
+
+-   [Open Science Framework]{.underline}: Maintain research integrity,
+    > collaboration and data-sharing, enabling re-analysis and
+    > meta-analysis.
+
+-   [Robust and validated evidence]{.underline}: This includes
+    > pre-registration and pre-analysis plans, experimentation and
+    > independent replication across a range of relevant environment and
+    > frames.
+
+-   [Present research for *users* in an effective way, using modern
+    > information systems]{.underline}. Avoid "old-school" academic
+    > journal presentation formats and "frozen PDFs" in favor of living,
+    > continually-validated and re-assessed content. Open access in a
+    > web framework.
+
+-   [Collaboration]{.underline} with and among relevant
+    > charities/fundraisers (e.g., International Fundraising Leadership
+    > Forum)
+
+-   Use wiki and other collaboration tools to organize open
+    > communication and sharing
+
+    -   of research results and insights, data, and methods,
+
+    -   of informal (non-academic, non-systematic) trials and
+        > experiences, and
+
+```{=html}
+<!-- -->
+```
+-   of critical insider knowledge and intuition.
+
+User stories: Who will use this and how?
+========================================
+
+1.  [Effective charities, their fundraisers, and groups of these
+    > organizations]{.underline} (e.g., the
+    > [[IFCL]{.underline}](http://www.fundraisers.fr/sites/default/files/4/IFL-Forum-presentation-at-IFC-2014_0.pdf))
+    > will use this directly to increase their support-base, their
+    > appeal, and their income. Evidence will be presented in
+    > interactive and accessible ways, including more and less technical
+    > presentations, allowing users to select a tailored analysis. We
+    > will provide personal support to qualified effective charities.
+
+2.  [Government policymakers]{.underline}: in enabling and enhancing
+    > effective private giving, and providing public programs that are
+    > compatible with this.
+
+```{=html}
+<!-- -->
+```
+3.  [Foundations]{.underline}: in targeting and communicating
+    > interventions, considering interactions and feedback on the wider
+    > society of givers
+
+4.  [Advocates and activists]{.underline} for globally sympathetic and
+    > pro-poor policies; as research is likely to unlock both factors
+    > that encourage effective giving and factors that drive
+    > cross-cultural sympathy, empathy, and action
+
+5.  [Academic, professional, and applied researchers]{.underline}
+    > interested in this area (both \"effective charitable giving\"
+    > directly, and as an input into understanding human behavior). *Our
+    > project will encourage and foster future work by\...*
+
+    -   providing an accessible "evidence baseline": a shared database
+        > of raw and meta-data,
+
+    -   providing collaborative tools and platforms to facilitate
+        > further analysis (e.g., working with e-commerce and social
+        > fundraising sites to establish a continuous opportunity to
+        > test charitable messaging in a stable context),
+
+    -   building an interactive, global community of researchers and
+        > practitioners, and
+
+    -   providing a pathway to disseminate results to users and measure
+        > a clear practical impact, and
+
+    -   building tools and a framework to enable to a clear and
+        > efficient process for evaluating and funding to evaluate and
+        > disperse grants to fund promising research, following the
+        > principles of open science.
+
+The existing team and resources
+===============================
+
+**Principal investigator:** Dr. David Reinstein, Dept. of Economics,
+University of Exeter
+
+**Co-authors**
+
+Dr. Nick Fitz (Psychology), Center for Advanced Hindsight, Duke
+University
+
+Ari Kagan, Center for Advanced Hindsight, Duke University
+
+**Support, guidance, and consultation (past, current, and promised)
+from:**
+
+-   Dr. Paul Smeets (Sustainable Finance, University of Maastricht)
+
+-   Dr. Lucius Caviola, Dept. of Psychology, University of Oxford
+
+-   Dr. Robin Bergh, Sidanius lab, Harvard
+
+-   Dr. Mark Kelson, Statistics and Data Science, University of Exeter
+
+-   Dr. Ekaterina (Katja) Abramova (Cognitive Science, web developer)
+
+-   Omar Parbhoo, Ideas42 and BHub
+
+-   The Charity Science Foundation
+
+-   Giving for Impact (Contact: Vera Scholermich)
+
+-   The Life You Can Save/Giving Games (Contact: Jon Behar)
+
+-   The Centre for Effective Altruism (Oxford; Contact: George Howlett)
+
+-   Eva Vivalt (Australian National University, founder of
+    > [[AidGrade]{.underline}](http://www.aidgrade.org/about))
+
+-   
+
+Seeking support from: BITSS for meta-analysis projects (David Reinstein
+is a
+[[Catalyst]{.underline}](https://www.bitss.org/people/david-reinstein/)),
+and to work with X-Econ.org, the Open Science Framework, Harvard\'s
+Dataverse, and Scientific Data for data sharing projects
+
+Other potential funding sources: [[Open
+Philanthropy]{.underline}](https://www.openphilanthropy.org/giving/guide-for-grant-seekers),
+Leverhulme Academy
+
+Discussion: combining and weighing information from different domains, with different approaches, etc.
+------------------------------------------------------------------------------------------------------
+
+*Discussion moved to IIF page
+[[HERE]{.underline}](http://innovationsinfundraising.org/doku.php?id=tools:meta-analysis_approach)*

@@ -1,0 +1,88 @@
+%Enhancing effective giving: a research, collaboration, and information sharing project; summary for Gates foundation
+
+Reinstein; with Caviola, Fitz, Kagan
+
+Our research program aims to provide practical methods to increasing the level and impact of *effective, impactful* private giving. We are building a database of evidence on "what works", with a particular focus on the questions below. We will assess, evaluate, and present this information in several ways, including an interactive database, a wiki, and a meta-analysis and survey paper. Each of these will be carefully linked and integrated. For example, the analysis and discussion in the survey paper will be mirrored on the wiki, providing a platform for discussion and continuous updating. Each element of the surveyed evidence will be provided as a database entry, cross-referencing relevant papers, theories, use-cases, and available raw data. The meta-analysis will be presented in the database and Wiki, as well as in an web app (e.g., R Shiny Rstudio), to permit users to consider alternate statistical assumptions and focus on separate domains, as relevant to their own use-case. All of this will be provided in multiple formats (without confusing overlap), allowing users to choose a more technical, or a more descriptive presentation.
+
+Some early work on this can be found at <http://innovationsinfundraising.org/doku.php?id=iifwiki:evidence_tools> and on the linked Airtable; further work is stored in a database format.
+
+##Key practical questions
+
+- Who is giving to effective charities, and can we predict who is likely to be convinced to do so?
+
+- (When/how) is asking people to *re-target* their giving towards more effective charities going to be effective?  Is 'substitution'/competition an issue?
+
+(Overcoming important practical and psychological barriers...)
+
+- How to presenting effectiveness information in an effective way, without switching-off emotional motivations to give?
+
+- Will de-biasing lead to effective giving? How can we avoid self-interested motivated reasoning?
+
+- How can we reduce the empathic distance to international recipients and make the geographically-distant feel local?
+
+- How can we best apply standard emotional and behavioral approaches (fundraising tools like 'gift exchange')  to *effective* charities; what are the particular strengths and limitations of these charities in applying these?
+
+- How can we incorporate psychological and social rewards for *donors* without overly sacrificing mission efficiency? What is the tradeoff between promoting the purest, best-evidenced charities (e.g., GiveWell's list) and increasing the overall donation amounts?
+
+- How to best target High-Net-Worth individuals to give effectively; does this require distinct approaches?
+
+##Policy issues:
+
+- Will these same tools help motivate support for foreign aid and other pro-poor policies? What is the interaction between private giving and (support for) government policies, and how can we boost the *net* effect?
+
+##A program and key principles for future research
+
+- Building platforms to observe relevant giving behavior, and systematic experimentation to observe impact of approaches in many contexts
+
+- Open science framework: Research integrity, collaboration and data-sharing, enabling re-analysis and meta-analysis
+
+- Robust and validated evidence: Pre-registration and pre-analysis plans, experimentation and independent replication across a range of relevant environment and frames
+
+- Present research for *users* in an effective way, using modern information systems. Not mainly for "old-school" academic journals; living, continually-validated and re-assesed research rather than frozen pdf's. Open access in a web framework.
+
+- Collaboration with and across relevant charities and fundraisers (e.g., the International Fundraising Leadership Forum)
+
+- Organized open communication and sharing informal trials via wiki tools
+
+
+#Why will this be helpful and who will use it and how?
+
+1. Effective charities, fundraisers for these charities, and groups of these organizations will use this directly. As noted above, the results will be presented in interactive accessible ways, including more and less technical presentations, and allowing users to select a tailored analysis.
+
+- We will aim to provide personal support and communication to qualified effective charities.
+
+2.  Researchers interested in this area (both "effective charitable giving" directly, and as an input into understanding human behavior).
+
+Our project will encourage and foster future work...
+
+- Providing an accessible 'evidence baseline', a shared database of raw and meta-data, and collaborative tools to facilitate further analysis
+
+- Building an interactive community,
+
+- providing ways to disseminate results to users and see a clear practical impact.
+
+- Further on, we aim to build a low-overhead, straightforward application process and  network to evaluate and disperse grants to fund promising research; all funded projects will be required to follow the principles of open, robust, and collaborative research alluded to above
+
+3. Government policymakers: in enabling and enhancing effective private giving, and providing public programs that are compatible with this
+
+4. Foundations (Gates, etc), in targeting and communicating interventions, considering interactions and feedback on the wider society of givers.
+
+5. Advocates and activists for globally sympathetic and pro-poor policies; this research is likely to unlock both factors that encourage effective giving, and factors that drive cross-cultural sympathy, empathy, and action
+
+#The existing team and resources
+
+David Reinstein, University of Exeter, Economics
+
+Ari Kagan, Center for Advanced Hindsight
+
+Nick Fitz, Center for Advanced Hindsight
+
+Lucius Caviola, University of Oxford, Psychology
+
+Support from Paul Smeets (Sustainable Finance, Maastricht)
+
+Leveraging prior work of Charity Science
+
+Seeking support from the BITSS for meta-analysis projects, and from X-Econ.org for data sharing
+
+Early-stage associated funding from the ESRC and the support from the CEA

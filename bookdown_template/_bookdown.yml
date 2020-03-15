@@ -1,0 +1,6 @@
+book_filename: "template_project"
+delete_merged_file: true
+output_dir: "docs"
+rmd_files:
+  html: ["index.Rmd", "chapter_1_sample.Rmd", "chapter_2_sample.Rmd"]
+  #html: ["index.Rmd", "paper/introduction.Rmd", "paper/snippets.Rmd"]

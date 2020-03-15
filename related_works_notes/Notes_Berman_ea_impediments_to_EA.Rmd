@@ -1,0 +1,220 @@
+%Notes on Impediments to Effective Altruism: The Role of Subjective Preferences in Charitable Giving by Jonathan Z. Berman1, Alixandra Barasch2, Emma E. Levine3, and Deborah A. Small
+
+Notes by David Reinstein 2 May 2018
+
+
+(p1)
+
+- From Abstract; note that they are referring to *hypothetical* choices only
+
+> we investigated the extent to which presenting effectiveness information leads people to choose more effective charities. We found that even when effectiveness information is made easily comparable across options, it has a limited impact on choice. Specifically, people frequently choose less effective charity options when those options represent more subjectively preferred causes. In contrast to making a personal donation decision, outcome metrics are used to a much greater extent when choosing financial investments and when allocating aid resources as an agent of an organization
+
+
+-imprecise. they give *depictions* of this in such experiments, they don't *actually* donate in this way
+
+> People tend to donate more to single identifiable victims than to large groups of victims
+
+-wiki check... overhead
+
+>  overweight overhead expenses relative to outcomes achieved (Baron & Szymanska, 2011; Caviola, Faulm-ller, Everett, Savulescu, & Kahane, 2014; Gneezy, Keenan, & Gneezy, 2014
+
+-how robust is this?
+> Whereas those findings persist in between-subjects designs (i.e., separate evaluation), when outcome metrics are made directly comparable (i.e., joint evaluation; Hsee, 1996), individuals dramatically increase their selection of the welfare-maximizing option (e.g., Caviola et- al., 2014)
+
+(p2)
+
+-a strong claim:
+
+> Thus, people appear to be -"distorted altruists”— they care about welfare maximization, but without clear information to make comparisons, they rely on their feelings to guide choice (Loewenstein & Small, 2007; Slovic, 2007)
+
+> limitation of existing studies is that participants typically evaluate donation options from a single underlying cause, such as choosing between saving one child or eight children suffering from the same disease (e.g., Kogut & Ritov, 2005b). In the real world, individuals must choose among charities that support various types of causes, such as choosing between saving children from illness or reducing hunger. Yet we know little about how people use effectiveness information when causes differ
+
+-the novelty here
+
+> The present research investigated how individuals make donation decisions when effectiveness information is provided across multiple different causes, making it easy for people to maximize welfare if they desire to do so.
+
+-the underlying theory. is it internally consistent?
+>  Our results suggest that individuals view charity as a relatively subjective decision (cf.  Goodwin & Darley, 2008; Spiller & Belogolova, 2017), one in which people often feel justified to discount welfare-maximization concerns in order to choose in accordance with their personal preferences
+
+-confusing. views on others choices or my own?
+> accordance with their personal preferences.  If people view charity solely in terms of welfare maximization, then the idiosyncratic preferences of decision makers should be irrelevant to their choice, and people will strive to choose the option that does the most good. However, if people view charity as a relatively subjective decision, then the personal preferences of decision makers will be considered valid inputs to choice, in spite of their consequences for welfare maximization
+
+-this is more concise
+> consequences for welfare maximization. In other words, believing that charity is a subjective decision licenses individuals to donate in personally gratifying ways at the cost of maximizing welfare
+
+-relevant. suggests solutions?
+> The final two studies found that individuals are less likely to license themselves (Study 4) and others (Study 5) to select an ineffective option when a decision maker assumes a position of responsibility
+
+[Study 1]
+
+> piece of art, and a medical treatment). Specifically, they evaluated the extent to which they agreed with the following statements: -It is important that the I choose reflects my personal tastes or values,- “It is more important to rely on objective measures rather than personal feelings when choosing ,- and “Objective measures are the best way to choose .
+
+-within subject variation. order effects?
+> from a northeastern university-s behavioral lab pool. Participants were asked to evaluate how they believe they should make decisions across six decision domains (choosing a charity, an investment, a cell phone, a restaurant, a piece of art, and a medical treatment
+
+
+-m is mean response. ttests for differences. d is normalised effects magnitude?
+
+> M = 4.85, SD = 1.02) compared with choosing a cell phone (M = 3.88, SD = 1.03), t(125) = 9.03, p < .001, d = 0.81, 95% confidence interval (CI) = [0.56, 1.05]; an investment (M = 3.74, SD = 0.64), t(125) = 10.57, p < .001, d = 0.97, 95% CI = [0.64, 1.30]; or a medical treatment (M = 3.42, SD = 0.54), t(125) = 13.34
+> Page 3 what about individual heterogeneity? who has the reverse response?  Table 1 displays the results broken down by each item
+
+(p3)
+> The following studies examined whether judgments and choice conform to these metapreferences
+
+> We preregistered the design, sample size, and analysis plan for this study on AsPredicted.org (http://aspre dicted.org/pe8j2.pdf). We aimed to recruit 400 participants from Mechanical
+
+-third party donor, effectiveness scenario
+>  Participants read a scenario involving Mary, who was looking to donate money to one of two hypothetical charities.  One charity, Hunger Care in Africa, was described as providing micronutrients for children in Africa, and for each $100 donated, this charity could feed five children for a month. A second charity, Jump Start Your Community, was described as training and educating the homeless in Mary-s community, and for every $100 donated, this charity could provide 2 hr of job training to one homeless person
+
+-emotional connection conditions, between subject
+> two emotional-connection conditions. In the local-causes condition, participants read that Mary feels an emotional connection toward helping people in local communities, whereas in the distant-causes condition, participants read that Mary feels an emotional connection toward helping those in third-world countries
+
+>  then presented participants with two different questions on separate pages in random order. One question assessed where they felt Mary should donate (-Which charity should Mary donate to?”), whereas the other question asked which charity was the most effective at maximizing social welfare
+
+(p4)
+-good!
+> allowed us to test our hypotheses either by evaluating the first question posed to participants in a between-subjects analysis or by evaluating both questions asked to participants in a within-subjects analysis
+
+-what's eta?
+> , -2 = .02. When
+
+> When participants read that Mary felt an emotional connection with distant charities, they responded that she should donate to Hunger Care in Africa (M = 5.26, SD = 2.05) and also evaluated it as being more effective (M = 5.59, SD = 1.87), t(197) = -1.19, p = .24, d = −0.17, 95% CI = [−0.44, 0.11]. However, when Mary felt connected to local communities, they indicated that she should donate to Jump Start Your Community (M = 3.00, SD = 1.99), despite indicating that Hunger Care in Africa was more effective (M = 4.55, SD = 2.32), t(202) = -5.12, p < .001, d = −0.72, 95% CI = [-1.00, −0.43]. Figure 1 displays these results
+
+-unmentioned: Mary's connection affects participants effectiveness response!
+> Fig. 1. Results from Study 2: mean rating of the questions -Which charity should Mary donate to?- and “Which option does the greatest good for the greatest number of people?
+
+> randomly assigned to imagine that he or she decided either to donate $250 to a charity
+
+> Study 3: Charity Versus Investment Choice
+
+(p5)
+> (charity condition) or to invest $250 in a stock (investment condition) through a website recommended by a friend
+
+> The website is renowned for being extremely accurate in evaluating which charities [stocks] are the most effective and do the most good for each dollar donated [provide the best return on each dollar invested]. The website provides a 0 to 100 rating: the higher the number, the better the rating. In order to be listed on the website, each charity [stock] must have a rating of at least 70.
+
+-what reason were they given for doing this sorting?
+> Participants were then given the choice to sort the options either by effectiveness or by category type.  Sorting by effectiveness suggested that an individual was primarily concerned with selecting one of the most effective charities or investments, whereas sorting by category suggested that an individual was primarily concerned with selecting a charity or an investment that reflected a preferred option type. This served as our primary dependent variable for this study
+
+> The options were named such that they could represent either charities or investments
+
+> (e.g., -Arcadia Grocers | Category = Food | Rating = 85
+
+-similar to earlier studies
+>  asked participants to evaluate the following four statements and rate their agreement with each on a scale from 1 (strongly disagree) to 7 (strongly agree): -It is important for me to choose charities [investments] that I personally care about,- “It is important for
+
+-questions to explore alternative channels
+>  were averaged to create a preference-for-agency measure (r = .54): -It is important that I actively select charities [investments] rather than letting someone else decide for me- and “I prefer that other people tell me where to donate [invest] my money than deciding for myself- (reverse coded)
+
+> averaged to create a subjective-knowledge measure (r = .81): -I feel that I am quite knowledgeable about charities [stocks]- and “I
+
+> asked participants to evaluate the following statement: -It is possible for charities [investments] to be objectively rated according to their effectiveness
+
+> significantly fewer participants chose to sort by effectiveness rating in the
+
+(p6)
+> charity condition (67.8%) than in the investment condition (83.4%), -2 (1, N = 401) = 13.20, p < .001, - = .1
+
+> selecting their preferred option
+
+-note this is perhaps even an underestimate if some participants believe in efficient markets
+>  Significantly fewer participants chose the highest rated option in the charity condition (32.2%) than in the investment condition (50.3%), -2 (1, N = 401) = 13.52, p < .001, - = .1
+
+> measures. Participants indicated that they weighed their subjective preferences more heavily in the charity condition (M = 4.51, SD = 0.87) than in the investment condition (M = 3.54, SD = 1.03), F(1, 399) = 104.42, p < .001, d = 1.02, 95% CI = [0.81, 1.22]. Participants also preferred to have more agency when making charitable decisions (M = 5.66, SD = 1.23) than when making investment decisions (M = 4.81, SD = 1.29), F(1, 399) = 46.13, p < .001, d = 0.68, 95% CI = [0.47, 0.88]
+
+-correct but surprising!
+> participants believed that it is more possible to objectively rate charities (M = 5.39, SD = 1.23) than investments (M = 5.07, SD = 1.19), F(1, 399) = 7.27, p = .007, d = 0.27, 95% CI = [0.07, 0.46]. This
+
+-statistically dubious
+> Mediation analysis. We conducted a multiple mediation analysis using the bootstrap method with 5,000 samples to test what psychological factors drove participants- sorting-choice decisions (SPSS PROCESS macro, Model 4; Hayes, 201
+
+> an additional study that directly assigned participants to the sort-by-category presentation format (N = 224; see Study S1 in the Supplemental Material). We again found that fewer participants chose the highest rated charity (22.0%) than the highest rated investment (51.3%), -2 (1, N = 224) = 20.58, p < .001, - = .30.  It is also
+
+(p7)
+> when we ran a study that presented participants (N = 201; see Study S2 in the Supplemental Material) with choice sets containing only three options, we still found that significantly fewer chose the highest rated charity option (46%) than the highest rated investment (64%), -2 (1, N = 201) = 6.91, p = .009, - = .19
+
+> additional study (N = 403; see Study S3 in the Supplemental Material), participants were presented with five charity or investment options. We then randomly assigned options to have effectiveness ratings that were either between 75 and 100 (narrow-range condition) or between 0 and 100 (wide-range condition). A binary logistic regression found a main effect of decision type; specifically, participants were more likely to choose the highest rated investment than the highest rated charity, - = 0.65, SE = 0.21, χ2 (1) = 9.21, p = .002, OR = 1.92, 95% CI = [1.27, 2.89], and a main effect of range, such that participants were more likely to maximize effectiveness for wide ranges rather than narrow ranges, - = 0.44, SE = 0.21, χ2 (1) = 4.20, p = .04, OR = 1.55, 95% CI = [1.02, 2.35
+
+-what about in the narrow range case?
+>  A binary logistic regression found a main effect of decision type
+
+> Study 4: Decision-Making Role and Welfare Maximization
+
+-a citation for this key argument
+> others. One reason that individuals may discount effectiveness information in choice is that they do not experience the consequences for choosing an ineffective option and are thus rendered insensitive to the impact of actions on others (Imas, 2014
+
+> had a 2 (role: donor vs. medical center president) - 2 (effectiveness information: present vs. absent) between-subjects design
+
+> donor condition imagined that they lived near a local medical research center. Participants assigned to the president condition imagined that they were the president of a local medical research center
+
+-why this context, went so much context?
+>  -Because the stock market has done well, the research
+
+-in effectiveness condition
+> participant was then given his or her choice between allocating funds to one of three departments, with effectiveness ratings provided for each department (arthritis = 92, heart disease = 86, cancer = 74). These ratings were purposefully selected so that the most intuitively appealing choice was rated as the least effective (cancer), and the least appealing
+
+> Results revealed a significant Role - Effectiveness Ratings interaction, -2 (1) = 3.95, p = .047
+
+(p8)
+-I'm not sure this context is relevant to charities. hospital president is very specific. and this is not between Charities.
+> significantly more did so when placed in a position of responsibility
+
+-not clear how they should proceed this effectiveness information when the consequences of arthritis are less severe
+> appealing choice was rated as the most effective (arthritis
+
+> The study had a 2 (role: donor vs. medical center president) - 2 (choice: most effective option vs. least effective option) between-subjects design.  Participants read a scenario about Mr. Peterson, an individual who was allocating money to a local medical research center
+
+> Study 5: Judgments of Decision Quality
+
+> We preregistered the design, sample size, and analysis plan for this study on AsPredicted.org (http://aspre dicted.org/pe8j2.pdf). We aimed to recruit 400 participants from Mechanical Turk
+
+> evaluated the extent to which they thought the decision was responsible, appropriate, and thoughtful on a scale from 1 (not at all) to 7 (very much so)
+
+> three-item measure of perceived decision quality (- = .92)
+
+(p9)
+> three-item perceived-altruism measure (- = .72).
+
+> a significant Role - Choice interaction, F(1, 223) = 6.64, p = .01, -2 = .03. In both the president and the donor conditions, participants felt that Mr. Peterson-s decision was of lower quality when he selected the least effective option over the most effective option. However, the drop in decision quality
+
+> ANOVA revealed a significant Role - Choice interaction, F(1, 223) = 10.23, p = .002, -2 = .04. In both the president and the donor conditions, participants felt that Mr. Peterson-s decision was less altruistic when he selected the least effective option over the most effective option. However, this difference was greater when Mr. Peterson was president (most effective option: M = 5.75, SD = 0.86; least
+
+-altruism result is strange. is it really expressing perceived altruism?
+
+> the donor co nditions, participants felt that Mr. Peterson-s decision was less altruistic when he selected the least effective option over the most effective option. However, this difference was greater when Mr. Peterson was president
+
+-is this really the implication of warm glow?
+
+> utility from committing instances of generous acts but are insensitive to the benefits created by the acts (Andreoni, 1990
+
+-check this one
+
+> we relied primarily on hypothetical scenarios (for an exception, see Study S4 in the Supplemental Material
+
+-interesting argument that there is no hypothetical bias here towards favoring subjective preferences
+
+. However, there is strong reason to believe that these results will hold in real-world behavior. For one, the stimuli we used were affect poor, tending to induce calculative mind sets when assessing value (Hsee & Rottenstreich, 2004). As stimuli become more vivid-as is often the case in the field-people may rely on their feelings and intuitions to a greater extent, favoring more emotionally evocative options at the expense of welfare maximization (Loewenstein & Small, 2007). It is also possible that with earned money, people feel even more licensed to choose a cause they subjectively prefer (cf. Cherry, Frykblom, & Shogren, 200
+
+-overstated
+
+> suggest that there will be little impact of providing effectiveness ratings to donors
+
+>  are to find and choose an option they personally prefer. In two studies reported in the Supplemental Material (Studies S4 and S5), participants were significantly more likely to maximize welfare when choice sets contained similar (vs. differentiated) causes
+
+-exactly. less than for investment choice not imply it's ineffective
+
+> the number selecting a welfare-maximizing option was significantly greater than chance
+
+(p10)
+
+- so we can meta and reanalyze
+
+>
+> All data and materials have been made publicly available via
+the Open Science Framework and can be accessed at https://
+osf.io/6myfj/ and https://osf.io/tk67x/, respectively
+
+(p10)
+
+> Study 2 was the final  study run for this project. All other studies were run prior to the authors- adopting preregistration into their methodological toolbox. The complete Open Practices Disclosure for
+this article
+

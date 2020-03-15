@@ -1,0 +1,253 @@
+---
+title: "TITLE"
+author: "Dr. David Reinstein, "
+abstract: "This 'book' organizes the project and helps others understand it and learn from it"
+#cover-image: "images/cardcatalogue.JPG"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::html_document2:
+    includes:
+      in_header: header.html
+  bookdown::tufte_html_book:
+    split_by: chapter
+    config:
+      toc:
+        after: |
+          <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+        collapse: section
+        scroll_highlight: yes
+      fontsettings:
+        theme: white
+        size: 2
+    highlight: tango
+    #includes:
+     # in_header: [header_include.html]
+    download: [pdf, epub, mobi]
+  bookdown::gitbook:
+    includes:
+      in_header: header.html
+    css: paper/tufte_plus.css
+    config:
+      toc:
+        after: |
+          <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+        collapse: section
+        scroll_highlight: yes
+      fontsettings:
+        theme: white
+        size: 2
+      sharing:
+        facebook: yes
+        twitter: yes
+        google: no
+        linkedin: yes
+        weibo: yes
+        instapaper: no
+        vk: no
+        all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
+    highlight: tango
+    #includes:
+     # in_header: [header_include.html]
+    download: [pdf, epub, mobi]
+    sharing:
+      github: yes
+      facebook: no
+bookdown::pdf_book:
+    keep_tex: yes
+always_allow_html: yes
+bibliography: [giving_keywords.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: #gerhardriener/CharitySubstitutionExperiment
+description: "A new format for an Economics paper"
+#url: 'https\://daaronr.github.io//'
+tags: [Economics, Experiments, Charitable giving, field experiments, lab experiments, experimental design, substitution, moral licensing, crowding-out]
+---
+
+
+<!--
+download: ["book.pdf", "book.epub"]
+    includes:
+      in_header:  style.css
+-->
+
+---
+site: "bookdown::bookdown_site"
+output:
+  bookdown::gitbook:
+    lib_dir: "book_assets"
+  bookdown::pdf_book:
+    keep_tex: yes
+---
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r htmlTemp3, echo=FALSE, eval=FALSE}
+
+collapsejs <- readr::read_lines("js/collapse.js")
+codejs <- readr::read_lines("js/codefolding.js")
+
+transitionjs <- readr::read_lines("js/transition.js")
+dropdownjs <- readr::read_lines("js/dropdown.js")
+
+htmlhead <- c(
+  paste('
+<script>',
+paste(transitionjs, collapse = "\n"),
+'</script>
+<script>',
+paste(collapsejs, collapse = "\n"),
+'</script>
+<script>',
+paste(codejs, collapse = "\n"),
+'</script>
+<script>',
+paste(dropdownjs, collapse = "\n"),
+'</script>
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+.row { display: flex; }
+.collapse { display: none; }
+.in { display:block }
+.pull-right > .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+.open > .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+</style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("show" === "hide");
+});
+</script>
+', sep = "\n"),
+  paste0('
+<script>
+document.write(\'<div class="btn-group pull-right" style="position: absolute; top: 20%; right: 2%; z-index: 200"><button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-_extension-text-contrast=""><span>Code</span> <span class="caret"></span></button><ul class="dropdown-menu" style="min-width: 50px;"><li><a id="rmd-show-all-code" href="#">Show All Code</a></li><li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li></ul></div>\')
+</script>
+')
+)
+
+readr::write_lines(htmlhead, path = "header.html")
+```
+
+<!--
+base file created from
+
+`pandoc -f docx -t gfm -o writing_econ_gfm.md "bookoutline3-cutting examples down-cutnamesd.docx" `
+
+and similar from
+
+
+`pandoc -f docx -t gfm -o writing_econ_gfm1.md "Adapting back for BOOK --Ec831 outline-fillingindetails_forslides_edMiriam-conflict.docx"`
+
+replacements needed:
+
+- "\[ \]" surrounds math -- square brackets do not need 'escape' in main text
+- colors need adjusting to 'format_with_col'
+
+-->
+
+
+```{r eval=FALSE}
+install.packages("bookdown")
+install.packages("tufte")
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+```
+
+```{r packages}
+
+library(here)
+#library(checkpoint) #to avoid differential processing from different package versions
+library(pacman)
+
+here <- here::here
+
+p_load(dplyr,magrittr,purrr,tidyverse,tidyr,broom,janitor,here,glue,dataMaid,glue,readr, lubridate,summarytools,gtools,knitr,pastecs,data.table)   #citr, reporttools, experiment, estimatr,  kableExtra, ggsignif, glmnet, glmnetUtils, rsample,snakecase,zoo
+library(codebook)
+
+```
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+```{r somefunctions}
+
+#possibly move these to a separate file
+
+#multi-output text color
+#https://dr-harper.github.io/rmarkdown-cookbook/changing-font-colour.html#multi-output-text-colour
+#We can then use the code as an inline R expression format_with_col("my text", "red")
+
+format_with_col = function(x, color){
+  if(knitr::is_latex_output())
+    paste("\\textcolor{",color,"}{",x,"}",sep="")
+  else if(knitr::is_html_output())
+    paste("<font color='",color,"'>",x,"</font>",sep="")
+  else
+    x
+}
+
+```
+
+```{r html, echo=FALSE}
+# globally set chunk options
+knitr::opts_chunk$set(fig.align='center', out.width='80%')
+
+my_output <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+
+<!---
+Can define text blocks here, refer to them again and again if desired
+-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<html>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QLKFNFTGXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QLKFNFTGXX');
+</script>
+</html>
