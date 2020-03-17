@@ -10,94 +10,56 @@ This is hard to label: 'aversion' may be the wrong word: people may finding it l
 
 ### Description
 
-People may be reluctant (?how observed/manifested) to consider the cost
-and benefits of the actions they are funding through their charitable
-donations (or they find this less appropriate/normal). This contrasts
-with a much greater willingness to consider these and other domains such
-as consumption, investment, and public policy. People also seem to avoid
-accessing/buying/seeing information (particular information that may be
-likely to feel compelled to give.)
+People may be reluctant ^[how observed/manifested?] to consider the cost and benefits of the actions they are funding through their charitable donations (or they find this less appropriate/normal). This contrasts with a much greater willingness to consider these and other domains such as consumption, investment, and public policy. People also seem to avoid accessing/buying/seeing information (particular information that may be likely to feel compelled to give.)
 
 ### Theoretical/conceptual discussion
 
-As previously noted, for this to be considered a bias, the relevant
-individuals must intrinsically value the usefulness of their charitable
-activity at least to some extent. I.e., they must be Utilitarian, at
-least in part, or for some of the time. However, they may consider it
-very costly or distasteful to actually do this evaluation, or it may
+As previously noted, for this to be considered a bias, the relevant individuals must intrinsically value the usefulness of their charitable activity at least to some extent. I.e., they must be Moral Utilitarians, at least in part, or for some of the time. However, they may consider it very costly or distasteful to actually do this evaluation, or it may
 clash with other motivations and tendencies.
 
-This aversion also must be distinguished from a lack of *ability* to to
-CBA in the charity domain.
+This aversion also must be distinguished from a lack of *ability* to to CBA in the charity domain; the latter would instead be considered a  [quantitative bias](#quant-biases).
 
-The reluctance to engage in this evaluation process may relate to the
-aforementioned "taboo trade-offs"; if these tradeoffs are taboo,
-considering them may involve great emotional distress.
+The reluctance to engage in this evaluation process may relate to the aforementioned ^[where?] "taboo trade-offs"; if these tradeoffs are taboo, considering them may involve great emotional distress.
 
-Berman et al (2018) refer to the idea that "believing that charity is a
-subjective decision licenses individuals to donate in personally
-gratifying ways." This perspective plausibly combines partial and
-conflicted Utililitarian preferences with the presence of moral
-licensing.
+[@Berman2018] refer to the idea that "believing that charity is a subjective decision licenses individuals to donate in personally gratifying ways." This perspective plausibly combines partial and conflicted Utililitarian preferences with the presence of moral licensing.
 
-As Berman et al note, beliefs that CBA is not a natural part of the
-charitable domain may stem from the lack of direct feedback one gets
-from donating (in Economics terms, a "credence" good) relative to
-consumption and investment (they cite: Imas paper?)
+As Berman et al note, the belief that *CBA is not a natural part of the charitable domain* may stem from the lack of direct feedback one gets from donating (in Economics terms, a "credence" good) relative to consumption and investment goods. <div class="marginnote">
+(they cite: Imas paper?)
+</div>
 
-Several papers find that people are reluctant to pay for, or actively
-seek to avoid certain information; is this a sign of CBA or a different
-motive (self-serving biases)?
+Several papers^[ref] find that people are reluctant to pay for, or actively seek to avoid certain information. However, these may reflect motives distinct from CBA, such as a self-serving bias.  
+
+<div class="marginnote">
+On the other hand ...  a majority ranked effectiveness [how highly?] as a crucial criterion to select a charity and reported greater happiness when the impact of their contribution wasis highlighted.(van Iwaarden et al. 2009; Aknin et al., 2013) 
+</div>
 
 ### Relevance to Effective Giving
 
-If determining which charity is effective requires CBA people may avoid
-doing so. If effective charities force people to consider CBA people may
-avoid these charities.
+If *determining which charity is effective* requires CBA people may avoid doing so. If effective charities *force* people to consider CBA then people may avoid these charities in order to avoid having to do these evaluations.
 
 ### Evidence
 
-Is there evidence that "People sometimes actively avoid information about charity
-effectiveness that would motivate doing a CBA...?"
+#### Evidence for  "People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..."
 
-**Fong and Oberholzer-Gee, (2010)** run dictator game experiments
-involving payments to real-life welfare recipients living in 178 public
-housing in Pittsburgh. In their *"Choice treatment",* a subject can
-choose to pay \$1 to learn about subject's drug use or disability,
-information meant to suggest the deservingness of the recipient. "We
-find that a third of the dictators are willing to pay money to learn
-more 27 about their recipient. Dictators who acquire information mostly
-use it to withhold resources from less- preferred types, leading to a
-drastic decline in aggregate transfers."
+[@Fong2010] run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh;  each subject is matched with a particular recipient  of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers." 
+
+But this needs to be interpreted carefully:  *those who decide not to buy information appear less generous than the average*!
 
 
 <div class="marginnote">
-Part of this may be mis-stated, as *those who decide not to buy information appear less generous than the average*
+[@Dellavigna2010] provide evidence that people will pay costs to avoid being asked and avoid social pressure. However, for this same case *if* they are asked they then to respond by giving. While "avoiding the ask" is not avoiding cost-benefit analysis, it suggests that people are in fact strategic in avoiding things that  may make them feel compelled to donate. 
+Note: This evidence is only tangentially relevant.
 </div>
 
 
-
-**Dellavigna et al** provide evidence that people will pay costs to
-avoid being asked and avoid social pressure, and for this same case if
-they are asked they then to respond by giving. However, this is not
-avoiding CBA-related information.
-
-
-<div class="marginnote">
-Note: This evidence is only tangentially relevant
-</div>
-
-
-*People rarely seek out effectiveness information and are reluctant to
-purchase it*^[Citation missing: Berman, 2018 ?]
+#### Evidence for "People rarely seek out effectiveness information and are reluctant to purchase it"
 
 
 <!-- TODO - Cite: That survey-based study where few people say that they have
 looked into the effectiveness information on the charities they donate
 to -->
 
-In **Null's (2011)** study (more fully described below), in a final
-stage
+In [@Null2011], in a final stage of her experiment:
 
 > Subjects were given the option to spend USD 5 of their total gift to the
 > development charities in order to find out which of the three would
@@ -119,40 +81,15 @@ stage
 > exactly equal to the value of her unmatched gift, a truly staggering
 > sum.
 
-Null attributes this failure to buy information either to subjects who
-"simply did not care about the potential to substitute into the
-charity with the highest matching rate", perhaps driven by some form of
-warm glow motive, or to simple misunderstanding or fatigue (in an
-incentivized elicitation, she found some evidence of incomplete
-comprehension). To the extent this is not a misunderstanding, it might
-be seen as evidence of CBA aversion; participants did not want to
-purchase evidence that would require them to do calculations in this
-domain.
+Null attributes this failure to buy information either to subjects who "simply did not care about the potential to substitute into the charity with the highest matching rate", perhaps driven by some form of simplistic warm glow motive, or to simple misunderstanding or fatigue (in an incentivized elicitation, she found some evidence of incomplete comprehension). To the extent this is *not* a misunderstanding, it might be seen as evidence of CBA aversion; participants did not want to purchase evidence that would require them to do calculations in this domain.
 
 \
 
-**People do not respond "efficiently" to information about costs and
-benefits**
+#### Evidence for "People do not respond 'efficiently' to information about costs and benefits"
 
-Null (2011) ran a set of experiments at Kiwanis/Rotary clubs and
-with \"professional subjects\" (university administrators?) at the
-Berkeley X-lab; the former strictly involved allocations \**among*\*
-charities, in the latter case what was not given away could be kept. For
-the main reported treatments, participants made a series of decisions
-under different incentives (mostly on the same page and thus
-simultaneously?). The "prize" was \$100; in each session only one
-decision from one subject was chosen for actual payment/donations.
+Null (2011) ran a set of experiments at Kiwanis/Rotary clubs and with "professional subjects" (university administrators?) at the Berkeley X-lab; the former strictly involved allocations *among* charities, in the latter case what was not given away could be kept. For the main reported treatments, participants made a series of decisions under different incentives (mostly on the same page and thus simultaneously?). The "prize" was \$100; in each session only one decision from one subject was chosen for actual payment/donations.
 
-Many participants who choose to donate positive amounts to multiple
-charities in earlier (?stages) continue to donate to multiple charities
-when one charity is given a better match rate; they only "imperfectly
-substitute" (and some even substitute away from the now "lower-priced"
-charity). She attributes this to both risk aversion (diminishing utility
-in to each charity's actual impact, along with uncertainty about this
-impact) as well to as a version of "warm glow" with a diminishing
-marginal benefit in the amount given to each charity.[^1] However, this
-could also be attributed to a simple failure to make these cost-benefit
-calculations (as she also find some evidence suggesting misunderstanding
+Many participants who choose to donate positive amounts to multiple charities in earlier (?stages) continue to donate to multiple charities when one charity is given a better match rate; they only "imperfectly substitute" (and some even substitute away from the now "lower-priced" charity). She attributes this to both risk aversion (diminishing utility in to each charity's actual impact, along with uncertainty about this impact) as well to as a version of "warm glow" with a diminishing marginal benefit in the amount given to each charity.[^1] However, this could also be attributed to a simple failure to make these cost-benefit calculations (as she also found some evidence suggesting misunderstanding
 of the nature of these incentives).
 
 <!--
@@ -175,9 +112,8 @@ it is framed in terms of [money]{.underline}*
 
 -->
 
-
-***Some evidence suggests that people accept and value subjectivity in
-this domain more so than for other choice domains...***
+#### Evidence for "people accept and value subjectivity in
+the charitable domain more so than for other choice domains"
 
 ***Berman et al (2018)*** provide evidence from a series of five
 survey/vignette experiments; unlike those mentioned above, these
