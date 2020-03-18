@@ -393,11 +393,13 @@ h3.subtitle em {
 
 .fold-btn {
   float: right;
-  margin: 5px 5px 0 0;
+  margin: 0px 0px 0 0;
+    font-size: smaller;
 }
 .fold {
   border: 1px solid black;
   min-height: 40px;
+    max-width: 75%;
 }
 p, footer, table {
     width: 75%!important;
