@@ -205,7 +205,9 @@ a:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.0
 /* Sidenotes, margin notes, figures, captions */
 img {max-width: 100%;}
 
-.marginnote img { display: block; }
+.marginnote img { display: block;
+    padding-left: 12px;
+}
 
 .sidenote, .marginnote { float: right;
                          clear: right;
@@ -219,20 +221,31 @@ img {max-width: 100%;}
                          position: relative; }
 
 .marginnote p {font-size:100%!important;
-				line-height:1.2;}
+				line-height:1.2;
+      padding-left: 12px;
+}
 
 .marginnote ul { width: 100%;
 			padding-right:30%!important;
 			line-height:1.2!important;
          -webkit-padding-start: 0%;
-         -webkit-padding-end: 0%; }
+         -webkit-padding-end: 0%;
+      padding-left: 12px;
+
+}
 
 .marginnote li {width: 80%;
-				padding-right: 5%;}
+				padding-right: 5%;
+      padding-left: 12px;
+
+}
 
 .marginnote ol {font-size:90%!important;
 				width: 100%;
-				padding-right:5%!important;}
+				padding-right:5%!important;
+      padding-left: 12px;
+
+}
 
 .sidenote-number { font-family: et-book-roman-old-style;
                                            position: relative;
@@ -331,9 +344,12 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
   background: #f5f5f5 5px center/3em no-repeat;
 }
 .note{
-  padding: 1em 1em 1em 1em;
+  padding: .7em .7em .7em .7em;
+  display: inline-block;
   margin-bottom: 5px;
   background: #ffb972 5px center/3em no-repeat;
+  width: 70%!important;
+    border: 1px solid black;
 }
 .technote{
   padding: 1em 1em 1em 1em;
@@ -380,5 +396,21 @@ h3.subtitle em {
 .fold {
   border: 1px solid black;
   min-height: 40px;
+}
+
+/*ad-hoc adjustments 18 Mar 2020 */
+
+.book .book-body .page-wrapper .page-inner section.normal * {
+    box-sizing: border-box;
+    -webkit-box-sizing: content-box;
+}
+
+.marginnote p {
+    font-size: 100%!important;
+    line-height: 1.3;
+}
+
+p, footer, table {
+    width: 75%!important;
 }
 
