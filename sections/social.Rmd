@@ -7,7 +7,7 @@ Social signaling is seen to be a major driver of human behavior,  particularly i
 
 Several authors (can be interpreted to) suggest that valuing ''effectiveness in generosity'', i.e., moral-utilitarianism, is seen as a negative signal by peers and lowers fitness in the cooperation market, at least in comparison to signaling compared to deontological or ‘sacred values’. The exchange below captures the basic argument... 
 
-n```{block2,  type='note'}
+```{block2,  type='note'}
 
 *From Robin Hanson and Rob Wiblin exchange on 80000 hours podcast; see Chapter 12 of   “The Elephant in the Brain” (Hanson)*
 \
