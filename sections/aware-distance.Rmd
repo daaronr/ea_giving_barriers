@@ -1,18 +1,27 @@
 # Barriers: Awareness, consideration, and distance {#aware-distance}
 
+
+EA: Typically,  the most effective (humanitarian) charity will go from wealthy countries in the "North"  to poor countries in the "South".   the large social cultural geographic distance is an important barrier to giving,  and a reason why people prefer to give locally. However,  technology continues to reduce these barriers (see, e.g., EA Global and their new web-enabled tools).
+
+
+Theoretical/conceptual: Construal theory,  psychological distance,  moral distance/moral circles
+
+^[Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychological distance" (PDF). Psychological Review. 117 (2): 440–463. doi:10.1037/a0018963]
+
+
 <!-- ?cuddy\_ea\_2007 (Sudhir ea, \'16) -->
 
+## Distance - Spatial/Physical, Social/Cultural: parochial altruism/ingroup bias,  interpersonal and identity e.g., race, gender, age, etc
 
-- Distance - Spatial/Physical: parochial altruism/ingroup bias
+## Distance: Experiential, Informational, Emotional/Affective
 
-- Distance - Temporal (future problems and people)
+Ref: small2007_friends	small_loewenstein_07_scarecrow
 
-- Distance - Social/Cultural (interpersonal and identity e.g., race, gender, age, etc)
+## Distance -  Temporal (future problems and people), Hypothetical (probability to happen)
 
-- Distance - Hypothetical (probability to happen)
+## Availability heuristic and media (also see 'biases')
 
-- Distance - Emotional (Small's paper)
 
-- Consistent problems aren't in the news
+<!-- Consistent problems aren't as noticable (reflected in media also) - availability heuristic [separate from 'repeated exposure makes it more relevant ... opposite implication] -->
 
-- Social/geographic distance attenuates empathy (and other motivators), aka, parochialism[^17]
+

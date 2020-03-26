@@ -1,1 +1,46 @@
 # [Tools for motivating EA giving]{#tools}
+
+## Introduction
+
+What "tools" and approaches may help to  increase effective giving?
+
+We divide this into three categories:
+
+1. Approaches to overcoming the barriers and biases discussed in previous chapters.
+
+2. Fundraising approaches and innovations that will be *particularly* suitable  for more effective charities, perhaps because these approaches themselves are directly tied to effectiveness. We call these "superpowers" for effective charities.
+
+3. Fundraising strategies that may  have historically been underused by affective charities.
+
+<!-- I.e., how can we best apply well-tested emotional and behavioral approaches (evidence-based fundraising tools like “gift exchange”) to effective charities. In applying these tools, what “superpowers” and weaknesses do the most effective charities have? -->
+
+## Psych/behavioral tools; applicability to EA charities 
+
+Do the standard collection of psych/behavioral tools work for EA charities, or can they be made to do so? Does EA have any 'superpowers' for any of these? E.g., presenting identifiable victim. Emotional stimuli. Gift exchange, etc.
+
+
+1. Briefly highlight  those 'tools' that give non-EA an advantage, but focus on the actionable--how EA lessen or flip that advantage. 2. Which tools present particular challenges or opportunities for EA
+
+## De-biasing and misperception correction
+
+## Innovative proposals
+
+## EA-movement approaches, sucesses and pitfalls 
+
+What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too 'purist' (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)? 
+
+## A listing 
+
+### Make impact more comparable by allowing joint evaluation (Evaluation mode) {-}
+
+Effective charities could present their (e.g., lifesaving) statistics *relative* to average/popular charities (but be careful about demonizing particular ones)
+
+Theory: Evaluability bias
+
+Cite: (Kogut & R, '05),	(Caviola ea, '14)
+
+### (Info enhancing) social closeness of recipient 
+
+Percentage donations tied to purchases, especially in online auctions 
+
+Psychometrics and targeting people likely to be responsive 

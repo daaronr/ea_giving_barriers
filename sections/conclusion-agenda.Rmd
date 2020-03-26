@@ -1,1 +1,15 @@
 # Conclusion; a research agenda {#conclusion-agenda} 
+
+Need for systematic platforms to study this, systematic experimentation and data sharing among effective/international charities. Platforms available, proposals for particular research projects and approaches.
+ 
+
+- Who gives to the *truly* most effective international charities?
+
+- Who is most likely to be convinced, and which arguments/presentations work in the SR and LR, and for whom (heterogeneity)?
+     Statistical learning-based analyses
+
+- Practicable techniques in a range of higher-stakes real-world environments
+
+- Replication (and verification), pooled evidence, meta-analysis
+  - Context-sensitivity, large SE $\rightarrow$ large samples, statistical learning controls, sharing data
+  - Responses to 'obvious contrasts' seem to not reflect between-subject responses"

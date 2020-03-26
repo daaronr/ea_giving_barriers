@@ -6,24 +6,6 @@ abstract: "This 'book' organizes the project and helps others understand it and 
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output:
-  bookdown::html_document2:
-    includes:
-      in_header: support/header.html
-  bookdown::tufte_html_book:
-    split_by: chapter
-    config:
-      toc:
-        after: |
-          <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
-        collapse: section
-        scroll_highlight: yes
-      fontsettings:
-        theme: white
-        size: 2
-    highlight: tango
-    #includes:
-     # in_header: [header_include.html]
-    download: [pdf, epub, mobi]
   bookdown::gitbook:
     lib_dir: "book_assets"
     includes:

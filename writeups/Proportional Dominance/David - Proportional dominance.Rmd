@@ -1,15 +1,14 @@
-*Report by David Reinstein*
 
-*See also (Ari's writeup
-[[HERE]{.underline}](https://docs.google.com/document/d/1zzGTkF5sZnDUtzE-NS3sYOHOLQw8eDxC5Qt3_Wy62wA/edit#heading=h.r4qi0rwohl6r))*
 
-Related Terms 
+<!-- See also (Ari's writeup
+[[HERE]{.underline}](https://docs.google.com/document/d/1zzGTkF5sZnDUtzE-NS3sYOHOLQw8eDxC5Qt3_Wy62wA/edit#heading=h.r4qi0rwohl6r)) -->
+
+Related Terms
 =============
 
-Drop in the bucket; mechanisms include "futility thinking" (Unger?),
-psychosocial numbing, quantitative confusion/innumeracy
+Drop in the bucket; mechanisms include "futility thinking" (Unger?), psychosocial numbing, quantitative confusion/innumeracy
 
-Description 
+Description
 ===========
 
 *1-4 sentence description/definition of the barrier*
@@ -20,7 +19,7 @@ problem is (framed as) larger. \[Move to mechanisms: A certain amount of
 impact (e.g., relieving suffering) is perceived as smaller and thus less
 valuable when the underlying problem is larger.\]
 
-Conceptual Discussion: 
+Conceptual Discussion:
 ======================
 
 *Overview of findings from papers, caveats, how the concept works, etc.
@@ -213,7 +212,15 @@ mechanism]{.underline}**
 [Methods]{.underline}
 
 Hypothetical willingness to pay (wtp) questions. Within-subject
-manipulations only[^2]; standard student subject pools, small samples.
+manipulations only; standard student subject pools, small samples.
+
+<div class="marginnote">
+They do reverse order of presentations for half the participants.
+    They report a lack of significant order effects, but fail to discuss
+    the power of such tests or examine first-presented choices in
+    isolation.
+</div>
+
 
 S1: Questions about (hypothetical wtp for components of government
 government health insurance. "\[Denominator\] people die from this
@@ -342,7 +349,3 @@ Solutions
     of abortions will continue to occur) because \"every unborn life
     matters.\"
 
-[^2]: They do reverse order of presentations for half the participants.
-    They report a lack of significant order effects, but fail to discuss
-    the power of such tests or examine first-presented choices in
-    isolation.
