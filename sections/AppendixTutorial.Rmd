@@ -1,0 +1,22 @@
+---
+title: "Appendix Tutorial"
+author: "Oska Fentem"
+date: "27/03/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+Hopefully this appendix provides a useful introduction to the different software and work involved in creating websites such as [Increasing Effective Charitable Giving] (https://daaronr.github.io/ea_giving_barriers/outline.html). In this Appendix I will give a **brief** overview of R & RStudio, Git & Github and R Markdown & Bookdown.
+
+## R and RStudio
+**R** is a free programming language which is mainly used for data analysis and statistics. It can be downloaded [here](https://www.r-project.org/). The popularity of R is growing in Economics Academia, largely due to the growth of Machine Learning techniques in R as well as the flexibility of the language itself.
+In a similar fashion to Python's **modules**, R makes use of **packages** which are a collection of functions written in order to achieve specific tasks. Whilst R comes pre-installed with a variety of useful packages, it is often useful to install more, which can be done using the *install.packages()* command. 
+**RStudio** is a programming environment, which can used to perform a variety of tasks such as writing scripts using R (as well as other different programming languages). RStudio can also be configured so as to work seamlessly with Git (more on this later). RStudio can be downloaded [here](https://rstudio.com/)
+
+## Git and Github
+**Git** is a version control system which enables users to track changes and progress in coding projects or any files in general. It is particularly useful for collaborating on projects as it provides a useful way to show who has altered which files, when and even allows users to clone a **repository** and make changes without affecting the original project. Git also provides a very simple way to keep changes to projects up to date across different operating systems such as Windows and Mac. Installation and configuration of Git can be confusing to the newly initiated user, [Happy Git](https://happygitwithr.com/index.html) provides a user friendly tutorial on installing Git [which can be downloaded here](https://git-scm.com/)
+**Github** provides a user interface for a more simple and intuitive way to use Git. Download it [here](https://github.com/).
