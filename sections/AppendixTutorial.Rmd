@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Introduction
-Hopefully this appendix provides a useful introduction to the different software and work involved in creating websites such as [Increasing Effective Charitable Giving] (https://daaronr.github.io/ea_giving_barriers/outline.html). In this Appendix I will give a **brief** overview of R & RStudio, Git & Github and R Markdown & Bookdown.
+Hopefully this appendix provides a useful introduction to the different software and work involved in creating websites such as [Increasing Effective Charitable Giving](https://daaronr.github.io/ea_giving_barriers/outline.html). In this Appendix I will give a **brief** overview of R & RStudio, Git & Github and R Markdown & Bookdown.
 
 ## R and RStudio
 * **R** is a free programming language which is mainly used for data analysis and statistics. It can be downloaded [here](https://www.r-project.org/). The popularity of R is growing in Economics Academia, largely due to the growth of Machine Learning techniques in R as well as the flexibility of the language itself.
@@ -18,16 +18,23 @@ In a similar fashion to Python's **modules**, R makes use of **packages** which 
 * **RStudio** is a programming environment, which can used to perform a variety of tasks such as writing scripts using R (as well as other different programming languages). RStudio can also be configured so as to work seamlessly with Git (more on this later). RStudio can be downloaded [here](https://rstudio.com/)
 
 ## Git and Github
-* **Git** is a version control system which enables users to track changes and progress in coding projects or any files in general. It is particularly useful for collaborating on projects as it provides a useful way to show who has altered which files, when and even allows users to clone a _repository_ (a folder inside of a project which tracks all changes made) and make changes without affecting the original project. Git also provides a very simple way to keep changes to projects up to date across different operating systems such as Windows and Mac. Installation and configuration of Git can be confusing to the newly initiated user, [Happy Git](https://happygitwithr.com/index.html) provides a user friendly tutorial on installing Git, [which can be downloaded here](https://git-scm.com/)
+* **Git** is a version control system which enables users to track changes and progress in coding projects or any files in general. It is particularly useful for collaborating on projects as it provides a useful way to show who has altered which files and when. Users are even able to clone a _repository_ (a folder inside of a project which tracks all changes made) and make changes without affecting the original project. Git also provides a very simple way to keep changes to projects up to date across different operating systems such as Windows and Mac. Installation and configuration of Git can be confusing to the newly initiated user, [Happy Git](https://happygitwithr.com/index.html) provides a user friendly tutorial on installing Git, [which can be downloaded here](https://git-scm.com/)
 I will give a brief overview of the key functions inside of Git including commits, pushes & pulls, forks & branches and pull requests:
   * A **commit** saves the changes made in the current document to the **local** repository. Specific changes to commit to the repo must be specified, this process is made much easier using a program such as Github rather than the Git code itself (although they do the same thing).
   * A **push**, pushes all local commits to the online version of this repository, essentially updating the online version of the files, to the version which is stored locally on your device.
   * A **pull**, is used to pull the changes made to the online repository, into the local repository. Thus making the local repository up to date with the remote/online repository. 
-Creating a **branch** allows you to create a separate version of a repository and make changes to this without affecting the master/original repository.
+  * Creating a **branch** allows you to create a separate version of a repository and make changes to this without affecting the master/original repository.
   * A **pull request** then allows you to pull the changes made in a branch over to the master repository, in order to merge the work. 
 * **Github** provides a user interface for a more simple and intuitive way to use Git. Download it [here](https://github.com/).
 
 ## Markdown and Bookdown
-Markdown is a popular language for generating and authoring documents and can be used with the package rmarkdown to export them to a variety of outputs such as html, pdf and word documents. As well as this it can also be used to create webpages, such as the one you are currently reading. The power of Markdown files comes from the way that they are able include/embed code as well as data and tables, which is useful for writing reproducible research and creating websites.\
-The Bookdown package builds on the rmarkdown package in that it is able to *build* output consisting of multiple rmarkdown files, thus enabling the user to construct books and websites
+* **Markdown** is a popular language for generating and authoring documents and can be used with the package rmarkdown to export them to a variety of outputs such as html, pdf and word documents. As well as this it can also be used to create webpages, such as the one you are currently reading. The power of Markdown files comes from the way that they are able include/embed code as well as data and tables, which is useful for writing reproducible research and creating websites.\
+- The **Bookdown** package builds on the rmarkdown package in that it is able to *build* output consisting of multiple rmarkdown files, thus enabling the user to construct books and websites
 
+## Useful resources
+Like most things, when working with code the internet is your best friend. Listed below are several useful resources for learning about the material mentioned above:
+
+#### [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/)
+#### [R for Data Science](https://r4ds.had.co.nz/)
+#### [Authoring Books with R Markdown](https://bookdown.org/yihui/bookdown/)
+#### [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/)
