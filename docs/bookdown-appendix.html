@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>10 Tools for motivating EA giving | Appendix Tutorial</title>
+  <title>12 Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own) | Appendix Tutorial</title>
   <meta name="description" content="A broad project" />
   <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="10 Tools for motivating EA giving | Appendix Tutorial" />
+  <meta property="og:title" content="12 Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own) | Appendix Tutorial" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="10 Tools for motivating EA giving | Appendix Tutorial" />
+  <meta name="twitter:title" content="12 Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own) | Appendix Tutorial" />
   
   <meta name="twitter:description" content="A broad project" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="barriers-inertia-and-systemicinstitutional-1.html"/>
-<link rel="next" href="conclusion-agenda.html"/>
+<link rel="prev" href="conclusion-agenda.html"/>
+
 <style type="text/css">
 p.abstract{
   text-align: center;
@@ -355,59 +355,175 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="tools-for-motivating-ea-giving-1" class="section level1" number="10">
-<h1><span class="header-section-number">10</span> <span id="tools">Tools for motivating EA giving</span></h1>
-<div id="introduction" class="section level2" number="10.1">
-<h2><span class="header-section-number">10.1</span> Introduction</h2>
-<p>What “tools” and approaches may help to increase effective giving?</p>
-<p>We divide this into three categories:</p>
-<ol style="list-style-type: decimal">
-<li><p>Approaches to overcoming the barriers and biases discussed in previous chapters.</p></li>
-<li><p>Fundraising approaches and innovations that will be <em>particularly</em> suitable for more effective charities, perhaps because these approaches themselves are directly tied to effectiveness. We call these “superpowers” for effective charities.</p></li>
-<li><p>Fundraising strategies that may have historically been underused by affective charities.</p></li>
-</ol>
-<!-- I.e., how can we best apply well-tested emotional and behavioral approaches (evidence-based fundraising tools like “gift exchange”) to effective charities. In applying these tools, what “superpowers” and weaknesses do the most effective charities have? -->
+<div id="bookdown-appendix" class="section level1" number="12">
+<h1><span class="header-section-number">12</span> Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own)</h1>
+<div id="introduction-1" class="section level2" number="12.1">
+<h2><span class="header-section-number">12.1</span> Introduction</h2>
+<p>This appendix aims provides a useful introduction to the several types of software and processes used to creating websites such as <a href="https://daaronr.github.io/ea_giving_barriers/outline.html">Increasing Effective Charitable Giving</a>. We aim to encourage others to participate in this collaborative work, and to spin off their own projects.</p>
+<p>We first give a <strong>brief</strong> overview of R &amp; RStudio, Git &amp; Github and R Markdown &amp; Bookdown, linking more extensive further resources/tutorials.</p>
 </div>
-<div id="psychbehavioral-tools-applicability-to-ea-charities-1" class="section level2" number="10.2">
-<h2><span class="header-section-number">10.2</span> Psych/behavioral tools; applicability to EA charities</h2>
-<p>Do the standard collection of psych/behavioral tools work for EA charities, or can they be made to do so? Does EA have any ‘superpowers’ for any of these? E.g., presenting identifiable victim. Emotional stimuli. Gift exchange, etc.</p>
-<ol style="list-style-type: decimal">
-<li>Briefly highlight those ‘tools’ that give non-EA an advantage, but focus on the actionable–how EA lessen or flip that advantage. 2. Which tools present particular challenges or opportunities for EA</li>
-</ol>
+<div id="r-and-rstudio" class="section level2" number="12.2">
+<h2><span class="header-section-number">12.2</span> R and RStudio</h2>
+<ul>
+<li><p><strong>R</strong> is a free programming language which is mainly used for data analysis and statistics. It can be downloaded <a href="https://www.r-project.org/">here</a>. The popularity of R is growing in Economics Academia, largely due to the growth of Machine Learning techniques in R as well as the flexibility of the language itself.
+In a similar fashion to Python’s <strong>modules</strong>, R makes use of <strong>packages</strong> which are a collection of functions written in order to achieve specific tasks. Whilst R comes pre-installed with a variety of useful packages, it is often useful to install more, which can be done using the <em>install.packages</em> command.</p></li>
+<li><p><strong>RStudio</strong> is a programming environment, which can used to perform a variety of tasks such as writing scripts using R (as well as other different programming languages). RStudio can also be configured so as to work seamlessly with Git (more on this later). RStudio can be downloaded <a href="https://rstudio.com/">here</a></p></li>
+</ul>
 </div>
-<div id="de-biasing-and-misperception-correction-1" class="section level2" number="10.3">
-<h2><span class="header-section-number">10.3</span> De-biasing and misperception correction</h2>
+<div id="git-and-github" class="section level2" number="12.3">
+<h2><span class="header-section-number">12.3</span> Git and Github</h2>
+<ul>
+<li><strong>Git</strong> is a version control system which enables users to track changes and progress in coding projects or any files in general. It is particularly useful for collaborating on projects as it provides a useful way to show who has altered which files and when. Users are even able to clone a <em>repository</em> (a folder inside of a project which tracks all changes made) and make changes without affecting the original project. Git also provides a very simple way to keep changes to projects up to date across different operating systems such as Windows and Mac. Installation and configuration of Git can be confusing to the newly initiated user, <a href="https://happygitwithr.com/index.html">Happy Git</a> provides a user friendly tutorial on installing Git, <a href="https://git-scm.com/">which can be downloaded here</a>
+I will give a brief overview of the key functions inside of Git including commits, pushes &amp; pulls, forks &amp; branches and pull requests:
+<ul>
+<li>A <strong>commit</strong> saves the changes made in the current document to the <strong>local</strong> repository. Specific changes to commit to the repo must be specified, this process is made much easier using a program such as Github rather than the Git code itself (although they do the same thing).</li>
+<li>A <strong>push</strong>, pushes all local commits to the online version of this repository, essentially updating the online version of the files, to the version which is stored locally on your device.</li>
+<li>A <strong>pull</strong>, is used to pull the changes made to the online repository, into the local repository. Thus making the local repository up to date with the remote/online repository.</li>
+<li>Creating a <strong>branch</strong> allows you to create a separate version of a repository and make changes to this without affecting the master/original repository.</li>
+<li>A <strong>pull request</strong> then allows you to pull the changes made in a branch over to the master repository, in order to merge the work.</li>
+</ul></li>
+<li><strong>Github</strong> provides a user interface for a more simple and intuitive way to use Git. Download it <a href="https://github.com/">here</a>.</li>
+</ul>
 </div>
-<div id="innovative-proposals-1" class="section level2" number="10.4">
-<h2><span class="header-section-number">10.4</span> Innovative proposals</h2>
+<div id="markdown-and-bookdown" class="section level2" number="12.4">
+<h2><span class="header-section-number">12.4</span> Markdown and Bookdown</h2>
+<ul>
+<li><strong>Markdown</strong> is a popular language for generating and authoring documents and can be used with the package rmarkdown to export them to a variety of outputs such as html, pdf and word documents. As well as this it can also be used to create webpages, such as the one you are currently reading. The power of Markdown files comes from the way that they are able include/embed code as well as data and tables, which is useful for writing reproducible research and creating websites.<br />
+</li>
+<li>The <strong>Bookdown</strong> package builds on the rmarkdown package in that it is able to <em>build</em> output consisting of multiple rmarkdown files, thus enabling the user to construct books and websites</li>
+</ul>
 </div>
-<div id="ea-movement-approaches-sucesses-and-pitfalls" class="section level2" number="10.5">
-<h2><span class="header-section-number">10.5</span> EA-movement approaches, sucesses and pitfalls</h2>
-<p>What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too ‘purist’ (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)?</p>
+<div id="useful-resources" class="section level2" number="12.5">
+<h2><span class="header-section-number">12.5</span> Useful resources</h2>
+<p>Like most things, when working with code the internet is your best friend. Listed below are several useful resources for learning about the material mentioned above:</p>
+<div id="r-markdown-the-definitive-guide" class="section level4" number="12.5.0.1">
+<h4><span class="header-section-number">12.5.0.1</span> <a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The definitive guide</a></h4>
 </div>
-<div id="a-listing" class="section level2" number="10.6">
-<h2><span class="header-section-number">10.6</span> A listing</h2>
-<div id="make-impact-more-comparable-by-allowing-joint-evaluation-evaluation-mode" class="section level3 unnumbered" number="">
-<h3>Make impact more comparable by allowing joint evaluation (Evaluation mode)</h3>
-<p>Effective charities could present their (e.g., lifesaving) statistics <em>relative</em> to average/popular charities (but be careful about demonizing particular ones)</p>
-<p>Theory: Evaluability bias</p>
-<p>Cite: (Kogut &amp; R, ’05), (Caviola ea, ’14)</p>
+<div id="r-for-data-science" class="section level4" number="12.5.0.2">
+<h4><span class="header-section-number">12.5.0.2</span> <a href="https://r4ds.had.co.nz/">R for Data Science</a></h4>
 </div>
-<div id="info-enhancing-social-closeness-of-recipient" class="section level3" number="10.6.1">
-<h3><span class="header-section-number">10.6.1</span> (Info enhancing) social closeness of recipient</h3>
-<p>Percentage donations tied to purchases, especially in online auctions</p>
-<p>Psychometrics and targeting people likely to be responsive</p>
+<div id="authoring-books-with-r-markdown" class="section level4" number="12.5.0.3">
+<h4><span class="header-section-number">12.5.0.3</span> <a href="https://bookdown.org/yihui/bookdown/">Authoring Books with R Markdown</a></h4>
+</div>
+<div id="yarrr-the-pirates-guide-to-r" class="section level4" number="12.5.0.4">
+<h4><span class="header-section-number">12.5.0.4</span> <a href="https://bookdown.org/ndphillips/YaRrr/">YaRrr! The Pirate’s Guide to R</a></h4>
 
+<div id="refs" class="references hanging-indent">
+<div>
+<p>Adena, Maja, and Steffen Huck. 2019. “Giving once, giving twice: A two-period field experiment on intertemporal crowding in charitable giving.” <em>Journal of Public Economics</em> 172. <a href="https://doi.org/10.1016/j.jpubeco.2019.01.002">https://doi.org/10.1016/j.jpubeco.2019.01.002</a>.</p>
+</div>
+<div>
+<p>Andreoni, James, Justin M Rao, and Hannah Trachtman. 2017. “Avoiding the ask: A field experiment on altruism, empathy, and charitable giving.” <em>Journal of Political Economy</em> 125 (3): 625–53.</p>
+</div>
+<div>
+<p>Baron, Jonathan, and Ewa Szymanska. 2011. “Heuristics and biases in charity.”</p>
+</div>
+<div>
+<p>Berman, Jonathan Z., Alixandra Barasch, Emma E. Levine, and Deborah A. Small. 2018. “Impediments to Effective Altruism: The Role of Subjective Preferences in Charitable Giving.” <em>Psychological Science</em>, 095679761774764. <a href="https://doi.org/10.1177/0956797617747648">https://doi.org/10.1177/0956797617747648</a>.</p>
+</div>
+<div>
+<p>Cairns, Jason, and Robert Slonim. 2011. “Substitution effects across charitable donations.” <em>Economics Letters</em> 111 (2): 173–75. <a href="https://doi.org/10.1016/j.econlet.2011.01.028">https://doi.org/10.1016/j.econlet.2011.01.028</a>.</p>
+</div>
+<div>
+<p>Caviola, Lucius, Nadira Faulm–ller, Jim. A C Everett, and Julian Savulescu. 2014. “The evaluability bias in charitable giving: Saving administration costs or saving lives?” <em>Judgment and Decision Making</em> 9 (4): 303–15. <a href="https://doi.org/None">https://doi.org/None</a>.</p>
+</div>
+<div>
+<p>Dellavigna, Stefano, U C Berkeley, John A List, Ulrike Malmendier, and U C Berkeley. 2010. “Testing for Altruism and Social Pressure in Charitable Giving -.”</p>
+</div>
+<div>
+<p>Deryugina, Tatyana, and Benjamin Marx. 2015. “Do Causes Crowd Each Other Out? Evidence from Tornado Strikes.” Working Paper (December).</p>
+</div>
+<div>
+<p>Exley, Christine L. 2016. “INCOMPLETE DRAFT : PLEASE DO NOT CIRCULATE WITHOUT PERMISSION Using Charity Performance Metrics as An Excuse Not to Give,” 1–21.</p>
+</div>
+<div>
+<p>Fong, Christina, and Felix Oberholzer-Gee. 2010. “Truth in giving: Experimental evidence on the welfare effects of informed giving to the poor.” <em>Journal of Public Economics</em>.</p>
+</div>
+<div>
+<p>Gneezy, Uri. 2014. “Avoiding overhead aversion in charity” 632. <a href="https://doi.org/10.1126/science.1253932">https://doi.org/10.1126/science.1253932</a>.</p>
+</div>
+<div>
+<p>Kogut, Tehila, and Ilana Ritov. 2005. “The ‘identified victim’ effect: An identified group, or just a single individual?” <em>Journal of Behavioral Decision Making</em> 18 (3): 157–67.</p>
+</div>
+<div>
+<p>Loewenstein, George, and Deborah A Small. 2007. “The Scarecrow and the Tin Man : The Vicissitudes of Human Sympathy and Caring” 11 (2): 112–26. <a href="https://doi.org/10.1037/1089-2680.11.2.112">https://doi.org/10.1037/1089-2680.11.2.112</a>.</p>
+</div>
+<div>
+<p>Meer, Jonathan. 2017. “Does fundraising create new giving?” <em>Journal of Public Economics</em> 145: 82–93. <a href="https://doi.org/10.1016/j.jpubeco.2016.11.009">https://doi.org/10.1016/j.jpubeco.2016.11.009</a>.</p>
+</div>
+<div>
+<p>Null, C. 2011. “Warm glow, information, and inefficient charitable giving.” <em>Journal of Public Economics</em> 95 (5-6): 455–65.</p>
+</div>
+<div>
+<p>Reinstein, D. A. 2011. “Does one charitable contribution come at the expense of another?” <em>B.E. Journal of Economic Analysis and Policy</em> 11 (1).</p>
+</div>
+<div>
+<p>Scharf, Kimberley, Sarah Smith, and Mark Ottoni-Wilhelm. 2017. “Lift and Shift: The Effect of Fundraising Interventions in Charity Space and Time.”</p>
 </div>
 </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="outline.html#fnref1" class="footnote-back">↩︎</a></li>
+<li id="fn2"><p>See, e.g., Ord, T. (2013, March 12). “The moral imperative toward cost-effectiveness in global health. Center for Global Development.” Retrieved from www.cgdev.org/content/publications/detail/142701. Also “Your dollar goes farther oversees”. (2016). Retrieved from <a href="http://www.givewell.org/giving101/Your-dollar-goes-further-overseas" class="uri">http://www.givewell.org/giving101/Your-dollar-goes-further-overseas</a><a href="present-puzzle.html#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Moshe Hoffman, Bethany Burum, Dave Rand, and Martin Nowak “Hidden Motives Behind Ineffective Altruism”, unpublished manuscript"<a href="present-puzzle.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>ref<a href="present-puzzle.html#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>citation needed<a href="present-puzzle.html#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p>Also, unpublished/non-academic work: ‘Behavior and Charitable Giving’ (Ideas42, 2016), ‘Charitable Fundraising And Smart Giving’ (Gertler, 2015), and ‘The Psychology of Effective Altruism’ (Miller, 2016, slides only).<a href="present-puzzle.html#fnref6" class="footnote-back">↩︎</a></p></li>
+<li id="fn7"><p>Ref: Trope, Yaacov; Liberman, Nira (2010). “Construal-level theory of psychological distance” (PDF). Psychological Review. 117 (2): 440–463. <a href="doi:10.1037/a0018963" class="uri">doi:10.1037/a0018963</a><a href="aware-distance.html#fnref7" class="footnote-back">↩︎</a></p></li>
+<li id="fn8"><p>REF<a href="social.html#fnref8" class="footnote-back">↩︎</a></p></li>
+<li id="fn9"><p>how observed/manifested?<a href="eval-aversion.html#fnref9" class="footnote-back">↩︎</a></p></li>
+<li id="fn10"><p>where?<a href="eval-aversion.html#fnref10" class="footnote-back">↩︎</a></p></li>
+<li id="fn11"><p>ref<a href="eval-aversion.html#fnref11" class="footnote-back">↩︎</a></p></li>
+<li id="fn12"><p>My thought was that people who do not value saving lives (or are
+in general unwilling to contribute to it or oppose policies spending
+money on foreign aid for some other reason, e.g. prejudice) exercise
+a form of motivated reasoning to justify this (perhaps in a
+nonstandard way). They choose to reason according to the
+‘proportional’ standard in order to conclude that it is not worth
+mdonating to these causes because ‘the scope of the problem is too
+large and they will never be completely solved’. I suggest that
+people apply this reasoning to problems specifically when they do
+not want to take action to address these problems. (In contrast, in
+domains where they do want to make a change, they may use a
+different, more marginal and 'consistent' sort of reasoning.)
+E.g., (to be stereotypical) imagine a MAGA person who wants to end
+foreign aid because "Africa will always have endless problems" but
+who wants to impose restrictions on abortion (even knowing millions
+of abortions will continue to occur) because "every unborn life
+matters."</p>
+</div>
+<a href="eval-aversion.html#fnref12" class="footnote-back">↩︎</a></li>
+</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="barriers-inertia-and-systemicinstitutional-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="conclusion-agenda.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="conclusion-agenda.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="book_assets/gitbook-2.6.7/js/app.min.js"></script>
