@@ -1,15 +1,6 @@
----
-title: "Appendix Tutorial"
-author: "Oska Fentem"
-date: "27/03/2020"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Appendix: Tech for creating, editing and collaborating on this 'Bookdown' web book/project (and starting your own) {#bookdown-appendix}
+
+*This tutorial written by Oska Fentem with David Reinstein*
 
 ## Introduction
 
