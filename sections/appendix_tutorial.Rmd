@@ -9,17 +9,19 @@ This appendix provides a brief introduction to the several types of software and
 
 ```{block2,  type='note'}
 
-This site (web-book project) is
+**This site (web-book project) is**
   
-<!-- Add internal links here -->
+<!-- TODO: Add internal and web links here -->
 
 Hosted: 
+  
 - Hosted on Github (Github pages)
 - A project managed out of a Git repo stored in Github
 
 \
 
-The content is:
+**The content is:**
+  
 - A 'Bookdown' (in the 'Gitbook' style, although we've drawn elements from the Tufte style)
 - ...which is a hosted collection of HTML (and other) files...
 - ...constructed/compiled/built from R-Markdown (.Rmd) files and other support files using the R language
