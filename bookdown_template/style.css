@@ -131,7 +131,7 @@ div.boo:before {
 
 .sidenote, .marginnote { float: right;
                          clear: right;
-                         margin-right: -15%;
+                         margin-right: -12%;
                          width: 40%;
                          margin-top: 0;
                          margin-bottom: 1rem;
@@ -163,7 +163,7 @@ div.boo:before {
 .sidenote-number { font-size: 1rem;
                          top: -0.5rem;
                          left: 0.1rem; }
-                         
+
 
 .marginnote code, .sidenote code { font-size: 1rem; }
 
@@ -180,5 +180,4 @@ input.margin-toggle { display: none; }
 
 label.sidenote-number { display: inline; }
 
-label.margin-toggle:not(.sidenote-number) { display: none; }                         
-                    
+label.margin-toggle:not(.sidenote-number) { display: none; }
