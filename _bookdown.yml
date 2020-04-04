@@ -2,6 +2,7 @@ book_filename: "barriers-to-effective-giving"
 delete_merged_file: true
 output_dir: "docs"
 rmd_files:
-    html: ["index.Rmd", "sections/eagivingsurveyoutline.Rmd", "sections/present_puzzle.Rmd", "sections/subst-preamble.Rmd", "../charity-substitution-experiment/paper/lit-synth.Rmd", "sections/aware-distance.Rmd", "sections/identity.Rmd", "sections/social.Rmd", "sections/eval-aversion.Rmd", "sections/quant-biases.Rmd", "sections/inertia.Rmd", "sections/tools.Rmd", "sections/conclusion-agenda.Rmd", "sections/appendix_tutorial.Rmd"]
+    #html: ["index.Rmd", "sections/eagivingsurveyoutline.Rmd", "sections/present_puzzle.Rmd", "sections/subst-preamble.Rmd", "../charity-substitution-experiment/paper/lit-synth.Rmd", "sections/aware-distance.Rmd", "sections/identity.Rmd", "sections/social.Rmd", "sections/eval-aversion.Rmd", "sections/quant-biases.Rmd", "sections/inertia.Rmd", "sections/tools.Rmd", "sections/conclusion-agenda.Rmd", "sections/appendix_tutorial.Rmd"]
+    html: ["index.Rmd", "sections/eagivingsurveyoutline.Rmd", "sections/present_puzzle.Rmd", "sections/subst-preamble.Rmd", "sections/lit-synth.Rmd", "sections/aware-distance.Rmd", "sections/identity.Rmd", "sections/social.Rmd", "sections/eval-aversion.Rmd", "sections/quant-biases.Rmd", "sections/inertia.Rmd", "sections/tools.Rmd", "sections/conclusion-agenda.Rmd", "sections/appendix_tutorial.Rmd"]
   #html: ["index.Rmd", "paper/introduction.Rmd", "paper/snippets.Rmd"]
 
