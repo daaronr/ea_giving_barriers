@@ -1,8 +1,8 @@
 # ea_giving_barriers
 
- "Barriers to Effective Giving" -- Project web-book and organisation
+*"Barriers to Effective Giving" -- Project web-book and organisation*
  
- Produces [public web book here](#https://daaronr.github.io/ea_giving_barriers/outline.html)
+ Produces [public web book here](https://daaronr.github.io/ea_giving_barriers/outline.html)
  
  Additional content is in this repo but outside of that web book, some to be incorporated in.
 
