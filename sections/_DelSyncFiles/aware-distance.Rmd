@@ -1,11 +1,10 @@
 # Barriers: Awareness, consideration, and distance {#aware-distance}
 
-## Description and relevance to Effective Giving: Typically,  the most effective (humanitarian) charity will go from wealthy countries in the "North"  to poor countries in the "South".   The large, social,  cultural geographic distance is an important barrier to giving  and a reason why people prefer to give locally. However,  technology continues to reduce these barriers (see, e.g., Give Directly and their new web-enabled tools).
+
+EA: Typically,  the most effective (humanitarian) charity will go from wealthy countries in the "North"  to poor countries in the "South".   the large social cultural geographic distance is an important barrier to giving,  and a reason why people prefer to give locally. However,  technology continues to reduce these barriers (see, e.g., EA Global and their new web-enabled tools).
 
 
-## Theoretical and conceptual underpinning
-
-Construal theory,  psychological distance,  moral distance/moral circles
+Theoretical/conceptual: Construal theory,  psychological distance,  moral distance/moral circles
 
 ^[Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychological distance" (PDF). Psychological Review. 117 (2): 440–463. doi:10.1037/a0018963]
 
@@ -22,7 +21,6 @@ Ref: small2007_friends	small_loewenstein_07_scarecrow
 
 ## Availability heuristic and media (also see 'biases')
 
-Persistent problems are not as noticeable as rare events such as natural and man-made disasters. ^[REFs] These will then be both inherently less present in donors' minds, and less reported in the media. 
 
 <!-- Consistent problems aren't as noticable (reflected in media also) - availability heuristic [separate from 'repeated exposure makes it more relevant ... opposite implication] -->
 
