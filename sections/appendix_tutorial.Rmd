@@ -173,13 +173,30 @@ docs: html output put here for web hosting
 
 ### Adding references/citations
 
+- Citations in Rmd
+
+- Accompanying '.bib' files
+
+- Zotero maintenance of citations
+
+- Citations tool in Rstudio (`citr`), synchronised to Zotero
+
+
 ## How to 'build' and view the book
 
 ## Joining this project
 
+- Get a Github account, contact daaronr AT gmail.com 
+
 ### Creating a Branch and a 'pull request'
 
 ### GitHub web page: Readme,  'Project' board, 'Issues', Comments/notifications, commenting within commits, etc.
+
+## Airtable and innovationsinfundraising.org 
+
+This project is closely connected to [innovationsinfundraising.org](innovationsinfundraising.org). Much of these projects overlap, and there is a shared 'database.' 
+
+For more information, [see the tutorial on using the Airtable and Innovationsinfundraising.org here](https://github.com/daaronr/ea_giving_barriers/blob/master/documentatiion_and_tutorials/project_airtableexplained/airtable_database_overview.pdf) 
 
 ## Useful resources
 Like most things, when working with code the internet is your best friend. Listed below are several useful resources for learning about the material mentioned above:
