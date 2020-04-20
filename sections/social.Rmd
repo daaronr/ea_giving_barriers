@@ -69,9 +69,11 @@ However, the analogy to effective versus ineffective giving is not clear. Perhap
 
 ### Evidence that "consequentialist choices lead to negative signals and less-favorable treatment relative to deontological/emotionally intuitive choices "
 
-**[@everettInferenceTrustworthinessIntuitive2016]**
+
+#### [@everettInferenceTrustworthinessIntuitive2016]
 
 @everettInferenceTrustworthinessIntuitive2016 ran a series of experiments on the Mturk platform, involving hypothetical dilemmas paired with low-stakes (or no) Trust games.
+
 In each, participants were asked to make and justify their judgement in a moral dillemma such as the famous 'trolley dillemma.' In each case, this was a (hypothetical) choice between inaction and taking an action that sacrifices a small number of lives to save a larger number of lives. 
 
 <div class="marginnote">
@@ -83,6 +85,38 @@ Would you "push a man off a footbridge to stop an oncoming train from hitting fi
 Across several studies deontologist agents were preferred in partner choices by participants endorsing the same values; even moral-utilitarians seem to favor peers who express emotional empathy and deontological ethics (ibid.,  p. 45). 
 
 However, this difference was not present in the track-switching dilemma, the only dilemma in which a majority favored the consequentialist choice.
+
+
+
+Incorporate some of the other papers mentioned in the Gdoc [here](https://docs.google.com/document/d/1j5y-shBeo6wMy1pCq9DSd7s5UmDUNcXYy2drBeEZlIs/edit?ts=5e440d71#heading=h.1lrjvfcyoa)
+
+
+#### Montealegre et al. (2020) Does Maximizing Good Make People Look Bad? Manuscript
+
+Type of evidence: Online experiment (M-turk) with hypothetical choices (attitudes), six pre-registered studies using two different scenarios (N = 1,961)
+
+Relation to charitable giving\EA:  directly, since ...
+
+Scenarios (including within and between subjects approaches): 
+
+(i) participants evaluate a response to survey question about how to select a charity (“If you were to donate, how would you select which charity to donate to?”). 
+
+> Deliberative:  I would use evidence to calculate which charity spends its donations most cost effectively, and donate to them.
+
+> Empathic: I would try to put myself in the shoes of people who are going through difficult situations, and donate to a charity that helped them.
+
+(ii) John was approached by a charity fundraiser and was asked whether he would be interested in donating to help Rokia, a 7-year-old girl from Mali, Africa who was desperately poor and faced the threat of severe hunger or even starvation. The charity fundraiser showed John a picture of Rokia (also presented to participants) and then asked John whether he would be interested in supporting her.
+Across conditions, participants were presented with the general scenario and only the potential donor’s actions differed depending on the condition: 
+
+Deliberation: “John thought that donating to help Rokia might not be the most cost-effective way to use his money and that maybe he should donate to a charity doing something more cost-effective instead. He asked the charity fundraiser about the relevant statistics of the program and since the data suggested this charity was the most cost-effective John donated to the charity.”
+Empathy: “John was deeply moved by Rokia’s situation and about how terrible her situation must be for her. After hearing about her tragic story and imagining how his donation could help her John donated to the charity.”
+
+Robustness checks for: gender, stake size
+
+Background mechanism:  donors’ failure to prioritize cost-effectiveness can be explained by signaling concerns, since people who favor deontological over consequentialist decisions are preferred as social partners (Everett et al., 2016),
+Key findings:  Across six studies, donors who deliberated were perceived as having worse moral character, were rated as less desirable as social partners, and were judged to be less guided by moral motives. On the other hand, those who deliberated were also seen as more reasonable and competent, and were judged to be more guided by pragmatic motives,
+Thus, there may be reputational benefits associated with deliberating. However, since deliberators are less preferred as social partners the authors believe the overall effect one reputation is negative. They do not find any differences in trustworthiness. Exhibiting empathy before deliberating reduced most negative reputational effects. People how do not give at all are seen as the worst. Surprisingly, participants judge the empathy donors as more wastful.
+
 
 #### Considerations 
 

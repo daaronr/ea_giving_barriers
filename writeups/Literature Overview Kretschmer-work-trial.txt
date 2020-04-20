@@ -1,0 +1,587 @@
+﻿Literature Overview Project 2
+
+
+
+
+Themes to explore;  why this is relevant to our project.        3
+Facebook and other social media studies (#process-ex, #fundraising-choice,...)        3
+Castillo, M., Petrie, R., & Wardell, C. (2014).(#process-ex, #fundraising-choice,...) Fundraising through online social networks: A field experiment on peer-to-peer solicitation. Journal of public economics, 114, 29-35. http://dx.doi.org/10.1016/j.jpubeco.2014.01.002        3
+Gage-Bouchard et al, 2017..., E. A., LaValley, S., Mollica, M., & Beaupin, L. K. (2017). Cancer communication on social media: examining how cancer caregivers use Facebook for cancer-related communication. Cancer nursing, 40(4), 332-338 Link        4
+Waddingham, J. (2013). The future of Facebook fundraising. International Journal of Nonprofit and Voluntary Sector Marketing, 18(3), 187-191. (#process-ex, #fundraising-choice,...)        4
+Saxton, G. D., & Wang, L. (2014). The social network effect: The determinants of giving through social media. Nonprofit and voluntary sector quarterly, 43(5), 850-868. (#social-giving)        5
+Auter, Z. J., & Fine, J. A. (2018). Social media campaigning: Mobilization and fundraising on Facebook. Social Science Quarterly, 99(1), 185-200. (#social-giving)        6
+Smith, S., Windmeijer, F., & Wright, E. (2015). Peer effects in charitable giving: Evidence from the (running) field. The Economic Journal, 125(585), 1053-1071.https://doi.org/10.1111/ecoj.12114  (#signaling-effectiveness; #social-giving)        7
+Quinton, S., & Fennemore, P. (2013). Missing a strategic marketing trick? The use of online social networks by UK charities. International Journal of Nonprofit and Voluntary Sector Marketing, 18(1), 36-51. 10.1002/nvsm.1450   (#social-giving)        8
+Farka et al (2018): Analysing racist discourse on certain pages [LINK]        8
+Schipul, E. (2010). Accelerating fundraising through social media. Nonprofit World, 28(3), 20-21.        8
+Okada, A., Ishida, Y., & Yamauchi, N. (2017). Effectiveness of social media in disaster fundraising: Mobilizing the public towards voluntary actions. International Journal of Public Administration in the Digital Age (IJPADA), 4(1), 49-68.  10.4018/IJPADA.2017010104 (#social-giving)        8
+Social signaling        8
+Everett, J. A. C., Pizarro, D. A., & Crockett, M. J. (2016). Inference of trustworthiness from intuitive moral judgments. Journal of Experimental Psychology: General, 145(6), 772–787.  https://doi.org/10.1037/xge0000165        8
+Kahane, G., Everett, J. A., Earp, B. D., Caviola, L., Faber, N. S., Crockett, M. J., & Savulescu, J. (2018). Beyond sacrificial harm: A two-dimensional model of utilitarian psychology. Psychological Review, 125(2), 131. https://psycnet.apa.org/doi/10.1037/rev0000112  [PDF]        9
+Jordan, Jillian J., et al. "Uncalculating cooperation is used to signal trustworthiness." Proceedings of the National Academy of Sciences 113.31 (2016): 8658-8663. https://www.pnas.org/content/113/31/8658.short (pdf)        10
+Hoffman, M., Yoeli, E., & Nowak, M. A. (2015). Cooperate without looking: Why we care what people think and not just what they do. Proceedings of the National Academy of Sciences, 112(6), 1727-1732. (pdf)        10
+Grossman, Z. (2015). Self-signaling and social-signaling in giving. Journal of Economic Behavior & Organization, 117, 26-39. http://dx.doi.org/10.1016/j.jebo.2015.05.008        11
+Ariely, D., Bracha, A., Meier, S., 2009. Doing good or doing well? image motivation and monetary incentives in behaving prosocially. Am. Econ. Rev. 99,544–555. 10.1257/aer.99.1.544        11
+Andreoni, J., Bernheim, B.D., 2009. Social image and the 50–50 norm. A theoretical and experimental analysis of audience effects. Econometrica 77,1607–1636. 10.3982/ECTA7384        11
+Karlan, D., & McConnell, M. A. (2014). Hey look at me: The effect of giving circles on giving. Journal of Economic Behavior and Organization, 106, 402-412. https://doi.org/10.1016/j.jebo.2014.06.013        12
+Montano-Campos, F., & Perez-Truglia, R. (2019). Giving to charity to signal smarts: evidence from a lab experiment. Journal of behavioral and experimental economics, 78, 193-199. https://doi.org/10.1016/j.socec.2018.08.004        12
+McManus, T. C., & Rao, J. M. (2015). Signaling smarts? Revealed preferences for self and social perceptions of intelligence. Journal of Economic Behavior & Organization, 110, 106-118. https://doi.org/10.1016/j.jebo.2014.12.009        12
+Theoretical Framework and concepts        13
+Nuisance costs        13
+Social costs        13
+Add-on donation        13
+Conformity \ benchmark \ anchoring        13
+Thresholds \ fundraising targets        14
+Social signaling        14
+Hanson/Wiblin exchange on 80000 hours podcast; see Chapter 12 of “The Elephant in the Brain”        14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Can “impact” motivate a new generation of givers? How do donors respond to impact information?[a][b][c][d][e][f] 
+Themes to explore;  why this is relevant to our project.[g] 
+1. #process-ex[h]: What experimental variation and data collection has been done on Facebook and other social media/social fundraising pages for academic/research purposes? 
+   1. [relevance] → What is feasible and how?
+2. #impact-ev: Impact of effectiveness/impact information on charitable donation (and fundraising) behavior, and 
+   1. → Motivation and understanding of ‘what people care about’ → our key questions 
+   2. → Theory of ‘mechanisms’ (things that drive reactions to impact info) drive our focus, treatment, and focal outcomes (see also ‘Barriers to effectiveness in giving’ more generally; ‘Barriers’ tab in Airtable HERE; see also ‘Social signaling in a charitable giving setting’ below as a mechanism)
+   3. → What evidence exists, how strong is it, and where are the gaps?
+   4. → What approaches have been taken (methods, platforms, designs) and what can we learn from these?
+3. #fundraising-choice: Drivers of ‘decision to fundraise/hold a fundraiser/support a charity/post an appeal’ (especially on social media
+   1. → This is our first proposed key outcome, but it is not the ‘usual direct giving’ outcome; what does it mean? 
+   2. → For all the reasons specified in the previous header (‘Impact of effectiveness’)
+4. #signaling-effectiveness: Social signaling in a charitable giving setting, and its interaction with effectiveness information; motivations to signal ‘concern for effectiveness’ or to signal the  ‘emotional (rather than analytical) empathic response’
+5. #social-giving: “Drivers of giving in social settings” … in a general sense
+6. (Impact of previous gifts/messages?)
+Tip: I would avoid the Andreoni “Warm-glow vs public good discussion.” It is a bit of a false dichotomy, not meant for this purpose, it doesn’t get you very far, and it ignores many important concerns like heterogeneity. 
+
+
+
+
+
+
+1. Facebook and other social media studies (#process-ex, #fundraising-choice,...)
+Castillo, M., Petrie, R., & Wardell, C. (2014).(#process-ex, #fundraising-choice,...) Fundraising through online social networks: A field experiment on peer-to-peer solicitation. Journal of public economics, 114, 29-35. http://dx.doi.org/10.1016/j.jpubeco.2014.01.002
+
+
+Abstract 
+Two main reasons why people donate to charity are that they have been asked and asked by someone they care about. One would therefore expect that charitable organizations could benefit from peer-to-peer fundraising if they were able to persuade donors to do so for them[i]. However, little is known on the costs and benefits of asking donors to fundraise. We investigate this by implementing a field experiment embedded in an online giving organization's web page. In our experiment, donors who have completed an online transaction were randomly asked to share having donated by posting on their Facebook (FB) wall or by sending a private message to a friend on FB. To  further explore the impact of incentives on the willingness to fundraise, donors were also assigned to one of three treatments in which the organization added either $0, $1 or $5 in the donor's name in exchange for sharing the information.[j]
+
+
+Note: they also are able to  measure how many friends *click* on the link provided and make a donation
+
+
+
+
+
+
+Design 
+Experimental treatments were incorporated into the screen that the donor sees after payment is complete. The treatments were randomly assigned, and prior to completion of their donation, donors did not know that they would be asked to post or given an add-on incentive. 
+
+
+Key findings 
+* Their evidence suggest that donors find it costly to engage in peer-to-peer fundraising: Donors that are simply asked to post having donated and ask their friends within their network to donate too comply 4.4% of the time while those that are offered add-on donations made in their name comply 12.6% of the time when the add-on is $1 and 16.9% when the add-on is $5. 
+* Those who are already logged into FB comply (post their donation) 130% more than those who are not... (this is interpreted to be driven by the time-cost of logging in). 
+* under certain circumstances[k], larger monetary incentives do not drive greater participation[l][m].[1]  … “donors need a stronger monetary incentive to make a direct, rather than a diffuse, ask to friends.”
+* On average, 1.2% (significantly different from the control group)[n] of postings resulted in a new donation to a charity[o][p]This provides evidence that peer requests on social media  do generate donations. 
+* This suggests that a charity trying to increase peer-to peer fundraising should target incentives to those who have the smallest transactions costs to doing so [q][r] (e.g. those already logged into FB). 
+* Simply asking donors (no compensation and no targeting for active users) to share the fact that they have donated is the only strategy in this experiment that increases the net donations.[s][t]
+
+
+More details on the methodology and data collection  HERE
+Gage-Bouchard et al, 2017..., E. A., LaValley, S., Mollica, M., & Beaupin, L. K. (2017). Cancer communication on social media: examining how cancer caregivers use Facebook for cancer-related communication. Cancer nursing, 40(4), 332-338 Link
+Brief: Largely descriptive and qualitative examination of themes, fundraisers, and posts on 18  public Facebook pages from partents of children with leukemia. Not highly relevant. Further discussion moved HERE
+Waddingham, J. (2013). The future of Facebook fundraising. International Journal of Nonprofit and Voluntary Sector Marketing, 18(3), 187-191. (#process-ex, #fundraising-choice,...)
+
+
+Abstract 
+Facebook is the world’s largest social network, and charities are keen to create communities and engage with supporters there; yet few are using any of Facebook’s tools to raise money effectively. On the basis of data from Facebook and JustGiving, we will learn how to prompt donors to share their donations, the pound value of a Facebook share, and how to generate the best value from shares. We will also reveal Facebook’s best practices for community building, explore the trend for Timeline integration and underline the importance of mobile in the future for Facebook fundraising.
+
+
+Data collection / Facebook interaction
+* They encourage people to take actions on their “JustGiving” site to share them with their Facebook friends. When someone sponsors a friend who’s taking part in a fundraising event, as soon as a donation has been successfully processed, they prompt them to share a link to their friend’s fundraising page on Facebook. 
+* As some people do not like sharing how much they give to charity, or that they give to charity at all, we frame the request as a way of helping their friend raise more money.
+* They compare between:mobile users to share their donations on Facebook, and those sharing from their desktop site. Otherwise they expect zero contributions from “supports” friends, thus this serves as benchmark. 
+
+
+
+
+Table 1 showing the friends they have supported, the charities they have donated to and the people they have thanked
+
+
+
+
+  
+
+
+
+Key findings
+* Their field study shows: In relation to fundraising,  supporters can raise significant funds 
+* By encouraging supporters to share donations or their relationship with charities on Facebook, it can and will bring in extra donations from the friends of those supporters (peer-to-peer effect). It is key to both encourage sharing and think about what gets shared by supporters, too.[u]
+Saxton, G. D., & Wang, L. (2014). The social network effect: The determinants of giving through social media. Nonprofit and voluntary sector quarterly, 43(5), 850-868. (#social-giving)
+
+
+Abstract
+Social networking applications such as Facebook, Twitter, and Crowdrise offer new ways for nonprofits to engage the community in fundraising efforts. This study employs data from Facebook Causes to examine the nature and determinants of charitable giving in social networking environments. Our findings suggest donations on these sites are not driven by the same factors as in “off-line” settings.  Instead, a social network effect takes precedence over traditional economic explanations. Facebook donors do not seem to care about efficiency ratios, their donations are typically small, and fundraising success is related not to the organization’s financial capacity but to its “Web capacity.” Moreover, online donors are prone to contribute to certain categories of causes more than others, especially those related to health.
+Given the growth in social media-driven fundraising—and the increase in crowdfunding, slacktivism, impulse donating, and other new practices this entails—these findings carry notable theoretical and practical implications.
+
+
+
+
+Data collection / Facebook interaction[v] (obsolete fundraising system)
+* Using Facebook and Google searches in November of 2009, we found 68 of these organizations had accounts on Facebook Causes, a special Facebook site for organizational fundraising activities
+
+
+* Using custom Python code, we gathered information on the organizations’ fundraising efforts on Facebook Causes, including the number of donors, the amounts and timing of individual donations, and the number of “members” (fans) of the cause over the December 5, 2009 to January 4, 2010 period
+
+
+* Financial and other data were gathered from the organizations’ 2008 IRS 990 forms. After missing values were excluded, a total of 66 organizations were included in the analyses.
+
+
+Analytical Method
+The dependent variable is: Total Donations.  They analyse with OLS for the multivariate analyses starting with a baseline model—the economic model of giving—in isolation. Then two additional models, for social network effects variable follow. Collectively, these regressions allow see whether charitable giving on Facebook is determined by the same set of factors as in off-line settings as well as the extent to which our new theoretical model significantly adds explanatory value.
+
+
+Key findings
+
+
+[w][x]
+* found a strong relationship between the size of the organization’s social network and the receipt of charitable contributions.
+
+
+* The “fans” developed by an organization appear to pay dividends through a social network effect—with the organizations’ fans reaching expanding circles of online friends in their own social networks, which ultimately increases charitable contributions
+
+
+* positive coefficient for website “reach,” to the extent an organization has sufficient resources, it should increase the quality and influence of its website
+
+
+Auter, Z. J., & Fine, J. A. (2018). Social media campaigning: Mobilization and fundraising on Facebook. Social Science Quarterly, 99(1), 185-200. (#social-giving)
+
+
+Abstract
+Social media adoption by politicians—and particularly candidates for office—offers low‐cost avenues for connecting with voters and potential voters. In addition to low upstart and maintenance costs, social media grants candidates access to their followers’ social networks, which facilitates the cascading of campaign information beyond the reaches of existing supporters. This capability makes Facebook prime territory from which to campaign.
+
+
+Type of evidence: content analysis
+
+
+Objective. We investigate why certain candidates for the U.S. Senate are more likely to use social media for mobilization and fundraising. Methods. Through content analysis of nearly 15,000 Facebook posts made by candidates for the U.S. Senate, we examine how candidate and campaign characteristics shape social media use. Results.[y][z] We find this type of campaigning is most common among challengers and Tea Party candidates who lack the name recognition and resources of more established candidates. Additionally, race characteristics, such as competitiveness and the relative positioning of candidates, influence social media posting strategies, with candidates in competitive races and candidates trailing their opponent more actively engaging in social media campaigning.
+
+
+Conclusions. While nearly all candidates engage in some level of campaigning on social media,
+candidates in competitive races, challengers, and underdog candidates adopt these types of strategies most frequently on Facebook.
+
+
+Data collection / Facebook interaction
+* 78 candidates maintained official Facebook pages. From these pages, we collected and content-analyzed 14,825 Facebook posts between June 1 and Election Day on November 2.
+
+
+* The posts in our sample are drawn from all candidates who represented the Democratic and Republican parties in the 2010 Senate elections (including those who were endorsed by Tea Party groups and won the Republican nomination in their state). We also include posts from major candidates running as independents
+
+
+Key findings
+* Candidates solicit contributions on Facebook more over time, showing a steady 4 percent increase in the number of these posts with each successive week in the election cycle. Further, moving from “safe,” to “likely,” to “lean,” to “toss up,” races sees a 22 percent increase in the expected number 196 Social Science Quarterly of Fundraising posts.
+
+
+* As expected, challengers, on average, have a 111.9 percent higher expected count of Fundraising posts per week than incumbents. Further, even after accounting for challenger status, Tea Party Republicans’ expected count is 126.6 percent greater than mainstream GOP and Democratic candidates (also significant at the 0.10 level). To an even further degree than other challengers, Tea Party candidates embraced the potential of Facebook fundraising in 2010.
+
+
+Smith, S., Windmeijer, F., & Wright, E. (2015). Peer effects in charitable giving: Evidence from the (running) field. The Economic Journal, 125(585), 1053-1071.https://doi.org/10.1111/ecoj.12114  (#signaling-effectiveness; #social-giving)
+
+
+Purely horizontal (donor-to-donor) peer effects in giving
+
+
+Abstract: There is a widespread belief that peer effects are important in charitable giving but little evidence on how donors respond to their peers. Analysing a unique data set of donations to online fund-raising pages, we find positive and sizeable peer effects: a £10 increase in the mean of past donations increases giving by £2.50, on average. Donations respond to both very large and very small amounts and to changes in the mode. We find little evidence that donations signal charity quality – our preferred explanation is that donors use information on earlier donations to decide what is appropriate for them to give.
+
+
+Design:
+* Observed 12,000 fund-raising pages in 2010 marathon events. 
+* Use linear-in-means model (model in the peer effects literature) for empirical analysis
+* Variables: average causal effect of a large/small donation on the amount subsequently given.
+
+
+Results
+We find no evidence that peer donations provide a signal about the quality of a charity (Vesterlund, 2003), or that peer effects are only related to fund-raising targets (Andreoni, 1998). The explanation that is most consistent with observed behaviour is that donors use information on (the distribution of) past donations as a benchmark in deciding how much it is appropriate for them to giv. Thus  £10 increase in the mean of past donations increases giving by £2.50, on average. 
+
+
+Also
+* Meer (2011) focused on peer effects in solicitation, looking at whether people give more if the ask comes from someone they know.
+* Carman (2004) studied peer effects among workplace teams but, in this case, the peer group included the team captain who played a role in encouraging and motivating giving among team members
+
+
+Quinton, S., & Fennemore, P. (2013). Missing a strategic marketing trick? The use of online social networks by UK charities. International Journal of Nonprofit and Voluntary Sector Marketing, 18(1), 36-51. 10.1002/nvsm.1450   (#social-giving)
+
+
+Survey: Interview with 12 charities
+
+
+Main finding: Those organisations who were willing to encourage a more open and transparent culture to communication were beginning to achieve tangible benefits from doing so, such as increasing the number of fundraisers and volunteers.
+
+
+
+
+Farka et al (2018)[aa]: Analysing racist discourse on certain pages [LINK]
+
+
+Schipul, E. (2010). Accelerating fundraising through social media. Nonprofit World, 28(3), 20-21.
+
+
+Summary 
+According to Blackbaud’s analysis of Giving USA data, online donations amount to only 5% of the contributions nonprofits receive. And it’s not a panacea. Only a small fraction of the 180,000 organizations that use Facebook Causes have raised more than $1,000.
+
+
+How to boost a fundraiser: Choose an attention-grabbing title; Convey a sense of urgency; Make your case; Provide a concise description; Use an evocative photograph; recruite peers
+
+
+Okada, A., Ishida, Y., & Yamauchi, N. (2017). Effectiveness of social media in disaster fundraising: Mobilizing the public towards voluntary actions. International Journal of Public Administration in the Digital Age (IJPADA), 4(1), 49-68.  10.4018/IJPADA.2017010104 (#social-giving)
+
+
+Summary 
+In the environment of  the earthquake, tsunami, and nuclear threat that struck Japan in 2011 to examine the effectiveness of social media in nonprofit fundraising. Social media both before and after the disaster has a positive impact on the amount of donations that nonprofits raise
+
+
+2. Social signaling[ab]
+Everett, J. A. C., Pizarro, D. A., & Crockett, M. J. (2016). Inference of trustworthiness from intuitive moral judgments. Journal of Experimental Psychology: General, 145(6), 772–787.  https://doi.org/10.1037/xge0000165[ac]
+
+
+Type of evidence:  Online experiment American participants recruited through (MTurk), using ethical judgments of hypothetical scenarios as social[ad][ae] signals for incentivized trust games with partner choice. Five studies with 200-500 participants each. 
+Design Study 1:  trust game (TG) with hypothetical deontological (A) and consequentialist agents (B). Participants are always in the role of investor. Amount of money participants transferred to the agent (from ($0.00 to $0.30) was used as an indicator of trustworthiness, as was how much money they believed they would receive back from the agent (0% - 100%).
+Explicit measure of partner choice: “we asked participants to indicate if they had a choice and could select one of the agents, Person A or Person B.[af]”
+
+
+Design Study 2: TG with a target who gave a deontological or consequentialist response to a sacrificial moral dilemma, but in this study we added information that the target reported that their judgment was either “very difficult” or “very easy” to make.[ag] Partner choice question etc. unchanged.
+Design Study 3: Everything unchanged, but [ah] justification for the trapdoor dilemma instead of the footbridge dilemma.
+Design Study 4: [ai]As in Study 3, but with the switch dilemma. [Note the results dissapear here!]
+Design Study 5: [aj]As in Study 3, but with a kill-to-prevent-suffering dilemma.
+
+
+Relation to charitable giving\EA:  Indirect
+Background mechanism:  Singer, MacAskill, Greene 
+Key findings: cognitive processes in forming such judgments (Greene, 2014; Haidt, 2001).
+Ihe TGs, participants entrusted more money to a contractualist-deontological agent than to a consequentialist. If asked depending on the dilemma 53-64% of the participants would rather choose a deontological agent as partner. The authors, thus, infer that making a deontological judgment communicates that a person has a set of socially valued emotional responses (i.e., an aversion to directly harming others) that make them an attractive social partner. Thus, deontological judgments serve as signals of a cooperative nature and compassion leading to greater opportunities to cooperation
+* Let’s put it into less fancy language
+* What is the evidence?
+* What is the evidence cited from other paper for the ‘background mechanisms’
+* Does the evidence find that  ‘deontological judgement relative to utilitarian judgements’ makes you attractive or is it ‘relative to no (deontological) judgements? 
+* Do they mention charitable or the EA movement?
+Kahane, G., Everett, J. A., Earp, B. D., Caviola, L., Faber, N. S., Crockett, M. J., & Savulescu, J. (2018). Beyond sacrificial harm: A two-dimensional model of utilitarian psychology. Psychological Review, 125(2), 131. https://psycnet.apa.org/doi/10.1037/rev0000112  [PDF]
+
+
+Type of evidence: 1009 participants completed a survey online using MTurk. Judging 77 moral dilemmas with respect to instrumental harm (that is, the sacrifice of an individual to save a greater number) on a 7-likert scale 
+Relation to charitable giving\EA:  study sacrificial’ moral dilemmas to learn about ways to endorse utilitarianism and EA based on singer
+Background mechanism:  Singer, MacAskill, Greene 
+Key findings: Abstract “differences in the ‘negative’ (permissive attitude toward instrumental harm) and ‘positive’ (impartial concern for the greater good) dimensions of utilitarian thinking … Empathic concern, identification with the whole of humanity, and concern for future generations were positively associated with impartial beneficence but negatively associated with instrumental harm; and although instrumental harm was associated with subclinical psychopathy, impartial beneficence was associated with higher religiosity.”
+* Acceptance of utilitarianism (and EA) is seen as ‘cold-hearted,’ un-emotional acceptance of instrumental harm. Thus, unreserved acceptance of utilitarianism (and EA) by more than a small minority may face formidable psychological obstacles.
+Jordan, Jillian J., et al. "Uncalculating cooperation is used to signal trustworthiness." Proceedings of the National Academy of Sciences 113.31 (2016): 8658-8663. https://www.pnas.org/content/113/31/8658.short[ak][al] (pdf)
+Type of evidence: Experimental evidence based on two studies including a helping game and a trust game
+Relation to charitable giving\EA:  indirectly
+Background mechanism:  deontological judgments are perceived as more trustworthy  Everett, J. A. C., Pizarro, D. A., & Crockett, M. J. (2016); Cooperate without looking: Hoffman, M., Yoeli, E., & Nowak, M. A. (2015). 
+Key findings:
+* reputation matters for the market of cooperation. Thus, social signaling motivates\explains behavior
+* people cooperate in an uncalculating way to signal their trustworthiness to observers as individuals are more likely to engage in uncalculating cooperation when their decision-making process is observable.
+* Finally, they suggest that people who engage in uncalculating cooperation are perceived as, and actually are, more trustworthy than people who cooperate in a calculating way. But uncalculated decision making in general as perceived negatively. 
+Hoffman, M., Yoeli, E., & Nowak, M. A. (2015). Cooperate without looking: Why we care what people think and not just what they do. Proceedings of the National Academy of Sciences, 112(6), 1727-1732. (pdf) 
+Type of evidence: Deriving equilibriums in the envelope game (economic theory/thought experiment)
+Relation to charitable giving\EA:  indirect
+Background mechanism:  Evolutionary game theory; DellaVigna S, List, Malmendier (2012) testing for altruism and social pressure in charitable giving; Fudenberg D, Maskin E (1990) Evolution and cooperation in noisy repeated game; Nowak MA, Sigmund K (1998) Evolution of indirect reciprocity by image scoring; Trivers  (1971) The evolution of reciprocal altruism
+Key findings: People use Social Heuristics, thus signals are important. People who calculate costs of trading off against sacred values are less trustworthy when it comes to safeguarding these values than people who consider them sacred and would never calculate the costs of trading off against them. Cooperation under temptation can be explained by: cooperate without “looking” (CWOL) Model
+
+
+
+
+Grossman, Z. (2015). Self-signaling and social-signaling in giving. Journal of Economic Behavior & Organization, 117, 26-39. http://dx.doi.org/10.1016/j.jebo.2015.05.008
+Type of evidence: Study 1 - 379 participants in lab experiment binary dictator game with peer; Study 2 -  185 participants in lab experiment binary dictator game with charity
+Relation to charitable giving\EA:  participants gave to a large charity
+Background mechanism:  Bayesian (social) signaling models based on Andreoni and Bernheim, 2009 (laboratory) and DellaVigna et al., 2012, Ariely et al., 2009 (field); social-image concern (e.g., Lazear et al., 2012, Dana et al., 2006, Broberg et al., 2007).
+Key findings: Self- and social-signaling are indepent. If Bayesian self-signaling is present, it is quite subtle and clearly overshadowed by the effects of social-signaling
+Ariely, D., Bracha, A., Meier, S., 2009. Doing good or doing well? image motivation and monetary incentives in behaving prosocially. Am. Econ. Rev. 99,544–555. 10.1257/aer.99.1.544
+Type of evidence: 151 participants in a field experiment 2x2x2 design
+Relation to charitable giving\EA:  participants gave to a large charity
+Background mechanism:  (social) signaling models Andreoni and Ragan Petrie 2004; Danaet al.  2006; pure altruism
+Key findings: 
+* monetary incentives depend crucially on visibility: monetary incentives are more effective in facilitating private, rather than public, prosocial activity
+* image crowding-out by monetary incentives is seen when both the prosocial decision and the extrinsic incentives are publice
+* Without visibility, the incentive to also do well for oneself cannot dilute any signal to others, and consequently extrinsic incentives are very likely to increase prosocial behavior
+Andreoni, J., Bernheim, B.D., 2009. Social image and the 50–50 norm. A theoretical and experimental analysis of audience effects. Econometrica 77,1607–1636. 10.3982/ECTA7384
+
+
+Type of evidence: Analysis of the extended dictator game and experimental evidence from a dictator game in the lab 
+Relation to charitable giving\EA:  none
+Background mechanism:  dictator games, altruism and fairness based on e.g., Fehr and Schmidt (1999), Bolton and Ockefels (2000); impure altruism based on Andreoni 1989; Glazer and Konrad 1996 (A signaling explanation for charity)
+Key findings: The self-signaling effect opposes that of social-signaling. Thus, Andreoni and Bernheim’s results can be interpreted as all the more solid evidence of social-signaling.
+
+
+Karlan, D., & McConnell, M. A. (2014). Hey look at me: The effect of giving circles on giving. Journal of Economic Behavior and Organization, 106, 402-412. https://doi.org/10.1016/j.jebo.2014.06.013
+Type of evidence: field experiment with a telephone fundraising campaign targeting 4,168 prior donor
+Relation to charitable giving\EA:  participants gave to charity
+Background mechanism:  publish gifts out of concern for social image Benabou and Tirole (2006) vs. publish their gifts in order to provide a quality signal to others Vesterlund (2003)
+Key findings: charitable gifts increase in response to the promise of public recognition primarily because of individuals' desire to improve their social image.[am]
+Montano-Campos, F., & Perez-Truglia, R. (2019). Giving to charity to signal smarts: evidence from a lab experiment. Journal of behavioral and experimental economics, 78, 193-199. https://doi.org/10.1016/j.socec.2018.08.004
+
+
+Type of evidence: Lab experiment with 112 students who could give to a local charity. They cross-randomized the visibility of donations and the individuals’ perceptions about the effect of intelligence on the allocation of endowments. Onee group is meritocratic, i.e. the endowment is linked to intelligence (thus donations signal smarts), in the other endowment is randomized (thus donations signal luck).
+Relation to charitable giving\EA:  explores motives of giving
+Background mechanism:  publish gifts out of concern for social image Benabou and Tirole (2006) vs. publish their gifts in order to provide a quality signal to others Vesterlund (2003)
+Key findings: 
+* individuals may engage in public generosity because they want to signal other unobservable characteristics that correlate with income, such as their intelligence.
+* evidence[an] suggests that these publicity incentives may be even more effective if they can signal other related attributes such as intelligence. For example, rather than just publicizing the amounts given by individual donors, charities may also want to publicize the intellectual or business achievements of its contributors
+McManus, T. C., & Rao, J. M. (2015). Signaling smarts? Revealed preferences for self and social perceptions of intelligence. Journal of Economic Behavior & Organization, 110, 106-118. https://doi.org/10.1016/j.jebo.2014.12.009
+
+
+Type of evidence: Lab experiment with 148 subjects
+Relation to charitable giving\EA:  indirectly
+Key findings:  social observation discouraged subjects from signaling academic abilities
+
+
+More papers to analyze - See also Airtable
+That paper with Facebook and Politics that Dean mentioned
+
+
+Adena and Hager: “Does online fundraising increase charitable giving? A nation-wide field experiment on Facebook”
+
+
+Montealegre et al. (2020) Does Maximizing Good Make People Look Bad? Manuscript
+
+
+Type of evidence: Online experiment (M-turk) with hypothetical choices[ao], six pre-registered studies using two different scenarios (N = 1,961)
+Relation to charitable giving\EA:  directly, since 
+Scenarios (including within and between subjects approaches): 
+(i) participants evaluate a response to a[ap] survey question about how to select a charity (“If you were to donate, how would you select which charity to donate to?”). 
+Deliberative:  I would use evidence to calculate which charity spends its donations most cost effectively[aq][ar], and donate to them.
+Empathic: I would try to put myself in the shoes of people who are going through difficult situations, and donate to a charity that helped them.
+(ii) John was approached by a charity fundraiser and was asked whether he would be interested in donating to help Rokia, a 7-year-old girl from Mali, Africa who was desperately poor and faced the threat of severe hunger or even starvation. The charity fundraiser showed John a picture of Rokia (also presented to participants) and then asked John whether he would be interested in supporting her.
+Across conditions, participants were presented with the general scenario and only the potential donor’s actions differed depending on the condition: 
+Deliberation: “John thought that donating to help Rokia might not be the most cost-effective way to use his money and that maybe he should donate to a charity doing something more cost-effective instead. He asked the charity fundraiser about the relevant statistics of the program and since the data suggested this charity was the most cost-effective John donated to the charity.”[as]
+Empathy: “John was deeply moved by Rokia’s situation and about how terrible her situation must be for her. After hearing about her tragic story and imagining how his donation could help her John donated to the charity.”[at][au]
+Robustness[av] checks for: gender, stake size[aw]
+Background mechanism:  donors’ failure to prioritize cost-effectiveness can be explained by signaling concerns, since people who favor deontological over consequentialist decisions are preferred as social partners (Everett et al., 2016),[ax]
+Key findings:  Across six studies, donors who deliberated were perceived as having worse moral character, were rated as less desirable as social partners, and were judged to be less guided by moral motives. On the other hand, those who deliberated were also seen as more reasonable and competent, and were judged to be more guided by pragmatic motives,
+Thus, there may be reputational benefits associated with deliberating. However, since deliberators are less preferred as social partners the authors believe the overall effect one reputation is negative. They do not find any differences in trustworthiness[ay]. Exhibiting empathy before deliberating reduced most negative reputational effects. People how do not give at all are seen as the worst. Surprisingly, participants judge the empathy donors as more wastful.
+
+
+
+
+3. Charity ratings (, #fundraising/donating-choice)
+
+
+Yörük, B. K. (2016). Charity ratings. Journal of Economics & Management Strategy, 25(1), 195-219.
+
+
+Type of evidence:  analysis with regression discontinuity framework
+Relation to charitable giving\EA:  charitable giving in general
+Background mechanism:  the role of consumer reviews and independent ratings in for-profit sectors, e.g. Luca(2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, Jin and Sorensen (2006): health plan ratings have a significant impact on individuals’ health plan choices, Reinstein and Snyder (2005): positive expert reviews have a significant effect on the box office revenue of movies.
+Key findings: 
+
+
+for relatively smaller and unknown charities one star increase in ratings is associated with a 19.5 percent increase in the amount of charitable contributions received
+
+
+
+
+Brown, A. L., Meer, J., & Williams, J. F. (2017). Social distance and quality ratings in charity choice. Journal of Behavioral and Experimental Economics, 66, 9-15. https://www.nber.org/papers/w20182
+
+
+Type of evidence: laboratory experiment (N=414) with real effort task; vary whether third-party ratings (CharityNavigator) are displayed on this menu
+Design: In their “Charity Navigator treatment”, they informed subjects about the criteria by which charities were approved/rating
+Relation to charitable giving\EA:  yes
+Background mechanism:  home-bias, charity rating
+Key findings: 
+choice of charity is impacted by third-party evaluations in two dimensions: a. rated charities receive more donations. However, that could be a “brand effect”; b. the absolute amount donated increased; c. no interaction between the characteristics *rated* and *local*
+
+
+Szper, R., & Prakash, A. (2011). Charity watchdogs and the limits of information-based regulation. VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations, 22(1), 112-141. DOI: 10.1007/s11266-010-9156-2
+
+
+Type of evidence:  examinen data provided by charity navigator 90 nonprofits in the state of Washington for the period 2004–2007.
+Relation to charitable giving\EA:  charitable giving in general
+Background mechanism:  word-of-mouth, charity ratings, social-signaling
+Key findings: 
+* no significant relationship between charity ratings and donor contributions.
+* Some indications that not rating per se, but the type of information matters
+
+
+
+
+Grant, L. E. (2010). The response to third-party ratings: Evidence of the effects on charitable contributions. Unpublished Manuscript, University of California Santa Barbara.
+
+
+Type of evidence:  examining data provided by charity navigator
+Relation to charitable giving\EA:  charitable giving in general
+Background mechanism:  regression discontinuity models to identify the signalling effect of charity ratings.
+Key findings: 
+
+
+* nearly 100,000 potential donors visit Charity Navigator’s web page weekly (in 2010)
+* one star increase in ratings is associated with a 3% to 8% increase in contributions received by charities
+
+
+
+
+4. Effective giving (, #fundraising/donating-choice)
+
+
+Butera, L., & Horn, J. (2020). “Give less but give smart”: Experimental evidence on the effects of public information about quality on giving. Journal of Economic Behavior & Organization, 171, 59-76.
+
+
+Type of evidence:  laboratory experiment; donors make real donations and receive unexpected effectiveness information; ratings from Charity Navigator (CN).
+
+
+Relation to charitable giving\EA:  yes
+Background mechanism:  public visibility/signaling, social image; warm-glow vs. pure altruism, evidence-based information & charity ratings
+
+
+Design: experimental income has to be split between oneself and three charities (i.e. three splits are collected using a strategy vector method). Subjects know that only one split is randomly selected for final implementation. They elicit subjects’ beliefs about their charities’ efficiency. Afterwards they provide new information about their charities’ actual efficiency and allow to modify the initial decisions. Treatments differ in whether the final donation implemented is publicly revealed at the end of the experiment, and whether the quality information each subject receives is publicly revealed at the end of the experiment. In all treatments the name of the randomly chosen charity is never revealed, but subjects have to announce their donation (and the efficiency of their charity) to the other participants of the session.
+Criticism: They use “program expenses” as proxy form impact/effectiveness.
+Key findings: 
+* effect of “quality information” is causal: reception always leads to increase in the quality of the news -> no dominant negative income effect
+* between 16 and 18% of donors increase their donations when discovering that their charities are better-than- expected on the other hand, some individuals tend to disregard bad news about their own charities
+* large portion of donors do not respond to privately received information about charities’ efficiency, a behavior consistent with donors deriving utility from the act of giving itself (warm-glow).
+* social signaling value, 34% of donors in the signaling treatment reducing their donations after receiving good news about their charities’ efficiency, and increasing donations after receiving bad news.
+* results suggest that public “expense” information changes the relative cost of looking prosocial for image motivated donors -> indication that signaling effectiveness is socially accepted
+Theoretical Framework and concepts 
+Nuisance costs
+Nuisance costs reflect the actual effort that an individual has to bear when she decides to fundraise\comply with the treatment.
+How much effort is required in our experiment? Does the effort differ between donors and treatments? Could it affect behavior in our experiment?
+Key papers: Castillo et al. 2013 -  an explanation why donors do not start a fundraiser could be the nuisance costs to set it up and to register and organize everything. Donors who are still online face less costs -> not homogenous among donors. These costs explain differences between individuals and treatments.
+Social costs[az]
+if our friends donate out of friendship to us and not merely because of the intrinsic value of the charity, we might incur a social cost by asking them. Indeed, by asking a friend to donate to a charity we care about, we may be asked to return the favor in the future making peer-to-peer fundraising costly.
+
+
+Key papers: Castillo et al. 2013 -   if it is more costly to ask a friend directly, compared to posting a message on one's FB wall, then we should see a lower take-up rate in the private message treatment, as we do.
+
+
+Question for our experiment: How high are the social costs to set up a fundraiser?
+Add-on donation[ba][bb][bc][bd]
+Assigned to a treatment an additional donation is made in name of the donor. Potential incentive for participation.
+Key papers: Castillo et al. 2013 -  to the charity in the donor's name as compensation for completing the post  either $0, $1 or $5 was donated.
+Conformity \ benchmark \ anchoring
+Donations may signal to donors how much it is socially appropriate for them to give. When they arrive at a page, donors observe the distribution of past donations and use this to form – or update – their beliefs about how much they should give.
+Key papers: Smith et al. 2015[be] - donors give what they think that they personally are expected to give where the distribution of the donations of their peers (along with other factors, such as income and specific cause) feed into the formation of that expectation.
+Thresholds \ fundraising targets
+that the size of the first donation to take the total over the target donation is significantly higher and second that donations are lower on average after the target than before
+Key papers: Smith et al. 2015 
+Social signaling
+The economics model of concern for reputation incorporates social signaling as it affects the posterior expectations of others about the person's intrinsic and extrinsic utility. Since individuals hold private information on their type or identity, they can send (costly) signals to be perceived as social and trustworthy increasing their chances to receive social rewards and  cooperation opportunities.  
+Social signaling is supported by empirical research providing evidence  that people alter their behavior to send a positive signal about themselves (For example, Andreoni and Bernheim 2009 in the lab and DellaVigna et al., 2012 + Ariely et al., 2009 in the field). Analyses have shown that the equilibrium condition of Bayesian signaling models, in which choices and beliefs about those making them are determined simultaneously, are useful for predicting and explaining patterns of giving driven by social-image concern (e.g., Lazear et al., 2012; Dana et al., 2006; Broberg et al., 2007). One key factor that determines the importance of reputation concerns and social signaling is visibility (e.g. the number of people who observe the action). 
+Setting up a Facebook fundraiser and donating through it are highly visible actions. Therefore, reputation concerns and social signaling are relevant factors to explain the behavior of both donors and fundraisers. In our experiment donors and fundraisers can signal their positive personality traits by providing effort and giving money to help others. Moreover, they can send a further signal by giving the reason why they engage in the fundraiser. In a simplified model, they could motivate their donation with empathy\the duty to give, effectiveness\welfare implication of giving, or potentially both. However, the literature suggests that empathy signals gain (more) social trust\reputation, while effectiveness concerns lead to lower social rewards or might even harm the reputation of the donor. The reason for this simple: empirical studies find characteristically deontological judgments improve fitness in the cooperation market (Everett et al., 2016; Kahane et al., 2018). It is not necessary that each and every person prefers an agent that makes a characteristically deontological judgment, but rather that ceteris paribus, an agent who makes characteristically deontological judgments will be trusted more overall by a given population. Therefore, a full EA approach (endorsement of cost-effectiveness) is seen as ‘cold-hearted,’ and unemotional acceptance of instrumental harm. Such an approach on a fundraiser sends a negative signal to peers and potential cooperators. However, the effect be reduced, avoided or flipped if it is effectively presented that instrumental harm is avoided and compassion is demonstrated (Everett et al. 2016 c.f. conclusion).
+On the other hand, experimental evidence suggests that donors also want to signal their smarts (Mantatno-Campos and Perez-Truglia, 2019). Taking this finding into account, we could conjecture that using scientific charity evaluation and, finally, choosing a very cost-effective charity qualifies as a method to signal smarts. However, charitable giving is widely seen as a positive social signal. The amount given (also by fundraisers) might therefore overtop all other signals or concerns about signaling. A further question is,  whether the persons giving mindset matters. I.e. how would an empathy/deontological mindset or effectiveness/utilitarian mindset affect behavior?
+Key papers: Everett et al. 2016 + Kahane et al 2018
+Related concepts: Home biases, taboo aversion
+
+
+Hanson/Wiblin exchange on 80000 hours podcast; see Chapter 12 of “The Elephant in the Brain”
+
+
+Hanson: But of course people spend a lot of time directly helping even when they’re relatively well-paid and they could pay other people who earn much lower wages to do a lot more.
+
+
+Wiblin: This is the example of the high-flying lawyer dishing out soup in a soup kitchen.
+
+
+Hanson: …. the alternative theory that we suggest is that you are trying to show that you feel empathy. That is you want to show there is an emotional capacity in you such that if you see someone around you in need you will feel like you want to do something about that. And existing charities do tend to successful show that. They show somebody who needs help in a direct way that invokes your emotions and you do help to some degree, you do the thing that people would say would help and that shows people around you that you’re not an uncaring person and it might show them, for example, that if they were in need of help later and they were near you you would see them and you would feel about them too. You want to show people that you will be useful ally. If either of you is in trouble the other will come to their aid.
+
+
+Wiblin: So why is it more important to show the people that you’re the kind of person who if they someone in pain that they’re going to try to help them right then and there than to show that you’re the kind of person who’s smart enough to think about which charities are useful and does their research and actually tries to help people? Because if you don’t care about whether charities are effective or not, my thoughts would just be that you’re not really going to pay attention to whether you’re actually helping your friends or not?
+
+
+Hanson: Right, but at least if I want your help and I’m your friend it will be my job to put myself in your face and to tell you about my problem. And maybe I figure I could successfully get myself in front of your face and make you pay attention to my problem and help you understand what I think is effective and then you would just do what I say, and that’s maybe what I’m mostly hoping for. And if you were this person who thinks carefully about how to help the best person in the world who needs help, well I’m plausibly not going to be that best person in the world who needs help so I’m not going to win out in that contest so it’s not actually going to be that useful to know you as the sort of person who will help the person in the world who needs the most help.[bf]
+
+
+________________
+[1] This is in accordance with the research on matching funds in charitable donations (Karlan and List, 2007; Eckel and Grossman, 2008; Huck and Rasul, 2011) where larger monetary matches are not more effective than smaller matches.[bg]
+[a]+janek.kretschmer@gmail.com By the way in terms of lit review we should focus largely on the evidence on the impact of impact information; I/we have some existing review work on this of course. See, e.g., here: https://daaronr.github.io/dualprocess/SPI_EA_impact.html#/barriers
+
+
+Click 'o' to see the full map of html slides
+[b]https://docs.google.com/document/d/10XjR1mKRJ6THQkdVYcMSng024u47dDwRWAJ6T0BvJ30/edit#heading=h.3jahgvdh9907 was our earlier start on this! +janek.kretschmer@gmail.com
+[c]see also:  SPPS R&R_final edits.docx - esp pp 2-6. https://drive.google.com/file/d/1ydmtQXZlj1Ir5S-s0U4r4_-luPR0NH1c/view?usp=sharing
+[d]Great David. However, for me it is still not fully clear how we organize our literature review. I guess we will have a section very short overviews and another space were we work more in depth. Is that the basic idea?
+[e]Perhaps... and we move material and discussion that is not relevant elsewhere. Here I'm considering this mainly as a lit review to inform our own design concerns. We later retool towards an ultimate paper/
+[f]Note that I added a field in the papers_mass table of the giving-researchers-shared Airtable ... final field to the right, called 'social-media'.
+
+
+If the paper involved some social fundraising site, enter the name of the site there, I guess
+[g]+janek.kretschmer@gmail.com +pm.smeets@maastrichtuniversity.nl 
+
+
+A thematic structure like this should organise our lit review writeup. 
+
+
+Focus on key elements of each paper only; put the fuller writeups of the paper/other details in the Airtable, which we can link.
+
+
+"Minimize vertical space"
+
+
+Let's also put this lit review in a tabular (Airtable) format, allowing us to expand horizontally and put together 'literature review tables' in future.  
+
+
+For now Google Drive is fine but soon I'd like to switch to "markdown files", shared as a project on Github, and I'll talk you through how to do this.
+[h]+janek.kretschmer@gmail.com we can use these hash tags to indicate the relevance of articles and parts of these
+[i]This helps motivate our fundraiser treatment
+[j]This is very relevant to our design even though posting the donation on the page is not the same as starting a fundraiser, and they are targeting people who already donated. We still should examine it carefully and use it to benchmark a bit.
+[k]which ones?
+[l]was this a 'tight null result' or simply a lack of statistical power/wide confidence intervals?
+[m]Lack of power, however, effect size seems to be really low compared to jump 0$-1$
+[n]not sure what this means
+[o]how do they infer this, it's not obvious
+[p]""Just" comparison with the control group. However, I see your point.
+[q]Hmm, it kind of seems obvious, no?
+[r]Wouldn't say so. Sometimes costly investments in advertising pay-off. Not in this experiment, though.
+[s]not sure what you are saying here
+[t]better?
+[u]This motivates our work. We should quote it.
+[v]+janek.kretschmer@gmail.com this is good but we should categorise and summarize this. E.g., 'data scraping for charities on Facebook Causes, capturing XXX,  linked to financial records. '
+[w]These all seem obvious. Does it inform our design?
+[x]I would say it is good that there is evidence for it. I could move it to the secondary literature.
+[y]How does this inform our work? Can we do similar content analyses for Facebook fundraiser content?
+[z]I think this could be helpful for our donor treatment.
+[aa]This is worth a footnote at best. It doesn't inform our work as far as I can see. +janek.kretschmer@gmail.com
+[ab]+janek.kretschmer@gmail.com How shall we order the papers in each section? By importance, perhaps?
+[ac]+janek.kretschmer@gmail.com I just read through this articles and I have some notes. I agree the evidence is not very strong, not entirely  relevant, and in fact their results are mixed if you look closely!
+_Assigned to Janek Kretschmer_
+[ad]Say a little more about this. How were these judgements shared with the other participants?
+[ae]will be done by tomorrow morning
+[af]I am afraid that this is not very strong evidence. Maybe people would anticipate that consequencialists would understand better that "keeping the money" is a dominant strategy in this game. Also the design seems to be close to decipetion.
+[ag]I think is is already better evidence.
+[ah]I think is is already better evidence.
+[ai]I think is is already better evidence.
+[aj]I think is is already better evidence.
+[ak]+janek.kretschmer@gmail.com This one may be more relevant; it provides actual evidence
+[al]Very relevant paper conforming what we found earlier. Right?
+[am]+janek.kretschmer@gmail.com How do the identify the 'because'? Do they use a similar "reveal before versus real after" as in Reinstein and Riener?
+[an]Describe the *specific* evidence
+[ao]Good (for the categories I had set up). But are they 'choices' or 'evaluations'?
+[ap]+janek.kretschmer@gmail.com We need to explain what 'evaluate a response to a survey question' means. We sort of get to it below but not fully, and it's confusing when you read this first.
+[aq]+janek.kretschmer@gmail.com -- but is 'cost effectively' perceived as 'most lives saved per dollar'?
+[ar]It's also not clear whether the 'Deliberative' person is giving as much as the 'Empathic' person.
+[as]+janek.kretschmer@gmail.com There are reasons why I think this is not a perfectly clean comparison (see 'considerations' below).
+[at]+daaronr@gmail.com I hope that answers the open quetions from our last call :)
+[au]it definitely helps, but let's close a few more gaps
+[av]Also please explain the 'between subject' tests and results
+[aw]And what did these 'robustness checks' find?
+[ax]+janek.kretschmer@gmail.com I'm not sure this is the 'mechanism' for the effect documented. Here the effect itself is 'perceived to have worse moral character etc'. So the *mechanism* could be through evolutionary fitness, or something.
+[ay]tightly bounded null?! That would be interesting.
+[az]Yes, this motivates the idea that starting these birthday fundraisers is indeed costly
+[ba]Not sure this is a 'theoretical concept'... it's just a convenient term
+[bb]But what do we know about the impact of this tool on donors motivation and behavior?
+[bc]There is a pretty large literature on the impact of matching donations on the incentive to *donate* but I don't know of much on the impact on the incentive to fundraise/promote own donation.  
+ 
+Are you thinking about theory or empirics here?
+[bd]More empirical. However, I wonder whether it works conceptionally different than matching.
+[be]There are others as well in this vein
+[bf]+janek.kretschmer@gmail.com It would be nice to find other prominent sources (academics, fundraising influencers etc) making this argument so it doesn't seem like a straw man
+[bg]At most this deserves a footnote, I guess
