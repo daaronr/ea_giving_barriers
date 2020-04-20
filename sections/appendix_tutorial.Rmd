@@ -1,7 +1,3 @@
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Appendix: Tech for creating, editing and collaborating on this 'Bookdown' web book/project (and starting your own) {#bookdown-appendix}
 
 *This tutorial written by Oska Fentem with David Reinstein*
@@ -174,19 +170,18 @@ docs: html output put here for web hosting
 ### Adding references/citations
 As with any academic work, it is always important to reference sourced material. Across this range of projects the following software is used:
 
-**Pandoc**
+- **Pandoc**
 Pandoc provides a way to generate formatted references as well as a bibliography in Markdown. The bibliography file is specified in the associated YAML metadata file, which in this case is [bookdown.yml](writing_econ_book/bookdown.yml).
 
-**BibTeX**
+- **BibTeX**
 The BibTeX format refers to a stylized file format which is used predomoninantly for lists of references. BibTeX bibliographies use the .bib extension. For example the bibliography for this project is [giving_keywords.bib](support/giving_keywords.bib). For more information on BibTeX see [here](http://www.bibtex.org/)
 
-**Citr package**
+- **Citr package**
 The Citr package provides functions to search Zotero and BibTeX libraries in order to insert references into Markdown files. Citr also features a plugin for RStudio which makes the referencing process even easier. Instructions for download, as well as a demonstration of the Rstudio plugin are provided [here.](https://github.com/crsh/citr/blob/master/README.md)
 
-Zotero and Better Bibtex for Zotero
-**Zotero** is a free open source reference manager, which enables users to sync their library of references across multiple devices. Similarly to other reference managers, Zotero offers plugins for popular browsers such as Chrome and Safari. [Download Zotero](https://www.zotero.org/download/)
-**Better BibTeX for Zotero** 
-Better BibTeX for Zotero is a add-on for Zotero. Among other things it allows the Zotero library to be exported from Zotero for use in Markdown. Installation instructions are provided [here.] (http://retorque.re/zotero-better-bibtex/installation/)
+- **Zotero** is a free open source reference manager, which enables users to sync their library of references across multiple devices. Similarly to other reference managers, Zotero offers plugins for popular browsers such as Chrome and Safari. [Download Zotero](https://www.zotero.org/download/) \
+- **Better BibTeX for Zotero** 
+Better BibTeX for Zotero is a add-on for Zotero. Among other things it allows the Zotero library to be exported from Zotero for use in Markdown. Installation instructions are provided [here.](http://retorque.re/zotero-better-bibtex/installation/)
 
 
 ## How to 'build' and view the book
