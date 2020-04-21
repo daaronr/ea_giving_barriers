@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This appendix provides a brief introduction to the several types of software and processes used to creating websites such as [Increasing Effective Charitable Giving](https://daaronr.github.io/ea_giving_barriers/outline.html) and [Researching and writing for Economics students](https://daaronr.github.io/writing_econ_research/about-this-work.html). We aim to encourage others to participate in this collaborative work, and to spin off their own projects.
+This appendix provides a brief introduction to the several types of software and processes used to creating websites such as [Increasing Effective Charitable Giving](https://daaronr.github.io/ea_giving_barriers/outline.html) and [Researching and writing for Economics students](https://daaronr.github.io/writing_econ_research/about-this-work.html). We aim to encourage others to participate in this collaborative work, and to spin off their own projects. If you would like to provide feedback or ask a question about these projects then using 'hypothes.is' is an easy way to do so.
 
 
 ```{block2,  type='note'}
@@ -155,18 +155,44 @@ docs: html output put here for web hosting
 ## The code in a single ".Rmd" file and how it translates into content
 
 ### Basic (R-)Markdown
+<!-- Could do with rewording -->
+Markdown documents allow for an easy way to write reports. Content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or regression output. 
+Text can be made *italic* using single asterisks `*italic` **bold** by using asterisks `**bold**`.
+There are various text formatting options in Markdown, far too many to detail here. The following cheatsheets are very useful for writing markdown documents:
+- [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [R Markdown cheatsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 
-### Code blocks
+### Code blocks/chunks
+
 
 ### Inline code
 
 ### Latex/maths
+R Markdown makes use of the LaTeX document preparation system, which is popular for writing technical documents with mathematical content. This allows us to publish documents which include equations such as:
+$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u$$
+Which is written using `$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$`. Using `$$` means that the equation will be centered on the page. Alternatively `$` can be used in the same way, without the centering. 
+[A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html)
 
+### Custom styles
+Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in [tufte_plus.css](support/tufte_plus.css). To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as show below for margin notes.
+- More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html). Below will outline several key styles used throughout these projects.
 ### 'Notes'
 
 ### Folding boxes
 
 ### Margin notes
+Margin notes are used throughout projects as a way of displaying information in an organised and aesthetically pleasing way. The formatting for margin notes as well as other visual features are outlined in [tufte_plus.css](support/tufte_plus.css).
+To add a margin note, text is placed inside the following HTML wrapper.
+
+<div class='marginnote'>
+The margin notes used in this project are inspired by the Tufte handout style developed by American statistician Edward Tufte.
+</div>
+```{html}
+<div class="marginnote">
+Your margin note goes here.
+</div>
+```
+
 
 ### Adding references/citations
 As with any academic work, it is always important to reference sourced material. Across these projects the following software is used:
