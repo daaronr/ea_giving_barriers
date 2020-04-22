@@ -156,26 +156,42 @@ docs: html output put here for web hosting
 
 ### Basic (R-)Markdown
 <!-- Could do with rewording -->
-Markdown documents allow for an easy way to write reports. Content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or regression output. 
+Markdown documents allow for an easy way to write reports. Content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or tables of data. 
 Text can be made *italic* using single asterisks `*italic` **bold** by using asterisks `**bold**`.
 There are various text formatting options in Markdown, far too many to detail here. The following cheatsheets are very useful for writing markdown documents:
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [R Markdown cheatsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 
-### Code blocks/chunks
+### Code chunks
+Code chunks provide an easy way to embed code into your R Markdown files. The code language is not just limited to R either, as other languages can be used. This means that there is a wide variety of content which can be displayed in a chunk. Such as tables of data:
 
+```{r, echo=FALSE}
+head(iris)
+```
+Code chunks are defined by wrapping text inside ```` ```  ``` ````. The above example was coded using:
+````markdown
+`r ''````{r}
+head(iris)
+``` 
+````
+<!-- ````markdown `r ''````
+```` -->
+Options can be specified inside of the curly brackets {}
+More information is provided [here](https://bookdown.org/yihui/rmarkdown/r-code.html)
 
 ### Inline code
+Inline code is a quick and easy way to put snippets of R code. As an alternative to using code chunks, R code can simply be placed inside of ``` `r ` ```. For example, this can be an easy way to insert the value of a variable into a paragraph without inserting a chunk.
 
 ### Latex/maths
 R Markdown makes use of the LaTeX document preparation system, which is popular for writing technical documents with mathematical content. This allows us to publish documents which include equations such as:
 $$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u$$
 Which is written using `$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$`. Using `$$` means that the equation will be centered on the page. Alternatively `$` can be used in the same way, without the centering. 
-[A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html)
+[A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html) provides a detailed outline of the various mathematical symbols which can be used.
 
 ### Custom styles
 Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in [tufte_plus.css](support/tufte_plus.css). To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as show below for margin notes.
 - More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html). Below will outline several key styles used throughout these projects.
+
 ### 'Notes'
 
 ### Folding boxes
