@@ -156,6 +156,7 @@ docs: html output put here for web hosting
 
 ### Basic (R-)Markdown
 <!-- Could do with rewording -->
+<<<<<<< HEAD
 
 The Markdown format offers a simple plain-text notation for specifying the elements of documents, reports, web sites, etc. (It is much simpler and easier to read than html, latex, etc.)  It is widely used by programmers, on comment boards/forums, and throughout the internet. For example, GitHub.com automatically renders markdown code, particularly in `readme.md` files.
 <div class="marginnote">
@@ -190,18 +191,47 @@ Other key features are ordered lists and unordered lists:
 ```
 
 While basic markdown has a limited set of rules, there are many more formatting and content options for documents produced in (R)-Markdown, far too many to detail here. These may combine markdown code, html code, latex code, and more. The following cheatsheets are very useful for writing (R)-markdown documents:
+=======
+Markdown documents allow for an easy way to write reports. Content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or tables of data. 
+
+<div class='marginnote'>
+Text can be made *italic* using single asterisks `*italic*` and **bold** by using double asterisks `**bold**`.
+</div>
+
+There are various text formatting options in Markdown, far too many to detail here... The following cheatsheets are very useful for writing markdown documents:
+>>>>>>> 78db1096bf2899c13e2248dc8728ad0dc55e7fdc
 
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 - [R Markdown cheatsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 
+<<<<<<< HEAD
 See also (most useful, but highly detailed):
 
 - [R markdown - the definitive guide](https://bookdown.org/yihui/rmarkdown/)
 
 ### Code blocks/chunks
+=======
+### Code chunks
+Code chunks provide an easy way to embed code into your R Markdown files. The code language is not just limited to R either, as other languages can be used. This means that there is a wide variety of content which can be displayed in a chunk. Such as tables of data:
+
+```{r, echo=FALSE}
+head(iris)
+```
+Code chunks are defined by wrapping text inside ```` ```  ``` ````. The above example was coded using:
+````markdown
+`r ''````{r}
+head(iris)
+``` 
+````
+<!-- ````markdown `r ''````
+```` -->
+Options can be specified inside of the curly brackets {}
+More information is provided [here](https://bookdown.org/yihui/rmarkdown/r-code.html)
+>>>>>>> 78db1096bf2899c13e2248dc8728ad0dc55e7fdc
 
 ### Inline code
+Inline code is a quick and easy way to put snippets of R code. As an alternative to using code chunks, R code can simply be placed inside of ``` `r ` ```. For example, this can be used as an easy way to insert the value of a variable into a paragraph without inserting a chunk.
 
 ### Latex/maths
 
@@ -210,6 +240,7 @@ R Markdown also can make use of the LaTeX document preparation system, which is 
 $$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u$$
 
 Which is written using `$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$`. Using `$$` means that the equation will be centered on the page. Alternatively `$` can be used in the same way, without the centering. 
+<<<<<<< HEAD
 
 [A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html)
 
@@ -220,9 +251,18 @@ Bookdown allows for users to build their own custom styles in order to change th
 - More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html). Below will outline several key styles used throughout these projects.
 
 ### 'Notes'
+=======
+[A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html) provides a detailed outline of the various mathematical symbols which can be used.
 
-### Folding boxes
+### Custom styles
+Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in [tufte_plus.css](support/tufte_plus.css). To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as shown below for margin notes.
+>>>>>>> 78db1096bf2899c13e2248dc8728ad0dc55e7fdc
 
+<div class = 'marginnote'>
+More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html).
+</div>
+
+<<<<<<< HEAD
 ### Margin notes
 
 Margin notes are used throughout projects as a way of displaying information in an organised and aesthetically pleasing way. The formatting for margin notes as well as other visual features are outlined in [tufte_plus.css](support/tufte_plus.css).
@@ -231,6 +271,18 @@ Margin notes are used throughout projects as a way of displaying information in 
 
 
 To add a margin note, text is placed inside the following HTML wrapper.
+=======
+There are 3 main custom styles which are used throughout the projects:
+
+- **'Notes'**
+
+```{block2, type = 'note'}
+Formatted 'Notes' have been defined in this work which allow text to be placed in coloured blocks such as this one. To use this note style, `{block2, type ='note'}` can be specified at the start of the block, or a HTML wrapper can be used. This assigns the .note formatting from the tufte_plus.css file to the chunk.
+```
+
+- **Margin notes**
+Margin notes are used throughout these projects as a way of displaying information in an organised and aesthetically pleasing way. To add a margin note, text is placed inside the following HTML wrapper:
+>>>>>>> 78db1096bf2899c13e2248dc8728ad0dc55e7fdc
 
 
 <div class='marginnote'>
@@ -242,7 +294,13 @@ The margin notes used in this project are inspired by the Tufte handout style de
 Your margin note goes here.
 </div>
 ```
+Or margin notes can be added by using chunk options.
 
+- **Folding boxes**
+
+```{block2, type = 'fold'}
+Folding boxes also provide a useful way to incorporate content without cluttering the page. Similarly to the 'notes' the folding boxes are defined in tufte_plus.css and called by specifying `{block2, type='fold'}` at the start of a chunk, or using a HTML wrapper.
+```
 
 ### Adding references/citations
 As with any academic work, it is always important to reference sourced material. Across these projects the following software is used:
