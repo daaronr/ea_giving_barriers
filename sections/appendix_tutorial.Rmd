@@ -156,87 +156,37 @@ docs: html output put here for web hosting
 
 ### Basic (R-)Markdown
 <!-- Could do with rewording -->
-
-The Markdown format offers a simple plain-text notation for specifying the elements of documents, reports, web sites, etc. (It is much simpler and easier to read than html, latex, etc.)  It is widely used by programmers, on comment boards/forums, and throughout the internet. For example, GitHub.com automatically renders markdown code, particularly in `readme.md` files.
-<div class="marginnote">
-Actually there are several varieties of markdown, but they mainly share key elements.
-</div>
- 
-
-
-Markdown documents are usually saved as plain text files with the extension `.md`, e.g., `report.md`.   These allow for an easy way to create a variety of outputs, particularly reports and text-focused web pages. The markdown format is *converted* into other formats (html, latex, etc.) with a variety of tools, particularly something called Pandoc.
-
-In the R (statistically focused) language there are tools such as `knitR` that  allow R users to produce reports combining text, statistical output, and interactive content. These are generally written in "R-markdown" documents, saved as `.Rmd` rather than `.md` files. The R-studio interface, and several "add-ins", also help facilitate this. This interface is very useful; in fact, it may be convenient to build web books and other content using this even if you are not planning to extensively integrate R code and data. (As in the present book, although I'm hoping to build this in).
-
-Using R-markdown and Knitr (and other tools and add-ins like 'Bookdown') content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or regression output. 
-
-### Some simple markdown rules {#simple-md-rules}
-
-  
-Text can be made *italic* using single asterisks `*italic` or **bold** by using asterisks `**bold**`.
-
-Hashtags/pound signs (`#`) specify headers and subheaders, e.g., this third-level subsection header was created with the code:
-  
-`### Some simple markdown rules {#simple-md-rules}`
-
-Where the bit in the curly braces allows us to link-back with the code `[link back text whatever](#simple-md-rules)` ... rendering as [link back text whatever](#simple-md-rules).
-
-Other key features are ordered lists and unordered lists:
-  
-```
-- unordered first entry
-- unordered second entry
-     - subelement of second entry
-```
-
-While basic markdown has a limited set of rules, there are many more formatting and content options for documents produced in (R)-Markdown, far too many to detail here. These may combine markdown code, html code, latex code, and more. The following cheatsheets are very useful for writing (R)-markdown documents:
-
+Markdown documents allow for an easy way to write reports. Content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or regression output. 
+Text can be made *italic* using single asterisks `*italic` **bold** by using asterisks `**bold**`.
+There are various text formatting options in Markdown, far too many to detail here. The following cheatsheets are very useful for writing markdown documents:
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
 - [R Markdown cheatsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 
-See also (most useful, but highly detailed):
-
-- [R markdown - the definitive guide](https://bookdown.org/yihui/rmarkdown/)
-
 ### Code blocks/chunks
+
 
 ### Inline code
 
 ### Latex/maths
-
-R Markdown also can make use of the LaTeX document preparation system, which is popular for writing technical documents with mathematical content. This allows us to publish documents which include equations such as:
-
+R Markdown makes use of the LaTeX document preparation system, which is popular for writing technical documents with mathematical content. This allows us to publish documents which include equations such as:
 $$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u$$
-
 Which is written using `$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$`. Using `$$` means that the equation will be centered on the page. Alternatively `$` can be used in the same way, without the centering. 
-
 [A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html)
 
 ### Custom styles
-
-Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in [support/tufte_plus.css](support/tufte_plus.css). To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as show below for margin notes.
-
+Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in [tufte_plus.css](support/tufte_plus.css). To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as show below for margin notes.
 - More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html). Below will outline several key styles used throughout these projects.
-
 ### 'Notes'
 
 ### Folding boxes
 
 ### Margin notes
-
 Margin notes are used throughout projects as a way of displaying information in an organised and aesthetically pleasing way. The formatting for margin notes as well as other visual features are outlined in [tufte_plus.css](support/tufte_plus.css).
-
-<!-- DR: not sure I actually explain it there... this is my own blending of a few formats -->
-
-
 To add a margin note, text is placed inside the following HTML wrapper.
-
 
 <div class='marginnote'>
 The margin notes used in this project are inspired by the Tufte handout style developed by American statistician Edward Tufte.
 </div>
-
 ```{html}
 <div class="marginnote">
 Your margin note goes here.
@@ -247,30 +197,15 @@ Your margin note goes here.
 ### Adding references/citations
 As with any academic work, it is always important to reference sourced material. Across these projects the following software is used:
 
-- **Setup**
+- **Pandoc**
 
-Pandoc provides a way to generate formatted references as well as a bibliography in Markdown.
-
-(This is done through Pandoc tools.)
-
-<div class="marginnote">
-Oska, are you sure about this? 
-</div>
-
-The bibliography file to be sourced is specified within 'YAML' content, which guides the processing of these documents. (YAML content is generally enclosed with a three-dash `---` break at top and bottom.)
-
-I generally specify the bibliography source in the YAML at the top of the .Rmd file, or for Bookdown project,s in the  the YAML content in index.Rmd.  (Y
-
-<div class="marginnote">
-@Oska -- we should try to ecplain this yaml stuff a bit better.
-</div>
- 
+Pandoc provides a way to generate formatted references as well as a bibliography in Markdown. The bibliography file is specified in the associated YAML metadata file, which in this case is [bookdown.yml](writing_econ_book/bookdown.yml).
 
 - **BibTeX**
 
-The BibTeX format refers to a stylized file format which is used predomoninantly for lists of references, mainly and originally for working with latex.. BibTeX bibliographies use the .bib extension. For example the bibliography for this project is [giving_keywords.bib](support/giving_keywords.bib). For more information on BibTeX see [here](http://www.bibtex.org/)
+The BibTeX format refers to a stylized file format which is used predomoninantly for lists of references. BibTeX bibliographies use the .bib extension. For example the bibliography for this project is [giving_keywords.bib](support/giving_keywords.bib). For more information on BibTeX see [here](http://www.bibtex.org/)
 
-- **Citr package (addin) for RStudio**
+- **Citr package**
 
 The Citr package provides functions to search Zotero and BibTeX libraries in order to insert references into Markdown files. Citr also features a plugin for RStudio which makes the referencing process even easier. Instructions for download, as well as a demonstration of the Rstudio plugin are provided [here.](https://github.com/crsh/citr/blob/master/README.md)
 
@@ -278,14 +213,9 @@ The Citr package provides functions to search Zotero and BibTeX libraries in ord
 
 Zotero is a free open source reference manager, which enables users to sync their library of references across multiple devices. Similarly to other reference managers, Zotero offers plugins for popular browsers such as Chrome and Safari. [Download Zotero](https://www.zotero.org/download/) 
 
-
 - **Better BibTeX for Zotero** 
 
 Better BibTeX for Zotero is a add-on for Zotero. Among other things it allows the Zotero library to be exported from Zotero for use in Markdown. Installation instructions are provided [here.](http://retorque.re/zotero-better-bibtex/installation/)
-
-I currently (25 Apr 2020) am having Zotero automatically maintain/output the key .bib file to a dropbox folder. Each project has code to routinely download this file with a command such as 
-
-`download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = "reinstein_bibtex.bib")`
 
 
 ## How to 'build' and view the book
