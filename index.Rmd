@@ -37,7 +37,7 @@ output:
 bookdown::pdf_book:
     keep_tex: yes
 always_allow_html: yes
-bibliography: [./references.bib,reinstein_bibtex.bib] #this first one seems to be auto-generated ?
+bibliography: [./references.bib, support/reinstein_bibtex.bib] #this first one seems to be auto-generated ?
 #bibliography: [support/giving_keywords.bib, support/packages.bib]
 biblio-style: apalike
 link-citations: yes
@@ -53,109 +53,15 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-<!--
-
-```{r htmlTemp3, echo=FALSE, eval=FALSE}
-
-collapsejs <- readr::read_lines("js/collapse.js")
-codejs <- readr::read_lines("js/codefolding.js")
-
-transitionjs <- readr::read_lines("js/transition.js")
-dropdownjs <- readr::read_lines("js/dropdown.js")
-
-htmlhead <- c(
-  paste('
-<script>',
-paste(transitionjs, collapse = "\n"),
-'</script>
-<script>',
-paste(collapsejs, collapse = "\n"),
-'</script>
-<script>',
-paste(codejs, collapse = "\n"),
-'</script>
-<script>',
-paste(dropdownjs, collapse = "\n"),
-'</script>
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-.row { display: flex; }
-.collapse { display: none; }
-.in { display:block }
-.pull-right > .dropdown-menu {
-    right: 0;
-    left: auto;
-}
-.open > .dropdown-menu {
-    display: block;
-}
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
-    font-size: 14px;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
-}
-</style>
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("show" === "hide");
-});
-</script>
-', sep = "\n"),
-  paste0('
-<script>
-document.write(\'<div class="btn-group pull-right" style="position: absolute; top: 20%; right: 2%; z-index: 200"><button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-_extension-text-contrast=""><span>Code</span> <span class="caret"></span></button><ul class="dropdown-menu" style="min-width: 50px;"><li><a id="rmd-show-all-code" href="#">Show All Code</a></li><li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li></ul></div>\')
-</script>
-')
-)
-
-readr::write_lines(htmlhead, path = "header.html")
-```
-
--->
-
-<!--
-base file created from
-
-`pandoc -f docx -t gfm -o writing_econ_gfm.md "bookoutline3-cutting examples down-cutnamesd.docx" `
-
-and similar from
-
-
-`pandoc -f docx -t gfm -o writing_econ_gfm1.md "Adapting back for BOOK --Ec831 outline-fillingindetails_forslides_edMiriam-conflict.docx"`
-
-replacements needed:
-
-- "\[ \]" surrounds math -- square brackets do not need 'escape' in main text
-- colors need adjusting to 'format_with_col'
-
--->
-
 Try downloading and accessing some functions here:
 ```{r download-formatting-to-support-folder}
 
 library(here)
 tryCatch(
   {
-download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/bookdown_template/support/header.html", destfile = here("support", "header.html"))
-  download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/bookdown_template/support/tufte_plus.css", destfile = here("support", "tufte_plus.css"))
-  download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = "reinstein_bibtex.bib")
+download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/bookdown_template/support/header.html", destfile = here("support", "headerX.html"))
+  download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/bookdown_template/support/tufte_plus.css", destfile = here("support", "tufte_plusX.css"))
+  download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = here("support","reinstein_bibtexX.bib"))
 },  error = function(e) {
   print("you are not online, so we can't download")
 }
@@ -169,8 +75,8 @@ library(here)
 library(devtools)
 
 tryCatch(
-  {source_url('https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/functions.R')
-    source_url('https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/baseoptions.R')
+  {source_url('https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/functionsX.R')
+    source_url('https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/baseoptionsX.R')
 },  error = function(e) {
   print("you are not online, so we source locally instead; hope you've updated")
   source(here("code", "functions.R")) # functions grabbed from web and created by us for analysis/output

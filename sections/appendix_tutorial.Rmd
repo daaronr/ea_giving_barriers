@@ -156,9 +156,9 @@ docs: html output put here for web hosting
 
 ### Basic (R-)Markdown
 <!-- Could do with rewording -->
-<<<<<<< HEAD
 
 The Markdown format offers a simple plain-text notation for specifying the elements of documents, reports, web sites, etc. (It is much simpler and easier to read than html, latex, etc.)  It is widely used by programmers, on comment boards/forums, and throughout the internet. For example, GitHub.com automatically renders markdown code, particularly in `readme.md` files.
+
 <div class="marginnote">
 Actually there are several varieties of markdown, but they mainly share key elements.
 </div>
@@ -191,7 +191,7 @@ Other key features are ordered lists and unordered lists:
 ```
 
 While basic markdown has a limited set of rules, there are many more formatting and content options for documents produced in (R)-Markdown, far too many to detail here. These may combine markdown code, html code, latex code, and more. The following cheatsheets are very useful for writing (R)-markdown documents:
-=======
+
 Markdown documents allow for an easy way to write reports. Content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or tables of data. 
 
 <div class='marginnote'>
@@ -210,9 +210,6 @@ See also (most useful, but highly detailed):
 
 - [R markdown - the definitive guide](https://bookdown.org/yihui/rmarkdown/)
 
-### Code blocks/chunks
-=======
-### Code chunks
 Code chunks provide an easy way to embed code into your R Markdown files. The code language is not just limited to R either, as other languages can be used. This means that there is a wide variety of content which can be displayed in a chunk. Such as tables of data:
 
 ```{r, echo=FALSE}
@@ -251,7 +248,6 @@ Bookdown allows for users to build their own custom styles in order to change th
 - More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html). Below will outline several key styles used throughout these projects.
 
 ### 'Notes'
-=======
 [A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html) provides a detailed outline of the various mathematical symbols which can be used.
 
 ### Custom styles
@@ -260,18 +256,6 @@ Bookdown allows for users to build their own custom styles in order to change th
 
 <div class = 'marginnote'>
 More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html).
-</div>
-
-<<<<<<< HEAD
-### Margin notes
-
-Margin notes are used throughout projects as a way of displaying information in an organised and aesthetically pleasing way. The formatting for margin notes as well as other visual features are outlined in [tufte_plus.css](support/tufte_plus.css).
-
-<!-- DR: not sure I actually explain it there... this is my own blending of a few formats -->
-
-
-To add a margin note, text is placed inside the following HTML wrapper.
-=======
 There are 3 main custom styles which are used throughout the projects:
 
 - **'Notes'**
