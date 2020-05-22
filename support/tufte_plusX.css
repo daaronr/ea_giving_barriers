@@ -419,17 +419,12 @@ h3.subtitle em {
   margin: 0px 0px 0 0;
     font-size: smaller;
 }
+
+
 .fold {
-  border: 1px solid black;
+  border: 1px solid grey;
   min-height: 40px;
-<<<<<<< HEAD
-    max-width: 95%;
-=======
-    max-width: 70%;
-}
-p, footer, table {
-    width: 75%!important;
->>>>>>> 78db1096bf2899c13e2248dc8728ad0dc55e7fdc
+    max-width: 90%;
 }
 
 /*Note here to check it's updating */
