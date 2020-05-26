@@ -1,5 +1,6 @@
+# Are charities in competition? Is the ineffective giving reducing effective giving? {#substitution}
 
-# Previous approaches and evidence
+## Previous approaches and evidence
 
 There is a **lack of data** on donations at the individual-charity level.
 
@@ -12,14 +13,14 @@ Estimation of Expenditure substitution is complicated by issues of extensive vs 
 
 ### Observational work
 
-- [@Reinstein2011d]  -  fixed effects, bounding arguments
+- [@reinsteinDoesOneCharitable] (2011)  -  fixed effects, bounding arguments
 
 - With 'exogenous' shocks:  [@Deryugina2015b]
 
 
 Donations in state affected by tornado increase  1.7-2 percent in that year and 1.9-2 percent in the 2 years after Can only reject 'full crowding out'
 
-[@Scharf2017]
+[@scharfLiftShiftEffect2017]
 
 - CAF accounts all donations over substantial period
 - Reject 'full crowd-out', tight zero LR crowdout
@@ -114,5 +115,20 @@ With naturally-occuring, more time-separated shocks and asks, the results are mo
 So ``how proximate is proximate''? Evidence is still mixed (see above discussion on dual channels) 
 
 
+## Random-effects meta-analysis {#subst-meta}
+
+<div class="marginnote">
+
+1. Build the tables of meta-statistics here
+2. Do a Bayesian RE analysis, allowing some variations in universe and assumptions; with and without our own results; interactive (shiny?) to allow personal weightings
+3. Explicitly register the PRISM thing, get an exhaustive picture of studies
+4. Redo meta-analysis
+5. P-curve, robustness to publication bias checks, etc
+6. Possibly move it to an appendix or a separate paper
+
+</div>
 
 
+
+ 
+ 

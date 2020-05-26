@@ -1,5 +1,14 @@
 # Barriers: Aversion/obstacles to *doing* (and using) evaluations {#eval-aversion}
 
+```{block2,  type='note'}
+
+Note: this is an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis being planned. 
+
+Much of this project is organised in the [dualprocess repo](https://github.com/daaronr/dualprocess)
+
+```  
+
+
 ## General cost-benefit analysis (CBA)-aversion or reluctance {#cba-aversion}
 
 <div class="marginnote">
@@ -23,7 +32,8 @@ The reluctance to engage in this evaluation process may relate to the aforementi
 
 [@Berman2018] refer to the idea that "believing that charity is a subjective decision licenses individuals to donate in personally gratifying ways." This perspective plausibly combines partial and conflicted Utililitarian preferences with the presence of moral licensing.
 
-As Berman et al note, the belief that *CBA is not a natural part of the charitable domain* may stem from the lack of direct feedback one gets from donating (in Economics terms, a "credence" good) relative to consumption and investment goods. <div class="marginnote">
+As Berman et al note, the belief that *CBA is not a natural part of the charitable domain* may stem from the lack of direct feedback one gets from donating (in Economics terms, a "credence" good) relative to consumption and investment goods. 
+<div class="marginnote">
 (they cite: Imas paper?)
 </div>
 
@@ -39,7 +49,7 @@ If *determining which charity is effective* requires CBA people may avoid doing 
 
 ### Evidence
 
-#### Evidence for  "People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..."
+#### Evidence for  "People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..." {-}
 
 [@Fong2010] run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh;  each subject is matched with a particular recipient  of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers." 
 
@@ -51,15 +61,16 @@ But this needs to be interpreted carefully:  *those who decide not to buy inform
 Note: This evidence is only tangentially relevant.
 </div>
 
+\
 
-#### Evidence for "People rarely seek out effectiveness information and are reluctant to purchase it"
+#### Evidence for "People rarely seek out effectiveness information and are reluctant to purchase it" {-}
 
 
 <!-- TODO - Cite: That survey-based study where few people say that they have
 looked into the effectiveness information on the charities they donate
 to -->
 
-In [@Null2011], in a final stage of her experiment:
+In [@null2011warm], in a final stage of her experiment:
 
 > Subjects were given the option to spend USD 5 of their total gift to the
 > development charities in order to find out which of the three would
@@ -166,7 +177,7 @@ context in vignettes allow alternative interpretations...)
 
 ## Cost effectiveness information may turn off System-1 and reduce giving; statistics diminish impact of 'identifiable victim'
 
-References: small2007sympathy_s3_s4, small2007sympathy_s1_s2, karlan2017effect, "Parsons, 2007", bergh_Reinstein	smeets2015giving
+References: small2007sympathy_s3_s4, small2007sympathy_s1_s2, karlan2017effect, bergh_Reinstein	smeets2015giving
 
 See also: karlan2017effect, "Parsons, 2007"
 

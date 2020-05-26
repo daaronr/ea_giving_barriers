@@ -8,6 +8,10 @@ This appendix provides a brief introduction to the several types of software and
 
 
 ```{block2,  type='note'}
+The template for my bookdown projects is maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template)
+```
+
+```{block2,  type='note'}
 
 **This site (web-book project) is**
 
@@ -162,28 +166,28 @@ The Markdown format offers a simple plain-text notation for specifying the eleme
 <div class="marginnote">
 Actually there are several varieties of markdown, but they mainly share key elements.
 </div>
- 
+
 
 
 Markdown documents are usually saved as plain text files with the extension `.md`, e.g., `report.md`.   These allow for an easy way to create a variety of outputs, particularly reports and text-focused web pages. The markdown format is *converted* into other formats (html, latex, etc.) with a variety of tools, particularly something called Pandoc.
 
 In the R (statistically focused) language there are tools such as `knitR` that  allow R users to produce reports combining text, statistical output, and interactive content. These are generally written in "R-markdown" documents, saved as `.Rmd` rather than `.md` files. The R-studio interface, and several "add-ins", also help facilitate this. This interface is very useful; in fact, it may be convenient to build web books and other content using this even if you are not planning to extensively integrate R code and data. (As in the present book, although I'm hoping to build this in).
 
-Using R-markdown and Knitr (and other tools and add-ins like 'Bookdown') content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or regression output. 
+Using R-markdown and Knitr (and other tools and add-ins like 'Bookdown') content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or regression output.
 
 ### Some simple markdown rules {#simple-md-rules}
 
-  
+
 Text can be made *italic* using single asterisks `*italic` or **bold** by using asterisks `**bold**`.
 
 Hashtags/pound signs (`#`) specify headers and subheaders, e.g., this third-level subsection header was created with the code:
-  
+
 `### Some simple markdown rules {#simple-md-rules}`
 
 Where the bit in the curly braces allows us to link-back with the code `[link back text whatever](#simple-md-rules)` ... rendering as [link back text whatever](#simple-md-rules).
 
 Other key features are ordered lists and unordered lists:
-  
+
 ```
 - unordered first entry
 - unordered second entry
@@ -192,20 +196,20 @@ Other key features are ordered lists and unordered lists:
 
 While basic markdown has a limited set of rules, there are many more formatting and content options for documents produced in (R)-Markdown, far too many to detail here. These may combine markdown code, html code, latex code, and more. The following cheatsheets are very useful for writing (R)-markdown documents:
 
-Markdown documents allow for an easy way to write reports. Content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or tables of data. 
+Markdown documents allow for an easy way to write reports. Content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or tables of data.
 
 <div class='marginnote'>
 Text can be made *italic* using single asterisks `*italic*` and **bold** by using double asterisks `**bold**`.
 </div>
 
 There are various text formatting options in Markdown, far too many to detail here... The following cheatsheets are very useful for writing markdown documents:
->>>>>>> 78db1096bf2899c13e2248dc8728ad0dc55e7fdc
 
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 - [R Markdown cheatsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 
-<<<<<<< HEAD
+\
+
 See also (most useful, but highly detailed):
 
 - [R markdown - the definitive guide](https://bookdown.org/yihui/rmarkdown/)
@@ -219,13 +223,12 @@ Code chunks are defined by wrapping text inside ```` ```  ``` ````. The above ex
 ````markdown
 `r ''````{r}
 head(iris)
-``` 
+```
 ````
 <!-- ````markdown `r ''````
 ```` -->
 Options can be specified inside of the curly brackets {}
 More information is provided [here](https://bookdown.org/yihui/rmarkdown/r-code.html)
->>>>>>> 78db1096bf2899c13e2248dc8728ad0dc55e7fdc
 
 ### Inline code
 Inline code is a quick and easy way to put snippets of R code. As an alternative to using code chunks, R code can simply be placed inside of ``` `r ` ```. For example, this can be used as an easy way to insert the value of a variable into a paragraph without inserting a chunk.
@@ -236,8 +239,7 @@ R Markdown also can make use of the LaTeX document preparation system, which is 
 
 $$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u$$
 
-Which is written using `$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$`. Using `$$` means that the equation will be centered on the page. Alternatively `$` can be used in the same way, without the centering. 
-<<<<<<< HEAD
+Which is written using `$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$`. Using `$$` means that the equation will be centered on the page. Alternatively `$` can be used in the same way, without the centering.
 
 [A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html)
 
@@ -252,7 +254,6 @@ Bookdown allows for users to build their own custom styles in order to change th
 
 ### Custom styles
 Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in [tufte_plus.css](support/tufte_plus.css). To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as shown below for margin notes.
->>>>>>> 78db1096bf2899c13e2248dc8728ad0dc55e7fdc
 
 <div class = 'marginnote'>
 More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html).
@@ -266,7 +267,6 @@ Formatted 'Notes' have been defined in this work which allow text to be placed i
 
 - **Margin notes**
 Margin notes are used throughout these projects as a way of displaying information in an organised and aesthetically pleasing way. To add a margin note, text is placed inside the following HTML wrapper:
->>>>>>> 78db1096bf2899c13e2248dc8728ad0dc55e7fdc
 
 
 <div class='marginnote'>
@@ -296,7 +296,7 @@ Pandoc provides a way to generate formatted references as well as a bibliography
 (This is done through Pandoc tools.)
 
 <div class="marginnote">
-Oska, are you sure about this? 
+Oska, are you sure about this?
 </div>
 
 The bibliography file to be sourced is specified within 'YAML' content, which guides the processing of these documents. (YAML content is generally enclosed with a three-dash `---` break at top and bottom.)
@@ -306,7 +306,7 @@ I generally specify the bibliography source in the YAML at the top of the .Rmd f
 <div class="marginnote">
 @Oska -- we should try to ecplain this yaml stuff a bit better.
 </div>
- 
+
 
 - **BibTeX**
 
@@ -316,16 +316,16 @@ The BibTeX format refers to a stylized file format which is used predomoninantly
 
 The Citr package provides functions to search Zotero and BibTeX libraries in order to insert references into Markdown files. Citr also features a plugin for RStudio which makes the referencing process even easier. Instructions for download, as well as a demonstration of the Rstudio plugin are provided [here.](https://github.com/crsh/citr/blob/master/README.md)
 
-- **Zotero** 
+- **Zotero**
 
-Zotero is a free open source reference manager, which enables users to sync their library of references across multiple devices. Similarly to other reference managers, Zotero offers plugins for popular browsers such as Chrome and Safari. [Download Zotero](https://www.zotero.org/download/) 
+Zotero is a free open source reference manager, which enables users to sync their library of references across multiple devices. Similarly to other reference managers, Zotero offers plugins for popular browsers such as Chrome and Safari. [Download Zotero](https://www.zotero.org/download/)
 
 
-- **Better BibTeX for Zotero** 
+- **Better BibTeX for Zotero**
 
 Better BibTeX for Zotero is a add-on for Zotero. Among other things it allows the Zotero library to be exported from Zotero for use in Markdown. Installation instructions are provided [here.](http://retorque.re/zotero-better-bibtex/installation/)
 
-I currently (25 Apr 2020) am having Zotero automatically maintain/output the key .bib file to a dropbox folder. Each project has code to routinely download this file with a command such as 
+I currently (25 Apr 2020) am having Zotero automatically maintain/output the key .bib file to a dropbox folder. Each project has code to routinely download this file with a command such as
 
 `download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = "reinstein_bibtex.bib")`
 
@@ -334,22 +334,25 @@ I currently (25 Apr 2020) am having Zotero automatically maintain/output the key
 
 ## Joining this project
 
-- Get a Github account, contact daaronr AT gmail.com 
+- Get a Github account, contact daaronr AT gmail.com
 
 ### Creating a Branch and a 'pull request'
 
 ### GitHub web page: Readme,  'Project' board, 'Issues', Comments/notifications, commenting within commits, etc.
 
-## Airtable and innovationsinfundraising.org 
+## Airtable and innovationsinfundraising.org
 
-This project is closely connected to [innovationsinfundraising.org](innovationsinfundraising.org). Much of these projects overlap, and there is a shared 'database.' 
+This project is closely connected to [innovationsinfundraising.org](innovationsinfundraising.org). Much of these projects overlap, and there is a shared 'database.'
 
-For more information, [see the tutorial on using the Airtable and Innovationsinfundraising.org here](https://github.com/daaronr/ea_giving_barriers/blob/master/documentatiion_and_tutorials/project_airtableexplained/airtable_database_overview.pdf) 
+For more information, [see the tutorial on using the Airtable and Innovationsinfundraising.org here](https://github.com/daaronr/ea_giving_barriers/blob/master/documentatiion_and_tutorials/project_airtableexplained/airtable_database_overview.pdf)
 
 ## Useful resources
 Like most things, when working with code the internet is your best friend. Listed below are several useful resources for learning about the material mentioned above:
 
-#### [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/)
-#### [R for Data Science](https://r4ds.had.co.nz/)
-#### [Authoring Books with R Markdown](https://bookdown.org/yihui/bookdown/)
-#### [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/)
+#### [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/){-}
+
+#### [R for Data Science](https://r4ds.had.co.nz/){-}
+
+#### [Authoring Books with R Markdown](https://bookdown.org/yihui/bookdown/) {-}
+
+#### [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/){-}

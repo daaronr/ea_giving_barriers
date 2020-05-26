@@ -1,5 +1,5 @@
 
-## Previous approaches and evidence
+# Previous approaches and evidence
 
 There is a **lack of data** on donations at the individual-charity level.
 
@@ -111,8 +111,8 @@ A particular issue: apparent contrast, **Coherent arbitrariness**, narrow bracke
 
 With naturally-occuring, more time-separated shocks and asks, the results are more mixed, sometimes with much smaller, or no apparent substitution.
 
-So ``how proximate is proximate''? Evidence is still mixed (see above discussion on dual channels)
+So ``how proximate is proximate''? Evidence is still mixed (see above discussion on dual channels) 
 
 
 
-test - ea
+

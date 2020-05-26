@@ -207,9 +207,9 @@ B_k^\prime(G_k) = B_j^\prime(G_j)\forall j,k s.t. G_j>0, G_k>0
 <div class="marginnote">
 Caveats:
 
-- This assumes a single impact goal, essentially 'cause neutrality'.
+This assumes a single impact goal, essentially 'cause neutrality'.
 
-- The idea that each donor gives only to a single charity essentially depends on the above 'Small donor assumption'.  Still, allowing that the marginal-benefit-leading-charity may vary within the range of an individuals' donation simply implies that they should allocate among multiple charities each up to the point that the last dollar given yields the same marginal benefit as the other charities, yielding the above result. We can imagine an equilibrium in which all donors give to multiple charities,  with each of these charities being virtually "tied"  in their marginal effectiveness.
+The idea that each donor gives only to a single charity essentially depends on the above 'Small donor assumption'.  Still, allowing that the marginal-benefit-leading-charity may vary within the range of an individuals' donation simply implies that they should allocate among multiple charities each up to the point that the last dollar given yields the same marginal benefit as the other charities, yielding the above result. We can imagine an equilibrium in which all donors give to multiple charities,  with each of these charities being virtually "tied"  in their marginal effectiveness.
 </div>
  
  \
@@ -311,7 +311,7 @@ However, for non-utilitarians this is no puzzle. If other forces and motivations
 It could be argued that the above is posed too starkly. People may embrace concepts such as utilitarianism, universalism, and cause neutrality, and at the same time  be largely driven by other concerns and sympathetic to other moral frameworks. We may agree with statements that "all lives are equal" and "we should strive to do the most good for the largest number" but also support maxims such as "charity begins at home" and "giving is about supporting something you have a personal connection to."  
 
 <div class="marginnote">
-While these statements may, strictly speaking, be contradictory, we shouldn't expect perfect consistency or constancy. Most people are not asked to rigidly join the deonological or utilitarian camp, and those who have not studied philosophy  or social science may never have contemplated these issues directly.
+While these statements may, strictly speaking, be contradictory, we shouldn't expect perfect consistency or constancy. Most people are not asked to rigidly join the deontological or utilitarian camp, and those who have not studied philosophy  or social science may never have contemplated these issues directly.
 </div>
  
 
