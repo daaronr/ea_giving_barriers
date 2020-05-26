@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, and more" />
 
 
-<meta name="date" content="2020-05-25" />
+<meta name="date" content="2020-05-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -573,14 +573,14 @@ Here’s a guide to exactly how to do it.
 <div class="marginnote">
 <p>Text can be made <em>italic</em> using single asterisks <code>*italic*</code> and <strong>bold</strong> by using double asterisks <code>**bold**</code>.</p>
 </div>
-<p>There are various text formatting options in Markdown, far too many to detail here… The following cheatsheets are very useful for writing markdown documents:
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 78db1096bf2899c13e2248dc8728ad0dc55e7fdc</p>
+<p>There are various text formatting options in Markdown, far too many to detail here… The following cheatsheets are very useful for writing markdown documents:</p>
 <ul>
 <li><p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown cheatsheet</a></p></li>
 <li><p><a href="https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf">R Markdown cheatsheet</a></p></li>
 </ul>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-See also (most useful, but highly detailed):</p>
+<p><br />
+</p>
+<p>See also (most useful, but highly detailed):</p>
 <ul>
 <li><a href="https://bookdown.org/yihui/rmarkdown/">R markdown - the definitive guide</a></li>
 </ul>
@@ -595,12 +595,11 @@ See also (most useful, but highly detailed):</p>
 <p>Code chunks are defined by wrapping text inside <code>```  ```</code>. The above example was coded using:</p>
 <div class="sourceCode" id="cb15"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb15-1"><a href="bookdown-appendix.html#cb15-1"></a><span class="bn">```{r}</span></span>
 <span id="cb15-2"><a href="bookdown-appendix.html#cb15-2"></a><span class="bn">head(iris)</span></span>
-<span id="cb15-3"><a href="bookdown-appendix.html#cb15-3"></a><span class="bn">```</span> </span></code></pre></div>
+<span id="cb15-3"><a href="bookdown-appendix.html#cb15-3"></a><span class="bn">```</span></span></code></pre></div>
 <!-- ````markdown ```
 ```` -->
 <p>Options can be specified inside of the curly brackets {}
-More information is provided <a href="https://bookdown.org/yihui/rmarkdown/r-code.html">here</a>
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 78db1096bf2899c13e2248dc8728ad0dc55e7fdc</p>
+More information is provided <a href="https://bookdown.org/yihui/rmarkdown/r-code.html">here</a></p>
 </div>
 <div id="inline-code" class="section level3" number="12.6.3">
 <h3><span class="header-section-number">12.6.3</span> Inline code</h3>
@@ -610,8 +609,7 @@ More information is provided <a href="https://bookdown.org/yihui/rmarkdown/r-cod
 <h3><span class="header-section-number">12.6.4</span> Latex/maths</h3>
 <p>R Markdown also can make use of the LaTeX document preparation system, which is popular for writing technical documents with mathematical content. This allows us to publish documents which include equations such as:</p>
 <p><span class="math display">\[y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u\]</span></p>
-<p>Which is written using <code>$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$</code>. Using <code>$$</code> means that the equation will be centered on the page. Alternatively <code>$</code> can be used in the same way, without the centering.
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<p>Which is written using <code>$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$</code>. Using <code>$$</code> means that the equation will be centered on the page. Alternatively <code>$</code> can be used in the same way, without the centering.</p>
 <p><a href="https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html">A very useful guide to maths in R Markdown</a></p>
 </div>
 <div id="custom-styles" class="section level3" number="12.6.5">
@@ -627,8 +625,7 @@ More information is provided <a href="https://bookdown.org/yihui/rmarkdown/r-cod
 </div>
 <div id="custom-styles-1" class="section level3" number="12.6.7">
 <h3><span class="header-section-number">12.6.7</span> Custom styles</h3>
-<p>Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in <a href="support/tufte_plus.css">tufte_plus.css</a>. To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as shown below for margin notes.
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 78db1096bf2899c13e2248dc8728ad0dc55e7fdc</p>
+<p>Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in <a href="support/tufte_plus.css">tufte_plus.css</a>. To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as shown below for margin notes.</p>
 <div class = 'marginnote'>
 <p>More on creating styles <a href="https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html">here</a>.
 There are 3 main custom styles which are used throughout the projects:</p>
@@ -641,8 +638,7 @@ Formatted ‘Notes’ have been defined in this work which allow text to be plac
 </div>
 <ul>
 <li><strong>Margin notes</strong>
-Margin notes are used throughout these projects as a way of displaying information in an organised and aesthetically pleasing way. To add a margin note, text is placed inside the following HTML wrapper:
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 78db1096bf2899c13e2248dc8728ad0dc55e7fdc</li>
+Margin notes are used throughout these projects as a way of displaying information in an organised and aesthetically pleasing way. To add a margin note, text is placed inside the following HTML wrapper:</li>
 </ul>
 <div class="marginnote">
 <p>The margin notes used in this project are inspired by the Tufte handout style developed by American statistician Edward Tufte.</p>
@@ -719,16 +715,16 @@ Folding boxes also provide a useful way to incorporate content without clutterin
 <h2><span class="header-section-number">12.10</span> Useful resources</h2>
 <p>Like most things, when working with code the internet is your best friend. Listed below are several useful resources for learning about the material mentioned above:</p>
 <div id="r-markdown-the-definitive-guide" class="section level4" number="12.10.0.1">
-<h4><span class="header-section-number">12.10.0.1</span> <a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The definitive guide</a></h4>
+<h4><span class="header-section-number">12.10.0.1</span> <a href="https://bookdown.org/yihui/rmarkdown/" class="unnumbered">R Markdown: The definitive guide</a></h4>
 </div>
 <div id="r-for-data-science" class="section level4" number="12.10.0.2">
-<h4><span class="header-section-number">12.10.0.2</span> <a href="https://r4ds.had.co.nz/">R for Data Science</a></h4>
+<h4><span class="header-section-number">12.10.0.2</span> <a href="https://r4ds.had.co.nz/" class="unnumbered">R for Data Science</a></h4>
 </div>
-<div id="authoring-books-with-r-markdown" class="section level4" number="12.10.0.3">
-<h4><span class="header-section-number">12.10.0.3</span> <a href="https://bookdown.org/yihui/bookdown/">Authoring Books with R Markdown</a></h4>
+<div id="authoring-books-with-r-markdown" class="section level4 unnumbered" number="">
+<h4><a href="https://bookdown.org/yihui/bookdown/">Authoring Books with R Markdown</a></h4>
 </div>
-<div id="yarrr-the-pirates-guide-to-r" class="section level4" number="12.10.0.4">
-<h4><span class="header-section-number">12.10.0.4</span> <a href="https://bookdown.org/ndphillips/YaRrr/">YaRrr! The Pirate’s Guide to R</a></h4>
+<div id="yarrr-the-pirates-guide-to-r" class="section level4" number="12.10.0.3">
+<h4><span class="header-section-number">12.10.0.3</span> <a href="https://bookdown.org/ndphillips/YaRrr/" class="unnumbered">YaRrr! The Pirate’s Guide to R</a></h4>
 
 </div>
 </div>
