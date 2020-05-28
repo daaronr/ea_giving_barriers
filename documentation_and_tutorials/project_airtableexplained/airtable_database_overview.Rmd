@@ -1,4 +1,5 @@
 %Overview of *Enhancing effective charitable giving* and *Innovations in Fundraising* database resources (Airtable)
+
 *Summary, David Reinstein, 2 Aug 2018*
 
 ---
@@ -185,7 +186,7 @@ We are working towards collecting a key set of variables from each empirical pap
 ![collecting metadata](picsfigs/collecting_metadata.png)
 
 
-The fundingwiki app automatically populates and updates information on the number of times each paper has been cited, using the Crossref database. Tool such as these will enable this to be a perrenial resource, rather than a frozen-in-time evaluation.
+The fundingwiki app automatically populates and updates information on the number of times each paper has been cited, using the Crossref database. Tool such as these will enable this to be a perrennial resource, rather than a frozen-in-time evaluation.
 
 ![citations auto update](picsfigs/citations_auto_update.png)
 

@@ -87,7 +87,7 @@ Ideas42: "We did not find many field-based, experimental studies on the factors 
  
 <!--Wiepking2012 -->
 
-[Effectiveness-specific]{.underline}:
+### Effectiveness-specific
 
 **Comparison of outlines: unfold**
 
@@ -125,7 +125,7 @@ Baron chapter
 
 ```
 
-##  Definitions - "Efficiency" versus impact {#def-impact}
+## Definitions - "Efficiency" versus impact {#def-impact}
 
 <div class="marginnote">
 Consider: The measures used are relevant to how we consider issues such as charity 'quality ratings' and 'overhead aversion.'
@@ -151,9 +151,7 @@ As noted, there are disagreements over how and whether we should trade off among
 The important distinction here:  $B(G_j)$ does not refer to a simple intermediate  *'output'*  such as 'antimalarial nets provided' nor 'textbooks purchased'. We are referring to the social *outcome* of ultimate value; an outcome that could be valued in and of itself. 
 
 
-
 This naturally takes into account *both* the 'technical efficiency' in terms of how many units of output can be produced per dollar, and the rate at which each unit of this output boosts the ultimate outcomes of interest. 
-
 
 
 \

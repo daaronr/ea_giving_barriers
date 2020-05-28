@@ -52,29 +52,6 @@ To build this, we chose to use tools and software including:
 
 We first give a *brief* overview of R & RStudio, Git & Github, and R Markdown & Bookdown, linking more extensive further resources/tutorials.
 
-## R and RStudio
-
-* **R** is a free programming language which is mainly used for data analysis and statistics. It can be downloaded [here](https://www.r-project.org/). The popularity of R is growing in Economics Academia, largely due to the growth of Machine Learning techniques in R as well as the flexibility of the language itself.
-R makes use of **packages** which are a collection of functions written in order to achieve specific tasks. Whilst R comes pre-installed with a variety of useful packages, it is often useful to install more, which can be done using the *install.packages* command.  <div class="marginnote">
-If you are familiar with Python, these R packages are roughly comparable to Python's **modules**.
-</div>
-
-
-```{block2,  type='note'}
-Installing R should take about XXX minutes.
-
-Here's a guide to exactly how to do it.
-```
-
-
-* **RStudio** is a programming environment and interface which helps facilitate  a variety of tasks such as writing scripts using R (as well as other languages), and  building/knitting these into various document formats. RStudio 'Addins' can also be extremely useful for things like tracking 'todos', adding citations, and formatting code. RStudio can also be configured so as to work seamlessly with Git (more on this later). RStudio can be downloaded [here](https://rstudio.com/)
-
-```{block2,  type='note'}
-Installing and configuring RStudio should take about XXX minutes.
-
-Here's a guide to exactly how to do it.
-```
-
 
 ## Git and Github
 
@@ -127,6 +104,30 @@ A brief overview of key functions inside Git (assuming a remote Github repo) inc
 * Repos that are stored on Github can be accessed via a browser at [github.com](https://github.com/). The Github website itself provides a wide variety of tools.
 
 ```
+
+## R and RStudio
+
+* **R** is a free programming language which is mainly used for data analysis and statistics. It can be downloaded [here](https://www.r-project.org/). The popularity of R is growing in Economics Academia, largely due to the growth of Machine Learning techniques in R as well as the flexibility of the language itself.
+R makes use of **packages** which are a collection of functions written in order to achieve specific tasks. Whilst R comes pre-installed with a variety of useful packages, it is often useful to install more, which can be done using the *install.packages* command.  <div class="marginnote">
+If you are familiar with Python, these R packages are roughly comparable to Python's **modules**.
+</div>
+
+
+```{block2,  type='note'}
+Installing R should take about XXX minutes.
+
+Here's a guide to exactly how to do it.
+```
+
+
+* **RStudio** is a programming environment and interface which helps facilitate  a variety of tasks such as writing scripts using R (as well as other languages), and  building/knitting these into various document formats. RStudio 'Addins' can also be extremely useful for things like tracking 'todos', adding citations, and formatting code. RStudio can also be configured so as to work seamlessly with Git (more on this later). RStudio can be downloaded [here](https://rstudio.com/)
+
+```{block2,  type='note'}
+Installing and configuring RStudio should take about XXX minutes.
+
+Here's a guide to exactly how to do it.
+```
+
 
 ## Markdown and Bookdown
 
@@ -329,8 +330,28 @@ I currently (25 Apr 2020) am having Zotero automatically maintain/output the key
 
 `download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = "reinstein_bibtex.bib")`
 
-
 ## How to 'build' and view the book
+
+**One way is within RStudio**
+
+- Be sure Github repo is synced so all files are present
+
+- Packages need to be installed, but this should (?) be done automatically when you build via  the `source(here("code", "baseoptions.R"))` line in index.Rmd
+  - knitr is a key package
+
+- Click 'Build', 'Build all', or the shortcut key shift-cmd-b 
+  - ... this seems to run the command ```rmarkdown::render_site(encoding = 'UTF-8')```
+
+Building may take some time, depending on how much code is present in the Rmd files and what that code does
+
+- It puts all the Rmd files specified in the _bookdown.yml into a single file, here labeled barriers-to-effective-giving.knit.md (I think), and then tuns that into html, also invoking bibtex along the way
+
+- Depending on your RStudio settings, it may put up a 'preview version' of the site
+
+- All the 'new' output is directed to be put in the 'docs' folder, a bunch of html files. You can view those 'local' files in any web browser
+
+- Once you commit and push, the 'new' bookdown website should be up
+
 
 ## Joining this project
 
@@ -342,9 +363,94 @@ I currently (25 Apr 2020) am having Zotero automatically maintain/output the key
 
 ## Airtable and innovationsinfundraising.org
 
-This project is closely connected to [innovationsinfundraising.org](innovationsinfundraising.org). Much of these projects overlap, and there is a shared 'database.'
+This project is closely connected to [innovationsinfundraising.org](innovationsinfundraising.org). Much of these projects overlap, and there is a shared 'database' stored as an airtable [Giving researchers shared](https://airtable.com/invite/l?inviteId=invjWg63fpQAOBcch&inviteToken=0b154f62460aba428e0bf8c082ae3947e2e9b62b1045994a767eee551bb92833)
 
-For more information, [see the tutorial on using the Airtable and Innovationsinfundraising.org here](https://github.com/daaronr/ea_giving_barriers/blob/master/documentatiion_and_tutorials/project_airtableexplained/airtable_database_overview.pdf)
+
+We had a  [see the tutorial on using the Airtable and Innovationsinfundraising.org here](https://github.com/daaronr/ea_giving_barriers/blob/master/documentatiion_and_tutorials/project_airtableexplained/airtable_database_overview.pdf)
+
+I add a few more points below, more relevant to the current project:
+\
+
+### Airtable {-}
+
+[Airtable](https://airtable.com/) is a collaborative web-based software with a variety of displays and organizational structures; it has many features of a relational database, and even more features if one engages their API. It is user-friendly, with a gui resembling a spreadsheet, and easy tutorials,  instructions and examples. You can operate it from a browser or a web-driven app.
+
+
+### Key features of tables in Airtables (quick views) {-}
+
+Each Airtable user can have any number of *Bases*,  and bases can be shared in work groups.
+
+- Command-K to jump to any other Base
+
+ "key_papers"; the papers providing the most relevant and strongest evidence for the tool, and "secondary papers".
+
+### Key content {-}
+
+
+The "Categories" table provides and explains a number of "schema" we use to characterize both the tools and the "Barriers to effective giving" (discussed later).
+
+![categories table](../picsfigs/categories_table.png)
+
+\
+
+
+Key papers are stored and organised in the 'papers_mass' table. This is crosslinked in several other tables. Within each paper 'row' there is a variety of relevant information and discussion on each paper.
+
+![key papers](../picsfigs/key_papers.png)
+
+\
+
+
+The fundingwiki app automatically populates and updates information on the number of times each paper has been cited, using the Crossref database. Tool such as these will enable this to be a perrennial resource, rather than a frozen-in-time evaluation.
+
+![citations auto update](../picsfigs/citations_auto_update.png)
+
+
+\
+
+```{block2,  type='note'}
+**Note**: Some but not all of the Airtable content discussed in the rest of this subsection has already been incorporated into the present bookdown.
+  
+```  
+
+The table "EAlit_sections" outlines the (earlier?) structure of the EA barriers paper, already providing links to information that will be integrated.
+
+![organizing ealitpaper](../picsfigs/organizing_ealitpaper.png)
+
+This table also links directly to the papers_mass table, organizing the papers we are referencing and reviewing in each section.
+
+![organizing EAlit papers](../picsfigs/organizing_EAlit_papers.png)
+
+
+\
+
+The separate "Barriers to EAG" table is below.
+
+This organizes and assembles the discussion and evidence on potential factors and categories of factors that may explain the limited amount of "effective giving". This represents the largest part of our review paper; we focus on clear definitions of the most relevant psychological (and "behavioral economic") biases, and carefully asses the available evidence. We focus specifically on evidence in the charitable domain, but we also consider the broader evidence for these biases in other contexts.
+
+![barriers to EAG](../picsfigs/barriers_to_EAG.png)
+
+<div class="marginnote">
+Again, this is older work, maybe already incorporated into the Bookdown?
+</div>
+ 
+
+
+For each barrier or bias, we consider why it is may be particularly relevant to *effective* giving.
+
+![barriers to EAG, why relevant](../picsfigs/barriers_to_EAG_whyrelevant.png)
+
+\
+
+
+We further propose and discuss tools addressing these barriers and promoting effective charitable giving.
+
+![tools remedies](../picsfigs/tools_remedies.png)
+
+
+\
+
+
 
 ## Useful resources
 Like most things, when working with code the internet is your best friend. Listed below are several useful resources for learning about the material mentioned above:
