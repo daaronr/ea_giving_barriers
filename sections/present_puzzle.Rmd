@@ -169,6 +169,8 @@ This is obviously an oversimplification. To achieve the beneficial outcome the c
 </div>
 
 
+
+
 A donor may care about the 'impact' of her own donation; i.e., she may want to know the difference in outcomes that  her donation  achieves everything else equal. In other words,  the difference  in the ultimate outcome in a world with versus without her donation. 
 
 
@@ -176,7 +178,9 @@ A donor may care about the 'impact' of her own donation; i.e., she may want to k
 
 <!-- TODO -- how to tag and refer to assumptions and equations in R markdown? -->
 
+
 Thus we consider the *marginal* impact, as a simplification:  
+
 
 $B_j^\prime (G_j)$ for the marginal donor.
 
