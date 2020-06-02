@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, and more" />
 
 
-<meta name="date" content="2020-05-31" />
+<meta name="date" content="2020-06-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -43,7 +43,6 @@ div.abstract{
   width: 90%;
 }
 </style>
-<script src="book_assets/header-attrs-2.1/header-attrs.js"></script>
 <script src="book_assets/jquery-2.2.3/jquery.min.js"></script>
 <link href="book_assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="book_assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -140,26 +139,25 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 
 
 <style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -168,9 +166,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  background-color: #f8f8f8; }
+  { background-color: #f8f8f8; }
 @media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ef2929; } /* Alert */
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
@@ -202,7 +200,7 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-<link rel="stylesheet" href="support/tufte_plus.css" type="text/css" />
+<link rel="stylesheet" href="support\tufte_plus.css" type="text/css" />
 </head>
 
 <body>
@@ -215,15 +213,12 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<li class="chapter" data-level="1" data-path="outline.html"><a href="outline.html"><i class="fa fa-check"></i><b>1</b> Outline</a>
-<ul>
-<li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#abstract"><i class="fa fa-check"></i>Extended abstract</a>
-<ul>
+<li class="chapter" data-level="1" data-path="outline.html"><a href="outline.html"><i class="fa fa-check"></i><b>1</b> Outline</a><ul>
+<li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#abstract"><i class="fa fa-check"></i>Extended abstract</a><ul>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#pop-abstract"><i class="fa fa-check"></i>Non-technical abstract</a></li>
 </ul></li>
 <li><a href="outline.html#presenting-the-puzzle-and-challenge-our-ineffective-giving"><span>Presenting the puzzle and challenge: Our ineffective giving</span></a></li>
-<li><a href="outline.html#definitions---efficiency-versus-impact"><span>Definitions - “Efficiency” versus impact</span></a>
-<ul>
+<li><a href="outline.html#definitions---efficiency-versus-impact"><span>Definitions - “Efficiency” versus impact</span></a><ul>
 <li><a href="outline.html#why-under-what-models-is-this-a-puzzle"><span>Why (under what models) is this a puzzle?</span></a></li>
 </ul></li>
 <li><a href="outline.html#do-people-actually-care-about-impact-does-moral-utilitarianism-matter"><span>Do people <em>actually care about</em> impact? Does moral utilitarianism matter?</span></a></li>
@@ -235,39 +230,31 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="outline.html#barriers-aversionobstacles-to-doing-and-using-evaluations"><span>Barriers: Aversion/obstacles to <em>doing</em> (and using) evaluations</span></a></li>
 <li><a href="outline.html#barriers-quantitative-biases"><span>Barriers: Quantitative biases</span></a></li>
 <li><a href="outline.html#barriers-inertia-and-systemicinstitutional"><span>Barriers: Inertia and systemic/institutional</span></a></li>
-<li><a href="outline.html#tools-for-motivating-ea-giving"><span>Tools for motivating EA giving</span></a>
-<ul>
+<li><a href="outline.html#tools-for-motivating-ea-giving"><span>Tools for motivating EA giving</span></a><ul>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#psychbehavioral-tools-applicability-to-ea-charities"><i class="fa fa-check"></i>Psych/behavioral tools; applicability to EA charities</a></li>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#de-biasing-and-misperception-correction"><i class="fa fa-check"></i>De-biasing and misperception-correction</a></li>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#innovative-proposals"><i class="fa fa-check"></i>Innovative proposals</a></li>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#ea-movement-approaches-and-pitfalls"><i class="fa fa-check"></i>EA-movement approaches and pitfalls</a></li>
 </ul></li>
 <li><a href="outline.html#conclusion-a-research-agenda"><span>Conclusion; a research agenda</span></a></li>
-<li class="chapter" data-level="1.1" data-path="outline.html"><a href="outline.html#other-practical-considerations"><i class="fa fa-check"></i><b>1.1</b> Other practical considerations</a>
-<ul>
+<li class="chapter" data-level="1.1" data-path="outline.html"><a href="outline.html#other-practical-considerations"><i class="fa fa-check"></i><b>1.1</b> Other practical considerations</a><ul>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#notes-on-potential-integration-with-prioritywikirethink-charity"><i class="fa fa-check"></i>Notes on potential integration with PriorityWiki/Rethink Charity</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="present-puzzle.html"><a href="present-puzzle.html"><i class="fa fa-check"></i><b>2</b> Presenting the puzzle and challenge: Our ineffective giving</a>
-<ul>
-<li class="chapter" data-level="2.1" data-path="present-puzzle.html"><a href="present-puzzle.html#motivate-puzzle"><i class="fa fa-check"></i><b>2.1</b> Motivation and descriptives</a>
-<ul>
+<li class="chapter" data-level="2" data-path="present-puzzle.html"><a href="present-puzzle.html"><i class="fa fa-check"></i><b>2</b> Presenting the puzzle and challenge: Our ineffective giving</a><ul>
+<li class="chapter" data-level="2.1" data-path="present-puzzle.html"><a href="present-puzzle.html#motivate-puzzle"><i class="fa fa-check"></i><b>2.1</b> Motivation and descriptives</a><ul>
 <li class="chapter" data-level="2.1.1" data-path="present-puzzle.html"><a href="present-puzzle.html#descriptives-of-giving-us-international-and-how-ineffective-it-is."><i class="fa fa-check"></i><b>2.1.1</b> Descriptives of giving (US, international) and how 'ineffective' it is.</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="present-puzzle.html"><a href="present-puzzle.html#prevsurvey"><i class="fa fa-check"></i><b>2.2</b> (Lack of) previous synthesis on this</a>
-<ul>
+<li class="chapter" data-level="2.2" data-path="present-puzzle.html"><a href="present-puzzle.html#prevsurvey"><i class="fa fa-check"></i><b>2.2</b> (Lack of) previous synthesis on this</a><ul>
 <li class="chapter" data-level="2.2.1" data-path="present-puzzle.html"><a href="present-puzzle.html#effectiveness-specific"><i class="fa fa-check"></i><b>2.2.1</b> Effectiveness-specific</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="present-puzzle.html"><a href="present-puzzle.html#def-impact"><i class="fa fa-check"></i><b>2.3</b> Definitions - “Efficiency” versus impact</a></li>
-<li class="chapter" data-level="2.4" data-path="present-puzzle.html"><a href="present-puzzle.html#why-puzzle"><i class="fa fa-check"></i><b>2.4</b> Why (under which models) is this a puzzle?</a>
-<ul>
+<li class="chapter" data-level="2.4" data-path="present-puzzle.html"><a href="present-puzzle.html#why-puzzle"><i class="fa fa-check"></i><b>2.4</b> Why (under which models) is this a puzzle?</a><ul>
 <li class="chapter" data-level="2.4.1" data-path="present-puzzle.html"><a href="present-puzzle.html#barriers-concept"><i class="fa fa-check"></i><b>2.4.1</b> Conceptual breakdown of ‘barriers’ (first presentation)</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="substitution.html"><a href="substitution.html"><i class="fa fa-check"></i><b>3</b> Are charities in competition? Is the ineffective giving reducing effective giving?</a>
-<ul>
-<li class="chapter" data-level="3.1" data-path="substitution.html"><a href="substitution.html#previous-approaches-and-evidence"><i class="fa fa-check"></i><b>3.1</b> Previous approaches and evidence</a>
-<ul>
+<li class="chapter" data-level="3" data-path="substitution.html"><a href="substitution.html"><i class="fa fa-check"></i><b>3</b> Are charities in competition? Is the ineffective giving reducing effective giving?</a><ul>
+<li class="chapter" data-level="3.1" data-path="substitution.html"><a href="substitution.html#previous-approaches-and-evidence"><i class="fa fa-check"></i><b>3.1</b> Previous approaches and evidence</a><ul>
 <li class="chapter" data-level="3.1.1" data-path="substitution.html"><a href="substitution.html#observational-work"><i class="fa fa-check"></i><b>3.1.1</b> Observational work</a></li>
 <li class="chapter" data-level="3.1.2" data-path="substitution.html"><a href="substitution.html#simultaneousproximate-lab-experiments"><i class="fa fa-check"></i><b>3.1.2</b> Simultaneous/proximate ‘lab’ experiments**</a></li>
 <li class="chapter" data-level="3.1.3" data-path="substitution.html"><a href="substitution.html#labframed-experiments-with-time-gaps"><i class="fa fa-check"></i><b>3.1.3</b> Lab/framed experiments with time gaps</a></li>
@@ -276,8 +263,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.2" data-path="substitution.html"><a href="substitution.html#synthesis-emerging"><i class="fa fa-check"></i><b>3.2</b> Synthesis (emerging)</a></li>
 <li class="chapter" data-level="3.3" data-path="substitution.html"><a href="substitution.html#subst-meta"><i class="fa fa-check"></i><b>3.3</b> Random-effects meta-analysis</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="aware-distance.html"><a href="aware-distance.html"><i class="fa fa-check"></i><b>4</b> Barriers: Awareness, consideration, and distance</a>
-<ul>
+<li class="chapter" data-level="4" data-path="aware-distance.html"><a href="aware-distance.html"><i class="fa fa-check"></i><b>4</b> Barriers: Awareness, consideration, and distance</a><ul>
 <li class="chapter" data-level="4.1" data-path="aware-distance.html"><a href="aware-distance.html#description-and-relevance-to-effective-giving-typically-the-most-effective-humanitarian-charity-will-go-from-wealthy-countries-in-the-north-to-poor-countries-in-the-south.-the-large-social-cultural-geographic-distance-is-an-important-barrier-to-giving-and-a-reason-why-people-prefer-to-give-locally.-however-technology-continues-to-reduce-these-barriers-see-e.g.-give-directly-and-their-new-web-enabled-tools."><i class="fa fa-check"></i><b>4.1</b> Description and relevance to Effective Giving: Typically, the most effective (humanitarian) charity will go from wealthy countries in the “North” to poor countries in the “South”. The large, social, cultural geographic distance is an important barrier to giving and a reason why people prefer to give locally. However, technology continues to reduce these barriers (see, e.g., Give Directly and their new web-enabled tools).</a></li>
 <li class="chapter" data-level="4.2" data-path="aware-distance.html"><a href="aware-distance.html#theoretical-and-conceptual-underpinning"><i class="fa fa-check"></i><b>4.2</b> Theoretical and conceptual underpinning</a></li>
 <li class="chapter" data-level="4.3" data-path="aware-distance.html"><a href="aware-distance.html#distance---spatialphysical-socialcultural-parochial-altruismingroup-bias-interpersonal-and-identity-e.g.-race-gender-age-etc"><i class="fa fa-check"></i><b>4.3</b> Distance - Spatial/Physical, Social/Cultural: parochial altruism/ingroup bias, interpersonal and identity e.g., race, gender, age, etc</a></li>
@@ -285,26 +271,21 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="4.5" data-path="aware-distance.html"><a href="aware-distance.html#distance---temporal-future-problems-and-people-hypothetical-probability-to-happen"><i class="fa fa-check"></i><b>4.5</b> Distance - Temporal (future problems and people), Hypothetical (probability to happen)</a></li>
 <li class="chapter" data-level="4.6" data-path="aware-distance.html"><a href="aware-distance.html#availability-heuristic-and-media-also-see-biases"><i class="fa fa-check"></i><b>4.6</b> Availability heuristic and media (also see ‘biases’)</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="identity.html"><a href="identity.html"><i class="fa fa-check"></i><b>5</b> Barriers: Identity and cognitive dissonance</a>
-<ul>
+<li class="chapter" data-level="5" data-path="identity.html"><a href="identity.html"><i class="fa fa-check"></i><b>5</b> Barriers: Identity and cognitive dissonance</a><ul>
 <li class="chapter" data-level="5.1" data-path="identity.html"><a href="identity.html#self-interestlocal-public-good"><i class="fa fa-check"></i><b>5.1</b> Self-interest/local public good (?)</a></li>
 <li class="chapter" data-level="5.2" data-path="identity.html"><a href="identity.html#cognitive-dissonance"><i class="fa fa-check"></i><b>5.2</b> Cognitive dissonance</a></li>
 <li class="chapter" data-level="5.3" data-path="identity.html"><a href="identity.html#side-note-volunteer-experience-unlocks-emotion-and-giving"><i class="fa fa-check"></i><b>5.3</b> (Side note?) Volunteer experience unlocks emotion and giving</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="social.html"><a href="social.html"><i class="fa fa-check"></i><b>6</b> Barriers: Signaling and social pressures/social identity</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="social.html"><a href="social.html#signaling-concern-for-effectivenessimpact-versus-other-values"><i class="fa fa-check"></i><b>6.1</b> Signaling concern for effectiveness/impact versus other values</a>
-<ul>
+<li class="chapter" data-level="6" data-path="social.html"><a href="social.html"><i class="fa fa-check"></i><b>6</b> Barriers: Signaling and social pressures/social identity</a><ul>
+<li class="chapter" data-level="6.1" data-path="social.html"><a href="social.html#signaling-concern-for-effectivenessimpact-versus-other-values"><i class="fa fa-check"></i><b>6.1</b> Signaling concern for effectiveness/impact versus other values</a><ul>
 <li class="chapter" data-level="6.1.1" data-path="social.html"><a href="social.html#theory-and-argument"><i class="fa fa-check"></i><b>6.1.1</b> Theory and argument</a></li>
 <li class="chapter" data-level="6.1.2" data-path="social.html"><a href="social.html#evidence"><i class="fa fa-check"></i><b>6.1.2</b> Evidence</a></li>
 <li class="chapter" data-level="6.1.3" data-path="social.html"><a href="social.html#evidence-that-consequentialist-choices-lead-to-negative-signals-and-less-favorable-treatment-relative-to-deontologicalemotionally-intuitive-choices"><i class="fa fa-check"></i><b>6.1.3</b> Evidence that “consequentialist choices lead to negative signals and less-favorable treatment relative to deontological/emotionally intuitive choices”</a></li>
 <li class="chapter" data-level="6.1.4" data-path="social.html"><a href="social.html#indirect-evidence"><i class="fa fa-check"></i><b>6.1.4</b> Indirect evidence</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="eval-aversion.html"><a href="eval-aversion.html"><i class="fa fa-check"></i><b>7</b> Barriers: Aversion/obstacles to <em>doing</em> (and using) evaluations</a>
-<ul>
-<li class="chapter" data-level="7.1" data-path="eval-aversion.html"><a href="eval-aversion.html#cba-aversion"><i class="fa fa-check"></i><b>7.1</b> General cost-benefit analysis (CBA)-aversion or reluctance</a>
-<ul>
+<li class="chapter" data-level="7" data-path="eval-aversion.html"><a href="eval-aversion.html"><i class="fa fa-check"></i><b>7</b> Barriers: Aversion/obstacles to <em>doing</em> (and using) evaluations</a><ul>
+<li class="chapter" data-level="7.1" data-path="eval-aversion.html"><a href="eval-aversion.html#cba-aversion"><i class="fa fa-check"></i><b>7.1</b> General cost-benefit analysis (CBA)-aversion or reluctance</a><ul>
 <li class="chapter" data-level="7.1.1" data-path="eval-aversion.html"><a href="eval-aversion.html#description"><i class="fa fa-check"></i><b>7.1.1</b> Description</a></li>
 <li class="chapter" data-level="7.1.2" data-path="eval-aversion.html"><a href="eval-aversion.html#theoreticalconceptual-discussion"><i class="fa fa-check"></i><b>7.1.2</b> Theoretical/conceptual discussion</a></li>
 <li class="chapter" data-level="7.1.3" data-path="eval-aversion.html"><a href="eval-aversion.html#relevance-to-effective-giving"><i class="fa fa-check"></i><b>7.1.3</b> Relevance to Effective Giving</a></li>
@@ -313,12 +294,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.2" data-path="eval-aversion.html"><a href="eval-aversion.html#market-versus-social-norms"><i class="fa fa-check"></i><b>7.2</b> Market versus social norms</a></li>
 <li class="chapter" data-level="7.3" data-path="eval-aversion.html"><a href="eval-aversion.html#cost-effectiveness-information-may-turn-off-system-1-and-reduce-giving-statistics-diminish-impact-of-identifiable-victim"><i class="fa fa-check"></i><b>7.3</b> Cost effectiveness information may turn off System-1 and reduce giving; statistics diminish impact of ‘identifiable victim’</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="quant-biases.html"><a href="quant-biases.html"><i class="fa fa-check"></i><b>8</b> Barriers: Quantitative biases</a>
-<ul>
+<li class="chapter" data-level="8" data-path="quant-biases.html"><a href="quant-biases.html"><i class="fa fa-check"></i><b>8</b> Barriers: Quantitative biases</a><ul>
 <li class="chapter" data-level="8.1" data-path="quant-biases.html"><a href="quant-biases.html#biases-in-perceiving-impact"><i class="fa fa-check"></i><b>8.1</b> Biases in perceiving impact</a></li>
 <li class="chapter" data-level="8.2" data-path="quant-biases.html"><a href="quant-biases.html#other-biases-driving-departures-from-efficiency"><i class="fa fa-check"></i><b>8.2</b> Other biases driving departures from efficiency</a></li>
-<li class="chapter" data-level="8.3" data-path="quant-biases.html"><a href="quant-biases.html#proportional-dominance-effect"><i class="fa fa-check"></i><b>8.3</b> Proportional dominance effect</a>
-<ul>
+<li class="chapter" data-level="8.3" data-path="quant-biases.html"><a href="quant-biases.html#proportional-dominance-effect"><i class="fa fa-check"></i><b>8.3</b> Proportional dominance effect</a><ul>
 <li class="chapter" data-level="8.3.1" data-path="quant-biases.html"><a href="quant-biases.html#definition"><i class="fa fa-check"></i><b>8.3.1</b> Definition</a></li>
 <li class="chapter" data-level="8.3.2" data-path="quant-biases.html"><a href="quant-biases.html#conceptual-discussion"><i class="fa fa-check"></i><b>8.3.2</b> Conceptual Discussion</a></li>
 <li class="chapter" data-level="8.3.3" data-path="quant-biases.html"><a href="quant-biases.html#eg-relevance"><i class="fa fa-check"></i><b>8.3.3</b> EG Relevance</a></li>
@@ -332,56 +311,45 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8.8" data-path="quant-biases.html"><a href="quant-biases.html#scope-insensitivityembedding-effectpart-whole-effect"><i class="fa fa-check"></i><b>8.8</b> Scope insensitivity/embedding effect/part-whole effect</a></li>
 <li class="chapter" data-level="8.9" data-path="quant-biases.html"><a href="quant-biases.html#other-possibilities-risk-aversion-lack-of-tangibility-corruption-aversion"><i class="fa fa-check"></i><b>8.9</b> Other possibilities: “Risk aversion”, Lack of tangibility, Corruption aversion</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>9</b> Barriers: Inertia and systemic/institutional</a>
-<ul>
+<li class="chapter" data-level="9" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>9</b> Barriers: Inertia and systemic/institutional</a><ul>
 <li class="chapter" data-level="9.1" data-path="inertia.html"><a href="inertia.html#social-norms"><i class="fa fa-check"></i><b>9.1</b> Social norms</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html"><i class="fa fa-check"></i><b>10</b> <span id="tools">Tools for motivating EA giving</span></a>
-<ul>
+<li class="chapter" data-level="10" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html"><i class="fa fa-check"></i><b>10</b> <span id="tools">Tools for motivating EA giving</span></a><ul>
 <li class="chapter" data-level="10.1" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#introduction"><i class="fa fa-check"></i><b>10.1</b> Introduction</a></li>
 <li class="chapter" data-level="10.2" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#psychbehavioral-tools-applicability-to-ea-charities-1"><i class="fa fa-check"></i><b>10.2</b> Psych/behavioral tools; applicability to EA charities</a></li>
 <li class="chapter" data-level="10.3" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#de-biasing-and-misperception-correction-1"><i class="fa fa-check"></i><b>10.3</b> De-biasing and misperception correction</a></li>
 <li class="chapter" data-level="10.4" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#innovative-proposals-1"><i class="fa fa-check"></i><b>10.4</b> Innovative proposals</a></li>
 <li class="chapter" data-level="10.5" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#ea-movement-approaches-sucesses-and-pitfalls"><i class="fa fa-check"></i><b>10.5</b> EA-movement approaches, sucesses and pitfalls</a></li>
-<li class="chapter" data-level="10.6" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#a-listing"><i class="fa fa-check"></i><b>10.6</b> A listing</a>
-<ul>
+<li class="chapter" data-level="10.6" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#a-listing"><i class="fa fa-check"></i><b>10.6</b> A listing</a><ul>
 <li class="chapter" data-level="" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#make-impact-more-comparable-by-allowing-joint-evaluation-evaluation-mode"><i class="fa fa-check"></i>Make impact more comparable by allowing joint evaluation (Evaluation mode)</a></li>
 <li class="chapter" data-level="10.6.1" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#info-enhancing-social-closeness-of-recipient"><i class="fa fa-check"></i><b>10.6.1</b> (Info enhancing) social closeness of recipient</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html"><i class="fa fa-check"></i><b>11</b> Conclusion; a research agenda</a></li>
-<li class="chapter" data-level="12" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html"><i class="fa fa-check"></i><b>12</b> Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own)</a>
-<ul>
+<li class="chapter" data-level="12" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html"><i class="fa fa-check"></i><b>12</b> Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own)</a><ul>
 <li class="chapter" data-level="12.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#introduction-1"><i class="fa fa-check"></i><b>12.1</b> Introduction</a></li>
-<li class="chapter" data-level="12.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#git-and-github"><i class="fa fa-check"></i><b>12.2</b> Git and Github</a>
-<ul>
+<li class="chapter" data-level="12.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#git-and-github"><i class="fa fa-check"></i><b>12.2</b> Git and Github</a><ul>
 <li class="chapter" data-level="12.2.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#some-key-things-to-know-about-git-and-github"><i class="fa fa-check"></i><b>12.2.1</b> Some key things to know about Git and GitHub</a></li>
 </ul></li>
 <li class="chapter" data-level="12.3" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#r-and-rstudio"><i class="fa fa-check"></i><b>12.3</b> R and RStudio</a></li>
 <li class="chapter" data-level="12.4" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#markdown-and-bookdown"><i class="fa fa-check"></i><b>12.4</b> Markdown and Bookdown</a></li>
-<li class="chapter" data-level="12.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-and-folder-structure-in-this-repo-and-what-it-means"><i class="fa fa-check"></i><b>12.5</b> The code and folder structure in this repo, and what it means</a>
-<ul>
+<li class="chapter" data-level="12.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-and-folder-structure-in-this-repo-and-what-it-means"><i class="fa fa-check"></i><b>12.5</b> The code and folder structure in this repo, and what it means</a><ul>
 <li class="chapter" data-level="12.5.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020"><i class="fa fa-check"></i><b>12.5.1</b> Writing_econ_book: Files-folders of interest (taken from readme March 2020)</a></li>
 </ul></li>
-<li class="chapter" data-level="12.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-in-a-single-.rmd-file-and-how-it-translates-into-content"><i class="fa fa-check"></i><b>12.6</b> The code in a single “.Rmd” file and how it translates into content</a>
-<ul>
+<li class="chapter" data-level="12.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-in-a-single-.rmd-file-and-how-it-translates-into-content"><i class="fa fa-check"></i><b>12.6</b> The code in a single “.Rmd” file and how it translates into content</a><ul>
 <li class="chapter" data-level="12.6.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#basic-r-markdown"><i class="fa fa-check"></i><b>12.6.1</b> Basic (R-)Markdown</a></li>
 <li class="chapter" data-level="12.6.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#simple-md-rules"><i class="fa fa-check"></i><b>12.6.2</b> Some simple markdown rules</a></li>
 <li class="chapter" data-level="12.6.3" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#inline-code"><i class="fa fa-check"></i><b>12.6.3</b> Inline code</a></li>
 <li class="chapter" data-level="12.6.4" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#latexmaths"><i class="fa fa-check"></i><b>12.6.4</b> Latex/maths</a></li>
 <li class="chapter" data-level="12.6.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#custom-styles"><i class="fa fa-check"></i><b>12.6.5</b> Custom styles</a></li>
-<li class="chapter" data-level="12.6.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#notes"><i class="fa fa-check"></i><b>12.6.6</b> ‘Notes’</a></li>
-<li class="chapter" data-level="12.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#custom-styles-1"><i class="fa fa-check"></i><b>12.6.7</b> Custom styles</a></li>
-<li class="chapter" data-level="12.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-referencescitations"><i class="fa fa-check"></i><b>12.6.8</b> Adding references/citations</a></li>
+<li class="chapter" data-level="12.6.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-referencescitations"><i class="fa fa-check"></i><b>12.6.6</b> Adding references/citations</a></li>
 </ul></li>
 <li class="chapter" data-level="12.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>12.7</b> How to ‘build’ and view the book</a></li>
-<li class="chapter" data-level="12.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>12.8</b> Joining this project</a>
-<ul>
+<li class="chapter" data-level="12.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>12.8</b> Joining this project</a><ul>
 <li class="chapter" data-level="12.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>12.8.1</b> Creating a Branch and a ‘pull request’</a></li>
 <li class="chapter" data-level="12.8.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#github-web-page-content"><i class="fa fa-check"></i><b>12.8.2</b> GitHub web page content {#}</a></li>
 </ul></li>
-<li class="chapter" data-level="12.9" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable-and-innovationsinfundraising.org"><i class="fa fa-check"></i><b>12.9</b> Airtable and innovationsinfundraising.org</a>
-<ul>
+<li class="chapter" data-level="12.9" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable-and-innovationsinfundraising.org"><i class="fa fa-check"></i><b>12.9</b> Airtable and innovationsinfundraising.org</a><ul>
 <li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable"><i class="fa fa-check"></i>Airtable</a></li>
 <li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#key-features-of-tables-in-airtables-quick-views"><i class="fa fa-check"></i>Key features of tables in Airtables (quick views)</a></li>
 <li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#key-content"><i class="fa fa-check"></i>Key content</a></li>
@@ -409,16 +377,17 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="bookdown-appendix" class="section level1" number="12">
+<div id="bookdown-appendix" class="section level1">
 <h1><span class="header-section-number">12</span> Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own)</h1>
 <p><em>This tutorial written by Oska Fentem with David Reinstein</em></p>
-<div id="introduction-1" class="section level2" number="12.1">
+<div id="introduction-1" class="section level2">
 <h2><span class="header-section-number">12.1</span> Introduction</h2>
-<p>This appendix provides a brief introduction to the several types of software and processes used to creating websites such as <a href="https://daaronr.github.io/ea_giving_barriers/outline.html">Increasing Effective Charitable Giving</a> and <a href="https://daaronr.github.io/writing_econ_research/about-this-work.html">Researching and writing for Economics students</a>. We aim to encourage others to participate in this collaborative work, and to spin off their own projects. If you would like to provide feedback or ask a question about these projects then using ‘hypothes.is’ is an easy way to do so.</p>
+<p>This appendix provides a brief introduction to the several types of software and processes used to creating websites such as <a href="https://daaronr.github.io/ea_giving_barriers/outline.html">Increasing Effective Charitable Giving</a> and <a href="https://daaronr.github.io/writing_econ_research/about-this-work.html">Researching and writing for Economics students</a>. We aim to encourage others to participate in this collaborative work, and to spin off their own projects. If you would like to provide feedback or ask a question about these projects then using <a href="https://web.hypothes.is/">‘hypothes.is’</a> is an easy way to do so.</p>
 
 <div class="note">
 The template for my bookdown projects is maintained in my repo <a href="https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template">here</a>
 </div>
+
 
 <div class="note">
 <p><strong>This site (web-book project) is</strong></p>
@@ -455,9 +424,10 @@ The template for my bookdown projects is maintained in my repo <a href="https://
 <li>Features of the GitHub website such as ‘projects’</li>
 </ul>
 </div>
+
 <p>We first give a <em>brief</em> overview of R &amp; RStudio, Git &amp; Github, and R Markdown &amp; Bookdown, linking more extensive further resources/tutorials.</p>
 </div>
-<div id="git-and-github" class="section level2" number="12.2">
+<div id="git-and-github" class="section level2">
 <h2><span class="header-section-number">12.2</span> Git and Github</h2>
 <ul>
 <li><strong>Git</strong> is a version control system which enables users to track changes and progress in coding projects or any files in general. It is particularly useful for collaborating on projects as it provides a useful way to show who has altered which files and when. Users are even able to clone a <em>repository</em> (a folder inside of a project which tracks all changes made) and make changes without affecting the original project. Git also provides a very simple way to keep changes to projects up to date across different operating systems such as Windows and Mac. Installation and configuration of Git can be confusing to the newly-initiated user, <a href="https://happygitwithr.com/index.html">Happy Git</a> provides a user friendly tutorial on installing Git, <a href="https://git-scm.com/">which can be downloaded here</a>.</li>
@@ -468,29 +438,19 @@ The template for my bookdown projects is maintained in my repo <a href="https://
 Here’s a guide to exactly how to do it.
 </div>
 
+
 <div class="note">
 <p>Installing Git and the GitHub Desktop should take about XXX minutes.</p>
 Here’s a guide to exactly how to do it.
 </div>
-<div id="some-key-things-to-know-about-git-and-github" class="section level3" number="12.2.1">
-<h3><span class="header-section-number">12.2.1</span> Some key things to know about Git and GitHub</h3>
-<p>Git and GitHub can be a bit confusing. Here are some things that I wish I had known, that took my a while to figure out (unfold)</p>
 
-<div class="fold">
-<ul>
-<li><p>Git and Github are not the same thing … (explain)</p></li>
-<li><p>A ‘commit’ does not actually change the files in the shared (remote) Github repo; you need to ‘push’ to do that</p></li>
-<li><p>After ‘pulling’ from the remote repo, you may need to merge changes… (explain)</p></li>
-<li><p>You can have several different ‘branches’ of the same Repo existing at the same time. When you switch to a new ‘branch’ the files you see on your computer will instantly and amazingly change to exactly the files in that branch. But don’t worry, the old branch is not lost.</p></li>
-<li><p>… add some more</p></li>
-</ul>
-</div>
-<p><br />
-</p>
+<div id="some-key-things-to-know-about-git-and-github" class="section level3">
+<h3><span class="header-section-number">12.2.1</span> Some key things to know about Git and GitHub</h3>
 <p>A brief overview of key functions inside Git (assuming a remote Github repo) including commits, pushes &amp; pulls, forks &amp; branches and pull requests: (unfold)</p>
 
 <div class="fold">
 <ul>
+<li><strong>Cloning</strong> a Git repository copies an existing Git repository into your local file space.</li>
 <li>A <strong>commit</strong> saves the changes made in the current document to the <strong>local</strong> repository. Specific changes to commit to the remote (online) repo must be specified. This process is made much easier using a program such as Github Desktop rather than the Git code itself (although they do the same thing, and the latter is more flexible).</li>
 <li>A <strong>push</strong>, pushes all local commits to the online version of this repository, essentially updating the online version of the files, to the version which is stored locally on your device.</li>
 <li>A <strong>pull</strong>, is used to pull the changes made to the online repository, into the local repository. Thus making the local repository up to date with the remote/online repository.</li>
@@ -503,9 +463,23 @@ Here’s a guide to exactly how to do it.
 <li>Repos that are stored on Github can be accessed via a browser at <a href="https://github.com/">github.com</a>. The Github website itself provides a wide variety of tools, discussed further below under <a href="github_web">‘GitHub web page’</a>,</li>
 </ul>
 </div>
+
+<p><br />
+Git and GitHub can be a bit confusing. Here are some things that I wish I had known, that took my a while to figure out (unfold)</p>
+
+<div class="fold">
+<ul>
+<li><p>Git and Github are not the same thing … (explain)</p></li>
+<li><p>A ‘commit’ does not actually change the files in the shared (remote) Github repo; you need to ‘push’ to do that</p></li>
+<li><p>After ‘pulling’ from the remote repo, you may need to merge changes… (explain)</p></li>
+<li><p>You can have several different ‘branches’ of the same Repo existing at the same time. When you switch to a new ‘branch’ the files you see on your computer will instantly and amazingly change to exactly the files in that branch. But don’t worry, the old branch is not lost.</p></li>
+<li><p>… add some more</p></li>
+</ul>
+</div>
+
 </div>
 </div>
-<div id="r-and-rstudio" class="section level2" number="12.3">
+<div id="r-and-rstudio" class="section level2">
 <h2><span class="header-section-number">12.3</span> R and RStudio</h2>
 <ul>
 <li><strong>R</strong> is a free programming language which is mainly used for data analysis and statistics. It can be downloaded <a href="https://www.r-project.org/">here</a>. The popularity of R is growing in Economics Academia, largely due to the growth of Machine Learning techniques in R as well as the flexibility of the language itself.
@@ -519,6 +493,7 @@ R makes use of <strong>packages</strong> which are a collection of functions wri
 <p>Installing R should take about XXX minutes.</p>
 Here’s a guide to exactly how to do it.
 </div>
+
 <ul>
 <li><strong>RStudio</strong> is a programming environment and interface which helps facilitate a variety of tasks such as writing scripts using R (as well as other languages), and building/knitting these into various document formats. RStudio ‘Addins’ can also be extremely useful for things like tracking ‘todos’, adding citations, and formatting code. RStudio can also be configured so as to work seamlessly with Git (more on this later). RStudio can be downloaded <a href="https://rstudio.com/">here</a></li>
 </ul>
@@ -527,8 +502,9 @@ Here’s a guide to exactly how to do it.
 <p>Installing and configuring RStudio should take about XXX minutes.</p>
 Here’s a guide to exactly how to do it.
 </div>
+
 </div>
-<div id="markdown-and-bookdown" class="section level2" number="12.4">
+<div id="markdown-and-bookdown" class="section level2">
 <h2><span class="header-section-number">12.4</span> Markdown and Bookdown</h2>
 <ul>
 <li><p><strong>Markdown</strong> is a popular set of formats (really a ‘syntax for specifying output’) for generating and authoring documents. The Rmarkdown format (rmarkdown package) is one flavor of Markdown that works with R to enable ‘dynamic documents’ involving text, data-analysis, and other elements. It can then export your work to a variety of outputs such as html, pdf and word documents. As well as this it can also be used to create webpages, such as the one you are currently reading. The power of Markdown files comes from the way that they are able include/embed code as well as data and tables, which is useful for writing reproducible research and creating websites.<br />
@@ -540,9 +516,9 @@ Here’s a guide to exactly how to do it.
 <!-- @Oska -- perhaps you can say this better --></p>
 </div>
 </div>
-<div id="the-code-and-folder-structure-in-this-repo-and-what-it-means" class="section level2" number="12.5">
+<div id="the-code-and-folder-structure-in-this-repo-and-what-it-means" class="section level2">
 <h2><span class="header-section-number">12.5</span> The code and folder structure in this repo, and what it means</h2>
-<div id="writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020" class="section level3" number="12.5.1">
+<div id="writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020" class="section level3">
 <h3><span class="header-section-number">12.5.1</span> Writing_econ_book: Files-folders of interest (taken from readme March 2020)</h3>
 <p>docs: html output put here for web hosting</p>
 <p><strong>Folder: <a href="writing_econ_book">writing_econ_book</a></strong></p>
@@ -557,9 +533,9 @@ Here’s a guide to exactly how to do it.
 </ul>
 </div>
 </div>
-<div id="the-code-in-a-single-.rmd-file-and-how-it-translates-into-content" class="section level2" number="12.6">
+<div id="the-code-in-a-single-.rmd-file-and-how-it-translates-into-content" class="section level2">
 <h2><span class="header-section-number">12.6</span> The code in a single “.Rmd” file and how it translates into content</h2>
-<div id="basic-r-markdown" class="section level3" number="12.6.1">
+<div id="basic-r-markdown" class="section level3">
 <h3><span class="header-section-number">12.6.1</span> Basic (R-)Markdown</h3>
 <!-- Could do with rewording -->
 <p>The Markdown format offers a simple plain-text notation for specifying the elements of documents, reports, web sites, etc. (It is much simpler and easier to read than html, latex, etc.) It is widely used by programmers, on comment boards/forums, and throughout the internet. For example, GitHub.com automatically renders markdown code, particularly in <code>readme.md</code> files.</p>
@@ -575,10 +551,11 @@ Here’s a guide to exactly how to do it.
 <p>You can also install and use Pandoc directly in the command line, or try it out (in a limited but still useful way) on the web <a href="https://pandoc.org/try/">here</a></p>
 For more on Pandoc visit <a href="https://pandoc.org/">pandoc.org</a>
 </div>
+
 <p>In the R (statistically focused) language there are tools such as <code>knitR</code> that allow R users to produce reports combining text, statistical output, and interactive content. These are generally written in “R-markdown” documents, saved as <code>.Rmd</code> rather than <code>.md</code> files. The R-studio interface, and several “add-ins”, also help facilitate this. This interface is very useful; in fact, it may be convenient to build web books and other content using this even if you are not planning to extensively integrate R code and data. (As in the present book, although I’m hoping to build this in).</p>
 <p>Using R-markdown and Knitr (and other tools and add-ins like ‘Bookdown’) content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or regression output.</p>
 </div>
-<div id="simple-md-rules" class="section level3" number="12.6.2">
+<div id="simple-md-rules" class="section level3">
 <h3><span class="header-section-number">12.6.2</span> Some simple markdown rules</h3>
 <p>Text can be made <em>italic</em> using single asterisks <code>*italic</code> or <strong>bold</strong> by using asterisks <code>**bold**</code>.</p>
 <p>Hashtags/pound signs (<code>#</code>) specify headers and subheaders, e.g., this third-level subsection header was created with the code:</p>
@@ -613,49 +590,37 @@ For more on Pandoc visit <a href="https://pandoc.org/">pandoc.org</a>
 ## 5          5.0         3.6          1.4         0.2  setosa
 ## 6          5.4         3.9          1.7         0.4  setosa</code></pre>
 <p>Code chunks are defined by wrapping text inside <code>```  ```</code>. The above example was coded using:</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb15-1"><a href="bookdown-appendix.html#cb15-1"></a><span class="bn">```{r}</span></span>
-<span id="cb15-2"><a href="bookdown-appendix.html#cb15-2"></a><span class="bn">head(iris)</span></span>
-<span id="cb15-3"><a href="bookdown-appendix.html#cb15-3"></a><span class="bn">```</span></span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode markdown"><code class="sourceCode markdown"><a class="sourceLine" id="cb15-1" title="1"><span class="bn">```{r}</span></a>
+<a class="sourceLine" id="cb15-2" title="2"><span class="bn">head(iris)</span></a>
+<a class="sourceLine" id="cb15-3" title="3"><span class="bn">```</span></a></code></pre></div>
 <!-- ````markdown ```
 ```` -->
 <p>Options can be specified inside of the curly brackets {}
 More information is provided <a href="https://bookdown.org/yihui/rmarkdown/r-code.html">here</a></p>
 </div>
-<div id="inline-code" class="section level3" number="12.6.3">
+<div id="inline-code" class="section level3">
 <h3><span class="header-section-number">12.6.3</span> Inline code</h3>
 <p>Inline code is a quick and easy way to put snippets of R code. As an alternative to using code chunks, R code can simply be placed inside of <code>`r `</code>. For example, this can be used as an easy way to insert the value of a variable into a paragraph without inserting a chunk.</p>
 </div>
-<div id="latexmaths" class="section level3" number="12.6.4">
+<div id="latexmaths" class="section level3">
 <h3><span class="header-section-number">12.6.4</span> Latex/maths</h3>
 <p>R Markdown also can make use of the LaTeX document preparation system, which is popular for writing technical documents with mathematical content. This allows us to publish documents which include equations such as:</p>
 <p><span class="math display">\[y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u\]</span></p>
 <p>Which is written using <code>$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$</code>. Using <code>$$</code> means that the equation will be centered on the page. Alternatively <code>$</code> can be used in the same way, without the centering.</p>
-<p><a href="https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html">A very useful guide to maths in R Markdown</a></p>
+<p><a href="https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html">A very useful guide to maths in R Markdown</a> provides a detailed outline of the various mathematical symbols which can be used.</p>
 </div>
-<div id="custom-styles" class="section level3" number="12.6.5">
+<div id="custom-styles" class="section level3">
 <h3><span class="header-section-number">12.6.5</span> Custom styles</h3>
 <p>Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in <a href="support/tufte_plus.css">support/tufte_plus.css</a>. To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as show below for margin notes.</p>
 <ul>
-<li>More on creating styles <a href="https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html">here</a>. Below will outline several key styles used throughout these projects.</li>
-</ul>
-</div>
-<div id="notes" class="section level3" number="12.6.6">
-<h3><span class="header-section-number">12.6.6</span> ‘Notes’</h3>
-<p><a href="https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html">A very useful guide to maths in R Markdown</a> provides a detailed outline of the various mathematical symbols which can be used.</p>
-</div>
-<div id="custom-styles-1" class="section level3" number="12.6.7">
-<h3><span class="header-section-number">12.6.7</span> Custom styles</h3>
-<p>Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in <a href="support/tufte_plus.css">tufte_plus.css</a>. To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as shown below for margin notes.</p>
-<div class = 'marginnote'>
-<p>More on creating styles <a href="https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html">here</a>.
-There are 3 main custom styles which are used throughout the projects:</p>
-<ul>
-<li><strong>‘Notes’</strong></li>
+<li><p>More on creating styles <a href="https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html">here</a>. Below will outline several key styles used throughout these projects:</p></li>
+<li><p><strong>‘Notes’</strong></p></li>
 </ul>
 
 <div class="note">
 Formatted ‘Notes’ have been defined in this work which allow text to be placed in coloured blocks such as this one. To use this note style, <code>{block2, type ='note'}</code> can be specified at the start of the block, or a HTML wrapper can be used. This assigns the .note formatting from the tufte_plus.css file to the chunk.
 </div>
+
 <ul>
 <li><strong>Margin notes</strong>
 Margin notes are used throughout these projects as a way of displaying information in an organised and aesthetically pleasing way. To add a margin note, text is placed inside the following HTML wrapper:</li>
@@ -663,9 +628,9 @@ Margin notes are used throughout these projects as a way of displaying informati
 <div class="marginnote">
 <p>The margin notes used in this project are inspired by the Tufte handout style developed by American statistician Edward Tufte.</p>
 </div>
-<div class="sourceCode" id="cb16"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb16-1"><a href="bookdown-appendix.html#cb16-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;marginnote&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb16-2"><a href="bookdown-appendix.html#cb16-2"></a>Your margin note goes here.</span>
-<span id="cb16-3"><a href="bookdown-appendix.html#cb16-3"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb16-1" title="1"><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;marginnote&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb16-2" title="2">Your margin note goes here.</a>
+<a class="sourceLine" id="cb16-3" title="3"><span class="kw">&lt;/div&gt;</span></a></code></pre></div>
 <p>Or margin notes can be added by using chunk options.</p>
 <ul>
 <li><strong>Folding boxes</strong></li>
@@ -674,23 +639,18 @@ Margin notes are used throughout these projects as a way of displaying informati
 <div class="fold">
 Folding boxes also provide a useful way to incorporate content without cluttering the page. Similarly to the ‘notes’ the folding boxes are defined in tufte_plus.css and called by specifying <code>{block2, type='fold'}</code> at the start of a chunk, or using a HTML wrapper.
 </div>
+
 </div>
-<div id="adding-referencescitations" class="section level3" number="12.6.8">
-<h3><span class="header-section-number">12.6.8</span> Adding references/citations</h3>
+<div id="adding-referencescitations" class="section level3">
+<h3><span class="header-section-number">12.6.6</span> Adding references/citations</h3>
 <p>As with any academic work, it is always important to reference sourced material. Across these projects the following software is used:</p>
 <ul>
 <li><strong>Setup</strong></li>
 </ul>
-<p>Pandoc provides a way to generate formatted references as well as a bibliography in Markdown.</p>
-<p>(This is done through Pandoc tools.)</p>
-<div class="marginnote">
-<p>Oska, are you sure about this?</p>
-</div>
+<p>Pandoc provides a way to generate formatted references as well as a bibliography in <a href="https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html">R-Markdown</a>.</p>
 <p>The bibliography file to be sourced is specified within ‘YAML’ content, which guides the processing of these documents. (YAML content is generally enclosed with a three-dash <code>---</code> break at top and bottom.)</p>
-<p>I generally specify the bibliography source in the YAML at the top of the .Rmd file, or for Bookdown project,s in the the YAML content in index.Rmd. (Y</p>
-<div class="marginnote">
-<p><span class="citation">(<span class="citeproc-not-found" data-reference-id="Oska"><strong>???</strong></span>)</span> – we should try to ecplain this yaml stuff a bit better.</p>
-</div>
+<p>I generally specify the bibliography source in the YAML at the top of the .Rmd file, or for Bookdown projects in the the YAML content in index.Rmd.</p>
+<p><span class="citation">(<span class="citeproc-not-found" data-reference-id="Oska"><strong>???</strong></span>)</span> – we should try to explain this yaml stuff a bit better.</p>
 <ul>
 <li><strong>BibTeX</strong></li>
 </ul>
@@ -711,7 +671,7 @@ Folding boxes also provide a useful way to incorporate content without clutterin
 <p><code>download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = "reinstein_bibtex.bib")</code></p>
 </div>
 </div>
-<div id="how-to-build-and-view-the-book" class="section level2" number="12.7">
+<div id="how-to-build-and-view-the-book" class="section level2">
 <h2><span class="header-section-number">12.7</span> How to ‘build’ and view the book</h2>
 <p><strong>One way is within RStudio</strong></p>
 <ul>
@@ -727,28 +687,31 @@ Folding boxes also provide a useful way to incorporate content without clutterin
 </ul>
 <p>Building may take some time, depending on how much code is present in the Rmd files and what that code does</p>
 <ul>
-<li><p>It puts all the Rmd files specified in the _bookdown.yml into a single file, here labeled barriers-to-effective-giving.knit.md (I think), and then tuns that into html, also invoking bibtex along the way</p></li>
-<li><p>Depending on your RStudio settings (-Tools, -Project Options, -Build tools, -Preview book after building), it may put up a ‘preview version’ of the site</p></li>
+<li><p>It puts all the Rmd files specified in the _bookdown.yml into a single file, here labeled barriers-to-effective-giving.knit.md (I think), and then turns that into html, also invoking bibtex along the way</p></li>
+<li><p>Depending on your RStudio settings (-Tools, -Project Options, -Build tools, -Preview book after building), it may put up a ‘preview version’ of the site. Sometimes an error will appear such as “some/file not found”, this can typically be bypassed by clicking <strong>open in browser</strong>.</p></li>
 <li><p>All the ‘new’ output is directed to be put in the ‘docs’ folder, a bunch of html files. You can view those ‘local’ files in any web browser</p></li>
 <li><p>Once you commit and push, the ‘new’ bookdown website should be up on the WWW</p></li>
 </ul>
 </div>
-<div id="joining-this-project" class="section level2" number="12.8">
+<div id="joining-this-project" class="section level2">
 <h2><span class="header-section-number">12.8</span> Joining this project</h2>
 <ul>
 <li><p>Get a Github account, contact daaronr AT gmail.com and tell him your github account ID (or the email you used to join should probably work as well)</p></li>
 <li><p>Remember to ‘accept’ the invitation to the repos (here, the EA_giving_barriers repo; and possibly some other supporting repos as well). You should receive this invitations via email and it should also be in your “notifications” on Github.</p></li>
 </ul>
-<div id="creating-a-branch-and-a-pull-request" class="section level3" number="12.8.1">
+<div id="creating-a-branch-and-a-pull-request" class="section level3">
 <h3><span class="header-section-number">12.8.1</span> Creating a Branch and a ‘pull request’</h3>
 </div>
-<div id="github-web-page-content" class="section level3" number="12.8.2">
+<div id="github-web-page-content" class="section level3">
 <h3><span class="header-section-number">12.8.2</span> GitHub web page content {#}</h3>
 <p>As noted, GitHub is a web page and interface that acts as an external server and storage space for git projects/repos. It works well with this and also incorporate several additional features. You can see it and even interact with much of a repo simply via the GitHub webpage without even installing Git (but I strongly recommend that you do install Git as well as a tool like GitHub Desktop, unless you want to solely rely on command line Git).</p>
-<div id="web-page-for-a-repo" class="section level4 unnumbered" number="">
+<div id="web-page-for-a-repo" class="section level4 unnumbered">
 <h4>Web page for a repo</h4>
 <p><img src="../picsfigs/ea_barriers_github_repo_startpage.png" alt="EA barriers repo github starting page" />
 In your account when you click on the repo you’ll see something like the screen above. There are many tabs, starting with the code tab. At the top of this, you will see the list of folders and files, with messages describing the latest comments.</p>
+<div class="marginnote">
+<p>Once you’ve installed Git you will want to ‘clone this repo’ to have it on your machine and to be able to easily work with it and commit and push and pull changes. You will do this clone either via the web site, GitHub Desktop or another application, or using the command line</p>
+</div>
 <p>Note here we also see:</p>
 <ul>
 <li><p>48 ‘commits’</p></li>
@@ -756,23 +719,20 @@ In your account when you click on the repo you’ll see something like the scree
 <li><p>2 contributors</p></li>
 </ul>
 <p>Below this, some options allowing you to switch branch, manually upload files, clone or download etc.</p>
-<div class="marginnote">
-<p>Once you’ve installed Git you will want to ‘clone this repo’ to have it on your machine and to be able to easily work with it and commit and push and pull changes. You will do this clone either via the web site, GitHub Desktop or another application, or using the command line</p>
 </div>
-</div>
-<div id="readme-for-a-repo" class="section level4 unnumbered" number="">
+<div id="readme-for-a-repo" class="section level4 unnumbered">
 <h4>Readme for a repo</h4>
 <p>Below the list of files you should see the “readme” for this repository. This is a file ‘README.md’ stored in the root directory of this repository. If you click on it or look at the file you’ll see it is written in markdown syntax but the GitHub website renders it into a nice format.</p>
 <p>I typically use this readme to explain what the project is about and describe (and link) the folder structure.</p>
 </div>
-<div id="commentsnotifications" class="section level4 unnumbered" number="">
+<div id="commentsnotifications" class="section level4 unnumbered">
 <h4>Comments/notifications</h4>
 <p>In a variety of places within a repo when you are adding comments or content you can refer to a collaborator who will then receive a “notification” linking this content. (These are also called “callouts” in some systems.) These may come as as emails to that collaborator if they set a setting to get email notifications, but they will definitely appear as a notification, again that bell thing in the upper right hand corner.</p>
 </div>
-<div id="seeing-recent-commits-history-and-blame" class="section level4 unnumbered" number="">
+<div id="seeing-recent-commits-history-and-blame" class="section level4 unnumbered">
 <h4>Seeing recent commits, history and ‘blame’</h4>
 <div class="figure">
-<img src="../picsfigs/some_commits.png" alt="" />
+<img src="../picsfigs/some_commits.png" alt="Showing the most recent commits" />
 <p class="caption">Showing the most recent commits</p>
 </div>
 <p><br />
@@ -782,24 +742,24 @@ In your account when you click on the repo you’ll see something like the scree
 <p><br />
 </p>
 <div class="figure">
-<img src="../picsfigs/commit_some_diffs.png" alt="" />
+<img src="../picsfigs/commit_some_diffs.png" alt="Showing the most recent commits" />
 <p class="caption">Showing the most recent commits</p>
 </div>
 <p>For example, above we see something like a “split diff” view, with the ‘old version’ (before this commit) on the left and the ‘new version’ on the right. What is new is in green (with a ‘+’), and what is removed is in red highlight (with a “-”).</p>
 <p>Here we see that …</p>
 <ul>
-<li><p>in the file ‘sections/inertia.rmd’ a space has been added after ‘crowding out?’</p></li>
-<li><p>in ‘present_puzzle.Rmd’ an (obsolete) ‘underline’ notation has been replaced with a third level markdown header (three <code>#</code> marks)</p></li>
-</ul>
+<li>in the file ‘sections/inertia.rmd’ a space has been added after ‘crowding out?’
 <div class="marginnote">
 <p>This is but one way to view and consider changes. Various text editors such as Atom and ViM also offer great tools, as does the Git program itself and the GitHub desktop application.</p>
+</div></li>
+<li>in ‘present_puzzle.Rmd’ an (obsolete) ‘underline’ notation has been replaced with a third level markdown header (three <code>#</code> marks)</li>
+</ul>
 </div>
-</div>
-<div id="commenting-within-commits-etc.-tagging-collaborators-in-this" class="section level4 unnumbered" number="">
+<div id="commenting-within-commits-etc.-tagging-collaborators-in-this" class="section level4 unnumbered">
 <h4>Commenting within commits, etc., tagging collaborators in this</h4>
 <p>One way to ask questions, comment on changes and let people know about changes you made, is via adding a comment within a commit itself. (Check: can this be tied to an ‘issue’?)</p>
 <div class="figure">
-<img src="../picsfigs/commenting_a_commit.png" alt="" />
+<img src="../picsfigs/commenting_a_commit.png" alt="Commenting on a part of a commit, notifying a collaborator" />
 <p class="caption">Commenting on a part of a commit, notifying a collaborator</p>
 </div>
 <p>Above, we see that by clicking on a plus sign that appears just to the right of the the line number when viewing a commit, we can add a comment on that particular part of the commit. We can then flag another collaborator (see ‘<span class="citation">(<span class="citeproc-not-found" data-reference-id="daaronr"><strong>???</strong></span>)</span>’ above … when you type the ‘@’ you get a dropdown of collaborators) who will be notified of this.</p>
@@ -808,11 +768,11 @@ In your account when you click on the repo you’ll see something like the scree
 </p>
 <p>You can also link each comment to an ‘issue’ (issues are discussed below) by adding a hash to the comment and citing the issue number. This comment and link to the place in the code or text for that commit will then show up when you look at that issue. This makes the discussion more organized, at least we hope.</p>
 <div class="figure">
-<img src="../picsfigs/comment_link_issue.png" alt="" />
+<img src="../picsfigs/comment_link_issue.png" alt="Link an issue in a comment" />
 <p class="caption">Link an issue in a comment</p>
 </div>
 </div>
-<div id="the-project-board-and-issues" class="section level4 unnumbered" number="">
+<div id="the-project-board-and-issues" class="section level4 unnumbered">
 <h4>The ‘Project’ board and ‘Issues’</h4>
 <ul>
 <li><p>the Project is a ‘Kanban board’ for managing tasks, responsibilities and progress</p></li>
@@ -821,35 +781,35 @@ In your account when you click on the repo you’ll see something like the scree
 <p><br />
 </p>
 <div class="figure">
-<img src="../picsfigs/project_start.png" alt="" />
+<img src="../picsfigs/project_start.png" alt="a github ‘Project’" />
 <p class="caption">a github ‘Project’</p>
 </div>
 <div class="figure">
-<img src="../picsfigs/project_board.png" alt="" />
+<img src="../picsfigs/project_board.png" alt="Kanban for the github ‘Project’" />
 <p class="caption">Kanban for the github ‘Project’</p>
 </div>
 <div class="figure">
-<img src="../picsfigs/project_2.png" alt="" />
+<img src="../picsfigs/project_2.png" alt="One task/issue in the Kanban" />
 <p class="caption">One task/issue in the Kanban</p>
 </div>
 <div class="figure">
-<img src="../picsfigs/an_issue.png" alt="" />
+<img src="../picsfigs/an_issue.png" alt="Viewing this issue and its discussion" />
 <p class="caption">Viewing this issue and its discussion</p>
 </div>
 </div>
 </div>
 </div>
-<div id="airtable-and-innovationsinfundraising.org" class="section level2" number="12.9">
+<div id="airtable-and-innovationsinfundraising.org" class="section level2">
 <h2><span class="header-section-number">12.9</span> Airtable and innovationsinfundraising.org</h2>
 <p>This project is closely connected to <a href="innovationsinfundraising.org">innovationsinfundraising.org</a>. Much of these projects overlap, and there is a shared ‘database’ stored as an airtable <a href="https://airtable.com/invite/l?inviteId=invjWg63fpQAOBcch&amp;inviteToken=0b154f62460aba428e0bf8c082ae3947e2e9b62b1045994a767eee551bb92833">Giving researchers shared</a></p>
 <p>We had an earlier … <a href="https://github.com/daaronr/ea_giving_barriers/blob/master/documentatiion_and_tutorials/project_airtableexplained/airtable_database_overview.pdf">tutorial on using the Airtable and Innovationsinfundraising.org here</a></p>
 <p>I add a few more points below, more relevant to the current project:<br />
 </p>
-<div id="airtable" class="section level3 unnumbered" number="">
+<div id="airtable" class="section level3 unnumbered">
 <h3>Airtable</h3>
 <p><a href="https://airtable.com/">Airtable</a> is a collaborative web-based software with a variety of displays and organizational structures; it has many features of a relational database, and even more features if one engages their API. It is user-friendly, with a gui resembling a spreadsheet, and easy tutorials, instructions and examples. You can operate it from a browser or a web-driven app.</p>
 </div>
-<div id="key-features-of-tables-in-airtables-quick-views" class="section level3 unnumbered" number="">
+<div id="key-features-of-tables-in-airtables-quick-views" class="section level3 unnumbered">
 <h3>Key features of tables in Airtables (quick views)</h3>
 <p>Each Airtable user can have any number of <em>Bases</em>, and bases can be shared in work groups.</p>
 <ul>
@@ -857,25 +817,25 @@ In your account when you click on the repo you’ll see something like the scree
 </ul>
 <p>“key_papers”; the papers providing the most relevant and strongest evidence for the tool, and “secondary papers”.</p>
 </div>
-<div id="key-content" class="section level3 unnumbered" number="">
+<div id="key-content" class="section level3 unnumbered">
 <h3>Key content</h3>
 <p>The “Categories” table provides and explains a number of “schema” we use to characterize both the tools and the “Barriers to effective giving” (discussed later).</p>
 <div class="figure">
-<img src="../picsfigs/categories_table.png" alt="" />
+<img src="../picsfigs/categories_table.png" alt="categories table" />
 <p class="caption">categories table</p>
 </div>
 <p><br />
 </p>
 <p>Key papers are stored and organised in the ‘papers_mass’ table. This is crosslinked in several other tables. Within each paper ‘row’ there is a variety of relevant information and discussion on each paper.</p>
 <div class="figure">
-<img src="../picsfigs/key_papers.png" alt="" />
+<img src="../picsfigs/key_papers.png" alt="key papers" />
 <p class="caption">key papers</p>
 </div>
 <p><br />
 </p>
 <p>The fundingwiki app automatically populates and updates information on the number of times each paper has been cited, using the Crossref database. Tool such as these will enable this to be a perrennial resource, rather than a frozen-in-time evaluation.</p>
 <div class="figure">
-<img src="../picsfigs/citations_auto_update.png" alt="" />
+<img src="../picsfigs/citations_auto_update.png" alt="citations auto update" />
 <p class="caption">citations auto update</p>
 </div>
 <p><br />
@@ -884,14 +844,15 @@ In your account when you click on the repo you’ll see something like the scree
 <div class="note">
 <strong>Note</strong>: Some but not all of the Airtable content discussed in the rest of this subsection has already been incorporated into the present bookdown.
 </div>
+
 <p>The table “EAlit_sections” outlines the (earlier?) structure of the EA barriers paper, already providing links to information that will be integrated.</p>
 <div class="figure">
-<img src="../picsfigs/organizing_ealitpaper.png" alt="" />
+<img src="../picsfigs/organizing_ealitpaper.png" alt="organizing ealitpaper" />
 <p class="caption">organizing ealitpaper</p>
 </div>
 <p>This table also links directly to the papers_mass table, organizing the papers we are referencing and reviewing in each section.</p>
 <div class="figure">
-<img src="../picsfigs/organizing_EAlit_papers.png" alt="" />
+<img src="../picsfigs/organizing_EAlit_papers.png" alt="organizing EAlit papers" />
 <p class="caption">organizing EAlit papers</p>
 </div>
 <p><br />
@@ -899,7 +860,7 @@ In your account when you click on the repo you’ll see something like the scree
 <p>The separate “Barriers to EAG” table is below.</p>
 <p>This organizes and assembles the discussion and evidence on potential factors and categories of factors that may explain the limited amount of “effective giving”. This represents the largest part of our review paper; we focus on clear definitions of the most relevant psychological (and “behavioral economic”) biases, and carefully asses the available evidence. We focus specifically on evidence in the charitable domain, but we also consider the broader evidence for these biases in other contexts.</p>
 <div class="figure">
-<img src="../picsfigs/barriers_to_EAG.png" alt="" />
+<img src="../picsfigs/barriers_to_EAG.png" alt="barriers to EAG" />
 <p class="caption">barriers to EAG</p>
 </div>
 <div class="marginnote">
@@ -907,33 +868,33 @@ In your account when you click on the repo you’ll see something like the scree
 </div>
 <p>For each barrier or bias, we consider why it is may be particularly relevant to <em>effective</em> giving.</p>
 <div class="figure">
-<img src="../picsfigs/barriers_to_EAG_whyrelevant.png" alt="" />
+<img src="../picsfigs/barriers_to_EAG_whyrelevant.png" alt="barriers to EAG, why relevant" />
 <p class="caption">barriers to EAG, why relevant</p>
 </div>
 <p><br />
 </p>
 <p>We further propose and discuss tools addressing these barriers and promoting effective charitable giving.</p>
 <div class="figure">
-<img src="../picsfigs/tools_remedies.png" alt="" />
+<img src="../picsfigs/tools_remedies.png" alt="tools remedies" />
 <p class="caption">tools remedies</p>
 </div>
 <p><br />
 </p>
 </div>
 </div>
-<div id="useful-resources" class="section level2" number="12.10">
+<div id="useful-resources" class="section level2">
 <h2><span class="header-section-number">12.10</span> Useful resources</h2>
 <p>Like most things, when working with code the internet is your best friend. Listed below are several useful resources for learning about the material mentioned above:</p>
-<div id="r-markdown-the-definitive-guide" class="section level4" number="12.10.0.1">
+<div id="r-markdown-the-definitive-guide" class="section level4">
 <h4><span class="header-section-number">12.10.0.1</span> <a href="https://bookdown.org/yihui/rmarkdown/" class="unnumbered">R Markdown: The definitive guide</a></h4>
 </div>
-<div id="r-for-data-science" class="section level4" number="12.10.0.2">
+<div id="r-for-data-science" class="section level4">
 <h4><span class="header-section-number">12.10.0.2</span> <a href="https://r4ds.had.co.nz/" class="unnumbered">R for Data Science</a></h4>
 </div>
-<div id="authoring-books-with-r-markdown" class="section level4 unnumbered" number="">
+<div id="authoring-books-with-r-markdown" class="section level4 unnumbered">
 <h4><a href="https://bookdown.org/yihui/bookdown/">Authoring Books with R Markdown</a></h4>
 </div>
-<div id="yarrr-the-pirates-guide-to-r" class="section level4" number="12.10.0.3">
+<div id="yarrr-the-pirates-guide-to-r" class="section level4">
 <h4><span class="header-section-number">12.10.0.3</span> <a href="https://bookdown.org/ndphillips/YaRrr/" class="unnumbered">YaRrr! The Pirate’s Guide to R</a></h4>
 
 </div>
