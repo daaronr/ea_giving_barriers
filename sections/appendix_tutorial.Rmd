@@ -408,6 +408,7 @@ Below  the list of files you should see the "readme" for this repository. This i
 
 In a variety of places within a repo when you are adding comments or content you can refer to a collaborator who will then receive a "notification" linking this content. (These are also called "callouts" in some systems.) These  may come as as emails to that collaborator if they set a setting to get email notifications, but they will definitely appear as a notification, again that bell thing in the upper right hand corner.
 
+
 #### Seeing recent commits, history and 'blame' {-}
 
 ![Showing the most recent commits](../picsfigs/some_commits.png)
