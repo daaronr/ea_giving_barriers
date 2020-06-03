@@ -10,7 +10,7 @@ output:
     lib_dir: "book_assets"
     includes:
       in_header: support/header.html
-    css: support/tufte_plus.css
+    css: support/tufte_plusX.css
     config:
       toc:
         after: |
@@ -62,7 +62,6 @@ tryCatch(
   {
 download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/bookdown_template/support/header.html", destfile = here("support", "headerX.html"))
   download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/bookdown_template/support/tufte_plus.css", destfile = here("support", "tufte_plusX.css"))
-  download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = here("support","reinstein_bibtexX.bib"))
 },  error = function(e) {
   print("you are not online, so we can't download")
 }
