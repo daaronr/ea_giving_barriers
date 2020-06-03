@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This appendix provides a brief introduction to the several types of software and processes used to creating websites such as [Increasing Effective Charitable Giving](https://daaronr.github.io/ea_giving_barriers/outline.html) and [Researching and writing for Economics students](https://daaronr.github.io/writing_econ_research/about-this-work.html). We aim to encourage others to participate in this collaborative work, and to spin off their own projects. If you would like to provide feedback or ask a question about these projects then using 'hypothes.is' is an easy way to do so.
+This appendix provides a brief introduction to the several types of software and processes used to creating websites such as [Increasing Effective Charitable Giving](https://daaronr.github.io/ea_giving_barriers/outline.html) and [Researching and writing for Economics students](https://daaronr.github.io/writing_econ_research/about-this-work.html). We aim to encourage others to participate in this collaborative work, and to spin off their own projects. If you would like to provide feedback or ask a question about these projects then using ['hypothes.is'](https://web.hypothes.is/) is an easy way to do so.
 
 
 ```{block2,  type='note'}
@@ -72,6 +72,22 @@ Here's a guide to exactly how to do it.
 
 ### Some key things to know about Git and GitHub
 
+A brief overview of key functions inside Git (assuming a remote Github repo) including commits, pushes & pulls, forks & branches and pull requests: (unfold)
+
+```{block2,  type='fold'}
+
+* **Cloning** a Git repository copies an existing Git repository into your local file space. 
+* A **commit** saves the changes made in the current document to the **local** repository. Specific changes to commit to the remote (online) repo must be specified. This process is made much easier using a program such as Github Desktop rather than the Git code itself (although they do the same thing, and the latter is more flexible).
+* A **push**, pushes all local commits to the online version of this repository, essentially updating the online version of the files, to the version which is stored locally on your device.
+* A **pull**, is used to pull the changes made to the online repository, into the local repository. Thus making the local repository up to date with the remote/online repository.
+* Creating a **branch** allows you to create a separate version of a repository and make changes to this without affecting the master/original repository.
+* A **pull request** then allows you to pull the changes made in a branch over to the master repository, in order to merge the work.
+* As noted, **Github Desktop** provides a user interface for a more simple and intuitive way to use Git.  There are a variety of other interfaces.
+  * Github can also be integrated into RStudio and into many other tools, such as the Atom text editor.
+* Repos that are stored on Github can be accessed via a browser at [github.com](https://github.com/). The Github website itself provides a wide variety of tools, discussed further below under ['GitHub web page'](github_web),
+
+```
+\
 Git and GitHub can be a bit confusing.  Here are some things that I wish I had known, that took my a while to figure out (unfold)
 
 ```{block2,  type='fold'}
@@ -85,23 +101,6 @@ Git and GitHub can be a bit confusing.  Here are some things that I wish I had k
 - You can have several different 'branches' of the same Repo existing at the same time. When you switch to a new 'branch' the files you see on your computer will instantly and amazingly change to exactly the files in that branch. But don't worry, the old branch is not lost.
 
 - ... add some more
-
-```
-\
-
-
-A brief overview of key functions inside Git (assuming a remote Github repo) including commits, pushes & pulls, forks & branches and pull requests: (unfold)
-
-```{block2,  type='fold'}
-
-* A **commit** saves the changes made in the current document to the **local** repository. Specific changes to commit to the remote (online) repo must be specified. This process is made much easier using a program such as Github Desktop rather than the Git code itself (although they do the same thing, and the latter is more flexible).
-* A **push**, pushes all local commits to the online version of this repository, essentially updating the online version of the files, to the version which is stored locally on your device.
-* A **pull**, is used to pull the changes made to the online repository, into the local repository. Thus making the local repository up to date with the remote/online repository.
-* Creating a **branch** allows you to create a separate version of a repository and make changes to this without affecting the master/original repository.
-* A **pull request** then allows you to pull the changes made in a branch over to the master repository, in order to merge the work.
-* As noted, **Github Desktop** provides a user interface for a more simple and intuitive way to use Git.  There are a variety of other interfaces.
-  * Github can also be integrated into RStudio and into many other tools, such as the Atom text editor.
-* Repos that are stored on Github can be accessed via a browser at [github.com](https://github.com/). The Github website itself provides a wide variety of tools, discussed further below under ['GitHub web page'](github_web),
 
 ```
 
@@ -254,23 +253,13 @@ $$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u$$
 
 Which is written using `$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$`. Using `$$` means that the equation will be centered on the page. Alternatively `$` can be used in the same way, without the centering.
 
-[A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html)
+[A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html) provides a detailed outline of the various mathematical symbols which can be used.
 
 ### Custom styles
 
 Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in [support/tufte_plus.css](support/tufte_plus.css). To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as show below for margin notes.
 
-- More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html). Below will outline several key styles used throughout these projects.
-
-### 'Notes'
-[A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html) provides a detailed outline of the various mathematical symbols which can be used.
-
-### Custom styles
-Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in [tufte_plus.css](support/tufte_plus.css). To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as shown below for margin notes.
-
-<div class = 'marginnote'>
-More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html).
-There are 3 main custom styles which are used throughout the projects:
+- More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html). Below will outline several key styles used throughout these projects:
 
 - **'Notes'**
 
@@ -280,7 +269,6 @@ Formatted 'Notes' have been defined in this work which allow text to be placed i
 
 - **Margin notes**
 Margin notes are used throughout these projects as a way of displaying information in an organised and aesthetically pleasing way. To add a margin note, text is placed inside the following HTML wrapper:
-
 
 <div class='marginnote'>
 The margin notes used in this project are inspired by the Tufte handout style developed by American statistician Edward Tufte.
@@ -304,21 +292,13 @@ As with any academic work, it is always important to reference sourced material.
 
 - **Setup**
 
-Pandoc provides a way to generate formatted references as well as a bibliography in Markdown.
+Pandoc provides a way to generate formatted references as well as a bibliography in [R-Markdown](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html).
 
-(This is done through Pandoc tools.)
+The bibliography file to be sourced is specified within 'YAML' content, which guides the processing of these documents. (YAML content is generally enclosed with a three-dash `---` break at top and bottom.) 
 
-<div class="marginnote">
-Oska, are you sure about this?
-</div>
+I generally specify the bibliography source in the YAML at the top of the .Rmd file, or for Bookdown projects in the  the YAML content in index.Rmd. 
 
-The bibliography file to be sourced is specified within 'YAML' content, which guides the processing of these documents. (YAML content is generally enclosed with a three-dash `---` break at top and bottom.)
-
-I generally specify the bibliography source in the YAML at the top of the .Rmd file, or for Bookdown project,s in the  the YAML content in index.Rmd.  (Y
-
-<div class="marginnote">
-@Oska -- we should try to ecplain this yaml stuff a bit better.
-</div>
+@Oska -- we should try to explain this yaml stuff a bit better.
 
 
 - **BibTeX**
@@ -356,9 +336,9 @@ I currently (25 Apr 2020) am having Zotero automatically maintain/output the key
 
 Building may take some time, depending on how much code is present in the Rmd files and what that code does
 
-- It puts all the Rmd files specified in the _bookdown.yml into a single file, here labeled barriers-to-effective-giving.knit.md (I think), and then tuns that into html, also invoking bibtex along the way
+- It puts all the Rmd files specified in the _bookdown.yml into a single file, here labeled barriers-to-effective-giving.knit.md (I think), and then turns that into html, also invoking bibtex along the way
 
-- Depending on your RStudio settings (-Tools, -Project Options, -Build tools, -Preview book after building), it may put up a 'preview version' of the site
+- Depending on your RStudio settings (-Tools, -Project Options, -Build tools, -Preview book after building), it may put up a 'preview version' of the site. Sometimes an error will appear such as "some/file not found", this can typically be bypassed by clicking **open in browser**.
 
 - All the 'new' output is directed to be put in the 'docs' folder, a bunch of html files. You can view those 'local' files in any web browser
 
@@ -383,6 +363,10 @@ As noted, GitHub is a web page and interface that  acts as an external server an
 ![EA barriers repo github starting page](../picsfigs/ea_barriers_github_repo_startpage.png)
 In your account when you click on the repo you'll see something like the  screen above. There are many tabs, starting with the code tab. At the top of this, you will see the list of folders and files, with messages describing the latest comments.
 
+<div class="marginnote">
+Once you've installed Git you will want to 'clone this repo' to have it on your machine and to be able to easily work with it and commit and push and pull changes. You will do this clone either via the web site, GitHub Desktop or another application, or using the command line
+</div>
+
 Note here we also see: 
 
 - 48 'commits'
@@ -393,11 +377,6 @@ Note here we also see:
 
 Below this, some options allowing you to switch branch, manually upload files, clone or download etc. 
 
-<div class="marginnote">
-Once you've installed Git you will want to 'clone this repo' to have it on your machine and to be able to easily work with it and commit and push and pull changes. You will do this clone either via the web site, GitHub Desktop or another application, or using the command line
-
-</div>
- 
 #### Readme for a repo {-}
 
 Below  the list of files you should see the "readme" for this repository. This is a file 'README.md'  stored in the root directory of this repository. If you click on it or look at the file you'll see it is written in markdown syntax but the GitHub website renders it into a nice format. 
@@ -432,14 +411,11 @@ For example, above we see something like a "split diff" view, with the 'old vers
 Here we see that ...
 
 - in the file 'sections/inertia.rmd' a space has been added after 'crowding out?' 
-
-- in 'present_puzzle.Rmd' an (obsolete) 'underline' notation has been replaced with a third level markdown header (three `#` marks)
-
 <div class="marginnote">
 This is but one way to view and consider changes. Various text editors such as Atom and ViM also offer great tools, as does the Git program itself and the GitHub desktop application.  
 </div>
- 
 
+- in 'present_puzzle.Rmd' an (obsolete) 'underline' notation has been replaced with a third level markdown header (three `#` marks)
 
 #### Commenting within commits, etc., tagging collaborators in this {-}
 
