@@ -37,7 +37,7 @@ output:
 bookdown::pdf_book:
     keep_tex: yes
 always_allow_html: yes
-bibliography: ["reinstein_bibtex.bib"] #this first one seems to be auto-generated ?
+bibliography: ["support/reinstein_bibtex.bib"] #this first one seems to be auto-generated ?
 biblio-style: apalike
 link-citations: yes
 github-repo: #gerhardriener/CharitySubstitutionExperiment
