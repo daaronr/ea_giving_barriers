@@ -361,6 +361,8 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
   width: 70%!important;
     border: 1px solid black;
 }
+.note p { width: 100%!important; }
+
 .technote{
   padding: 1em 1em 1em 1em;
   margin-bottom: 5px;
@@ -391,7 +393,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 }
 .gallant{
   margin-bottom: 2px;
-  background: #c9f5c9 2px center/3em no-repeat;    
+  background: #c9f5c9 2px center/3em no-repeat;
   padding: .2em .2em .2em .2em;
   display: inline-block;
   margin-bottom: 5px;
@@ -419,17 +421,12 @@ h3.subtitle em {
   margin: 0px 0px 0 0;
     font-size: smaller;
 }
+
+
 .fold {
-  border: 1px solid black;
+  border: 1px solid grey;
   min-height: 40px;
-<<<<<<< HEAD
-    max-width: 95%;
-=======
-    max-width: 70%;
-}
-p, footer, table {
-    width: 75%!important;
->>>>>>> 78db1096bf2899c13e2248dc8728ad0dc55e7fdc
+    max-width: 90%;
 }
 
 /*Note here to check it's updating */

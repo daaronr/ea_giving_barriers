@@ -43,7 +43,6 @@ div.abstract{
   width: 90%;
 }
 </style>
-<script src="book_assets/header-attrs-2.1/header-attrs.js"></script>
 <script src="book_assets/jquery-2.2.3/jquery.min.js"></script>
 <link href="book_assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="book_assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -140,26 +139,25 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 
 
 <style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -168,9 +166,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  background-color: #f8f8f8; }
+  { background-color: #f8f8f8; }
 @media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ef2929; } /* Alert */
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
@@ -202,7 +200,7 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-<link rel="stylesheet" href="support/tufte_plus.css" type="text/css" />
+<link rel="stylesheet" href="support\tufte_plusX.css" type="text/css" />
 </head>
 
 <body>
@@ -215,15 +213,12 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<li class="chapter" data-level="1" data-path="outline.html"><a href="outline.html"><i class="fa fa-check"></i><b>1</b> Outline</a>
-<ul>
-<li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#abstract"><i class="fa fa-check"></i>Extended abstract</a>
-<ul>
+<li class="chapter" data-level="1" data-path="outline.html"><a href="outline.html"><i class="fa fa-check"></i><b>1</b> Outline</a><ul>
+<li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#abstract"><i class="fa fa-check"></i>Extended abstract</a><ul>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#pop-abstract"><i class="fa fa-check"></i>Non-technical abstract</a></li>
 </ul></li>
 <li><a href="outline.html#presenting-the-puzzle-and-challenge-our-ineffective-giving"><span>Presenting the puzzle and challenge: Our ineffective giving</span></a></li>
-<li><a href="outline.html#definitions---efficiency-versus-impact"><span>Definitions - “Efficiency” versus impact</span></a>
-<ul>
+<li><a href="outline.html#definitions---efficiency-versus-impact"><span>Definitions - “Efficiency” versus impact</span></a><ul>
 <li><a href="outline.html#why-under-what-models-is-this-a-puzzle"><span>Why (under what models) is this a puzzle?</span></a></li>
 </ul></li>
 <li><a href="outline.html#do-people-actually-care-about-impact-does-moral-utilitarianism-matter"><span>Do people <em>actually care about</em> impact? Does moral utilitarianism matter?</span></a></li>
@@ -235,39 +230,31 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="outline.html#barriers-aversionobstacles-to-doing-and-using-evaluations"><span>Barriers: Aversion/obstacles to <em>doing</em> (and using) evaluations</span></a></li>
 <li><a href="outline.html#barriers-quantitative-biases"><span>Barriers: Quantitative biases</span></a></li>
 <li><a href="outline.html#barriers-inertia-and-systemicinstitutional"><span>Barriers: Inertia and systemic/institutional</span></a></li>
-<li><a href="outline.html#tools-for-motivating-ea-giving"><span>Tools for motivating EA giving</span></a>
-<ul>
+<li><a href="outline.html#tools-for-motivating-ea-giving"><span>Tools for motivating EA giving</span></a><ul>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#psychbehavioral-tools-applicability-to-ea-charities"><i class="fa fa-check"></i>Psych/behavioral tools; applicability to EA charities</a></li>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#de-biasing-and-misperception-correction"><i class="fa fa-check"></i>De-biasing and misperception-correction</a></li>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#innovative-proposals"><i class="fa fa-check"></i>Innovative proposals</a></li>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#ea-movement-approaches-and-pitfalls"><i class="fa fa-check"></i>EA-movement approaches and pitfalls</a></li>
 </ul></li>
 <li><a href="outline.html#conclusion-a-research-agenda"><span>Conclusion; a research agenda</span></a></li>
-<li class="chapter" data-level="1.1" data-path="outline.html"><a href="outline.html#other-practical-considerations"><i class="fa fa-check"></i><b>1.1</b> Other practical considerations</a>
-<ul>
+<li class="chapter" data-level="1.1" data-path="outline.html"><a href="outline.html#other-practical-considerations"><i class="fa fa-check"></i><b>1.1</b> Other practical considerations</a><ul>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#notes-on-potential-integration-with-prioritywikirethink-charity"><i class="fa fa-check"></i>Notes on potential integration with PriorityWiki/Rethink Charity</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="present-puzzle.html"><a href="present-puzzle.html"><i class="fa fa-check"></i><b>2</b> Presenting the puzzle and challenge: Our ineffective giving</a>
-<ul>
-<li class="chapter" data-level="2.1" data-path="present-puzzle.html"><a href="present-puzzle.html#motivate-puzzle"><i class="fa fa-check"></i><b>2.1</b> Motivation and descriptives</a>
-<ul>
+<li class="chapter" data-level="2" data-path="present-puzzle.html"><a href="present-puzzle.html"><i class="fa fa-check"></i><b>2</b> Presenting the puzzle and challenge: Our ineffective giving</a><ul>
+<li class="chapter" data-level="2.1" data-path="present-puzzle.html"><a href="present-puzzle.html#motivate-puzzle"><i class="fa fa-check"></i><b>2.1</b> Motivation and descriptives</a><ul>
 <li class="chapter" data-level="2.1.1" data-path="present-puzzle.html"><a href="present-puzzle.html#descriptives-of-giving-us-international-and-how-ineffective-it-is."><i class="fa fa-check"></i><b>2.1.1</b> Descriptives of giving (US, international) and how 'ineffective' it is.</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="present-puzzle.html"><a href="present-puzzle.html#prevsurvey"><i class="fa fa-check"></i><b>2.2</b> (Lack of) previous synthesis on this</a>
-<ul>
+<li class="chapter" data-level="2.2" data-path="present-puzzle.html"><a href="present-puzzle.html#prevsurvey"><i class="fa fa-check"></i><b>2.2</b> (Lack of) previous synthesis on this</a><ul>
 <li class="chapter" data-level="2.2.1" data-path="present-puzzle.html"><a href="present-puzzle.html#effectiveness-specific"><i class="fa fa-check"></i><b>2.2.1</b> Effectiveness-specific</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="present-puzzle.html"><a href="present-puzzle.html#def-impact"><i class="fa fa-check"></i><b>2.3</b> Definitions - “Efficiency” versus impact</a></li>
-<li class="chapter" data-level="2.4" data-path="present-puzzle.html"><a href="present-puzzle.html#why-puzzle"><i class="fa fa-check"></i><b>2.4</b> Why (under which models) is this a puzzle?</a>
-<ul>
+<li class="chapter" data-level="2.4" data-path="present-puzzle.html"><a href="present-puzzle.html#why-puzzle"><i class="fa fa-check"></i><b>2.4</b> Why (under which models) is this a puzzle?</a><ul>
 <li class="chapter" data-level="2.4.1" data-path="present-puzzle.html"><a href="present-puzzle.html#barriers-concept"><i class="fa fa-check"></i><b>2.4.1</b> Conceptual breakdown of ‘barriers’ (first presentation)</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="substitution.html"><a href="substitution.html"><i class="fa fa-check"></i><b>3</b> Are charities in competition? Is the ineffective giving reducing effective giving?</a>
-<ul>
-<li class="chapter" data-level="3.1" data-path="substitution.html"><a href="substitution.html#previous-approaches-and-evidence"><i class="fa fa-check"></i><b>3.1</b> Previous approaches and evidence</a>
-<ul>
+<li class="chapter" data-level="3" data-path="substitution.html"><a href="substitution.html"><i class="fa fa-check"></i><b>3</b> Are charities in competition? Is the ineffective giving reducing effective giving?</a><ul>
+<li class="chapter" data-level="3.1" data-path="substitution.html"><a href="substitution.html#previous-approaches-and-evidence"><i class="fa fa-check"></i><b>3.1</b> Previous approaches and evidence</a><ul>
 <li class="chapter" data-level="3.1.1" data-path="substitution.html"><a href="substitution.html#observational-work"><i class="fa fa-check"></i><b>3.1.1</b> Observational work</a></li>
 <li class="chapter" data-level="3.1.2" data-path="substitution.html"><a href="substitution.html#simultaneousproximate-lab-experiments"><i class="fa fa-check"></i><b>3.1.2</b> Simultaneous/proximate ‘lab’ experiments**</a></li>
 <li class="chapter" data-level="3.1.3" data-path="substitution.html"><a href="substitution.html#labframed-experiments-with-time-gaps"><i class="fa fa-check"></i><b>3.1.3</b> Lab/framed experiments with time gaps</a></li>
@@ -276,8 +263,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.2" data-path="substitution.html"><a href="substitution.html#synthesis-emerging"><i class="fa fa-check"></i><b>3.2</b> Synthesis (emerging)</a></li>
 <li class="chapter" data-level="3.3" data-path="substitution.html"><a href="substitution.html#subst-meta"><i class="fa fa-check"></i><b>3.3</b> Random-effects meta-analysis</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="aware-distance.html"><a href="aware-distance.html"><i class="fa fa-check"></i><b>4</b> Barriers: Awareness, consideration, and distance</a>
-<ul>
+<li class="chapter" data-level="4" data-path="aware-distance.html"><a href="aware-distance.html"><i class="fa fa-check"></i><b>4</b> Barriers: Awareness, consideration, and distance</a><ul>
 <li class="chapter" data-level="4.1" data-path="aware-distance.html"><a href="aware-distance.html#description-and-relevance-to-effective-giving"><i class="fa fa-check"></i><b>4.1</b> Description and relevance to Effective Giving</a></li>
 <li class="chapter" data-level="4.2" data-path="aware-distance.html"><a href="aware-distance.html#theoretical-and-conceptual-underpinning"><i class="fa fa-check"></i><b>4.2</b> Theoretical and conceptual underpinning</a></li>
 <li class="chapter" data-level="4.3" data-path="aware-distance.html"><a href="aware-distance.html#distance---spatialphysical-socialcultural-parochial-altruismingroup-bias-interpersonal-and-identity-e.g.-race-gender-age-etc"><i class="fa fa-check"></i><b>4.3</b> Distance - Spatial/Physical, Social/Cultural: parochial altruism/ingroup bias, interpersonal and identity e.g., race, gender, age, etc</a></li>
@@ -285,26 +271,21 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="4.5" data-path="aware-distance.html"><a href="aware-distance.html#distance---temporal-future-problems-and-people-hypothetical-probability-to-happen"><i class="fa fa-check"></i><b>4.5</b> Distance - Temporal (future problems and people), Hypothetical (probability to happen)</a></li>
 <li class="chapter" data-level="4.6" data-path="aware-distance.html"><a href="aware-distance.html#availability-heuristic-and-media-also-see-biases"><i class="fa fa-check"></i><b>4.6</b> Availability heuristic and media (also see ‘biases’)</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="identity.html"><a href="identity.html"><i class="fa fa-check"></i><b>5</b> Barriers: Identity and cognitive dissonance</a>
-<ul>
+<li class="chapter" data-level="5" data-path="identity.html"><a href="identity.html"><i class="fa fa-check"></i><b>5</b> Barriers: Identity and cognitive dissonance</a><ul>
 <li class="chapter" data-level="5.1" data-path="identity.html"><a href="identity.html#self-interestlocal-public-good"><i class="fa fa-check"></i><b>5.1</b> Self-interest/local public good (?)</a></li>
 <li class="chapter" data-level="5.2" data-path="identity.html"><a href="identity.html#cognitive-dissonance"><i class="fa fa-check"></i><b>5.2</b> Cognitive dissonance</a></li>
 <li class="chapter" data-level="5.3" data-path="identity.html"><a href="identity.html#side-note-volunteer-experience-unlocks-emotion-and-giving"><i class="fa fa-check"></i><b>5.3</b> (Side note?) Volunteer experience unlocks emotion and giving</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="social.html"><a href="social.html"><i class="fa fa-check"></i><b>6</b> Barriers: Signaling and social pressures/social identity</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="social.html"><a href="social.html#signaling-concern-for-effectivenessimpact-versus-other-values"><i class="fa fa-check"></i><b>6.1</b> Signaling concern for effectiveness/impact versus other values</a>
-<ul>
+<li class="chapter" data-level="6" data-path="social.html"><a href="social.html"><i class="fa fa-check"></i><b>6</b> Barriers: Signaling and social pressures/social identity</a><ul>
+<li class="chapter" data-level="6.1" data-path="social.html"><a href="social.html#signaling-concern-for-effectivenessimpact-versus-other-values"><i class="fa fa-check"></i><b>6.1</b> Signaling concern for effectiveness/impact versus other values</a><ul>
 <li class="chapter" data-level="6.1.1" data-path="social.html"><a href="social.html#theory-and-argument"><i class="fa fa-check"></i><b>6.1.1</b> Theory and argument</a></li>
 <li class="chapter" data-level="6.1.2" data-path="social.html"><a href="social.html#evidence"><i class="fa fa-check"></i><b>6.1.2</b> Evidence</a></li>
 <li class="chapter" data-level="6.1.3" data-path="social.html"><a href="social.html#evidence-that-consequentialist-choices-lead-to-negative-signals-and-less-favorable-treatment-relative-to-deontologicalemotionally-intuitive-choices"><i class="fa fa-check"></i><b>6.1.3</b> Evidence that “consequentialist choices lead to negative signals and less-favorable treatment relative to deontological/emotionally intuitive choices”</a></li>
 <li class="chapter" data-level="6.1.4" data-path="social.html"><a href="social.html#indirect-evidence"><i class="fa fa-check"></i><b>6.1.4</b> Indirect evidence</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="eval-aversion.html"><a href="eval-aversion.html"><i class="fa fa-check"></i><b>7</b> Barriers: Aversion/obstacles to <em>doing</em> (and using) evaluations</a>
-<ul>
-<li class="chapter" data-level="7.1" data-path="eval-aversion.html"><a href="eval-aversion.html#cba-aversion"><i class="fa fa-check"></i><b>7.1</b> General cost-benefit analysis (CBA)-aversion or reluctance</a>
-<ul>
+<li class="chapter" data-level="7" data-path="eval-aversion.html"><a href="eval-aversion.html"><i class="fa fa-check"></i><b>7</b> Barriers: Aversion/obstacles to <em>doing</em> (and using) evaluations</a><ul>
+<li class="chapter" data-level="7.1" data-path="eval-aversion.html"><a href="eval-aversion.html#cba-aversion"><i class="fa fa-check"></i><b>7.1</b> General cost-benefit analysis (CBA)-aversion or reluctance</a><ul>
 <li class="chapter" data-level="7.1.1" data-path="eval-aversion.html"><a href="eval-aversion.html#description"><i class="fa fa-check"></i><b>7.1.1</b> Description</a></li>
 <li class="chapter" data-level="7.1.2" data-path="eval-aversion.html"><a href="eval-aversion.html#theoreticalconceptual-discussion"><i class="fa fa-check"></i><b>7.1.2</b> Theoretical/conceptual discussion</a></li>
 <li class="chapter" data-level="7.1.3" data-path="eval-aversion.html"><a href="eval-aversion.html#relevance-to-effective-giving"><i class="fa fa-check"></i><b>7.1.3</b> Relevance to Effective Giving</a></li>
@@ -313,12 +294,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.2" data-path="eval-aversion.html"><a href="eval-aversion.html#market-versus-social-norms"><i class="fa fa-check"></i><b>7.2</b> Market versus social norms</a></li>
 <li class="chapter" data-level="7.3" data-path="eval-aversion.html"><a href="eval-aversion.html#cost-effectiveness-information-may-turn-off-system-1-and-reduce-giving-statistics-diminish-impact-of-identifiable-victim"><i class="fa fa-check"></i><b>7.3</b> Cost effectiveness information may turn off System-1 and reduce giving; statistics diminish impact of ‘identifiable victim’</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="quant-biases.html"><a href="quant-biases.html"><i class="fa fa-check"></i><b>8</b> Barriers: Quantitative biases</a>
-<ul>
+<li class="chapter" data-level="8" data-path="quant-biases.html"><a href="quant-biases.html"><i class="fa fa-check"></i><b>8</b> Barriers: Quantitative biases</a><ul>
 <li class="chapter" data-level="8.1" data-path="quant-biases.html"><a href="quant-biases.html#biases-in-perceiving-impact"><i class="fa fa-check"></i><b>8.1</b> Biases in perceiving impact</a></li>
 <li class="chapter" data-level="8.2" data-path="quant-biases.html"><a href="quant-biases.html#other-biases-driving-departures-from-efficiency"><i class="fa fa-check"></i><b>8.2</b> Other biases driving departures from efficiency</a></li>
-<li class="chapter" data-level="8.3" data-path="quant-biases.html"><a href="quant-biases.html#proportional-dominance-effect"><i class="fa fa-check"></i><b>8.3</b> Proportional dominance effect</a>
-<ul>
+<li class="chapter" data-level="8.3" data-path="quant-biases.html"><a href="quant-biases.html#proportional-dominance-effect"><i class="fa fa-check"></i><b>8.3</b> Proportional dominance effect</a><ul>
 <li class="chapter" data-level="8.3.1" data-path="quant-biases.html"><a href="quant-biases.html#definition"><i class="fa fa-check"></i><b>8.3.1</b> Definition</a></li>
 <li class="chapter" data-level="8.3.2" data-path="quant-biases.html"><a href="quant-biases.html#conceptual-discussion"><i class="fa fa-check"></i><b>8.3.2</b> Conceptual Discussion</a></li>
 <li class="chapter" data-level="8.3.3" data-path="quant-biases.html"><a href="quant-biases.html#eg-relevance"><i class="fa fa-check"></i><b>8.3.3</b> EG Relevance</a></li>
@@ -332,39 +311,32 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8.8" data-path="quant-biases.html"><a href="quant-biases.html#scope-insensitivityembedding-effectpart-whole-effect"><i class="fa fa-check"></i><b>8.8</b> Scope insensitivity/embedding effect/part-whole effect</a></li>
 <li class="chapter" data-level="8.9" data-path="quant-biases.html"><a href="quant-biases.html#other-possibilities-risk-aversion-lack-of-tangibility-corruption-aversion"><i class="fa fa-check"></i><b>8.9</b> Other possibilities: “Risk aversion”, Lack of tangibility, Corruption aversion</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>9</b> Barriers: Inertia and systemic/institutional</a>
-<ul>
+<li class="chapter" data-level="9" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>9</b> Barriers: Inertia and systemic/institutional</a><ul>
 <li class="chapter" data-level="9.1" data-path="inertia.html"><a href="inertia.html#social-norms"><i class="fa fa-check"></i><b>9.1</b> Social norms</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html"><i class="fa fa-check"></i><b>10</b> <span id="tools">Tools for motivating EA giving</span></a>
-<ul>
+<li class="chapter" data-level="10" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html"><i class="fa fa-check"></i><b>10</b> <span id="tools">Tools for motivating EA giving</span></a><ul>
 <li class="chapter" data-level="10.1" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#introduction"><i class="fa fa-check"></i><b>10.1</b> Introduction</a></li>
 <li class="chapter" data-level="10.2" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#psychbehavioral-tools-applicability-to-ea-charities-1"><i class="fa fa-check"></i><b>10.2</b> Psych/behavioral tools; applicability to EA charities</a></li>
 <li class="chapter" data-level="10.3" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#de-biasing-and-misperception-correction-1"><i class="fa fa-check"></i><b>10.3</b> De-biasing and misperception correction</a></li>
 <li class="chapter" data-level="10.4" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#innovative-proposals-1"><i class="fa fa-check"></i><b>10.4</b> Innovative proposals</a></li>
 <li class="chapter" data-level="10.5" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#ea-movement-approaches-sucesses-and-pitfalls"><i class="fa fa-check"></i><b>10.5</b> EA-movement approaches, sucesses and pitfalls</a></li>
-<li class="chapter" data-level="10.6" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#a-listing"><i class="fa fa-check"></i><b>10.6</b> A listing</a>
-<ul>
+<li class="chapter" data-level="10.6" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#a-listing"><i class="fa fa-check"></i><b>10.6</b> A listing</a><ul>
 <li class="chapter" data-level="" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#make-impact-more-comparable-by-allowing-joint-evaluation-evaluation-mode"><i class="fa fa-check"></i>Make impact more comparable by allowing joint evaluation (Evaluation mode)</a></li>
 <li class="chapter" data-level="10.6.1" data-path="tools-for-motivating-ea-giving-1.html"><a href="tools-for-motivating-ea-giving-1.html#info-enhancing-social-closeness-of-recipient"><i class="fa fa-check"></i><b>10.6.1</b> (Info enhancing) social closeness of recipient</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html"><i class="fa fa-check"></i><b>11</b> Conclusion; a research agenda</a></li>
-<li class="chapter" data-level="12" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html"><i class="fa fa-check"></i><b>12</b> Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own)</a>
-<ul>
+<li class="chapter" data-level="12" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html"><i class="fa fa-check"></i><b>12</b> Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own)</a><ul>
 <li class="chapter" data-level="12.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#introduction-1"><i class="fa fa-check"></i><b>12.1</b> Introduction</a></li>
-<li class="chapter" data-level="12.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#git-and-github"><i class="fa fa-check"></i><b>12.2</b> Git and Github</a>
-<ul>
+<li class="chapter" data-level="12.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#git-and-github"><i class="fa fa-check"></i><b>12.2</b> Git and Github</a><ul>
 <li class="chapter" data-level="12.2.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#some-key-things-to-know-about-git-and-github"><i class="fa fa-check"></i><b>12.2.1</b> Some key things to know about Git and GitHub</a></li>
 </ul></li>
 <li class="chapter" data-level="12.3" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#r-and-rstudio"><i class="fa fa-check"></i><b>12.3</b> R and RStudio</a></li>
 <li class="chapter" data-level="12.4" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#markdown-and-bookdown"><i class="fa fa-check"></i><b>12.4</b> Markdown and Bookdown</a></li>
-<li class="chapter" data-level="12.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-and-folder-structure-in-this-repo-and-what-it-means"><i class="fa fa-check"></i><b>12.5</b> The code and folder structure in this repo, and what it means</a>
-<ul>
+<li class="chapter" data-level="12.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-and-folder-structure-in-this-repo-and-what-it-means"><i class="fa fa-check"></i><b>12.5</b> The code and folder structure in this repo, and what it means</a><ul>
 <li class="chapter" data-level="12.5.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020"><i class="fa fa-check"></i><b>12.5.1</b> Writing_econ_book: Files-folders of interest (taken from readme March 2020)</a></li>
 </ul></li>
-<li class="chapter" data-level="12.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-in-a-single-.rmd-file-and-how-it-translates-into-content"><i class="fa fa-check"></i><b>12.6</b> The code in a single “.Rmd” file and how it translates into content</a>
-<ul>
+<li class="chapter" data-level="12.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-in-a-single-.rmd-file-and-how-it-translates-into-content"><i class="fa fa-check"></i><b>12.6</b> The code in a single “.Rmd” file and how it translates into content</a><ul>
 <li class="chapter" data-level="12.6.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#basic-r-markdown"><i class="fa fa-check"></i><b>12.6.1</b> Basic (R-)Markdown</a></li>
 <li class="chapter" data-level="12.6.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#simple-md-rules"><i class="fa fa-check"></i><b>12.6.2</b> Some simple markdown rules</a></li>
 <li class="chapter" data-level="12.6.3" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#inline-code"><i class="fa fa-check"></i><b>12.6.3</b> Inline code</a></li>
@@ -373,13 +345,11 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="12.6.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-referencescitations"><i class="fa fa-check"></i><b>12.6.6</b> Adding references/citations</a></li>
 </ul></li>
 <li class="chapter" data-level="12.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>12.7</b> How to ‘build’ and view the book</a></li>
-<li class="chapter" data-level="12.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>12.8</b> Joining this project</a>
-<ul>
+<li class="chapter" data-level="12.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>12.8</b> Joining this project</a><ul>
 <li class="chapter" data-level="12.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>12.8.1</b> Creating a Branch and a ‘pull request’</a></li>
 <li class="chapter" data-level="12.8.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#github-web-page-content"><i class="fa fa-check"></i><b>12.8.2</b> GitHub web page content {#}</a></li>
 </ul></li>
-<li class="chapter" data-level="12.9" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable-and-innovationsinfundraising.org"><i class="fa fa-check"></i><b>12.9</b> Airtable and innovationsinfundraising.org</a>
-<ul>
+<li class="chapter" data-level="12.9" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable-and-innovationsinfundraising.org"><i class="fa fa-check"></i><b>12.9</b> Airtable and innovationsinfundraising.org</a><ul>
 <li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable"><i class="fa fa-check"></i>Airtable</a></li>
 <li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#key-features-of-tables-in-airtables-quick-views"><i class="fa fa-check"></i>Key features of tables in Airtables (quick views)</a></li>
 <li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#key-content"><i class="fa fa-check"></i>Key content</a></li>
@@ -407,9 +377,9 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="tools-for-motivating-ea-giving-1" class="section level1" number="10">
+<div id="tools-for-motivating-ea-giving-1" class="section level1">
 <h1><span class="header-section-number">10</span> <span id="tools">Tools for motivating EA giving</span></h1>
-<div id="introduction" class="section level2" number="10.1">
+<div id="introduction" class="section level2">
 <h2><span class="header-section-number">10.1</span> Introduction</h2>
 <p>What “tools” and approaches may help to increase effective giving?</p>
 <p>We divide this into three categories:</p>
@@ -420,32 +390,32 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </ol>
 <!-- I.e., how can we best apply well-tested emotional and behavioral approaches (evidence-based fundraising tools like “gift exchange”) to effective charities. In applying these tools, what “superpowers” and weaknesses do the most effective charities have? -->
 </div>
-<div id="psychbehavioral-tools-applicability-to-ea-charities-1" class="section level2" number="10.2">
+<div id="psychbehavioral-tools-applicability-to-ea-charities-1" class="section level2">
 <h2><span class="header-section-number">10.2</span> Psych/behavioral tools; applicability to EA charities</h2>
 <p>Do the standard collection of psych/behavioral tools work for EA charities, or can they be made to do so? Does EA have any ‘superpowers’ for any of these? E.g., presenting identifiable victim. Emotional stimuli. Gift exchange, etc.</p>
 <ol style="list-style-type: decimal">
 <li>Briefly highlight those ‘tools’ that give non-EA an advantage, but focus on the actionable–how EA lessen or flip that advantage. 2. Which tools present particular challenges or opportunities for EA</li>
 </ol>
 </div>
-<div id="de-biasing-and-misperception-correction-1" class="section level2" number="10.3">
+<div id="de-biasing-and-misperception-correction-1" class="section level2">
 <h2><span class="header-section-number">10.3</span> De-biasing and misperception correction</h2>
 </div>
-<div id="innovative-proposals-1" class="section level2" number="10.4">
+<div id="innovative-proposals-1" class="section level2">
 <h2><span class="header-section-number">10.4</span> Innovative proposals</h2>
 </div>
-<div id="ea-movement-approaches-sucesses-and-pitfalls" class="section level2" number="10.5">
+<div id="ea-movement-approaches-sucesses-and-pitfalls" class="section level2">
 <h2><span class="header-section-number">10.5</span> EA-movement approaches, sucesses and pitfalls</h2>
 <p>What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too ‘purist’ (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)?</p>
 </div>
-<div id="a-listing" class="section level2" number="10.6">
+<div id="a-listing" class="section level2">
 <h2><span class="header-section-number">10.6</span> A listing</h2>
-<div id="make-impact-more-comparable-by-allowing-joint-evaluation-evaluation-mode" class="section level3 unnumbered" number="">
+<div id="make-impact-more-comparable-by-allowing-joint-evaluation-evaluation-mode" class="section level3 unnumbered">
 <h3>Make impact more comparable by allowing joint evaluation (Evaluation mode)</h3>
 <p>Effective charities could present their (e.g., lifesaving) statistics <em>relative</em> to average/popular charities (but be careful about demonizing particular ones)</p>
 <p>Theory: Evaluability bias</p>
 <p>Cite: (Kogut &amp; R, ’05), (Caviola ea, ’14)</p>
 </div>
-<div id="info-enhancing-social-closeness-of-recipient" class="section level3" number="10.6.1">
+<div id="info-enhancing-social-closeness-of-recipient" class="section level3">
 <h3><span class="header-section-number">10.6.1</span> (Info enhancing) social closeness of recipient</h3>
 <p>Percentage donations tied to purchases, especially in online auctions</p>
 <p>Psychometrics and targeting people likely to be responsive</p>
