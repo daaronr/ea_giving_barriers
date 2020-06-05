@@ -41,12 +41,8 @@ Here we also  give a general ['conceptual' overview of these barriers in the nex
 
 <!-- (Or put in section 2?) -->
 
-Does one ask (or donation) crowd out another... when and how? This is critical to understanding  the extent to which gains can be achieved by getting people to 'switch'  from other charities. To the extent this is the case, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressure you to give to local orgs) themselves represent barriers to EA giving (see below).
-
-<!-- (David Reinstein has a simultaneous research project on this 'expenditure substitution' question.) -->
-
-
-[@vandiepenDoesIrritationInduced2009], @Donkers2017, [@Scharf2017], [@Deryugina2015b; @Harwella:1; @Meer2017; @Reinstein2010a:1; @Reinstein2011d]
+Are charitable gifts complements or substitutes; are charities are
+rivals? Does one donation request ask (or donation itself) crowd out another, and if so when and how much?   This is critical to understanding  the extent to which gains can be achieved by getting people to 'switch'  from less to more effective charities. To the extent this crowding-out is the case, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors' pressuring you to give to local organisations) themselves represent barriers to EA giving.
 
 
 ##  [Explaining the puzzle: Barriers to EA giving and potential responses, evidence](#barriers-intro) {-}

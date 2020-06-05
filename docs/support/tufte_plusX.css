@@ -361,6 +361,8 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
   width: 70%!important;
     border: 1px solid black;
 }
+.note p { width: 100%!important; }
+
 .technote{
   padding: 1em 1em 1em 1em;
   margin-bottom: 5px;
@@ -391,7 +393,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 }
 .gallant{
   margin-bottom: 2px;
-  background: #c9f5c9 2px center/3em no-repeat;    
+  background: #c9f5c9 2px center/3em no-repeat;
   padding: .2em .2em .2em .2em;
   display: inline-block;
   margin-bottom: 5px;
