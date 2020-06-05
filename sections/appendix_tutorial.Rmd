@@ -158,6 +158,25 @@ docs: html output put here for web hosting
 
 ## The code in a single ".Rmd" file and how it translates into content
 
+```{block2,  type='note'}
+
+**Video guides**
+
+- In the [video: intro to rmd and bookdown - template HERE](https://www.dropbox.com/s/sw6i7hws15903a3/bookdown_template_rmd_intro.mp4?dl=0) I introduce the basics of the Bookdown setup and folder structure, using the [bookdown template repo files](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template) as an example.
+
+- I further discuss the elements of the .Rmd (and associated) files, and how they translate into html output in the [video: rmarkdown content from template HERE](https://www.dropbox.com/s/p724socu1pmjous/rmarkdown-bookdown-content.mp4?dl=0)
+
+- A final video that focuses a bit more on adding citations is [HERE](https://www.dropbox.com/s/30ix6h3sxr24k9j/the_bookdown_and_editing_rmd.mp4?dl=0) -- this latter video has a very large file size, sorry. 
+
+*My apologies*: In these videos my dumb head is blocking an important part of the screen share. It may help you to have the original files up to see the missing bits. I hope to redo these when I have a chance.
+
+*Note:* The key files and settings for my bookdown projects are maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template), along with a minimal example. This is (or should be) synchronised with all the other repos.
+
+
+```  
+
+
+
 ### Basic (R-)Markdown
 <!-- Could do with rewording -->
 
@@ -188,7 +207,6 @@ In the R (statistically focused) language there are tools such as `knitR` that  
 Using R-markdown and Knitr (and other tools and add-ins like 'Bookdown') content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or regression output.
 
 ### Some simple markdown rules {#simple-md-rules}
-
 
 Text can be made *italic* using single asterisks `*italic` or **bold** by using asterisks `**bold**`.
 
