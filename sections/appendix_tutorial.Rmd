@@ -381,7 +381,14 @@ As noted, GitHub is a web page and interface that  acts as an external server an
 
 #### Web page for a repo {-} 
 
-![EA barriers repo github starting page](../picsfigs/ea_barriers_github_repo_startpage.png)
+
+```{r, out.width='85%', fig.align='center', fig.cap='EA barriers repo github starting page'}
+
+knitr::include_graphics('picsfigs/ea_barriers_github_repo_startpage.png')
+
+```
+
+
 In your account when you click on the repo you'll see something like the  screen above. There are many tabs, starting with the code tab. At the top of this, you will see the list of folders and files, with messages describing the latest comments.
 
 <div class="marginnote">

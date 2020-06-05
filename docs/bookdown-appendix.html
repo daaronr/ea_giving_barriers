@@ -667,9 +667,9 @@ For more on Pandoc visit <a href="https://pandoc.org/">pandoc.org</a>
 </table>
 
 Code chunks are defined by wrapping text inside <code>```  ```</code>. The above example was coded using:</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb21-1"><a href="bookdown-appendix.html#cb21-1"></a><span class="bn">```{r}</span></span>
-<span id="cb21-2"><a href="bookdown-appendix.html#cb21-2"></a><span class="bn">head(iris)</span></span>
-<span id="cb21-3"><a href="bookdown-appendix.html#cb21-3"></a><span class="bn">```</span></span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb22-1"><a href="bookdown-appendix.html#cb22-1"></a><span class="bn">```{r}</span></span>
+<span id="cb22-2"><a href="bookdown-appendix.html#cb22-2"></a><span class="bn">head(iris)</span></span>
+<span id="cb22-3"><a href="bookdown-appendix.html#cb22-3"></a><span class="bn">```</span></span></code></pre></div>
 <!-- ````markdown ```
 ```` -->
 <p>Options can be specified inside of the curly brackets {}
@@ -704,9 +704,9 @@ Margin notes are used throughout these projects as a way of displaying informati
 <div class="marginnote">
 <p>The margin notes used in this project are inspired by the Tufte handout style developed by American statistician Edward Tufte.</p>
 </div>
-<div class="sourceCode" id="cb22"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb22-1"><a href="bookdown-appendix.html#cb22-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;marginnote&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb22-2"><a href="bookdown-appendix.html#cb22-2"></a>Your margin note goes here.</span>
-<span id="cb22-3"><a href="bookdown-appendix.html#cb22-3"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb23-1"><a href="bookdown-appendix.html#cb23-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;marginnote&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb23-2"><a href="bookdown-appendix.html#cb23-2"></a>Your margin note goes here.</span>
+<span id="cb23-3"><a href="bookdown-appendix.html#cb23-3"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
 <p>Or margin notes can be added by using chunk options.</p>
 <ul>
 <li><strong>Folding boxes</strong></li>
@@ -785,8 +785,14 @@ When using the Citr package to add citations to projects such as this one, make 
 <p>As noted, GitHub is a web page and interface that acts as an external server and storage space for git projects/repos. It works well with this and also incorporate several additional features. You can see it and even interact with much of a repo simply via the GitHub webpage without even installing Git (but I strongly recommend that you do install Git as well as a tool like GitHub Desktop, unless you want to solely rely on command line Git).</p>
 <div id="web-page-for-a-repo" class="section level4 unnumbered" number="">
 <h4>Web page for a repo</h4>
-<p><img src="../picsfigs/ea_barriers_github_repo_startpage.png" alt="EA barriers repo github starting page" />
-In your account when you click on the repo you’ll see something like the screen above. There are many tabs, starting with the code tab. At the top of this, you will see the list of folders and files, with messages describing the latest comments.</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="bookdown-appendix.html#cb24-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;picsfigs/ea_barriers_github_repo_startpage.png&#39;</span>)</span></code></pre></div>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-41"></span>
+<img src="picsfigs/ea_barriers_github_repo_startpage.png" alt="EA barriers repo github starting page" width="85%" />
+<p class="caption">
+Figure 12.1: EA barriers repo github starting page
+</p>
+</div>
+<p>In your account when you click on the repo you’ll see something like the screen above. There are many tabs, starting with the code tab. At the top of this, you will see the list of folders and files, with messages describing the latest comments.</p>
 <div class="marginnote">
 <p>Once you’ve installed Git you will want to ‘clone this repo’ to have it on your machine and to be able to easily work with it and commit and push and pull changes. You will do this clone either via the web site, GitHub Desktop or another application, or using the command line</p>
 </div>
