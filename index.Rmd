@@ -65,6 +65,16 @@ download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/
 }
 )
 
+tryCatch(
+file.rename(here("support", "headerX.html"), here("support", "header.html"))
+)
+
+tryCatch(
+file.rename(here("support", "tufte_plusX.css"), here("support", "tufte_plus.css"))
+)
+tryCatch(
+file.rename(here("support", "reinstein_bibtexX.bib"), here("support", "reinstein_bibtex.bib"))
+)
 ```
 
 ```{r download-fncns}
@@ -73,8 +83,9 @@ library(here)
 library(devtools)
 
 tryCatch(
-  {source_url('https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/functionsX.R')
-    source_url('https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/baseoptionsX.R')
+  {
+download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/functions.R", destfile = here("code", "functionsX.R"))
+  download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/baseoptions.R", destfile = here("code", "baseoptionsX.R"))
 },  error = function(e) {
   print("you are not online, so we source locally instead; hope you've updated")
   source(here("code", "functions.R")) # functions grabbed from web and created by us for analysis/output
@@ -82,28 +93,25 @@ tryCatch(
 }
 )
 
+#Note - workaround naming and code because otherwise a failed download seems to delete the destination file -- how to fix that? Renaming files?
+
+file.rename(here::here("code", "functionsX.R"), here::here("code", "functions.R"))
+file.rename(here::here("code", "baseoptionsX.R"), here::here("code", "baseoptions.R"))
+
+source(here("code", "functions.R"))
+source(here("code", "baseoptions.R"))
+
+# Basic options used across files and shortcut functions, e.g., 'pp()' for print
+# functions grabbed from web and created by us for analysis/output
 ```
 
 ```{r eval=FALSE}
 install.packages("bookdown")
-install.packages("tufte")
 # or the development version
 # devtools::install_github("rstudio/bookdown")
 ```
 
-```{r packages}
-
-library(here)
-#library(checkpoint) #to avoid differential processing from different package versions
-library(pacman)
-
-here <- here::here
-
-p_load(dplyr,magrittr,purrr,tidyverse,tidyr,broom,janitor,here,glue,dataMaid,glue,readr, lubridate,summarytools,gtools,knitr,pastecs,data.table)   #citr, reporttools, experiment, estimatr,  kableExtra, ggsignif, glmnet, glmnetUtils, rsample,snakecase,zoo
-library(codebook)
-
-```
-
+<!-- note installing packages is mainly removed because this is done in baseoptions.R -->
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

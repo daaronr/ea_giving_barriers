@@ -7,8 +7,7 @@ library(pacman)
 #p_load(knitr, dplyr, tidyverse, here, janitor, citr, reporttools, magrittr, glue, experiment, estimatr, broom, kableExtra, purrr, ggsignif, recipes, pwr,lubridate,huxtable,sandwich,randomizr)
 
 #p_load_gh("acoppock/attrition", "ngreifer/cobalt") # Alexander Coppock package to calculate trimming bounds. Not on CRAN
-#p_load(DescTools, blockTools, broom, car, citr, cobalt, codebook, coefplot, data.table, dataMaid, dplyr, estimatr, experiment, forcats, ggsignif, glmnet, glmnetcr, glue, here, huxtable, janitor, kableExtra, knitr, lmtest, lubridate, magrittr, p_load(knitr, paramtest, plyr, purrr, purrr, pwr, pwr, randomizr, readxl, recipes, recipes, reporttools, rsample, sandwich, sjmisc, skimr, snakecase, statmod, statmod, summarytools, tidyverse)
-
+p_load(arsenal, DescTools, blockTools, broom, car, citr, cobalt, codebook, coefplot, data.table, dataMaid, dplyr, estimatr, experiment, forcats, furniture, ggsignif, glmnet, glmnetcr, glue, here, huxtable, janitor, kableExtra, knitr, lmtest, lubridate, magrittr, paramtest, plyr, psych,  purrr, purrr, pwr, pwr, randomizr, readxl, recipes, recipes, reporttools, rlang, rsample, sandwich, sjlabelled, sjmisc, skimr, snakecase, statmod, statmod, summarytools, tidyverse, todor)
 
 options(kableExtra.latex.load_packages = FALSE)
 
@@ -28,6 +27,11 @@ filter <- dplyr::filter
 group_by <- dplyr::group_by
 coalesce <- dplyr::coalesce
 here <- here::here
+
+first <- dplyr::first
+last  <- dplyr::last
+mutate <- dplyr::mutate
+
 
 # Lazy man's typing shortcuts and composite functions
 pp <- base::print

@@ -17,6 +17,19 @@ hijack <- function (FUN, ...) {
 
 # usage: .data.frame <- hijack(data.frame, stringsAsFactors = FALSE)
 
+#e.g, .read_csv <- hijack(read_csv, trim_ws = TRUE)
+
+
+
+############## Automation helpers
+
+### Function to filter by given string:
+
+filter_parse <- function(df, x) {
+ {{df}} %>%
+   filter(rlang::eval_tidy(rlang::parse_expr({{x}})))
+}
+
 ################# Test functions
 
 # Generic test function: a helper function
@@ -218,16 +231,18 @@ merge_cols <- function(x, y, by) {
 
 sumtab_func_full <- function(df = ADSX, depvar = donation, treatvar = TreatFirstAsk,
   caption = "") {
-  treatvar <- enquo(treatvar)
-  depvar <- enquo(depvar)
-  df %>% ungroup() %>% filter(!is.na(!!depvar)) %>% group_by(!!treatvar) %>%
-    dplyr::summarize(N = n(), share_pos = sum(!!depvar >
-      0)/n(), share_10 = sum(!!depvar == 10)/n(), Mean = round(mean(!!depvar,
-      na.rm = T), 2), Median = round(median(!!depvar, na.rm = T),
-      2), P80 = round(quantile(!!depvar, 0.8, na.rm = T),
-      2), Std.dev. = glue("(", {
-      round(sd(!!depvar, na.rm = T), 2)
-    }, ")")) %>% kable(caption = caption)
+  df %>%
+    ungroup() %>%
+    filter(!is.na({{depvar}})) %>%
+    group_by({{treatvar}}) %>%
+    dplyr::summarize(N = n(),
+                     share_pos = sum({{depvar}} >0)/n(),
+                     share_10 = sum({{depvar}}== 10)/n(),
+                     Mean = round(mean({{depvar}}, na.rm = T), 2),
+                     Median = round(median({{depvar}}, na.rm = T),2),
+                     P80 = round(quantile({{depvar}}, 0.8, na.rm = T), 2),
+                     Std.dev. = glue("(", {round(sd({{depvar}}, na.rm = T), 2) }, ")")) %>%
+    kable(caption = caption) %>% kable_styling()
 }
 
 sumtab_func <- function(df = ADSX, depvar = donation, treatvar = TreatFirstAsk,
@@ -320,6 +335,17 @@ adornme <- function(atabyl, adorn = "row", digits = 2, cap = "",
     kable(caption = cap) %>% kable_styling()
 }
 
+adornme_not <- function(atabyl, adorn = "row", digits = 2, cap = "",
+                    title = "") {
+  atabyl %>% adorn_totals("row") %>% # adorn_totals(c('row', 'col')) %>%
+    adorn_percentages(adorn) %>% adorn_pct_formatting(digits = digits) %>%
+    adorn_ns() %>%
+    kable(caption = cap) %>% kable_styling()
+}
+
+
+
+
 # formatting default options for tabyl
 tabylstuff <- function(df, cap = "") {
   adorn_totals(df, c("row", "col")) %>% adorn_percentages("row") %>%
@@ -395,18 +421,26 @@ boxplot_func <- function(df = ADSX, yvar = donation, treatvar = Treatment,
   comparisons = list(c("No ask-Domestic", "Domestic-Domestic"))) {
   yvar <- enquo(yvar)
   treatvar <- enquo(treatvar)
-  ungroup(df) %>% group_by(!!treatvar) %>% drop_na(!!yvar,
-    !!treatvar) %>% dplyr::select(!!yvar, !!treatvar) %>%
-    ggplot(aes(!!treatvar, !!yvar)) + geom_boxplot() + theme(axis.title = element_text(size = 14),
-    axis.text = element_text(size = 14)) + theme(axis.text.x = element_text(size = 12)) +
+  ungroup(df) %>%
+      group_by(!!treatvar) %>%
+      drop_na(!!yvar, !!treatvar) %>%
+    ggplot(aes(!!treatvar, !!yvar)) +
+    geom_boxplot() + theme(axis.title = element_text(size = 14),
+    axis.text = element_text(size = 14)) +
+    theme(axis.text.x = element_text(size = 12)) +
     labs(title = treatvar, y = yvar, caption = "p-values of Wilcox-(below) and  t-test (above brackets)") +
     geom_signif(comparisons = comparisons, step_increase = c(0.4),
-      vjust = 1.7, margin_top = 0.5, textsize = 5) + geom_signif(comparisons = comparisons,
+      vjust = 1.7, margin_top = 0.5, textsize = 5) +
+    geom_signif(comparisons = comparisons,
     step_increase = c(0.4), vjust = 0, margin_top = 0.5,
-    textsize = 5, test = "t.test")
+    textsize = 5, test = "t.test") +
+     stat_summary(
+    fun.y = mean, geom = "point", shape = 18,
+      size = 3, color = "red")
 }
 
-# add: + geom_mean() +
+
+
 
 # Options and formatting code elements
 
@@ -544,13 +578,20 @@ colFmt = function(x, color) {
 
 # TODO: formatting options for bookdown etc
 
+comb2pngs <- function(imgs, bottom_text = NULL){
+  img1 <-  grid::rasterGrob(as.raster(readPNG(imgs[1])),
+                            interpolate = FALSE)
+  img2 <-  grid::rasterGrob(as.raster(readPNG(imgs[2])),
+                            interpolate = FALSE)
+  grid.arrange(img1, img2, ncol = 2, bottom = bottom_text)
+}
 
 ################# Coding shortcuts
 
 Sm <- function(df, X) dplyr::select(df, matches({X},  ignore.case = FALSE))  # Sm<t_úX>("x") selects variables matching string 'x', case-sensitive
 sm <- function(df, X) dplyr::select(df, matches({X})) # ... not case-sensitive
 
-Snotm <- function(df, X) dplyr::select(df, -matches({X})) # ... not case-sensitive
+Snotm <- function(df, X) dplyr::select(df, -matches({X},  ignore.case = FALSE)) # ...  case-sensitive
 snotm <- function(df, X) dplyr::select(df, -matches({X})) # ... selects variables *not* matching that string, not case-sensitive
 
 
