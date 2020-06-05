@@ -675,19 +675,22 @@ Folding boxes also provide a useful way to incorporate content without clutterin
 </ul>
 <p>The BibTeX format refers to a stylized file format which is used predomoninantly for lists of references, mainly and originally for working with latex.. BibTeX bibliographies use the .bib extension. For example the bibliography for this project is <a href="support/giving_keywords.bib">giving_keywords.bib</a>. For more information on BibTeX see <a href="http://www.bibtex.org/">here</a></p>
 <ul>
-<li><strong>Citr package (addin) for RStudio</strong></li>
-</ul>
-<p>The Citr package provides functions to search Zotero and BibTeX libraries in order to insert references into Markdown files. Citr also features a plugin for RStudio which makes the referencing process even easier. Instructions for download, as well as a demonstration of the Rstudio plugin are provided <a href="https://github.com/crsh/citr/blob/master/README.md">here.</a></p>
-<ul>
 <li><strong>Zotero</strong></li>
 </ul>
-<p>Zotero is a free open source reference manager, which enables users to sync their library of references across multiple devices. Similarly to other reference managers, Zotero offers plugins for popular browsers such as Chrome and Safari. <a href="https://www.zotero.org/download/">Download Zotero</a></p>
+<p>Zotero is a free open source reference manager, which enables users to sync their library of references across multiple devices. Similarly to other reference managers, Zotero offers plugins for popular browsers such as Chrome and Safari. This project makes use of a shared reference library in Zotero, contact daaronr AT gmail.com to be added. <a href="https://www.zotero.org/download/">Download Zotero</a></p>
 <ul>
 <li><strong>Better BibTeX for Zotero</strong></li>
 </ul>
 <p>Better BibTeX for Zotero is a add-on for Zotero. Among other things it allows the Zotero library to be exported from Zotero for use in Markdown. Installation instructions are provided <a href="http://retorque.re/zotero-better-bibtex/installation/">here.</a></p>
-<p>I currently (25 Apr 2020) am having Zotero automatically maintain/output the key .bib file to a dropbox folder. Each project has code to routinely download this file with a command such as</p>
-<p><code>download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = "reinstein_bibtex.bib")</code></p>
+<ul>
+<li><strong>Citr package (addin) for RStudio</strong></li>
+</ul>
+The Citr package provides functions to search Zotero and BibTeX libraries in order to insert references into Markdown files. Citr also features a plugin for RStudio which makes the referencing process even easier. Instructions for download, as well as a demonstration of the Rstudio plugin are provided <a href="https://github.com/crsh/citr/blob/master/README.md">here.</a>
+When using the Citr package to add citations to projects such as this one, make sure to have Citr update the correct Bibtex file.
+<img src="../picsfigs/citr_settings.png" alt="Citr Settings for Ea_giving_barriers" />
+<div class="marginnote">
+<p>The Bibtex file to “Add references to” is the bibliography file specified in the YAML header of index.Rmd.</p>
+</div>
 </div>
 </div>
 <div id="how-to-build-and-view-the-book" class="section level2" number="12.7">
