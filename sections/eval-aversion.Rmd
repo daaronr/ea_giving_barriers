@@ -1,4 +1,4 @@
-# Barriers: Aversion/obstacles to *doing* (and using) evaluations {#eval-aversion}
+# Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity  {#eval-aversion}
 
 ```{block2,  type='note'}
 
@@ -7,6 +7,58 @@ Note: this is an ongoing project of David Reinstein with several co-authors, inc
 Much of this project is organised in the [dualprocess repo](https://github.com/daaronr/dualprocess)
 
 ```  
+
+## General relevance to effective giving
+
+For people to choose one product over another on the basis of some characteristic (e.g., safety, taste, or durability), they presumably must be *aware* of these differences before purchasing. Economists note [ref] the difficulty of investing in producing, marketing and selling high-quality products and services when consumers have difficulty distinguishing these products from inferior ones.  This is especially difficult when the quality of a product is not known before purchase (an 'Experience good' [ref] such as a ticket to a particular stage show), or when it is not known until a long time later, if at all (a 'creedence good' such as a health remedy or investment advice.) <div class="marginnote">
+Insert abundant references here to asymmetric information, fly-by-night competition, and experience and creedence goods, product reviews, regulation, advertising as a signal, etc.
+</div>
+
+ Considering a charitable donation as a product purchased by the donor, it seems to  fall into the latter category [ref to authors making this point]. If donors value their 'marginal impact on outcomes' as discussed in section XXX, they may need to do extensive research (or at least know about and visit web sites such as GiveWell and ImpactMatters) to have some estimate of the value-for-money they are getting.
+<div class="marginnote">
+Donors may also be uncertain about other benefits they main gain from each donation such as 'gratitude and long-term sense of fulfillment'.
+</div>
+
+A typical charitable donor, particularly one who donates towards a geographically-distant intervention, will never directly see or experience the consequences of her donation. 
+ 
+Thus, for people to systematically choose to donate to the most effective charities, presumably...
+
+1. They must understand and value the idea of effectiveness.
+
+2. They must either:
+
+a. know how effective charities are relative to one another,
+b. have reliable information on this presented to them by the charities (or other entities),
+c. or they must want to and find it appropriate to seek information on this, and be able to obtain reliable information.
+
+3. (For b or c to have the desired effect...) The act of learning about effectiveness must not substantially decrease their willingness to donate.
+
+\
+In this section we consider the evidence for 
+
+I. People's aversion/willness (or sense that it is appropriate/inappropriate) to evaluate effectiveness in a charitable giving context
+
+II. The impact of being presented with (or actively pursuing) effectiveness information (which is naturally *analytical* information) on generosity and the willingness to donate
+
+
+<div class="marginnote">
+Effectiveness information may also affect how donors perceive the *social signaling* value of their donation. We return to this in the [signaling and social pressures...](#social) section.
+</div>
+ 
+\
+
+Further 'grant-worthy' motivation (unfold).
+
+```{block2,  type='fold'}
+
+As noted above, scientific evidence suggesting that organizations’ “cost per outcome” differs substantially, perhaps by a factor of 1000 or more (Jamison et al., 2006). This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like GiveWell now provide direct ratings on the basis of  per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors’ preferences for contributions “to be put to good use”—i.e., for direct interventions. 
+
+E.g., In Aknin et al  participants reported greater happiness when the impact of their contribution was highlighted.(van Iwaarden et al. 2009; Aknin et al., 2013). 
+
+However, while we have rigorous evidence on what works and doesn’t work in anti-poverty and health interventions (acknowledged by the 2019 Economics Nobel Prize), we actually know very little about how potential donors react to this impact information! However, we actually know very little about how potential donors react to this impact information!
+
+```
+\
 
 
 ## General cost-benefit analysis (CBA)-aversion or reluctance {#cba-aversion}
@@ -19,12 +71,14 @@ This is hard to label: 'aversion' may be the wrong word: people may finding it l
 
 ### Description
 
-People may be reluctant ^[how observed/manifested?] to consider the cost and benefits of the actions they are funding through their charitable donations (or they find this less appropriate/normal). This contrasts with a much greater willingness to consider these and other domains such as consumption, investment, and public policy. People also seem to avoid accessing/buying/seeing information (particular information that may be likely to feel compelled to give.)
+People may be reluctant <div class="marginnote">
+[how is this reluctance observed/manifested?]
+</div>
+  to consider the cost and benefits of the actions they are funding through their charitable donations (or they find this less appropriate/normal). This contrasts with a much greater willingness to consider these and other domains such as consumption, investment, and public policy. People also seem to avoid accessing/buying/seeing information (particular information that may be likely to feel compelled to give.)
 
 ### Theoretical/conceptual discussion
 
-For this to be considered a bias, the relevant individuals must intrinsically value the usefulness of their charitable activity at least to some extent. I.e., they must be Moral Utilitarians, at least in part, or for some of the time. However, they may consider it very costly or distasteful to actually do this evaluation, or it may
-clash with other motivations and tendencies.
+For this to be considered a bias, the relevant individuals must intrinsically value the usefulness of their charitable activity at least to some extent. I.e., they must be Moral Utilitarians, at least in part, or for some of the time. However, they may consider it very costly or distasteful to actually do this evaluation, or it may clash with other motivations and tendencies.
 
 This aversion also must be distinguished from a lack of *ability* to do CBA in the charity domain; the latter would instead be considered a  [quantitative bias](#quant-biases).
 
@@ -33,6 +87,7 @@ The reluctance to engage in this evaluation process may relate to the aforementi
 [@Berman2018] refer to the idea that "believing that charity is a subjective decision licenses individuals to donate in personally gratifying ways." This perspective plausibly combines partial and conflicted Utililitarian preferences with the presence of moral licensing.
 
 As Berman et al note, the belief that *CBA is not a natural part of the charitable domain* may stem from the lack of direct feedback one gets from donating (in Economics terms, a "credence" good) relative to consumption and investment goods. 
+
 <div class="marginnote">
 (they cite: Imas paper?)
 </div>
@@ -42,6 +97,8 @@ Several papers^[ref] find that people are reluctant to pay for---or actively see
 <div class="marginnote">
 On the other hand ...  a majority ranked effectiveness [how highly?] as a crucial criterion to select a charity and reported greater happiness when the impact of their contribution wasis highlighted.(van Iwaarden et al. 2009; Aknin et al., 2013) 
 </div>
+
+
 
 ### Relevance to Effective Giving
 

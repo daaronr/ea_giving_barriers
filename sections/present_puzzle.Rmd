@@ -5,7 +5,7 @@
 Overview of research Question/Problem: Why don't people give in an evidence-based way?
 </div>
  
- When faced with the [“girl drowning in the pond”](https://www.thelifeyoucansave.org/videos#pondvideo) we are willing to sacrifice substantial wealth to save a life. However, [most people don’t make large donations to the very poor](https://givingusa.org/giving-usa-2017-total-charitable-donations-rise-to-new-high-of-390-05-billion/), in spite of evidence suggesting that lives can be saved [for less than \$10,000](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness). This is not for lack of generosity. There is a strong case that most donations go to charities that improve well-being far less per-dollar than others.^[See, e.g., Ord, T. (2013, March 12). "The moral imperative toward cost-effectiveness in global health. Center for Global Development." Retrieved from www.cgdev.org/content/publications/detail/142701. Also "Your dollar goes farther oversees". (2016). Retrieved from http://www.givewell.org/giving101/Your-dollar-goes-further-overseas]
+ When faced with the [“girl drowning in the pond”](https://www.thelifeyoucansave.org/videos#pondvideo) we are willing to sacrifice substantial wealth to save a life. However, [most people don’t make large donations to the very poor](https://givingusa.org/giving-usa-2017-total-charitable-donations-rise-to-new-high-of-390-05-billion/), in spite of evidence suggesting that lives can be saved [for less than \$10,000](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness). This is not for lack of generosity. There is a strong case that most donations go to charities that improve well-being far less per-dollar than others.
  
 <div class="marginnote">
 As Hoffman et al (2018) state:^[Moshe Hoffman, Bethany Burum, Dave Rand, and Martin Nowak "Hidden Motives Behind Ineffective Altruism", unpublished manuscript"
@@ -13,10 +13,19 @@ As Hoffman et al (2018) state:^[Moshe Hoffman, Bethany Burum, Dave Rand, and Mar
 
 "We donate billions of dollars to charities each year, yet much of our giving is ineffective. Why are we motivated to give, but not motivated to give effectively?"
 
+References supporting this claim are given [below](#evidence_eff).
 
 </div>
  
-This raises two related questions: 1. “Why don’t we give more to the most effective charities and to those most in need?”, and 2. “Why are we not more efficient with our giving choices?” To address this, we must understand what drives giving choices, and how people react to the presentation of charity-effectiveness information.
+ 
+ 
+This raises two related questions:
+
+**1. “Why don’t we give more to the most effective charities and to those most in need?”,** and
+
+**2. “Why are we not more efficient with our giving choices?”**
+
+To address this, we must understand what drives giving choices, and how people react to the presentation of charity-effectiveness information.
 
 <div class="marginnote">
  Note that these two questions are not identical:   the first asks about the amounts given to the most needy charities, and the second about  the choice of charities conditional on giving.
@@ -39,7 +48,7 @@ A plain-language summary of key points, without references (unfold):
 
 **Charities’ impact differs by an order of magnitude:** Some charities are much more effective at saving/improving lives (and achieving other goals such as those involving animals and the environment) than others are. While it is difficult to gain precise estimate on the measures such as “cost of a life saved” there is strong evidence that there are orders of magnitude difference between different categories of charities and different interventions within these categories. 
 
-**There are some very effective lifesaving charities: Some interventions seem likely to save or vastly improve individual lives at a cost in the range of \$2000 - \$10,000. When people are asked whether they would be willing to spend this amount or even a vastly larger amount to save a life in other contexts they typically will agree to do so.
+**There are some very effective lifesaving charities:** Some interventions seem likely to save or vastly improve individual lives at a cost in the range of \$2000 - \$10,000. When people are asked whether they would be willing to spend this amount or even a vastly larger amount to save a life in other contexts they typically will agree to do so.
 
 **There are two related and largely unresolved puzzles:** 
   
@@ -57,21 +66,26 @@ Our main ‘policy’ audience includes both effective nonprofit organisations a
 
 <!-- Done? Why should you care about this? --> 
 
-### Descriptives of giving (US, international) and how \'ineffective\' it is. 
+### Descriptives of giving (US, international) and how \'ineffective\' it is.  {#ea-depict}
 
-Who *does* give effectively? Potential global welfare gains to changing "where we
- give.  Who does give effectively? (or put at bottom?) {ea-depict}
+Who *does* give effectively? Potential global welfare gains to changing "where we give.  Who does give effectively? 
 
 Fitz/Kagan: Understanding Effective Givers: 
 
->In this study we attempt to understand who is predisposed towards effective giving. After providing a description of the effective giving movement, we measure support for effective giving and measure a wide range of personality traits and demographics that may predict support for effective giving. Briefly defining the EA movement as an important force "we" (economists, psychologists) need to discuss. 
+>In this study we attempt to understand who is predisposed towards effective giving. After providing a description of the effective giving movement, we measure support for effective giving and measure a wide range of personality traits and demographics that may predict support for effective giving. We briefly define the EA movement as an important force "we" (economists, psychologists) need to discuss. 
 
 ## (Lack of) previous synthesis on this {#prevsurvey}
 
-While there have been some relevant prior reviews ([@Loewenstein2007], introduction to  [@Berman2018], [@baron2011heuristics])^[Also, unpublished/non-academic work: ‘Behavior and Charitable Giving’ (Ideas42, 2016), ‘Charitable Fundraising And Smart Giving’ (Gertler, 2015), and ‘The Psychology of Effective Altruism’ (Miller, 2016, slides only).
-] the current project uniquely combines 
+While there have been some relevant prior reviews ([@Loewenstein2007], introduction to  [@Berman2018], [@baron2011heuristics])
 
-i. focusing on effectiveness, 
+<div class="marginnote">
+ 
+There has also been some unpublished or non-academic work: ‘Behavior and Charitable Giving’ (Ideas42, 2016), ‘Charitable Fundraising And Smart Giving’ (Gertler, 2015), and ‘The Psychology of Effective Altruism’ (Miller, 2016, slides only).
+</div>
+
+The current project uniquely combines 
+
+i. A focus on effectiveness, 
 
 ii. considering ‘choices among charities’ as well as in isolation, 
 
@@ -87,7 +101,14 @@ Ideas42: "We did not find many field-based, experimental studies on the factors 
  
 <!--Wiepking2012 -->
 
-### Effectiveness-specific
+### Effectiveness-specific work
+
+
+- Baron and Szymanowski 2011 - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers
+
+-  Gertler, [Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf) (not peer-reviewed but very useful)
+
+
 
 **Comparison of outlines: unfold**
 
@@ -132,11 +153,11 @@ Consider: The measures used are relevant to how we consider issues such as chari
 </div>
  
 
-It is important to define the concept of talking about. What, precisely, is this ``effectiveness'' or ``impact'' of a charity we are focusing on?  It is not trivial to get this right and there are some  delicate and hotly debated questions even within the EA movement. Nonetheless, I sketch the basic idea in the math below.
+It is important to define the concept of talking about. What, precisely, is this ``effectiveness'' or ``impact'' of a charity we are focusing on?  It is not trivial to get this right and there are some delicate and hotly debated questions even within the EA movement. Nonetheless, I sketch the basic idea in the math below.
 
 \
 
-$G_j$: The total donations given to charity $j$  during some interval; i.e., the  Cherry's income.
+$G_j$: The total donations given to charity $j$  during some interval; i.e., the  charity's income.
 
 $B_j(G_j)$: A function defining the beneficial *outcome* achieved by charity $j$ with the total donations $G_j$.
 
@@ -163,11 +184,9 @@ The 'production function' is (perhaps tautologically) the product of two terms:
 ```  
 
 
-
 <div class="marginnote">
 This is obviously an oversimplification. To achieve the beneficial outcome the charity will require many intermediate inputs (or "outputs" as noted above), including 'management' and 'careful targetting of programs'.  Some charities may  be able to acquire these inputs at better prices than others, and some may also use a more efficient mix of inputs.
 </div>
-
 
 A donor may care about the 'impact' of her own donation; i.e., she may want to know the difference in outcomes that  her donation  achieves everything else equal. In other words,  the difference  in the ultimate outcome in a world with versus without her donation. 
 
@@ -184,11 +203,17 @@ I assert that $B_j^\prime(G_j)$ is the quantity that GiveWell (and perhaps other
 
 \
 
-*We know:* <div class="marginnote">
-[CITE evidence here]
-</div>
+##### *We know (evidence cited in fold):*  {-#evidence_eff}
+
+```{block2,  type='fold'}
+
+There is abundant evidence for this. Some links and references:  Ord, T. (2013, March 12). "The moral imperative toward cost-effectiveness in global health. Center for Global Development." Retrieved from www.cgdev.org/content/publications/detail/142701. Also "Your dollar goes farther overseas". (2016). Retrieved from http://www.givewell.org/giving101/Your-dollar-goes-further-overseas
  
+```
+
 $B_j^\prime(G_j)$  is much larger for the most *impactful* relative to the most *popular* charities.
+
+\
 
 Increased benefits could be achieved if donations were ''reallocated'' towards more impactful charities. An individual who gains value from her giving through it's *impact* alone would naturally donate to only the *one* charity that has the greatest marginal impact, the charity $j$ with the greatest $B_j'(G_j)$ term. If every donor is doing this, then as an 'equilibrium' result *every charity receiving positive donations should have the same last-dollar marginal impact.*  In maths:
 
@@ -238,10 +263,12 @@ We first  consider a fairly *conceptual* breakdown.  (In later sections, we will
 Later chapters presents the direct and indirect evidence for very specific barriers, with real-world examples, and proposed 'tools'  for surmounting these. Here the conceptual breakdown proved difficult,  as most of the real world cases fell into multiple theoretical categories.
 </div>
  
+ \
+ 
 
 ```{block2,  type='note'}
 
-**Conceptual breakdown of barriers:** 
+**A conceptual breakdown of barriers:** 
   
 Base values: (non) utilitarian: people are optimising their own 'X', which  does not coincide with impact $\rightarrow$ no puzzle?
 
@@ -250,7 +277,6 @@ Judgement/cognition failures: People try but fail to optimize
 \
 
 Emotion overrides cognition: Our brain serves two masters,  those decisions are not consistent
-
 \
 
 Identity and signalling: Effectiveness in giving clashes with our self-image/self-beliefs, or with  how we want to appear to others 
@@ -267,7 +293,7 @@ yoruk_2016, Gneezy2014	brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tolsm
 -->
 
 
-#### Are people utilitarian? {#are_we_util}
+#### Are people utilitarian? {-#are_we_util}
 
 The discussion above largely assumes that people are, at least to some extent:
 
@@ -315,12 +341,11 @@ Perhaps moral utilitarianism (MU) is relatively unimportant in most people's cha
 
 <!-- Even if this is the case, specific campaigns, tools, and fundraising approaches may still help align their parochial, self-interested, or reputation-seeking values and intentions with more effective giving. -->
 
-
 \
 
 ```{block2,  type='note'}
 
-**Some examples of concerns other than MU that might drive giving and charity-choices:**
+**Some examples of concerns other than Moral Utilitarianism that might drive giving and charity-choices:**
 
 - Perfectionism/deontological aversion to 'waste' 
 
@@ -338,11 +363,13 @@ Perhaps moral utilitarianism (MU) is relatively unimportant in most people's cha
 
 ```  
 
-#### Judgement/cognition failures; Biases in perceiving impact and in making choices {#cog-failures}
+\
+
+#### Judgement/cognition failures; Biases in perceiving impact and in making choices {-#cog-failures}
 
 People may (at least to some extent) *want* to be effective in their donation. However, they may simply not be good at doing this. Quantitative biases may drive departures from effectiveness in general. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the "production function for good outcomes", or to misjudge  charities  will lead  me astray from effective giving.  if I am making any mistake,  I am failing to optimize. Furthermore, some biases may happen to be *particularly* harmful to those charities and causes that are most effective.
 
-We  briefly list some of these biases below; we consider these extensively in the section "[Barriers: Quantitative biases](quant-biases)".
+We  briefly list some of these biases below; we consider these extensively in the section "[Barriers: Quantitative biases](#quant-biases)".
 
 \
 
@@ -371,7 +398,7 @@ We  briefly list some of these biases below; we consider these extensively in th
 <!-- Information about recipients' deservingness, Avoid uncertainties/excuses not to give/mental transactions costs
  (Fong & O, '10), (Exley, '16b)	(Andreoni ea, '17), (Dellavigna ea, '12) -->
 
-#### Emotion overrides cognition 
+#### Emotion overrides cognition {-}
 
 **Presenting analytical/impact information switches off system 1**
 
@@ -389,11 +416,13 @@ Charity effectiveness (info/deliberation)
 
 @andreoni2017avoiding, @Exley2016, @Exley2015, @dellavigna2012,	@Kellner_EA_2017
 
-#### Identity and signaling
+\
+
+#### Identity and signaling {-}
 
 Considering effectiveness in giving (and publicizing this concern) may conflict with an individual's self-perception. It may also harm her reputation, at least relative to emotional or 'deontological' helping responses.
 
-#### Barriers: Distance (Physical, Psychological/Emotional, Social) /
+#### Barriers: Distance (Physical, Psychological/Emotional, Social) {-}
 
 Less proximate needs are less salient, thus under-funded.
 
@@ -401,7 +430,7 @@ Less proximate needs are less salient, thus under-funded.
 
 ? @cuddy_ea_2007,	(Sudhir ea, '16)
 
-#### Barriers: Strong local appeals ('the ask'), social obligations to give locally (and 'crowding out'/moral licencing)
+#### Barriers: Strong local appeals ('the ask'), social obligations to give locally (and 'crowding out'/moral licencing) {-}
 
 (Meer, '11)
 

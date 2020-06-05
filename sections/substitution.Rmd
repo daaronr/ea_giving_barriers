@@ -16,9 +16,11 @@ What does this question even mean? In a standard Economics framework  we would c
 </div>
 
 
-Prices/ external changes shift each, but we can’t "force you to voluntarily give" (Also, "Prices" unclear in this context; see giving models; and prices rarely vary exogenously)
+Prices/ external changes shift each, but we can’t "force you to voluntarily give." Furthermore, "prices" are unclear in this context (see Economics models of giving) and prices for one cause or charity rarely vary exogenously.
 
-If we *could* shift the 'meaningful giving' \(\rightarrow\) we could use theory of Conditional Demand (Pollak) \(\rightarrow\) "expenditure substitution" (Reinstein, ’11). Still, the sign of these effects are straightforward only under very restrictive conditions
+\
+
+If we *could* shift the 'meaningful giving' \(\rightarrow\) we could use theory of Conditional Demand (Pollak) \(\rightarrow\) "expenditure substitution" [@reinsteinDoesOneCharitable]. Still, the sign of the conditional demand effects are straightforward only under very restrictive conditions. 
 
 \
 
@@ -47,6 +49,85 @@ diminishing returns to total charitable giving; there may be a discount
 rate on the recency of the donation, as in a *perishable* good.
 
 <!-- Todo: Cite Scharf paper on intertemporal elasticity of warm glow component. -->
+
+### Expenditure substitution maths {-#expend-subst}
+
+<div class="marginnote">
+This is largely drawn from the appendix of [@reinsteinSubstitutionMotivationsCharitable2011]
+</div>
+ 
+
+Assuming that utility is separable in own consumption and charitable
+gifts, and assuming an additive specific shock (\(\alpha\)), we can
+express utility as: \[U=f(x)+V(g_{1},g_{2}-\alpha )\] *where* the
+functions \(V\) and \(f\) are functions that represent utility from
+own-consumption and from charitable giving, repectively.
+
+The budget constraint can be written as:
+
+\[x+p_{1}g_{1}+p_{2}g_{2}\leq Y\] *where* \(Y\) represents total wealth,
+\(p_{1}\) and \(p_{2}\) are the prices of giving to charities one and
+two (per dollar the charity receives), and I normalize the price of own
+consumption to one.
+
+Under this model, the marginal “indirect effect” of a shock
+(\(\frac{\partial g_{1}}{\partial \alpha })\) can be expressed simply as
+a function of the marginal “direct effect” of the shock
+(\(\frac{\partial g_{2}}{\partial \alpha }\)). Standard comparative
+statics of the optimal choices (assuming an interior solution and other
+standard regularity conditions) yields the total derivatives:
+\[\begin{aligned}
+\frac{dx}{d\alpha } &=&\frac{\lambda _{\alpha }}{U_{xx}} \\
+\frac{dg_{1}}{d\alpha } &=&\frac{\lambda _{\alpha }(p_{2}U_{12}-p_{1}U_{22})%
+}{U_{12}^{2}-U_{11}U_{22}} \\
+\frac{dg_{2}}{d\alpha } &=&1+\frac{\lambda _{\alpha
+}(p_{2}U_{11}-p_{1}U_{12})}{-U_{12}^{2}+U_{11}U_{22}}\end{aligned}\]
+*where* \(\lambda (\alpha ,p_{1},p_{2})\) is the shadow value of the
+budget constraint, \(U_{IJ}\)
+\(\equiv \frac{\partial ^{2}U}{\partial I\partial
+J}\),
+\(\lambda _{\alpha }\equiv \frac{\partial \lambda (\alpha ,p_{1},p_{2})}{%
+\partial \alpha }\).
+
+Hence
+
+\[\frac{dg_{1}}{d\alpha }=(\frac{dg_{2}}{d\alpha }-1)\frac{%
+p_{2}U_{12}-p_{1}U_{22}}{p_{1}U_{12}-p_{2}U_{11}}\]
+
+The sign of the marginal effect on \(g_{1}\) (relative to the marginal
+effect on \(g_{1}\)) can be either positive or negative, and will depend
+on the partial second derivatives of utility and the relative prices.
+
+Looking at the discrete effect:
+\[g_{1}(\alpha _{1})-g_{1}(\alpha _{0})=\int_{\alpha _{0}}^{\alpha _{1}}[(%
+\frac{dg_{2}}{d\alpha }(g_{1,}g_{2})-1)\frac{%
+p_{2}U_{12}(g_{1,}g_{2})-p_{1}U_{22}(g_{1,}g_{2})}{%
+p_{1}U_{12}(g_{1,}g_{2})-p_{2}U_{11}(g_{1,}g_{2})}]d\alpha
+\label{integralgeneral}\]
+
+With quadratic utility, the partial derivatives will be constants,
+
+<div class="marginnote">
+$U(x_{0},x_{1},...,x_{n})=x_{0}+\Sigma
+_{i=1}^{n}\alpha _{i}x_{i}-(\Sigma _{i=1}^{n}\beta _{i}x_{i}^{2}+2\Sigma
+_{i\neq j}^{n}\gamma _{ij}x_{i}x_{j})/2$
+</div>
+
+
+and the *discrete* indirect effect, as well as the marginal effect, will
+be a simple linear function of the direct effect:
+
+
+$$g_{1}(\alpha )=A+Bg_{2}(\alpha )$$
+
+*where* $A$ and $B$ are constants.
+
+Quadratic utility is often justified as a second-order approximation to any other utility function. With other utility functions the partial derivatives may vary at different consumption bundles, so the indirect
+effect may be a nonlinear function of the direct effect, but these should be solvable  for a predictable functional form, which for estimation purposes, can be approximated to any desired accuracy by a polynomial function. 
+
+
+
+
 
 
 ## Previous approaches and evidence

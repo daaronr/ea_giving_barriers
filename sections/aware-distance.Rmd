@@ -2,19 +2,30 @@
 
 ## Description and relevance to Effective Giving
 
-Typically,  the most effective (humanitarian) charity will go from wealthy countries in the "North"  to poor countries in the "South".   The large, social,  cultural geographic distance is an important barrier to giving  and a reason why people prefer to give locally. However,  technology continues to reduce these barriers (see, e.g., Give Directly and their new web-enabled tools).
-
+Typically,  the most effective (humanitarian) charitable contributions will go from wealthy countries in the "North"  to poor countries in the "South".   The large, social,  cultural geographic distance is an important barrier to giving  and a reason why people prefer to give locally. However, technology continues to reduce these barriers (see, e.g., Give Directly and their new web-enabled tools).
 
 ## Theoretical and conceptual underpinning
 
 Construal theory,  psychological distance,  moral distance/moral circles
 
-^[Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychological distance" (PDF). Psychological Review. 117 (2): 440–463. doi:10.1037/a0018963]
-
+<div class="marginnote">
+Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychological distance" (PDF). Psychological Review. 117 (2): 440–463. doi:10.1037/a0018963
+</div>
 
 <!-- ?cuddy\_ea\_2007 (Sudhir ea, \'16) -->
 
 ## Distance - Spatial/Physical, Social/Cultural: parochial altruism/ingroup bias,  interpersonal and identity e.g., race, gender, age, etc
+
+Consider: 
+
+- What is the evidence that we are less empathetic or less generous to those far from us along these margins?
+
+- What is the evidence that this is manifested in our actions and choices (political, professional, etc)?
+
+-  What is the evidence that this is manifested in our charitable giving? 
+
+
+> Robust results from research on empathy have suggested highlighting similarities between the beneficiary and donor(Meer 2011)
 
 ## Distance: Experiential, Informational, Emotional/Affective
 
@@ -22,9 +33,17 @@ Ref: small2007_friends	small_loewenstein_07_scarecrow
 
 ## Distance -  Temporal (future problems and people), Hypothetical (probability to happen)
 
+This is particular relevant to causes and charities dealing with the medium-term and long-term future.
+
 ## Availability heuristic and media (also see 'biases')
 
-Persistent problems are not as noticeable as rare events such as natural and man-made disasters. ^[REFs] These will then be both inherently less present in donors' minds, and less reported in the media. 
+Persistent problems are not as noticeable as rare events such as natural and man-made disasters.^[REFs] These will then be both inherently less present in donors' minds, and less reported in the media. 
+
+There is evidence that news coverage actually *increases* the rate of government support for a cause [@eisenseeNewsFloodsNews2007] 
+
+<div class="marginnote">
+ (Are there similar results for charitable giving?)
+</div>
 
 <!-- Consistent problems aren't as noticable (reflected in media also) - availability heuristic [separate from 'repeated exposure makes it more relevant ... opposite implication] -->
 

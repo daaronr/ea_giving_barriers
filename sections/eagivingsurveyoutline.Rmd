@@ -70,7 +70,7 @@ Responses?:  (Info enhancing) social closeness of recipient
 Social perceptions and signaling empathy vs effectiveness; related: difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness'
 -->
 
-## [Barriers: Aversion/obstacles to *doing* (and using) evaluations](#eval-aversion) {-}
+## [Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity](#eval-aversion) {-}
  
 ## [Barriers: Quantitative biases](#quant-biases) {-}
 
@@ -135,12 +135,12 @@ Need for systematic platforms to study this, systematic experimentation and data
 
 Also see gatesproposal.md (Gates foundation)
 
-## Other practical considerations
+## Other practical considerations {-}
 
 
 ### Notes on potential integration with PriorityWiki/Rethink Charity {-}
 
-How have EA orgs been brought together ...especiallyat unis
+How have EA orgs been brought together ...especially at universities?
 
 - Effective thesis project
 - EA hub -- add a button here?
