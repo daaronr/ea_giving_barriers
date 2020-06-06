@@ -10,7 +10,7 @@ output:
     lib_dir: "book_assets"
     includes:
       in_header: support/header.html
-    css: support/tufte_plusX.css
+    css: support/tufte_plus.css
     config:
       toc:
         after: |
@@ -37,7 +37,7 @@ output:
 bookdown::pdf_book:
     keep_tex: yes
 always_allow_html: yes
-bibliography: ["support/reinstein_bibtex.bib"] #this first one seems to be auto-generated ?
+bibliography: ["support/reinstein_bibtex.bib", "support/reinstein_references.bib"] #this first one should be included in the citr settings; not sure what the second one is
 biblio-style: apalike
 link-citations: yes
 github-repo: #gerhardriener/CharitySubstitutionExperiment
@@ -72,9 +72,7 @@ file.rename(here("support", "headerX.html"), here("support", "header.html"))
 tryCatch(
 file.rename(here("support", "tufte_plusX.css"), here("support", "tufte_plus.css"))
 )
-tryCatch(
-file.rename(here("support", "reinstein_bibtexX.bib"), here("support", "reinstein_bibtex.bib"))
-)
+
 ```
 
 ```{r download-fncns}

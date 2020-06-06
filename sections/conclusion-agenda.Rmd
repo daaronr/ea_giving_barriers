@@ -13,3 +13,12 @@ Need for systematic platforms to study this, systematic experimentation and data
 - Replication (and verification), pooled evidence, meta-analysis
   - Context-sensitivity, large SE $\rightarrow$ large samples, statistical learning controls, sharing data
   - Responses to 'obvious contrasts' seem to not reflect between-subject responses"
+
+***
+
+\
+\
+
+Misc -- adding a bunch of citations; please ignore:
+
+[@baron2011heuristics:1; @Caviola2014; @gneezyAvoidingOverheadAversion2014; @kinsbergenExplainingMonetaryDonations2013; @kogut2005identified; @kogutIdentifiedVictimEffect2005; @loewensteinScarecrowTinMan2007; @Small2007][@andreoni2017avoiding; @Dellavigna2007; @Exley2016a; @exleyExcusingSelfishnessCharitable2016; @reinstein2018commitments][@Adena2019; @Berman2018:1; @Cairns2011; @DellaVigna2012; @Deryugina2015b; @Fong2011a; @null2011warm; @spenceJobMarketSignaling1973]
