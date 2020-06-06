@@ -418,7 +418,7 @@ In a variety of places within a repo when you are adding comments or content you
 
 #### Seeing recent commits, history and 'blame' {-}
 
-![Showing the most recent commits](../picsfigs/some_commits.png)
+![Showing the most recent commits](picsfigs/some_commits.png)
 
 
 \
