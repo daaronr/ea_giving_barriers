@@ -340,6 +340,334 @@ Effective causes may be distant and underreported, for various reasons. Furtherm
 
 ## Overhead aversion
 
+
+### Related Terms {-}
+
+-   Similar terms: Overhead bias
+
+-   Possible mechanisms: waste aversion, perfectionism; evaluability bias (for this versus other metrics); excuse-driven/motivated reasoning
+
+-   Distinct but related: corruption aversion
+
+### Description {-}
+
+Potential donors may have a negative feeling towards a charity's costs
+that are considered "overhead" rather than "direct spending on program
+activities." This may make them reluctant to donate to charities that
+express a high "overhead ratio" and/or when they believe their donation
+will go to "pay for overhead", and to favor instead charities that
+report low "overhead ratios".
+
+Discussion: There are some clear flaws in this logic (thus we may call
+it "overhead bias"): many things considered overhead are fixed or sunk
+costs which will not be changed by the amounts donated; thus, at the
+*margin* the donation may not actually go towards this overhead.
+
+Marginal overhead is also possible. Suppose, e.g., the cost of an
+additional year of school tuition fees for a child are \$200, but this
+requires an additional administrative cost of \$50 to vet the student
+and her family, pay money transfer fees, fill out additional forms, etc.
+A donation of \$200 earmarked for "tuition only" would require an
+additional \$50 of these costs, which might be labled "overhead".
+However, as this example suggests, many such "overhead" expenses are
+necessary parts of the mission, an increase its effectiveness (e.g.,
+training employees, auditing, evaluating and targeting programs). On the
+other hand, we cannot rule out that in some cases high overhead might be
+a signal of inefficient practices. Where organizations have bloated
+annual operating expenses it might be more efficient for them to close
+down in the medium term and for that money to be used for leaner
+charities. (Several theoretical papers [ref: Steinberg ?1986 and later
+work] discuss whether or not the overhead ratios are a sign of
+efficiency.)
+
+### Overview of Evidence {-}
+
+Survey and observational evidence suggests that donors focus on
+potentially misleading measures of overhead. Gneezy et al (2014) present
+a credible piece of field-experimental evidence suggesting that having a
+"lead donor" and framing this as "covering overhead" may increase
+donations. Metzger and Gunther's (2019) lab participants donate
+(marginally) significantly less when presented with (the option to buy)
+information about a NGO's administrative costs (perhaps because such
+costs were made salient). Caviola et al's (hypothetical?) experiments
+suggest that *evaluability* may drive the focus on overhead rather than
+effectiveness. Portillo and Stinn's lab participants favored
+overhead-free charities and preferred fundraising-related to
+salary-related overhead. Kinsbergen et al's representative (Dutch)
+survey participants "have a strong aversion regarding overhead costs,
+[but]\... seem to value the capacities of paid staff members and are,
+to a certain extent, willing to pay a price for these."
+
+
+### Relevance to effective giving
+
+-   How this particular barrier proves problematic for effective giving?
+
+Study [ref] finds 'no correlation' between overhead and
+effectiveness\-- is it convincing?
+
+As noted above, overhead is an important input to the charity's
+production function, enabing it to be effective. A biases against
+overhead therefore distort's the donor choice of charity away from
+effectiveness. The other side of this coin: in an efficient market firms
+provide the services consumers demand. If consumers have a preference
+for firms that use a lower share of some input, this will "distort" the
+production process away from this input, making it seem artificially
+costly [ref: Reinstein and Song, others]. Similarly, if donors punish
+charities for excessive overhead, charities will use "too little" of
+inputs deemed to be overhead.
+
+Note that doing impact evaluation will itself increase overhead. I.e.,
+aversion to overhead will lead people to be biased against
+evidence-based charities that evaluate their own programs.
+
+While the above concerns do not necessarily tilt against charities
+targeting overeas or lower-profile causes, it nonetheless represents a
+departure from efficiency in choice/provision of charitable services.
+
+Furthermore, there is a reasonable case [todo: get evidence] that
+working in poor countries, countries that are further from the charity's
+headquarters, and countries more distant from legal, financial, and
+other services *will* lead to a greater overhead ratio. This may be
+accentuated if the *basic* service (e.g., food, housing, or education)
+is cheaper in poor countries. E.g., sending a poor child in Chicago to a
+summer enrichment program might cost \$4000 in fees and \$500 to
+administer the scholarship, roughly 11% "overhead share" . Sending a
+poor Ghanaian child for a year might cost \$300 plus \$100 in
+administration, a 25% share.
+
+### State of Evidence; key papers {-}
+
+**Methodological issues** 
+
+
+-   Observational (correlational) studies: Overhead varies across
+charities in non-random ways; may be correlated to unobservable
+characteristics. There may also be reverse causality --
+fundraising expenses both increase reported overhead and
+(presumably) drive donations.
+
+-   Meer (2017) identified plausibly exogenous variation; but this
+pertained to *actual* incremental costs/prices, rather than
+the "overhead" costs at issue
+
+-   Field experiments can vary *presentation* or *framing* of overhead
+but not (typically) a charity' *actual* administration processes
+(thus "overhead")
+
+-   Lab experiments can vary the actual price of giving but this doesn't
+represent the real-world "overhead" issue; others
+
+-   In contrast, Metzger and Gunther varied the charity the subjects
+could donate to, but imposed a strong framing of the
+administrative costs as a marginal price).
+
+-   Survey and hypothetical vignette evidence (usual issues)
+
+#### Gneezy, Uri, Elizabeth A. Keenan, and Ayelet Gneezy. "Avoiding overhead aversion in charity." Science 346.6209 (2014): 632-635.\| {-}
+
+Gneezy et al (2014) ran a large-scale (N=40,000 [check]) mail solicitation on behalf of an organization seeking to fund as many US educational projects (each costing \$20,000) as possible. Recipients were asked to give \$20/50/100. They found that framing a lead donation as "covering[ing] all the overhead costs associated with raising the needed donations" lead to a significantly greater share donating and amount raised than either the control condition (no lead donation?) or a seed ("has given this campaign seed money") or matching frame ("will match every dollar given... up to a total of \$10,000").
+
+<div class="marginnote">
+ Results
+
+Share donating: Overhead (8.5%) $>$ \*\*\* $\geq$    Match $>$ Control (3.4%)
+
+Amount raised: Overhead (\$2.31) \> \*\* Seed, Match > \*\*\* Control (\$0.80)
+
+</div>
+ 
+
+Note that while the framing differed, the *actual* treatment of the seed money in each case was the same; unless the charity could change the way it *administered* its programs between treatment, there is no clear way to experimentally vary the *actual* overhead. 
+
+This amounts to a clear piece of evidence that in such contexts
+*framing* overhead as being "covered" in this way may increase
+donations. However, it doesn't reveal donors' reaction to the reported
+measure of overhead *itself*. The effect may come from the particular
+salience of the way the lead donor's (particularly selfless) act is
+portrayed, or it may be specific to overhead "*associated with raising
+... donations"* rather than administrative overhead, salaries, etc.
+
+The same authors ran a *lab* experiment where they were able to vary the
+share of the subjects' donation that actually went to the charity,
+labeling the difference (donation - amount passed) as "overhead", and in
+a second treatment arm, whether this "overhead" was covered by a third
+party. The results were similar to the field experiment [CHECK, go into
+more detail]. However, this transparent "donation reduction" has little
+in common with the real-world costs usually depicted as "overhead". In
+this lab experiment, a donor who cares about her marginal impact
+*should* consider the pass-through rate or "price"; this is not
+"overhead illusion".
+
+<div class="marginnote">
+ Other standard critiques of lab experiments in this domain apply    here.
+ </div>
+ 
+
+#### Portillo, Javier E.; Stinn, Joseph, (2018). "Overhead Aversion: Do Some Types Of Overhead Matter More Than Others?". Journal Of Behavioral And Experimental Economics, 72, , 40\--50. {-}
+
+Lab experiment
+
+> If an overhead-free donation is readily available, then the average
+donor in our experiment (70--80% of subjects) prefers that charity to
+receive the donation. However, if donations are not overhead-free, most
+(approximately two-thirds of subjects) prefer the donation go toward
+fundraising efforts instead of salary-related expenditures.
+
+\
+
+
+
+#### Kinsbergen, Sara; Tolsma, Jochem, (2013) {-}
+
+"Explaining Monetary Donations To International Development Organisations: A Factorial Survey Approach". Social Science Research, 42, 6, 1571\--1586. 
+
+Hypothetical survey (vignettes, scenarios) "We constructed 960 scenarios in which a fictive international development organisation was described. ... A large representative sample of the Dutch population (N = 2,758) received six randomly allocated scenarios and had to decide if, and if so, how much they would donate to the depicted (fictive) organisation.... Although donors have a strong aversion regarding overhead costs, we find that donors seem to value the capacities of paid staff members and are, to a certain extent, willing to pay a price for these.
+
+\
+
+#### Meer, Jonathan, 2017 {-}
+
+"Effects of the price of charitable giving: Evidence from an online crowdfunding platform 
+"
+
+-   DonorsChoose platform involves plausibly exogenous variation in the providing (the same) goods to teachers across projects (varying sales taxes, fullfillment, payment processing fees, etc).[^3] Fees are 'explicit and salient'.
+
+-   Robust analysis (e.g., teacher fixed-effects) to address a potential
+    > endogeneity concern (saavy teachers economize on fees)
+
+-   An increased price of giving results in a lower likelihood of a
+    > project being funded. We also calculate the price elasticity of
+    > giving, finding estimates between −0.8 and −2.
+
+However, this does *not* typify the overhead we are considering. Here,
+we see variation in the donot's *actual* costs of providing outputs; as
+in Gneezy et al's lab experiments, this is not "illusion". While donor
+responses to e.g., greater fixed costs of maintaining an office in
+Malawi, or greater costs of identifying legitimately poor families
+*might* be similar, we do not know.[^4]
+
+<div class="marginnote">
+"...variation in the payment processing, optional support, and
+    fulfillment fees described above; along with sales taxes and
+    shipping fees charged by vendors. ... the optional support fee
+    changed twice over the course of our data and the payment processing
+    fee changed once. The fulfillment fee, a fixed amount, changed three
+    times in the time covered by the data. In addition, this fee affects
+    the efficiency price of different-sized projects differently. The
+    changes affected only newly posted projects; therefore, for nearly
+    half a year after each change was implemented, active projects that
+    might be otherwise identical had different fee levels."
+</div>
+ 
+
+
+#### Solutions (add section)
+
+-   "Seed donor covering overhead"
+
+-   Simultaneous comparisons and evaluation of impact and overhead where
+    > relevant (Caviola et al)
+
+-   De-biasing?
+
+
+Other papers to look into and incorporate (unfold)
+
+```{block2,  type='fold'}
+
+Borgloh, S., Dannenberg, A., Aretz, B., 2013. Small is beautiful -
+experimental evidence
+
+of donors' preferences for charities. Econ. Lett. 120 (2), 242--244.
+
+Hope Consulting Survey:
+
+"a recent survey found that only 35 percent of donors do any research
+before giving (Hope Consulting, 2012), this is a valid concern -- though
+among those who did research, the most commonly sought information was
+some type of overhead ratio, and two-thirds were seeking some sort of
+information related to efficiency."-Meer
+
+"Making an impact? The relevance of information on aid effectiveness for charitable giving. A laboratory experiment" Metzger L Günther, *Journal of Development Economics (2019) 136* 
+
+**"**We thus clarified that a decrease in administrative costs from 40%
+to 10% is equivalent to a 50% increase in net transfers to the
+recipient, in an attempt to make the administration costs group as
+comparable to the aid impact group as possible." \-- this oversimplified
+framing may be driving their results.
+
+"A. a relatively small share of people makes a well-informed donation
+decision. B. the demand for information about aid impact is lowest, and
+it is highest for information about the recipient type. C. impact info
+didn\'t affect average donation, while information about the exact
+recipient type and administrative costs led to a significant change in
+donation levels."
+
+"In the recipient type group, informed participants donated
+significantly more than uninformed participants because they "rewarded"
+the preferred recipient with higher-than- average transfers. In the
+administration costs group, informed participants donated significantly
+less than uninformed participants because they used the information to
+"punish" NGOs with high administration costs."
+
+"only 28% of the participants in the bought ANY information (impact, who
+benefits overhead). Within that, highest demand for beneficiary, lowest
+for impact. Impact info no effect on giving. Knowing who benefits info
+increased giving. Overhead info decreased giving."
+
+**Caviola, L., Faulmüller, N., Everett, J. A., Savulescu, J., & Kahane,
+G. (2014). The evaluability bias in charitable giving: Saving
+administration costs or saving lives?. Judgment and decision making,
+9(4), 303.**
+
+"When presented with a single charity, people are willing to donate more
+to a charity with low overhead ratio, regardless of cost-effectiveness.
+When presented with two charities simultaneously, they base their
+donation behavior on cost-effectiveness"
+
+**Bowman, W., 2006. Should donors care about overhead costs? Do they
+care? Nonprofit Volunt. Sect. Q. 35 (June (2)), 288--310.**
+
+Meer... Are overhead costs a good guide for charitable giving?
+
+Trussel, J. M., & Parsons, L. M. (2007). Financial reporting factors
+affecting donations to charitable organizations. Advances in Accounting,
+23, 263-285.
+
+Tinkelman, D. (1998). Differences in sensitivity of financial statement
+users to joint cost allocations: The case of nonprofit organizations.
+Journal of Accounting, Auditing & Finance, 13(4), 377-393.
+
+Parsons, L. M. (2007). The impact of financial information and voluntary
+disclosures on contributions to not-for-profit organizations. Behavioral
+research in accounting, 19(1), 179-196.
+
+Yörük, B.K. (2013). Charity ratings [this literature is not
+specifically on 'overhead'; I should check how Charity Navigator factors
+this in]
+
+Frumkin, P., & Kim, M. T. (2001). Strategic positioning and the
+financing of nonprofit organizations: Is efficiency rewarded in the
+contributions marketplace?. Public administration review, 61(3),
+266-275.
+
+van Iwaarden, J., Van Der Wiele, T., Williams, R., & Moxham, C. (2009).
+Charities: how important is performance to donors?. International
+Journal of Quality & Reliability Management, 26(1), 5-22.
+
+
+```
+
+
+
+
+[^4]: Furthermore, DonorsChoose doesn't have clearly separate variation
+    in effectiveness of the outputs which we could compare to the
+    differential prices of providing particular outputs (fees, etc.), to
+    potentially detect oversensitivity to the former.
+
+
 <div class="marginnote">
 Study finds ‘no correlation’ between overhead and effectiveness-- is it convincing? Does working abroad increase overhead? Most relevant tie: doing impact evaluation will itself increase overhead.
 </div>

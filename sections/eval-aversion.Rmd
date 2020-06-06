@@ -4,9 +4,17 @@
 
 Note: this is an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis being planned. 
 
-Much of this project is organised in the [dualprocess repo](https://github.com/daaronr/dualprocess)
+Much of this project is organised in the [dualprocess repo](https://github.com/daaronr/dualprocess).
 
+An earlier set of presentation slides (now pictures are missing -- need to recover) is hosted [here](https://daaronr.github.io/dualprocess/SPI_EA_impact#/) - press 'O' to see the fill multidimensional slide map; the outline slide is [here](https://daaronr.github.io/dualprocess/SPI_EA_impact#/outline-1) 
+                                                       
 ```  
+
+
+<!-- #TODO recover and add images:
+
+![](lifeboat_choice.jpg){width=35%} ![](givewell-sheet.png){width=35%}
+-->
 
 ## General relevance to effective giving
 
@@ -14,10 +22,14 @@ For people to choose one product over another on the basis of some characteristi
 Insert abundant references here to asymmetric information, fly-by-night competition, and experience and creedence goods, product reviews, regulation, advertising as a signal, etc.
 </div>
 
- Considering a charitable donation as a product purchased by the donor, it seems to  fall into the latter category [ref to authors making this point]. If donors value their 'marginal impact on outcomes' as discussed in section XXX, they may need to do extensive research (or at least know about and visit web sites such as GiveWell and ImpactMatters) to have some estimate of the value-for-money they are getting.
+\
+
+ Considering a charitable donation as a product purchased by the donor, it seems to  fall into the latter category [ref to authors making this point]. If donors value their 'marginal impact on outcomes' as discussed in our earlier [definitions of impact](#def-impact), they may need to do extensive research (or at least know about and visit web sites such as GiveWell and ImpactMatters) to have some estimate of the value-for-money they are getting.
 <div class="marginnote">
 Donors may also be uncertain about other benefits they main gain from each donation such as 'gratitude and long-term sense of fulfillment'.
 </div>
+
+\
 
 A typical charitable donor, particularly one who donates towards a geographically-distant intervention, will never directly see or experience the consequences of her donation. 
  
@@ -27,18 +39,18 @@ Thus, for people to systematically choose to donate to the most effective charit
 
 2. They must either:
 
-a. know how effective charities are relative to one another,
-b. have reliable information on this presented to them by the charities (or other entities),
-c. or they must want to and find it appropriate to seek information on this, and be able to obtain reliable information.
+- a. know how effective charities are relative to one another,
+- b. have reliable information on this presented to them by the charities (or other entities),
+- c. or they must want to and find it appropriate to seek information on this, and be able to obtain reliable information.
 
 3. (For b or c to have the desired effect...) The act of learning about effectiveness must not substantially decrease their willingness to donate.
 
 \
 In this section we consider the evidence for 
 
-I. People's aversion/willness (or sense that it is appropriate/inappropriate) to evaluate effectiveness in a charitable giving context
+- I. People's aversion/willness (or sense that it is appropriate/inappropriate) to evaluate effectiveness in a charitable giving context
 
-II. The impact of being presented with (or actively pursuing) effectiveness information (which is naturally *analytical* information) on generosity and the willingness to donate
+- II. The impact of being presented with (or actively pursuing) effectiveness information (which is naturally *analytical* information) on generosity and the willingness to donate
 
 
 <div class="marginnote">
@@ -71,10 +83,11 @@ This is hard to label: 'aversion' may be the wrong word: people may finding it l
 
 ### Description
 
-People may be reluctant <div class="marginnote">
-[how is this reluctance observed/manifested?]
+People may be reluctant^\*^ to consider the cost and benefits of the actions they are funding through their charitable donations (or they find this less appropriate/normal). This contrasts with a much greater willingness to consider these and other domains such as consumption, investment, and public policy. People also seem to avoid accessing/buying/seeing information (particular information that may be likely to feel compelled to give.)
+  
+<div class="marginnote">
+How is this reluctance observed/manifested?
 </div>
-  to consider the cost and benefits of the actions they are funding through their charitable donations (or they find this less appropriate/normal). This contrasts with a much greater willingness to consider these and other domains such as consumption, investment, and public policy. People also seem to avoid accessing/buying/seeing information (particular information that may be likely to feel compelled to give.)
 
 ### Theoretical/conceptual discussion
 
@@ -82,7 +95,7 @@ For this to be considered a bias, the relevant individuals must intrinsically va
 
 This aversion also must be distinguished from a lack of *ability* to do CBA in the charity domain; the latter would instead be considered a  [quantitative bias](#quant-biases).
 
-The reluctance to engage in this evaluation process may relate to the aforementioned ^[where?] "taboo trade-offs"; if these tradeoffs are taboo, considering them may involve great emotional distress.
+The reluctance to engage in this evaluation process may relate to the aforementioned <!-- where? --> "taboo trade-offs"; if these tradeoffs are taboo, considering them may involve great emotional distress.
 
 [@Berman2018] refer to the idea that "believing that charity is a subjective decision licenses individuals to donate in personally gratifying ways." This perspective plausibly combines partial and conflicted Utililitarian preferences with the presence of moral licensing.
 
@@ -92,29 +105,49 @@ As Berman et al note, the belief that *CBA is not a natural part of the charitab
 (they cite: Imas paper?)
 </div>
 
-Several papers^[ref] find that people are reluctant to pay for---or actively seek to avoid--- certain information. However, these may reflect motives distinct from CBA, such as a self-serving bias.  
+Several papers^citation needed^ find that people are reluctant to pay for---or actively seek to avoid--- certain information. However, these may reflect motives distinct from CBA, such as a self-serving bias.  
 
 <div class="marginnote">
 On the other hand ...  a majority ranked effectiveness [how highly?] as a crucial criterion to select a charity and reported greater happiness when the impact of their contribution wasis highlighted.(van Iwaarden et al. 2009; Aknin et al., 2013) 
 </div>
 
+#### Psychological theory behind CBA {-}
 
+This CBA discomfort brings together several overlapping theoretical
+frameworks:
 
-### Relevance to Effective Giving
+-   Fiske's Relational Theory (1992; also see Aggarwal, 2004), which proposes four basic types of social relationships: communal sharing, authority ranking, equality matching, and market pricing. For more here, see Heyman & Ariely, 2004 on social vs economic markets. 
+
+-   Taboo Tradeoffs & Protected Values: to the extent that CBA requires making taboo tradeoffs that clash with protected values, people may be reticent to engage in CBA for prosocial purposes. 
+
+-   Distorted Altruists as the existing dominant view (contrast) c.f., Loewenstein & Small, 2007; Slovic, 2007 \-- people care about welfare maximization, **but without clear information to make comparisons**, they rely on their feelings to guide choice (Loewenstein & Small, 2007; Slovic, 2007). Berman et al 2018 build on this. 
+
+<div class="marginnote">
+We distinguish CBA opposition from the inability to conduct CBA. The former is treated here while the latter involves a series of [quantitative biases discussed later](#quant-biases).
+</div>
+
+#### Relevance to Effective Giving (restated in fold) {-}
+
+```{block2,  type='fold'}
 
 If *determining which charity is effective* requires CBA people may avoid doing so. If effective charities *force* people to consider CBA then people may avoid these charities in order to avoid having to do these evaluations.
 
-### Evidence
+ 
+Stated more broadly, effective giving is predicated on conducting CBA for programs and organizations. To the extent that people are uncomfortable with CBA in the charitable domain, they will be uncomfortable with giving effectively.
 
-#### Evidence for  "People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..." {-}
+```
 
-[@Fong2010] run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh;  each subject is matched with a particular recipient  of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers." 
+
+### Evidence surrounding CBA {#cba-evidence}
+
+#### Evidence for "People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..." {-}
+
+**[@Fong2011]** run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh;  each subject is matched with a particular recipient  of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers." 
 
 But this needs to be interpreted carefully:  *those who decide not to buy information appear less generous than the average*!
 
-
 <div class="marginnote">
-[@Dellavigna2010] provide evidence that people will pay costs to avoid being asked and avoid social pressure. However, for this same case *if* they are asked they then to respond by giving. While "avoiding the ask" is not avoiding cost-benefit analysis, it suggests that people are in fact strategic in avoiding things that  may make them feel compelled to donate. 
+[@DellaVigna2012] provide evidence that people will pay costs to avoid being asked and avoid social pressure. However, for this same case *if* they are asked they then to respond by giving. While "avoiding the ask" is not avoiding cost-benefit analysis, it suggests that people are in fact strategic in avoiding things that  may make them feel compelled to donate. 
 Note: This evidence is only tangentially relevant.
 </div>
 
@@ -127,7 +160,7 @@ Note: This evidence is only tangentially relevant.
 looked into the effectiveness information on the charities they donate
 to -->
 
-In [@null2011warm], in a final stage of her experiment:
+In **[@null2011warm]**, in a final stage of her experiment:
 
 > Subjects were given the option to spend USD 5 of their total gift to the
 > development charities in order to find out which of the three would
@@ -149,16 +182,30 @@ In [@null2011warm], in a final stage of her experiment:
 > exactly equal to the value of her unmatched gift, a truly staggering
 > sum.
 
+\
+
 Null attributes this failure to buy information either to subjects who "simply did not care about the potential to substitute into the charity with the highest matching rate", perhaps driven by some form of simplistic warm glow motive, or to simple misunderstanding or fatigue (in an incentivized elicitation, she found some evidence of incomplete comprehension). To the extent this is *not* a misunderstanding, it might be seen as evidence of CBA aversion; participants did not want to purchase evidence that would require them to do calculations in this domain.
 
 \
 
-#### Evidence for "People do not respond 'efficiently' to information about costs and benefits"
+#### Evidence for "People do not respond 'efficiently' to information about costs and benefits" {-}
 
-Null (2011) ran a set of experiments at Kiwanis/Rotary clubs and with "professional subjects" (university administrators?) at the Berkeley X-lab; the former strictly involved allocations *among* charities, in the latter case what was not given away could be kept. For the main reported treatments, participants made a series of decisions under different incentives (mostly on the same page and thus simultaneously?). The "prize" was \$100; in each session only one decision from one subject was chosen for actual payment/donations.
+**[@null2011warm]** ran a set of experiments at Kiwanis/Rotary clubs and with "professional subjects" (university administrators?) at the Berkeley X-lab; the former strictly involved allocations *among* charities, in the latter case what was not given away could be kept. For the main reported treatments, participants made a series of decisions under different incentives (mostly on the same page and thus simultaneously?). The "prize" was \$100; in each session only one decision from one subject was chosen for actual payment/donations.
 
-Many participants who choose to donate positive amounts to multiple charities in earlier (?stages) continue to donate to multiple charities when one charity is given a better match rate; they only "imperfectly substitute" (and some even substitute away from the now "lower-priced" charity). She attributes this to both risk aversion (diminishing utility in to each charity's actual impact, along with uncertainty about this impact) as well to as a version of "warm glow" with a diminishing marginal benefit in the amount given to each charity.[^1] However, this could also be attributed to a simple failure to make these cost-benefit calculations (as she also found some evidence suggesting misunderstanding
+Many participants who choose to donate positive amounts to multiple charities in earlier (?stages) continue to donate to multiple charities when one charity is given a better match rate; they only "imperfectly substitute" (and some even substitute away from the now "lower-priced" charity). She attributes this to both risk aversion (diminishing utility in to each charity's actual impact, along with uncertainty about this impact) as well to as a version of "warm glow" with a diminishing marginal benefit in the amount given to each charity.
+
+<div class="marginnote">
+She also introduces exogenous risks over matching rates, and notes that roughly 2/3 of those that choose to shift only imperfectly are not measured to be "risk averse".
+</div>
+ 
+However, this could also be attributed to a simple failure to make these cost-benefit calculations (as she also found some evidence suggesting misunderstanding
 of the nature of these incentives).
+
+
+<div class="marginnote">
+Consider also [@metzgerMakingImpactRelevance2019].
+</div>
+ 
 
 <!--
 > ***\[Cut?*** [^2]***Metzger and Gunther (2015)*** ran an (Economics)
@@ -179,16 +226,20 @@ to not care about the money once it has left their hands, at least when
 it is framed in terms of [money]{.underline}*
 -->
 
-#### Evidence for "people accept and value subjectivity in the charitable domain more so than for other choice domains"
+#### Evidence for "people accept and value subjectivity in the charitable domain more so than for other choice domains" {-}
 
-***Berman et al (2018)*** provide evidence from a series of five survey/vignette experiments; unlike those mentioned above, these (mostly) involve hypothetical choices among *multiple* causes. All experiments use standard subject pools (behavioral lab subjects or m-turkers) with reasonably large samples. All ask for hypothetical (Likert-scale) responses involving fictional charities, investments, and other scenariae; they mostly rely on between-subject responses, and their statistical analyses report reasonable tests on the relevant comparisons. 
+**[@Berman2018]** provide evidence from a series of five survey/vignette experiments; unlike those mentioned above, these (mostly) involve hypothetical choices among *multiple* causes. All experiments use standard subject pools (behavioral lab subjects or m-turkers) with reasonably large samples. All ask for hypothetical (Likert-scale) responses involving fictional charities, investments, and other scenariae; they mostly rely on between-subject responses, and their statistical analyses report reasonable tests on the relevant comparisons. 
 
 Their "Study 1: Perceived Subjectivity of Charity" found that, in rating statements such as "it is important that the ______ I choose reflects my personal tastes or values" and "It is more important to rely on objective measures rather than personal feelings when choosing ______  \... they found people agreed more with the *subjective/taste* approach when assigned a treatment where the blank was "Charity", relative to those assigned treatments involving medical treatments, investments, and cel phones. (But less than some other things like art, and similar to restaurants in some tests!) 
 
 Their "Study 2: Personal Feelings Versus Welfare Gains" presented participants with "Mary" and a pairing of fictional domestic (homelessness) and international (micronutrient) charities, presenting effectiveness information on both (clearly favoring the latter). The treatment\-- which charity Mary felt an emotional connection to\-- had a significant impact on the response to "Which charity should Mary donate to", in the predicted direction. They were also asked: "Which option does the greatest good for the greatest number of people?"; here responses favored the international charity for both treatments; but even so, when Mary felt connected to local charity, participants favored donating there.
 
 <div class="marginnote">
-Berman et al argue that their results demonstrate the acceptance of the suggestive preferences is somewhat attenuated by the \"role of responsibility\", but it\'s not clear what this term means or how this could be relevant to voluntary individual giving. </div>
+
+Somewhat puzzlingly, Mary\'s connection to the charity also
+affected the stated "effectiveness" response! This bears a closer
+look.
+</div>
  
  In their "Study 3: Charity Versus Investment Choice", subjects were assigned categories and fictional examples of either charities or investment, and presented domain categories and effectiveness information for each. Fewer participants in the charity treatment (relative to the investment treatment) chose to sort by effectiveness rating, and fewer chose the highest rated option.
 
@@ -199,25 +250,29 @@ people tend to favor--or at least to accept--the use of subjective
 preferences and personal ties, rather than objective information, and
 they do so more than for more "standard" goods and choices. This is more
 accepted for "donors" than for people with responsibility for others'
-funds. <div class="marginnote">
-Berman et al argue that their results demonstrate the acceptance
-    of the suggestive preferences is somewhat attenuated by the \"role
-    of responsibility\", but it\'s not clear what this term means or how
-    this could be relevant to voluntary individual giving.
+funds.
 
+<div class="marginnote">
+Berman et al argue that their results demonstrate the acceptance of the suggestive preferences is somewhat attenuated by the \"role of responsibility\", but it\'s not clear what this term means or how this could be relevant to voluntary individual giving. 
 </div>
- However (as they do note), the effectiveness information
+
+However (as they do note), the effectiveness information
 still has *some* (positive) effect on participants' responses; it is not
 ignored. Their experiments also do not analyze the *avoidance* of
 information or CBA.
 
-**Methodological strengths and weaknesses:** ...(E.g., hypothetical
-nature of choices; some evidence these are not taken seriously; specific
-context in vignettes allow alternative interpretations...)
+<
+\
 
-[^1]: She also introduces exogenous risks over matching rates, and notes
-    that roughly 2/3 of those that choose to shift only imperfectly are
-    not measured to be \"risk averse\".
+**Methodological strengths and weaknesses:** 
+
+- hypothetical nature of choices
+
+- some evidence suggestng these are not taken seriously
+
+- specific context in vignettes allow alternative interpretations...
+
+
 
 <!-- [^2]: DR: This could have been a very worthwhile study, but I think it
     has a number of obvious flaws with its design and the potential to
@@ -227,15 +282,80 @@ context in vignettes allow alternative interpretations...)
     so I'm not sure it's worth reporting on.\]
 -->
 
-## Market versus social norms
+<!-- ## Market versus social norms
 
 "People see charity as in the social 'domain' not the market one, and thus find it strange to apply CBA to it. 
 "
 
-## Cost effectiveness information may turn off System-1 and reduce giving; statistics diminish impact of 'identifiable victim'
+Commenting this out because it seems to be subsumed above
+-->
+
+## Exposure to cost effectiveness and impact information (analytical information) may reduce generosity {#analytical-grinch}
+
+- may turn off System-1 and reduce giving
+
+- statistics diminish impact of 'identifiable victim'
 
 References: small2007sympathy_s3_s4, small2007sympathy_s1_s2, karlan2017effect, bergh_Reinstein	smeets2015giving
 
 See also: karlan2017effect, "Parsons, 2007"
 
 <!--DR: A related memo-- https://www.dropbox.com/s/t4lq8x9lqeg6gt9/practicalpresentingimpactinfo.pdf?dl=0-->
+
+
+```{block2,  type='note'}
+
+A subjective outline of the evidence:
+  
+The evidence (from the Economics/Behavioral Economics literature) is largely mixed and indeterminate. There has been only a single strong field trial (Karlan) in a particular context, which itself reported mixed (null overall, positive for some subgroups, negative for others), and some underpowered results. Laboratory experiments (with real donations) by Small et al find that giving to an identifiable victim is *reduced* when statistics are also presented and "priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime." Further evidence from lab experiments is mixed and limited, with some studies (Fong and O) *apparently* finding that exogenous information about recipient increases donations (although they do not report this).  There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies.
+
+```  
+
+## Overall responses to charity ratings {#ratings}
+
+There is a small body of evidence on how charity quality ratings (which are not typically 'impact' ratings as we have defined it) affect, or at least correlate with a  charity's fundraising success. The effect of these ratings presumably relates both to individual's willingness to seek out and process this information ([as in our discussion of CBA](#cba-aversion)), and to the impact of this information on an individual's generosity (as in our discussion of . If individual's strongly avoided seeing this information and ignored being exposed to this information 
+
+### Evidence on responses to charity ratings
+
+
+One characterization, from Bergh and Reinstein (2020)
+
+>  Some work further suggests that changes in charity ratings lead to changes in charity revenues (e.g., Gordon, Knock, & Neely, 2009; Yörük, 2016), but it is unclear if this is driven by efficiency evaluations per se. For instance, people might respond to the number of stars given to a charity without deeply considering what these stars represent.
+
+
+#### Yörük, B. K. (2016). {-}
+
+**"Charity ratings" Journal of Economics & Management Strategy, 25(1), 195-219.**
+
+\
+
+**Relevance**: Reasonably strong causal evidence that in general, charity ratings may boost a charity's fundraising, at least for some types of charities. However, this is based on Charity Navigator ratings, which do not generally agree with our measures of impact.
+
+\ 
+
+**Type of evidence:**  Observational, claiming causality through a regression discontinuity framework
+
+- Charity Navigator stars are based on a continuous score across categories
+- Identification via RD: Impact of crossing a 'star' threshold on amounts raised
+
+\
+
+**Background mechanisms and related evidence:**  the role of consumer reviews and independent ratings in for-profit sectors, e.g. Luca(2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, Jin and Sorensen (2006): health plan ratings have a significant impact on individuals’ health plan choices, Reinstein and Snyder (2005): positive expert reviews have a significant effect on the box office revenue of movies.
+
+\
+
+**Key findings:**
+
+- For relatively smaller and unknown charities one star increase in ratings is (causally) associated with a 19.5 percent increase in the amount of charitable contributions received
+
+
+\
+
+**Assesment of evidence:** 
+
+
+  Gordon ea (2009)
+
+#### See also
+
+vesterlund2003informational	Chhaochharia_Ghosh_08?, Landry2010, Brown2016

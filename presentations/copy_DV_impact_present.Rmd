@@ -1,0 +1,1112 @@
+---
+title: "How do potential donors respond to 'impact per dollar' information?"
+#subtitle: "Empathic and Numerate Giving: Donor responses to charity effectiveness and impact"
+date: "`r format(Sys.time(), '%d/%m/%Y')`"
+author: "Dr. David Reinstein <small> (University of Exeter, innovationsinfundraising.org), Dr. Robin Bergh (Harvard), Donor's Voice advisory board </small>"
+output:
+  revealjs::revealjs_presentation:
+    self_contained: false
+    reveal_plugins: ["notes", "chalkboard","zoom"]
+    theme: white
+    highlight: pygments
+    transition: fade
+    smart: true
+    css: reveal.css
+    center: true
+  beamer_presentation:
+    latex_engine: xelatex
+    keep_tex: yes
+    theme: metropolis
+  ioslides_presentation:
+      self_contained: true
+      template: io.html
+options: knitr.table.format = "html"
+classoption: table
+---
+
+```{r setup_S, include=FALSE, warning=FALSE}
+
+library(here)
+here <- here::here
+
+library(knitr)
+
+source(here("dr-rstuff","functions","baseoptions.R"))
+source(here("dr-rstuff","functions","functions.R"))
+
+purl(here("analysis","analysis_dp.Rmd"), output = here("code","analysis_dp.R"))
+
+source(here("code","analysis_dp.R"))
+
+```
+
+```{r somefunctions, echo=FALSE, results='hide'}
+
+fwc = function(x, color){
+  if(knitr::is_latex_output())
+    paste("\\textcolor{",color,"}{",x,"}",sep="")
+  else if(knitr::is_html_output())
+    paste("<font color='",color,"'>",x,"</font>",sep="")
+  else
+    x
+}
+
+
+```
+
+<style>
+
+
+.reveal section p {
+    font-size: .90em !important;
+}
+
+.reveal section pre code {
+    font-size: 0.5em !important;
+}
+
+
+.reveal img[src*='#center'] {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+div.but_con {
+  margin: auto;
+  width: 97%;
+  height: 90%;
+  padding-bottom: 0px;
+}
+
+div.showopt {
+  font-size: 5%;
+  background-color: #004c93;
+  color: #FFFFFF;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle !important;
+  float: right;
+  font-family: sans-serif;
+  border-radius: 3px;
+  margin-bottom: 0px;
+}
+
+.showopt:hover {
+    background-color: #dfe4f2;
+    color: #004c93;
+}
+.reveal h1 { font-size: 1.4em;  text-transform: none;}
+.reveal h2 { font-size: 1.2em;  text-transform: none;}
+.reveal h3{ font-size: 1.1em;  text-transform: none;}
+</style>
+
+<style type="text/css">
+  .reveal p {
+    text-align: left;
+    font-size: .7em !important;
+  }
+
+.reveal ul {
+    display: block;
+    font-size: .9em !important;
+    text-align: left;
+    margin-left: 3em;
+    padding: 0.2em
+
+  }
+
+  .reveal ol {
+    display: block;
+    font-size: .9m !important;
+    text-align: left;
+    margin-left: 3em;
+    padding: 0.2em
+  }
+
+  .reveal ul ul {
+    display: block;
+    font-size: .75em !important;
+    text-align: left;
+    margin-left: 4em;
+    padding: 0.15em
+  }
+
+  .reveal ol ol {
+    display: block;
+    font-size: .75em !important;
+    text-align: left;
+    margin-left: 4em;
+    padding: 0.15em
+  }
+  .reveal ol ul {
+    display: block;
+    font-size: .6em !important;
+    text-align: left;
+    margin-left: 4em;
+  }
+
+.reveal section p {
+    font-size: .90em !important;
+}
+
+.reveal section pre code {
+    font-size: 0.5em !important;
+}
+
+.reveal blockquote {
+	display: block;
+	position: relative;
+	width: 97%;
+	margin: $blockMargin auto;
+	padding: 13px;
+  font-size: .70em !important;
+  font-style: normal;
+	background: rgba(128,0,0,0.25);
+}
+	.reveal blockquote p:first-child,
+	.reveal blockquote p:last-child {
+		display: inline-block;
+		  font-size: .70 !important;
+		  font-style: normal;
+	}
+
+</style>
+
+
+# How do potential donors respond to 'impact per dollar' information?
+ <small> `r fwc("Empathic and Numerate Giving: Donor responses to charity effectiveness and impact", "grey")` </small>
+
+```{r  out.width='22%', fig.asp=.5, fig.align='center', echo = FALSE}
+knitr::include_graphics("me.png")
+```
+
+<center>  Dr. David Reinstein, University of Exeter, [innovationsinfundraising.org](innovationsinfundraising.org) </center>
+
+<small> <center>  with Dr. Robin Bergh (Harvard), Donor's Voice advisory board <center> </small>
+
+
+# Does "Impact Matter" to donors?
+
+``` {r impactmatters, out.width='80%',   fig.align='center', echo=FALSE}
+
+knitr::include_graphics('impact_matters.png')
+
+```
+
+<center> [Impact Matters .org](https://www.impactmatters.org/) </center>
+
+<aside class="notes">
+
+There are a variety of organisations, fueled by the EA *movement* and other supportes, pushing charities to help them calculate a particular scientifically/academically-supported type of "Impact" measure.
+
+I think this is and will increasingly become an important force.
+
+</aside>
+
+## {data-background-iframe="GiveWell _ Charity Reviews and Research.html"}
+
+
+<center> [https://www.givewell.org](https://www.givewell.org)
+</center>
+
+
+----
+
+<center> Organizations like '[GiveWell](https://www.givewell.org)' and '[ImpactMatters](https://www.givewell.org)' are promoting "impact, e.g., 'lives saved/$'"</center>
+
+<br>
+
+. . .
+
+$\rightarrow$ How will potential donors respond to this 'analytical' information?
+
+. . .
+
+`r fwc("Energise effective giving?","green")` or `r fwc("Switch off empathy?","blue")`
+
+. . .
+
+$\rightarrow$ (How and when) should charities advertise their impact/$?
+
+
+<!--`fwc("Puzzle:","blue")` inefficient giving/little to highest-impact causes
+
+- Conceptual breakdown of 'barriers'
+- 'Innumerate empathy': key barrier to promoting effective giving?
+  - Previous: emotional reactions to suffering $\rightarrow$ helping; but it "doesn't scale" with need (and few ppl 'research effectiveness before giving')
+
+- Dual process: *analytical* impact info may disrupt empathic giving
+
+-->
+
+
+
+
+# Outline
+
+1. The question
+
+
+2. What previous research suggests
+
+
+<aside class="notes">
+<small>
+
+1.  "How do people deal with impact/effectiveness info?, should you present it in solicitations?, why this is important"?
+2. (mixed results, some positive, lack of clear evidence)
+(7 experiments...  CRS to be presented soon 6 with Robin Bergh Harvard)
+
+Hints at positive or null effects, little evidence of turn-off, worth further exploration
+
+I'd like  work with you to run field experiments/trials through your standard platform, and to run trials with digital, social media, advertisements on your behalf, can co-finance with grants)
+
+Also see innovationsinfundraising.org and giveifyouwin page, other projects/trials I'd be interested in doing (time permitting)
+</small>
+
+</aside>
+
+
+3. What we've done and what we've found
+
+
+
+4. What we'd like to do
+
+
+
+<div style="text-align: left; position: absolute; width: 300px; height: 46px; z-index: 4; left: 485px; top: 400px;" class="absolute-element">5. Other projects: InnovationsInFundraising.org, GiveIfYouWin.org</div>
+
+
+
+# What do we mean by 'impact/effectiveness'?
+
+
+<div id="left">
+
+``` {r , out.width='140%', echo=FALSE}
+
+knitr::include_graphics('makeawish-disney.jpg')
+
+```
+
+</div>
+
+<div id="right">
+
+``` {r, out.width='140%', echo=FALSE}
+
+knitr::include_graphics('bednets.jpg')
+
+```
+
+</div>
+
+<aside class="notes">
+The *type* of output matters, because this measure cares about human (and environmental OUTCOMES).
+
+	</aside>
+
+##
+
+$B(G_i)$: Beneficial *outcome* <small>achieved by charity $i$</small> with total donations $G_i$
+
+\
+
+. . .
+
+`r fwc("ULTIMATE outcome", "RawSienna")`
+
+-  Lives saved, quality-adjusted-life-years added, etc.
+-  Not *'output'* -- 'nets provided' nor 'paintings purchased'
+
+\
+
+. . .
+
+Actually, "output per \$" $\times$ "impact per output"
+
+-  Actually, the *marginal impact* of each \$ donated on this
+
+. . .
+
+
+<small> ... what GiveWell and ImpactMatters attempt to measure;  Strong evidence that this varies greatly! </small>
+
+<aside class="notes">
+It's the *product* of outputs and the impact of these.
+	</aside>
+
+## 'This kind of effectiveness' (impact)
+
+From GiveWell calculations:
+
+``` {r, out.width='140%', echo=FALSE}
+
+knitr::include_graphics('givewell_calc_medians.png')
+
+```
+
+<aside class="notes">
+Givewell takes in data, makes specific detailed calculations, and reports a consensus measure of COST PER LIFE SAVED (and more)!
+</aside>
+
+
+##
+
+<center> (NOT 'this kind of effectiveness') </center>
+
+```{r fig.cap='', out.width='25%', fig.asp=.5, fig.align='center', echo = FALSE}
+knitr::include_graphics("cn_logo.png")
+```
+
+<div id="left">
+
+``` {r , out.width='140%', echo=FALSE}
+
+knitr::include_graphics('cn_formulae.png')
+
+```
+
+</div>
+
+<div id="right">
+
+``` {r c, out.width='140%', echo=FALSE}
+
+knitr::include_graphics('guidedogs_guidestar.png')
+
+```
+
+</div>
+
+<aside class="notes">
+
+Overhead rate or fundraising is now widely seen to be a fairly uninformative measure of impact.
+
+Transparency and financial stability are good, but far from sufficient to have impact. I can be a squeaky-clean provider of an intervention that has no positive impact (guns for tots?)
+
+</aside>
+
+## {data-background="gunsfortots.jpg"}
+
+
+# Theory: should 'impact' drive giving or shut-down empathy?
+
+```{block2,  type='note'}
+
+<small><center>
+
+Behavioral Economics idea/ideal: "impact-altruism"
+
+'Innumerate empathy?'... cognitive biases, barriers to effectiveness
+
+'Dual process' -  fast/slow thinking; 'spontaneous generosity vs. deliberative self-interest?'
+
+ Relational models ... 'market vs sharing norms'
+
+'Motivated reasoning', excuses not to give; double-edged
+
+'Signaling' empathy vs effectiveness
+
+</center>
+</small>
+
+```
+
+<aside class="notes">
+
+Effectiveness information might also help *remove* excuses
+
+A small share of charitable giving goes towards “highly-effective” charities as measured by GiveWell (or to charities in this category: health interventions in poor countries).
+*Innumerate empathy* may constitute a major barrier to (promoting) effective giving.
+
+Previous work finds that helping behaviors are strongly driven by emotional reactions to individual suffering, but these do not scale with the magnitude of need. From a dual-process perspective, presenting analytical impact information may even disrupt empathic giving, shifting potential donors towards a system-II deliberative mode.
+
+</aside>
+
+
+# The evidence: prior studies
+
+## Claim: Better to portray an individual (child) than convey the total affected
+
+<center> <small> Small & Loewenstein (03); Small et al (07); Kogut & R (05) </small> </center>
+
+Driven by System-1 empathy, switched off by analytic thinking
+
+<br>
+
+. . .
+
+**Small, Lowenstein, Slovic (2007):**
+
+[Study 3] "individuals who faced an identifiable victim donated more..."
+
+
+. . .
+
+<small> "...than those who faced victim statistics, p < .01," </small>
+
+. . .
+
+<small>  ..."than those who faced [both] an identifiable victim [and] statistics, p < .05." </small>
+
+<aside class="notes">
+<small>	There is strong evidence that people offer more aid to specific, identifiable victims than anonymous, statistical victims (called the identified victim effect; see e.g., Kogut & Ritov, 2005; Lee & Feeley, 2016; Small, Loewenstein, & Slovic, 2007).
+
+ “any money that you donate will go to Rokia [the identified victim]”
+ </small>
+</aside>
+
+
+----
+
+**Small et al, '07, Study 4**
+
+<br>
+
+> Priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime.
+
+<br>
+
+. . .
+
+> Yet, the primes had no distinct effect on donations to statistical victims, which is symptomatic of the difficulty in generating feelings for these victims.
+
+<br>
+
+<center> <small> `r fwc("*Tightly bounded null, but ... nonlinearity?*","blue")` </small> </center>
+
+<aside class="notes">
+
+<small>
+latter non-effect appears tightly bounded; but this could simply be driven by nonlinearity. If people gave little to statistical victims, there is less room for this to decrease further. A classic problem when considering interactions.
+
+</small>
+
+</aside>
+
+
+## Ratings and information in general: mixed evidence
+
+- Yörük (2016, JEMS): RD w/ Charity Navigator; significant for 'small' charities only
+
+  - See also Brown ea (2017), Gordon ea (2009)
+
+<aside class="notes">
+- Charity Navigator stars based on continuous score across categories (not EA criteria)
+- Identification via RD: Impact of crossing a 'star' threshold on amounts raised
+*Results:*  Significant impact for small charities only: finds a nearly 20\% effect of a one star increase
+	</aside>
+
+<aside class="notes">
+re-check:
+
+> ...the evidence on the effects of impact information are more mixed, with mainly null effects  <small> (Metzger & G '15; Karlan & W, '14; Baron & S, '10; Caviola ea '14, Berman ea '15) </small>
+
+</aside>
+
+
+## Parsons (2007)
+
+<small> 2 x 2 mailing appeal for People with Aids Coalition-Houston </small>
+
+- Add "Service efforts and accomplishment info"(SEA)
+- Add favorable "FINANCIAL" spending/overhead ratio info
+
+
+```{r , out.width='60%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics('parsons_fin_treat.png')
+
+```
+
+----
+
+
+FINANCIAL (alone) $\rightarrow$ 180\% increase in odds of donating *among prior donors* ($p<0.05$)
+
+
+<aside class="notes">
+(Other effects mainly insignificant, underpowered)
+Unsure if it's a logit or LPM -- confusing writing
+Not effect-coded; no measure of *overall* impact of FINANCIAL across both SEA treatments
+Probably not preregistered
+I'd like to see CI's
+</aside>
+
+----
+
+
+## Karlan and Wood (2017)
+
+
+<div id="left">
+
+``` {r , out.width='140%', echo=FALSE}
+
+knitr::include_graphics('ffh_sebastiana.png')
+
+```
+
+
+</div>
+
+<div id="right">
+
+``` {r crs_test_top, out.width='140%', echo=FALSE}
+
+knitr::include_graphics('karlan_wave2.png')
+
+```
+
+</div>
+
+----
+
+
+Adding scientific impact to appeal (& removing emotional text):
+
+
+. . .
+
+
+$\rightarrow$ little net effect
+
+
+
+. . .
+
+$\rightarrow$ reduced (increased) giving among small (large) prior donors
+
+<br>
+
+<center> <small> `r fwc("*But some potential confounds...*","blue")` </small> </center>
+
+<aside class="notes">
+- Yale/institution effect (seemed negative)
+- Nature of 'impact' information (not exactly quantitative)
+- ex-post splitting
+- two things changed at once (impact in, emotional out)
+</aside>
+
+
+# Bergh/Reinstein/DV studies
+
+<center> 7 giving experiments, various contexts </center>
+
+## Bergh/Reinstein/DV studies
+
+
+- Actual charitable giving/asks
+
+- Field and 'M-Turk' settings with realistic contexts
+
+. . .
+
+
+2x2:
+
+- Measures of charity efficiency/effectiveness
+
+- Emotional-empathy-inducing images
+
+
+## Bergh project (Mturk) {#bergh-mturk-experiment}
+
+```{r bergh_syria_examples.png, out.width='85%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics("bergh_syria_examples.png")
+
+```
+
+----
+
+**Context** (for studies 1-5)
+
+- Amazon's Mechanical-turk participants (Americans)
+
+ <small> $\rightarrow$ final sample sizes: 398, 614, 611, 608, and 433 in Studies 1-5 respectively (variation tracking design complexity)
+</small>
+
+
+. . .
+
+<aside class="notes">
+
+hit approval rating 98%+, 100 hits or less
+
+Some exclusions based on attention checks
+
+The percentage of women varied between 57 and 60%, the median age across all studies was 29-30 years (SDs from 9.55 to 10.64)
+	</aside>
+
+
+. . .
+
+**Payments**: \$1.50 (\$2 in s4) baseline, Bonuses: \$3 in S1-S2, \$5 in S5, Raffle: $50 (1:25 odds) in S3-S4
+
+. . .
+
+
+**Donation asks (from bonus) \& treatments:** 1 charity (or 2 in same category): Syria relief, Polio
+
+<aside class="notes">
+(Between-subject) Image \&/or information
+Commit (\& choose), select amount; vary ordering
+Baseline pay is $2 in study 4 because it's longer
+</aside>
+
+----
+
+<center>
+Bergh/Reinstein setups
+</center>
+
+```{r bergh-s1-s6, out.width='84%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics("dp_studies_matrix.png")
+
+```
+
+----
+
+<center> Studies 1-3: </center>
+
+```{r bergh-s1-3-designmatrix, out.width='80%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics("bergh-s1-3-designmatrix.png")
+
+```
+
+----
+<center> Study 4: </center>
+
+
+```{r bergh-s1-3-timings, out.width='95%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics("bergh-s1-3-timings.png")
+
+```
+
+----
+
+<center> Study 4 </center>
+
+```{r bergh-s4.png, out.width='85%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics("bergh-s4.png")
+
+```
+
+
+## Bergh/Reinstein Results {#bergh-results}
+
+```{r fig.cap='', out.width='80%', fig.asp=.5, fig.align='center', echo = FALSE}
+
+knitr::include_graphics("bergh_bars.png")
+
+```
+
+----
+
+**Overall:**
+
+<br>
+
+Strong positive effect of *images* on donation incidence, amounts
+
+<br>
+
+. . .
+
+Little impact of effectiveness information on donation incidence, amounts
+
+- "Fairly tightly-bounded null"
+
+----
+
+```{r bergh-anova, out.width='90%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics("bergh_anova_meta.png")
+
+```
+
+<aside class="notes">
+
+Strong impact of image (at extensive and intensive margin; see regressions--- OR CI [1.14, 1.60])
+
+Meta-analysis is simple pooling (fixed effects)
+
+Insignificant impact of information treatments in pooled regressions, but moderately significant negative impact on incidence.
+
+</aside>
+
+# More on Bergh/Reinstein, Essex
+
+<center> **(Study 6: field context)** </center>
+
+## Essex context
+
+
+Connected to EssexLab 2019 Omnibus online survey
+
+
+. . .
+
+
+- $\approx$ 20 minutes, many psycho/demog/polit/econ questions, mostly unrelated to charity
+
+. . .
+
+- Completion $\rightarrow$ raffle for 1 of 20 Amazon vouchers worth £50 each
+
+. . .
+
+- Given information about blindness in general
+
+- (Conditional) donation part
+
+<aside class="notes">
+
+Advantages over S1-5 (Mturk): Not a 'donation experiment,' real impact measures, distinct emotional simuli, choose between distinct *causes*, larger amounts, tied to rich Omnibus survey data
+
+Note these are the later/non-British-nationality participants in the Omnibus.
+
+The chances of winning are unknown to participants but could be inferred to be of magnitude of between 1/10 and 1/300. Ex post about 1/20.
+
+</aside>
+
+----
+
+**The 'last' Omnibus questions just before this**
+
+
+```{r last-omni-qs, out.width='50%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics(c('q_born_uk.png', 'q_oth_ctrys.png','q_birth_ctry.png','q_fluent_eng.png','q_other_langs.png'))
+
+```
+
+<aside class="notes">
+Some of these questions are conditionally included based on the earlier ones, for obvious reasons.
+</aside>
+
+----
+
+
+**2 $\times$ 2, "balanced blocked randomisation", "between-subject": **
+
+> 1. Analytic information about 'cost per outcome' & 'cost per impact'
+
+<br>
+
+> 2. Empathy-inducing image: picture of blind girl (Yes/No)
+
+<aside class="notes">
+
+Also block randomize the order the charities are presented; need to examine this or control for it.
+And blocking balances especially across previous unrelated variation (Pat's treatment).
+</aside>
+
+
+----
+
+### Introduction screen (all)
+
+```{r intro-all, out.width='90%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics('intro_prize_blind.png')
+
+```
+
+----
+
+### Image treatment (Half of participants)
+
+```{r imagetreat-png, out.width='75%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics('blind_image.png')
+
+```
+
+----
+
+**Control: description, choice**  (1/2 of subjects)
+
+```{r control-png, out.width='60%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics('info_no_eff.png')
+knitr::include_graphics('char_chc.png')
+
+```
+
+<aside class="notes">
+Remember, 1/2 of these have charity order reversed
+	</aside>
+
+----
+
+**Info-treatment: description, choice**  (1/2 of subjects)
+
+```{r info-png, out.width='55%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics('descr_chars_eff_inf.png')
+knitr::include_graphics('char_chc.png')
+
+```
+
+<aside class="notes">
+Remember, 1/2 of these have charity order reversed
+	</aside>
+
+----
+
+### Donation amount choices
+
+<center>
+![Donation slider](don_slider.png){width='80%'}
+</center>
+
+----
+
+<center>
+![Donation slider](don_slider_33.png){width='80%'}
+</center>
+
+
+## Results
+
+`r fwc("Limited power to  detect differences in amounts donated or incidence by treatment","grey")`
+
+<br>
+
+. . .
+
+Image *reduced* donation (incidence and amounts) to Guide Dogs (fairly strong and significant effect)
+
+
+`r fwc("And 'increased' donations to River Blindness, but not statistically significantly)","grey")`
+
+
+----
+
+### Levels
+
+<center> Histogram: by image treatment </center>
+
+```{r hist_by_image_don, out.width='75%', fig.align='center', echo=FALSE, warning=FALSE}
+
+plot_multi_histogram(sx_dp, "donation", "treat_image")
+
+```
+
+----
+
+<center> Histogram: by information treatment </center>
+
+```{r sx_dp_hist, out.width='65%', fig.align='center',  echo=FALSE}
+
+plot_multi_histogram(sx_dp, "donation", "treat_eff_info")
+
+```
+
+----
+----
+
+
+### Donation incidence
+
+```{r ft_overall_di,  echo=FALSE}
+
+don_inc
+
+```
+
+Fisher tests: *some* donation
+
+```{r ft_overall,  echo=FALSE}
+
+FT
+
+
+```
+
+----
+
+<small> Donation incidence </small>
+
+```{r ft_chars_di,  echo=FALSE, warning=FALSE}
+
+don_inc
+```
+
+
+```{r ft_chars,  echo=FALSE, warning=FALSE}
+
+FT_chars
+
+```
+
+<small> Fisher tests: donated to Guide dogs/River blindness </small>
+
+
+
+## Simple tests
+
+```{r BoxPlots_dp_image, out.width='65%', fig.align='center', echo=FALSE}
+
+BoxPlots_dp_image
+
+```
+
+
+----
+
+```{r BoxPlots_dp_info,  out.width='65%', fig.align='center', echo=FALSE }
+
+BoxPlots_dp_info
+
+```
+
+
+----
+
+### By treatment combination
+
+```{r BoxPlots_dp, include=TRUE, echo=FALSE, warning=FALSE }
+
+BoxPlots_dp
+
+```
+
+----
+
+### By charity, by treatment (combination)
+
+<center> <small> Donations to Guide Dogs by treatment combination </small> </center>
+
+```{r boxplotsgd_p, include=TRUE, warning=FALSE, echo=FALSE}
+
+BoxPlots_dp_gd
+
+```
+
+----
+
+<center> Donations to River Blindness by treatment combination </center>
+
+```{r boxplotsrb_p, include=TRUE, warning=FALSE, echo=FALSE }
+
+BoxPlots_dp_rb
+
+```
+
+
+# Donor Voice trial
+
+Presentation coming up soon.
+
+## Donor Voice trial
+
+
+*Spoiler warning:*
+
+
+. . .
+
+
+`r fwc("Some positive effect of impact-related information", "orange")`
+
+# Sum up
+
+## Early take-aways: Don't fear the info
+
+`r fwc('"Images work"','purple')`
+
+<small> Image treatments can be effective at motivating giving, including *impactful, efficient* giving </small>
+
+<br>
+
+. . .
+
+
+`r fwc('"Info does not hurt, may help"','ForestGreen')`
+
+Analytic information about impact:
+
+. . .
+
+::: incremental
+
+- Does not seem to (strongly) decrease donations
+
+- May increase donations in some cases (Donor's voice mailing; Karlan \& W, Parsons work)
+
+- Mixed evidence on 'efficiency info dampening the impact of identified victim images'
+
+:::
+
+. . .
+
+
+$\rightarrow$ this may not be a 'major barrier' to promoting effective giving
+
+
+</small> Caveats: More power needed, cannot rule out substantial effects </small>
+
+
+## Future work (with you?)
+
+<center> Larger-scale field trials examining responses to real impact-per-\$ information, in various presentations  </center>
+
+<br>
+
+. . .
+
+
+Through your standard platforms
+
+
+. . .
+
+Digital, social-media, advertisements on your behalf
+
+
+. . .
+
+- (co)-financed with our research grants!
+
+
+<aside class="notes">
+ - Followup with religious-affiliated charity
+- Integrate motivated reasoning/excuse-driven
+- Meta-analyses and systematic review including our own and others' work
+</aside>
+
+
+##  {data-background-iframe="Innovations in Fundraising Wiki [Innovations in Fundraising].html"}
+
+<small><center> [innovationsinfundraising.org](innovationsinfundraising.org) </center> </small>
+
+
+<div style="text-align: right; position: absolute; width: 300px; height: 46px; z-index: 4; left: 600px; top: 550px;" class="absolute-element"><small>Connect and communicate between and among researchers, practitioners and supporters. Curate, organize, and evaluate the *rigorous* evidence on 'what works'. </small>
+</div>
+
+
+##  {data-background-iframe="Tools for Motivating Effective Charitable Giving [Innovations in Fundraising].html"}
+
+<center> [innovationsinfundraising.org](innovationsinfundraising.org) </center>
+
+
+## {data-background-iframe="http://giveifyouwin.org/"}
+
+<center> [giveifyouwin.org](http://giveifyouwin.org/) </center>
+
+<div style="text-align: right; position: absolute; width: 300px; height: 46px; z-index: 4; left: 600px; top: 550px;" class="absolute-element"><small>'Give if you win': a new way to promote giving.</small>
+</div>
+
+
+

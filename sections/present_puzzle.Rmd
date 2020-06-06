@@ -150,6 +150,9 @@ Baron chapter
 
 <div class="marginnote">
 Consider: The measures used are relevant to how we consider issues such as charity 'quality ratings' and 'overhead aversion.'
+
+Reference: Steinberg & Morris, 2010 wrote about marginal vs average effectiveness.
+
 </div>
  
 
@@ -187,6 +190,8 @@ The 'production function' is (perhaps tautologically) the product of two terms:
 <div class="marginnote">
 This is obviously an oversimplification. To achieve the beneficial outcome the charity will require many intermediate inputs (or "outputs" as noted above), including 'management' and 'careful targetting of programs'.  Some charities may  be able to acquire these inputs at better prices than others, and some may also use a more efficient mix of inputs.
 </div>
+
+\
 
 A donor may care about the 'impact' of her own donation; i.e., she may want to know the difference in outcomes that  her donation  achieves everything else equal. In other words,  the difference  in the ultimate outcome in a world with versus without her donation. 
 
