@@ -338,7 +338,7 @@ Better BibTeX for Zotero is a add-on for Zotero. Among other things it allows th
 
 The Citr package provides functions to search Zotero and BibTeX libraries in order to insert references into Markdown files. Citr also features a plugin for RStudio which makes the referencing process even easier. Instructions for download, as well as a demonstration of the Rstudio plugin are provided [here.](https://github.com/crsh/citr/blob/master/README.md)
 When using the Citr package to add citations to projects such as this one, make sure to have Citr update the correct Bibtex file. 
-![Citr Settings for Ea_giving_barriers](../picsfigs/citr_settings.png)
+![Citr Settings for Ea_giving_barriers](picsfigs/citr_settings.png)
 <div class="marginnote">
 The Bibtex file to "Add references to" is the bibliography file specified in the YAML header of index.Rmd. 
 </div>
@@ -430,7 +430,7 @@ Clicking on one of these commits will show you 'what changed' and old versus new
 
 \
 
-![Showing the most recent commits](../picsfigs/commit_some_diffs.png)
+![Showing the most recent commits](picsfigs/commit_some_diffs.png)
 
 
 
@@ -449,7 +449,7 @@ This is but one way to view and consider changes. Various text editors such as A
 
 One way to ask questions, comment on changes and let people know about changes you made, is via adding a comment within a commit itself. (Check: can this be tied to an 'issue'?)  
 
-![Commenting on a part of a commit, notifying a collaborator](../picsfigs/commenting_a_commit.png)
+![Commenting on a part of a commit, notifying a collaborator](picsfigs/commenting_a_commit.png)
 
 
 Above, we see that by clicking on a plus sign that appears just to the right of the the line number when viewing a commit, we can add a comment on that particular part of the commit. We can then flag another collaborator (see '@daaronr' above ... when you type the '@' you get a dropdown of collaborators) who will be notified of this. 
@@ -460,7 +460,7 @@ This mode of commenting and conversation has the advantage of avoiding clutterin
 
 You can also link each comment to an 'issue' (issues are discussed below) by adding a hash to the comment and citing the issue number. This comment and link to the place in the code or text for that commit will then show up when you look at that issue. This makes the discussion more organized, at least we hope. 
 
-![Link an issue in a comment](../picsfigs/comment_link_issue.png)
+![Link an issue in a comment](picsfigs/comment_link_issue.png)
 
 
 #### The 'Project' board and  'Issues' {-}
@@ -472,14 +472,14 @@ You can also link each comment to an 'issue' (issues are discussed below) by add
 \
 
 
-![a github 'Project'](../picsfigs/project_start.png)
+![a github 'Project'](picsfigs/project_start.png)
 
-![Kanban for the github 'Project'](../picsfigs/project_board.png)
+![Kanban for the github 'Project'](picsfigs/project_board.png)
 
-![One task/issue in the Kanban](../picsfigs/project_2.png)
+![One task/issue in the Kanban](picsfigs/project_2.png)
 
 
-![Viewing this issue and its discussion](../picsfigs/an_issue.png)
+![Viewing this issue and its discussion](picsfigs/an_issue.png)
 
 
 
@@ -512,21 +512,21 @@ Each Airtable user can have any number of *Bases*,  and bases can be shared in w
 
 The "Categories" table provides and explains a number of "schema" we use to characterize both the tools and the "Barriers to effective giving" (discussed later).
 
-![categories table](../picsfigs/categories_table.png)
+![categories table](picsfigs/categories_table.png)
 
 \
 
 
 Key papers are stored and organised in the 'papers_mass' table. This is crosslinked in several other tables. Within each paper 'row' there is a variety of relevant information and discussion on each paper.
 
-![key papers](../picsfigs/key_papers.png)
+![key papers](picsfigs/key_papers.png)
 
 \
 
 
 The fundingwiki app automatically populates and updates information on the number of times each paper has been cited, using the Crossref database. Tool such as these will enable this to be a perrennial resource, rather than a frozen-in-time evaluation.
 
-![citations auto update](../picsfigs/citations_auto_update.png)
+![citations auto update](picsfigs/citations_auto_update.png)
 
 
 \
@@ -538,11 +538,11 @@ The fundingwiki app automatically populates and updates information on the numbe
 
 The table "EAlit_sections" outlines the (earlier?) structure of the EA barriers paper, already providing links to information that will be integrated.
 
-![organizing ealitpaper](../picsfigs/organizing_ealitpaper.png)
+![organizing ealitpaper](picsfigs/organizing_ealitpaper.png)
 
 This table also links directly to the papers_mass table, organizing the papers we are referencing and reviewing in each section.
 
-![organizing EAlit papers](../picsfigs/organizing_EAlit_papers.png)
+![organizing EAlit papers](picsfigs/organizing_EAlit_papers.png)
 
 
 \
@@ -551,7 +551,7 @@ The separate "Barriers to EAG" table is below.
 
 This organizes and assembles the discussion and evidence on potential factors and categories of factors that may explain the limited amount of "effective giving". This represents the largest part of our review paper; we focus on clear definitions of the most relevant psychological (and "behavioral economic") biases, and carefully asses the available evidence. We focus specifically on evidence in the charitable domain, but we also consider the broader evidence for these biases in other contexts.
 
-![barriers to EAG](../picsfigs/barriers_to_EAG.png)
+![barriers to EAG](picsfigs/barriers_to_EAG.png)
 
 <div class="marginnote">
 Again, this is older work, maybe already incorporated into the Bookdown?
@@ -561,14 +561,14 @@ Again, this is older work, maybe already incorporated into the Bookdown?
 
 For each barrier or bias, we consider why it is may be particularly relevant to *effective* giving.
 
-![barriers to EAG, why relevant](../picsfigs/barriers_to_EAG_whyrelevant.png)
+![barriers to EAG, why relevant](picsfigs/barriers_to_EAG_whyrelevant.png)
 
 \
 
 
 We further propose and discuss tools addressing these barriers and promoting effective charitable giving.
 
-![tools remedies](../picsfigs/tools_remedies.png)
+![tools remedies](picsfigs/tools_remedies.png)
 
 
 \
