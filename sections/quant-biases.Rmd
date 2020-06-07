@@ -14,7 +14,7 @@ kogut2005identified, kogut_2005b, Kinsbergen_tolsma_13, summers_1997, galanter_1
 ## Other  biases driving departures from efficiency
 
 
-## Proportional dominance effect
+## Proportional dominance effect {#prop-dom}
 
 <div class="marginnote">
 AKA 'drop in the bucket', 'psychosocial numbing', 'psychophysical numbing'

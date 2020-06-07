@@ -1,9 +1,10 @@
 # Barriers: Signaling and social pressures/social identity {#social}
 
-## Signaling concern for effectiveness/impact versus other values
+## Signaling concern for effectiveness/impact versus other values {#signaling-empathy}
 
-### Theory and argument
-Social signaling is seen to be a major driver of human behavior,  particularly in the charitable domain. ^[REF] Essentially, we may make choices that we would not have otherwise made in order to boost our reputation among our peers, colleagues, etc.. Reputation may be valued for its own sake or instrumentally, as a means  to inducing others to act more favorably to us. Game theory (see esp. [@Spence1973]) offers a precise conception of this signaling as a costly way to demonstrate one's positive "type"  in a context with asndymmetric information.
+### Theory and argument 
+
+Social signaling is seen to be a major driver of human behavior, particularly in the charitable domain.^[REF]^ Essentially, we may make choices that we would not have otherwise made in order to boost our reputation among our peers, colleagues, etc.. Reputation may be valued for its own sake or instrumentally, as a means  to inducing others to act more favorably to us. Game theory (see esp. [@spenceJobMarketSignaling1973]) offers a precise conception of this signaling as a costly way to demonstrate one's positive "type"  in a context with asndymmetric information.
 
 Several authors (can be interpreted to) suggest that valuing ''effectiveness in generosity'', i.e., moral-utilitarianism, is seen as a negative signal by peers and lowers fitness in the cooperation market, at least in comparison to signaling compared to deontological or ‘sacred values’. The exchange below captures the basic argument... 
 
@@ -36,7 +37,6 @@ Hanson: Right, but at least if I want your help and I’m your friend it will be
 [@everettInferenceTrustworthinessIntuitive2016] argue that deontological ethics signal stable cooperative behavior to others, which enhances fitness in mutualistic partner choice models. The basic argument is "An individual who claims [and believes] that stealing is always morally wrong ... seems much less likely to steal from me than an individual who believes that the stealing is sometimes morally acceptable depending on the consequences."
 
 
-
 Background and further discussion ... in fold
 ```{block2,  type='fold'}
 
@@ -65,12 +65,14 @@ They provide conditions under which 'cooperating without looking' (CWOL) is part
 However, the analogy to effective versus ineffective giving is not clear. Perhaps a connection could be made *if considering the charity effectiveness tended to provide a motivation to give less*, but this is not obviously the case.  In general, an 'excuse not to do something' is not the same as a 'choice to be effective'.
 
 
-### Evidence 
+### Evidence for this barrier
 
-### Evidence that "consequentialist choices lead to negative signals and less-favorable treatment relative to deontological/emotionally intuitive choices "
+*We consider specific empirical claims that could be interpreted as evidence that this is an important barrier*.
+
+#### Evidence that "consequentialist choices lead to negative signals and less-favorable treatment relative to deontological/emotionally intuitive choices" {-}
 
 
-#### [@everettInferenceTrustworthinessIntuitive2016]
+##### [@everettInferenceTrustworthinessIntuitive2016] {-}
 
 @everettInferenceTrustworthinessIntuitive2016 ran a series of experiments on the Mturk platform, involving hypothetical dilemmas paired with low-stakes (or no) Trust games.
 
@@ -91,7 +93,7 @@ However, this difference was not present in the track-switching dilemma, the onl
 Incorporate some of the other papers mentioned in the Gdoc [here](https://docs.google.com/document/d/1j5y-shBeo6wMy1pCq9DSd7s5UmDUNcXYy2drBeEZlIs/edit?ts=5e440d71#heading=h.1lrjvfcyoa)
 
 
-#### Montealegre et al. (2020) Does Maximizing Good Make People Look Bad? Manuscript
+##### Montealegre et al. (2020) Does Maximizing Good Make People Look Bad? Manuscript {-}
 
 Type of evidence: Online experiment (M-turk) with hypothetical choices (attitudes), six pre-registered studies using two different scenarios (N = 1,961)
 
@@ -126,7 +128,7 @@ Even if we accept the above evidence (that those who make consequentialist activ
 True, a local blind person may fail to get an additional (fraction of a) dog as a result of this choice. However, there is little sense in which "you funding his dog" would be seen as the status quo absent your intervention.  
 </div>
  
-### Indirect evidence
+#### Indirect evidence
 
 (Kahane et al 2018; Jordan et al; Hoffman et al)
 

@@ -11,6 +11,7 @@ An earlier set of presentation slides (now pictures are missing -- need to recov
 ```  
 
 
+
 <!-- #TODO recover and add images:
 
 ![](lifeboat_choice.jpg){width=35%} ![](givewell-sheet.png){width=35%}
@@ -140,7 +141,7 @@ Stated more broadly, effective giving is predicated on conducting CBA for progra
 
 ### Evidence surrounding CBA {#cba-evidence}
 
-#### Evidence for "People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..." {-}
+#### Evidence for claim: "People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..." {-#avoid_info_CBA}
 
 **[@Fong2011]** run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh;  each subject is matched with a particular recipient  of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers." 
 

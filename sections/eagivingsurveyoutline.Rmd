@@ -135,6 +135,57 @@ Need for systematic platforms to study this, systematic experimentation and data
 
 Also see gatesproposal.md (Gates foundation)
 
+## Structure of each 'barriers' section {-#structure-barriers} 
+
+**In each section we consider:**
+
+**A category of barriers (first-level heading, e.g. '[Quantitative biases](#quant-biases)) **
+
+Here we discuss this category in general, explaining its meaning and plausibility in terms of the underlying theories, models, and generalized observations.
+
+
+\
+**Each specific barrier in this category** gets a second-level heading, e.g., ["Proportional dominance effect"](#prop-dom)
+
+\
+
+For each specific barrier we first present (third-level headings)
+
+- **Definition** of the barrier
+- **Conceptual explanation of the barrier**, relating this to theory and generalized observation
+- **Relevance to the effective giving** issue (sometimes recapping what was stated above)
+
+\
+Next we consider the **Evidence**, with a third-level header preamble discussing the nature of the evidence
+
+Within this, we consider the **evidence for each specific empirical claim** supporting the case for this barrier's existence and importance.
+
+\
+
+In considering the evidence for these claims, we generally consider one paper or project at a time (or a specific piece of independent evidence from this paper). However, we are still thinking about the best narrative approach to presenting evidence from multiple papers/projects/analyses.  For each paper we focus on key elements such as:
+
+- Method (lab experiment involving real charitable asks, natural field experiment with charity partner, observational analysis asserting causality via a regression discontinuity approach, etc.)
+
+- The context and data (the population of donors or lab participants, the charity(s) involved, etc.)
+
+- The nature of the 'treatment' or independent variable (e.g., realistic information presented about impact per dollar)
+
+- The strength and credibility of the empirical results (considering, e.g., limitations and confounds in the design, experimenter-demand effects, estimates' statistical strength and power, appropriateness of the statistical analysis, preregistration, signs of specification-fishing and multiple-testing without corrections, replications and citations, etc.)
+
+We (should) also link where to find the paper itself as well as the materials and hte data collected.
+\
+
+
+```{block2,  type='note'}
+For example, within the category **[Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity](#eval-aversion)** ...
+  
+we consider the barrier ["General cost-benefit analysis (CBA)-aversion or reluctance"](#cba-aversion)...
+  
+weighing evidence  specific claims such as ["People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..."](-#avoid_info_CBA)...
+                                                                                                  coming from research papers/studies such as **[@Fong2011]**.                                                                                          
+
+```  
+
 ## Other practical considerations {-}
 
 
