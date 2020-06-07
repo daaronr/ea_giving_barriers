@@ -10,6 +10,7 @@ An earlier set of presentation slides (now pictures are missing -- need to recov
                                                        
 ```  
 
+I am testing how to add some regular text here, OK, maybe I will put something in *italics*.
 
 <!-- #TODO recover and add images:
 
