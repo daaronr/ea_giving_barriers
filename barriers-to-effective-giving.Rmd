@@ -1,0 +1,3382 @@
+---
+title: "Increasing effective charitable giving: The puzzle, what we know, what we need to know next"
+author: "Dr. David Reinstein, Nick Fitz, Ari Kagan, and more"
+abstract: "This 'book' organizes the project and helps others understand it and learn from it"
+#cover-image: "images/cardcatalogue.JPG"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    lib_dir: "book_assets"
+    includes:
+      in_header: support/header.html
+    css: support/tufte_plus.css
+    config:
+      toc:
+        after: |
+          <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+        collapse: section
+        scroll_highlight: yes
+      fontsettings:
+        theme: white
+        size: 2
+      sharing:
+        facebook: yes
+        twitter: yes
+        google: no
+        linkedin: yes
+        weibo: yes
+        instapaper: no
+        vk: no
+        all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
+    highlight: tango
+    download: [pdf, epub, mobi]
+    sharing:
+      github: yes
+      facebook: no
+bookdown::pdf_book:
+    keep_tex: yes
+always_allow_html: yes
+bibliography: ["support/reinstein_bibtex.bib", "support/reinstein_references.bib"] #this first one should be included in the citr settings; not sure what the second one is
+biblio-style: apalike
+link-citations: yes
+github-repo: #gerhardriener/CharitySubstitutionExperiment
+description: "A broad project"
+#url: 'https\://daaronr.github.io//'
+tags: [Effective altruism, charitable giving, meta-analysis, literature survey, field experiments, lab experiments, experimental design, Psychology, Economics]
+---
+
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Try downloading and accessing some functions here:
+```{r download-formatting-to-support-folder}
+
+library(here)
+tryCatch(
+  {
+download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/bookdown_template/support/header.html", destfile = here("support", "headerX.html"))
+  download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/bookdown_template/support/tufte_plus.css", destfile = here("support", "tufte_plusX.css"))
+},  error = function(e) {
+  print("you are not online, so we can't download")
+}
+)
+
+tryCatch(
+file.rename(here("support", "headerX.html"), here("support", "header.html"))
+)
+
+tryCatch(
+file.rename(here("support", "tufte_plusX.css"), here("support", "tufte_plus.css"))
+)
+
+```
+
+```{r download-fncns}
+
+library(here)
+library(devtools)
+
+tryCatch(
+  {
+download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/functions.R", destfile = here("code", "functionsX.R"))
+  download.file(url = "https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/baseoptions.R", destfile = here("code", "baseoptionsX.R"))
+},  error = function(e) {
+  print("you are not online, so we source locally instead; hope you've updated")
+  source(here("code", "functions.R")) # functions grabbed from web and created by us for analysis/output
+ source(here("code", "baseoptions.R")) # Basic options used across files and shortcut functions, e.g., 'pp()' for print
+}
+)
+
+#Note - workaround naming and code because otherwise a failed download seems to delete the destination file -- how to fix that? Renaming files?
+
+file.rename(here::here("code", "functionsX.R"), here::here("code", "functions.R"))
+file.rename(here::here("code", "baseoptionsX.R"), here::here("code", "baseoptions.R"))
+
+source(here("code", "functions.R"))
+source(here("code", "baseoptions.R"))
+
+# Basic options used across files and shortcut functions, e.g., 'pp()' for print
+# functions grabbed from web and created by us for analysis/output
+```
+
+```{r eval=FALSE}
+install.packages("bookdown")
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+```
+
+<!-- note installing packages is mainly removed because this is done in baseoptions.R -->
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+```{r somefunctions}
+
+#possibly move these to a separate file
+
+#multi-output text color
+#https://dr-harper.github.io/rmarkdown-cookbook/changing-font-colour.html#multi-output-text-colour
+#We can then use the code as an inline R expression format_with_col("my text", "red")
+
+format_with_col = function(x, color){
+  if(knitr::is_latex_output())
+    paste("\\textcolor{",color,"}{",x,"}",sep="")
+  else if(knitr::is_html_output())
+    paste("<font color='",color,"'>",x,"</font>",sep="")
+  else
+    x
+}
+
+```
+
+```{r html, echo=FALSE}
+# globally set chunk options
+knitr::opts_chunk$set(fig.align='center', out.width='80%')
+
+my_output <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
+
+<!--
+Can define text blocks here, refer to them again and again if desired
+-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<html>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QLKFNFTGXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QLKFNFTGXX');
+</script>
+</html>
+
+<!--chapter:end:index.Rmd-->
+
+# Outline {#outline}
+
+Increasing effective charitable giving: The puzzle, what we know, what we need to know next
+
+<!-- #TODO: reconcile this with the outline in 'EA giving survey-working version'... -->
+
+```{block2,  type='note'}
+This outline links, and gives a brief description of each section
+```
+
+<!-- David Reinstein (drafted this version) with Nick Fitz and Ari Kagan -->
+
+## Extended abstract {-#abstract} 
+
+### Non-technical abstract {-#pop-abstract} 
+
+Hunger, homelessness, mental and physical illness, environmental degradation: the needs are boundless, but the resources to solve these problems are limited. Even with the best of intentions and impressive generosity (Americans give roughly 2% of their income to charity!), donors often contribute to inefficient charities -- ones that spend more but accomplish less than others that may be competing for the same funds. Each dollar given to the most effective charities (like those rated by [Givewell.org](http://givewell.org)) benefits greater numbers of people in more significant ways than the least effective ones. However, donors do not always consider "Effective Altruism" (EA) when deciding how much to give and to which organizations.
+
+Academics (in Economics, Psychology, Biology, and Philosophy) have applied a range of theories to explain what drives "inefficient altruism." Evidence comes from a variety of studies, involving surveys, observational work, laboratory experiments, and, where feasible, natural field experiments. These have not been run as part of a systematic project addressing this issue; goals, contexts, and approaches have varied as opportunities presented. Given the disparate findings, we do not have a definitive picture of which factors impact effective giving.
+
+## [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle) {-}
+
+Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
+
+##  [Definitions - "Efficiency" versus impact](#impact-definitions) {-}
+
+Charity 'quality ratings', Overhead aversion
+
+### [Why (under what models) is this a puzzle?](#why-puzzle) {-}
+
+Why (under what models) is this a puzzle? Economics and psych models --> puzzle?
+Models where people care about the impact of their gift or just 'amount sacrificed' (naive warm glow). Does impact map into the 'good feeling' from giving, can it do so?
+
+Here we also  give a general ['conceptual' overview of these barriers in the next chapter](#barriers-concept). We dig into each barrier more carefully in subsequent chapters.
+
+## [Do people *actually care about* impact? Does moral utilitarianism matter?](#doesimpactmatter) {-}
+
+<!-- Economic and psych models conceptualizing this -->
+
+##  [Are charities in competition? Is the ineffective giving reducing effective giving? Ask people to give to EA charity 'instead'?](#substitution) {-}
+
+<!-- (Or put in section 2?) -->
+
+Are charitable gifts complements or substitutes; are charities are
+rivals? Does one donation request ask (or donation itself) crowd out another, and if so when and how much?   This is critical to understanding  the extent to which gains can be achieved by getting people to 'switch'  from less to more effective charities. To the extent this crowding-out is the case, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors' pressuring you to give to local organisations) themselves represent barriers to EA giving.
+
+
+##  [Explaining the puzzle: Barriers to EA giving and potential responses, evidence](#barriers-intro) {-}
+
+<!-- moved old classification to barriers_old_classification.Rmd -->
+
+
+## [Barriers: Awareness, consideration, and distance](#aware-distance) {-}
+
+<div class="marginnote">
+Whether a cause/charity is something people are aware of, feel is important/salient, and feel close to.
+</div>
+
+<div class="marginnote">
+Responses?:  (Info enhancing) social closeness of recipient 
+</div>
+
+## [Barriers: Identity and cognitive dissonance](#identity) {-}
+
+<!-- Volunteer experience unlocks emotion and giving -->
+
+## [Barriers: Signaling and social pressures/social identity](#social) {-}
+
+<!-- Self-interest/local public good [put elsewhere or remove??
+Social perceptions and signaling empathy vs effectiveness; related: difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness'
+-->
+
+## [Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity](#eval-aversion) {-}
+ 
+## [Barriers: Quantitative biases](#quant-biases) {-}
+
+## [Barriers: Inertia and systemic/institutional](#inertia) {-}
+
+## [Tools for motivating EA giving](#tools) {-}
+
+### Psych/behavioral tools; applicability to EA charities {-}
+
+<div class="marginnote">
+Briefly highlight those 'tools' that give non-EA an advantage, but focus on the actionable--how EA lessen or flip that advantage. Which tools present particular challenges or opportunities for EA?
+</div>
+ 
+- Recipient's plight as 'loss' vs previous state 
+- Unconditional gift (Gift exchange) 
+- "Percentage donations tied to purchases, especially in online auctions -", Give more tomorrow  
+- Give if you win 
+- "Size of ask; Low-ball, 'Legitimation of paltry donation' (LPD/LPC) 
+- Solicitor characteristics 
+- Visibility  (of giver), Visibility 
+- Recognition 'to influence others', Visibility 
+
+- Recognition tiers, Reveal previous donor/donation (also 'info') 
+
+
+<!-- (Sudhir ea, '16), (Falk, '07), (Elfenbein ea, '12), (Breman, '11), (Kellner ea, '17), (Fraser ea, '89), (Cialdini and S, '76), (Andrews ea, '08), (Gneezy ea, '17), (Landry ea, '05), (Meer, '11), (Harbaugh, '98), (Soetevent, '05), (Reinstein & R, '12), (Karlan & M  '14), (Harbaugh, '98), (Karlan & M  '14), (Harbaugh, '98), (Soetevent, '05)	(Karlan & M  '14), (Karlan & M  '14) -->
+ 
+### De-biasing and misperception-correction {-}
+
+
+[@Caviola2014a]
+@kogut2005identified
+
+### Innovative proposals {-}
+
+Smeets?, Kellner_EA_2017
+
+### EA-movement approaches and pitfalls {-}
+
+What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too 'purist' (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)?
+
+<!-- Charity science
+Wiepking2012? -->
+
+## [Conclusion; a research agenda](#conclusion-agenda) {-}
+
+Need for systematic platforms to study this, systematic experimentation and data sharing among effective/international charities. Platforms available, proposals for particular research projects and approaches.
+
+- Who gives to the *truly* most effective international charities?
+
+- Who is most likely to be convinced, and which arguments/presentations work in the SR and LR, and for whom (heterogeneity)?
+
+- Statistical learning-based analyses
+
+- Practicable techniques in a range of higher-stakes real-world environments
+
+- Replication (and verification), pooled evidence, meta-analysis
+    - Context-sensitivity, large SE $\rightarrow$ large samples, statistical learning controls, sharing data
+
+    - Responses to 'obvious contrasts' seem to not reflect between-subject responses"
+
+
+Also see gatesproposal.md (Gates foundation)
+
+## Structure of each 'barriers' section {-#structure-barriers} 
+
+**In each section we consider:**
+
+**A category of barriers (first-level heading, e.g. '[Quantitative biases](#quant-biases)) **
+
+Here we discuss this category in general, explaining its meaning and plausibility in terms of the underlying theories, models, and generalized observations.
+
+
+\
+**Each specific barrier in this category** gets a second-level heading, e.g., ["Proportional dominance effect"](#prop-dom)
+
+\
+
+For each specific barrier we first present (third-level headings)
+
+- **Definition** of the barrier
+- **Conceptual explanation of the barrier**, relating this to theory and generalized observation
+- **Relevance to the effective giving** issue (sometimes recapping what was stated above)
+
+\
+Next we consider the **Evidence**, with a third-level header preamble discussing the nature of the evidence
+
+Within this, we consider the **evidence for each specific empirical claim** supporting the case for this barrier's existence and importance.
+
+\
+
+In considering the evidence for these claims, we generally consider one paper or project at a time (or a specific piece of independent evidence from this paper). However, we are still thinking about the best narrative approach to presenting evidence from multiple papers/projects/analyses.  For each paper we focus on key elements such as:
+
+- Method (lab experiment involving real charitable asks, natural field experiment with charity partner, observational analysis asserting causality via a regression discontinuity approach, etc.)
+
+- The context and data (the population of donors or lab participants, the charity(s) involved, etc.)
+
+- The nature of the 'treatment' or independent variable (e.g., realistic information presented about impact per dollar)
+
+- The strength and credibility of the empirical results (considering, e.g., limitations and confounds in the design, experimenter-demand effects, estimates' statistical strength and power, appropriateness of the statistical analysis, preregistration, signs of specification-fishing and multiple-testing without corrections, replications and citations, etc.)
+
+We (should) also link where to find the paper itself as well as the materials and hte data collected.
+\
+
+
+```{block2,  type='note'}
+For example, within the category **[Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity](#eval-aversion)** ...
+  
+we consider the barrier ["General cost-benefit analysis (CBA)-aversion or reluctance"](#cba-aversion)...
+  
+weighing evidence  specific claims such as ["People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..."](-#avoid_info_CBA)...
+                                                                                                  coming from research papers/studies such as **[@Fong2011]**.                                                                                          
+
+```  
+
+## Other practical considerations {-}
+
+
+### Notes on potential integration with PriorityWiki/Rethink Charity {-}
+
+How have EA orgs been brought together ...especially at universities?
+
+- Effective thesis project
+- EA hub -- add a button here?
+- Facebook group
+
+<!--chapter:end:sections/eagivingsurveyoutline.Rmd-->
+
+# Presenting the puzzle and challenge: Our ineffective giving {#present-puzzle}
+
+
+<div class="marginnote">
+Overview of research Question/Problem: Why don't people give in an evidence-based way?
+</div>
+ 
+ When faced with the [“girl drowning in the pond”](https://www.thelifeyoucansave.org/videos#pondvideo) we are willing to sacrifice substantial wealth to save a life. However, [most people don’t make large donations to the very poor](https://givingusa.org/giving-usa-2017-total-charitable-donations-rise-to-new-high-of-390-05-billion/), in spite of evidence suggesting that lives can be saved [for less than \$10,000](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness). This is not for lack of generosity. There is a strong case that most donations go to charities that improve well-being far less per-dollar than others.
+ 
+<div class="marginnote">
+As Hoffman et al (2018) state:^[Moshe Hoffman, Bethany Burum, Dave Rand, and Martin Nowak "Hidden Motives Behind Ineffective Altruism", unpublished manuscript"
+]
+
+"We donate billions of dollars to charities each year, yet much of our giving is ineffective. Why are we motivated to give, but not motivated to give effectively?"
+
+References supporting this claim are given [below](#evidence_eff).
+
+</div>
+ 
+ 
+ 
+This raises two related questions:
+
+**1. “Why don’t we give more to the most effective charities and to those most in need?”,** and
+
+**2. “Why are we not more efficient with our giving choices?”**
+
+To address this, we must understand what drives giving choices, and how people react to the presentation of charity-effectiveness information.
+
+<div class="marginnote">
+ Note that these two questions are not identical:   the first asks about the amounts given to the most needy charities, and the second about  the choice of charities conditional on giving.
+</div>
+ 
+ 
+## Motivation and descriptives {#motivate-puzzle}
+
+Individual donors, governments and firms demonstrate substantial generosity (e.g., UK charity represents 0.5-1\% of GDP, US charity around 2\% of GDP).^[ref] However, most donations go towards charities that are worthwhile but improve human well-being far less per-£ than basic medical interventions in poor countries, such as antimalarial bednets (see Givewell.org).  Even within the same category, more can be achieved for less: e.g., while it costs about USD 40,000 to provide a blind person a guide dog, each USD 100 given for mass-distribution of ivermectin may prevent 10-50 years of river-blindness.^[citation needed]
+<!-- TODO: source for Ivermectin claim -->
+
+Social science, biology and philosophy present a range of potential theoretical explanations of how values, preferences, and biases drive this ‘inefficient altruism’. However, evidence (e.g., for ‘availability bias’, or for ‘scope insensitivity’) comes largely from small-scale experiments in domains outside of charitable-giving. It is difficult to distinguish robust, credible findings from one-off results that are vulnerable to hype, p-hacking and publication bias (echoing the 'replication crisis' in experimental social science). Given the limited, scattered findings, we do not have a definitive picture of which factors substantially impact ‘effective giving and support for policies that reduce extreme poverty’. (We give a review of papers surveying this evidence [below](#prevsurvey))
+
+<!-- TODO: Reference survey articles for the above -->
+
+
+A plain-language summary of key points, without references (unfold):
+
+```{block2,  type='fold'}
+
+**Charities’ impact differs by an order of magnitude:** Some charities are much more effective at saving/improving lives (and achieving other goals such as those involving animals and the environment) than others are. While it is difficult to gain precise estimate on the measures such as “cost of a life saved” there is strong evidence that there are orders of magnitude difference between different categories of charities and different interventions within these categories. 
+
+**There are some very effective lifesaving charities:** Some interventions seem likely to save or vastly improve individual lives at a cost in the range of \$2000 - \$10,000. When people are asked whether they would be willing to spend this amount or even a vastly larger amount to save a life in other contexts they typically will agree to do so.
+
+**There are two related and largely unresolved puzzles:** 
+  
+  1. Why are people not more generous with the most highly effective causes? and
+
+2. When they give to charity why do they not choose more effective charities?
+
+**There is some evidence on this but it is far from definitive.** We do not expect there to be only a single answer to these questions; there may be a set of beliefs, biases, preferences, and underlying circumstances driving this. We would like to understand which of these are robustly supported by the evidence, and will have a sense of how important each of these in terms of the magnitude of driving and absence of effective giving. There has been only a limited amount of research into this and it has not been systematic, coordinated, nor heavily funded.
+
+**We seek to understand because we believe that there is potential to change attitudes, beliefs, and actions** (primarily charitable giving, but also  political and voting behaviour and workplace/career choices). Different charitable appeals, information interventions and approaches may substantially change peoples charity choices. We see potential for changing the “domain” of causes chosen (e.g., international versus US domestic) as well as  the effectiveness of the charities chosen within these categories. (However, we have some disagreement over the relative potential for either of these.)
+
+Our main ‘policy’ audience includes both effective nonprofit organisations and ‘effective altruists’. The EA movement is highly-motivated, growing, and gaining funding. However, it represents a niche audience: the ‘hyper-analytic but morally-scrupulous’. EA organisations have focused on identifying effective causes and career paths, but have pursued neither extensive outreach nor ‘market research’ on a larger audience (see [Charity Science](http://www.charityscience.com/operations-details/scaling-down-charity-science-outreach), [Gates Foundation/Ideas42](http://www.ideas42.org/wp-content/uploads/2018/08/ideas42-Best-of-Intentions_Charitable-Giving-1.pdf)).
+
+```
+
+<!-- Done? Why should you care about this? --> 
+
+### Descriptives of giving (US, international) and how \'ineffective\' it is.  {#ea-depict}
+
+Who *does* give effectively? Potential global welfare gains to changing "where we give.  Who does give effectively? 
+
+Fitz/Kagan: Understanding Effective Givers: 
+
+>In this study we attempt to understand who is predisposed towards effective giving. After providing a description of the effective giving movement, we measure support for effective giving and measure a wide range of personality traits and demographics that may predict support for effective giving. We briefly define the EA movement as an important force "we" (economists, psychologists) need to discuss. 
+
+## (Lack of) previous synthesis on this {#prevsurvey}
+
+While there have been some relevant prior reviews ([@Loewenstein2007], introduction to  [@Berman2018], [@baron2011heuristics])
+
+<div class="marginnote">
+ 
+There has also been some unpublished or non-academic work: ‘Behavior and Charitable Giving’ (Ideas42, 2016), ‘Charitable Fundraising And Smart Giving’ (Gertler, 2015), and ‘The Psychology of Effective Altruism’ (Miller, 2016, slides only).
+</div>
+
+The current project uniquely combines 
+
+i. A focus on effectiveness, 
+
+ii. considering ‘choices among charities’ as well as in isolation, 
+
+iii. incorporating recent work and developments from the ‘EA movement’,
+
+iv. a rigorous, sceptical approach to evidence, and
+
+v. advancing a research agenda while building tools that promote robust evidence.
+
+<div class="marginnote">
+Ideas42: "We did not find many field-based, experimental studies on the factors that encourage people to choose thoughtfully among charities or to plan ahead to give. "
+</div>
+ 
+<!--Wiepking2012 -->
+
+### Effectiveness-specific work
+
+
+- Baron and Szymanowski 2011 - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers
+
+-  Gertler, [Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf) (not peer-reviewed but very useful)
+
+
+
+**Comparison of outlines: unfold**
+
+```{block2,  type='fold'}
+
+Gertler, "[[Charitable Fundraising and Smart Giving]{.underline}](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf)\"
+
+Baron chapter
+
+-   Introduction (with problem/puzzle)
+
+- Possible Nonutilitarian Heuristics
+
+> Evaluability (focus on attributes easy to evaluate e.g., > efficiency/overhead)
+
+"instead, what is more evaluable than the  lives saved per dollar of contribution is the operating cost per dollar"
+
+-   Average vs. Marginal Benefit, Diversification, Prominence, Parochialism
+
+-   Identifiability, Voluntary Versus Tax
+
+-   Experiments
+
+-   Waste, Average Cost
+
+-   Diversification,
+
+-   Unequal Efficiency; Unequal Efficiency, Several Projects Versus One
+
+-   Nationalism
+
+-   Forced Charity
+
+-   Discussion: Utilitarian Models of Altruism, Maximize Total Utility,  Limited Self-Sacrifice, Limited Altruism, Moral Education,  Implications 
+
+```
+
+## Definitions - "Efficiency" versus impact {#def-impact}
+
+<div class="marginnote">
+Consider: The measures used are relevant to how we consider issues such as charity 'quality ratings' and 'overhead aversion.'
+
+Reference: Steinberg & Morris, 2010 wrote about marginal vs average effectiveness.
+
+</div>
+ 
+
+It is important to define the concept of talking about. What, precisely, is this ``effectiveness'' or ``impact'' of a charity we are focusing on?  It is not trivial to get this right and there are some delicate and hotly debated questions even within the EA movement. Nonetheless, I sketch the basic idea in the math below.
+
+\
+
+$G_j$: The total donations given to charity $j$  during some interval; i.e., the  charity's income.
+
+$B_j(G_j)$: A function defining the beneficial *outcome* achieved by charity $j$ with the total donations $G_j$.
+
+
+Here, we are referring to $B_j(G_j)$ as (the improvement to ) some *ultimate outcome*:  Lives saved (i.e., deaths averted), quality adjusted life years (QALY) added, QALY weighted by age, Disease-adjusted (DALY), future happy lives generated, sentient suffering averted, etc. 
+
+<div class="marginnote">
+As noted, there are disagreements over how and whether we should trade off among these outcomes. Issues such as population ethics, andthe importance of sentience and experience --- come to the fore. We will ignore these for now.
+</div>
+
+
+The important distinction here:  $B(G_j)$ does not refer to a simple intermediate  *'output'*  such as 'antimalarial nets provided' nor 'textbooks purchased'. We are referring to the social *outcome* of ultimate value; an outcome that could be valued in and of itself. 
+
+
+This naturally takes into account *both* the 'technical efficiency' in terms of how many units of output can be produced per dollar, and the rate at which each unit of this output boosts the ultimate outcomes of interest. 
+
+
+\
+```{block2,  type='note'}
+
+The 'production function' is (perhaps tautologically) the product of two terms:
+  
+(Total or marginal) impact per dollar = output per dollar $\times$ impact per output
+```  
+
+
+<div class="marginnote">
+This is obviously an oversimplification. To achieve the beneficial outcome the charity will require many intermediate inputs (or "outputs" as noted above), including 'management' and 'careful targetting of programs'.  Some charities may  be able to acquire these inputs at better prices than others, and some may also use a more efficient mix of inputs.
+</div>
+
+\
+
+A donor may care about the 'impact' of her own donation; i.e., she may want to know the difference in outcomes that  her donation  achieves everything else equal. In other words,  the difference  in the ultimate outcome in a world with versus without her donation. 
+
+
+**Small donor assumption**: For a small donor (perhaps someone who donates less than USD 100,000), we may assume that this "rate of benefit"  will be the same for both the first and the last dollar she donates.  
+
+<!-- TODO -- how to tag and refer to assumptions and equations in R markdown? -->
+
+Thus we consider the *marginal* impact, as a simplification:  
+
+$B_j^\prime (G_j)$ for the marginal donor.
+
+I assert that $B_j^\prime(G_j)$ is the quantity that GiveWell (and perhaps other EA charity raters) are attempting to measure.
+
+\
+
+##### *We know (evidence cited in fold):*  {-#evidence_eff}
+
+```{block2,  type='fold'}
+
+There is abundant evidence for this. Some links and references:  Ord, T. (2013, March 12). "The moral imperative toward cost-effectiveness in global health. Center for Global Development." Retrieved from www.cgdev.org/content/publications/detail/142701. Also "Your dollar goes farther overseas". (2016). Retrieved from http://www.givewell.org/giving101/Your-dollar-goes-further-overseas
+ 
+```
+
+$B_j^\prime(G_j)$  is much larger for the most *impactful* relative to the most *popular* charities.
+
+\
+
+Increased benefits could be achieved if donations were ''reallocated'' towards more impactful charities. An individual who gains value from her giving through it's *impact* alone would naturally donate to only the *one* charity that has the greatest marginal impact, the charity $j$ with the greatest $B_j'(G_j)$ term. If every donor is doing this, then as an 'equilibrium' result *every charity receiving positive donations should have the same last-dollar marginal impact.*  In maths:
+
+\begin{equation}
+
+B_k^\prime(G_k) = B_j^\prime(G_j)\forall j,k s.t. G_j>0, G_k>0
+\end{equation}
+
+
+<div class="marginnote">
+Caveats:
+
+This assumes a single impact goal, essentially 'cause neutrality'.
+
+The idea that each donor gives only to a single charity essentially depends on the above 'Small donor assumption'.  Still, allowing that the marginal-benefit-leading-charity may vary within the range of an individuals' donation simply implies that they should allocate among multiple charities each up to the point that the last dollar given yields the same marginal benefit as the other charities, yielding the above result. We can imagine an equilibrium in which all donors give to multiple charities,  with each of these charities being virtually "tied"  in their marginal effectiveness.
+</div>
+ 
+ \
+ 
+But we do *not* seem to be doing this. Again: billions are given to charity, and these charities clearly have vastly different marginal impacts,  even among those that seem to target very similar outcomes.
+
+<!-- TODO:  many of the above arguments have probably been  made much more  carefully and completely both in Economics papers and in places like the EA Forum; draw and cite more from these -->
+
+## Why (under which models) is this a puzzle? {#why-puzzle}
+
+Does the set of facts mentioned above constitute a ``puzzle'' for our  Economics and Psychology models...  or are there obvious existing explanations? In Economic terms, are donors mysteriously ''leaving money on the table''  or are they simply optimizing given their their preferences and constraints?  What could explain this?
+
+<div class="marginnote">
+Economists love when we can say that something is officially a *Puzzle*. It is an achievement in itself to be the researcher who first discovered a *Puzzle*, even if we have no clue how to resolve it.
+</div>
+ 
+```{block2,  type='note'}
+Aside on 'Warm glow'... consider the contrast between models where people care about the impact of their gift versus models in which they care only about the  'amount sacrificed' (naive warm glow).  Does impact map into the 'good feeling' from giving? Can it do so? 
+```   
+
+### Conceptual breakdown of 'barriers' (first presentation) {#barriers-concept}
+
+We focus on the 'barriers' or 'hurdles' to giving effectively among individuals who *already* engage in some charitable giving and other-regarding acts. Loosely, a donor  would need to jump over all of these hurdles and cross each of these barriers in order to be giving effectively.
+
+<div class="marginnote">
+Recall: is there a well-known psychological framework  for these sorts of multiple-hurdle choices?
+</div>
+ 
+We first  consider a fairly *conceptual* breakdown.  (In later sections, we will use a  less theoretically precise categorization that proved more practically usable.)
+
+<div class="marginnote">
+Later chapters presents the direct and indirect evidence for very specific barriers, with real-world examples, and proposed 'tools'  for surmounting these. Here the conceptual breakdown proved difficult,  as most of the real world cases fell into multiple theoretical categories.
+</div>
+ 
+ \
+ 
+
+```{block2,  type='note'}
+
+**A conceptual breakdown of barriers:** 
+  
+Base values: (non) utilitarian: people are optimising their own 'X', which  does not coincide with impact $\rightarrow$ no puzzle?
+
+
+Judgement/cognition failures: People try but fail to optimize
+\
+
+Emotion overrides cognition: Our brain serves two masters,  those decisions are not consistent
+\
+
+Identity and signalling: Effectiveness in giving clashes with our self-image/self-beliefs, or with  how we want to appear to others 
+\
+
+Systemic factors (and inertia): "It's society's fault, man" ... social systems leading to pressure and incentives from others to give to local or less-effective causes. Even if impact is a goal these systems take a long time to adjust. 
+
+
+```  
+
+<!-- 
+(Yoruk, 2016), (Gneezy ea, '14)
+yoruk_2016, Gneezy2014	brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tolsma_13 
+-->
+
+
+#### Are people utilitarian? {-#are_we_util}
+
+The discussion above largely assumes that people are, at least to some extent:
+
+i. Other-regarding/pro-social: her preferences or ger "utility function they are maximizing" incorporates the well-being of others, at least to some extent
+
+ii. Moral utilitarians: The value  she places  on helping others (or on others' outcomes)  is principally increasing in  some measure of the *amount* of good they have done for others,  or in others' welfare. For a given personal sacrifice, she will always prefer to have made more people more well-off than to have made fewer people less well-off. In Economics terms, she strictly prefers and values *Pareto-improvements*.
+
+<div class="marginnote">
+A mathematical  statement of this may be helpful here.
+</div>
+ 
+iii. Universalist:  In considering others' welfare, she values all others equally regardless of their identity. 
+
+```{block2,  type='note'}
+Universalism: a  more precise example:
+  
+Consider a world with three other people (B,C,D), begin in a Poor state. Consider outcomes such as:
+
+1. B and C are well off and D is poor 
+
+2. D is well-off and B and C are  poor
+
+She would always prefer outcome 1 over outcome 2. She would also rather achieve outcome 1 over outcome 2 with her charity, *no  matter the identity of persons B, C, and D.*
+
+```  
+
+iv. Not 'deontological':  there are no other relevant absolute moral constraints (constraints such as 'do no harm in your actions, even if others are helped') 
+
+\
+
+To what extent does a ‘moral utilitarian’ (MU) consequentialist ethic govern beliefs and behaviour? To the extent it *does*, limited effective giving represents a puzzling intention/action gap. 
+
+However, for non-utilitarians this is no puzzle. If other forces and motivations drive our giving choices,  we might not expect these to be aligned with effectiveness. 
+
+It could be argued that the above is posed too starkly. People may embrace concepts such as utilitarianism, universalism, and cause neutrality, and at the same time  be largely driven by other concerns and sympathetic to other moral frameworks. We may agree with statements that "all lives are equal" and "we should strive to do the most good for the largest number" but also support maxims such as "charity begins at home" and "giving is about supporting something you have a personal connection to."  
+
+<div class="marginnote">
+While these statements may, strictly speaking, be contradictory, we shouldn't expect perfect consistency or constancy. Most people are not asked to rigidly join the deontological or utilitarian camp, and those who have not studied philosophy  or social science may never have contemplated these issues directly.
+</div>
+ 
+
+<!-- TODO: Citations here; I recall having seen evidence  and argumentation suggesting that people are far from consistently in one camp or another --> 
+
+Perhaps moral utilitarianism (MU) is relatively unimportant in most people's charitable choices. Even if this is the case, understanding the ways in which people do pursue their giving goals, and their obstacles and "biases" in doing so  may suggest ways of making  giving more impactful. For example, many donors may prioritize their  local community, leading to their less-effective giving (from a universalist point of view). However, they might be persuaded to expand their definition of their own 'community'.
+
+<!-- Even if this is the case, specific campaigns, tools, and fundraising approaches may still help align their parochial, self-interested, or reputation-seeking values and intentions with more effective giving. -->
+
+\
+
+```{block2,  type='note'}
+
+**Some examples of concerns other than Moral Utilitarianism that might drive giving and charity-choices:**
+
+- Perfectionism/deontological aversion to 'waste' 
+
+- Social pressure
+
+- Signaling virtue to others
+
+- Emotional empathic reactions to particular images and situations
+
+- A desire to identify with particular causes or particular groups of individuals, perhaps  in opposition to other groups
+
+- Religious motivations
+
+- Fairness concerns
+
+```  
+
+\
+
+#### Judgement/cognition failures; Biases in perceiving impact and in making choices {-#cog-failures}
+
+People may (at least to some extent) *want* to be effective in their donation. However, they may simply not be good at doing this. Quantitative biases may drive departures from effectiveness in general. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the "production function for good outcomes", or to misjudge  charities  will lead  me astray from effective giving.  if I am making any mistake,  I am failing to optimize. Furthermore, some biases may happen to be *particularly* harmful to those charities and causes that are most effective.
+
+We  briefly list some of these biases below; we consider these extensively in the section "[Barriers: Quantitative biases](#quant-biases)".
+
+\
+
+**Cognitive biases:** 
+
+- Overweighting and underweighting probabilities
+
+- Misunderstanding marginality
+
+- Scope-insensitivity
+
+- Opportunity-cost Neglect 
+
+- Identifiable victims effect 
+
+- Overhead aversion @Gneezy2014, 
+
+
+<!-- Responses: De-biasing, etc. -->
+
+@small2007sympathy, @Gneezy2014,	@ein2013giving, @kogut2005identified, @kogut_2005b, @Kinsbergen_tolsma_13
+
+<!-- (or excuse-driven, motivated reasoning), lack of tangibility (giving to a diffuse cause); Percieved lack of transparency, and perceived corruption overseas -->
+
+
+<!-- Information about recipients' deservingness, Avoid uncertainties/excuses not to give/mental transactions costs
+ (Fong & O, '10), (Exley, '16b)	(Andreoni ea, '17), (Dellavigna ea, '12) -->
+
+#### Emotion overrides cognition {-}
+
+**Presenting analytical/impact information switches off system 1**
+
+Charity effectiveness (info/deliberation) 
+
+- Donor's mood (Impacting) 
+- Affect prime
+
+- Evaluation mode -
+
+(Karlan & W, '07), (Kogut & R, '05)	(Small ea, '07), (Drouvelis & G, '16), (Caviola ea, '14)
+
+
+**Avoiding information, motivated reasoning in processing it**
+
+@andreoni2017avoiding, @Exley2016, @Exley2015, @dellavigna2012,	@Kellner_EA_2017
+
+\
+
+#### Identity and signaling {-}
+
+Considering effectiveness in giving (and publicizing this concern) may conflict with an individual's self-perception. It may also harm her reputation, at least relative to emotional or 'deontological' helping responses.
+
+#### Barriers: Distance (Physical, Psychological/Emotional, Social) {-}
+
+Less proximate needs are less salient, thus under-funded.
+
+(Info enhancing) social closeness of recipient -
+
+? @cuddy_ea_2007,	(Sudhir ea, '16)
+
+#### Barriers: Strong local appeals ('the ask'), social obligations to give locally (and 'crowding out'/moral licencing) {-}
+
+(Meer, '11)
+
+Does one contribution crowd out another? If so, social pressure, systems enforcing 'local public goods' and inertial factors may limit effective (non-local) giving.
+
+
+<!--chapter:end:sections/present_puzzle.Rmd-->
+
+# Are charities in competition? Is the ineffective giving reducing effective giving? {#substitution}
+
+Are charitable gifts complements or substitutes; are charities are rivals? Does one donation request ask (or donation itself) crowd out another, and if so when and how much?   This is critical to understanding  the extent to which gains can be achieved by getting people to 'switch'  from less to more effective charities. To the extent this crowding-out occurs, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressuring you to give to local organisations) themselves represent barriers to EA giving.
+
+<!-- (David Reinstein has a simultaneous research project on this 'expenditure substitution' question.) -->
+
+<!--
+[@vandiepenDoesIrritationInduced2009], @Donkers2017, [@Scharf2017], [@Deryugina2015b; @Harwella:1; @Meer2017; @Reinstein2010a:1; @Reinstein2011d] -->
+
+## Theoretical framework and concerns
+
+What does this question even mean? In a standard Economics framework  we would consider joint optimization over "gifts to an ineffective charity" and "gifts to an effective charity"; one doesn’t "respond" to the other.
+
+<div class="marginnote">
+(or an optimization over ’gifts to the causes these represent’)
+</div>
+
+
+Prices/ external changes shift each, but we can’t "force you to voluntarily give." Furthermore, "prices" are unclear in this context (see Economics models of giving) and prices for one cause or charity rarely vary exogenously.
+
+\
+
+If we *could* shift the 'meaningful giving' \(\rightarrow\) we could use theory of Conditional Demand (Pollak) \(\rightarrow\) "expenditure substitution" [@reinsteinDoesOneCharitable]. Still, the sign of the conditional demand effects are straightforward only under very restrictive conditions. 
+
+\
+
+What we *can* measure in a straightforward way (in principle): Does a promotion for a less-effective charity (such as CRUK) cause more or less giving to a more-effective charity (such as Oxfam)? Most of the work discussed below focuses on this sort of estimate.
+
+
+\
+
+
+A more difficult question: Is the causality:
+
+- CRUK promo \(\rightarrow\) give more to CRUK \(\rightarrow\) give less (more) to Oxfam?
+
+- But can we rule out *direct* effects of the first promotion? (see Heckman/Pinto on "mediators")
+
+
+This is in fact relevant for a policymaker. She might face a ’shock’ that she knows or expects will lead to donations to charity A to rise by EUR 1,000,000 EUR. She will want to know 'how much can we expect donations to charity B to fall?'
+
+\
+
+*What underlying causes might lead the effect to go in one direction or the other?*  
+ 
+The psychological ideas of "self-image management" and "moral-licensing"
+could also be expressed in terms of a utility function with particularly
+diminishing returns to total charitable giving; there may be a discount
+rate on the recency of the donation, as in a *perishable* good.
+
+<!-- Todo: Cite Scharf paper on intertemporal elasticity of warm glow component. -->
+
+### Expenditure substitution maths {-#expend-subst}
+
+<div class="marginnote">
+This is largely drawn from the appendix of [@reinsteinSubstitutionMotivationsCharitable2011]
+</div>
+ 
+
+Assuming that utility is separable in own consumption and charitable
+gifts, and assuming an additive specific shock (\(\alpha\)), we can
+express utility as: \[U=f(x)+V(g_{1},g_{2}-\alpha )\] *where* the
+functions \(V\) and \(f\) are functions that represent utility from
+own-consumption and from charitable giving, repectively.
+
+The budget constraint can be written as:
+
+\[x+p_{1}g_{1}+p_{2}g_{2}\leq Y\] *where* \(Y\) represents total wealth,
+\(p_{1}\) and \(p_{2}\) are the prices of giving to charities one and
+two (per dollar the charity receives), and I normalize the price of own
+consumption to one.
+
+Under this model, the marginal “indirect effect” of a shock
+(\(\frac{\partial g_{1}}{\partial \alpha })\) can be expressed simply as
+a function of the marginal “direct effect” of the shock
+(\(\frac{\partial g_{2}}{\partial \alpha }\)). Standard comparative
+statics of the optimal choices (assuming an interior solution and other
+standard regularity conditions) yields the total derivatives:
+\[\begin{aligned}
+\frac{dx}{d\alpha } &=&\frac{\lambda _{\alpha }}{U_{xx}} \\
+\frac{dg_{1}}{d\alpha } &=&\frac{\lambda _{\alpha }(p_{2}U_{12}-p_{1}U_{22})%
+}{U_{12}^{2}-U_{11}U_{22}} \\
+\frac{dg_{2}}{d\alpha } &=&1+\frac{\lambda _{\alpha
+}(p_{2}U_{11}-p_{1}U_{12})}{-U_{12}^{2}+U_{11}U_{22}}\end{aligned}\]
+*where* \(\lambda (\alpha ,p_{1},p_{2})\) is the shadow value of the
+budget constraint, \(U_{IJ}\)
+\(\equiv \frac{\partial ^{2}U}{\partial I\partial
+J}\),
+\(\lambda _{\alpha }\equiv \frac{\partial \lambda (\alpha ,p_{1},p_{2})}{%
+\partial \alpha }\).
+
+Hence
+
+\[\frac{dg_{1}}{d\alpha }=(\frac{dg_{2}}{d\alpha }-1)\frac{%
+p_{2}U_{12}-p_{1}U_{22}}{p_{1}U_{12}-p_{2}U_{11}}\]
+
+The sign of the marginal effect on \(g_{1}\) (relative to the marginal
+effect on \(g_{1}\)) can be either positive or negative, and will depend
+on the partial second derivatives of utility and the relative prices.
+
+Looking at the discrete effect:
+\[g_{1}(\alpha _{1})-g_{1}(\alpha _{0})=\int_{\alpha _{0}}^{\alpha _{1}}[(%
+\frac{dg_{2}}{d\alpha }(g_{1,}g_{2})-1)\frac{%
+p_{2}U_{12}(g_{1,}g_{2})-p_{1}U_{22}(g_{1,}g_{2})}{%
+p_{1}U_{12}(g_{1,}g_{2})-p_{2}U_{11}(g_{1,}g_{2})}]d\alpha
+\label{integralgeneral}\]
+
+With quadratic utility, the partial derivatives will be constants,
+
+<div class="marginnote">
+$U(x_{0},x_{1},...,x_{n})=x_{0}+\Sigma
+_{i=1}^{n}\alpha _{i}x_{i}-(\Sigma _{i=1}^{n}\beta _{i}x_{i}^{2}+2\Sigma
+_{i\neq j}^{n}\gamma _{ij}x_{i}x_{j})/2$
+</div>
+
+
+and the *discrete* indirect effect, as well as the marginal effect, will
+be a simple linear function of the direct effect:
+
+
+$$g_{1}(\alpha )=A+Bg_{2}(\alpha )$$
+
+*where* $A$ and $B$ are constants.
+
+Quadratic utility is often justified as a second-order approximation to any other utility function. With other utility functions the partial derivatives may vary at different consumption bundles, so the indirect
+effect may be a nonlinear function of the direct effect, but these should be solvable  for a predictable functional form, which for estimation purposes, can be approximated to any desired accuracy by a polynomial function. 
+
+
+
+
+
+
+## Previous approaches and evidence
+
+
+```{block2,  type='note'}
+
+The material in this section largely overlaps the literature review in Reinstein, Reiner and Vance-McMullen 202 ongoing, in the repository https://github.com/gerhardriener/CharitySubstitutionExperiment/, in the file lit-synth.Rmd
+
+These should be integrated with one another.
+```
+
+
+There is a **lack of data** on donations at the individual-charity level.
+
+For identification: Lack of **independent observable variation** in price, shocks, or appeals.
+
+**Intertemporal substitution** is an issue, and we typically **cannot observe 'lifetime giving.' **
+
+Estimation of 'Expenditure substitution' [@reinsteinDoesOneCharitable] is complicated by issues of extensive vs intensive margins, as well as  heterogeneity.
+
+
+### Observational work
+
+
+**Observational data** typically lacks shocks that are clearly
+*specific* to giving to one charity. Observational data on charitable
+giving (e.g., survey data or tax data) offers few variables that can be
+used to identify 'specific' shocks – shocks that alter giving to one
+charity but have no independent effect on giving to other charities.
+Most observable variables that are believed to increase giving to one
+charity will also increase giving to other charities, masking
+substitution effects.
+
+
+#### Signing-the-bias approach {-}
+
+**However, under reasonable assumptions we can *sign* this bias, and
+thus estimate a lower bound on substitution.**
+
+[@reinsteinDoesOneCharitable] using PSID/COPPS data
+finds some evidence of expenditure substitution, especially for large givers.
+
+
+He makes a “bounding below” argument
+
+- Issues: charity categorization/misreporting; bounded result only
+
+- He finds many negative significant correlations between residuals from
+fixed-effects regressions on donations to categories of charitable causes
+
+- This especially holds for larger (prior) donors and for certain paired cause categories
+
+- Under what he argues to be plausible econometric assumptions (essentially, a net positive correlations between the residuals of 'propensity to donate to each cause')  $\rightarrow$ negative correlations are strong evidence of expenditure substitution
+
+- Interpretation: heterogeneous motivations for giving, small vs large givers
+
+#### Observational data paired with 'exogenous' shocks {-}
+
+[@Deryugina2015b]
+
+Donations in a state affected by tornado increase 1.7-2 percent in that year and 1.9-2 percent in the 2 years after. The authors can only reject 'full crowding out'.
+
+\
+
+[@scharfLiftShiftEffect2017]
+
+These authors observe "CAF accounts"; for this particular group, they observe all donations over a substantial period.
+
+- $\rightarrow$ Reject 'full crowd-out', tight zero LR crowdout
+
+$\rightarrow$ non-disaster giving pre-poned (!), esp. for disaster/intl donors; "halo effect?"
+Estimates: +.537 log donations to DEC-13, se .032; -0.008 log donations to 'other charities', se 0.017 $\rightarrow$  Reject 'full crowd-out', tight zero LR crowdout
+
+*Interpretation...*
+
+consistent with...  for (only) people responding to the DEC appeal ... the disaster appeal increased the effectiveness with which donating to all charities, including Other charities, produces warm glow utility—a halo effect
+
+They argue that their data allows them to reject the transactions cost explanation because they see i.  less bunching than usual, ii. shifts in amounts given and not just at the extensive margin and
+iii.  a particular shift from certain categories.
+
+Issues:  Specific CAF population; disaster-specific; time-series variation issues (6 disasters=lumpy?)
+
+
+<!--
+Todo: add pictures of the relevant environments for these studies here
+-->
+
+### Simultaneous/proximate ‘lab’ experiments
+
+(esp. Reinstein 2006/11; Ozbay-Uler)
+
+
+*Figures: Berkeley design, types*
+
+Vary choice sets/prices, shocks $\rightarrow$ crowd-out, esp.  similar causes
+
+
+*Figures: Berkeley line graphs*
+
+(Reinstein, 2011)  $\rightarrow$ Strong "expenditure substitution" responses to shocks, esp for similar charities; approx 50\% crowd-out; 2.59 cross-price-elast)
+
+- Heterogeneity; mix of 'fixed purse', 'flexible purse/never substitute']
+
+Filiz-Ozbay and Uler, 2018 : Five paired choices, varying 'rebate rate' for one only; price-focus
+   - 'Stealing' almost always
+   - +0.35 net cross-price elast for 'substitute' charities
+
+-  Harwell ea '15; Schmitz '18: somewhat related designs, similar results in flavor
+
+
+### Lab/framed experiments with time gaps
+
+- Schmitz 2019 (ExpEcon)
+
+- Vance-Mullen component of Reinstein et al
+
+
+\
+
+### Field/natural experiments
+
+Notes from previous paper (unfold)
+
+```{block2,  type='fold'}
+
+\cite{van2009does} offer some field experimental evidence on the crowding-out effects of direct mail solicitations. %[RESULTS?]
+\cite{borgloh-have} investigated the impact of the German church tax on households' other charitable giving. \cite{null2011warm} used a field experiment to examine how donations to different charities respond to changes in relative match rates -- however, as the total donation was decided ex-ante, the substitution among charities was constrained to be complete. Finally, an earlier work (\citealp{andreoni1996cct}) examines substitution between giving and volunteering. However, to the best of my knowledge, no work directly addresses the cross-price elasticity (nor the expenditure substitution) between gifts to charitable causes.
+```
+
+- Meer 2014, 2017: DonorsChoose.org competition, matching campaigns
+
+2017: Increased funding for project, no significant impact on donations to other projects
+
+Meer 2014: "increased competition reduces the likelihood of a project being funded"
+
+
+- Donkers et.al. 2017: Extra mailings to existing donors in a week, top-NL charities
+  - Extra mailings +1.81 EUR for charity,
+  - -0.10 EUR per 'regular' mailing for *other* charity in *same week*
+  - loss of 10\% of revenues via competitive effects
+  - can't reject zero-crowding, but wide CI's
+
+- Anticipated second asks:  [@Adena2019; @Cairns2011]
+
+Cairns and Slonim: *Anticipated* `2nd collection' at Mass raised 7695 USD , reduced 1st collections by 1708 USD  (22\% "crowdout")
+
+Adena and Huck: Anticipated repetition $\rightarrow$ 40\% less "this year" (but also a *persistent* lower don)
+
+
+Reinstein et al, 2020: First field-experiment to  Ask (or not ask) on multiple separate occasions with a significant delay, vary this delay time; find some crowding out but evidence on interaction with delay time is mixed. Possibly two channels: consistency versus fading of moral license/warm glow.
+
+
+## Synthesis (emerging)
+
+```{r, out.width='85%', fig.align='center', fig.cap='Papers on substitution; database'}
+
+knitr::include_graphics('picsfigs/subst_meta_cut.png')
+
+```
+
+Proximate asks and clearly presented comparisons $\rightarrow$ expected crowding-out
+
+A particular issue: apparent contrast, **Coherent arbitrariness**, narrow brackets, framing (how people think they ‘should behave’ or how they behave when they are in a deliberative self-reflecting mode. This may characterize some giving decisions but it is probably not the most common.
+
+With naturally-occuring, more time-separated shocks and asks, the results are more mixed, sometimes with much smaller, or no apparent substitution.
+
+So ``how proximate is proximate''? Evidence is still mixed (see above discussion on dual channels)
+
+```{block2,  type='note'}
+In Reinstein et al, we are planning a meta-analysis of the above papers
+```  
+
+<!--chapter:end:sections/substitution.Rmd-->
+
+# Barriers: Awareness, consideration, and distance {#aware-distance}
+
+## Description and relevance to Effective Giving
+
+Typically,  the most effective (humanitarian) charitable contributions will go from wealthy countries in the "North"  to poor countries in the "South".   The large, social,  cultural geographic distance is an important barrier to giving  and a reason why people prefer to give locally. However, technology continues to reduce these barriers (see, e.g., Give Directly and their new web-enabled tools).
+
+## Theoretical and conceptual underpinning
+
+Construal theory,  psychological distance,  moral distance/moral circles
+
+<div class="marginnote">
+Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychological distance" (PDF). Psychological Review. 117 (2): 440–463. doi:10.1037/a0018963
+</div>
+
+<!-- ?cuddy\_ea\_2007 (Sudhir ea, \'16) -->
+
+## Distance - Spatial/Physical, Social/Cultural: parochial altruism/ingroup bias,  interpersonal and identity e.g., race, gender, age, etc
+
+Consider: 
+
+- What is the evidence that we are less empathetic or less generous to those far from us along these margins?
+
+- What is the evidence that this is manifested in our actions and choices (political, professional, etc)?
+
+-  What is the evidence that this is manifested in our charitable giving? 
+
+
+> Robust results from research on empathy have suggested highlighting similarities between the beneficiary and donor(Meer 2011)
+
+## Distance: Experiential, Informational, Emotional/Affective
+
+Ref: small2007_friends	small_loewenstein_07_scarecrow
+
+## Distance -  Temporal (future problems and people), Hypothetical (probability to happen)
+
+This is particular relevant to causes and charities dealing with the medium-term and long-term future.
+
+## Availability heuristic and media (also see 'biases')
+
+Persistent problems are not as noticeable as rare events such as natural and man-made disasters.^[REFs] These will then be both inherently less present in donors' minds, and less reported in the media. 
+
+There is evidence that news coverage actually *increases* the rate of government support for a cause [@eisenseeNewsFloodsNews2007] 
+
+<div class="marginnote">
+ (Are there similar results for charitable giving?)
+</div>
+
+<!-- Consistent problems aren't as noticable (reflected in media also) - availability heuristic [separate from 'repeated exposure makes it more relevant ... opposite implication] -->
+
+
+
+<!--chapter:end:sections/aware-distance.Rmd-->
+
+# Barriers: Identity and cognitive dissonance {#identity}
+
+## Self-interest/local public good (?)
+
+```{block2,  type='fold'}
+In the context of 'team reasoning' and cooperative equilibria, it may seem selfishly beneficial to give locally/ to a public good that your smaller group gains from. If there is ""competition"" ....diminishing empathic returns to giving or moral licensing this may lead to less EG.
+```
+
+<!-- put elsewhere or remove?? -->
+
+## Cognitive dissonance
+
+```{block2,  type='note'}
+"Accepting EA would imply I was wasting my money/doing it wrong... $\rightarrow$  they try not to think about effectiveness or are averse to it or just consistency motive"
+```  
+
+
+## (Side note?) Volunteer experience unlocks emotion and giving
+
+```{block2,  type='fold'}
+
+(Contemplating) Volunteering for a cause may make people care about it more, and be more likely to give to it. It is difficult for people to have volunteering experiences with most EA causes. People tend to volunteer for local and domestic  causes, and their  sympathy and giving may follow this (perhaps to avoid cognitive dissonance).    Alternatively/additionally, the volunteering for the local cause may substitute for EG (via moral licensing or a related channel): 'I volunteer for the Girl Scouts so I'm doing enough good,  but I don't need to donate to Against Malaria Foundation'
+```
+
+<!--chapter:end:sections/identity.Rmd-->
+
+# Barriers: Signaling and social pressures/social identity {#social}
+
+## Signaling concern for effectiveness/impact versus other values {#signaling-empathy}
+
+### Theory and argument 
+
+Social signaling is seen to be a major driver of human behavior, particularly in the charitable domain.^[REF]^ Essentially, we may make choices that we would not have otherwise made in order to boost our reputation among our peers, colleagues, etc.. Reputation may be valued for its own sake or instrumentally, as a means  to inducing others to act more favorably to us. Game theory (see esp. [@spenceJobMarketSignaling1973]) offers a precise conception of this signaling as a costly way to demonstrate one's positive "type"  in a context with asndymmetric information.
+
+Several authors (can be interpreted to) suggest that valuing ''effectiveness in generosity'', i.e., moral-utilitarianism, is seen as a negative signal by peers and lowers fitness in the cooperation market, at least in comparison to signaling compared to deontological or ‘sacred values’. The exchange below captures the basic argument... 
+
+```{block2,  type='note'}
+
+*From Robin Hanson and Rob Wiblin exchange on 80000 hours podcast; see Chapter 12 of   “The Elephant in the Brain” (Hanson)*
+\
+
+
+Hanson: But of course people spend a lot of time directly helping even when they’re relatively well-paid and they could pay other people who earn much lower wages to do a lot more.
+
+\
+
+Wiblin: This is the example of the high-flying lawyer dishing out soup in a soup kitchen.
+
+\
+
+Hanson: ... the alternative theory that we suggest is that you are trying to show that you feel empathy. That is you want to show there is an emotional capacity in you such that if you see someone around you in need you will feel like you want to do something about that. And existing charities do tend to successful show that. They show somebody who needs help in a direct way that invokes your emotions and you do help to some degree, you do the thing that people would say would help and that shows people around you that you’re not an uncaring person and it might show them, for example, that if they were in need of help later and they were near you you would see them and you would feel about them too. You want to show people that you will be useful ally. If either of you is in trouble the other will come to their aid.
+
+\
+
+Wiblin: So why is it more important to show the people that you’re the kind of person who if they someone in pain that they’re going to try to help them right then and there than to show that you’re the kind of person who’s smart enough to think about which charities are useful and does their research and actually tries to help people? Because if you don’t care about whether charities are effective or not, my thoughts would just be that you’re not really going to pay attention to whether you’re actually helping your friends or not?
+
+\
+Hanson: Right, but at least if I want your help and I’m your friend it will be my job to put myself in your face and to tell you about my problem. And maybe I figure I coul successfully get myself in front of your face and make you pay attention to my problem and help you understand what I think is effective and then you would just do what I say, and that’s maybe what I’m mostly hoping for. And if you were this person who thinks carefully about how to help the best person in the world who needs help, well I’m plausibly not going to be that best person in the world who needs help so I’m not going to win out in that contest so it’s not actually going to be that useful to know you as the sort of person who will help the person in the world who needs the most help.
+
+```  
+
+
+[@everettInferenceTrustworthinessIntuitive2016] argue that deontological ethics signal stable cooperative behavior to others, which enhances fitness in mutualistic partner choice models. The basic argument is "An individual who claims [and believes] that stealing is always morally wrong ... seems much less likely to steal from me than an individual who believes that the stealing is sometimes morally acceptable depending on the consequences."
+
+
+Background and further discussion ... in fold
+```{block2,  type='fold'}
+
+The authors' motivation is to explore why "intuitive moral judgments often "share characteristics with deontological theories while  "consequentialist judgments are often the result of slow, deliberative cognitive processes". Their key theoretical argument cites "mutualistic partner choice models of the evolution of morality", which...
+
+> posit a cooperation market such that agents who can be relied upon to act in a mutually beneficial way are more likely to be chosen as cooperation partners, thus increasing their own fitness
+
+> the typical deontological reason for why specific actions are wrong is that they violate duties to respect persons and honor social obligations-features that are crucial when selecting a social partner. An individual who claims that stealing is always morally wrong and believes themselves morally obligated to act in accordance with this duty seems much less likely to steal from me than an individual who believes that the stealing is sometimes morally acceptable depending on the consequences. Actors who express characteristically deontological judgments may therefore be preferred to those expressing consequentialist judgments because these judgments may be more reliable indicators of stable cooperative behavior.
+
+> And recent theoretical work has demonstrated that -"cooperating without looking”—that is, without considering the costs and benefits of cooperation—is a subgame perfect equilibrium (Hoffman, Yoeli, & Nowak, 2015). Therefore, expressing characteristically deontological judgments could constitute a behavior that enhances individual fitness in a cooperation market because these judgments are seen as reliable indicators of a specific valued behavior-cooperation.
+
+```
+
+Hoffman et al (2015) present an evolutionary game theoretic analysis of an indefinitely repeated game where 
+
+<div class="marginnote">
+Here the analogy to effective versus ineffective giving is not clear...
+</div>
+ 
+- Player 1 can publicly 'look' to see the cost of cooperation,
+- Player 1 next chooses to cooperate or defect, and then  
+- Player 2 chooses whether to continue repeating the above game, or end the relationship. 
+
+They provide conditions under which 'cooperating without looking' (CWOL) is part of a subgame-perfect Nash equilibrium, and an evolutionarily stable equilibrium can involve a substantial rate of CWOL play.
+
+However, the analogy to effective versus ineffective giving is not clear. Perhaps a connection could be made *if considering the charity effectiveness tended to provide a motivation to give less*, but this is not obviously the case.  In general, an 'excuse not to do something' is not the same as a 'choice to be effective'.
+
+
+### Evidence for this barrier
+
+*We consider specific empirical claims that could be interpreted as evidence that this is an important barrier*.
+
+#### Evidence that "consequentialist choices lead to negative signals and less-favorable treatment relative to deontological/emotionally intuitive choices" {-}
+
+
+##### [@everettInferenceTrustworthinessIntuitive2016] {-}
+
+@everettInferenceTrustworthinessIntuitive2016 ran a series of experiments on the Mturk platform, involving hypothetical dilemmas paired with low-stakes (or no) Trust games.
+
+In each, participants were asked to make and justify their judgement in a moral dillemma such as the famous 'trolley dillemma.' In each case, this was a (hypothetical) choice between inaction and taking an action that sacrifices a small number of lives to save a larger number of lives. 
+
+<div class="marginnote">
+Would you "push a man off a footbridge to stop an oncoming train from hitting five"?
+</div>
+ 
+> We then had our participants rate the morality and trustworthiness of each agent on a scale (Study 1a), play a hypothetical trust game (TG) with the agents (Study 1b), and, finally, play a TG involving real monetary stakes with the agents (Study
+
+Across several studies deontologist agents were preferred in partner choices by participants endorsing the same values; even moral-utilitarians seem to favor peers who express emotional empathy and deontological ethics (ibid.,  p. 45). 
+
+However, this difference was not present in the track-switching dilemma, the only dilemma in which a majority favored the consequentialist choice.
+
+
+
+Incorporate some of the other papers mentioned in the Gdoc [here](https://docs.google.com/document/d/1j5y-shBeo6wMy1pCq9DSd7s5UmDUNcXYy2drBeEZlIs/edit?ts=5e440d71#heading=h.1lrjvfcyoa)
+
+
+##### Montealegre et al. (2020) Does Maximizing Good Make People Look Bad? Manuscript {-}
+
+Type of evidence: Online experiment (M-turk) with hypothetical choices (attitudes), six pre-registered studies using two different scenarios (N = 1,961)
+
+Relation to charitable giving\EA:  directly, since ...
+
+Scenarios (including within and between subjects approaches): 
+
+(i) participants evaluate a response to survey question about how to select a charity (“If you were to donate, how would you select which charity to donate to?”). 
+
+> Deliberative:  I would use evidence to calculate which charity spends its donations most cost effectively, and donate to them.
+
+> Empathic: I would try to put myself in the shoes of people who are going through difficult situations, and donate to a charity that helped them.
+
+(ii) John was approached by a charity fundraiser and was asked whether he would be interested in donating to help Rokia, a 7-year-old girl from Mali, Africa who was desperately poor and faced the threat of severe hunger or even starvation. The charity fundraiser showed John a picture of Rokia (also presented to participants) and then asked John whether he would be interested in supporting her.
+Across conditions, participants were presented with the general scenario and only the potential donor’s actions differed depending on the condition: 
+
+Deliberation: “John thought that donating to help Rokia might not be the most cost-effective way to use his money and that maybe he should donate to a charity doing something more cost-effective instead. He asked the charity fundraiser about the relevant statistics of the program and since the data suggested this charity was the most cost-effective John donated to the charity.”
+Empathy: “John was deeply moved by Rokia’s situation and about how terrible her situation must be for her. After hearing about her tragic story and imagining how his donation could help her John donated to the charity.”
+
+Robustness checks for: gender, stake size
+
+Background mechanism:  donors’ failure to prioritize cost-effectiveness can be explained by signaling concerns, since people who favor deontological over consequentialist decisions are preferred as social partners (Everett et al., 2016),
+Key findings:  Across six studies, donors who deliberated were perceived as having worse moral character, were rated as less desirable as social partners, and were judged to be less guided by moral motives. On the other hand, those who deliberated were also seen as more reasonable and competent, and were judged to be more guided by pragmatic motives,
+Thus, there may be reputational benefits associated with deliberating. However, since deliberators are less preferred as social partners the authors believe the overall effect one reputation is negative. They do not find any differences in trustworthiness. Exhibiting empathy before deliberating reduced most negative reputational effects. People how do not give at all are seen as the worst. Surprisingly, participants judge the empathy donors as more wastful.
+
+
+#### Considerations 
+
+Even if we accept the above evidence (that those who make consequentialist active choices in "sacrificial dilemmas" are seen as less trustworthy and less moral) this may not generalize to *effective giving*. Researching and selecting a more effective charity is closest to the 'track switching' scenario in these experiments, in which no substantial difference was observed, and even here it is a stretch. Choosing a more effective charity instead of a more local one (e.g., river blindess prevention in Africa versus local guide Dogs) would be hard to cast seen as taking an active step to *harm someone*. 
+
+<div class="marginnote">
+True, a local blind person may fail to get an additional (fraction of a) dog as a result of this choice. However, there is little sense in which "you funding his dog" would be seen as the status quo absent your intervention.  
+</div>
+ 
+#### Indirect evidence
+
+(Kahane et al 2018; Jordan et al; Hoffman et al)
+
+
+
+
+<!--chapter:end:sections/social.Rmd-->
+
+# Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity  {#eval-aversion}
+
+```{block2,  type='note'}
+
+Note: this is an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis being planned. 
+
+Much of this project is organised in the [dualprocess repo](https://github.com/daaronr/dualprocess).
+
+An earlier set of presentation slides (now pictures are missing -- need to recover) is hosted [here](https://daaronr.github.io/dualprocess/SPI_EA_impact#/) - press 'O' to see the fill multidimensional slide map; the outline slide is [here](https://daaronr.github.io/dualprocess/SPI_EA_impact#/outline-1) 
+                                                       
+```  
+
+I am testing how to add some regular text here, OK, maybe I will put something in *italics*.
+
+
+<!-- #TODO recover and add images:
+
+![](lifeboat_choice.jpg){width=35%} ![](givewell-sheet.png){width=35%}
+-->
+
+## General relevance to effective giving
+
+For people to choose one product over another on the basis of some characteristic (e.g., safety, taste, or durability), they presumably must be *aware* of these differences before purchasing. Economists note [ref] the difficulty of investing in producing, marketing and selling high-quality products and services when consumers have difficulty distinguishing these products from inferior ones.  This is especially difficult when the quality of a product is not known before purchase (an 'Experience good' [ref] such as a ticket to a particular stage show), or when it is not known until a long time later, if at all (a 'credence good' such as a health remedy or investment advice.) <div class="marginnote">
+Insert abundant references here to asymmetric information, fly-by-night competition, and experience and creedence goods, product reviews, regulation, advertising as a signal, etc.
+</div>
+
+\
+
+ Considering a charitable donation as a product purchased by the donor, it seems to  fall into the latter category [ref to authors making this point]. If donors value their 'marginal impact on outcomes' as discussed in our earlier [definitions of impact](#def-impact), they may need to do extensive research (or at least know about and visit web sites such as GiveWell and ImpactMatters) to have some estimate of the value-for-money they are getting.
+<div class="marginnote">
+Donors may also be uncertain about other benefits they main gain from each donation such as 'gratitude and long-term sense of fulfillment'.
+</div>
+
+\
+
+A typical charitable donor, particularly one who donates towards a geographically-distant intervention, will never directly see or experience the consequences of her donation. 
+ 
+Thus, for people to systematically choose to donate to the most effective charities, presumably...
+
+1. They must understand and value the idea of effectiveness.
+
+2. They must either:
+
+- a. know how effective charities are relative to one another,
+- b. have reliable information on this presented to them by the charities (or other entities),
+- c. or they must want to and find it appropriate to seek information on this, and be able to obtain reliable information.
+
+3. (For b or c to have the desired effect...) The act of learning about effectiveness must not substantially decrease their willingness to donate.
+
+\
+In this section we consider the evidence for 
+
+- I. People's aversion/willness (or sense that it is appropriate/inappropriate) to evaluate effectiveness in a charitable giving context
+
+- II. The impact of being presented with (or actively pursuing) effectiveness information (which is naturally *analytical* information) on generosity and the willingness to donate
+
+
+<div class="marginnote">
+Effectiveness information may also affect how donors perceive the *social signaling* value of their donation. We return to this in the [signaling and social pressures...](#social) section.
+</div>
+ 
+\
+
+Further 'grant-worthy' motivation (unfold).
+
+```{block2,  type='fold'}
+
+As noted above, scientific evidence suggesting that organizations’ “cost per outcome” differs substantially, perhaps by a factor of 1000 or more (Jamison et al., 2006). This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like GiveWell now provide direct ratings on the basis of  per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors’ preferences for contributions “to be put to good use”—i.e., for direct interventions. 
+
+E.g., In Aknin et al  participants reported greater happiness when the impact of their contribution was highlighted.(van Iwaarden et al. 2009; Aknin et al., 2013). 
+
+However, while we have rigorous evidence on what works and doesn’t work in anti-poverty and health interventions (acknowledged by the 2019 Economics Nobel Prize), we actually know very little about how potential donors react to this impact information! However, we actually know very little about how potential donors react to this impact information!
+
+```
+\
+
+
+## General cost-benefit analysis (CBA)-aversion or reluctance {#cba-aversion}
+
+<div class="marginnote">
+This is hard to label: 'aversion' may be the wrong word: people may finding it less appropriate/normal/virtuous to do CBA in a charitable context, or it may naturally not occur to them to do it.
+</div>
+
+<!-- integrate in 'CBA_Nick.Rmd' -->
+
+### Description
+
+People may be reluctant^\*^ to consider the cost and benefits of the actions they are funding through their charitable donations (or they find this less appropriate/normal). This contrasts with a much greater willingness to consider these and other domains such as consumption, investment, and public policy. People also seem to avoid accessing/buying/seeing information (particular information that may be likely to feel compelled to give.)
+  
+<div class="marginnote">
+How is this reluctance observed/manifested?
+</div>
+
+### Theoretical/conceptual discussion
+
+For this to be considered a bias, the relevant individuals must intrinsically value the usefulness of their charitable activity at least to some extent. I.e., they must be Moral Utilitarians, at least in part, or for some of the time. However, they may consider it very costly or distasteful to actually do this evaluation, or it may clash with other motivations and tendencies.
+
+This aversion also must be distinguished from a lack of *ability* to do CBA in the charity domain; the latter would instead be considered a  [quantitative bias](#quant-biases).
+
+The reluctance to engage in this evaluation process may relate to the aforementioned <!-- where? --> "taboo trade-offs"; if these tradeoffs are taboo, considering them may involve great emotional distress.
+
+[@Berman2018] refer to the idea that "believing that charity is a subjective decision licenses individuals to donate in personally gratifying ways." This perspective plausibly combines partial and conflicted Utililitarian preferences with the presence of moral licensing.
+
+As Berman et al note, the belief that *CBA is not a natural part of the charitable domain* may stem from the lack of direct feedback one gets from donating (in Economics terms, a "credence" good) relative to consumption and investment goods. 
+
+<div class="marginnote">
+(they cite: Imas paper?)
+</div>
+
+Several papers^citation needed^ find that people are reluctant to pay for---or actively seek to avoid--- certain information. However, these may reflect motives distinct from CBA, such as a self-serving bias.  
+
+<div class="marginnote">
+On the other hand ...  a majority ranked effectiveness [how highly?] as a crucial criterion to select a charity and reported greater happiness when the impact of their contribution wasis highlighted.(van Iwaarden et al. 2009; Aknin et al., 2013) 
+</div>
+
+#### Psychological theory behind CBA {-}
+
+This CBA discomfort brings together several overlapping theoretical
+frameworks:
+
+-   Fiske's Relational Theory (1992; also see Aggarwal, 2004), which proposes four basic types of social relationships: communal sharing, authority ranking, equality matching, and market pricing. For more here, see Heyman & Ariely, 2004 on social vs economic markets. 
+
+-   Taboo Tradeoffs & Protected Values: to the extent that CBA requires making taboo tradeoffs that clash with protected values, people may be reticent to engage in CBA for prosocial purposes. 
+
+-   Distorted Altruists as the existing dominant view (contrast) c.f., Loewenstein & Small, 2007; Slovic, 2007 \-- people care about welfare maximization, **but without clear information to make comparisons**, they rely on their feelings to guide choice (Loewenstein & Small, 2007; Slovic, 2007). Berman et al 2018 build on this. 
+
+<div class="marginnote">
+We distinguish CBA opposition from the inability to conduct CBA. The former is treated here while the latter involves a series of [quantitative biases discussed later](#quant-biases).
+</div>
+
+#### Relevance to Effective Giving (restated in fold) {-}
+
+```{block2,  type='fold'}
+
+If *determining which charity is effective* requires CBA people may avoid doing so. If effective charities *force* people to consider CBA then people may avoid these charities in order to avoid having to do these evaluations.
+
+ 
+Stated more broadly, effective giving is predicated on conducting CBA for programs and organizations. To the extent that people are uncomfortable with CBA in the charitable domain, they will be uncomfortable with giving effectively.
+
+```
+
+
+### Evidence surrounding CBA {#cba-evidence}
+
+#### Evidence for claim: "People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..." {-#avoid_info_CBA}
+
+**[@Fong2011]** run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh;  each subject is matched with a particular recipient  of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers." 
+
+But this needs to be interpreted carefully:  *those who decide not to buy information appear less generous than the average*!
+
+<div class="marginnote">
+[@DellaVigna2012] provide evidence that people will pay costs to avoid being asked and avoid social pressure. However, for this same case *if* they are asked they then to respond by giving. While "avoiding the ask" is not avoiding cost-benefit analysis, it suggests that people are in fact strategic in avoiding things that  may make them feel compelled to donate. 
+Note: This evidence is only tangentially relevant.
+</div>
+
+\
+
+#### Evidence for "People rarely seek out effectiveness information and are reluctant to purchase it" {-}
+
+
+<!-- TODO - Cite: That survey-based study where few people say that they have
+looked into the effectiveness information on the charities they donate
+to -->
+
+In **[@null2011warm]**, in a final stage of her experiment:
+
+> Subjects were given the option to spend USD 5 of their total gift to the
+> development charities in order to find out which of the three would
+> receive a matching rate of USD 3 (the other two would receive matching
+> rates of USD 1.50). Altruistic subjects whose donation was at least USD 20
+> and gave to all three charities, or whose total gift is greater than
+> USD 35 and gave to two charities, would find it profitable to purchase
+> the information. ... (84%) met these criteria on gift size and number
+> of charities supported.
+
+> ...only 40% of subjects were willing to give up a small portion of
+> their endowments in order to find out which charity would receive the
+> highest rate; the rest preferred to allocate their gifts without
+> knowing what they would be worth to the charities."
+
+> \...These subjects who chose not to purchase the information
+> forfeited matching funds ranging from 30-150% of the value of their
+> unmatched gifts, with the median donor sacrificing matching funds
+> exactly equal to the value of her unmatched gift, a truly staggering
+> sum.
+
+\
+
+Null attributes this failure to buy information either to subjects who "simply did not care about the potential to substitute into the charity with the highest matching rate", perhaps driven by some form of simplistic warm glow motive, or to simple misunderstanding or fatigue (in an incentivized elicitation, she found some evidence of incomplete comprehension). To the extent this is *not* a misunderstanding, it might be seen as evidence of CBA aversion; participants did not want to purchase evidence that would require them to do calculations in this domain.
+
+\
+
+#### Evidence for "People do not respond 'efficiently' to information about costs and benefits" {-}
+
+<div class="marginnote">
+This should probably be moved to the nextg section
+</div>
+ 
+
+**[@null2011warm]** ran a set of experiments at Kiwanis/Rotary clubs and with "professional subjects" (university administrators?) at the Berkeley X-lab; the former strictly involved allocations *among* charities, in the latter case what was not given away could be kept. For the main reported treatments, participants made a series of decisions under different incentives (mostly on the same page and thus simultaneously?). The "prize" was \$100; in each session only one decision from one subject was chosen for actual payment/donations.
+
+Many participants who choose to donate positive amounts to multiple charities in earlier (?stages) continue to donate to multiple charities when one charity is given a better match rate; they only "imperfectly substitute" (and some even substitute away from the now "lower-priced" charity). She attributes this to both risk aversion (diminishing utility in to each charity's actual impact, along with uncertainty about this impact) as well to as a version of "warm glow" with a diminishing marginal benefit in the amount given to each charity.
+
+<div class="marginnote">
+She also introduces exogenous risks over matching rates, and notes that roughly 2/3 of those that choose to shift only imperfectly are not measured to be "risk averse".
+</div>
+ 
+However, this could also be attributed to a simple failure to make these cost-benefit calculations (as she also found some evidence suggesting misunderstanding
+of the nature of these incentives).
+
+
+<div class="marginnote">
+Consider also [@metzgerMakingImpactRelevance2019].
+</div>
+ 
+
+<!--
+> ***\[Cut?*** [^2]***Metzger and Gunther (2015)*** ran an (Economics)
+> lab experiment where (some) participants had the opportunity to buy
+> information about a real (but unnamed) NGO and then to make a real
+> donation to it (from their lab earnings). They vary whether the
+> information pertains to the effectiveness of the program (number of
+> years of education it provides per Swiss franc), the organizations'
+> administrative cost rate, and the recipient type (children in
+> impoverished countries versus young Swiss artists). They find that a
+> reasonable minority of people choose to purchase this information; 41%
+> in the " recipient type" treatment, 28.3% in the "administrative
+> costs" treatment, and 18.5% in the "aid impact treatment" (only the
+> largest difference is significant). **\]**
+
+*Additional interpretation of the above: some people fundamentally seem
+to not care about the money once it has left their hands, at least when
+it is framed in terms of [money]{.underline}*
+-->
+
+#### Evidence for "people accept and value subjectivity in the charitable domain more so than for other choice domains" {-}
+
+**[@Berman2018]** provide evidence from a series of five survey/vignette experiments; unlike those mentioned above, these (mostly) involve hypothetical choices among *multiple* causes. All experiments use standard subject pools (behavioral lab subjects or m-turkers) with reasonably large samples. All ask for hypothetical (Likert-scale) responses involving fictional charities, investments, and other scenariae; they mostly rely on between-subject responses, and their statistical analyses report reasonable tests on the relevant comparisons. 
+
+Their "Study 1: Perceived Subjectivity of Charity" found that, in rating statements such as "it is important that the ______ I choose reflects my personal tastes or values" and "It is more important to rely on objective measures rather than personal feelings when choosing ______  \... they found people agreed more with the *subjective/taste* approach when assigned a treatment where the blank was "Charity", relative to those assigned treatments involving medical treatments, investments, and cel phones. (But less than some other things like art, and similar to restaurants in some tests!) 
+
+Their "Study 2: Personal Feelings Versus Welfare Gains" presented participants with "Mary" and a pairing of fictional domestic (homelessness) and international (micronutrient) charities, presenting effectiveness information on both (clearly favoring the latter). The treatment\-- which charity Mary felt an emotional connection to\-- had a significant impact on the response to "Which charity should Mary donate to", in the predicted direction. They were also asked: "Which option does the greatest good for the greatest number of people?"; here responses favored the international charity for both treatments; but even so, when Mary felt connected to local charity, participants favored donating there.
+
+<div class="marginnote">
+
+Somewhat puzzlingly, Mary\'s connection to the charity also
+affected the stated "effectiveness" response! This bears a closer
+look.
+</div>
+ 
+ In their "Study 3: Charity Versus Investment Choice", subjects were assigned categories and fictional examples of either charities or investment, and presented domain categories and effectiveness information for each. Fewer participants in the charity treatment (relative to the investment treatment) chose to sort by effectiveness rating, and fewer chose the highest rated option.
+
+ In Study 4, they find that, in rating research departments for funding, participants pay more attention to charity effectiveness ratings when the are given the "role" of a "president of a local medical research center" rather than a donor. Similarly, in Study 5 participants assess someone who allocates funds to a research department; participants respond to the effectiveness of the department chosen more when rating the decision quality and altruism/selfishness of a "president..." than rating a "donor". 
+ 
+Overall, these suggest that, when considering charitable donations,
+people tend to favor--or at least to accept--the use of subjective
+preferences and personal ties, rather than objective information, and
+they do so more than for more "standard" goods and choices. This is more
+accepted for "donors" than for people with responsibility for others'
+funds.
+
+<div class="marginnote">
+Berman et al argue that their results demonstrate the acceptance of the suggestive preferences is somewhat attenuated by the \"role of responsibility\", but it\'s not clear what this term means or how this could be relevant to voluntary individual giving. 
+</div>
+
+However (as they do note), the effectiveness information
+still has *some* (positive) effect on participants' responses; it is not
+ignored. Their experiments also do not analyze the *avoidance* of
+information or CBA.
+
+\
+
+**Methodological strengths and weaknesses:** 
+
+- hypothetical nature of choices
+
+- some evidence suggestng these are not taken seriously
+
+- specific context in vignettes allow alternative interpretations...
+
+
+
+<!-- [^2]: DR: This could have been a very worthwhile study, but I think it
+    has a number of obvious flaws with its design and the potential to
+    interpret it in terms of willingness to pay for real effectiveness
+    information for doing a CBA. (For example, the artist versus poor
+    children recipients would also seem to be an effectiveness measure)
+    so I'm not sure it's worth reporting on.\]
+-->
+
+<!-- ## Market versus social norms
+
+"People see charity as in the social 'domain' not the market one, and thus find it strange to apply CBA to it. 
+"
+
+Commenting this out because it seems to be subsumed above
+-->
+
+## Information as an 'excuse' not to give; allows motivated reasoning
+
+**Exley, 2016b:** Greater discounting of 'less-efficient' charity in charity-charity decision-making than in charity-self d-m
+
+<br>
+
+**Fong & O, '10:**
+
+> "Dictators [charitable giving] who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers"
+
+`r format_with_col("But...","blue")`
+
+<br>
+
+<div class="marginnote">
+ 
+Exley issues: Experimenter demand (M-turk focus), not really 'impact' information
+Fong: Selection effects. In their tables, exogenous provision of information seems to *increase* donations overall.
+Also ... it's evidence on the deservingness of the recipients, not on impact of a charity itself.
+</div>
+
+<br>
+
+\
+
+
+**[@metzgerMakingImpactRelevance2019] **
+
+Lab donations to high/low-performing NGO
+
+- More purchasing of 'recipient type' than 'impact' info
+
+- Mixed & weak evidence on excuse-driven information-seeking
+
+<br>
+
+<center>`r format_with_col("Caveats...","blue")` </center>
+
+<aside class="notes">
+
+Opportunity to buy info on 'recipient type' increased giving, on 'admin costs' decreased giving (marginal significance for both), no effect of 'aid impact' but wide CI
+
+'Free info' on each of these had insignificant effects (underpowered!)
+
+Lots of caveats; e.g., recipient type (artists vs children) may have been seen as a proxy for impact
+
+</aside>
+
+<!--
+In a laboratory experiment, we analyze individuals’ demand for information about a donation’s welfare impact, and compare it with demand for information on recipient types and administrative costs. We find the least demand for information about aid impact, indicating that individuals either do not understand, do not trust, or do not care about the specific information we provide. Average donations increase in response to information about the recipient type and decrease in response to information about administrative costs. Information about aid impact does not significantly change average donations: donors who demand information respond positively to high impact projects and negatively to low impact projects, resulting in a zero net effect on donation levels. Our results further show that information has the same effect on donation behavior regardless of whether it is provided for free or at a cost.
+-->
+
+<!-- "Making an impact? The relevance of information on aid effectiveness for charitable giving. A laboratory experiment.":
+
+>...the demand for information about aid impact is lowest, and it is highest for information about the recipient type.
+
+> ... exact information about aid impact did not lead to a significant change in average donation levels, while information about the exact recipient type and administrative costs led to a significant change in donation levels.
+
+> In the recipient type group, informed participants donated significantly more than uninformed participants because they "rewarded" the preferred recipient with higher-than-average transfers. In the administration costs group, informed participants donated significantly less than uninformed participants because they used the information to "punish" NGOs with high administration costs.
+
+DR: It is not clear to me when they are reporting on the self-selected groups and when they report on the sample overall, or in a way that deals with the self-selection.
+
+Looking at their one clearer result, we see a lack of power.
+
+Average don:    2.45 CHF
+
+Aid impact group coef: -.231 (.45)
+
+This looks like an underpowered study. They can perhaps rule out an effect greater than around half of the average donation, but no more precisely.
+-->
+
+
+## Exposure to cost effectiveness and impact information (analytical information) may reduce generosity {#analytical-grinch}
+
+- may turn off System-1 and reduce giving
+
+- statistics diminish impact of 'identifiable victim'
+
+References: small2007sympathy_s3_s4, small2007sympathy_s1_s2, karlan2017effect, bergh_Reinstein	smeets2015giving
+
+See also: karlan2017effect, "Parsons, 2007"
+
+<!--DR: A related memo-- https://www.dropbox.com/s/t4lq8x9lqeg6gt9/practicalpresentingimpactinfo.pdf?dl=0-->
+
+
+```{block2,  type='note'}
+
+A subjective outline of the evidence:
+  
+The evidence (from the Economics/Behavioral Economics literature) is largely mixed and indeterminate. There has been only a single strong field trial [@karlanEffectEffectivenessDonor2017] in a particular context, which itself reported mixed (null overall, positive for some subgroups, negative for others), and some underpowered results. Laboratory experiments (with real donations) by Small et al find that giving to an identifiable victim is *reduced* when statistics are also presented and "priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime." Further evidence from lab experiments is mixed and limited, with some studies (Fong and O) *apparently* finding that exogenous information about recipient increases donations (although they do not report this).  There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies.
+
+```  
+
+### Presenting "Effectiveness" and other types of analytical efficiency information
+
+#### **Karlan and Wood (2017)** 
+
+> While Karlan and Wood (2017) did find that those who had previously donated large amounts gave more when they received effectiveness information (and Parsons found similar effects for efficiency and prior donors), the reason for this effect is unclear. For example, large/frequent donors may experience a greater pressure to donate in light of any new positive information.  
+- Bergh and Reinstein (2020)
+  
+**Design and results summary**: 
+
+Add scientific impact text to appeal (& remove emotional text):
+
+$\rightarrow$ little net effect
+
+$\rightarrow$ reduced (increased) giving among small (large) prior donors `r format_with_col("(not a preregistered hypothesis)","grey") `
+
+<br>
+
+`r format_with_col("*Potential confounds, specificity*","blue")`
+
+<aside class="notes">
+- Yale/institution effect (seemed negative)
+- Nature of 'impact' information (not exactly quantitative)
+- ex-post splitting
+- two things changed at once (impact in, emotional out)
+</aside>
+
+
+**Details of Karlan first wave: SCIENCE vs EMOTION**
+
+> According to studies on our programs in Peru that used rigorous scientific methodologies, women who have received both loans and business education saw their profits grow, even when compared to women who just received loans for their businesses. But the real difference comes when times are slow. The study showed that women in Freedom from Hunger's Credit with Education program kept their profits strong–ensuring that their families would not suffer, but thrive.
+
+\
+> Because of caring people like you, Freedom from Hunger was able to offer Sebastiana a self-help path toward achieving her dream of getting “a little land to farm” and pass down to her children. As Sebastiana's young son, Aurelio, runs up to hug her, she says, “I do whatever I can for my children.”
+
+\
+
+**Parsons (2007)**
+
+2 x 2 mailing appeal for People with Aids Coalition-Houston,
+
+- Add "Service efforts and accomplishment info"(SEA)
+- Add favorable "FINANCIAL" spending/overhead ratio info
+
+FINANCIAL (alone) $\rightarrow$ 180\% increase in odds of donating *among prior donors* ($p<0.05$)
+
+(Other effects mainly insignificant, underpowered)
+
+<div class="marginnote">
+ 
+Unsure if it's a logit or LPM -- confusing writing
+Not effect-coded; no measure of *overall* impact of FINANCIAL across both SEA treatments
+Probably not preregistered
+I'd like to see CI's
+</div>
+
+\
+
+
+```{r, out.width='85%', fig.align='center'}
+
+knitr::include_graphics('picsfigs/parsons_fin_treat.png')
+
+```
+
+
+```{r parsons_logit, out.width='85%', fig.align='center', echo=FALSE}
+
+knitr::include_graphics(c('picsfigs/parsons_logit.png'))
+
+```
+
+
+Further details from Parsons (unfold, direct quotes from paper)
+
+```{block2,  type='fold'}
+
+(This is all direct quotations:) 
+
+Potential donors were sent, via a direct mail
+campaign, fundraising appeals containing varying amounts of financial and nonfinancial
+information in order to determine whether individual donors are more likely to contribute
+when accounting information or voluntary disclosures are provided ...
+
+\
+
+A logistic regression provides evidence that some donors who have previously
+donated use financial accounting information when making a donation decision. The
+results are inconclusive regarding whether donors use nonfinancial service efforts and
+accomplishments disclosures to determine whether and how much to give, but participants in the lab experiment judged the nonfinancial disclosures to be useful for making
+a giving decision
+
+\
+
+Both experiments use a two-by-two design to manipulate the direct provision of (1)
+financial information (derived from mandatory informational tax filings which are available
+only if requested by the donor) and (2) voluntary disclosure of nonfinancial accounting
+information (not otherwise available to the donor). By analyzing actual cash receipts from
+the fundraising appeal, I find that donors who had previously contributed to the organization
+are more likely to donate when financial accounting information is directly provided. New
+prospective donors make larger contributions when either financial information or voluntary,
+nonfinancial accounting information is included with a basic fundraising appeal, but differences are not statistically significant. 
+
+\
+
+The first manipulation is to include financial information
+drawn from the audited financial statements with the basic fundraising appeal. Summary
+charts and graphs, instead of full financial statements complete with footnotes, are used to
+highlight the efficiency measures typically emphasized in previous literature. The financial
+information indicates that 92.5 percent of the entity's expenditures were directed to program
+expenses in the prior year. This figure compares favorably with the 60 percent suggested
+minimum level recommended by the National Charities Information Bureau
+
+\
+The second manipulation is to include a voluntary disclosure of service efforts and
+accomplishments (SEA) that describes the organization's past efforts to serve its beneficiaries and gives specific information about the success of its programs (see Appendix C).
+This information is in narrative form and written in lay terms. 3 It provides both output
+(quantity of product or service produced) and outcomes (results) information as defined in
+Hatry et al. (1990).
+
+\
+
+Charity: People with Aids Coalition- Houston
+```
+
+
+#### Bergh and Reinstein (2020, SPPS)
+
+From Abstract:
+
+>  Across six experiments we examined how images of identified victims interact with information about charity efficiency (money toward program) and effectiveness (program outcome). We further examined if the images primarily get people to donate (yes/no), while efficiency/effectiveness might provide a tuning mechanism for how much to give. Results showed that images influenced the propensity to donate and induced participants donate their full bonuses, indicating heuristic effects. Efficiency and effectiveness information had no effects on donations. 
+
+<div class="marginnote">
+Need to delve into this further: tight null effects or underpowered studies? Consider confidence intervals of effects reported, as in tables below. These need some clarification and improved formatting.
+</div>
+
+\
+```{r bergh_pooled, out.width='85%', fig.align='center', caption='Reinstein and Bergh, pooled regressions, with confidence intervals', echo=FALSE}
+
+knitr::include_graphics(c('picsfigs/bergh_pooled_regs.png'))
+
+```
+
+(Note that in the above, all binary variables are 'effect coded')
+Considering 'Don share' (the share of the endowment contributed), as well as the linear probability model, we see that the pooled effect of the effectiveness information is fairly tightly bounded around zero. Even at the 95% lower bound, the effect is no more than an 11% reduction in the share donated (.04/0.35), and a 10% reduction in incidence (.06/.62).
+
+\
+Study 6 had the most straightforward 'impact information' as per our definitions.
+\
+```{r bergh_fisher, out.width='85%', fig.align='center', caption='Reinstein and Bergh, Study 6, Fisher tests of donation incidence, with confidence intervals', echo=FALSE}
+
+knitr::include_graphics(c('picsfigs/study_6_fisher_cis.png'))
+
+```
+
+
+> Above we see estimated of odds ratios, relative to the control group, of the incidence of donating to RB (Carter Center: the river-blindness charity) and GD (Guide Dogs for the blind). Confidence intervals reveal a lack of power. However, there is suggestive evidence (p=0.09 and p=0.16, respectively) that the image lead people to be less-likely to donate to GD and more likely to donate to RB. This may have been driven by the African appearance of the blind girl depicted.  
+
+The wide confidence intervals of the odds ratios suggests that Study 6 had limited statstical power.
+
+
+
+
+### Evidence: Analytical information $\times$ emotional information and 'identifiable victim'
+
+[@Kogut2011; @Loewenstein2007; @Small2003:1; @Small2007; @Small2007a]
+ (Drouvelis & G, ’16), (Caviola ea, ’14)
+ 
+ 
+#### [@Small2007], studies 3-4 {-}
+
+Study 3: 
+
+> individuals who faced an identifiable victim donated more than those who faced victim statistics, p < .01, and also donated more than those who faced an identifiable victim in conjunction with statistics, p < .05.
+
+(They interpret the statistics as possibly 'debiasing' the IVE)
+
+\
+
+> Study 4: "Priming analytic thinking [math problems] reduced donations to an identifiable victim relative to a feeling-based thinking prime ["impression questionnaire"]. Yet, the primes had no distinct effect on donations to statistical victims, which is symptomatic of the difficulty in generating feelings for these victims."
+
+\
+
+**Considerations**
+
+Basic design has key strengths: Double-blind, real donations, distractors, careful use of language.
+
+Primes: Note, the latter non-effect appears tightly bounded; but this could simply be driven by nonlinearity. If people gave little to statistical victims, there is less room for this to decrease further. A classic problem when considering interactions.
+
+
+
+```{block2,  type='note'}
+
+Ideas42 Summary: 
+
+Researchers gave study participants the opportunity to donate $0-5 to famine relief efforts at Save the Children (n = 159). One group received letters that included a picture and brief description of a little girl. A second group received letters describing factual information about food security, and a third group received letters with both the little girl’s profile and factual information. The photo and description prompted an emotion-based response, raising more than twice as much money as the factual solicitation. Including factual information with the girl’s profile reduced this effect, with no significant difference in giving between those who received both pieces and those who received factual information only
+
+```  
+
+\
+
+#### Bergh and Reinstein, 2020, SPSS {-}
+
+
+
+
+## Overall 'net' responses to charity ratings {#ratings}
+
+There is a small body of evidence on how charity quality ratings (which are not typically 'impact' ratings as we have defined it) affect, or at least correlate with a  charity's fundraising success. The effect of these ratings presumably relates both to individual's willingness to seek out and process this information ([as in our discussion of CBA](#cba-aversion)), and to the impact of this information on an individual's generosity (as in our discussion of . If individual's strongly avoided seeing this information and ignored being exposed to this information 
+
+### Evidence on responses to charity ratings
+
+
+One characterization, from Bergh and Reinstein (2020)
+
+>  Some work further suggests that changes in charity ratings lead to changes in charity revenues (e.g., Gordon, Knock, & Neely, 2009; Yörük, 2016), but it is unclear if this is driven by efficiency evaluations per se. For instance, people might respond to the number of stars given to a charity without deeply considering what these stars represent.
+
+
+#### Yörük, B. K. (2016). {-}
+
+**"Charity ratings" Journal of Economics & Management Strategy, 25(1), 195-219.**
+
+\
+**Relevance**: Reasonably strong causal evidence that in general, charity ratings may boost a charity's fundraising, at least for some types of charities. However, this is based on Charity Navigator ratings, which do not generally agree with our measures of impact.
+
+\ 
+
+**Type of evidence:**  Observational, claiming causality through a regression discontinuity framework
+
+- Charity Navigator stars are based on a continuous score across categories
+- Identification via RD: Impact of crossing a 'star' threshold on amounts raised
+
+\
+
+**Background mechanisms and related evidence:**  the role of consumer reviews and independent ratings in for-profit sectors, e.g. Luca(2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, Jin and Sorensen (2006): health plan ratings have a significant impact on individuals’ health plan choices, Reinstein and Snyder (2005): positive expert reviews have a significant effect on the box office revenue of movies.
+
+\
+
+**Key findings:**
+
+- For relatively smaller and unknown charities one star increase in ratings is (causally) associated with a 19.5 percent increase in the amount of charitable contributions received
+
+
+\
+
+
+
+#### See also
+
+vesterlund2003informational	Chhaochharia_Ghosh_08?, Landry2010, Brown2016
+
+  Gordon ea (2009)
+
+<!--chapter:end:sections/eval-aversion.Rmd-->
+
+# Barriers: Quantitative biases {#quant-biases}
+
+
+## Biases in perceiving impact
+
+Cognitive biases: Overweighting and underweighting probabilities, misunderstanding marginality, scope-insensitivity, Opportunity-cost Neglect. etc. Identifiable victims effect.
+
+<!-- Responses: De-biasing, etc. -->
+
+small2007sympathy_s3_s4, Gneezy2014, small2007sympathy_s1_s2
+
+kogut2005identified, kogut_2005b, Kinsbergen_tolsma_13, summers_1997, galanter_1962
+
+## Other  biases driving departures from efficiency
+
+
+## Proportional dominance effect {#prop-dom}
+
+<div class="marginnote">
+AKA 'drop in the bucket', 'psychosocial numbing', 'psychophysical numbing'
+</div>
+
+
+Proportional dominance effect/drop in bucket/psychosocial numbing/psychophysical numbing	2.7 Quantitative biases
+
+
+<!-- See also (Ari's writeup
+[[HERE]{.underline}](https://docs.google.com/document/d/1zzGTkF5sZnDUtzE-NS3sYOHOLQw8eDxC5Qt3_Wy62wA/edit#heading=h.r4qi0rwohl6r)) -->
+
+### Definition
+
+Related Terms include:   Drop in the bucket; mechanisms include "futility thinking" (Unger?), psychosocial numbing, quantitative confusion/innumeracy
+
+
+<!-- *1-4 sentence description/definition of the barrier* -->
+
+This claim can be summarized as follows: 
+
+(For a given per-dollar impact on the outcome), people are be less
+willing to donate towards a cause when the magnitude of the underlying
+problem is (framed as) larger. 
+
+Mechanism: Underlying this is the idea that a certain amount of impact (e.g., relieving suffering) is perceived as smaller and thus less valuable when the underlying problem is larger.
+
+### Conceptual Discussion
+
+<div class="marginnote">
+Overview of findings from papers, caveats, how the concept works, etc. Provides context for evidence section; Discussion of the relevant mechanisms at play; Discussion of the relevant established theories.
+</div>
+
+
+*[Definitional issues and disambiguation]{.underline}*
+
+This needs to be distinguished from scope insensitivity. Note that if people are being analytical, they must *care* about scope in order to care about their impact, and thus (mistakenly) react to the perceived lower impact of donating when the needs are much greater. 
+PD arguments may also be used as vehicle for motivated reasoning, and thus not be an important driver in itself: E.g., I don't want to donate so I focus on my impact being a share of the overwhelming need (which I might opportunistically define broadly) to conclude that helping is futile.
+
+Note (unfold)...
+
+```{block2,  type='fold'}
+
+BG:  My thought was that people who do not value saving lives (or are in general unwilling to contribute to it or oppose policies spending money on foreign aid for some other reason, e.g. prejudice) exercise a form of motivated reasoning to justify this (perhaps in a nonstandard way). They choose to reason according to the 'proportional' standard in order to conclude that it is not worth mdonating to these causes because 'the scope of the problem is too large and they will never be completely solved'. I suggest that people apply this reasoning to problems specifically when they do not want to take action to address these problems. (In contrast, in domains where they do want to make a change, they may use a different, more marginal and \'consistent\' sort of reasoning.) E.g., (to be stereotypical) imagine a MAGA person who wants to end foreign aid because \"Africa will always have endless problems\" but who wants to impose restrictions on abortion (even knowing millions of abortions will continue to occur) because \"every unborn life matters. 
+```
+
+To operationalize this, we need to define what the numerator and denominator represent. For the numerator, an (EA) impact-driven individualist donor might consider of her *own* contribution (per dollar or overall) relative to the size of the need. In contrast, a more collectivist/team-reasoning/communitarian thinker might consider the impact of the *total* expected donation relative to the size of the need. We also need to better define the denominator; how do individuals lump together different groups/problems to define the overall scale of the need, and how sensitive is this to the fundraisers' framing? 
+*[Mechanisms]{.underline}*
+
+Fetherstonhaugh et al (1997) highlight "Weber's law": Humans are sensitive to proportional changes/proportional differences in stimuli (loudness, brightness, etc); thus we are less sensitive to small changes relative to a larger baseline. There is evidence this also holds in assessing losses of life. \... the "subjective value of saving the specified number of lives is greater for a smaller tragedy than for a larger one" . 
+
+Baron attributes PD to quantity confusion and classifies this as "contamination by an irrelevant factor"; more generally, this could be seen in terms of *innumeracy*. 
+
+This may lead to a lower willingness to contribute to a problem when the apparent scale (or "denominator") of the problem is larger (e.g., more lives at risk), holding constant the benefit per dollar contributed (cost per life saved). The *perceived* scale of the problem may depend on how it is framed by fundraisers, charities, and the media. However, this may not be completely manipulable: e.g., massive global problems may not be easy to "frame down." 
+"Loewenstein and Small (2007) suggested that the PDE is driven by
+increased sympathy towards the victims when one can help a large
+proportion of the victim reference-group." \-- Erlandsson et al
+
+### EG Relevance
+
+<div class="marginnote">
+How this particular barrier proves problematic for effective giving.
+</div>
+
+This effect represents a general departure from appropriate assessment of the marginal benefit (per cost) of a particular charity/intervention. Thus this is a general barrier to accurate assessment of effectiveness ergo a barrier to effective giving. 
+
+In addition, it might be argued that more effective interventions (e.g., targeting poor Africans versus US poverty) may tend to address problems that are inherently larger in scale and magnitude. These may be intrinsically harder to "frame down", implying EG will suffer more from this bias. 
+
+### State of Evidence
+
+<div class="marginnote">
+Key papers: Summarize findings and key takeaways, Short description of
+methods for relevant studies, Make sure to include both description of
+evidence and evaluation of evidence
+</div>
+
+**Fetherstonhaugh et al 1997** (notes
+[[HERE]{.underline}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#heading=h.8ax2rgfz70of))
+
+[Methods]{.underline}
+
+Range of hypothetical scenariae and evaluations, within-subject
+manipulations only (with clear contrasts), framed as aid/targeting not
+charitable donations, standard (mostly Economics) student subject pools.
+
+These authors conducted survey experiments on standard (fairly small
+sample?) student participants. They presented a variety of hypothetical
+scenariae (e.g., "imagine themselves as a government official of a
+small, developing country"\...), asking for ratings, rankings, etc.
+
+\
+**Findings**
+
+> Studies 1 and 2 found that an intervention saving a fixed number of
+lives was judged significantly more beneficial when fewer lives were at
+risk overall. Study 3 found that respondents wanted the minimum number
+of lives a medical treatment would have to save to merit a fixed amount
+of funding to be much greater for a disease with a larger number of
+potential victims than for a disease with a smaller number.
+
+
+**Evaluation of paper's evidence:*]{.underline}**
+
+Strengths - Reasonably realistic frames, (mostly) consistent results
+across a variety of frames
+
+Limitations - Hypothetical, framed, nonrepresentative, and does not
+directly address *own* contributions
+
+Within-subject treatments here:
+
+(+) allow estimation of heterogeneous responses,
+
+(+/-) highlight the difference in denominators/proportions, making them
+salient; but this might also be expected to be an inhibitor of this
+(seemingly non-rational) effect, especially for the Economics-trained
+sample
+
+Statistical tests (ANOVA) appear strong and highly significant in most
+cases, but further investigation warranted (e.g., pre-registration?
+Evidence of specification fishing and MHT?)
+
+**Erlansson et al (2015)**
+
+(Study 4)
+
+> The PDE-ad was in part based on text from the homepage of a
+> well-known global charity organization focusing on poverty in
+> developing countries. Participants read about Polio and were told that
+> if receiving the expected amount of private donations, it would be
+> possible to vaccinate children so the death rate would decrease by
+> approximately 500 children per year. In the large reference-group
+> version, participants read that 60,000 children in Africa annually die
+> from Polio so the project had a potential rescue proportion of 0.83%.
+> In the small reference-group version, partici pants read that around
+> 500 children in Botswana annually die from Polio so the project had a
+> potential rescue proportion of more than 99%.
+>
+> \...followed by eight questions about participants' reactions towards
+> the advertisement. The suggested mediators (distress, sympathy,
+> perceived impact and perceived responsibility) were measured with two
+> questions each
+>
+> \...after reading and responding to the three ads, participants were
+> told that thanks to their participation, 10 Swedish Kronor (SEK)
+> \$1.50 would be donated to charity. The participants were asked to
+> allocate the money between the three organizations by writing an
+> amount (0--10) after each ad and the sum had to be 10 SEK
+>
+> \...All participants read either one ad from the low end of the
+> effects (statistical victim, large reference-group, out-group victims)
+> plus two ads from the high end of the effects (identified victim,
+> small reference-group, in-group victims) or two ads from the low end
+> plus one ad from the high end.
+>
+> [Results]
+>
+> Participants who read the PDE-ad in the small reference-group version
+> had higher helping intentions (M = 3.77, SD = 1.64) than participants
+> who read the large reference-group version, M = 3.46, SD = 1.57;
+> t(430) = 2.01, p = .045. However, participants who read the small
+> reference-group version did not write that they would donate more
+> money if asked (Mean rank = 213.68) than participants who read the
+> large reference-group version (Mean rank = 218.31; Mann--Whitney U =
+> 22720.50, Z = 0.40, p = .686). Despite this, participants who read the
+> small reference-group version allocated more money to the organization
+> distributing Polio- vaccines (M = 4.30 SEK, SD = 2.85) than the
+> participants who read the large reference-group version, M = 3.50 SEK,
+> SD = 2.87; t(430) = 2.91, p = .004. Although not perfectly consistent
+> between the different outcome variables, the results suggest that we
+> replicated the PDE.
+
+[Evaluation of evidence (Study 4):]{.underline}
+
+Strengths - Realistic charity frame, reasonable implementation of
+small/large "reference group" frames, outcomes record both
+intentional/attitudinal and actual (small) donation measures
+
+Limitations - A choice *among* charities only
+
+Statistical tests -
+
+**[Brief on tangential papers (non charity) and papers supporting the
+mechanism]{.underline}**
+
+**Baron, 1997: "Confusion of Relative and Absolute Risk in Valuation"**
+
+[Methods]{.underline}
+
+Hypothetical willingness to pay (wtp) questions. Within-subject
+manipulations only; standard student subject pools, small samples.
+
+<div class="marginnote">
+They do reverse order of presentations for half the participants.
+  They report a lack of significant order effects, but fail to discuss
+  the power of such tests or examine first-presented choices in
+  isolation.
+</div>
+
+
+S1: Questions about (hypothetical wtp for components of government
+government health insurance. "[Denominator] people die from this
+disease each year. Their average age is 60. How much are you willing to
+pay to cover a treatment that will save the lives of [Numerator] of
+these people?"... (Numerator=90 or 900; Denominator=100, 1000, or
+10,000), all combinations presented to all participants.
+
+S2: Set of causes, each gave wtp for a government program for a 5%
+reduction in that cause of death and for saving 2,600 lives, also rating
+prevalence and importance. He reports a very high correlation between
+wtp by these two measures, an "insensitivity to quantity", and both wtp
+measures are higher when subjects report a higher prevalence (even
+controlling for stated importance).
+
+[Evaluation of paper's evidence]{.underline}: This evidence appears
+highly limited. There is some evidence that denominators matter when
+they (arguably) should not, and participants show confusion between
+proportions and absolute amounts. The second experiment is highly
+cognitively demanding and participants have no strong incentive to "get
+this right." The first experiment has arguable confounds: e.g., one
+might question the scientific credibility of the treatment that (claims
+to) save only a small number of lives out of a very large population.
+The evidence does not seem to offer much strength over and above the
+Fetherstonhaugh paper. I also found much of the statistical reporting to
+be incomplete or unclear, especially for study two. In general, this is,
+at its best, evidence of quantitative confusion which may go in either
+direction in any given context.
+
+It is also detached from the charity realm, considering the domain of
+government expenditure and benefits that will accrue to the participant
+him or herself. For this reason, I listed it is tangential evidence and
+not charity specific evidence.
+
+**Jenni and Loewenstein (1997)** Provides support for the "reference
+group effect" (proportional dominance) as an explanation for the
+identifiable victims bias. (notes
+[[HERE]{.underline}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#))
+
+**Friedrich et al (2008)**
+
+> PN was investigated by varying the supposed number of brak-
+ing-related traffic fatalities each year as a within-subjects variable
+and then obtain- ingjudgments of support for a new antilock brake
+requirement.
+
+> Experiment 1 manipulated respondents' accountability ["...the
+experimenter will ask you at this time to explain the reasoning behind
+your decisions and to justify how you arrived at your recommendations"]
+as a way of exploring whether PN responding is the result of careless or
+heuristic processing. Extensive work with accountability manipulations
+has shown them to be effective in debiasing... [other stuff]. ...
+when they expect to have to justify their reason- ing to others, should
+also be revealing in terms of what they believe constitutes a
+defensible, normative strategy.
+
+> [also] a manipulation designed to highlight the salience of the
+individual lives at risk ... [a] description of a preventable, fatal
+accident with named individuals...
+
+> , par- ticipants read that the "Federal Transportation Board"
+estimated annual fatalities due to driver error in the use of
+conventional braking systems to be approximately 41,000 ("large
+problem") or 9,000 ("small problem").
+\
+
+**Outcome measures:**
+
+-   "support-for-intervention", 7-point scale
+
+-   "Lives-to-save" 
+
+> "What is the minimum number of these (9,000/41,000) lives at risk ... saved each year before you... require consumers > to pay for anti-lock brakes"
+
+Treatments started with one size, then presented a "task force's new
+estimate" with the reverse.
+
+***[Overall evaluation of evidence]{.underline}***
+
+***[Evidence gap and suggestions for future work and
+approaches]{.underline}***
+
+### Potential Solutions
+
+```{block2,  type='fold'}
+
+1.  Framing
+
+a.  Frame down denominator (suggestive evidence from Fetherstonhaugh, etc)
+
+b.  Report absolute or proportional number of lives that could be
+   saved by an intervention depending on which suggests a smaller
+   denominator (how do you know?)
+
+c.  Highlight numerator (impact) (evidence?)
+
+d.  (Ari:) "Increase evaluability: putting interventions on same
+   page instead of separate pages"
+
+2.  De-biasing (discussed further in Friedrich et al - expand)
+
+*Consider:*
+
+-   *"The proportion dominance effect was primarily mediated by
+   perceived impact." (Erlandsson et al, 2015, OBHDP)*
+
+-   *"Perceived Utility (not Sympathy) Mediates the Proportion Dominance
+   Effect in Helping Decisions" (Erlandsson et al, 2013)*
+
+
+```
+
+## Statistical/identifiable victim effect
+
+Cite: Hsee13, small2003helping, kogut2011identifiable, small2007sympathy_s3_s4
+
+## Availability heuristic 
+
+(in probabilities?)
+
+People judge the probability of events and the importance of problems by the ease by which they can be brought to mind.  This may  impact  the importance they ascribe to causes and charities.	Effective  causes may be distant and underreported, for various reasons. Furthermore there may be a set of charities that are for a variety of reasons underreported or unconnected to the lives of the majority of donors; these will be neglected (and thus  more effective by dint of a lack of funding).
+
+Effective causes may be distant and underreported, for various reasons. Furthermore there may be a set of charities that are for a variety of reasons underreported or unconnected to the lives of the majority of donors; these will be neglected (and thus  more effective by dint of a lack of funding).
+
+## Overhead aversion
+
+
+### Related Terms {-}
+
+-   Similar terms: Overhead bias
+
+-   Possible mechanisms: waste aversion, perfectionism; evaluability bias (for this versus other metrics); excuse-driven/motivated reasoning
+
+-   Distinct but related: corruption aversion
+
+### Description {-}
+
+Potential donors may have a negative feeling towards a charity's costs
+that are considered "overhead" rather than "direct spending on program
+activities." This may make them reluctant to donate to charities that
+express a high "overhead ratio" and/or when they believe their donation
+will go to "pay for overhead", and to favor instead charities that
+report low "overhead ratios".
+
+Discussion: There are some clear flaws in this logic (thus we may call
+it "overhead bias"): many things considered overhead are fixed or sunk
+costs which will not be changed by the amounts donated; thus, at the
+*margin* the donation may not actually go towards this overhead.
+
+Marginal overhead is also possible. Suppose, e.g., the cost of an
+additional year of school tuition fees for a child are \$200, but this
+requires an additional administrative cost of \$50 to vet the student
+and her family, pay money transfer fees, fill out additional forms, etc.
+A donation of \$200 earmarked for "tuition only" would require an
+additional \$50 of these costs, which might be labled "overhead".
+However, as this example suggests, many such "overhead" expenses are
+necessary parts of the mission, an increase its effectiveness (e.g.,
+training employees, auditing, evaluating and targeting programs). On the
+other hand, we cannot rule out that in some cases high overhead might be
+a signal of inefficient practices. Where organizations have bloated
+annual operating expenses it might be more efficient for them to close
+down in the medium term and for that money to be used for leaner
+charities. (Several theoretical papers [ref: Steinberg ?1986 and later
+work] discuss whether or not the overhead ratios are a sign of
+efficiency.)
+
+### Overview of Evidence {-}
+
+Survey and observational evidence suggests that donors focus on
+potentially misleading measures of overhead. Gneezy et al (2014) present
+a credible piece of field-experimental evidence suggesting that having a
+"lead donor" and framing this as "covering overhead" may increase
+donations. Metzger and Gunther's (2019) lab participants donate
+(marginally) significantly less when presented with (the option to buy)
+information about a NGO's administrative costs (perhaps because such
+costs were made salient). Caviola et al's (hypothetical?) experiments
+suggest that *evaluability* may drive the focus on overhead rather than
+effectiveness. Portillo and Stinn's lab participants favored
+overhead-free charities and preferred fundraising-related to
+salary-related overhead. Kinsbergen et al's representative (Dutch)
+survey participants "have a strong aversion regarding overhead costs,
+[but]\... seem to value the capacities of paid staff members and are,
+to a certain extent, willing to pay a price for these."
+
+
+### Relevance to effective giving
+
+-   How this particular barrier proves problematic for effective giving?
+
+Study [ref] finds 'no correlation' between overhead and
+effectiveness\-- is it convincing?
+
+As noted above, overhead is an important input to the charity's
+production function, enabing it to be effective. A biases against
+overhead therefore distort's the donor choice of charity away from
+effectiveness. The other side of this coin: in an efficient market firms
+provide the services consumers demand. If consumers have a preference
+for firms that use a lower share of some input, this will "distort" the
+production process away from this input, making it seem artificially
+costly [ref: Reinstein and Song, others]. Similarly, if donors punish
+charities for excessive overhead, charities will use "too little" of
+inputs deemed to be overhead.
+
+Note that doing impact evaluation will itself increase overhead. I.e.,
+aversion to overhead will lead people to be biased against
+evidence-based charities that evaluate their own programs.
+
+While the above concerns do not necessarily tilt against charities
+targeting overeas or lower-profile causes, it nonetheless represents a
+departure from efficiency in choice/provision of charitable services.
+
+Furthermore, there is a reasonable case [todo: get evidence] that
+working in poor countries, countries that are further from the charity's
+headquarters, and countries more distant from legal, financial, and
+other services *will* lead to a greater overhead ratio. This may be
+accentuated if the *basic* service (e.g., food, housing, or education)
+is cheaper in poor countries. E.g., sending a poor child in Chicago to a
+summer enrichment program might cost \$4000 in fees and \$500 to
+administer the scholarship, roughly 11% "overhead share" . Sending a
+poor Ghanaian child for a year might cost \$300 plus \$100 in
+administration, a 25% share.
+
+### State of Evidence; key papers {-}
+
+**Methodological issues** 
+
+
+-   Observational (correlational) studies: Overhead varies across
+charities in non-random ways; may be correlated to unobservable
+characteristics. There may also be reverse causality --
+fundraising expenses both increase reported overhead and
+(presumably) drive donations.
+
+-   Meer (2017) identified plausibly exogenous variation; but this
+pertained to *actual* incremental costs/prices, rather than
+the "overhead" costs at issue
+
+-   Field experiments can vary *presentation* or *framing* of overhead
+but not (typically) a charity' *actual* administration processes
+(thus "overhead")
+
+-   Lab experiments can vary the actual price of giving but this doesn't
+represent the real-world "overhead" issue; others
+
+-   In contrast, Metzger and Gunther varied the charity the subjects
+could donate to, but imposed a strong framing of the
+administrative costs as a marginal price).
+
+-   Survey and hypothetical vignette evidence (usual issues)
+
+#### Gneezy, Uri, Elizabeth A. Keenan, and Ayelet Gneezy. "Avoiding overhead aversion in charity." Science 346.6209 (2014): 632-635.\| {-}
+
+Gneezy et al (2014) ran a large-scale (N=40,000 [check]) mail solicitation on behalf of an organization seeking to fund as many US educational projects (each costing \$20,000) as possible. Recipients were asked to give \$20/50/100. They found that framing a lead donation as "covering[ing] all the overhead costs associated with raising the needed donations" lead to a significantly greater share donating and amount raised than either the control condition (no lead donation?) or a seed ("has given this campaign seed money") or matching frame ("will match every dollar given... up to a total of \$10,000").
+
+<div class="marginnote">
+ Results
+
+Share donating: Overhead (8.5%) $>$ \*\*\* $\geq$    Match $>$ Control (3.4%)
+
+Amount raised: Overhead (\$2.31) \> \*\* Seed, Match > \*\*\* Control (\$0.80)
+
+</div>
+ 
+
+Note that while the framing differed, the *actual* treatment of the seed money in each case was the same; unless the charity could change the way it *administered* its programs between treatment, there is no clear way to experimentally vary the *actual* overhead. 
+
+This amounts to a clear piece of evidence that in such contexts
+*framing* overhead as being "covered" in this way may increase
+donations. However, it doesn't reveal donors' reaction to the reported
+measure of overhead *itself*. The effect may come from the particular
+salience of the way the lead donor's (particularly selfless) act is
+portrayed, or it may be specific to overhead "*associated with raising
+... donations"* rather than administrative overhead, salaries, etc.
+
+The same authors ran a *lab* experiment where they were able to vary the
+share of the subjects' donation that actually went to the charity,
+labeling the difference (donation - amount passed) as "overhead", and in
+a second treatment arm, whether this "overhead" was covered by a third
+party. The results were similar to the field experiment [CHECK, go into
+more detail]. However, this transparent "donation reduction" has little
+in common with the real-world costs usually depicted as "overhead". In
+this lab experiment, a donor who cares about her marginal impact
+*should* consider the pass-through rate or "price"; this is not
+"overhead illusion".
+
+<div class="marginnote">
+ Other standard critiques of lab experiments in this domain apply    here.
+ </div>
+ 
+
+#### Portillo, Javier E.; Stinn, Joseph, (2018). "Overhead Aversion: Do Some Types Of Overhead Matter More Than Others?". Journal Of Behavioral And Experimental Economics, 72, , 40\--50. {-}
+
+Lab experiment
+
+> If an overhead-free donation is readily available, then the average
+donor in our experiment (70--80% of subjects) prefers that charity to
+receive the donation. However, if donations are not overhead-free, most
+(approximately two-thirds of subjects) prefer the donation go toward
+fundraising efforts instead of salary-related expenditures.
+
+\
+
+
+
+#### Kinsbergen, Sara; Tolsma, Jochem, (2013) {-}
+
+"Explaining Monetary Donations To International Development Organisations: A Factorial Survey Approach". Social Science Research, 42, 6, 1571\--1586. 
+
+Hypothetical survey (vignettes, scenarios) "We constructed 960 scenarios in which a fictive international development organisation was described. ... A large representative sample of the Dutch population (N = 2,758) received six randomly allocated scenarios and had to decide if, and if so, how much they would donate to the depicted (fictive) organisation.... Although donors have a strong aversion regarding overhead costs, we find that donors seem to value the capacities of paid staff members and are, to a certain extent, willing to pay a price for these.
+
+\
+
+#### Meer, Jonathan, 2017 {-}
+
+"Effects of the price of charitable giving: Evidence from an online crowdfunding platform 
+"
+
+-   DonorsChoose platform involves plausibly exogenous variation in the providing (the same) goods to teachers across projects (varying sales taxes, fullfillment, payment processing fees, etc).[^3] Fees are 'explicit and salient'.
+
+-   Robust analysis (e.g., teacher fixed-effects) to address a potential
+    > endogeneity concern (saavy teachers economize on fees)
+
+-   An increased price of giving results in a lower likelihood of a
+    > project being funded. We also calculate the price elasticity of
+    > giving, finding estimates between −0.8 and −2.
+
+However, this does *not* typify the overhead we are considering. Here,
+we see variation in the donot's *actual* costs of providing outputs; as
+in Gneezy et al's lab experiments, this is not "illusion". While donor
+responses to e.g., greater fixed costs of maintaining an office in
+Malawi, or greater costs of identifying legitimately poor families
+*might* be similar, we do not know.[^4]
+
+<div class="marginnote">
+"...variation in the payment processing, optional support, and
+    fulfillment fees described above; along with sales taxes and
+    shipping fees charged by vendors. ... the optional support fee
+    changed twice over the course of our data and the payment processing
+    fee changed once. The fulfillment fee, a fixed amount, changed three
+    times in the time covered by the data. In addition, this fee affects
+    the efficiency price of different-sized projects differently. The
+    changes affected only newly posted projects; therefore, for nearly
+    half a year after each change was implemented, active projects that
+    might be otherwise identical had different fee levels."
+</div>
+ 
+
+
+#### Solutions (add section)
+
+-   "Seed donor covering overhead"
+
+-   Simultaneous comparisons and evaluation of impact and overhead where
+    > relevant (Caviola et al)
+
+-   De-biasing?
+
+
+Other papers to look into and incorporate (unfold)
+
+```{block2,  type='fold'}
+
+Borgloh, S., Dannenberg, A., Aretz, B., 2013. Small is beautiful -
+experimental evidence
+
+of donors' preferences for charities. Econ. Lett. 120 (2), 242--244.
+
+Hope Consulting Survey:
+
+"a recent survey found that only 35 percent of donors do any research
+before giving (Hope Consulting, 2012), this is a valid concern -- though
+among those who did research, the most commonly sought information was
+some type of overhead ratio, and two-thirds were seeking some sort of
+information related to efficiency."-Meer
+
+"Making an impact? The relevance of information on aid effectiveness for charitable giving. A laboratory experiment" Metzger L Günther, *Journal of Development Economics (2019) 136* 
+
+**"**We thus clarified that a decrease in administrative costs from 40%
+to 10% is equivalent to a 50% increase in net transfers to the
+recipient, in an attempt to make the administration costs group as
+comparable to the aid impact group as possible." \-- this oversimplified
+framing may be driving their results.
+
+"A. a relatively small share of people makes a well-informed donation
+decision. B. the demand for information about aid impact is lowest, and
+it is highest for information about the recipient type. C. impact info
+didn\'t affect average donation, while information about the exact
+recipient type and administrative costs led to a significant change in
+donation levels."
+
+"In the recipient type group, informed participants donated
+significantly more than uninformed participants because they "rewarded"
+the preferred recipient with higher-than- average transfers. In the
+administration costs group, informed participants donated significantly
+less than uninformed participants because they used the information to
+"punish" NGOs with high administration costs."
+
+"only 28% of the participants in the bought ANY information (impact, who
+benefits overhead). Within that, highest demand for beneficiary, lowest
+for impact. Impact info no effect on giving. Knowing who benefits info
+increased giving. Overhead info decreased giving."
+
+**Caviola, L., Faulmüller, N., Everett, J. A., Savulescu, J., & Kahane,
+G. (2014). The evaluability bias in charitable giving: Saving
+administration costs or saving lives?. Judgment and decision making,
+9(4), 303.**
+
+"When presented with a single charity, people are willing to donate more
+to a charity with low overhead ratio, regardless of cost-effectiveness.
+When presented with two charities simultaneously, they base their
+donation behavior on cost-effectiveness"
+
+**Bowman, W., 2006. Should donors care about overhead costs? Do they
+care? Nonprofit Volunt. Sect. Q. 35 (June (2)), 288--310.**
+
+Meer... Are overhead costs a good guide for charitable giving?
+
+Trussel, J. M., & Parsons, L. M. (2007). Financial reporting factors
+affecting donations to charitable organizations. Advances in Accounting,
+23, 263-285.
+
+Tinkelman, D. (1998). Differences in sensitivity of financial statement
+users to joint cost allocations: The case of nonprofit organizations.
+Journal of Accounting, Auditing & Finance, 13(4), 377-393.
+
+Parsons, L. M. (2007). The impact of financial information and voluntary
+disclosures on contributions to not-for-profit organizations. Behavioral
+research in accounting, 19(1), 179-196.
+
+Yörük, B.K. (2013). Charity ratings [this literature is not
+specifically on 'overhead'; I should check how Charity Navigator factors
+this in]
+
+Frumkin, P., & Kim, M. T. (2001). Strategic positioning and the
+financing of nonprofit organizations: Is efficiency rewarded in the
+contributions marketplace?. Public administration review, 61(3),
+266-275.
+
+van Iwaarden, J., Van Der Wiele, T., Williams, R., & Moxham, C. (2009).
+Charities: how important is performance to donors?. International
+Journal of Quality & Reliability Management, 26(1), 5-22.
+
+
+```
+
+
+
+
+[^4]: Furthermore, DonorsChoose doesn't have clearly separate variation
+    in effectiveness of the outputs which we could compare to the
+    differential prices of providing particular outputs (fees, etc.), to
+    potentially detect oversensitivity to the former.
+
+
+<div class="marginnote">
+Study finds ‘no correlation’ between overhead and effectiveness-- is it convincing? Does working abroad increase overhead? Most relevant tie: doing impact evaluation will itself increase overhead.
+</div>
+
+References: Gneezy2014, Portillo_Stinnb2018, Kinsbergen_tolsma_13, Mayo2009, Meer2017	Chhaochharia_Ghosh_08?, Caviola2014, Qu?
+
+<!-- ## Possible: Altruistic opportunity cost neglect -->
+ 
+ 
+## Possible: Misunderstanding need (and misunderstanding marginality/tractability/sunk costs?)
+
+```{block2,  type='fold'}
+
+
+Related terms: misunderstanding marginality, misunderstanding tractability, sunk cost fallacies
+
+**Misperceiving tractability:**
+
+1) donations may respond to number of *deaths* from a disaster rather than to the scale of the need of *survivors* (sunk losses)
+
+2) donations may respond to average cost per life saved, rather than marginal cost per life 
+
+General barrier to accurate assessment of effectiveness ergo a barrier to effective giving.
+```
+
+## Scope insensitivity/embedding effect/part-whole effect
+
+```{block2,  type='note'}
+"People's stated valuation or "willingness to pay" for an outcome seems not to strongly increase in the magnitude of that outcome.  For example,  when asked in isolation people might say they are willing to pay $50 to save 100 eagles.  Other people asked in isolation may  say they are willing to pay $50 to save 5000 eagles.
+
+Kahneman1992 (Part I: Embedding effect):
+the expressed willingness of Toronto residents to pay increased taxes to prevent the drop in fish populations in all Ontario lakes was only slightly higher than the willingness to pay to preserve the fish stocks in only a small area of the province."
+```  
+
+```{block2,  type='note'}
+When assessing effectiveness  in determining which charity to donate to (and how much),  a utilitarian  should be very sensitive to the scale of the impact (essentially the benefit per cost). If people  are scope insensitive they will be bad at making these judgments (particularly when presented in isolation).
+```  
+
+Ref: Hsee13
+
+## Other possibilities: "Risk aversion",  Lack of tangibility, Corruption aversion
+
+See Airtable
+
+<!--chapter:end:sections/quant-biases.Rmd-->
+
+# Barriers: Inertia and systemic/institutional {#inertia}
+
+
+## Social norms
+
+Social norms promote giving to traditional non-EA causes and fundraisers, and responding to peer requests. --> crowding out? Norms may also suggest giving to causes like AMF is "weird".
+
+\
+
+**Asks** (Own category?)
+
+Donation requests increase the propensity to give (Yoruk). There is a conventional wisdom that "most donations occur in response to an ask".  If there are systematic asks for non-EA causes this may crowd out EG.
+
+<!--chapter:end:sections/inertia.Rmd-->
+
+# [Tools for motivating EA giving]{#tools}
+
+## Introduction
+
+What "tools" and approaches may help to  increase effective giving?
+
+We divide this into three categories:
+
+1. Approaches to overcoming the barriers and biases discussed in previous chapters.
+
+2. Fundraising approaches and innovations that will be *particularly* suitable  for more effective charities, perhaps because these approaches themselves are directly tied to effectiveness. We call these "superpowers" for effective charities.
+
+3. Fundraising strategies that may  have historically been underused by affective charities.
+
+<!-- I.e., how can we best apply well-tested emotional and behavioral approaches (evidence-based fundraising tools like “gift exchange”) to effective charities. In applying these tools, what “superpowers” and weaknesses do the most effective charities have? -->
+
+## Psych/behavioral tools; applicability to EA charities 
+
+Do the standard collection of psych/behavioral tools work for EA charities, or can they be made to do so? Does EA have any 'superpowers' for any of these? E.g., presenting identifiable victim. Emotional stimuli. Gift exchange, etc.
+
+
+1. Briefly highlight  those 'tools' that give non-EA an advantage, but focus on the actionable--how EA lessen or flip that advantage. 2. Which tools present particular challenges or opportunities for EA
+
+## De-biasing and misperception correction
+
+## Innovative proposals
+
+## EA-movement approaches, sucesses and pitfalls 
+
+What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too 'purist' (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)? 
+
+## A listing 
+
+### Make impact more comparable by allowing joint evaluation (Evaluation mode) {-}
+
+Effective charities could present their (e.g., lifesaving) statistics *relative* to average/popular charities (but be careful about demonizing particular ones)
+
+Theory: Evaluability bias
+
+Cite: (Kogut & R, '05),	(Caviola ea, '14)
+
+### (Info enhancing) social closeness of recipient 
+
+Percentage donations tied to purchases, especially in online auctions 
+
+Psychometrics and targeting people likely to be responsive 
+
+<!--chapter:end:sections/tools.Rmd-->
+
+# Conclusion; a research agenda {#conclusion-agenda} 
+
+Need for systematic platforms to study this, systematic experimentation and data sharing among effective/international charities. Platforms available, proposals for particular research projects and approaches.
+ 
+
+- Who gives to the *truly* most effective international charities?
+
+- Who is most likely to be convinced, and which arguments/presentations work in the SR and LR, and for whom (heterogeneity)?
+     Statistical learning-based analyses
+
+- Practicable techniques in a range of higher-stakes real-world environments
+
+- Replication (and verification), pooled evidence, meta-analysis
+  - Context-sensitivity, large SE $\rightarrow$ large samples, statistical learning controls, sharing data
+  - Responses to 'obvious contrasts' seem to not reflect between-subject responses"
+
+***
+
+\
+\
+
+Misc -- adding a bunch of citations; please ignore:
+
+[@baron2011heuristics:1; @Caviola2014; @gneezyAvoidingOverheadAversion2014; @kinsbergenExplainingMonetaryDonations2013; @kogut2005identified; @kogutIdentifiedVictimEffect2005; @loewensteinScarecrowTinMan2007; @Small2007][@andreoni2017avoiding; @Dellavigna2007; @Exley2016a; @exleyExcusingSelfishnessCharitable2016; @reinstein2018commitments][@Adena2019; @Berman2018:1; @Cairns2011; @DellaVigna2012; @Deryugina2015b; @Fong2011a; @null2011warm; @spenceJobMarketSignaling1973]
+
+<!--chapter:end:sections/conclusion-agenda.Rmd-->
+
+# Appendix: Tech for creating, editing and collaborating on this 'Bookdown' web book/project (and starting your own) {#bookdown-appendix}
+
+*This tutorial written by Oska Fentem with David Reinstein*
+
+## Introduction
+
+This appendix provides a brief introduction to the several types of software and processes used to creating websites such as [Increasing Effective Charitable Giving](https://daaronr.github.io/ea_giving_barriers/outline.html) and [Researching and writing for Economics students](https://daaronr.github.io/writing_econ_research/about-this-work.html). We aim to encourage others to participate in this collaborative work, and to spin off their own projects. If you would like to provide feedback or ask a question about these projects then using ['hypothes.is'](https://web.hypothes.is/) is an easy way to do so.
+
+
+```{block2,  type='note'}
+The template for my bookdown projects is maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template)
+```
+
+```{block2,  type='note'}
+
+**This site (web-book project) is**
+
+<!-- TODO: Add internal and web links here -->
+
+Hosted:
+
+- Hosted on Github (Github pages)
+- A project managed out of a Git repo stored in Github
+
+\
+
+**The content is:**
+
+- A 'Bookdown' (in the 'Gitbook' style, although we've drawn elements from the Tufte style)
+- ...which is a hosted collection of HTML (and other) files...
+- ...constructed/compiled/built from R-Markdown (.Rmd) files and other support files using the R language
+
+\
+
+This relies heavily on:
+
+- 'Markdown syntax' for basic writing/formatting
+- Latex for mathematics notation
+- Bibtex for references/citations
+- 'Pandoc' to convert between different document formats
+- CSS (style sheets)
+
+\
+
+To build this, we chose to use tools and software including:
+
+- The RStudio environment for working with R code
+- Github desktop to manage pushing/pulling and integrating content (although sometimes we use raw Git)
+- Features of the GitHub website such as 'projects'
+
+```
+
+We first give a *brief* overview of R & RStudio, Git & Github, and R Markdown & Bookdown, linking more extensive further resources/tutorials.
+
+
+## Git and Github
+
+* **Git** is a version control system which enables users to track changes and progress in coding projects or any files in general. It is particularly useful for collaborating on projects as it provides a useful way to show who has altered which files and when. Users are even able to clone a _repository_ (a folder inside of a project which tracks all changes made) and make changes without affecting the original project. Git also provides a very simple way to keep changes to projects up to date across different operating systems such as Windows and Mac. Installation and configuration of Git can be confusing to the newly-initiated user, [Happy Git](https://happygitwithr.com/index.html) provides a user friendly tutorial on installing Git, [which can be downloaded here](https://git-scm.com/).
+
+```{block2,  type='note'}
+Getting a Github account should take about XXX minutes.
+
+Here's a guide to exactly how to do it.
+```
+
+```{block2,  type='note'}
+Installing Git and the GitHub Desktop should take about XXX minutes.
+
+Here's a guide to exactly how to do it.
+```
+
+
+### Some key things to know about Git and GitHub
+
+A brief overview of key functions inside Git (assuming a remote Github repo) including commits, pushes & pulls, forks & branches and pull requests: (unfold)
+
+```{block2,  type='fold'}
+
+* **Cloning** a Git repository copies an existing Git repository into your local file space. 
+* A **commit** saves the changes made in the current document to the **local** repository. Specific changes to commit to the remote (online) repo must be specified. This process is made much easier using a program such as Github Desktop rather than the Git code itself (although they do the same thing, and the latter is more flexible).
+* A **push**, pushes all local commits to the online version of this repository, essentially updating the online version of the files, to the version which is stored locally on your device.
+* A **pull**, is used to pull the changes made to the online repository, into the local repository. Thus making the local repository up to date with the remote/online repository.
+* Creating a **branch** allows you to create a separate version of a repository and make changes to this without affecting the master/original repository.
+* A **pull request** then allows you to pull the changes made in a branch over to the master repository, in order to merge the work.
+* As noted, **Github Desktop** provides a user interface for a more simple and intuitive way to use Git.  There are a variety of other interfaces.
+  * Github can also be integrated into RStudio and into many other tools, such as the Atom text editor.
+* Repos that are stored on Github can be accessed via a browser at [github.com](https://github.com/). The Github website itself provides a wide variety of tools, discussed further below under ['GitHub web page'](github_web),
+
+```
+\
+Git and GitHub can be a bit confusing.  Here are some things that I wish I had known, that took my a while to figure out (unfold)
+
+```{block2,  type='fold'}
+
+- Git and Github are not the same thing ... (explain)
+
+- A 'commit' does not actually change the files in the shared (remote) Github repo; you need to 'push' to do that
+
+- After 'pulling' from the remote repo, you may need to merge changes... (explain)
+
+- You can have several different 'branches' of the same Repo existing at the same time. When you switch to a new 'branch' the files you see on your computer will instantly and amazingly change to exactly the files in that branch. But don't worry, the old branch is not lost.
+
+- ... add some more
+
+```
+
+## R and RStudio
+
+* **R** is a free programming language which is mainly used for data analysis and statistics. It can be downloaded [here](https://www.r-project.org/). The popularity of R is growing in Economics Academia, largely due to the growth of Machine Learning techniques in R as well as the flexibility of the language itself.
+R makes use of **packages** which are a collection of functions written in order to achieve specific tasks. Whilst R comes pre-installed with a variety of useful packages, it is often useful to install more, which can be done using the *install.packages* command.  <div class="marginnote">
+If you are familiar with Python, these R packages are roughly comparable to Python's **modules**.
+</div>
+
+
+```{block2,  type='note'}
+Installing R should take about XXX minutes.
+
+Here's a guide to exactly how to do it.
+```
+
+
+* **RStudio** is a programming environment and interface which helps facilitate  a variety of tasks such as writing scripts using R (as well as other languages), and  building/knitting these into various document formats. RStudio 'Addins' can also be extremely useful for things like tracking 'todos', adding citations, and formatting code. RStudio can also be configured so as to work seamlessly with Git (more on this later). RStudio can be downloaded [here](https://rstudio.com/)
+
+```{block2,  type='note'}
+Installing and configuring RStudio should take about XXX minutes.
+
+Here's a guide to exactly how to do it.
+```
+
+
+## Markdown and Bookdown
+
+* **Markdown** is a popular set of formats (really a 'syntax for specifying output') for generating and authoring documents. The Rmarkdown format (rmarkdown package) is one flavor of Markdown that works with R to enable 'dynamic documents' involving text, data-analysis, and other elements. It can then export your work to a variety of outputs such as html, pdf and word documents. As well as this it can also be used to create webpages, such as the one you are currently reading. The power of Markdown files comes from the way that they are able include/embed code as well as data and tables, which is useful for writing reproducible research and creating websites.\
+
+- The **Bookdown** package was built on the Rmarkdown package, but it adds many features to enable larger and more structured output, particularly 'web books' and web sites. As we use it, this these books combine multiple Rmarkdown files, with each such 'Rmd' file becoming its own HTML page.
+
+<div class="marginnote">
+Look at the list of headings on the left of this page: each second-level header is it's own web-page (a distinct html link). "All the content in one scrolled page" is limited to a single first-level header.
+<!-- @Oska -- perhaps you can say this better -->
+</div>
+
+## The code and folder structure in this repo,  and what it means
+
+### Writing_econ_book: Files-folders of interest (taken from readme March 2020)
+
+docs: html output put here for web hosting
+
+**Folder: [writing_econ_book](writing_econ_book)**
+
+- [bookdown.yml](writing_econ_book/bookdown.yml): determines which files are included in the book
+- [writing_econ_gfm.Rmd](writing_econ_book/writing_econ_gfm.Rmd): The main content; body of the book (many chapters)
+- index.Rmd: Setup content and some styling/parameters; determines how the book is built (into which format, etc)
+- header_include.html: Important commands included here including folding boxes
+- references_cut.bib: bibtex references referred to in '@ref' notes
+- tufte_plus.css: Determines layout and styling
+- writing_econ_book.Rproj: 'project' ... to work on this in R-studio
+
+
+## The code in a single ".Rmd" file and how it translates into content
+
+```{block2,  type='note'}
+
+**Video guides**
+
+- In the [video: intro to rmd and bookdown - template HERE](https://www.dropbox.com/s/sw6i7hws15903a3/bookdown_template_rmd_intro.mp4?dl=0) I introduce the basics of the Bookdown setup and folder structure, using the [bookdown template repo files](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template) as an example.
+
+- I further discuss the elements of the .Rmd (and associated) files, and how they translate into html output in the [video: rmarkdown content from template HERE](https://www.dropbox.com/s/p724socu1pmjous/rmarkdown-bookdown-content.mp4?dl=0)
+
+- A final video that focuses a bit more on adding citations is [HERE](https://www.dropbox.com/s/30ix6h3sxr24k9j/the_bookdown_and_editing_rmd.mp4?dl=0) -- this latter video has a very large file size, sorry. 
+
+*My apologies*: In these videos my dumb head is blocking an important part of the screen share. It may help you to have the original files up to see the missing bits. I hope to redo these when I have a chance.
+
+*Note:* The key files and settings for my bookdown projects are maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template), along with a minimal example. This is (or should be) synchronised with all the other repos.
+
+
+```  
+
+
+
+### Basic (R-)Markdown
+<!-- Could do with rewording -->
+
+The Markdown format offers a simple plain-text notation for specifying the elements of documents, reports, web sites, etc. (It is much simpler and easier to read than html, latex, etc.)  It is widely used by programmers, on comment boards/forums, and throughout the internet. For example, GitHub.com automatically renders markdown code, particularly in `readme.md` files.
+
+<div class="marginnote">
+Actually there are several varieties of markdown, but they mainly share key elements.
+</div>
+
+
+Markdown documents are usually saved as plain text files with the extension `.md`, e.g., `report.md`.   These allow for an easy way to create a variety of outputs, particularly reports and text-focused web pages. The markdown format is *converted* into other formats (html, latex, etc.) with a variety of tools, particularly something called Pandoc.
+
+
+```{block2,  type='note'}
+**What is Pandoc?**
+
+Pandoc is a tool (a program) for converting from one document format to another. It is incredibly powerful. The great thing about a format like markdown, or r-markdown, is that it is simple to write and peruse, and, with the help of Pandoc, it can convert into many many other useful formats for web pages, documents, presentations, etc. 
+
+Pandoc is built into other tools including the RMarkdown package (see discussion on [Stackexchange here](https://stackoverflow.com/questions/40563479/relationship-between-r-markdown-knitr-pandoc-and-bookdown)). 
+
+You can also install and use Pandoc directly in the command line, or try it out (in a limited but still useful way) on the web [here](https://pandoc.org/try/)
+
+For more on Pandoc visit [pandoc.org](https://pandoc.org/)
+```  
+
+In the R (statistically focused) language there are tools such as `knitR` that  allow R users to produce reports combining text, statistical output, and interactive content. These are generally written in "R-markdown" documents, saved as `.Rmd` rather than `.md` files. The R-studio interface, and several "add-ins", also help facilitate this. This interface is very useful; in fact, it may be convenient to build web books and other content using this even if you are not planning to extensively integrate R code and data. (As in the present book, although I'm hoping to build this in).
+
+Using R-markdown and Knitr (and other tools and add-ins like 'Bookdown') content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or regression output.
+
+### Some simple markdown rules {#simple-md-rules}
+
+Text can be made *italic* using single asterisks `*italic` or **bold** by using asterisks `**bold**`.
+
+Hashtags/pound signs (`#`) specify headers and subheaders, e.g., this third-level subsection header was created with the code:
+
+`### Some simple markdown rules {#simple-md-rules}`
+
+Where the bit in the curly braces allows us to link-back with the code `[link back text whatever](#simple-md-rules)` ... rendering as [link back text whatever](#simple-md-rules).
+
+Other key features are ordered lists and unordered lists:
+
+```
+- unordered first entry
+- unordered second entry
+     - subelement of second entry
+```
+
+While basic markdown has a limited set of rules, there are many more formatting and content options for documents produced in (R)-Markdown, far too many to detail here. These may combine markdown code, html code, latex code, and more. The following cheatsheets are very useful for writing (R)-markdown documents:
+
+Markdown documents allow for an easy way to write reports. Content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or tables of data.
+
+<div class='marginnote'>
+Text can be made *italic* using single asterisks `*italic*` and **bold** by using double asterisks `**bold**`.
+</div>
+
+There are various text formatting options in Markdown, far too many to detail here... The following cheatsheets are very useful for writing markdown documents:
+
+- [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+- [R Markdown cheatsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+
+\
+
+See also (most useful, but highly detailed):
+
+- [R markdown - the definitive guide](https://bookdown.org/yihui/rmarkdown/)
+
+Code chunks provide an easy way to embed code into your R Markdown files. The code language is not just limited to R either, as other languages can be used. This means that there is a wide variety of content which can be displayed in a chunk. Such as tables of data:
+
+```{r, echo=FALSE}
+head(iris)
+```
+Code chunks are defined by wrapping text inside ```` ```  ``` ````. The above example was coded using:
+````markdown
+`r ''````{r}
+head(iris)
+```
+````
+<!-- ````markdown `r ''````
+```` -->
+Options can be specified inside of the curly brackets {}
+More information is provided [here](https://bookdown.org/yihui/rmarkdown/r-code.html)
+
+### Inline code
+Inline code is a quick and easy way to put snippets of R code. As an alternative to using code chunks, R code can simply be placed inside of ``` `r ` ```. For example, this can be used as an easy way to insert the value of a variable into a paragraph without inserting a chunk.
+
+### Latex/maths
+
+R Markdown also can make use of the LaTeX document preparation system, which is popular for writing technical documents with mathematical content. This allows us to publish documents which include equations such as:
+
+$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u$$
+
+Which is written using `$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$`. Using `$$` means that the equation will be centered on the page. Alternatively `$` can be used in the same way, without the centering.
+
+[A very useful guide to maths in R Markdown](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html) provides a detailed outline of the various mathematical symbols which can be used.
+
+### Custom styles
+
+Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in [support/tufte_plus.css](support/tufte_plus.css). To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as show below for margin notes.
+
+- More on creating styles [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html). Below will outline several key styles used throughout these projects:
+
+- **'Notes'**
+
+```{block2, type = 'note'}
+Formatted 'Notes' have been defined in this work which allow text to be placed in coloured blocks such as this one. To use this note style, `{block2, type ='note'}` can be specified at the start of the block, or a HTML wrapper can be used. This assigns the .note formatting from the tufte_plus.css file to the chunk.
+```
+
+- **Margin notes**
+Margin notes are used throughout these projects as a way of displaying information in an organised and aesthetically pleasing way. To add a margin note, text is placed inside the following HTML wrapper:
+
+<div class='marginnote'>
+The margin notes used in this project are inspired by the Tufte handout style developed by American statistician Edward Tufte.
+</div>
+
+```{html}
+<div class="marginnote">
+Your margin note goes here.
+</div>
+```
+Or margin notes can be added by using chunk options.
+
+- **Folding boxes**
+
+```{block2, type = 'fold'}
+Folding boxes also provide a useful way to incorporate content without cluttering the page. Similarly to the 'notes' the folding boxes are defined in tufte_plus.css and called by specifying `{block2, type='fold'}` at the start of a chunk, or using a HTML wrapper.
+```
+
+### Adding references/citations
+As with any academic work, it is always important to reference sourced material. Across these projects the following software is used:
+
+- **Setup**
+
+Pandoc provides a way to generate formatted references as well as a bibliography in [R-Markdown](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html).
+
+The bibliography file to be sourced is specified within 'YAML' content, which guides the processing of these documents. (YAML content is generally enclosed with a three-dash `---` break at top and bottom.) 
+
+I generally specify the bibliography source in the YAML at the top of the .Rmd file, or for Bookdown projects in the  the YAML content in index.Rmd. 
+
+@Oska -- we should try to explain this yaml stuff a bit better.
+
+
+- **BibTeX**
+
+The BibTeX format refers to a stylized file format which is used predomoninantly for lists of references, mainly and originally for working with latex.. BibTeX bibliographies use the .bib extension. For example the bibliography for this project is [giving_keywords.bib](support/giving_keywords.bib). For more information on BibTeX see [here](http://www.bibtex.org/)
+
+
+- **Zotero**
+
+Zotero is a free open source reference manager, which enables users to sync their library of references across multiple devices. Similarly to other reference managers, Zotero offers plugins for popular browsers such as Chrome and Safari. This project makes use of a shared reference library in Zotero, contact daaronr AT gmail.com to be added.  [Download Zotero](https://www.zotero.org/download/)
+
+
+- **Better BibTeX for Zotero**
+
+Better BibTeX for Zotero is a add-on for Zotero. Among other things it allows the Zotero library to be exported from Zotero for use in Markdown. Installation instructions are provided [here.](http://retorque.re/zotero-better-bibtex/installation/)
+
+
+- **Citr package (addin) for RStudio**
+
+The Citr package provides functions to search Zotero and BibTeX libraries in order to insert references into Markdown files. Citr also features a plugin for RStudio which makes the referencing process even easier. Instructions for download, as well as a demonstration of the Rstudio plugin are provided [here.](https://github.com/crsh/citr/blob/master/README.md)
+When using the Citr package to add citations to projects such as this one, make sure to have Citr update the correct Bibtex file. 
+![Citr Settings for Ea_giving_barriers](picsfigs/citr_settings.png)
+<div class="marginnote">
+The Bibtex file to "Add references to" is the bibliography file specified in the YAML header of index.Rmd. 
+</div>
+
+## How to 'build' and view the book
+
+**One way is within RStudio**
+
+- Be sure Github repo is synced so all files are present
+
+- Packages need to be installed, but this should (?) be done automatically when you build via  the `source(here("code", "baseoptions.R"))` line in index.Rmd
+  - knitr is a key package
+
+- Click 'Build', 'Build all', or the shortcut key shift-cmd-b 
+  - ... this seems to run the command ```rmarkdown::render_site(encoding = 'UTF-8')```
+
+Building may take some time, depending on how much code is present in the Rmd files and what that code does
+
+- It puts all the Rmd files specified in the _bookdown.yml into a single file, here labeled barriers-to-effective-giving.knit.md (I think), and then turns that into html, also invoking bibtex along the way
+
+- Depending on your RStudio settings (-Tools, -Project Options, -Build tools, -Preview book after building), it may put up a 'preview version' of the site. Sometimes an error will appear such as "some/file not found", this can typically be bypassed by clicking **open in browser**.
+
+- All the 'new' output is directed to be put in the 'docs' folder, a bunch of html files. You can view those 'local' files in any web browser
+
+- Once you commit and push, the 'new' bookdown website should be up on the WWW
+
+
+## Joining this project
+
+- Get a Github account, contact daaronr AT gmail.com and tell him your github account ID (or the  email you used to join should probably work as well)
+
+
+- Remember to 'accept' the invitation to the repos (here, the EA_giving_barriers repo; and possibly some other supporting repos as well). You should receive this invitations via email and it should also be in your "notifications" on Github.
+
+### Creating a Branch and a 'pull request'
+
+### GitHub web page content {#}
+
+As noted, GitHub is a web page and interface that  acts as an external server and storage space for git projects/repos. It works well with this and also incorporate several additional features. You can see it and even interact with much of a repo simply via the GitHub webpage without even installing Git (but I strongly recommend that you do install Git as well as a tool like GitHub Desktop, unless you want to solely rely on command line Git).
+
+#### Web page for a repo {-} 
+
+
+```{r, out.width='85%', fig.align='center', fig.cap='EA barriers repo github starting page'}
+
+knitr::include_graphics('picsfigs/ea_barriers_github_repo_startpage.png')
+
+```
+
+
+In your account when you click on the repo you'll see something like the  screen above. There are many tabs, starting with the code tab. At the top of this, you will see the list of folders and files, with messages describing the latest comments.
+
+<div class="marginnote">
+Once you've installed Git you will want to 'clone this repo' to have it on your machine and to be able to easily work with it and commit and push and pull changes. You will do this clone either via the web site, GitHub Desktop or another application, or using the command line
+</div>
+
+Note here we also see: 
+
+- 48 'commits'
+
+- 2 'branches' 
+
+- 2 contributors
+
+Below this, some options allowing you to switch branch, manually upload files, clone or download etc. 
+
+#### Readme for a repo {-}
+
+Below  the list of files you should see the "readme" for this repository. This is a file 'README.md'  stored in the root directory of this repository. If you click on it or look at the file you'll see it is written in markdown syntax but the GitHub website renders it into a nice format. 
+
+ I typically use this readme to explain what the project is about and describe (and link) the folder structure.
+
+#### Comments/notifications {-}
+
+In a variety of places within a repo when you are adding comments or content you can refer to a collaborator who will then receive a "notification" linking this content. (These are also called "callouts" in some systems.) These  may come as as emails to that collaborator if they set a setting to get email notifications, but they will definitely appear as a notification, again that bell thing in the upper right hand corner.
+
+
+#### Seeing recent commits, history and 'blame' {-}
+
+![Showing the most recent commits](picsfigs/some_commits.png)
+
+
+\
+
+Above, this shows the most recent commits. 
+
+Clicking on one of these commits will show you 'what changed' and old versus new versions. 
+
+
+\
+
+![Showing the most recent commits](picsfigs/commit_some_diffs.png)
+
+
+
+For example, above we see something like a "split diff" view, with the 'old version' (before this commit) on the left and the 'new version' on the right. What is new is in green (with a '+'), and what is removed is in red highlight (with a "-").
+
+Here we see that ...
+
+- in the file 'sections/inertia.rmd' a space has been added after 'crowding out?' 
+<div class="marginnote">
+This is but one way to view and consider changes. Various text editors such as Atom and ViM also offer great tools, as does the Git program itself and the GitHub desktop application.  
+</div>
+
+- in 'present_puzzle.Rmd' an (obsolete) 'underline' notation has been replaced with a third level markdown header (three `#` marks)
+
+#### Commenting within commits, etc., tagging collaborators in this {-}
+
+One way to ask questions, comment on changes and let people know about changes you made, is via adding a comment within a commit itself. (Check: can this be tied to an 'issue'?)  
+
+![Commenting on a part of a commit, notifying a collaborator](picsfigs/commenting_a_commit.png)
+
+
+Above, we see that by clicking on a plus sign that appears just to the right of the the line number when viewing a commit, we can add a comment on that particular part of the commit. We can then flag another collaborator (see '@daaronr' above ... when you type the '@' you get a dropdown of collaborators) who will be notified of this. 
+
+This mode of commenting and conversation has the advantage of avoiding cluttering up the actual code and text with excess comments.
+
+\
+
+You can also link each comment to an 'issue' (issues are discussed below) by adding a hash to the comment and citing the issue number. This comment and link to the place in the code or text for that commit will then show up when you look at that issue. This makes the discussion more organized, at least we hope. 
+
+![Link an issue in a comment](picsfigs/comment_link_issue.png)
+
+
+#### The 'Project' board and  'Issues' {-}
+
+- the Project is a 'Kanban board' for managing tasks, responsibilities and progress
+
+- these should be entered as 'issues', enabling assignments and further discussion within the 'issues' pages
+
+\
+
+
+![a github 'Project'](picsfigs/project_start.png)
+
+![Kanban for the github 'Project'](picsfigs/project_board.png)
+
+![One task/issue in the Kanban](picsfigs/project_2.png)
+
+
+![Viewing this issue and its discussion](picsfigs/an_issue.png)
+
+
+
+
+## Airtable and innovationsinfundraising.org
+
+This project is closely connected to [innovationsinfundraising.org](innovationsinfundraising.org). Much of these projects overlap, and there is a shared 'database' stored as an airtable [Giving researchers shared](https://airtable.com/invite/l?inviteId=invjWg63fpQAOBcch&inviteToken=0b154f62460aba428e0bf8c082ae3947e2e9b62b1045994a767eee551bb92833)
+
+
+We had an earlier ... [tutorial on using the Airtable and Innovationsinfundraising.org here](https://github.com/daaronr/ea_giving_barriers/blob/master/documentatiion_and_tutorials/project_airtableexplained/airtable_database_overview.pdf)
+
+I add a few more points below, more relevant to the current project:
+\
+
+### Airtable {-}
+
+[Airtable](https://airtable.com/) is a collaborative web-based software with a variety of displays and organizational structures; it has many features of a relational database, and even more features if one engages their API. It is user-friendly, with a gui resembling a spreadsheet, and easy tutorials,  instructions and examples. You can operate it from a browser or a web-driven app.
+
+
+### Key features of tables in Airtables (quick views) {-}
+
+Each Airtable user can have any number of *Bases*,  and bases can be shared in work groups.
+
+- Command-K to jump to any other Base
+
+ "key_papers"; the papers providing the most relevant and strongest evidence for the tool, and "secondary papers".
+
+### Key content {-}
+
+
+The "Categories" table provides and explains a number of "schema" we use to characterize both the tools and the "Barriers to effective giving" (discussed later).
+
+![categories table](picsfigs/categories_table.png)
+
+\
+
+
+Key papers are stored and organised in the 'papers_mass' table. This is crosslinked in several other tables. Within each paper 'row' there is a variety of relevant information and discussion on each paper.
+
+![key papers](picsfigs/key_papers.png)
+
+\
+
+
+The fundingwiki app automatically populates and updates information on the number of times each paper has been cited, using the Crossref database. Tool such as these will enable this to be a perrennial resource, rather than a frozen-in-time evaluation.
+
+![citations auto update](picsfigs/citations_auto_update.png)
+
+
+\
+
+```{block2,  type='note'}
+**Note**: Some but not all of the Airtable content discussed in the rest of this subsection has already been incorporated into the present bookdown.
+  
+```  
+
+The table "EAlit_sections" outlines the (earlier?) structure of the EA barriers paper, already providing links to information that will be integrated.
+
+![organizing ealitpaper](picsfigs/organizing_ealitpaper.png)
+
+This table also links directly to the papers_mass table, organizing the papers we are referencing and reviewing in each section.
+
+![organizing EAlit papers](picsfigs/organizing_EAlit_papers.png)
+
+
+\
+
+The separate "Barriers to EAG" table is below.
+
+This organizes and assembles the discussion and evidence on potential factors and categories of factors that may explain the limited amount of "effective giving". This represents the largest part of our review paper; we focus on clear definitions of the most relevant psychological (and "behavioral economic") biases, and carefully asses the available evidence. We focus specifically on evidence in the charitable domain, but we also consider the broader evidence for these biases in other contexts.
+
+![barriers to EAG](picsfigs/barriers_to_EAG.png)
+
+<div class="marginnote">
+Again, this is older work, maybe already incorporated into the Bookdown?
+</div>
+ 
+
+
+For each barrier or bias, we consider why it is may be particularly relevant to *effective* giving.
+
+![barriers to EAG, why relevant](picsfigs/barriers_to_EAG_whyrelevant.png)
+
+\
+
+
+We further propose and discuss tools addressing these barriers and promoting effective charitable giving.
+
+![tools remedies](picsfigs/tools_remedies.png)
+
+
+\
+
+
+## Useful resources
+Like most things, when working with code the internet is your best friend. Listed below are several useful resources for learning about the material mentioned above:
+
+#### [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/){-}
+
+#### [R for Data Science](https://r4ds.had.co.nz/){-}
+
+#### [Authoring Books with R Markdown](https://bookdown.org/yihui/bookdown/) {-}
+
+#### [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/){-}
+
+<!--chapter:end:sections/appendix_tutorial.Rmd-->
+
+# List of references {#references}
+
+<!--chapter:end:sections/references.Rmd-->
+
