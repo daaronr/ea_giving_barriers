@@ -78,62 +78,9 @@ Social perceptions and signaling empathy vs effectiveness; related: difficulty o
 
 ## [Tools for motivating EA giving](#tools) {-}
 
-### Psych/behavioral tools; applicability to EA charities {-}
-
-<div class="marginnote">
-Briefly highlight those 'tools' that give non-EA an advantage, but focus on the actionable--how EA lessen or flip that advantage. Which tools present particular challenges or opportunities for EA?
-</div>
- 
-- Recipient's plight as 'loss' vs previous state 
-- Unconditional gift (Gift exchange) 
-- "Percentage donations tied to purchases, especially in online auctions -", Give more tomorrow  
-- Give if you win 
-- "Size of ask; Low-ball, 'Legitimation of paltry donation' (LPD/LPC) 
-- Solicitor characteristics 
-- Visibility  (of giver), Visibility 
-- Recognition 'to influence others', Visibility 
-
-- Recognition tiers, Reveal previous donor/donation (also 'info') 
-
-
-<!-- (Sudhir ea, '16), (Falk, '07), (Elfenbein ea, '12), (Breman, '11), (Kellner ea, '17), (Fraser ea, '89), (Cialdini and S, '76), (Andrews ea, '08), (Gneezy ea, '17), (Landry ea, '05), (Meer, '11), (Harbaugh, '98), (Soetevent, '05), (Reinstein & R, '12), (Karlan & M  '14), (Harbaugh, '98), (Karlan & M  '14), (Harbaugh, '98), (Soetevent, '05)	(Karlan & M  '14), (Karlan & M  '14) -->
- 
-### De-biasing and misperception-correction {-}
-
-
-[@Caviola2014a]
-@kogut2005identified
-
-### Innovative proposals {-}
-
-Smeets?, Kellner_EA_2017
-
-### EA-movement approaches and pitfalls {-}
-
-What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too 'purist' (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)?
-
-<!-- Charity science
-Wiepking2012? -->
 
 ## [Conclusion; a research agenda](#conclusion-agenda) {-}
 
-Need for systematic platforms to study this, systematic experimentation and data sharing among effective/international charities. Platforms available, proposals for particular research projects and approaches.
-
-- Who gives to the *truly* most effective international charities?
-
-- Who is most likely to be convinced, and which arguments/presentations work in the SR and LR, and for whom (heterogeneity)?
-
-- Statistical learning-based analyses
-
-- Practicable techniques in a range of higher-stakes real-world environments
-
-- Replication (and verification), pooled evidence, meta-analysis
-    - Context-sensitivity, large SE $\rightarrow$ large samples, statistical learning controls, sharing data
-
-    - Responses to 'obvious contrasts' seem to not reflect between-subject responses"
-
-
-Also see gatesproposal.md (Gates foundation)
 
 ## Structure of each 'barriers' section {-#structure-barriers} 
 
@@ -187,7 +134,6 @@ weighing evidence  specific claims such as ["People sometimes actively avoid inf
 ```  
 
 ## Other practical considerations {-}
-
 
 ### Notes on potential integration with PriorityWiki/Rethink Charity {-}
 
