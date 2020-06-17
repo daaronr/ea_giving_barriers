@@ -37,7 +37,7 @@ output:
 bookdown::pdf_book:
     keep_tex: yes
 always_allow_html: yes
-bibliography: ["support/reinstein_bibtex.bib", "support/reinstein_references.bib"] #this first one should be included in the citr settings; not sure what the second one is
+bibliography: ["support/reinstein_bibtex.bib", "support/reinstein_references.bib", "packages.bib"] #this first one should be included in the citr settings, second comes from Zotero-dropbox sync, and it's re-downloaded below
 biblio-style: apalike
 link-citations: yes
 github-repo: #gerhardriener/CharitySubstitutionExperiment
@@ -45,6 +45,7 @@ description: "A broad project"
 #url: 'https\://daaronr.github.io//'
 tags: [Effective altruism, charitable giving, meta-analysis, literature survey, field experiments, lab experiments, experimental design, Psychology, Economics]
 ---
+
 
 
 ```{r}
@@ -109,9 +110,25 @@ install.packages("bookdown")
 # devtools::install_github("rstudio/bookdown")
 ```
 
+<!-- Download 'backup' bibtex file from dropbox (synced with Zotero), do the rename workaround -->
+
+
+```{r }
+
+tryCatch(
+  {
+download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = here("support", "reinstein_bibtexX.bib"))
+
+
+file.rename(here("support", "reinstein_bibtexX.bib"), here("support", "reinstein_bibtex.bib"))
+  }
+)
+
+```
+
 <!-- note installing packages is mainly removed because this is done in baseoptions.R -->
 
-```{r include=FALSE}
+```{r }
 # automatically create a bib database for R packages
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'

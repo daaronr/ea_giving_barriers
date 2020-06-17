@@ -316,8 +316,7 @@ The bibliography file to be sourced is specified within 'YAML' content, which gu
 
 I generally specify the bibliography source in the YAML at the top of the .Rmd file, or for Bookdown projects in the  the YAML content in index.Rmd. 
 
-@Oska -- we should try to explain this yaml stuff a bit better.
-
+<!-- @Oska -- we should try to explain this yaml stuff a bit better. -->
 
 - **BibTeX**
 
@@ -338,10 +337,60 @@ Better BibTeX for Zotero is a add-on for Zotero. Among other things it allows th
 
 The Citr package provides functions to search Zotero and BibTeX libraries in order to insert references into Markdown files. Citr also features a plugin for RStudio which makes the referencing process even easier. Instructions for download, as well as a demonstration of the Rstudio plugin are provided [here.](https://github.com/crsh/citr/blob/master/README.md)
 When using the Citr package to add citations to projects such as this one, make sure to have Citr update the correct Bibtex file. 
+
 ![Citr Settings for Ea_giving_barriers](picsfigs/citr_settings.png)
+
 <div class="marginnote">
 The Bibtex file to "Add references to" is the bibliography file specified in the YAML header of index.Rmd. 
 </div>
+
+### Specific system for adding references in this project
+
+**Method 1 (recommended): Rstudio citr plugin linked to Zotero**
+
+1. Install Zotero software, Rstudio, and `citr` package (an 'Add-in'). Make sure all are running.
+
+2. Join the Zotero [reinstein_research_and_impact_collabs](https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs) group
+
+3. Make sure the [group library](https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs/library) is syncronised with your Zotero 
+
+4.  R-Studio  'Addins (see bar at top)', (Citr) 'insert citation', settings (brings up the screen shown above)
+
+- Make sure 'add references to' specifies the  "...`ea_giving_barriers/support/reinstein_bibtex.bib`" folder. 
+
+-  Make sure Zotero 'reinstein_research_and_impact_collabs' library is loaded
+
+5. Try to add the citation/reference. 
+
+- Note that `[@reference]` gives a different format than `@reference` (see below test).
+
+- If the reference is not present, add it to the Zotero library (there are various methods, from Google Scholar etc) and synchronise your library, and try it again.
+
+- If you are not sure what the reference is, consult the Airtable, use context, and consult other survey papers. If you are still not sure ask on Github.
+
+\
+
+**Method 2: Dropbox-syncronised Zotero to bibtex**
+
+(I'll explain this later)
+
+\
+
+
+
+### Test adding  references
+
+*Test a reference from reinstein_bibtex.bib:* 
+@fongTruthGivingExperimental2010 no brackets
+[@fongTruthGivingExperimental2010] with brackets 
+
+using an "ID"" only: [@Fong2010]
+
+\
+
+From Reinstein_references.bib
+
+[@fongTruthGivingExperimental2010a]
 
 ## How to 'build' and view the book
 

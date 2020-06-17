@@ -10,6 +10,7 @@ This outline links, and gives a brief description of each section
 
 <!-- David Reinstein (drafted this version) with Nick Fitz and Ari Kagan -->
 
+
 ## Extended abstract {-#abstract} 
 
 ### Non-technical abstract {-#pop-abstract} 

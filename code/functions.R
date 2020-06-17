@@ -417,18 +417,20 @@ geom_mean <- function() {
       width = 0.4))
 }
 
-boxplot_func <- function(df = ADSX, yvar = donation, treatvar = Treatment,
+boxplot_func <- function(df = ADSX, yvar = donation, treatvar = Treatment, facetfunc = 1,
   comparisons = list(c("No ask-Domestic", "Domestic-Domestic"))) {
-  yvar <- enquo(yvar)
-  treatvar <- enquo(treatvar)
+  yv <- enquo(yvar)
+  tv <- enquo(treatvar)
   ungroup(df) %>%
-      group_by(!!treatvar) %>%
-      drop_na(!!yvar, !!treatvar) %>%
-    ggplot(aes(!!treatvar, !!yvar)) +
-    geom_boxplot() + theme(axis.title = element_text(size = 14),
+      group_by({{treatvar}}) %>%
+      drop_na({{yvar}}, {{treatvar}}) %>%
+    ggplot(aes({{treatvar}}, {{yvar}})) +
+    geom_boxplot() +
+    facet_grid({{facetfunc}}) +
+    theme(axis.title = element_text(size = 14),
     axis.text = element_text(size = 14)) +
     theme(axis.text.x = element_text(size = 12)) +
-    labs(title = treatvar, y = yvar, caption = "p-values of Wilcox-(below) and  t-test (above brackets)") +
+    labs(title = tv, y = yv, caption = "p-values of Wilcox-(below) and  t-test (above brackets)") +
     geom_signif(comparisons = comparisons, step_increase = c(0.4),
       vjust = 1.7, margin_top = 0.5, textsize = 5) +
     geom_signif(comparisons = comparisons,
