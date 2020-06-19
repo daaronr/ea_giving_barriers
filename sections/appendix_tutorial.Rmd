@@ -385,12 +385,7 @@ The Bibtex file to "Add references to" is the bibliography file specified in the
 [@fongTruthGivingExperimental2010] with brackets 
 
 using an "ID"" only: [@Fong2010]
-
 \
-
-From Reinstein_references.bib
-
-[@fongTruthGivingExperimental2010a]
 
 ## How to 'build' and view the book
 
@@ -431,7 +426,7 @@ As noted, GitHub is a web page and interface that  acts as an external server an
 #### Web page for a repo {-} 
 
 
-```{r, out.width='85%', fig.align='center', fig.cap='EA barriers repo github starting page'}
+```{r, out.width='100%', fig.align='center', fig.cap='EA barriers repo github starting page'}
 
 knitr::include_graphics('picsfigs/ea_barriers_github_repo_startpage.png')
 

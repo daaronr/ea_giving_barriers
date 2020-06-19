@@ -37,7 +37,7 @@ output:
 bookdown::pdf_book:
     keep_tex: yes
 always_allow_html: yes
-bibliography: ["support/reinstein_bibtex.bib", "support/reinstein_references.bib", "packages.bib"] #this first one should be included in the citr settings, second comes from Zotero-dropbox sync, and it's re-downloaded below
+bibliography: ["support/reinstein_bibtex_from_dropbox.bib", "support/reinstein_references.bib", "packages.bib"] #this second one should be included in the citr settings, first comes from Zotero-dropbox sync, and it's re-downloaded below
 biblio-style: apalike
 link-citations: yes
 github-repo: #gerhardriener/CharitySubstitutionExperiment
@@ -117,10 +117,10 @@ install.packages("bookdown")
 
 tryCatch(
   {
-download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = here("support", "reinstein_bibtexX.bib"))
+download.file(url = "https://www.dropbox.com/s/3i8bjrgo8u08v5w/reinstein_bibtex.bib?raw=1", destfile = here("support", "reinstein_bibtex_from_dropboxX.bib"))
 
 
-file.rename(here("support", "reinstein_bibtexX.bib"), here("support", "reinstein_bibtex.bib"))
+file.rename(here("support", "reinstein_bibtex_from_dropboxX.bib"), here("support", "reinstein_bibtex_from_dropbox.bib"))
   }
 )
 

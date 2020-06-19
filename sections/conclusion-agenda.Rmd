@@ -21,10 +21,9 @@ Need for systematic platforms to study this, systematic experimentation and data
 
 \
 
-<<<<<<< HEAD
-[@baron2011heuristics:1; @Caviola2014; @gneezyAvoidingOverheadAversion2014; @kinsbergenExplainingMonetaryDonations2013; @kogut2005identified; @kogutIdentifiedVictimEffect2005; @loewensteinScarecrowTinMan2007; @Small2007][@andreoni2017avoiding; @Dellavigna2007; @Exley2016a; @exleyExcusingSelfishnessCharitable2016; @reinstein2018commitments][@Adena2019; @Berman2018:1; @Cairns2011; @DellaVigna2012; @Deryugina2015b; @Fong2011a; @null2011warm; @spenceJobMarketSignaling1973]
 
 Addding citations 
+[@baron2011heuristics:1; @Caviola2014; @gneezyAvoidingOverheadAversion2014; @kinsbergenExplainingMonetaryDonations2013; @kogut2005identified; @kogutIdentifiedVictimEffect2005; @loewensteinScarecrowTinMan2007; @Small2007][@andreoni2017avoiding; @Dellavigna2007; @Exley2016a; @exleyExcusingSelfishnessCharitable2016; @reinstein2018commitments][@Adena2019; @Berman2018:1; @Cairns2011; @DellaVigna2012; @Deryugina2015b; @Fong2011a; @null2011warm; @spenceJobMarketSignaling1973]
 
 [@Caviola2014][@kogutIdentifiedVictimEffect2005][@loewensteinScarecrowTinMan2007]
 [@Berman2018][@baron2011heuristics][@gneezyAvoidingOverheadAversion2014][@Small2007]
@@ -36,5 +35,3 @@ Addding citations
 [@cuddy2007bias]
 
 
-=======
->>>>>>> 1746997a2bd83fbd6f0e81b423ca6a56f29f48d5

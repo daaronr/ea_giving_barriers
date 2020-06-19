@@ -393,9 +393,9 @@ We  briefly list some of these biases below; we consider these extensively in th
 - Overhead aversion @Gneezy2014, 
 
 
-<!-- Responses: De-biasing, etc. -->
+<!-- Responses: De-biasing, etc. 
 
-@small2007sympathy, @Gneezy2014,	@ein2013giving, @kogut2005identified, @kogut_2005b, @Kinsbergen_tolsma_13
+@small2007sympathy, @Gneezy2014,	@ein2013giving, @kogut2005identified, @kogut_2005b, @Kinsbergen_tolsma_13 -->
 
 <!-- (or excuse-driven, motivated reasoning), lack of tangibility (giving to a diffuse cause); Percieved lack of transparency, and perceived corruption overseas -->
 
