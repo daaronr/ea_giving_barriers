@@ -398,7 +398,7 @@ The evidence (from the Economics/Behavioral Economics literature) is largely mix
   
 **Design and results summary**: 
 
-Add scientific impact text to appeal (& remove emotional text):
+Add scientific impact text to base script (included a standard qualitative story about an individual beneficiar) & remove emotional text:
 
 $\rightarrow$ little net effect
 
@@ -424,6 +424,8 @@ $\rightarrow$ reduced (increased) giving among small (large) prior donors `r for
 > Because of caring people like you, Freedom from Hunger was able to offer Sebastiana a self-help path toward achieving her dream of getting “a little land to farm” and pass down to her children. As Sebastiana's young son, Aurelio, runs up to hug her, she says, “I do whatever I can for my children.”
 
 \
+
+
 
 **Parsons (2007)**
 
