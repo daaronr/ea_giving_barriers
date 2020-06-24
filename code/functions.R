@@ -171,6 +171,8 @@ coalesce_join <- function(x, y, by = NULL, suffix = c(".x", ".y"),
   cols <- union(names(x), names(y))
 
   to_coalesce <- names(joined)[!names(joined) %in% cols]
+      if(length(to_coalesce) >0){
+
   suffix_used <- suffix[ifelse(endsWith(to_coalesce, suffix[1]),
     1, 2)]
   # remove suffixes and deduplicate
@@ -181,7 +183,8 @@ coalesce_join <- function(x, y, by = NULL, suffix = c(".x", ".y"),
     suffix[1])]], joined[[paste0(.x, suffix[2])]]))
   names(coalesced) <- to_coalesce
 
-  dplyr::bind_cols(joined, coalesced)[cols]
+    joined <- dplyr::bind_cols(joined, coalesced)[cols]
+  return(joined)} else{return(joined)}
 }
 
 # Adapting function suggested by JohnH on Slack, to merge
