@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, and more" />
 
 
-<meta name="date" content="2020-06-24" />
+<meta name="date" content="2020-06-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -551,6 +551,24 @@ Here’s a guide to exactly how to do it.
 <p>Look at the list of headings on the left of this page: each second-level header is it’s own web-page (a distinct html link). “All the content in one scrolled page” is limited to a single first-level header.
 <!-- @Oska -- perhaps you can say this better --></p>
 </div>
+
+<div class="note">
+<p><strong><a href="https://stackedit.io/app#">stackedit.io</a></strong> can help you practice your markdown, or work on it in a nearly-WYSIWYG environment.</p>
+<p>To work on the files in a github archive directly in stackedit.io:</p>
+<ul>
+<li><p>Make sure you are a member of the archive</p></li>
+<li><p>Go to <a href="https://stackedit.io/app#" class="uri">https://stackedit.io/app#</a></p></li>
+<li><p>Click the “#” in the upper right corner</p></li>
+<li><p>Click ‘synchronise’ and add your github account</p></li>
+<li><p>Click ‘open from github’</p></li>
+<li><p>Fill in the url for the github repo, e.g., <a href="https://github.com/daaronr/ea_giving_barriers/" class="uri">https://github.com/daaronr/ea_giving_barriers/</a>,</p>
+<ul>
+<li>and the (folder and) file you want to edit, such as README.MD) (Not sure if rmd works; gotta check)</li>
+</ul></li>
+</ul>
+<p>It should then come out with two panels. Left panel=code, right panel=output in a nice format, auto-updating. You can open one, close the other, etc., and there are lots of tips/tools.</p>
+<p>Hitting ‘synchronise’ should push your changes to the Github repo (but doublecheck this is working)</p>
+</div>
 </div>
 <div id="the-code-and-folder-structure-in-this-repo-and-what-it-means" class="section level2" number="12.5">
 <h2><span class="header-section-number">12.5</span> The code and folder structure in this repo, and what it means</h2>
@@ -628,8 +646,8 @@ For more on Pandoc visit <a href="https://pandoc.org/">pandoc.org</a>
 <li><a href="https://bookdown.org/yihui/rmarkdown/">R markdown - the definitive guide</a></li>
 </ul>
 <p>Code chunks provide an easy way to embed code into your R Markdown files. The code language is not just limited to R either, as other languages can be used. This means that there is a wide variety of content which can be displayed in a chunk. Such as tables of data:</p>
-<p><table class="huxtable" style="border-collapse: collapse; border: 0px; margin-bottom: 2em; margin-top: 2em; ; margin-left: auto; margin-right: auto;  " id="tab:unnamed-chunk-47">
-<caption style="caption-side: top; text-align: center;"><span id="tab:unnamed-chunk-47">Table 12.1: </span> </caption><col><col><col><col><col><tr>
+<p><table class="huxtable" style="border-collapse: collapse; border: 0px; margin-bottom: 2em; margin-top: 2em; ; margin-left: auto; margin-right: auto;  " id="tab:unnamed-chunk-48">
+<caption style="caption-side: top; text-align: center;"><span id="tab:unnamed-chunk-48">Table 12.1: </span> </caption><col><col><col><col><col><tr>
 <th style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">Sepal.Length</th><th style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">Sepal.Width</th><th style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">Petal.Length</th><th style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">Petal.Width</th><th style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0.4pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">Species</th></tr>
 <tr>
 <td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; background-color: rgb(242, 242, 242); font-weight: normal;">5.1</td><td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; background-color: rgb(242, 242, 242); font-weight: normal;">3.5</td><td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; background-color: rgb(242, 242, 242); font-weight: normal;">1.4</td><td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; background-color: rgb(242, 242, 242); font-weight: normal;">0.2</td><td style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0.4pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; background-color: rgb(242, 242, 242); font-weight: normal;">setosa</td></tr>
@@ -804,7 +822,7 @@ When using the Citr package to add citations to projects such as this one, make 
 <div id="web-page-for-a-repo" class="section level4 unnumbered" number="">
 <h4>Web page for a repo</h4>
 <div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="bookdown-appendix.html#cb25-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;picsfigs/ea_barriers_github_repo_startpage.png&#39;</span>)</span></code></pre></div>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-51"></span>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-52"></span>
 <img src="picsfigs/ea_barriers_github_repo_startpage.png" alt="EA barriers repo github starting page" width="100%" />
 <p class="caption">
 Figure 12.1: EA barriers repo github starting page
@@ -949,7 +967,7 @@ Figure 12.1: EA barriers repo github starting page
 </p>
 
 <div class="note">
-<strong>Note</strong>: Some but not all of the Airtable content discussed in the rest of this subsection has already been incorporated into the present bookdown.
+<p><strong>Note</strong>: Some but not all of the Airtable content discussed in the rest of this subsection has already been incorporated into the present bookdown.</p>
 </div>
 <p>The table “EAlit_sections” outlines the (earlier?) structure of the EA barriers paper, already providing links to information that will be integrated.</p>
 <div class="figure">

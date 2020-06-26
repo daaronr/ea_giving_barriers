@@ -76,7 +76,7 @@ A brief overview of key functions inside Git (assuming a remote Github repo) inc
 
 ```{block2,  type='fold'}
 
-* **Cloning** a Git repository copies an existing Git repository into your local file space. 
+* **Cloning** a Git repository copies an existing Git repository into your local file space.
 * A **commit** saves the changes made in the current document to the **local** repository. Specific changes to commit to the remote (online) repo must be specified. This process is made much easier using a program such as Github Desktop rather than the Git code itself (although they do the same thing, and the latter is more flexible).
 * A **push**, pushes all local commits to the online version of this repository, essentially updating the online version of the files, to the version which is stored locally on your device.
 * A **pull**, is used to pull the changes made to the online repository, into the local repository. Thus making the local repository up to date with the remote/online repository.
@@ -139,6 +139,28 @@ Look at the list of headings on the left of this page: each second-level header 
 <!-- @Oska -- perhaps you can say this better -->
 </div>
 
+
+```{block2,  type='note'}
+
+**[stackedit.io](https://stackedit.io/app#)** can help you practice your markdown, or work on it in a nearly-WYSIWYG environment.
+
+To work on the files in a github archive directly in stackedit.io:
+
+- Make sure you are a member of the archive
+- Go to https://stackedit.io/app#
+
+- Click the "#" in the upper right corner
+- Click 'synchronise' and add your github account
+- Click 'open from github'
+- Fill in the url for the github repo, e.g., https://github.com/daaronr/ea_giving_barriers/,
+    - and the (folder and) file you want to edit, such as README.MD) (Not sure if rmd works; gotta check)
+
+It should then come out with two panels. Left panel=code, right panel=output in a nice format, auto-updating. You can open one, close the other, etc., and there are lots of tips/tools.
+
+Hitting 'synchronise' should push your changes to the Github repo (but doublecheck this is working)
+
+```
+
 ## The code and folder structure in this repo,  and what it means
 
 ### Writing_econ_book: Files-folders of interest (taken from readme March 2020)
@@ -166,14 +188,14 @@ docs: html output put here for web hosting
 
 - I further discuss the elements of the .Rmd (and associated) files, and how they translate into html output in the [video: rmarkdown content from template HERE](https://www.dropbox.com/s/p724socu1pmjous/rmarkdown-bookdown-content.mp4?dl=0)
 
-- A final video that focuses a bit more on adding citations is [HERE](https://www.dropbox.com/s/30ix6h3sxr24k9j/the_bookdown_and_editing_rmd.mp4?dl=0) -- this latter video has a very large file size, sorry. 
+- A final video that focuses a bit more on adding citations is [HERE](https://www.dropbox.com/s/30ix6h3sxr24k9j/the_bookdown_and_editing_rmd.mp4?dl=0) -- this latter video has a very large file size, sorry.
 
 *My apologies*: In these videos my dumb head is blocking an important part of the screen share. It may help you to have the original files up to see the missing bits. I hope to redo these when I have a chance.
 
 *Note:* The key files and settings for my bookdown projects are maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template), along with a minimal example. This is (or should be) synchronised with all the other repos.
 
 
-```  
+```
 
 
 
@@ -193,14 +215,14 @@ Markdown documents are usually saved as plain text files with the extension `.md
 ```{block2,  type='note'}
 **What is Pandoc?**
 
-Pandoc is a tool (a program) for converting from one document format to another. It is incredibly powerful. The great thing about a format like markdown, or r-markdown, is that it is simple to write and peruse, and, with the help of Pandoc, it can convert into many many other useful formats for web pages, documents, presentations, etc. 
+Pandoc is a tool (a program) for converting from one document format to another. It is incredibly powerful. The great thing about a format like markdown, or r-markdown, is that it is simple to write and peruse, and, with the help of Pandoc, it can convert into many many other useful formats for web pages, documents, presentations, etc.
 
-Pandoc is built into other tools including the RMarkdown package (see discussion on [Stackexchange here](https://stackoverflow.com/questions/40563479/relationship-between-r-markdown-knitr-pandoc-and-bookdown)). 
+Pandoc is built into other tools including the RMarkdown package (see discussion on [Stackexchange here](https://stackoverflow.com/questions/40563479/relationship-between-r-markdown-knitr-pandoc-and-bookdown)).
 
 You can also install and use Pandoc directly in the command line, or try it out (in a limited but still useful way) on the web [here](https://pandoc.org/try/)
 
 For more on Pandoc visit [pandoc.org](https://pandoc.org/)
-```  
+```
 
 In the R (statistically focused) language there are tools such as `knitR` that  allow R users to produce reports combining text, statistical output, and interactive content. These are generally written in "R-markdown" documents, saved as `.Rmd` rather than `.md` files. The R-studio interface, and several "add-ins", also help facilitate this. This interface is very useful; in fact, it may be convenient to build web books and other content using this even if you are not planning to extensively integrate R code and data. (As in the present book, although I'm hoping to build this in).
 
@@ -312,9 +334,9 @@ As with any academic work, it is always important to reference sourced material.
 
 Pandoc provides a way to generate formatted references as well as a bibliography in [R-Markdown](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html).
 
-The bibliography file to be sourced is specified within 'YAML' content, which guides the processing of these documents. (YAML content is generally enclosed with a three-dash `---` break at top and bottom.) 
+The bibliography file to be sourced is specified within 'YAML' content, which guides the processing of these documents. (YAML content is generally enclosed with a three-dash `---` break at top and bottom.)
 
-I generally specify the bibliography source in the YAML at the top of the .Rmd file, or for Bookdown projects in the  the YAML content in index.Rmd. 
+I generally specify the bibliography source in the YAML at the top of the .Rmd file, or for Bookdown projects in the  the YAML content in index.Rmd.
 
 <!-- @Oska -- we should try to explain this yaml stuff a bit better. -->
 
@@ -336,12 +358,12 @@ Better BibTeX for Zotero is a add-on for Zotero. Among other things it allows th
 - **Citr package (addin) for RStudio**
 
 The Citr package provides functions to search Zotero and BibTeX libraries in order to insert references into Markdown files. Citr also features a plugin for RStudio which makes the referencing process even easier. Instructions for download, as well as a demonstration of the Rstudio plugin are provided [here.](https://github.com/crsh/citr/blob/master/README.md)
-When using the Citr package to add citations to projects such as this one, make sure to have Citr update the correct Bibtex file. 
+When using the Citr package to add citations to projects such as this one, make sure to have Citr update the correct Bibtex file.
 
 ![Citr Settings for Ea_giving_barriers](picsfigs/citr_settings.png)
 
 <div class="marginnote">
-The Bibtex file to "Add references to" is the bibliography file specified in the YAML header of index.Rmd. 
+The Bibtex file to "Add references to" is the bibliography file specified in the YAML header of index.Rmd.
 </div>
 
 ### Specific system for adding references in this project
@@ -352,15 +374,15 @@ The Bibtex file to "Add references to" is the bibliography file specified in the
 
 2. Join the Zotero [reinstein_research_and_impact_collabs](https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs) group
 
-3. Make sure the [group library](https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs/library) is syncronised with your Zotero 
+3. Make sure the [group library](https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs/library) is syncronised with your Zotero
 
 4.  R-Studio  'Addins (see bar at top)', (Citr) 'insert citation', settings (brings up the screen shown above)
 
-- Make sure 'add references to' specifies the  "...`ea_giving_barriers/support/reinstein_bibtex.bib`" folder. 
+- Make sure 'add references to' specifies the  "...`ea_giving_barriers/support/reinstein_bibtex.bib`" folder.
 
 -  Make sure Zotero 'reinstein_research_and_impact_collabs' library is loaded
 
-5. Try to add the citation/reference. 
+5. Try to add the citation/reference.
 
 - Note that `[@reference]` gives a different format than `@reference` (see below test).
 
@@ -380,9 +402,9 @@ The Bibtex file to "Add references to" is the bibliography file specified in the
 
 ### Test adding  references
 
-*Test a reference from reinstein_bibtex.bib:* 
+*Test a reference from reinstein_bibtex.bib:*
 @fongTruthGivingExperimental2010 no brackets
-[@fongTruthGivingExperimental2010] with brackets 
+[@fongTruthGivingExperimental2010] with brackets
 
 using an "ID"" only: [@Fong2010]
 \
@@ -396,7 +418,7 @@ using an "ID"" only: [@Fong2010]
 - Packages need to be installed, but this should (?) be done automatically when you build via  the `source(here("code", "baseoptions.R"))` line in index.Rmd
   - knitr is a key package
 
-- Click 'Build', 'Build all', or the shortcut key shift-cmd-b 
+- Click 'Build', 'Build all', or the shortcut key shift-cmd-b
   - ... this seems to run the command ```rmarkdown::render_site(encoding = 'UTF-8')```
 
 Building may take some time, depending on how much code is present in the Rmd files and what that code does
@@ -423,7 +445,7 @@ Building may take some time, depending on how much code is present in the Rmd fi
 
 As noted, GitHub is a web page and interface that  acts as an external server and storage space for git projects/repos. It works well with this and also incorporate several additional features. You can see it and even interact with much of a repo simply via the GitHub webpage without even installing Git (but I strongly recommend that you do install Git as well as a tool like GitHub Desktop, unless you want to solely rely on command line Git).
 
-#### Web page for a repo {-} 
+#### Web page for a repo {-}
 
 
 ```{r, out.width='100%', fig.align='center', fig.cap='EA barriers repo github starting page'}
@@ -439,19 +461,19 @@ In your account when you click on the repo you'll see something like the  screen
 Once you've installed Git you will want to 'clone this repo' to have it on your machine and to be able to easily work with it and commit and push and pull changes. You will do this clone either via the web site, GitHub Desktop or another application, or using the command line
 </div>
 
-Note here we also see: 
+Note here we also see:
 
 - 48 'commits'
 
-- 2 'branches' 
+- 2 'branches'
 
 - 2 contributors
 
-Below this, some options allowing you to switch branch, manually upload files, clone or download etc. 
+Below this, some options allowing you to switch branch, manually upload files, clone or download etc.
 
 #### Readme for a repo {-}
 
-Below  the list of files you should see the "readme" for this repository. This is a file 'README.md'  stored in the root directory of this repository. If you click on it or look at the file you'll see it is written in markdown syntax but the GitHub website renders it into a nice format. 
+Below  the list of files you should see the "readme" for this repository. This is a file 'README.md'  stored in the root directory of this repository. If you click on it or look at the file you'll see it is written in markdown syntax but the GitHub website renders it into a nice format.
 
  I typically use this readme to explain what the project is about and describe (and link) the folder structure.
 
@@ -467,9 +489,9 @@ In a variety of places within a repo when you are adding comments or content you
 
 \
 
-Above, this shows the most recent commits. 
+Above, this shows the most recent commits.
 
-Clicking on one of these commits will show you 'what changed' and old versus new versions. 
+Clicking on one of these commits will show you 'what changed' and old versus new versions.
 
 
 \
@@ -482,27 +504,27 @@ For example, above we see something like a "split diff" view, with the 'old vers
 
 Here we see that ...
 
-- in the file 'sections/inertia.rmd' a space has been added after 'crowding out?' 
+- in the file 'sections/inertia.rmd' a space has been added after 'crowding out?'
 <div class="marginnote">
-This is but one way to view and consider changes. Various text editors such as Atom and ViM also offer great tools, as does the Git program itself and the GitHub desktop application.  
+This is but one way to view and consider changes. Various text editors such as Atom and ViM also offer great tools, as does the Git program itself and the GitHub desktop application.
 </div>
 
 - in 'present_puzzle.Rmd' an (obsolete) 'underline' notation has been replaced with a third level markdown header (three `#` marks)
 
 #### Commenting within commits, etc., tagging collaborators in this {-}
 
-One way to ask questions, comment on changes and let people know about changes you made, is via adding a comment within a commit itself. (Check: can this be tied to an 'issue'?)  
+One way to ask questions, comment on changes and let people know about changes you made, is via adding a comment within a commit itself. (Check: can this be tied to an 'issue'?)
 
 ![Commenting on a part of a commit, notifying a collaborator](picsfigs/commenting_a_commit.png)
 
 
-Above, we see that by clicking on a plus sign that appears just to the right of the the line number when viewing a commit, we can add a comment on that particular part of the commit. We can then flag another collaborator (see '@daaronr' above ... when you type the '@' you get a dropdown of collaborators) who will be notified of this. 
+Above, we see that by clicking on a plus sign that appears just to the right of the the line number when viewing a commit, we can add a comment on that particular part of the commit. We can then flag another collaborator (see '@daaronr' above ... when you type the '@' you get a dropdown of collaborators) who will be notified of this.
 
 This mode of commenting and conversation has the advantage of avoiding cluttering up the actual code and text with excess comments.
 
 \
 
-You can also link each comment to an 'issue' (issues are discussed below) by adding a hash to the comment and citing the issue number. This comment and link to the place in the code or text for that commit will then show up when you look at that issue. This makes the discussion more organized, at least we hope. 
+You can also link each comment to an 'issue' (issues are discussed below) by adding a hash to the comment and citing the issue number. This comment and link to the place in the code or text for that commit will then show up when you look at that issue. This makes the discussion more organized, at least we hope.
 
 ![Link an issue in a comment](picsfigs/comment_link_issue.png)
 
@@ -517,7 +539,7 @@ I discuss these features in  a video guide  [here](https://www.dropbox.com/s/kxa
 Note that the 'project board' and 'issues' are just tools on the Github web site for discussing and managing the project; these are not files or data, it's a built-in tool.
 
 
-```  
+```
 
 - the Project is a 'Kanban board' for managing tasks, responsibilities and progress
 
@@ -587,8 +609,8 @@ The fundingwiki app automatically populates and updates information on the numbe
 
 ```{block2,  type='note'}
 **Note**: Some but not all of the Airtable content discussed in the rest of this subsection has already been incorporated into the present bookdown.
-  
-```  
+
+```
 
 The table "EAlit_sections" outlines the (earlier?) structure of the EA barriers paper, already providing links to information that will be integrated.
 
@@ -610,7 +632,7 @@ This organizes and assembles the discussion and evidence on potential factors an
 <div class="marginnote">
 Again, this is older work, maybe already incorporated into the Bookdown?
 </div>
- 
+
 
 
 For each barrier or bias, we consider why it is may be particularly relevant to *effective* giving.
