@@ -1,6 +1,5 @@
 # Presenting the puzzle and challenge: Our ineffective giving {#present-puzzle}
 
-
 <div class="marginnote">
 Overview of research Question/Problem: Why don't people give in an evidence-based way?
 </div>
@@ -254,7 +253,7 @@ Economists love when we can say that something is officially a *Puzzle*. It is a
 Aside on 'Warm glow'... consider the contrast between models where people care about the impact of their gift versus models in which they care only about the  'amount sacrificed' (naive warm glow).  Does impact map into the 'good feeling' from giving? Can it do so? 
 ```   
 
-### Conceptual breakdown of 'barriers' (first presentation) {#barriers-concept}
+## Conceptual breakdown of 'barriers' (first presentation) {#barriers-concept}
 
 We focus on the 'barriers' or 'hurdles' to giving effectively among individuals who *already* engage in some charitable giving and other-regarding acts. Loosely, a donor  would need to jump over all of these hurdles and cross each of these barriers in order to be giving effectively.
 
