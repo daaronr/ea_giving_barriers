@@ -385,12 +385,7 @@ The Bibtex file to "Add references to" is the bibliography file specified in the
 [@fongTruthGivingExperimental2010] with brackets 
 
 using an "ID"" only: [@Fong2010]
-
 \
-
-From Reinstein_references.bib
-
-[@fongTruthGivingExperimental2010a]
 
 ## How to 'build' and view the book
 
@@ -431,7 +426,7 @@ As noted, GitHub is a web page and interface that  acts as an external server an
 #### Web page for a repo {-} 
 
 
-```{r, out.width='85%', fig.align='center', fig.cap='EA barriers repo github starting page'}
+```{r, out.width='100%', fig.align='center', fig.cap='EA barriers repo github starting page'}
 
 knitr::include_graphics('picsfigs/ea_barriers_github_repo_startpage.png')
 
@@ -513,6 +508,16 @@ You can also link each comment to an 'issue' (issues are discussed below) by add
 
 
 #### The 'Project' board and  'Issues' {-}
+
+
+```{block2,  type='note'}
+
+I discuss these features in  a video guide  [here](https://www.dropbox.com/s/kxa174tw6psno4s/git-github-commit-policy-theory-project.mp4?dl=0) starting at about 11:46.
+
+Note that the 'project board' and 'issues' are just tools on the Github web site for discussing and managing the project; these are not files or data, it's a built-in tool.
+
+
+```  
 
 - the Project is a 'Kanban board' for managing tasks, responsibilities and progress
 

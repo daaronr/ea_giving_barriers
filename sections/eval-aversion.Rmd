@@ -10,8 +10,6 @@ An earlier set of presentation slides (now pictures are missing -- need to recov
                                                        
 ```  
 
-I am testing how to add some regular text here, OK, maybe I will put something in *italics*.
-
 
 <!-- #TODO recover and add images:
 
@@ -20,13 +18,16 @@ I am testing how to add some regular text here, OK, maybe I will put something i
 
 ## General relevance to effective giving
 
-For people to choose one product over another on the basis of some characteristic (e.g., safety, taste, or durability), they presumably must be *aware* of these differences before purchasing. Economists note [ref] the difficulty of investing in producing, marketing and selling high-quality products and services when consumers have difficulty distinguishing these products from inferior ones.  This is especially difficult when the quality of a product is not known before purchase (an 'Experience good' [ref] such as a ticket to a particular stage show), or when it is not known until a long time later, if at all (a 'credence good' such as a health remedy or investment advice.) <div class="marginnote">
+For people to choose one product over another on the basis of some characteristic (e.g., safety, taste, or durability), they presumably must be *aware* of these differences before purchasing. Economists note [ref] the difficulty of investing in producing, marketing and selling high-quality products and services when consumers have difficulty distinguishing these products from inferior ones.  This is especially difficult when the quality of a product is not known before purchase (an 'Experience good' [ref] such as a ticket to a particular stage show), or when it is not known until a long time later, if at all (a 'credence good' such as a health remedy or investment advice.) 
+
+<div class="marginnote">
 Insert abundant references here to asymmetric information, fly-by-night competition, and experience and creedence goods, product reviews, regulation, advertising as a signal, etc.
 </div>
 
 \
 
- Considering a charitable donation as a product purchased by the donor, it seems to  fall into the latter category [ref to authors making this point]. If donors value their 'marginal impact on outcomes' as discussed in our earlier [definitions of impact](#def-impact), they may need to do extensive research (or at least know about and visit web sites such as GiveWell and ImpactMatters) to have some estimate of the value-for-money they are getting.
+Considering a charitable donation as a product purchased by the donor, it seems to  fall into the latter category [ref to authors making this point]. If donors value their 'marginal impact on outcomes' as discussed in our earlier [definitions of impact](#def-impact), they may need to do extensive research (or at least know about and visit web sites such as GiveWell and ImpactMatters) to have some estimate of the value-for-money they are getting.
+ 
 <div class="marginnote">
 Donors may also be uncertain about other benefits they main gain from each donation such as 'gratitude and long-term sense of fulfillment'.
 </div>
@@ -56,10 +57,16 @@ In this section we consider the evidence for
 
 
 <div class="marginnote">
+
 Effectiveness information may also affect how donors perceive the *social signaling* value of their donation. We return to this in the [signaling and social pressures...](#social) section.
+
 </div>
  
 \
+
+
+
+
 
 Further 'grant-worthy' motivation (unfold).
 
@@ -67,7 +74,7 @@ Further 'grant-worthy' motivation (unfold).
 
 As noted above, scientific evidence suggesting that organizations’ “cost per outcome” differs substantially, perhaps by a factor of 1000 or more (Jamison et al., 2006). This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like GiveWell now provide direct ratings on the basis of  per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors’ preferences for contributions “to be put to good use”—i.e., for direct interventions. 
 
-E.g., In Aknin et al  participants reported greater happiness when the impact of their contribution was highlighted.(van Iwaarden et al. 2009; Aknin et al., 2013). 
+E.g., In Aknin et al  participants reported greater happiness when the impact of their contribution was highlighted. (van Iwaarden et al. 2009; Aknin et al., 2013). 
 
 However, while we have rigorous evidence on what works and doesn’t work in anti-poverty and health interventions (acknowledged by the 2019 Economics Nobel Prize), we actually know very little about how potential donors react to this impact information! However, we actually know very little about how potential donors react to this impact information!
 
@@ -110,10 +117,12 @@ As Berman et al note, the belief that *CBA is not a natural part of the charitab
 Several papers^citation needed^ find that people are reluctant to pay for---or actively seek to avoid--- certain information. However, these may reflect motives distinct from CBA, such as a self-serving bias.  
 
 <div class="marginnote">
-On the other hand ...  a majority ranked effectiveness [how highly?] as a crucial criterion to select a charity and reported greater happiness when the impact of their contribution wasis highlighted.(van Iwaarden et al. 2009; Aknin et al., 2013) 
+On the other hand ...  a majority ranked effectiveness [how highly?] as a crucial criterion to select a charity and reported greater happiness when the impact of their contribution was highlighted. [@Aknin2013; @vaniwaardenCharitiesHowImportant2009]
 </div>
 
 #### Psychological theory behind CBA {-}
+
+
 
 This CBA discomfort brings together several overlapping theoretical
 frameworks:
@@ -157,7 +166,6 @@ Note: This evidence is only tangentially relevant.
 
 #### Evidence for "People rarely seek out effectiveness information and are reluctant to purchase it" {-}
 
-
 <!-- TODO - Cite: That survey-based study where few people say that they have
 looked into the effectiveness information on the charities they donate
 to -->
@@ -193,7 +201,7 @@ Null attributes this failure to buy information either to subjects who "simply d
 #### Evidence for "People do not respond 'efficiently' to information about costs and benefits" {-}
 
 <div class="marginnote">
-This should probably be moved to the nextg section
+This might be moved into to the next section
 </div>
  
 
@@ -370,9 +378,9 @@ This looks like an underpowered study. They can perhaps rule out an effect great
 
 ## Exposure to cost effectiveness and impact information (analytical information) may reduce generosity {#analytical-grinch}
 
-- may turn off System-1 and reduce giving
+- May turn off System-1 and reduce giving
 
-- statistics diminish impact of 'identifiable victim'
+- Statistics diminish impact of 'identifiable victim'
 
 References: small2007sympathy_s3_s4, small2007sympathy_s1_s2, karlan2017effect, bergh_Reinstein	smeets2015giving
 
@@ -385,7 +393,7 @@ See also: karlan2017effect, "Parsons, 2007"
 
 A subjective outline of the evidence:
   
-The evidence (from the Economics/Behavioral Economics literature) is largely mixed and indeterminate. There has been only a single strong field trial [@karlanEffectEffectivenessDonor2017] in a particular context, which itself reported mixed (null overall, positive for some subgroups, negative for others), and some underpowered results. Laboratory experiments (with real donations) by Small et al find that giving to an identifiable victim is *reduced* when statistics are also presented and "priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime." Further evidence from lab experiments is mixed and limited, with some studies (Fong and O) *apparently* finding that exogenous information about recipient increases donations (although they do not report this).  There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies.
+The evidence (from the Economics/Behavioral Economics literature) is largely mixed and indeterminate. There has been only a single strong field trial [@karlanEffectEffectivenessDonor2017a] in a particular context, which itself reported mixed (null overall, positive for some subgroups, negative for others), and some underpowered results. Laboratory experiments (with real donations) by Small et al find that giving to an identifiable victim is *reduced* when statistics are also presented and "priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime." Further evidence from lab experiments is mixed and limited, with some studies (Fong and O) *apparently* finding that exogenous information about recipient increases donations (although they do not report this).  There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies.
 
 ```  
 
@@ -396,9 +404,11 @@ The evidence (from the Economics/Behavioral Economics literature) is largely mix
 > While Karlan and Wood (2017) did find that those who had previously donated large amounts gave more when they received effectiveness information (and Parsons found similar effects for efficiency and prior donors), the reason for this effect is unclear. For example, large/frequent donors may experience a greater pressure to donate in light of any new positive information.  
 - Bergh and Reinstein (2020)
   
+\
+  
 **Design and results summary**: 
 
-Add scientific impact text to appeal (& remove emotional text):
+Add scientific impact text to base script (included a standard qualitative story about an individual beneficiar) & remove emotional text:
 
 $\rightarrow$ little net effect
 
@@ -406,15 +416,20 @@ $\rightarrow$ reduced (increased) giving among small (large) prior donors `r for
 
 <br>
 
-`r format_with_col("*Potential confounds, specificity*","blue")`
+
 
 <aside class="notes">
+
+**Potential confounds, specificity**
+
 - Yale/institution effect (seemed negative)
-- Nature of 'impact' information (not exactly quantitative)
+- Nature of 'impact' information (not entirely quantitative)
 - ex-post splitting
 - two things changed at once (impact in, emotional out)
+
 </aside>
 
+\
 
 **Details of Karlan first wave: SCIENCE vs EMOTION**
 
@@ -424,6 +439,8 @@ $\rightarrow$ reduced (increased) giving among small (large) prior donors `r for
 > Because of caring people like you, Freedom from Hunger was able to offer Sebastiana a self-help path toward achieving her dream of getting “a little land to farm” and pass down to her children. As Sebastiana's young son, Aurelio, runs up to hug her, she says, “I do whatever I can for my children.”
 
 \
+
+
 
 **Parsons (2007)**
 
@@ -438,9 +455,10 @@ FINANCIAL (alone) $\rightarrow$ 180\% increase in odds of donating *among prior 
 
 <div class="marginnote">
  
-Unsure if it's a logit or LPM -- confusing writing
-Not effect-coded; no measure of *overall* impact of FINANCIAL across both SEA treatments
-Probably not preregistered
+Unsure if it's a logit or LPM -- confusing writing 
+
+Not effect-coded; no measure of *overall* impact of FINANCIAL across both SEA treatments Probably not preregistJjji
+
 I'd like to see CI's
 </div>
 
@@ -590,8 +608,6 @@ Researchers gave study participants the opportunity to donate $0-5 to famine rel
 \
 
 #### Bergh and Reinstein, 2020, SPSS {-}
-
-
 
 
 ## Overall 'net' responses to charity ratings {#ratings}
