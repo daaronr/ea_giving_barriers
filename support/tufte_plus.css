@@ -99,7 +99,7 @@ h1 { font-style: normal; /*changed from italic*/
 h2 { font-style: normal; /*changed from italic*/
      font-weight: 300;
      font-size: 1.7rem;
-     margin-top: 2rem;
+     margin-top: 1rem;
      margin-bottom: 0;
      line-height: 1; }
 
@@ -427,6 +427,7 @@ h3.subtitle em {
   border: 1px solid grey;
   min-height: 40px;
     max-width: 90%;
+  padding: .7em .7em .7em .7em;
 }
 
 /*Note here to check it's updating */
