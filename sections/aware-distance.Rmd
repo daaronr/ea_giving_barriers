@@ -1,10 +1,16 @@
 # Barriers: Awareness, consideration, and distance {#aware-distance}
 
+<div class="marginnote">
+This section was written by David Reinstein and Luke Arundel.
+</div>
+ 
 ## Description and relevance to Effective Giving
 
-Typically,  the most effective (humanitarian) charitable contributions will go from wealthy countries in the "North"  to poor countries in the "South".   The large, social,  cultural geographic distance is an important barrier to giving  and a reason why people prefer to give locally. However, technology continues to reduce these barriers (see, e.g., Give Directly and their new web-enabled tools).
+Typically, the most effective (humanitarian) charitable contributions will go from wealthy countries in the "North"  to poor countries in the "South".<sup>Citation/cross-reference needed.</sup>  The large, social,  cultural geographic distance may be an important barrier to giving  and a reason why people prefer to give locally. However, technology continues to reduce these barriers (see, e.g., Give Directly and their new web-enabled tools).<sup>needs more specific citation </sup>
 
-@loewensteinScarecrowTinMan2007 propose that there is a relationship between sympathy and helping behaviour, drawing on experimental findings in psychology and economics. This idea of emotions like sympathy playing a part in decision-making relates to the dual system that has been discussed by @kahnemanThinkingFastSlow2011.He has made the distinction between deliberative and affective cognition, where System 1 makes initial judgements, which are monitored by a more deliberative System 2 [@morewedge2010associative].
+@loewensteinScarecrowTinMan2007 propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by @kahnemanThinkingFastSlow2011). This model distinguishes between System 1, which makes initial judgements (using 'affective cognition'); these are monitored by a more 'deliberative cognition' System 2 [@morewedge2010associative].
+
+<!-- @LA: this psychological model is widely known but also widely criticised model; we need to either mention it briefly with a link to some papers surveying it, or discuss it more carefully. Perhaps you can draw (and quote) some language from my paper with Robin Bergh, or others in this literature -->
 
 ## Theoretical and conceptual underpinning
 
@@ -26,26 +32,52 @@ Consider:
 
 -  What is the evidence that this is manifested in our charitable giving? 
 
-Parochialism may pose a significant barrier to effective giving. Parochialism, as defined by @baron2011heuristics is the mental process of making a distinction between in-groups and out-groups, where people feel a greater connection with their own groups and weigh their welfare more heavily. There is some evidence for this effect in charitable contexts. For example, an experiment from @chenGroupIdentitySocial2009 found that when matched with an in-group member, people were significantly more likely to show charitable concern. @Sudhir2016a suggest that this could be because categorizing others as in group members along lines such as race, gender and age, increases the sense of responsibility and level of emotion felt, resulting in higher levels of sympathy and consequently a stronger urge to help. They examined this effect by randomising advertising content. When the woman on a flyer advertising the charity in question was from the in-group (in this case a Hindu woman in India, compared to a Christian woman in the out-group), they found that as well as increasing the donation rate, the use of an in-group member in the marketing also led to those that did donate giving substantially more. 
+Parochialism may pose a significant barrier to effective giving. Parochialism, as defined by @baron2011heuristics is the mental process of making a distinction between in-groups and out-groups, where people feel a greater connection with their own groups and weigh their welfare more heavily.
 
-This distinction between in-group and out-group clearly has important implications for the efficient allocation of resources in charitable donations. Out-group charities might be more effective in terms of saving lives, but receive fewer donations from wealthy countries as the money is seen to be going to 'outsiders'[@baron2011heuristics].
+There is some evidence for this in charitable contexts. @chenGroupIdentitySocial2009 found that when matched with an in-group member <sup>[in a lab experiment?]</sup>, people were significantly more likely to show charitable concern.<sup>['show charitable concern' in what way?]</sup>  @Sudhir2016a suggest that categorizing others as in-group members (along lines such as race, gender and age) increases the sense of responsibility and level of emotion felt, resulting in higher levels of sympathy and consequently a stronger urge to help. They examined this effect by randomising advertising content. <sup> In a large scale field experiment with a charitable mailing in India...?</sup> When the woman on a flyer advertising the charity in question was from the in-group (in this case a Hindu woman in India, compared to a Christian woman in the out-group), they found a higher rate of donation and greater amounts raised.<sup>Give some statistics here.</sup>
 
+
+The in-group/out-group may have important implications for effective giving: donors from wealthy countries may find more 'in-group' members closer to home, thus neglecting causes that benefit 'out-group' members from other countries and cultures [@baron2011heuristics].
+<!-- DR: Not sure we need this paragraph as we said it above. But what exactly is being referenced here from Baron? -->
 
 ## Distance: Experiential, Informational, Emotional/Affective
 
-Ref: small2007_friends	small_loewenstein_07_scarecrow
+<div class="marginnote">
+ Ref: small2007_friends	small_loewenstein_07_scarecrow
+</div>
 
 ## Distance -  Temporal (future problems and people), Hypothetical (probability to happen)
 
-This is particular relevant to causes and charities dealing with the medium-term and long-term future.
+<div class="marginnote">
+This is particularly relevant to causes and charities dealing with the medium-term and long-term future.
+</div>
 
 ## Availability heuristic and media (also see 'biases')
 
-Rare events such as natural disasters are particularly vivid and salient, and the availability bias suggests that people will overestimate the probability and value of events if they come to mind more easily [@tversky1973availability]. For example, people might overestimate the probability of plane crashes due to their salience. 
+Rare events such as natural disasters are particularly vivid and salient, and the availability bias suggests that people will overestimate the probability and value of events if they come to mind more easily [@tversky1973availability]. For example, people might overestimate the probability of airplane crashes due to their salience. 
 
-@loewensteinScarecrowTinMan2007 argue that vividness is also one of the key determinants of sympathy, and one of the most important demonstrations of this is the identifiable victim effect. Their research suggests that victims who are 'determined' received higher levels of aid compared with indeterminate victims, as without identifying them people struggle to empathise, and are as a result less likely to help [@Small2003a]. This effect is discussed further in 8.4. 
+@loewensteinScarecrowTinMan2007 argue that vividness is also one of the key determinants of sympathy, and one of the most important demonstrations of this is the identifiable victim effect. Their research suggests that victims who are 'determined' received higher levels of aid compared with indeterminate victims, as without identifying them people struggle to empathise, and are as a result less likely to help [@Small2003a]. 
 
-An article from @epsteinCrisisMentalitySSIR2006 concluded that natural disasters received a level of donations that was significantly out of proportion to the damage the disasters caused, while other long-term, persistent problems such as AIDS and malaria got much less attention, and consequently much less funding. The huge donations to causes like Hurricane Katrina also had the effect of significantly reducing donations to some other charities. Even when it comes to relief from the government, @eisenseeNewsFloodsNews2007 suggest that the level of U.S. relief for natural disasters depended on whether the disaster had happened while other widely covered events were also occurring. They concluded that relief decisions in government were strongly influenced by the extent to which it was covered by the media. 
+<div class="marginnote">
+ This effect is discussed further under the ['statistical/identifiable victims'](#statvictims) quantitative bias.
+</div>
+
+<!-- TODO: can we figure out a way to dynamically cite section numbers? -->
+
+
+
+@epsteinCrisisMentalitySSIR2006 concluded <sup>[based on what analysis/evidence?]</sup> that natural disasters received a level of donations that was significantly out of proportion to the damage the disasters caused, while other long-term, persistent problems such as AIDS and malaria got much less attention, and consequently much less funding. [He argued that] The huge donations to causes like Hurricane Katrina also had the effect of significantly reducing donations to some other charities. 
+<div class="marginnote">
+This is controversial and hard to measure. The issue of 'expenditure substitution' is still largely unresolved. See previous section (['Are characteristic in competition](#substitution)).
+</div>
+ 
+
+Even when it comes to relief from the government, @eisenseeNewsFloodsNews2007 suggest that the level of U.S. relief for natural disasters depended on whether the disaster had happened while other widely covered events were also occurring. They concluded that relief decisions in government were strongly influenced by the extent to which it was covered by the media.
+<div class="marginnote">
+They use a very interesting methodology; we might describe it a bit more.</div>
+ 
+
+
 
 
 <div class="marginnote">
@@ -56,8 +88,19 @@ An article from @epsteinCrisisMentalitySSIR2006 concluded that natural disasters
 
 ## Reference points 
 
-It is argued that persistent problems can be less noticeable than rare events such as natural and man-made disasters. These persistent issues could then be inherently less present in donors' minds, and less reported in the media. @macaskillDoingGoodBetter2015 expressed this by saying that "When a disaster strikes, the emotional centres of our brain flair up: we think - emergency! We forget there is an emergency happening all the time because we've grown accustomed to everyday emergencies like disease and poverty and oppression".  
+It is argued that persistent problems can be less noticeable than rare events such as natural and man-made disasters. These persistent issues could then be inherently less present in donors' minds, and less reported in the media. @macaskillDoingGoodBetter2015 expressed this as follows.
 
-This is related to the potential importance of 'Newness' as a determinant for generating sympathy. In their review of the literature on adaption, @frederick199916 suggest that people can be adaptive in dealing with negative shocks. This attachment to reference points has been demonstrated by @Sudhir2016a. Their study suggested that people who are chronically poor or ill can get significantly less sympathy, and consequently donations, than people who have been effected by a change, such as falling into poverty at an old age. @loewensteinScarecrowTinMan2007 argue that "of all the nonnormative factors that influence sympathy, perhaps novelty is the most profound and important for public policy". 
+> when a disaster strikes, the emotional centres of our brain flair up: we think - emergency! We forget there is an emergency happening all the time because we've grown accustomed to everyday emergencies like disease and poverty and oppression.  
 
-Issues such as AIDS, malaria and poverty are long-term issues, persistent over time, and when compared to the shock of a natural disaster, the potential problem that adaption can pose can be seen. People have gradually adapted to some extent to these problems, reducing the level of sympathy they feel and consequently lowering their desire to take action [@macaskillDoingGoodBetter2015]. 
+This is related to the potential importance of 'Newness' as a determinant of sympathy. In their review of the literature on adaption, @frederick199916 suggest that people can be adaptive in dealing with negative shocks. 
+
+<div class="marginnote">
+Here we should distinguish individual's *own* response to shocks from their sympathetic/empathetic and other-regarding-response to learning about *others'* shocks. I would also distinguish reference points a bit more carefully; there are all sorts of effects involving reference points.
+</div>
+
+This attachment to reference points has been demonstrated by @Sudhir2016a. Their study suggested that people who are chronically poor or ill can get significantly less sympathy, and consequently donations, than people who have been effected by a change, such as falling into poverty at an old age. @loewensteinScarecrowTinMan2007 argue that "of all the nonnormative factors that influence sympathy, perhaps novelty is the most profound and important for public policy". 
+
+Issues such as AIDS, malaria and poverty are long-term issues, persistent over time, and when compared to the shock of a natural disaster, the potential problem that adaption can pose can be seen. According to [@macaskillDoingGoodBetter2015], people have gradually adapted to some extent to these problems, reducing the level of sympathy they feel and consequently lowering their desire to take action.
+
+<!-- @LS -it's improving but lets focus more on the *evidence* for these things. It will help to look at the previous literature review and synthesis work on these (see section 2.2 for a start). We can even incorporate material from this work, carefully citing it
+--> 

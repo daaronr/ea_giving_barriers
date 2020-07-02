@@ -62,7 +62,8 @@ BG:  My thought was that people who do not value saving lives (or are in general
 ```
 
 To operationalize this, we need to define what the numerator and denominator represent. For the numerator, an (EA) impact-driven individualist donor might consider of her *own* contribution (per dollar or overall) relative to the size of the need. In contrast, a more collectivist/team-reasoning/communitarian thinker might consider the impact of the *total* expected donation relative to the size of the need. We also need to better define the denominator; how do individuals lump together different groups/problems to define the overall scale of the need, and how sensitive is this to the fundraisers' framing? 
-*[Mechanisms]{.underline}*
+
+### Mechanisms {-}
 
 Fetherstonhaugh et al (1997) highlight "Weber's law": Humans are sensitive to proportional changes/proportional differences in stimuli (loudness, brightness, etc); thus we are less sensitive to small changes relative to a larger baseline. There is evidence this also holds in assessing losses of life. \... the "subjective value of saving the specified number of lives is greater for a smaller tragedy than for a larger one" . 
 
@@ -326,9 +327,12 @@ d.  (Ari:) "Increase evaluability: putting interventions on same
 
 ```
 
-## Statistical/identifiable victim effect
+## Statistical/identifiable victim effect {#statvictim}
 
+<div class="marginnote">
 Cite: Hsee13, small2003helping, kogut2011identifiable, small2007sympathy_s3_s4
+</div>
+ 
 
 ## Availability heuristic 
 
