@@ -74,7 +74,7 @@ Further 'grant-worthy' motivation (unfold).
 
 As noted above, scientific evidence suggesting that organizations’ “cost per outcome” differs substantially, perhaps by a factor of 1000 or more (Jamison et al., 2006). This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like GiveWell now provide direct ratings on the basis of  per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors’ preferences for contributions “to be put to good use”—i.e., for direct interventions. 
 
-E.g., In Aknin et al  participants reported greater happiness when the impact of their contribution was highlighted. (van Iwaarden et al. 2009; Aknin et al., 2013). 
+E.g., In @Aknin2013  participants reported greater happiness when the impact of their contribution was highlighted. [@vaniwaardenCharitiesHowImportant2009; @Aknin2013]. 
 
 However, while we have rigorous evidence on what works and doesn’t work in anti-poverty and health interventions (acknowledged by the 2019 Economics Nobel Prize), we actually know very little about how potential donors react to this impact information! However, we actually know very little about how potential donors react to this impact information!
 
@@ -108,7 +108,7 @@ The reluctance to engage in this evaluation process may relate to the aforementi
 
 [@Berman2018] refer to the idea that "believing that charity is a subjective decision licenses individuals to donate in personally gratifying ways." This perspective plausibly combines partial and conflicted Utililitarian preferences with the presence of moral licensing.
 
-As Berman et al note, the belief that *CBA is not a natural part of the charitable domain* may stem from the lack of direct feedback one gets from donating (in Economics terms, a "credence" good) relative to consumption and investment goods. 
+As @Berman2018 note, the belief that *CBA is not a natural part of the charitable domain* may stem from the lack of direct feedback one gets from donating (in Economics terms, a "credence" good) relative to consumption and investment goods. 
 
 <div class="marginnote">
 (they cite: Imas paper?)
@@ -127,11 +127,11 @@ On the other hand ...  a majority ranked effectiveness [how highly?] as a crucia
 This CBA discomfort brings together several overlapping theoretical
 frameworks:
 
--   Fiske's Relational Theory (1992; also see Aggarwal, 2004), which proposes four basic types of social relationships: communal sharing, authority ranking, equality matching, and market pricing. For more here, see Heyman & Ariely, 2004 on social vs economic markets. 
+-   Fiske's Relational Theory (@fiskeFourElementaryForms1992; also see Aggarwal, 2004), which proposes four basic types of social relationships: communal sharing, authority ranking, equality matching, and market pricing. For more here, see @heyman2004effort on social vs economic markets. 
 
 -   Taboo Tradeoffs & Protected Values: to the extent that CBA requires making taboo tradeoffs that clash with protected values, people may be reticent to engage in CBA for prosocial purposes. 
 
--   Distorted Altruists as the existing dominant view (contrast) c.f., Loewenstein & Small, 2007; Slovic, 2007 \-- people care about welfare maximization, **but without clear information to make comparisons**, they rely on their feelings to guide choice (Loewenstein & Small, 2007; Slovic, 2007). Berman et al 2018 build on this. 
+-   Distorted Altruists as the existing dominant view (contrast) c.f., Loewenstein & Small, 2007; Slovic, 2007 \-- people care about welfare maximization, **but without clear information to make comparisons**, they rely on their feelings to guide choice (@loewensteinScarecrowTinMan2007; @slovicPsychicNumbingGenocide2007). @Berman2018 build on this. 
 
 <div class="marginnote">
 We distinguish CBA opposition from the inability to conduct CBA. The former is treated here while the latter involves a series of [quantitative biases discussed later](#quant-biases).
@@ -306,11 +306,11 @@ Commenting this out because it seems to be subsumed above
 
 ## Information as an 'excuse' not to give; allows motivated reasoning
 
-**Exley, 2016b:** Greater discounting of 'less-efficient' charity in charity-charity decision-making than in charity-self d-m
+**@exleyExcusingSelfishnessCharitable2016a** Greater discounting of 'less-efficient' charity in charity-charity decision-making than in charity-self d-m
 
 <br>
 
-**Fong & O, '10:**
+**@fongTruthGivingExperimental2010**
 
 > "Dictators [charitable giving] who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers"
 
@@ -382,9 +382,9 @@ This looks like an underpowered study. They can perhaps rule out an effect great
 
 - Statistics diminish impact of 'identifiable victim'
 
-References: small2007sympathy_s3_s4, small2007sympathy_s1_s2, karlan2017effect, bergh_Reinstein	smeets2015giving
+References: @Small2007, @karlanEffectEffectivenessDonor2017b, @bergh2020empathic, @smeets2015giving
 
-See also: karlan2017effect, "Parsons, 2007"
+See also: @Linda2007
 
 <!--DR: A related memo-- https://www.dropbox.com/s/t4lq8x9lqeg6gt9/practicalpresentingimpactinfo.pdf?dl=0-->
 
@@ -393,16 +393,16 @@ See also: karlan2017effect, "Parsons, 2007"
 
 A subjective outline of the evidence:
   
-The evidence (from the Economics/Behavioral Economics literature) is largely mixed and indeterminate. There has been only a single strong field trial [@karlanEffectEffectivenessDonor2017a] in a particular context, which itself reported mixed (null overall, positive for some subgroups, negative for others), and some underpowered results. Laboratory experiments (with real donations) by Small et al find that giving to an identifiable victim is *reduced* when statistics are also presented and "priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime." Further evidence from lab experiments is mixed and limited, with some studies (Fong and O) *apparently* finding that exogenous information about recipient increases donations (although they do not report this).  There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies.
+The evidence (from the Economics/Behavioral Economics literature) is largely mixed and indeterminate. There has been only a single strong field trial [@karlanEffectEffectivenessDonor2017a] in a particular context, which itself reported mixed (null overall, positive for some subgroups, negative for others), and some underpowered results. Laboratory experiments (with real donations) by Small et al find that giving to an identifiable victim is *reduced* when statistics are also presented and "priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime." Further evidence from lab experiments is mixed and limited, with some studies [@fongTruthGivingExperimental2010] *apparently* finding that exogenous information about recipient increases donations (although they do not report this).  There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies.
 
 ```  
 
 ### Presenting "Effectiveness" and other types of analytical efficiency information
 
-#### **Karlan and Wood (2017)** 
+#### **@karlanEffectEffectivenessDonor2017b** 
 
-> While Karlan and Wood (2017) did find that those who had previously donated large amounts gave more when they received effectiveness information (and Parsons found similar effects for efficiency and prior donors), the reason for this effect is unclear. For example, large/frequent donors may experience a greater pressure to donate in light of any new positive information.  
-- Bergh and Reinstein (2020)
+> While @karlanEffectEffectivenessDonor2017b did find that those who had previously donated large amounts gave more when they received effectiveness information (and Parsons found similar effects for efficiency and prior donors), the reason for this effect is unclear. For example, large/frequent donors may experience a greater pressure to donate in light of any new positive information.  
+- @bergh2020empathic
   
 \
   
@@ -442,7 +442,7 @@ $\rightarrow$ reduced (increased) giving among small (large) prior donors `r for
 
 
 
-**Parsons (2007)**
+**@Linda2007**
 
 2 x 2 mailing appeal for People with Aids Coalition-Houston,
 
@@ -532,7 +532,7 @@ Charity: People with Aids Coalition- Houston
 ```
 
 
-#### Bergh and Reinstein (2020, SPPS)
+#### @bergh2020empathic
 
 From Abstract:
 
@@ -616,12 +616,12 @@ There is a small body of evidence on how charity quality ratings (which are not 
 ### Evidence on responses to charity ratings
 
 
-One characterization, from Bergh and Reinstein (2020)
+One characterization, from @bergh2020empathic
 
->  Some work further suggests that changes in charity ratings lead to changes in charity revenues (e.g., Gordon, Knock, & Neely, 2009; Yörük, 2016), but it is unclear if this is driven by efficiency evaluations per se. For instance, people might respond to the number of stars given to a charity without deeply considering what these stars represent.
+>  Some work further suggests that changes in charity ratings lead to changes in charity revenues (e.g., @Gordon2009; @Yoruk2016), but it is unclear if this is driven by efficiency evaluations per se. For instance, people might respond to the number of stars given to a charity without deeply considering what these stars represent.
 
 
-#### Yörük, B. K. (2016). {-}
+#### @Yoruk2016. {-}
 
 **"Charity ratings" Journal of Economics & Management Strategy, 25(1), 195-219.**
 
@@ -637,7 +637,7 @@ One characterization, from Bergh and Reinstein (2020)
 
 \
 
-**Background mechanisms and related evidence:**  the role of consumer reviews and independent ratings in for-profit sectors, e.g. Luca(2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, Jin and Sorensen (2006): health plan ratings have a significant impact on individuals’ health plan choices, Reinstein and Snyder (2005): positive expert reviews have a significant effect on the box office revenue of movies.
+**Background mechanisms and related evidence:**  the role of consumer reviews and independent ratings in for-profit sectors, e.g. Luca(2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, @jin2006information: health plan ratings have a significant impact on individuals’ health plan choices, @reinsteinInfluenceExpertReviews2005: positive expert reviews have a significant effect on the box office revenue of movies.
 
 \
 
@@ -652,6 +652,7 @@ One characterization, from Bergh and Reinstein (2020)
 
 #### See also
 
-vesterlund2003informational	Chhaochharia_Ghosh_08?, Landry2010, Brown2016
+@Vesterlund2003a
+@chhaochharia2008charity, @landry2010donor, @Brown2016
 
-  Gordon ea (2009)
+@Gordon2009

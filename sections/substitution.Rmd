@@ -20,7 +20,7 @@ Prices/ external changes shift each, but we can’t "force you to voluntarily gi
 
 \
 
-If we *could* shift the 'meaningful giving' \(\rightarrow\) we could use theory of Conditional Demand (Pollak) \(\rightarrow\) "expenditure substitution" [@reinsteinDoesOneCharitable]. Still, the sign of the conditional demand effects are straightforward only under very restrictive conditions. 
+If we *could* shift the 'meaningful giving' \(\rightarrow\) we could use theory of Conditional Demand [@Pollak1969] \(\rightarrow\) "expenditure substitution" [@reinsteinDoesOneCharitable]. Still, the sign of the conditional demand effects are straightforward only under very restrictive conditions. 
 
 \
 
@@ -34,7 +34,7 @@ A more difficult question: Is the causality:
 
 - CRUK promo \(\rightarrow\) give more to CRUK \(\rightarrow\) give less (more) to Oxfam?
 
-- But can we rule out *direct* effects of the first promotion? (see Heckman/Pinto on "mediators")
+- But can we rule out *direct* effects of the first promotion? (see [@Heckman2015a] on "mediators")
 
 
 This is in fact relevant for a policymaker. She might face a ’shock’ that she knows or expects will lead to donations to charity A to rise by EUR 1,000,000 EUR. She will want to know 'how much can we expect donations to charity B to fall?'
@@ -218,7 +218,7 @@ Todo: add pictures of the relevant environments for these studies here
 
 ### Simultaneous/proximate ‘lab’ experiments
 
-(esp. Reinstein 2006/11; Ozbay-Uler)
+(esp. Reinstein 2006/11; [@Filiz-Ozbay2019])
 
 
 *Figures: Berkeley design, types*
@@ -232,16 +232,15 @@ Vary choice sets/prices, shocks $\rightarrow$ crowd-out, esp.  similar causes
 
 - Heterogeneity; mix of 'fixed purse', 'flexible purse/never substitute']
 
-Filiz-Ozbay and Uler, 2018 : Five paired choices, varying 'rebate rate' for one only; price-focus
+@Filiz-Ozbay2019 : Five paired choices, varying 'rebate rate' for one only; price-focus
    - 'Stealing' almost always
    - +0.35 net cross-price elast for 'substitute' charities
 
--  Harwell ea '15; Schmitz '18: somewhat related designs, similar results in flavor
-
+-  @Harwell; @Schmitz: somewhat related designs, similar results in flavor
 
 ### Lab/framed experiments with time gaps
 
-- Schmitz 2019 (ExpEcon)
+- @Schmitz2019
 
 - Vance-Mullen component of Reinstein et al
 
@@ -258,14 +257,14 @@ Notes from previous paper (unfold)
 \cite{borgloh-have} investigated the impact of the German church tax on households' other charitable giving. \cite{null2011warm} used a field experiment to examine how donations to different charities respond to changes in relative match rates -- however, as the total donation was decided ex-ante, the substitution among charities was constrained to be complete. Finally, an earlier work (\citealp{andreoni1996cct}) examines substitution between giving and volunteering. However, to the best of my knowledge, no work directly addresses the cross-price elasticity (nor the expenditure substitution) between gifts to charitable causes.
 ```
 
-- Meer 2014, 2017: DonorsChoose.org competition, matching campaigns
+- @Meer2014, @meerDoesFundraisingCreate2017: DonorsChoose.org competition, matching campaigns
 
 2017: Increased funding for project, no significant impact on donations to other projects
 
-Meer 2014: "increased competition reduces the likelihood of a project being funded"
+@Meer2014: "increased competition reduces the likelihood of a project being funded"
 
 
-- Donkers et.al. 2017: Extra mailings to existing donors in a week, top-NL charities
+- @Donkers2017: Extra mailings to existing donors in a week, top-NL charities
   - Extra mailings +1.81 EUR for charity,
   - -0.10 EUR per 'regular' mailing for *other* charity in *same week*
   - loss of 10\% of revenues via competitive effects
@@ -273,9 +272,9 @@ Meer 2014: "increased competition reduces the likelihood of a project being fund
 
 - Anticipated second asks:  [@adenaGivingOnceGiving2019; @Cairns2011]
 
-Cairns and Slonim: *Anticipated* `2nd collection' at Mass raised 7695 USD , reduced 1st collections by 1708 USD  (22\% "crowdout")
+@Cairns2011: *Anticipated* `2nd collection' at Mass raised 7695 USD , reduced 1st collections by 1708 USD  (22\% "crowdout")
 
-Adena and Huck: Anticipated repetition $\rightarrow$ 40\% less "this year" (but also a *persistent* lower don)
+@adenaGivingOnceGiving2019: Anticipated repetition $\rightarrow$ 40\% less "this year" (but also a *persistent* lower don)
 
 
 Reinstein et al, 2020: First field-experiment to  Ask (or not ask) on multiple separate occasions with a significant delay, vary this delay time; find some crowding out but evidence on interaction with delay time is mixed. Possibly two channels: consistency versus fading of moral license/warm glow.

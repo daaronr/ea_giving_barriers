@@ -103,7 +103,7 @@ Ideas42: "We did not find many field-based, experimental studies on the factors 
 ### Effectiveness-specific work
 
 
-- Baron and Szymanowski 2011 - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers
+- @baron2011heuristics - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers
 
 -  Gertler, [Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf) (not peer-reviewed but very useful)
 
@@ -413,7 +413,7 @@ Charity effectiveness (info/deliberation)
 
 - Evaluation mode -
 
-(Karlan & W, '07), (Kogut & R, '05)	(Small ea, '07), (Drouvelis & G, '16), (Caviola ea, '14)
+(Karlan & W, '07),[@kogut2005singularity; @kogutIdentifiedVictimEffect2005], [@Small2007], [@Drouvelis2016], [@Caviola2014]
 
 
 **Avoiding information, motivated reasoning in processing it**
@@ -432,11 +432,11 @@ Less proximate needs are less salient, thus under-funded.
 
 (Info enhancing) social closeness of recipient -
 
-@cuddy2007bias,	(Sudhir ea, '16)
+@cuddy2007bias, [@Sudhir2016a]
 
 #### Barriers: Strong local appeals ('the ask'), social obligations to give locally (and 'crowding out'/moral licencing) {-}
 
-(Meer, '11)
+[@meerBrotherCanYou2011]
 
 Does one contribution crowd out another? If so, social pressure, systems enforcing 'local public goods' and inertial factors may limit effective (non-local) giving.
 
