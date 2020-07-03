@@ -178,7 +178,9 @@ docs: html output put here for web hosting
 - writing_econ_book.Rproj: 'project' ... to work on this in R-studio
 
 
-## The code in a single ".Rmd" file and how it translates into content
+## Adding the main content... the code in a single ".Rmd" file
+
+*...and how it translates into content*
 
 ```{block2,  type='note'}
 
@@ -194,9 +196,7 @@ docs: html output put here for web hosting
 
 *Note:* The key files and settings for my bookdown projects are maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template), along with a minimal example. This is (or should be) synchronised with all the other repos.
 
-
 ```
-
 
 
 ### Basic (R-)Markdown
@@ -400,7 +400,7 @@ The Bibtex file to "Add references to" is the bibliography file specified in the
 
 
 
-### Test adding  references
+### A test of adding  references
 
 *Test a reference from reinstein_bibtex.bib:*
 @fongTruthGivingExperimental2010 no brackets
@@ -408,6 +408,24 @@ The Bibtex file to "Add references to" is the bibliography file specified in the
 
 using an "ID"" only: [@Fong2010]
 \
+
+```{block2,  type='note'}
+
+**Adding a shortcut key for 'insert citations' in R-Studio**
+
+You may be able to save time in adding citations (via the CitR add-in in R-Studio) if you use a shortcut key.
+
+Select (menu bar):
+  
+- Tools
+- Addins
+- Browse addins
+
+Click in box "keyboard shortcuts"
+  
+Click the addin "Insert Citations" under 'shortcuts', and enter a keyboard shortcut of your choice.
+
+```  
 
 ## How to 'build' and view the book
 

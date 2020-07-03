@@ -65,8 +65,8 @@ Rare events such as natural disasters are particularly vivid and salient, and th
 <!-- TODO: can we figure out a way to dynamically cite section numbers? -->
 
 
-
 @epsteinCrisisMentalitySSIR2006 concluded <sup>[based on what analysis/evidence?]</sup> that natural disasters received a level of donations that was significantly out of proportion to the damage the disasters caused, while other long-term, persistent problems such as AIDS and malaria got much less attention, and consequently much less funding. [He argued that] The huge donations to causes like Hurricane Katrina also had the effect of significantly reducing donations to some other charities. 
+
 <div class="marginnote">
 This is controversial and hard to measure. The issue of 'expenditure substitution' is still largely unresolved. See previous section (['Are characteristic in competition](#substitution)).
 </div>
