@@ -418,7 +418,7 @@ Charity effectiveness (info/deliberation)
 
 **Avoiding information, motivated reasoning in processing it**
 
-@andreoni2017avoiding, @Exley2016, @Exley2015, @dellavigna2012,	@Kellner_EA_2017
+@andreoni2017avoiding, @exleyExcusingSelfishnessCharitable2016a, @exleyImpactSurpriseDonation2018, @dellavigna2012testing, @reinstein2018commitments
 
 \
 
@@ -432,7 +432,7 @@ Less proximate needs are less salient, thus under-funded.
 
 (Info enhancing) social closeness of recipient -
 
-? @cuddy_ea_2007,	(Sudhir ea, '16)
+@cuddy2007bias,	(Sudhir ea, '16)
 
 #### Barriers: Strong local appeals ('the ask'), social obligations to give locally (and 'crowding out'/moral licencing) {-}
 

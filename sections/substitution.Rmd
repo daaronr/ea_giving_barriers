@@ -187,7 +187,7 @@ fixed-effects regressions on donations to categories of charitable causes
 
 #### Observational data paired with 'exogenous' shocks {-}
 
-[@Deryugina2015b]
+[@Deryugina2015]
 
 Donations in a state affected by tornado increase 1.7-2 percent in that year and 1.9-2 percent in the 2 years after. The authors can only reject 'full crowding out'.
 

@@ -170,7 +170,7 @@ Note: This evidence is only tangentially relevant.
 looked into the effectiveness information on the charities they donate
 to -->
 
-In **[@null2011warm]**, in a final stage of her experiment:
+In @Null2011b, in a final stage of her experiment:
 
 > Subjects were given the option to spend USD 5 of their total gift to the
 > development charities in order to find out which of the three would
@@ -205,7 +205,7 @@ This might be moved into to the next section
 </div>
  
 
-**[@null2011warm]** ran a set of experiments at Kiwanis/Rotary clubs and with "professional subjects" (university administrators?) at the Berkeley X-lab; the former strictly involved allocations *among* charities, in the latter case what was not given away could be kept. For the main reported treatments, participants made a series of decisions under different incentives (mostly on the same page and thus simultaneously?). The "prize" was \$100; in each session only one decision from one subject was chosen for actual payment/donations.
+@Null2011b ran a set of experiments at Kiwanis/Rotary clubs and with "professional subjects" (university administrators?) at the Berkeley X-lab; the former strictly involved allocations *among* charities, in the latter case what was not given away could be kept. For the main reported treatments, participants made a series of decisions under different incentives (mostly on the same page and thus simultaneously?). The "prize" was \$100; in each session only one decision from one subject was chosen for actual payment/donations.
 
 Many participants who choose to donate positive amounts to multiple charities in earlier (?stages) continue to donate to multiple charities when one charity is given a better match rate; they only "imperfectly substitute" (and some even substitute away from the now "lower-priced" charity). She attributes this to both risk aversion (diminishing utility in to each charity's actual impact, along with uncertainty about this impact) as well to as a version of "warm glow" with a diminishing marginal benefit in the amount given to each charity.
 
@@ -571,9 +571,8 @@ The wide confidence intervals of the odds ratios suggests that Study 6 had limit
 
 ### Evidence: Analytical information $\times$ emotional information and 'identifiable victim'
 
-[@Kogut2011; @Loewenstein2007; @Small2003:1; @Small2007; @Small2007a]
- (Drouvelis & G, ’16), (Caviola ea, ’14)
- 
+ [@kogut2011identifiable; @loewensteinScarecrowTinMan2007; @Small2007]
+ [@Drouvelis2016], [@Caviola2014]
  
 #### [@Small2007], studies 3-4 {-}
 
