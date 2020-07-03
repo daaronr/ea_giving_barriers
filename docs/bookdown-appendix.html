@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, and more" />
 
 
-<meta name="date" content="2020-07-02" />
+<meta name="date" content="2020-07-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -361,7 +361,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="13.5.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020"><i class="fa fa-check"></i><b>13.5.1</b> Writing_econ_book: Files-folders of interest (taken from readme March 2020)</a></li>
 </ul></li>
-<li class="chapter" data-level="13.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-in-a-single-.rmd-file-and-how-it-translates-into-content"><i class="fa fa-check"></i><b>13.6</b> The code in a single “.Rmd” file and how it translates into content</a>
+<li class="chapter" data-level="13.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-the-main-content-the-code-in-a-single-.rmd-file"><i class="fa fa-check"></i><b>13.6</b> Adding the main content… the code in a single “.Rmd” file</a>
 <ul>
 <li class="chapter" data-level="13.6.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#basic-r-markdown"><i class="fa fa-check"></i><b>13.6.1</b> Basic (R-)Markdown</a></li>
 <li class="chapter" data-level="13.6.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#simple-md-rules"><i class="fa fa-check"></i><b>13.6.2</b> Some simple markdown rules</a></li>
@@ -370,7 +370,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="13.6.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#custom-styles"><i class="fa fa-check"></i><b>13.6.5</b> Custom styles</a></li>
 <li class="chapter" data-level="13.6.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-referencescitations"><i class="fa fa-check"></i><b>13.6.6</b> Adding references/citations</a></li>
 <li class="chapter" data-level="13.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#specific-system-for-adding-references-in-this-project"><i class="fa fa-check"></i><b>13.6.7</b> Specific system for adding references in this project</a></li>
-<li class="chapter" data-level="13.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#test-adding-references"><i class="fa fa-check"></i><b>13.6.8</b> Test adding references</a></li>
+<li class="chapter" data-level="13.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#a-test-of-adding-references"><i class="fa fa-check"></i><b>13.6.8</b> A test of adding references</a></li>
 </ul></li>
 <li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a></li>
 <li class="chapter" data-level="13.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>13.8</b> Joining this project</a>
@@ -573,8 +573,9 @@ Here’s a guide to exactly how to do it.
 </ul>
 </div>
 </div>
-<div id="the-code-in-a-single-.rmd-file-and-how-it-translates-into-content" class="section level2" number="13.6">
-<h2><span class="header-section-number">13.6</span> The code in a single “.Rmd” file and how it translates into content</h2>
+<div id="adding-the-main-content-the-code-in-a-single-.rmd-file" class="section level2" number="13.6">
+<h2><span class="header-section-number">13.6</span> Adding the main content… the code in a single “.Rmd” file</h2>
+<p><em>…and how it translates into content</em></p>
 
 <div class="note">
 <p><strong>Video guides</strong></p>
@@ -762,13 +763,26 @@ When using the Citr package to add citations to projects such as this one, make 
 <p><br />
 </p>
 </div>
-<div id="test-adding-references" class="section level3" number="13.6.8">
-<h3><span class="header-section-number">13.6.8</span> Test adding references</h3>
+<div id="a-test-of-adding-references" class="section level3" number="13.6.8">
+<h3><span class="header-section-number">13.6.8</span> A test of adding references</h3>
 <p><em>Test a reference from reinstein_bibtex.bib:</em>
 <span class="citation">Fong and Oberholzer-Gee (<a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a><a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">a</a>)</span> no brackets
 <span class="citation">(Fong and Oberholzer-Gee <a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a><a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">a</a>)</span> with brackets</p>
 <p>using an “ID”" only: <span class="citation">(Fong and Oberholzer-Gee <a href="#ref-Fong2010" role="doc-biblioref">2010</a><a href="#ref-Fong2010" role="doc-biblioref">a</a>)</span><br />
 </p>
+
+<div class="note">
+<p><strong>Adding a shortcut key for ‘insert citations’ in R-Studio</strong></p>
+<p>You may be able to save time in adding citations (via the CitR add-in in R-Studio) if you use a shortcut key.</p>
+<p>Select (menu bar):</p>
+<ul>
+<li>Tools</li>
+<li>Addins</li>
+<li>Browse addins</li>
+</ul>
+<p>Click in box “keyboard shortcuts”</p>
+<p>Click the addin “Insert Citations” under ‘shortcuts’, and enter a keyboard shortcut of your choice.</p>
+</div>
 </div>
 </div>
 <div id="how-to-build-and-view-the-book" class="section level2" number="13.7">
@@ -808,7 +822,7 @@ When using the Citr package to add citations to projects such as this one, make 
 <div id="web-page-for-a-repo" class="section level4 unnumbered" number="">
 <h4>Web page for a repo</h4>
 <div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="bookdown-appendix.html#cb25-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;picsfigs/ea_barriers_github_repo_startpage.png&#39;</span>)</span></code></pre></div>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-52"></span>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-53"></span>
 <img src="picsfigs/ea_barriers_github_repo_startpage.png" alt="EA barriers repo github starting page" width="100%" />
 <p class="caption">
 Figure 13.1: EA barriers repo github starting page

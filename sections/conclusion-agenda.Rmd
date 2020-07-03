@@ -21,36 +21,3 @@ Need for systematic platforms to study this, systematic experimentation and data
 
 \
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-[@baron2011heuristics; @Caviola2014; @gneezyAvoidingOverheadAversion2014; @kinsbergenExplainingMonetaryDonations2013; @kogut2005identified; @kogutIdentifiedVictimEffect2005; @loewensteinScarecrowTinMan2007; @Small2007][@andreoni2017avoiding; @Dellavigna2007; @Exley2016a; @exleyExcusingSelfishnessCharitable2016; @reinstein2018commitments][@Adena2019; @Berman2018; @Cairns2011; @dellavigna2012testing; @Deryugina2015; @Fong2011a; @Null2011b; @spenceJobMarketSignaling1973]
-
-Addding citations
-=======
-
-Addding citations
-[@baron2011heuristics:1; @Caviola2014; @gneezyAvoidingOverheadAversion2014; @kinsbergenExplainingMonetaryDonations2013; @kogut2005identified; @kogutIdentifiedVictimEffect2005; @loewensteinScarecrowTinMan2007; @Small2007][@andreoni2017avoiding; @Dellavigna2007; @Exley2016a; @exleyExcusingSelfishnessCharitable2016; @reinstein2018commitments][@Adena2019; @Berman2018:1; @Cairns2011; @DellaVigna2012; @Deryugina2015b; @Fong2011a; @null2011warm; @spenceJobMarketSignaling1973]
->>>>>>> 519a7caa52ea197e24374890aa184c1abc59b3c0
-=======
-
-Addding citations
-[@baron2011heuristics:1; @Caviola2014; @gneezyAvoidingOverheadAversion2014; @kinsbergenExplainingMonetaryDonations2013; @kogut2005identified; @kogutIdentifiedVictimEffect2005; @loewensteinScarecrowTinMan2007; @Small2007][@andreoni2017avoiding; @Dellavigna2007; @Exley2016a; @exleyExcusingSelfishnessCharitable2016; @reinstein2018commitments][@Adena2019; @Berman2018:1; @Cairns2011; @DellaVigna2012; @Deryugina2015b; @Fong2011a; @null2011warm; @spenceJobMarketSignaling1973]
->>>>>>> 5a0120839cddc298f143d256807c79a388720cfe
-
-[@Caviola2014][@kogutIdentifiedVictimEffect2005][@loewensteinScarecrowTinMan2007]
-[@Berman2018][@baron2011heuristics][@gneezyAvoidingOverheadAversion2014][@Small2007]
-[@kinsbergenExplainingMonetaryDonations2013][@andreoniAvoidingAskField2017][@Exley2016a]
-[@Reinstein2011a; @reinsteinDoesOneCharitable][@Deryugina2015][@adenaGivingOnceGiving2019][@Cairns2011][@spenceJobMarketSignaling1973][@Berman2018][@fongTruthGivingExperimental2010][@Dellavigna2010][@Null2011b]
-[@Ein-Gar2013]
-[@malmendierTestingAltruismSocial2011]
-[@kogut2005singularity][@kellner2019ex; @reinstein2018commitments]
-[@cuddy2007bias]
-
-
-=======
->>>>>>> 519a7caa52ea197e24374890aa184c1abc59b3c0
-=======
->>>>>>> 519a7caa52ea197e24374890aa184c1abc59b3c0
-=======
->>>>>>> 5a0120839cddc298f143d256807c79a388720cfe
