@@ -271,7 +271,7 @@ Meer 2014: "increased competition reduces the likelihood of a project being fund
   - loss of 10\% of revenues via competitive effects
   - can't reject zero-crowding, but wide CI's
 
-- Anticipated second asks:  [@Adena2019; @Cairns2011]
+- Anticipated second asks:  [@adenaGivingOnceGiving2019; @Cairns2011]
 
 Cairns and Slonim: *Anticipated* `2nd collection' at Mass raised 7695 USD , reduced 1st collections by 1708 USD  (22\% "crowdout")
 

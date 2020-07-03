@@ -158,7 +158,7 @@ Stated more broadly, effective giving is predicated on conducting CBA for progra
 But this needs to be interpreted carefully:  *those who decide not to buy information appear less generous than the average*!
 
 <div class="marginnote">
-[@DellaVigna2012] provide evidence that people will pay costs to avoid being asked and avoid social pressure. However, for this same case *if* they are asked they then to respond by giving. While "avoiding the ask" is not avoiding cost-benefit analysis, it suggests that people are in fact strategic in avoiding things that  may make them feel compelled to donate. 
+[@dellavigna2012testing] provide evidence that people will pay costs to avoid being asked and avoid social pressure. However, for this same case *if* they are asked they then to respond by giving. While "avoiding the ask" is not avoiding cost-benefit analysis, it suggests that people are in fact strategic in avoiding things that  may make them feel compelled to donate. 
 Note: This evidence is only tangentially relevant.
 </div>
 

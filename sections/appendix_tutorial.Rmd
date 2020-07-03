@@ -173,7 +173,7 @@ docs: html output put here for web hosting
 - [writing_econ_gfm.Rmd](writing_econ_book/writing_econ_gfm.Rmd): The main content; body of the book (many chapters)
 - index.Rmd: Setup content and some styling/parameters; determines how the book is built (into which format, etc)
 - header_include.html: Important commands included here including folding boxes
-- references_cut.bib: bibtex references referred to in '@ref' notes
+- references_cut.bib: bibtex references referred to in '\@ref' notes
 - tufte_plus.css: Determines layout and styling
 - writing_econ_book.Rproj: 'project' ... to work on this in R-studio
 
@@ -198,6 +198,21 @@ docs: html output put here for web hosting
 
 ```
 
+
+```{block2,  type='note'}
+
+**A tip: 'find in files'**
+
+'Find in files' is a nice tool when working in Rstudio for a project combining many files. 
+
+In menu bar, select:
+- Edit
+- Find in files...
+
+Or use the (built in?) shortcut (in Mac) `<Shift>-<cmd>-f`
+  
+  
+```  
 
 ### Basic (R-)Markdown
 <!-- Could do with rewording -->
@@ -400,15 +415,6 @@ The Bibtex file to "Add references to" is the bibliography file specified in the
 
 
 
-### A test of adding  references
-
-*Test a reference from reinstein_bibtex.bib:*
-@fongTruthGivingExperimental2010 no brackets
-[@fongTruthGivingExperimental2010] with brackets
-
-using an "ID"" only: [@Fong2010]
-\
-
 ```{block2,  type='note'}
 
 **Adding a shortcut key for 'insert citations' in R-Studio**
@@ -426,6 +432,17 @@ Click in box "keyboard shortcuts"
 Click the addin "Insert Citations" under 'shortcuts', and enter a keyboard shortcut of your choice.
 
 ```  
+
+
+
+### A test of adding  references
+
+*Test a reference from reinstein_bibtex.bib:*
+@fongTruthGivingExperimental2010 no brackets
+[@fongTruthGivingExperimental2010] with brackets
+
+using an "ID"" only: [@Fong2010]
+\
 
 ## How to 'build' and view the book
 
@@ -536,7 +553,7 @@ One way to ask questions, comment on changes and let people know about changes y
 ![Commenting on a part of a commit, notifying a collaborator](picsfigs/commenting_a_commit.png)
 
 
-Above, we see that by clicking on a plus sign that appears just to the right of the the line number when viewing a commit, we can add a comment on that particular part of the commit. We can then flag another collaborator (see '@daaronr' above ... when you type the '@' you get a dropdown of collaborators) who will be notified of this.
+Above, we see that by clicking on a plus sign that appears just to the right of the the line number when viewing a commit, we can add a comment on that particular part of the commit. We can then flag another collaborator (see '\@daaronr' above ... when you type the '@' you get a dropdown of collaborators) who will be notified of this.
 
 This mode of commenting and conversation has the advantage of avoiding cluttering up the actual code and text with excess comments.
 
