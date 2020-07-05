@@ -702,7 +702,8 @@ General barrier to accurate assessment of effectiveness ergo a barrier to effect
 ## Scope insensitivity/embedding effect/part-whole effect
 
 ```{block2,  type='note'}
-"People's stated valuation or "willingness to pay" for an outcome seems not to strongly increase in the magnitude of that outcome.  For example,  when asked in isolation people might say they are willing to pay $50 to save 100 eagles.  Other people asked in isolation may  say they are willing to pay $50 to save 5000 eagles.
+
+"People's stated valuation or "willingness to pay" for an outcome seems not to strongly increase in the magnitude of that outcome.  For example,  when asked in isolation people might say they are willing to pay 50 USD to save 100 eagles.  Other people asked in isolation may  say they are willing to pay 50 USD to save 5000 eagles.
 
 Kahneman1992 (Part I: Embedding effect):
 the expressed willingness of Toronto residents to pay increased taxes to prevent the drop in fish populations in all Ontario lakes was only slightly higher than the willingness to pay to preserve the fish stocks in only a small area of the province."
