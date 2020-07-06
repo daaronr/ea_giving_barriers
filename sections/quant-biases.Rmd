@@ -584,6 +584,7 @@ Other papers to look into and incorporate (unfold)
 
 Borgloh, S., Dannenberg, A., Aretz, B., 2013. Small is beautiful -
 experimental evidence of donors' preferences for charities. Econ. Lett. 120 (2), 242--244.
+[@borgloh2013small]
 
 Hope Consulting Survey:
 
@@ -594,6 +595,7 @@ some type of overhead ratio, and two-thirds were seeking some sort of
 information related to efficiency."-Meer
 
 "Making an impact? The relevance of information on aid effectiveness for charitable giving. A laboratory experiment" Metzger L Günther, *Journal of Development Economics (2019) 136* 
+[@metzger2019making]
 
 **"**We thus clarified that a decrease in administrative costs from 40%
 to 10% is equivalent to a 50% increase in net transfers to the
@@ -624,6 +626,7 @@ increased giving. Overhead info decreased giving."
 G. (2014). The evaluability bias in charitable giving: Saving
 administration costs or saving lives?. Judgment and decision making,
 9(4), 303.**
+[@Caviola2014]
 
 "When presented with a single charity, people are willing to donate more
 to a charity with low overhead ratio, regardless of cost-effectiveness.
@@ -632,33 +635,40 @@ donation behavior on cost-effectiveness"
 
 **Bowman, W., 2006. Should donors care about overhead costs? Do they
 care? Nonprofit Volunt. Sect. Q. 35 (June (2)), 288--310.**
+[@bowman2006should]
 
 Meer... Are overhead costs a good guide for charitable giving?
 
 Trussel, J. M., & Parsons, L. M. (2007). Financial reporting factors
 affecting donations to charitable organizations. Advances in Accounting,
 23, 263-285.
+[@trussel2007financial]
 
 Tinkelman, D. (1998). Differences in sensitivity of financial statement
 users to joint cost allocations: The case of nonprofit organizations.
 Journal of Accounting, Auditing & Finance, 13(4), 377-393.
+[@tinkelman1998differences]
 
 Parsons, L. M. (2007). The impact of financial information and voluntary
 disclosures on contributions to not-for-profit organizations. Behavioral
 research in accounting, 19(1), 179-196.
+[@Linda2007]
 
 Yörük, B.K. (2013). Charity ratings [this literature is not
 specifically on 'overhead'; I should check how Charity Navigator factors
 this in]
+[@Yoruk2016]
 
 Frumkin, P., & Kim, M. T. (2001). Strategic positioning and the
 financing of nonprofit organizations: Is efficiency rewarded in the
 contributions marketplace?. Public administration review, 61(3),
 266-275.
+[@frumkin2001strategic]
 
 van Iwaarden, J., Van Der Wiele, T., Williams, R., & Moxham, C. (2009).
 Charities: how important is performance to donors?. International
 Journal of Quality & Reliability Management, 26(1), 5-22.
+[@vaniwaardenCharitiesHowImportant2009]
 
 
 ```
@@ -676,7 +686,7 @@ Journal of Quality & Reliability Management, 26(1), 5-22.
 Study finds ‘no correlation’ between overhead and effectiveness-- is it convincing? Does working abroad increase overhead? Most relevant tie: doing impact evaluation will itself increase overhead.
 </div>
 
-References: Gneezy2014, Portillo_Stinnb2018, Kinsbergen_tolsma_13, Mayo2009, Meer2017	Chhaochharia_Ghosh_08?, Caviola2014, Qu?
+References: @gneezyAvoidingOverheadAversion2014, @portillo2018overhead, @kinsbergenExplainingMonetaryDonations2013, @Mayo2009, @meerDoesFundraisingCreate2017, @chhaochharia2008charity, and @Caviola2014
 
 <!-- ## Possible: Altruistic opportunity cost neglect -->
  
