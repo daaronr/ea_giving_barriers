@@ -37,7 +37,7 @@ Effective charities could present their (e.g., lifesaving) statistics *relative*
 
 Theory: Evaluability bias
 
-Cite: (Kogut & R, '05),	(Caviola ea, '14)
+Cite: [@Caviola2014; @kogut2005singularity; @kogutIdentifiedVictimEffect2005]
 
 ### (Info enhancing) social closeness of recipient 
 

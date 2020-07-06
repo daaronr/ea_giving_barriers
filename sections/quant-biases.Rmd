@@ -7,9 +7,9 @@ Cognitive biases: Overweighting and underweighting probabilities, misunderstandi
 
 <!-- Responses: De-biasing, etc. -->
 
-small2007sympathy_s3_s4, Gneezy2014, small2007sympathy_s1_s2
+@Small2007, @gneezyAvoidingOverheadAversion2014
 
-kogut2005identified, kogut_2005b, Kinsbergen_tolsma_13, summers_1997, galanter_1962
+@kogutIdentifiedVictimEffect2005,  @kogut2005singularity, @kinsbergenExplainingMonetaryDonations2013, @kinsbergenExplainingMonetaryDonations2013, @summers1994psychophysical, @pressDirectMeasurementUtility2018
 
 ## Other  biases driving departures from efficiency
 
@@ -65,14 +65,14 @@ To operationalize this, we need to define what the numerator and denominator rep
 
 ### Mechanisms {-}
 
-Fetherstonhaugh et al (1997) highlight "Weber's law": Humans are sensitive to proportional changes/proportional differences in stimuli (loudness, brightness, etc); thus we are less sensitive to small changes relative to a larger baseline. There is evidence this also holds in assessing losses of life. \... the "subjective value of saving the specified number of lives is greater for a smaller tragedy than for a larger one" . 
+@fetherstonhaughInsensitivityValueHuman1997 highlight "Weber's law": Humans are sensitive to proportional changes/proportional differences in stimuli (loudness, brightness, etc); thus we are less sensitive to small changes relative to a larger baseline. There is evidence this also holds in assessing losses of life. \... the "subjective value of saving the specified number of lives is greater for a smaller tragedy than for a larger one" . 
 
-Baron attributes PD to quantity confusion and classifies this as "contamination by an irrelevant factor"; more generally, this could be seen in terms of *innumeracy*. 
+@Baron1997 attributes PD to quantity confusion and classifies this as "contamination by an irrelevant factor"; more generally, this could be seen in terms of *innumeracy*. 
 
 This may lead to a lower willingness to contribute to a problem when the apparent scale (or "denominator") of the problem is larger (e.g., more lives at risk), holding constant the benefit per dollar contributed (cost per life saved). The *perceived* scale of the problem may depend on how it is framed by fundraisers, charities, and the media. However, this may not be completely manipulable: e.g., massive global problems may not be easy to "frame down." 
-"Loewenstein and Small (2007) suggested that the PDE is driven by
+"@loewensteinScarecrowTinMan2007 suggested that the PDE is driven by
 increased sympathy towards the victims when one can help a large
-proportion of the victim reference-group." \-- Erlandsson et al
+proportion of the victim reference-group." \-- @erlandssonArgumentinconsistencyCharityAppeals
 
 ### EG Relevance
 
@@ -92,7 +92,7 @@ methods for relevant studies, Make sure to include both description of
 evidence and evaluation of evidence
 </div>
 
-**Fetherstonhaugh et al 1997** (notes
+**@fetherstonhaughInsensitivityValueHuman1997** (notes
 [[HERE]{.underline}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#heading=h.8ax2rgfz70of))
 
 [Methods]{.underline}
@@ -138,7 +138,7 @@ Statistical tests (ANOVA) appear strong and highly significant in most
 cases, but further investigation warranted (e.g., pre-registration?
 Evidence of specification fishing and MHT?)
 
-**Erlansson et al (2015)**
+**@erlandssonEmotionalReactionsPerceived2015**
 
 (Study 4)
 
@@ -201,7 +201,7 @@ Statistical tests -
 **[Brief on tangential papers (non charity) and papers supporting the
 mechanism]{.underline}**
 
-**Baron, 1997: "Confusion of Relative and Absolute Risk in Valuation"**
+**@Baron1997: "Confusion of Relative and Absolute Risk in Valuation"**
 
 [Methods]{.underline}
 
@@ -249,12 +249,12 @@ government expenditure and benefits that will accrue to the participant
 him or herself. For this reason, I listed it is tangential evidence and
 not charity specific evidence.
 
-**Jenni and Loewenstein (1997)** Provides support for the "reference
+**@jenniExplainingIdentifiableVictim1997** Provides support for the "reference
 group effect" (proportional dominance) as an explanation for the
 identifiable victims bias. (notes
 [[HERE]{.underline}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#))
 
-**Friedrich et al (2008)**
+**@friedrichPsychophysicalNumbingWhen1999**
 
 > PN was investigated by varying the supposed number of brak-
 ing-related traffic fatalities each year as a within-subjects variable
@@ -314,15 +314,15 @@ c.  Highlight numerator (impact) (evidence?)
 d.  (Ari:) "Increase evaluability: putting interventions on same
    page instead of separate pages"
 
-2.  De-biasing (discussed further in Friedrich et al - expand)
+2.  De-biasing (discussed further in @friedrichPsychophysicalNumbingWhen1999 - expand)
 
 *Consider:*
 
 -   *"The proportion dominance effect was primarily mediated by
-   perceived impact." (Erlandsson et al, 2015, OBHDP)*
+   perceived impact." (@erlandssonEmotionalReactionsPerceived2015, OBHDP)*
 
 -   *"Perceived Utility (not Sympathy) Mediates the Proportion Dominance
-   Effect in Helping Decisions" (Erlandsson et al, 2013)*
+   Effect in Helping Decisions" [@erlandsson2014perceived]*
 
 
 ```
@@ -380,24 +380,24 @@ other hand, we cannot rule out that in some cases high overhead might be
 a signal of inefficient practices. Where organizations have bloated
 annual operating expenses it might be more efficient for them to close
 down in the medium term and for that money to be used for leaner
-charities. (Several theoretical papers [ref: Steinberg ?1986 and later
+charities. (Several theoretical papers [ref: @steinbergShouldDonorsCare1986 and later
 work] discuss whether or not the overhead ratios are a sign of
 efficiency.)
 
 ### Overview of Evidence {-}
 
 Survey and observational evidence suggests that donors focus on
-potentially misleading measures of overhead. Gneezy et al (2014) present
+potentially misleading measures of overhead. @gneezyAvoidingOverheadAversion2014 present
 a credible piece of field-experimental evidence suggesting that having a
 "lead donor" and framing this as "covering overhead" may increase
-donations. Metzger and Gunther's (2019) lab participants donate
+donations. @Metzger2019 lab participants donate
 (marginally) significantly less when presented with (the option to buy)
 information about a NGO's administrative costs (perhaps because such
-costs were made salient). Caviola et al's (hypothetical?) experiments
+costs were made salient). @Caviola2014 (hypothetical?) experiments
 suggest that *evaluability* may drive the focus on overhead rather than
-effectiveness. Portillo and Stinn's lab participants favored
+effectiveness. @portillo2018overhead lab participants favored
 overhead-free charities and preferred fundraising-related to
-salary-related overhead. Kinsbergen et al's representative (Dutch)
+salary-related overhead. @kinsbergenExplainingMonetaryDonations2013 representative (Dutch)
 survey participants "have a strong aversion regarding overhead costs,
 [but]\... seem to value the capacities of paid staff members and are,
 to a certain extent, willing to pay a price for these."
@@ -451,7 +451,7 @@ characteristics. There may also be reverse causality --
 fundraising expenses both increase reported overhead and
 (presumably) drive donations.
 
--   Meer (2017) identified plausibly exogenous variation; but this
+-  @meerDoesFundraisingCreate2017identified plausibly exogenous variation; but this
 pertained to *actual* incremental costs/prices, rather than
 the "overhead" costs at issue
 
@@ -462,7 +462,7 @@ but not (typically) a charity' *actual* administration processes
 -   Lab experiments can vary the actual price of giving but this doesn't
 represent the real-world "overhead" issue; others
 
--   In contrast, Metzger and Gunther varied the charity the subjects
+-   In contrast, @Metzger2019 varied the charity the subjects
 could donate to, but imposed a strong framing of the
 administrative costs as a marginal price).
 
@@ -470,7 +470,7 @@ administrative costs as a marginal price).
 
 #### Gneezy, Uri, Elizabeth A. Keenan, and Ayelet Gneezy. "Avoiding overhead aversion in charity." Science 346.6209 (2014): 632-635.\| {-}
 
-Gneezy et al (2014) ran a large-scale (N=40,000 [check]) mail solicitation on behalf of an organization seeking to fund as many US educational projects (each costing `$20,000` US) as possible. Recipients were asked to give 20/50/100 USD. They found that framing a lead donation as "covering[ing] all the overhead costs associated with raising the needed donations" lead to a significantly greater share donating and amount raised than either the control condition (no lead donation?) or a seed ("has given this campaign seed money") or matching frame ("will match every dollar given... up to a total of `$10,000`").
+@gneezyAvoidingOverheadAversion2014 ran a large-scale (N=40,000 [check]) mail solicitation on behalf of an organization seeking to fund as many US educational projects (each costing `$20,000` US) as possible. Recipients were asked to give 20/50/100 USD. They found that framing a lead donation as "covering[ing] all the overhead costs associated with raising the needed donations" lead to a significantly greater share donating and amount raised than either the control condition (no lead donation?) or a seed ("has given this campaign seed money") or matching frame ("will match every dollar given... up to a total of `$10,000`").
 
 
 
@@ -512,7 +512,7 @@ this lab experiment, a donor who cares about her marginal impact
 
 #### Portillo, Javier E.; Stinn, Joseph, (2018). "Overhead Aversion: Do Some Types Of Overhead Matter More Than Others?". Journal Of Behavioral And Experimental Economics, 72, , 40\--50. {-}
 
-Lab experiment
+@portillo2018overhead Lab experiment
 
 > If an overhead-free donation is readily available, then the average
 donor in our experiment (70--80% of subjects) prefers that charity to
@@ -526,7 +526,7 @@ fundraising efforts instead of salary-related expenditures.
 
 #### Kinsbergen, Sara; Tolsma, Jochem, (2013) {-}
 
-"Explaining Monetary Donations To International Development Organisations: A Factorial Survey Approach". Social Science Research, 42, 6, 1571\--1586. 
+@kinsbergenExplainingMonetaryDonations2013 "Explaining Monetary Donations To International Development Organisations: A Factorial Survey Approach". Social Science Research, 42, 6, 1571\--1586. 
 
 Hypothetical survey (vignettes, scenarios) "We constructed 960 scenarios in which a fictive international development organisation was described. ... A large representative sample of the Dutch population (N = 2,758) received six randomly allocated scenarios and had to decide if, and if so, how much they would donate to the depicted (fictive) organisation.... Although donors have a strong aversion regarding overhead costs, we find that donors seem to value the capacities of paid staff members and are, to a certain extent, willing to pay a price for these.
 
@@ -534,7 +534,7 @@ Hypothetical survey (vignettes, scenarios) "We constructed 960 scenarios in whic
 
 #### Meer, Jonathan, 2017 {-}
 
-"Effects of the price of charitable giving: Evidence from an online crowdfunding platform 
+@meerDoesFundraisingCreate2017 "Effects of the price of charitable giving: Evidence from an online crowdfunding platform 
 "
 
 -   DonorsChoose platform involves plausibly exogenous variation in the providing (the same) goods to teachers across projects (varying sales taxes, fullfillment, payment processing fees, etc).[^3] Fees are 'explicit and salient'.
@@ -548,7 +548,7 @@ Hypothetical survey (vignettes, scenarios) "We constructed 960 scenarios in whic
 
 However, this does *not* typify the overhead we are considering. Here,
 we see variation in the donot's *actual* costs of providing outputs; as
-in Gneezy et al's lab experiments, this is not "illusion". While donor
+in @gneezyAvoidingOverheadAversion2014 lab experiments, this is not "illusion". While donor
 responses to e.g., greater fixed costs of maintaining an office in
 Malawi, or greater costs of identifying legitimately poor families
 *might* be similar, we do not know.[^4]
@@ -573,7 +573,7 @@ Malawi, or greater costs of identifying legitimately poor families
 -   "Seed donor covering overhead"
 
 -   Simultaneous comparisons and evaluation of impact and overhead where
-    > relevant (Caviola et al)
+    > relevant @Caviola2014
 
 -   De-biasing?
 
@@ -583,9 +583,7 @@ Other papers to look into and incorporate (unfold)
 ```{block2,  type='fold'}
 
 Borgloh, S., Dannenberg, A., Aretz, B., 2013. Small is beautiful -
-experimental evidence
-
-of donors' preferences for charities. Econ. Lett. 120 (2), 242--244.
+experimental evidence of donors' preferences for charities. Econ. Lett. 120 (2), 242--244.
 
 Hope Consulting Survey:
 
@@ -713,7 +711,7 @@ the expressed willingness of Toronto residents to pay increased taxes to prevent
 When assessing effectiveness  in determining which charity to donate to (and how much),  a utilitarian  should be very sensitive to the scale of the impact (essentially the benefit per cost). If people  are scope insensitive they will be bad at making these judgments (particularly when presented in isolation).
 ```  
 
-Ref: Hsee13
+Ref: @hseeUnitAskingMethod2013
 
 ## Other possibilities: "Risk aversion",  Lack of tangibility, Corruption aversion
 
