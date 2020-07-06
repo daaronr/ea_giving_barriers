@@ -4,61 +4,61 @@ here]{.underline}](parallel_notes_details.Rmd)
 *Content moved to present_puzzle.Rmd*
 
 
-> [2.1. A major underlying issue: Are charities in competition? Is the
+> [2.1. A major underlying issue: Are charities in competition? Is the
 > ineffective giving reducing effective giving? Ask people to give to EA
 > charity "instead"? \[discussion and
 > evidence\]](#a-major-underlying-issue-are-charities-in-competition-is-the-ineffective-giving-reducing-effective-giving-ask-people-to-give-to-ea-charity-instead-discussion-and-evidence)
 > 5
 >
-> [2.2. Barriers considered (economic, psychological,
+> [2.2. Barriers considered (economic, psychological,
 > systemic)](#barriers-considered-economic-psychological-systemic) 5
 >
-> [2.2.1. Conceptual classifications of barriers to
+> [2.2.1. Conceptual classifications of barriers to
 > EG](#conceptual-classifications-of-barriers-to-eg) 5
 >
-> [2.2.2. Functional classification of
+> [2.2.2. Functional classification of
 > barriers](#a-practical-classification-of-barriers) 6
 >
-> [2.3. Barrier: Awareness and
+> [2.3. Barrier: Awareness and
 > consideration](#barrier-awareness-and-consideration) 7
 >
-> [2.3.1. Distance - Spatial/Physical: parochial altruism/ingroup
+> [2.3.1. Distance - Spatial/Physical: parochial altruism/ingroup
 > bias](#distance---hypothetical-probability-to-happen) 7
 >
-> [2.3.2. Distance - Temporal (future problems and
+> [2.3.2. Distance - Temporal (future problems and
 > people)](#distance---hypothetical-probability-to-happen) 7
 >
-> [2.3.3. Distance - Social/Cultural (interpersonal and identity e.g.,
+> [2.3.3. Distance - Social/Cultural (interpersonal and identity e.g.,
 > race, gender, age,
 > etc)](#distance---hypothetical-probability-to-happen) 7
 >
-> [2.3.4. Distance - Hypothetical (probability to
+> [2.3.4. Distance - Hypothetical (probability to
 > happen)](#distance---hypothetical-probability-to-happen) 7
 >
-> [2.3.5. Distance - Emotional (Small's
+> [2.3.5. Distance - Emotional (Small's
 > paper)](#distance---emotional-smalls-paper) 7
 >
-> [2.3.6. Consistent problems aren't in the
+> [2.3.6. Consistent problems aren't in the
 > news](#consistent-problems-arent-in-the-news) 7
 >
-> [2.3.7. Social/geographic distance attenuates empathy (and other
+> [2.3.7. Social/geographic distance attenuates empathy (and other
 > motivators), aka,
 > parochialism](#socialgeographic-distance-attenuates-empathy-and-other-motivators-aka-parochialism)
 > 7
 >
-> [2.4. Barrier: Identity](#barrier-identity) 7
+> [2.4. Barrier: Identity](#barrier-identity) 7
 >
-> [2.4.1. Self-interest/local public
+> [2.4.1. Self-interest/local public
 > good](#self-interestlocal-public-good) 7
 >
-> [2.4.2. Cognitive dissonance \[or is this
+> [2.4.2. Cognitive dissonance \[or is this
 > 'inertia'\]](#cognitive-dissonance-or-is-this-inertia) 7
 >
-> [2.4.3. Social perceptions and signaling empathy vs
+> [2.4.3. Social perceptions and signaling empathy vs
 > effectiveness](#social-perceptions-and-signaling-empathy-vs-effectiveness)
 > 7
 >
-> [2.4.4. \[Not sure where this one belongs:\] Barriers: Strong local
+> [2.4.4. \[Not sure where this one belongs:\] Barriers: Strong local
 > appeals (\'the ask\'), social obligations to give locally, and need
 > for "virtue-signaling" (and \'crowding out\'/moral licensing may
 > exist)](#not-sure-where-this-one-belongs-barriers-strong-local-appeals-the-ask-social-obligations-to-give-locally-and-need-for-virtue-signaling-and-crowding-outmoral-licensing-may-exist)
