@@ -6,9 +6,9 @@ This section was written by David Reinstein and Luke Arundel.
  
 ## Description and relevance to Effective Giving
 
-Typically, the most effective (humanitarian) charitable contributions will go from wealthy countries in the "North"  to poor countries in the "South".<sup>Citation/cross-reference needed.</sup>  The large, social,  cultural geographic distance may be an important barrier to giving  and a reason why people prefer to give locally. However, technology continues to reduce these barriers (see, e.g., Give Directly and their new web-enabled tools).<sup>needs more specific citation </sup>
+Typically, the most effective charities operate in developing countries, with all but one of Give Well's top charities supporting people in sub-Saharan Africa [@TopCharities]. Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount [@macaskillDoingGoodBetter2015]. However, The large, social,  cultural geographic distance between those in developed countries and those in developing countries may be an important barrier to giving  and a reason why people prefer to give locally. 
 
-@loewensteinScarecrowTinMan2007 propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by @kahnemanThinkingFastSlow2011). This model distinguishes between System 1, which makes initial judgements (using 'affective cognition'); these are monitored by a more 'deliberative cognition' System 2 [@morewedge2010associative].
+@loewensteinScarecrowTinMan2007 propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by @kahnemanThinkingFastSlow2011). This model distinguishes between System 1, which makes initial judgements (using 'affective cognition'); these are monitored by a more 'deliberative cognition' System 2 [@morewedge2010associative].(This model has been subjected to some criticism, @evans2013dual discuss the debate around dual system theories)
 
 <!-- @LA: this psychological model is widely known but also widely criticised model; we need to either mention it briefly with a link to some papers surveying it, or discuss it more carefully. Perhaps you can draw (and quote) some language from my paper with Robin Bergh, or others in this literature -->
 
@@ -34,11 +34,7 @@ Consider:
 
 Parochialism may pose a significant barrier to effective giving. Parochialism, as defined by @baron2011heuristics is the mental process of making a distinction between in-groups and out-groups, where people feel a greater connection with their own groups and weigh their welfare more heavily.
 
-There is some evidence for this in charitable contexts. @chenGroupIdentitySocial2009 found that when matched with an in-group member <sup>[in a lab experiment?]</sup>, people were significantly more likely to show charitable concern.<sup>['show charitable concern' in what way?]</sup>  @Sudhir2016a suggest that categorizing others as in-group members (along lines such as race, gender and age) increases the sense of responsibility and level of emotion felt, resulting in higher levels of sympathy and consequently a stronger urge to help. They examined this effect by randomising advertising content. <sup> In a large scale field experiment with a charitable mailing in India...?</sup> When the woman on a flyer advertising the charity in question was from the in-group (in this case a Hindu woman in India, compared to a Christian woman in the out-group), they found a higher rate of donation and greater amounts raised.<sup>Give some statistics here.</sup>
-
-
-The in-group/out-group may have important implications for effective giving: donors from wealthy countries may find more 'in-group' members closer to home, thus neglecting causes that benefit 'out-group' members from other countries and cultures [@baron2011heuristics].
-<!-- DR: Not sure we need this paragraph as we said it above. But what exactly is being referenced here from Baron? -->
+There is some evidence for this in charitable contexts. In a laboratory experiment, @chenGroupIdentitySocial2009 found that when matched with an in-group member, people were significantly more likely to show charitable concern, shown through their allocation of tokens. @Sudhir2016a suggest that categorizing others as in-group members (along lines such as race, gender and age) increases the sense of responsibility and level of emotion felt, resulting in higher levels of sympathy and consequently a stronger urge to help. They examined this effect by randomizing advertising content in a large scale experiment with charitable mailings in India. When the woman on a flyer advertising the charity in question was from the in-group (in this case a Hindu woman in India, compared to a Christian woman in the out-group), they found a higher rate of donation and greater amounts raised. They suggest that the charity "more than doubles donation dollars by recognizing the identified victim sympathy bias in making its appeals". 
 
 ## Distance: Experiential, Informational, Emotional/Affective
 
@@ -65,14 +61,14 @@ Rare events such as natural disasters are particularly vivid and salient, and th
 <!-- TODO: can we figure out a way to dynamically cite section numbers? -->
 
 
-@epsteinCrisisMentalitySSIR2006 concluded <sup>[based on what analysis/evidence?]</sup> that natural disasters received a level of donations that was significantly out of proportion to the damage the disasters caused, while other long-term, persistent problems such as AIDS and malaria got much less attention, and consequently much less funding. [He argued that] The huge donations to causes like Hurricane Katrina also had the effect of significantly reducing donations to some other charities. 
+@epsteinCrisisMentalitySSIR2006 concluded that natural disasters received a level of donations that was significantly out of proportion to the damage the disasters caused, while other long-term, persistent problems such as AIDS and malaria got much less attention, and consequently much less funding. For example, he discusses the difference in donation rates at the time (2006) between victims of Hurricane Katrina and victims of AIDS, with private donors giving 1,839 dollars per person to those affected by Katrina, and only 10 dollars per person diagnosed with AIDS. He also argued that the huge donations to causes like Hurricane Katrina had the effect of significantly reducing donations to some other charities, although this idea of 'expenditure substitution' is hard to measure and is still largely unresolved. See previous section (['Are characteristic in competition](#substitution))
 
-<div class="marginnote">
-This is controversial and hard to measure. The issue of 'expenditure substitution' is still largely unresolved. See previous section (['Are characteristic in competition](#substitution)).
-</div>
- 
+Even when it comes to relief from the government, @eisenseeNewsFloodsNews2007 suggest that the level of U.S. relief for natural disasters depended on whether the disaster had happened while other widely covered events were also occurring. 
 
-Even when it comes to relief from the government, @eisenseeNewsFloodsNews2007 suggest that the level of U.S. relief for natural disasters depended on whether the disaster had happened while other widely covered events were also occurring. They concluded that relief decisions in government were strongly influenced by the extent to which it was covered by the media.
+Using data on natural disasters from the Emergency Disaster Database (EM-DAT), and disaster responses from the Office of Foreign Disaster Assistance (OFDA), they explored the relationship between news coverage and relief for natural disasters. To examine whether news had a causal effect on relief, they used two instrumental variables. These variables served the purpose of constructing “meaningful and operational measures of the availability of newsworthy material”. First, they used ‘news pressure’, by measuring the median number of minutes news broadcasts devoted to the top three news stories of the day. Secondly, they used the Olympics, chosen as a large media event that isn’t directly related to politics. 
+
+They concluded that U.S. disaster relief decisions were dependent on “the availability of other newsworthy material at the time of the disaster”. Their explanation of this effect is that “relief decisions are driven by news coverage of disasters and that this news coverage is crowded out by other newsworthy material”. This potentially poses an issue for effective giving, as the authors suggest that the levels of relief shouldn’t be driven by factors that are not related to the effectiveness of the relief. 
+
 <div class="marginnote">
 They use a very interesting methodology; we might describe it a bit more.</div>
  
