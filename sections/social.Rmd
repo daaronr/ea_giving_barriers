@@ -50,7 +50,7 @@ The authors' motivation is to explore why "intuitive moral judgments often "shar
 
 ```
 
-@Hoffman2015present an evolutionary game theoretic analysis of an indefinitely repeated game where 
+@Hoffman2015 present an evolutionary game theoretic analysis of an indefinitely repeated game where 
 
 <div class="marginnote">
 Here the analogy to effective versus ineffective giving is not clear...
