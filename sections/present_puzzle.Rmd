@@ -254,16 +254,16 @@ Aside on 'Warm glow'... consider the contrast between models where people care a
 
 ## Conceptual breakdown of 'barriers' (first presentation) {#barriers-concept}
 
-We focus on the 'barriers' or 'hurdles' to giving effectively among individuals who *already* engage in some charitable giving and other-regarding acts. Loosely, a donor  would need to jump over all of these hurdles and cross each of these barriers in order to be giving effectively.
+We focus on the 'barriers' or 'hurdles' to giving effectively among individuals who *already* engage in some charitable giving and other-regarding acts. Loosely, a donor would need to jump over all of these hurdles and cross each of these barriers in order to be giving effectively.
 
 <div class="marginnote">
 Recall: is there a well-known psychological framework  for these sorts of multiple-hurdle choices?
 </div>
  
-We first  consider a fairly *conceptual* breakdown.  (In later sections, we will use a  less theoretically precise categorization that proved more practically usable.)
+We first  consider a fairly *conceptual* breakdown.  (In later sections, we will use a less theoretically precise categorization that proved more practically usable.)
 
 <div class="marginnote">
-Later chapters presents the direct and indirect evidence for very specific barriers, with real-world examples, and proposed 'tools'  for surmounting these. Here the conceptual breakdown proved difficult,  as most of the real world cases fell into multiple theoretical categories.
+Later chapters presents the direct and indirect evidence for very specific barriers, with real-world examples, and proposed 'tools'  for surmounting these. Here the conceptual breakdown proved difficult, as most of the real world cases fell into multiple theoretical categories.
 </div>
  
  \
@@ -370,7 +370,7 @@ Perhaps moral utilitarianism (MU) is relatively unimportant in most people's cha
 
 #### Judgement/cognition failures; Biases in perceiving impact and in making choices {-#cog-failures}
 
-People may (at least to some extent) *want* to be effective in their donation. However, they may simply not be good at doing this. Quantitative biases may drive departures from effectiveness in general. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the "production function for good outcomes", or to misjudge  charities  will lead  me astray from effective giving.  if I am making any mistake,  I am failing to optimize. Furthermore, some biases may happen to be *particularly* harmful to those charities and causes that are most effective.
+People may (at least to some extent) *want* to be effective in their donation. However, they may simply not be good at doing this. Quantitative biases may drive departures from effectiveness in general. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the "production function for good outcomes", or to misjudge  charities  will lead  me astray from effective giving.  If I am making any mistake,  I am failing to optimize. Furthermore, some biases may happen to be *particularly* harmful to those charities and causes that are most effective.
 
 We  briefly list some of these biases below; we consider these extensively in the section "[Barriers: Quantitative biases](#quant-biases)".
 

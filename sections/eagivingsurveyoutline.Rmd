@@ -129,7 +129,7 @@ For each specific barrier we first present (third-level headings)
 
 - **Definition** of the barrier
 - **Conceptual explanation of the barrier**, relating this to theory and generalized observation
-- **Relevance to the effective giving** issue (sometimes recapping what was stated above)
+- **Relevance to the effective giving** (sometimes recapping what was stated above)
 
 \
 Next we consider the **Evidence**, with a third-level header preamble discussing the nature of the evidence
