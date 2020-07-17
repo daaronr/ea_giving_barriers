@@ -399,7 +399,7 @@ The evidence (from the Economics/Behavioral Economics literature) is largely mix
 
 ### Presenting "Effectiveness" and other types of analytical efficiency information
 
-#### @karlanEffectEffectivenessDonor2017b
+#### **@karlanEffectEffectivenessDonor2017b** 
 
 > While @karlanEffectEffectivenessDonor2017b did find that those who had previously donated large amounts gave more when they received effectiveness information (and Parsons found similar effects for efficiency and prior donors), the reason for this effect is unclear. For example, large/frequent donors may experience a greater pressure to donate in light of any new positive information.  
 - @bergh2020empathic
@@ -566,23 +566,8 @@ knitr::include_graphics(c('picsfigs/study_6_fisher_cis.png'))
 
 The wide confidence intervals of the odds ratios suggests that Study 6 had limited statstical power.
 
-#### [@caviola2020many]
 
-- Series of hypothetical experiments, mainly on M-Turk
 
-> Abstract: ... Across six tasks(Studies 1a, 1b), we found support for both explanations. Among lay donors, we observed multiple misconceptions—regarding disaster relief, overhead costs, donation splitting, and the relative effectiveness of local and foreign charities—that reduced thee ffectiveness of their giving. 
-
-> Similarly, we found that they were unfamiliarwith the most effective charities (Studies 2a, 2b). Debunking these misconceptions and informing people about effectiveness boosted effective donations; however, a portion of lay donors continued to give ineffectively to satisfy their personal preferences.
-
-> By contrast, a sample of self-identified effective altruists gave effectively across all tasks. 
-
-(17) (PDF) The many obstacles to effective giving. Available from: https://www.researchgate.net/publication/338989070_The_many_obstacles_to_effective_giving [accessed Jul 17 2020]."
-
-#### [@mulesky2020demand]
-
-- Series of hypothetical experiments, "recruited through Positly, an online study recruiter that solicits high quality participants from Amazon’s M-Turk
-
-> Charities are only rewarded for revealing information about their impact when the results are unrealistic and unattainable. 
 
 ### Evidence: Analytical information $\times$ emotional information and 'identifiable victim'
 
