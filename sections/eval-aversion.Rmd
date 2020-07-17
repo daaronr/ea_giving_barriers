@@ -26,7 +26,7 @@ Insert abundant references here to asymmetric information, fly-by-night competit
 
 \
 
-Considering a charitable donation as a product purchased by the donor, it seems to  fall into the latter category [ref to authors making this point]. If donors value their 'marginal impact on outcomes' as discussed in our earlier [definitions of impact](#def-impact), they may need to do extensive research (or at least know about and visit web sites such as GiveWell and ImpactMatters) to have some estimate of the value-for-money they are getting.
+Considering a charitable donation as a product purchased by the donor, it seems to  fall into the latter category [ref to authors making this point]. If donors value their 'marginal impact on outcomes' as discussed in our earlier [definitions of impact](#def-impact), they may need to do extensive research (or at least know about and visit web sites such as [GiveWell](http://givewell.org) and [ImpactMatters](http://impactmatters.org)) to have some estimate of the value-for-money they are getting.
  
 <div class="marginnote">
 Donors may also be uncertain about other benefits they main gain from each donation such as 'gratitude and long-term sense of fulfillment'.
@@ -51,7 +51,7 @@ Thus, for people to systematically choose to donate to the most effective charit
 \
 In this section we consider the evidence for 
 
-- I. People's aversion/willness (or sense that it is appropriate/inappropriate) to evaluate effectiveness in a charitable giving context
+- I. People's aversion/willingness (or sense that it is appropriate/inappropriate) to evaluate effectiveness in a charitable giving context 
 
 - II. The impact of being presented with (or actively pursuing) effectiveness information (which is naturally *analytical* information) on generosity and the willingness to donate
 
@@ -72,11 +72,11 @@ Further 'grant-worthy' motivation (unfold).
 
 ```{block2,  type='fold'}
 
-As noted above, scientific evidence suggesting that organizations’ “cost per outcome” differs substantially, perhaps by a factor of 1000 or more (Jamison et al., 2006). This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like GiveWell now provide direct ratings on the basis of  per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors’ preferences for contributions “to be put to good use”—i.e., for direct interventions. 
+As noted above, scientific evidence suggesting that organizations’ “cost per outcome” differs substantially, perhaps by a factor of 1000 or more [@jamisonDeceiveNotDeceive2008]. This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like [GiveWell](http://givewell.org) now provide direct ratings on the basis of  per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors’ preferences for contributions “to be put to good use”—i.e., for direct interventions. 
 
 E.g., In @Aknin2013  participants reported greater happiness when the impact of their contribution was highlighted. [@vaniwaardenCharitiesHowImportant2009; @Aknin2013]. 
 
-However, while we have rigorous evidence on what works and doesn’t work in anti-poverty and health interventions (acknowledged by the 2019 Economics Nobel Prize), we actually know very little about how potential donors react to this impact information! However, we actually know very little about how potential donors react to this impact information!
+However, while we have rigorous evidence on what works and doesn’t work in anti-poverty and health interventions (acknowledged by the [2019 Economics Nobel Prize](https://www.nobelprize.org/prizes/economic-sciences/2019/press-release/)), we actually know very little about how potential donors react to this impact information! However, we actually know very little about how potential donors react to this impact information!
 
 ```
 \
@@ -127,11 +127,11 @@ On the other hand ...  a majority ranked effectiveness [how highly?] as a crucia
 This CBA discomfort brings together several overlapping theoretical
 frameworks:
 
--   Fiske's Relational Theory (@fiskeFourElementaryForms1992; also see Aggarwal, 2004), which proposes four basic types of social relationships: communal sharing, authority ranking, equality matching, and market pricing. For more here, see @heyman2004effort on social vs economic markets. 
+-   Fiske's Relational Theory (@fiskeFourElementaryForms1992; also see @aggarwal2004effects), which proposes four basic types of social relationships: communal sharing, authority ranking, equality matching, and market pricing. For more here, see @heyman2004effort on social vs economic markets. 
 
 -   Taboo Tradeoffs & Protected Values: to the extent that CBA requires making taboo tradeoffs that clash with protected values, people may be reticent to engage in CBA for prosocial purposes. 
 
--   Distorted Altruists as the existing dominant view (contrast) c.f., Loewenstein & Small, 2007; Slovic, 2007 \-- people care about welfare maximization, **but without clear information to make comparisons**, they rely on their feelings to guide choice (@loewensteinScarecrowTinMan2007; @slovicPsychicNumbingGenocide2007). @Berman2018 build on this. 
+-   Distorted Altruists as the existing dominant view (contrast) c.f., @loewensteinScarecrowTinMan2007; @sloviPsychicNumbingGenocide2007 \-- people care about welfare maximization, **but without clear information to make comparisons**, they rely on their feelings to guide choice (@loewensteinScarecrowTinMan2007; @slovicPsychicNumbingGenocide2007). @Berman2018 build on this. 
 
 <div class="marginnote">
 We distinguish CBA opposition from the inability to conduct CBA. The former is treated here while the latter involves a series of [quantitative biases discussed later](#quant-biases).
@@ -170,7 +170,7 @@ Note: This evidence is only tangentially relevant.
 looked into the effectiveness information on the charities they donate
 to -->
 
-In @Null2011b, in a final stage of her experiment:
+In the final stage of an experiment from @Null2011b:
 
 > Subjects were given the option to spend USD 5 of their total gift to the
 > development charities in order to find out which of the three would

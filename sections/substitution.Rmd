@@ -1,6 +1,6 @@
 # Are charities in competition? Is the ineffective giving reducing effective giving? {#substitution}
 
-Are charitable gifts complements or substitutes; are charities are rivals? Does one donation request ask (or donation itself) crowd out another, and if so when and how much?   This is critical to understanding  the extent to which gains can be achieved by getting people to 'switch'  from less to more effective charities. To the extent this crowding-out occurs, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressuring you to give to local organisations) themselves represent barriers to EA giving.
+Are charitable gifts complements or substitutes; are charities are rivals? Does one donation request (or donation itself) crowd out another, and if so when and how much?   This is critical to understanding  the extent to which gains can be achieved by getting people to 'switch'  from less to more effective charities. To the extent this crowding-out occurs, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressuring you to give to local organisations) themselves represent barriers to EA giving.
 
 <!-- (David Reinstein has a simultaneous research project on this 'expenditure substitution' question.) -->
 
@@ -168,7 +168,7 @@ substitution effects.
 **However, under reasonable assumptions we can *sign* this bias, and
 thus estimate a lower bound on substitution.**
 
-[@reinsteinDoesOneCharitable] using PSID/COPPS data
+@reinsteinDoesOneCharitable using PSID/COPPS data
 finds some evidence of expenditure substitution, especially for large givers.
 
 
@@ -236,7 +236,7 @@ Vary choice sets/prices, shocks $\rightarrow$ crowd-out, esp.  similar causes
    - 'Stealing' almost always
    - +0.35 net cross-price elast for 'substitute' charities
 
--  @Harwell; @Schmitz: somewhat related designs, similar results in flavor
+-  @Harwell; @Schmitz: somewhat related designs, similar results in favor
 
 ### Lab/framed experiments with time gaps
 
@@ -257,7 +257,7 @@ Notes from previous paper (unfold)
 \cite{borgloh-have} investigated the impact of the German church tax on households' other charitable giving. \cite{null2011warm} used a field experiment to examine how donations to different charities respond to changes in relative match rates -- however, as the total donation was decided ex-ante, the substitution among charities was constrained to be complete. Finally, an earlier work (\citealp{andreoni1996cct}) examines substitution between giving and volunteering. However, to the best of my knowledge, no work directly addresses the cross-price elasticity (nor the expenditure substitution) between gifts to charitable causes.
 ```
 
-- @Meer2014, @meerDoesFundraisingCreate2017: DonorsChoose.org competition, matching campaigns
+- @Meer2014, @meerDoesFundraisingCreate2017: [DonorsChoose.org](donorschoose.org) competition, matching campaigns
 
 2017: Increased funding for project, no significant impact on donations to other projects
 
@@ -277,7 +277,7 @@ Notes from previous paper (unfold)
 @adenaGivingOnceGiving2019: Anticipated repetition $\rightarrow$ 40\% less "this year" (but also a *persistent* lower don)
 
 
-Reinstein et al, 2020: First field-experiment to  Ask (or not ask) on multiple separate occasions with a significant delay, vary this delay time; find some crowding out but evidence on interaction with delay time is mixed. Possibly two channels: consistency versus fading of moral license/warm glow.
+Reinstein et al, 2020: First field-experiment to ask (or not ask) on multiple separate occasions with a significant delay, vary this delay time; find some crowding out but evidence on interaction with delay time is mixed. Possibly two channels: consistency versus fading of moral license/warm glow.
 
 
 ## Synthesis (emerging)
@@ -292,9 +292,9 @@ Proximate asks and clearly presented comparisons $\rightarrow$ expected crowding
 
 A particular issue: apparent contrast, **Coherent arbitrariness**, narrow brackets, framing (how people think they ‘should behave’ or how they behave when they are in a deliberative self-reflecting mode. This may characterize some giving decisions but it is probably not the most common.
 
-With naturally-occuring, more time-separated shocks and asks, the results are more mixed, sometimes with much smaller, or no apparent substitution.
+With naturally-occurring, more time-separated shocks and asks, the results are more mixed, sometimes with much smaller, or no apparent substitution.
 
-So ``how proximate is proximate''? Evidence is still mixed (see above discussion on dual channels)
+So how proximate is proximate? Evidence is still mixed (see above discussion on dual channels)
 
 ```{block2,  type='note'}
 In Reinstein et al, we are planning a meta-analysis of the above papers
