@@ -33,9 +33,9 @@ To address this, we must understand what drives giving choices, and how people r
  
 ## Motivation and descriptives {#motivate-puzzle}
 
-Individual donors, governments and firms demonstrate substantial generosity (e.g., UK charity represents 0.5-1\% of GDP, US charity around 2\% of GDP)[@CAFWorldGiving; @CharitableGivingTops]. However, most donations go towards charities that are worthwhile but improve human well-being far less per-£ than basic medical interventions in poor countries, such as antimalarial bednets (see Givewell.org).  Even within the same category, more can be achieved for less: e.g. while it costs around USF 50,000 to provide a blind person a guide dog, the equivalent amount could cure 500 people of blindness if it was spent on surgery to prevent blindness from trachoma [@burton2009global; @macaskillDoingGoodBetter2015].
+Individual donors, governments and firms demonstrate substantial generosity (e.g., UK charity represents 0.5-1\% of GDP, US charity around 2\% of GDP)[@CAFWorldGiving; @CharitableGivingTops]. However, most donations go towards charities that are worthwhile but improve human well-being far less per dollar than basic medical interventions in poor countries, such as antimalarial bednets (see [Givewell.org](http://givewell.org)).  Even within the same category, more can be achieved for less: e.g. while it costs around USD 50,000 to provide a blind person a guide dog, the equivalent amount could cure 500 people of blindness if it was spent on surgery to prevent blindness from trachoma [@burton2009global; @macaskillDoingGoodBetter2015].
 
-Social science, biology and philosophy present a range of potential theoretical explanations of how values, preferences, and biases drive this ‘inefficient altruism’. However, evidence (e.g., for ‘availability bias’, or for ‘scope insensitivity’) comes largely from small-scale experiments in domains outside of charitable-giving. It is difficult to distinguish robust, credible findings from one-off results that are vulnerable to hype, p-hacking and publication bias (echoing the 'replication crisis' in experimental social science). Given the limited, scattered findings, we do not have a definitive picture of which factors substantially impact ‘effective giving and support for policies that reduce extreme poverty’. (We give a review of papers surveying this evidence [below](#prevsurvey))
+Social science, biology and philosophy present a range of potential theoretical explanations of how values, preferences, and biases drive this ‘inefficient altruism’. However, evidence (e.g., for ‘availability bias’, or for ‘scope insensitivity’) comes largely from small-scale experiments in domains outside of charitable-giving. It is difficult to distinguish robust, credible findings from one-off results that are vulnerable to hype, p-hacking and publication bias (echoing the 'replication crisis' in experimental social science [@shrout2018psychology]). Given the limited, scattered findings, we do not have a definitive picture of which factors substantially impact ‘effective giving and support for policies that reduce extreme poverty’. (We give a review of papers surveying this evidence [below](#prevsurvey))
 
 <!-- TODO: Reference survey articles for the above -->
 
@@ -46,7 +46,7 @@ A plain-language summary of key points, without references (unfold):
 
 **Charities’ impact differs by an order of magnitude:** Some charities are much more effective at saving/improving lives (and achieving other goals such as those involving animals and the environment) than others are. While it is difficult to gain precise estimate on the measures such as “cost of a life saved” there is strong evidence that there are orders of magnitude difference between different categories of charities and different interventions within these categories. 
 
-**There are some very effective lifesaving charities:** Some interventions seem likely to save or vastly improve individual lives at a cost in the range of `$2000 - $10,000`. When people are asked whether they would be willing to spend this amount or even a vastly larger amount to save a life in other contexts they typically will agree to do so.
+**There are some very effective lifesaving charities:** Some interventions seem likely to save or vastly improve individual lives at a cost in the range of USD 2000 -  USD 10,000. When people are asked whether they would be willing to spend this amount or even a vastly larger amount to save a life in other contexts they typically will agree to do so.
 
 **There are two related and largely unresolved puzzles:** 
   
@@ -54,7 +54,7 @@ A plain-language summary of key points, without references (unfold):
 
 2. When they give to charity why do they not choose more effective charities?
 
-**There is some evidence on this but it is far from definitive.** We do not expect there to be only a single answer to these questions; there may be a set of beliefs, biases, preferences, and underlying circumstances driving this. We would like to understand which of these are robustly supported by the evidence, and will have a sense of how important each of these in terms of the magnitude of driving and absence of effective giving. There has been only a limited amount of research into this and it has not been systematic, coordinated, nor heavily funded.
+**There is some evidence on this but it is far from definitive.** We do not expect there to be only a single answer to these questions; there may be a set of beliefs, biases, preferences, and underlying circumstances driving this. We would like to understand which of these are robustly supported by the evidence, and will have a sense of how important each of these are in terms of the magnitude of driving and absence of effective giving. There has been only a limited amount of research into this and it has not been systematic, coordinated, nor heavily funded.
 
 **We seek to understand because we believe that there is potential to change attitudes, beliefs, and actions** (primarily charitable giving, but also  political and voting behaviour and workplace/career choices). Different charitable appeals, information interventions and approaches may substantially change peoples charity choices. We see potential for changing the “domain” of causes chosen (e.g., international versus US domestic) as well as  the effectiveness of the charities chosen within these categories. (However, we have some disagreement over the relative potential for either of these.)
 
@@ -74,7 +74,7 @@ Fitz/Kagan: Understanding Effective Givers:
 
 ## (Lack of) previous synthesis on this {#prevsurvey}
 
-While there have been some relevant prior reviews ([@Loewenstein2007], introduction to  [@Berman2018], [@baron2011heuristics])
+While there have been some relevant prior reviews (@Loewenstein2007, introduction to  @Berman2018, @baron2011heuristics)
 
 <div class="marginnote">
  
@@ -154,7 +154,7 @@ Reference: Steinberg & Morris, 2010 wrote about marginal vs average effectivenes
 </div>
  
 
-It is important to define the concept of talking about. What, precisely, is this ``effectiveness'' or ``impact'' of a charity we are focusing on?  It is not trivial to get this right and there are some delicate and hotly debated questions even within the EA movement. Nonetheless, I sketch the basic idea in the math below.
+It is important to define the concept of talking about. What, precisely, is this 'effectiveness' or 'impact' of a charity we are focusing on?  It is not trivial to get this right and there are some delicate and hotly debated questions even within the EA movement. Nonetheless, I sketch the basic idea in the math below.
 
 \
 
@@ -163,7 +163,7 @@ $G_j$: The total donations given to charity $j$  during some interval; i.e., the
 $B_j(G_j)$: A function defining the beneficial *outcome* achieved by charity $j$ with the total donations $G_j$.
 
 
-Here, we are referring to $B_j(G_j)$ as (the improvement to ) some *ultimate outcome*:  Lives saved (i.e., deaths averted), quality adjusted life years (QALY) added, QALY weighted by age, Disease-adjusted (DALY), future happy lives generated, sentient suffering averted, etc. 
+Here, we are referring to $B_j(G_j)$ as (the improvement to) some *ultimate outcome*:  Lives saved (i.e., deaths averted), quality adjusted life years (QALY) added, QALY weighted by age, Disease-adjusted (DALY), future happy lives generated, sentient suffering averted, etc. 
 
 <div class="marginnote">
 As noted, there are disagreements over how and whether we should trade off among these outcomes. Issues such as population ethics, andthe importance of sentience and experience --- come to the fore. We will ignore these for now.
@@ -218,7 +218,7 @@ $B_j^\prime(G_j)$  is much larger for the most *impactful* relative to the most 
 
 \
 
-Increased benefits could be achieved if donations were ''reallocated'' towards more impactful charities. An individual who gains value from her giving through it's *impact* alone would naturally donate to only the *one* charity that has the greatest marginal impact, the charity $j$ with the greatest $B_j'(G_j)$ term. If every donor is doing this, then as an 'equilibrium' result *every charity receiving positive donations should have the same last-dollar marginal impact.*  In maths:
+Increased benefits could be achieved if donations were ''reallocated'' towards more impactful charities. An individual who gains value from her giving through it's *impact* alone would naturally donate to only the *one* charity that has the greatest marginal impact, the charity $j$ with the greatest $B_j'(G_j)$ term. If every donor is doing this, then as an 'equilibrium' result, *every charity receiving positive donations should have the same last-dollar marginal impact.*  In maths:
 
 \begin{equation}
 
@@ -242,7 +242,7 @@ But we do *not* seem to be doing this. Again: billions are given to charity, and
 
 ## Why (under which models) is this a puzzle? {#why-puzzle}
 
-Does the set of facts mentioned above constitute a ``puzzle'' for our  Economics and Psychology models...  or are there obvious existing explanations? In Economic terms, are donors mysteriously ''leaving money on the table''  or are they simply optimizing given their their preferences and constraints?  What could explain this?
+Does the set of facts mentioned above constitute a "puzzle" for our  Economics and Psychology models...  or are there obvious existing explanations? In Economic terms, are donors mysteriously ''leaving money on the table''  or are they simply optimizing given their their preferences and constraints?  What could explain this?
 
 <div class="marginnote">
 Economists love when we can say that something is officially a *Puzzle*. It is an achievement in itself to be the researcher who first discovered a *Puzzle*, even if we have no clue how to resolve it.

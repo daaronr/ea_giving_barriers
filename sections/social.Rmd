@@ -4,7 +4,7 @@
 
 ### Theory and argument 
 
-Social signaling is seen to be a major driver of human behavior, particularly in the charitable domain.^[REF]^ Essentially, we may make choices that we would not have otherwise made in order to boost our reputation among our peers, colleagues, etc.. Reputation may be valued for its own sake or instrumentally, as a means  to inducing others to act more favorably to us. Game theory (see esp. [@spenceJobMarketSignaling1973]) offers a precise conception of this signaling as a costly way to demonstrate one's positive "type"  in a context with asndymmetric information.
+@simler2017elephant argue that social signaling is a major driver of human behavior, particularly in the charitable domain. Essentially, we may make choices that we would not have otherwise made in order to boost our reputation among our peers, colleagues, etc.. Reputation may be valued for its own sake or instrumentally, as a means  to inducing others to act more favorably to us. Game theory (see esp. [@spenceJobMarketSignaling1973]) offers a precise conception of this signaling as a costly way to demonstrate one's positive "type"  in a context with asymmetric information.
 
 Several authors (can be interpreted to) suggest that valuing ''effectiveness in generosity'', i.e., moral-utilitarianism, is seen as a negative signal by peers and lowers fitness in the cooperation market, at least in comparison to signaling compared to deontological or ‘sacred values’. The exchange below captures the basic argument... 
 
@@ -46,7 +46,7 @@ The authors' motivation is to explore why "intuitive moral judgments often "shar
 
 > the typical deontological reason for why specific actions are wrong is that they violate duties to respect persons and honor social obligations-features that are crucial when selecting a social partner. An individual who claims that stealing is always morally wrong and believes themselves morally obligated to act in accordance with this duty seems much less likely to steal from me than an individual who believes that the stealing is sometimes morally acceptable depending on the consequences. Actors who express characteristically deontological judgments may therefore be preferred to those expressing consequentialist judgments because these judgments may be more reliable indicators of stable cooperative behavior.
 
-> And recent theoretical work has demonstrated that -"cooperating without looking”—that is, without considering the costs and benefits of cooperation—is a subgame perfect equilibrium (Hoffman, Yoeli, & Nowak, 2015). Therefore, expressing characteristically deontological judgments could constitute a behavior that enhances individual fitness in a cooperation market because these judgments are seen as reliable indicators of a specific valued behavior-cooperation.
+> And recent theoretical work has demonstrated that -"cooperating without looking”—that is, without considering the costs and benefits of cooperation—is a subgame perfect equilibrium [@Hoffman2015]. Therefore, expressing characteristically deontological judgments could constitute a behavior that enhances individual fitness in a cooperation market because these judgments are seen as reliable indicators of a specific valued behavior-cooperation.
 
 ```
 
@@ -114,9 +114,9 @@ Empathy: “John was deeply moved by Rokia’s situation and about how terrible 
 
 Robustness checks for: gender, stake size
 
-Background mechanism:  donors’ failure to prioritize cost-effectiveness can be explained by signaling concerns, since people who favor deontological over consequentialist decisions are preferred as social partners [@Everett2016],
-Key findings:  Across six studies, donors who deliberated were perceived as having worse moral character, were rated as less desirable as social partners, and were judged to be less guided by moral motives. On the other hand, those who deliberated were also seen as more reasonable and competent, and were judged to be more guided by pragmatic motives,
-Thus, there may be reputational benefits associated with deliberating. However, since deliberators are less preferred as social partners the authors believe the overall effect one reputation is negative. They do not find any differences in trustworthiness. Exhibiting empathy before deliberating reduced most negative reputational effects. People how do not give at all are seen as the worst. Surprisingly, participants judge the empathy donors as more wastful.
+Background mechanism:  donors’ failure to prioritize cost-effectiveness can be explained by signaling concerns, since people who favor deontological over consequentialist decisions are preferred as social partners [@Everett2016]
+
+Key findings:  Across six studies, donors who deliberated were perceived as having worse moral character, were rated as less desirable as social partners, and were judged to be less guided by moral motives. On the other hand, those who deliberated were also seen as more reasonable and competent, and were judged to be more guided by pragmatic motives. Thus, there may be reputational benefits associated with deliberating. However, since deliberators are less preferred as social partners the authors believe the overall effect one reputation is negative. They do not find any differences in trustworthiness. Exhibiting empathy before deliberating reduced most negative reputational effects. People how do not give at all are seen as the worst. Surprisingly, participants judge the empathy donors as more wasteful.
 
 
 #### Considerations 
@@ -129,7 +129,7 @@ True, a local blind person may fail to get an additional (fraction of a) dog as 
  
 #### Indirect evidence
 
-(Kahane et al 2018; Jordan et al; Hoffman et al)
+(@kahane2018beyond; @Jordan2016b; @Hoffman2015)
 
 
 
