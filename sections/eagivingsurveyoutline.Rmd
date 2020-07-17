@@ -43,7 +43,7 @@ Relevant to charity 'quality ratings', overhead aversion
 
 \
 
-- Why (under what models) is this a puzzle?](#why-puzzle)
+- [Why (under what models) is this a puzzle?](#why-puzzle)
   -  Economics and psych models $\rightarrow$  puzzle?
   - Models where people care about the impact of their gift or just 'amount sacrificed' (naive warm glow). 
   - Does impact map into the 'good feeling' from giving, can it do so?
@@ -63,7 +63,7 @@ Do people *actually care about* impact? Does moral utilitarianism matter?
 
 \
 
-**  [Are charities in competition? Is the ineffective giving reducing effective giving? Ask people to give to EA charity 'instead'?](#substitution)**
+**[Are charities in competition? Is the ineffective giving reducing effective giving? Ask people to give to EA charity 'instead'?](#substitution)**
 
 <!-- (Or put in section 2?) -->
 
@@ -115,7 +115,7 @@ Social perceptions and signaling empathy vs effectiveness; related: difficulty o
 
 **In each section we consider:**
 
-**A category of barriers (first-level heading, e.g. '[Quantitative biases](#quant-biases)) **
+**A category of barriers (first-level heading, e.g. '[Quantitative biases](#quant-biases)')**
 
 Here we discuss this category in general, explaining its meaning and plausibility in terms of the underlying theories, models, and generalized observations.
 
