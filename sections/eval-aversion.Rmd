@@ -566,13 +566,14 @@ knitr::include_graphics(c('picsfigs/study_6_fisher_cis.png'))
 
 The wide confidence intervals of the odds ratios suggests that Study 6 had limited statstical power.
 
-#### [@caviola2020many]
+
+#### [@caviola2020many] {#caviola}
 
 - Series of hypothetical experiments, mainly on M-Turk
 
-> Abstract: ... Across six tasks(Studies 1a, 1b), we found support for both explanations. Among lay donors, we observed multiple misconceptions—regarding disaster relief, overhead costs, donation splitting, and the relative effectiveness of local and foreign charities—that reduced thee ffectiveness of their giving. 
+> Abstract: ... Across six tasks (Studies 1a, 1b), we found support for both explanations. Among lay donors, we observed multiple misconceptions—regarding disaster relief, overhead costs, donation splitting, and the relative effectiveness of local and foreign charities—that reduced thee ffectiveness of their giving. 
 
-> Similarly, we found that they were unfamiliarwith the most effective charities (Studies 2a, 2b). Debunking these misconceptions and informing people about effectiveness boosted effective donations; however, a portion of lay donors continued to give ineffectively to satisfy their personal preferences.
+> Similarly, we found that they were unfamiliar with the most effective charities (Studies 2a, 2b). Debunking these misconceptions and informing people about effectiveness boosted effective donations; however, a portion of lay donors continued to give ineffectively to satisfy their personal preferences.
 
 > By contrast, a sample of self-identified effective altruists gave effectively across all tasks. 
 
