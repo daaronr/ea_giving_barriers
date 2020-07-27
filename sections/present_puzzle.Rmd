@@ -112,9 +112,15 @@ Ideas42: "We did not find many field-based, experimental studies on the factors 
 
 ```{block2,  type='fold'}
 
-Gertler, "[[Charitable Fundraising and Smart Giving]{.underline}](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf)\"
+Gertler, "[Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf)\"
 
-Baron chapter
+- Substantial motivation
+- A broad picture of the evidence on what motivates and can be used to giving *in general*
+- "Strategies for Effective Charities" (pp 48-59) is most relevant to the current project
+
+\
+
+**[@baron2011heuristics] (chapter) **
 
 -   Introduction (with problem/puzzle)
 
