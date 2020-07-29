@@ -815,6 +815,6 @@ When assessing effectiveness  in determining which charity to donate to (and how
 
 Ref: @hseeUnitAskingMethod2013
 
-## Other possibilities: "Risk aversion",  Lack of tangibility, Corruption aversion
+## Other possibilities: "Risk aversion",  Lack of tangibility, Corruption aversion {#other-possibilities}
 
 See Airtable

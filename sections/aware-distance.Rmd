@@ -22,7 +22,7 @@ Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychologi
 
 <!-- ?cuddy\_ea\_2007 (Sudhir ea, \'16) -->
 
-## Distance - Spatial/Physical, Social/Cultural: parochial altruism/ingroup bias,  interpersonal and identity e.g., race, gender, age, etc
+## Distance - Spatial/Physical, Social/Cultural: parochial altruism/ingroup bias,  interpersonal and identity e.g., race, gender, age, etc {#in-group}
 
 Consider: 
 
@@ -43,7 +43,7 @@ There is some evidence for this in charitable contexts. In a laboratory experime
 </div>
 
 
-## Availability heuristic and media (also see 'biases')
+## Availability heuristic and media (also see 'biases') {#availability}
 
 Rare events such as natural disasters are particularly vivid and salient, and the availability bias suggests that people will overestimate the probability and value of events if they come to mind more easily [@tversky1973availability]. For example, people might overestimate the probability of airplane crashes due to their salience. 
 
@@ -124,7 +124,7 @@ When considering how we can reduce suffering through effective altruism, immedia
 
 This consideration of future people and future problems includes commonly discussed issues, such as the future of climate change, as well as more low-probability problems that may be more neglected in terms of attention from altruists, such as nuclear war, bioterrorism and AI related issues [@macaskillDoingGoodBetter2015]. Arguments for the importance of considering these problems have been made by individuals such as @ord2020precipice and institutions like the [Future of Humanity Institute](https://www.fhi.ox.ac.uk)
 
-However, even motivating giving for current issues presents many challenges, so encouraging giving for people who are yet to be born could prove even more difficult. 
+However, even motivating giving for current issues [presents many challenges](#present-puzzle), so encouraging giving for people who are yet to be born could prove even more difficult. 
 
 <div class="marginnote">
 See [this podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/) and the articles and books linked for a more comprehensive introduction to the long-term future
@@ -140,14 +140,20 @@ Considering how heavily we should weigh the future is a subject that has been ra
 For further reading on discount rates see @weitzman1998far, @ackerman2008climate, @ebert2007fragility, and @farmer2009hyperbolic
 </div>
 
-Beyond the technical analysis of at what rates people might discount the future, @schubertFocusCollectiveAttention2020 also outlines a few reasons why the distant future may receive less attention and action. Firstly, he suggests that present issues are likely more salient than future issues, and because these issues are more salient, they will get discussed more. Secondly, he argues that uncertainty is likely an important factor. Even if you are concerned with future well-being, if it is unclear how you can impact the distant future, you may be more likely to focus on other issues. He also makes the case that a lack of political polarisation could mean that issues get less attention, as “When there is no political conflict, a question might get less discussed, even if it’s seen as morally important”. 
+Beyond the technical analysis of at what rates people might discount the future, @schubertFocusCollectiveAttention2020 also outlines a few reasons why the distant future may receive less attention and action. Firstly, he suggests that present issues are likely more salient than future issues, and because these issues are more salient, they will get discussed more. 
 
-We can also point to the other barriers to effective giving in this section, and link these to a potential lack of future-focused giving. For example, when it comes to the availability bias, we suggested that vividness and salience of events may influence how people estimate probabilities. Future events may be hard to picture, particularly more abstract risks like the [dangers of artificial intelligence](https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/)
+Secondly, he argues that uncertainty is likely an important factor. Even if you are concerned with future well-being, if it is unclear how you can impact the distant future, you may be more likely to focus on other issues. While uncertainty could pose a problem for encouraging giving for distant future causes in particular, factoring in uncertainty is not necessarily a bias. It may be a reasonable choice, and there is further discussion of uncertainty and how this may link to risk aversion [(see here)](#other-possibilities). 
 
-We also discussed the identifiable victim effect. It could be significantly harder to create a story around a single victim if victims effected by that issue do not yet exist. Victims of the distant future may have to be statistical victims only, potentially eliciting less sympathy and consequently less donations. Charities that focus on the distant future may also have issues demonstrating evidence of their impact to donors, which can help to encourage donations ([@karlanEffectEffectivenessDonor2017]. 
+Additionally, he makes the case that a lack of political polarisation could mean that issues get less attention, as “When there is no political conflict, a question might get less discussed, even if it’s seen as morally important”. 
 
-The impact of people being categorised into in-groups and out-groups in influencing donations could also be considered. If people do give more to in-groups, such as those of the same race, gender and age ([@Sudhir2016a]), then the time in which people live could be seen as one of these categories, with those in the distant future potentially forming an out-group.
+We can also point to the other barriers to effective giving in this section, and link these to a potential lack of future-focused giving. For example, when it comes to the [availability bias](#availability), we suggested that vividness and salience of events may influence how people estimate probabilities. Future events may be hard to picture, particularly more abstract risks like the [dangers of artificial intelligence](https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/)
 
+We also discussed the [identifiable victim effect](#statvictim). It could be significantly harder to create a story around a single victim if victims affected by that issue do not yet exist. Victims of the distant future may have to be statistical victims only, potentially eliciting less sympathy and consequently less donations. Charities that focus on the distant future may also have issues demonstrating evidence of their impact to donors, which can help to encourage donations ([@karlanEffectEffectivenessDonor2017]. However, the influence of demonstrating impact is mixed, discussed more [here](#eval-aversion)
 
+The impact of people being categorised into [in-groups and out-groups](#in-group) could also be considered in analysing potential donations to distant-future causes. In their review of the literature, @Sudhir2016a suggest social identity works as follows:
+
+> Social identity has three major components: categorization, identification and comparison. Categorization is the process of putting people, including ourselves, into categories; for example, labelling a person as Chinese, black, female, or a lawyer are all different ways of categorization. Categorization also defines our self-image. Identification is the process by which we associate or identify ourselves with certain groups. We identify with in-groups, and we do not identify with out-groups. Finally, comparison is the process by which we compare in-groups with out-groups, creating a favourable bias toward the in-group. Overall, categorization of others as belonging to an in-group arouses feelings of greater closeness and responsibility and augments emotional response to their misfortune through greater sympathy (@brewer1996we, @dovidio1997nature) and willingness to help (@dovidio1984helping, @dovidio1997nature). 
+
+It is possible that distant-future generations could be put in their own category, considered separately from near-future and present generations, and their distance could mean that people identify with them less. If distant-future generations *are* seen as an out-group, this could pose a barrier for giving to distant future generations. Whether those in the future do in fact form an out-group could be a direction for further research in this area. 
 
 
