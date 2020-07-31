@@ -137,10 +137,61 @@ Considering how heavily we should weigh the future is a subject that has been ra
 > The choice of discount rate is crucial in the evaluation of projects some of whose important effects are long-term. Analyses that use a higher discount rate will tend to favour the short term: projects requiring sacrifices in the short term for the sake of benefits in the further future will be more likely to fail cost-benefit tests.
 
 <div class="marginnote">
+
 For further reading on discount rates see @weitzman1998far, @ackerman2008climate, @ebert2007fragility, and @farmer2009hyperbolic
 </div>
 
-Beyond the technical analysis of at what rates people might discount the future, @schubertFocusCollectiveAttention2020 also outlines a few reasons why the distant future may receive less attention and action. Firstly, he suggests that present issues are likely more salient than future issues, and because these issues are more salient, they will get discussed more. Secondly, he argues that uncertainty is likely an important factor. Even if you are concerned with future well-being, if it is unclear how you can impact the distant future, you may be more likely to focus on other issues. He also makes the case that a lack of political polarisation could mean that issues get less attention, as “When there is no political conflict, a question might get less discussed, even if it’s seen as morally important”. 
+
+```{block2,  type='note'}
+ **An informal discussion from David Reinstein** 
+  
+In considering whether there is a *bias* against helping people in the future we need to establish a baseline: At what rate (if at all) *should* an effective altruist weigh (far) future lives/pleasure/suffering as less-valuable as current or near-future lives?  At what rate should we 'discount', if at all?
+  
+\
+
+I think it's actually not clear that we, as a society, should be discounting at all, either for consumption itself, or for some conception of 'happiness' or 'utility' (where here I'm thinking of 'utility' as something that does express well-being, not the very abstract economic concept of 'the thing that we maximize').
+
+\
+
+Individuals might discount future "pleasure":
+
+- because they might not survive to the future (although this should enter in as a 'survival discount' tied to the probability of surviving)
+
+- because they are impatient (but this is potentially not in their own interest)
+
+\
+
+Individuals may discount future 'income' (in currency, inflation-adjusted) or 'physical consumption'
+
+- If we think the 'future me' will be wealthier than the present me (consumption smoothing)
+
+- Or if we think I will be less sensitive to pleasure/pain
+
+
+\
+
+Businesses/investors may discount future earnings (again, inflation adjusted)
+
+- If they think that there are other opportunities for 'returns above inflation' ... because 'returns to capital exceeds the rental cost of capital'
+
+This should be true for growing societies as well, i.e., where there is real-GDP/capita growth (I'm being a bit loose here)
+
+
+\
+
+This is not the same as discounting future utility or welfare. There's no clear reason we should do this.
+
+```
+
+
+Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020 also outlines a few reasons why the distant future may receive less attention and action. Firstly, he suggests that present issues are likely more salient than future issues, and because these issues are more salient, they will get discussed more. Secondly, he argues that uncertainty is likely an important factor. Even if you are concerned with future well-being, if it is unclear how you can impact the distant future, you may be more likely to focus on other issues. He also makes the case that a lack of political polarisation could mean that issues get less attention, as “When there is no political conflict, a question might get less discussed, even if it’s seen as morally important”. 
+
+
+<div class="marginnote">
+However the uncertainty channel is not necessarily a bias. It may be a reasonable response. And if we are 'too risk-averse' in our other-regarding choices, that is a bias but it is not a bias of 'distance'... it merits its own category.  (This is something we aim to discuss under quantitative biases, ['excessive risk aversion'](#risk_a).)
+
+ </div>
+ 
 
 We can also point to the other barriers to effective giving in this section, and link these to a potential lack of future-focused giving. For example, when it comes to the availability bias, we suggested that vividness and salience of events may influence how people estimate probabilities. Future events may be hard to picture, particularly more abstract risks like the [dangers of artificial intelligence](https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/)
 
@@ -148,6 +199,12 @@ We also discussed the identifiable victim effect. It could be significantly hard
 
 The impact of people being categorised into in-groups and out-groups in influencing donations could also be considered. If people do give more to in-groups, such as those of the same race, gender and age ([@Sudhir2016a]), then the time in which people live could be seen as one of these categories, with those in the distant future potentially forming an out-group.
 
+### Evidence (work in progress) {#future-bias-ev}
+
+
+- **What is the evidence ** that they are actually doing this (taking into account the 'uncertainty' issue (we know less about how to help the far-future).
+
+- What factors drive this bias or mitigate it?
 
 
 

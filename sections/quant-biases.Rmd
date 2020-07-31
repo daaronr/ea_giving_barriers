@@ -815,6 +815,12 @@ When assessing effectiveness  in determining which charity to donate to (and how
 
 Ref: @hseeUnitAskingMethod2013
 
-## Other possibilities: "Risk aversion",  Lack of tangibility, Corruption aversion
+## Other quantitative biases {#other_q_bias}
+
+### "Excessive Risk aversion or loss aversion" {#risk_a}
+
+### Bias towards tangibility
+
+### Corruption aversion
 
 See Airtable
