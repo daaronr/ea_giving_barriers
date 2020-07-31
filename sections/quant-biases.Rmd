@@ -24,7 +24,7 @@ AKA 'drop in the bucket', 'psychosocial numbing', 'psychophysical numbing'
 </div>
 
 
-Proportional dominance effect/drop in bucket/psychosocial numbing/psychophysical numbing	
+Proportional dominance effect/drop in bucket/psychosocial numbing/psychophysical numbing
 
 
 <!-- See also (Ari's writeup
@@ -37,11 +37,11 @@ Related Terms include:   Drop in the bucket; mechanisms include "futility thinki
 
 <!-- *1-4 sentence description/definition of the barrier* -->
 
-This claim can be summarized as follows: 
+This claim can be summarized as follows:
 
 (For a given per-dollar impact on the outcome), people are be less
 willing to donate towards a cause when the magnitude of the underlying
-problem is (framed as) larger. 
+problem is (framed as) larger.
 
 Mechanism: Underlying this is the idea that a certain amount of impact (e.g., relieving suffering) is perceived as smaller and thus less valuable when the underlying problem is larger.
 
@@ -54,38 +54,38 @@ Overview of findings from papers, caveats, how the concept works, etc. Provides 
 
 **Definitional issues and disambiguation**
 
-This needs to be distinguished from scope insensitivity. Note that if people are being analytical, they must *care* about scope in order to care about their impact, and thus (mistakenly) react to the perceived lower impact of donating when the needs are much greater. 
+This needs to be distinguished from scope insensitivity. Note that if people are being analytical, they must *care* about scope in order to care about their impact, and thus (mistakenly) react to the perceived lower impact of donating when the needs are much greater.
 PD arguments may also be used as vehicle for motivated reasoning, and thus not be an important driver in itself: E.g., I don't want to donate so I focus on my impact being a share of the overwhelming need (which I might opportunistically define broadly) to conclude that helping is futile.
 
 Note (unfold)...
 
 ```{block2,  type='fold'}
 
-BG:  My thought was that people who do not value saving lives (or are in general unwilling to contribute to it or oppose policies spending money on foreign aid for some other reason, e.g. prejudice) exercise a form of motivated reasoning to justify this (perhaps in a nonstandard way). They choose to reason according to the 'proportional' standard in order to conclude that it is not worth mdonating to these causes because 'the scope of the problem is too large and they will never be completely solved'. I suggest that people apply this reasoning to problems specifically when they do not want to take action to address these problems. (In contrast, in domains where they do want to make a change, they may use a different, more marginal and \'consistent\' sort of reasoning.) E.g., (to be stereotypical) imagine a MAGA person who wants to end foreign aid because \"Africa will always have endless problems\" but who wants to impose restrictions on abortion (even knowing millions of abortions will continue to occur) because \"every unborn life matters. 
+BG:  My thought was that people who do not value saving lives (or are in general unwilling to contribute to it or oppose policies spending money on foreign aid for some other reason, e.g. prejudice) exercise a form of motivated reasoning to justify this (perhaps in a nonstandard way). They choose to reason according to the 'proportional' standard in order to conclude that it is not worth mdonating to these causes because 'the scope of the problem is too large and they will never be completely solved'. I suggest that people apply this reasoning to problems specifically when they do not want to take action to address these problems. (In contrast, in domains where they do want to make a change, they may use a different, more marginal and \'consistent\' sort of reasoning.) E.g., (to be stereotypical) imagine a MAGA person who wants to end foreign aid because \"Africa will always have endless problems\" but who wants to impose restrictions on abortion (even knowing millions of abortions will continue to occur) because \"every unborn life matters.
 ```
 
-To operationalize this, we need to define what the numerator and denominator represent. For the numerator, an (EA) impact-driven individualist donor might consider of her *own* contribution (per dollar or overall) relative to the size of the need. In contrast, a more collectivist/team-reasoning/communitarian thinker might consider the impact of the *total* expected donation relative to the size of the need. We also need to better define the denominator; how do individuals lump together different groups/problems to define the overall scale of the need, and how sensitive is this to the fundraisers' framing? 
+To operationalize this, we need to define what the numerator and denominator represent. For the numerator, an (EA) impact-driven individualist donor might consider of her *own* contribution (per dollar or overall) relative to the size of the need. In contrast, a more collectivist/team-reasoning/communitarian thinker might consider the impact of the *total* expected donation relative to the size of the need. We also need to better define the denominator; how do individuals lump together different groups/problems to define the overall scale of the need, and how sensitive is this to the fundraisers' framing?
 
 ### Mechanisms {-}
 
-@fetherstonhaughInsensitivityValueHuman1997 highlight "Weber's law": Humans are sensitive to proportional changes/proportional differences in stimuli (loudness, brightness, etc); thus we are less sensitive to small changes relative to a larger baseline. There is evidence this also holds in assessing losses of life. \... the "subjective value of saving the specified number of lives is greater for a smaller tragedy than for a larger one" . 
+@fetherstonhaughInsensitivityValueHuman1997 highlight "Weber's law": Humans are sensitive to proportional changes/proportional differences in stimuli (loudness, brightness, etc); thus we are less sensitive to small changes relative to a larger baseline. There is evidence this also holds in assessing losses of life. \... the "subjective value of saving the specified number of lives is greater for a smaller tragedy than for a larger one" .
 
-@Baron1997 attributes PD to quantity confusion and classifies this as "contamination by an irrelevant factor"; more generally, this could be seen in terms of *innumeracy*. 
+@Baron1997 attributes PD to quantity confusion and classifies this as "contamination by an irrelevant factor"; more generally, this could be seen in terms of *innumeracy*.
 
-This may lead to a lower willingness to contribute to a problem when the apparent scale (or "denominator") of the problem is larger (e.g., more lives at risk), holding constant the benefit per dollar contributed (cost per life saved). The *perceived* scale of the problem may depend on how it is framed by fundraisers, charities, and the media. However, this may not be completely manipulable: e.g., massive global problems may not be easy to "frame down." 
+This may lead to a lower willingness to contribute to a problem when the apparent scale (or "denominator") of the problem is larger (e.g., more lives at risk), holding constant the benefit per dollar contributed (cost per life saved). The *perceived* scale of the problem may depend on how it is framed by fundraisers, charities, and the media. However, this may not be completely manipulable: e.g., massive global problems may not be easy to "frame down."
 "@loewensteinScarecrowTinMan2007 suggested that the PDE is driven by
 increased sympathy towards the victims when one can help a large
 proportion of the victim reference-group." \-- @erlandssonArgumentinconsistencyCharityAppeals
 
-### EG Relevance 
+### EG Relevance
 
 <div class="marginnote">
 How this particular barrier proves problematic for effective giving.
 </div>
 
-This effect represents a general departure from appropriate assessment of the marginal benefit (per cost) of a particular charity/intervention. Thus, this is a general barrier to accurate assessment of effectiveness ergo a barrier to effective giving. 
+This effect represents a general departure from appropriate assessment of the marginal benefit (per cost) of a particular charity/intervention. Thus, this is a general barrier to accurate assessment of effectiveness ergo a barrier to effective giving.
 
-In addition, it might be argued that more effective interventions (e.g., targeting poor Africans versus US poverty) may tend to address problems that are inherently larger in scale and magnitude. These may be intrinsically harder to "frame down", implying EG will suffer more from this bias. 
+In addition, it might be argued that more effective interventions (e.g., targeting poor Africans versus US poverty) may tend to address problems that are inherently larger in scale and magnitude. These may be intrinsically harder to "frame down", implying EG will suffer more from this bias.
 
 ### State of Evidence
 
@@ -294,7 +294,7 @@ problem") or 9,000 ("small problem").
 
 -   "support-for-intervention", 7-point scale
 
--   "Lives-to-save" 
+-   "Lives-to-save"
 
 > "What is the minimum number of these (9,000/41,000) lives at risk ... saved each year before you... require consumers > to pay for anti-lock brakes"
 
@@ -342,18 +342,18 @@ d.  (Ari:) "Increase evaluability: putting interventions on same
 Cite: Hsee13, small2003helping, kogut2011identifiable, small2007sympathy_s3_s4
 </div>
 
-### Definition 
+### Definition
 
-The identifiable victim effect (IVE) is credited as being first developed by @schelling1968life, who argue "there is a distinction between an individual and a statistical life". People may react differently towards victims when these victims are *identified* rather than anonymous [@Small2003a]. As a result, resources may be more likely to be devoted to causes where individual victims are more prominent and identifiable (rather than cases where we only see large, unidentified groups) [@small2010reference]. @slovicPsychicNumbingGenocide2007 also discussed this effect, in a paper that derives its title from a Mother Teresa quote that reflects the key idea: "If I look at the mass I will never act. If I look at the one I will". 
+The identifiable victim effect (IVE) is credited as being first developed by @schelling1968life, who argue "there is a distinction between an individual and a statistical life". People may react differently towards victims when these victims are *identified* rather than anonymous [@Small2003a]. As a result, resources may be more likely to be devoted to causes where individual victims are more prominent and identifiable (rather than cases where we only see large, unidentified groups) [@small2010reference]. @slovicPsychicNumbingGenocide2007 also discussed this effect, in a paper that derives its title from a Mother Teresa quote that reflects the key idea: "If I look at the mass I will never act. If I look at the one I will".
 
 \
 
-### Relevance to effective giving 
+### Relevance to effective giving
 
 @baron2011heuristics discuss how the IVE could pose a problem for effective altruism, suggesting two reasons that this could be considered a bias from the utilitarian perspective. Firstly, they suggest that when altruism is increased for identified victims, this could result in less altruism for those who are not identified,$^{(?)}$ <div class="marginnote">
-Why? Through which channel. 
+Why? Through which channel.
 </div>
- The latter group may include those most in need of help (such as large groups of people who are severely deprived). @kogut2011identifiable similarly argued that the IVE could yield less efficiency given that it is improbable that the benefits to society will be maximized when more resources are given to victims who are identified than those who aren't. (This essentially restates [our general efficiency argument above](#quant-biases)). 
+ The latter group may include those most in need of help (such as large groups of people who are severely deprived). @kogut2011identifiable similarly argued that the IVE could yield less efficiency given that it is improbable that the benefits to society will be maximized when more resources are given to victims who are identified than those who aren't. (This essentially restates [our general efficiency argument above](#quant-biases)).
 
 ```{block2,  type='note'}
 
@@ -364,17 +364,17 @@ Why? Through which channel.
 
 \
 
-This could be interpreted as 
+This could be interpreted as
 
 1. 'Those internal factors that cause a bias towards identified victims also lead to greater regard for others and thus more giving ('donation bundle Y'), even if it is less efficient. In net this could potential yield a greater good.'  OR
 
 2. "Presenting and depicting identified victims leads to ... potential yielding a greater good"
 
-In either case, we can still see the IVE as leading to inefficient giving. From the point of view of the individual before he/she has been 'triggered by identifiability', 'donation bundle Y' is excessive as well as inefficient (the same benefit could be achieved at less expense or more good at the same expense). Ex-post, after she has been 'triggered' to be more generous, we can still see that more social good could have been done given her expenditure. 
+In either case, we can still see the IVE as leading to inefficient giving. From the point of view of the individual before he/she has been 'triggered by identifiability', 'donation bundle Y' is excessive as well as inefficient (the same benefit could be achieved at less expense or more good at the same expense). Ex-post, after she has been 'triggered' to be more generous, we can still see that more social good could have been done given her expenditure.
 
 ```
 
-@baron2011heuristics also argue that the IVE could be viewed as a framing effect:  the choices the donors make are influenced by how the information is *presented*, holding reality constant. This is about *presentation*: all victims *could* be identified, with names, ethnicities and ages. This leads @baron2011heuristics to suggest that "the identifiability effect may fail a simpler test of rationality".^$^{(??)}$ 
+@baron2011heuristics also argue that the IVE could be viewed as a framing effect:  the choices the donors make are influenced by how the information is *presented*, holding reality constant. This is about *presentation*: all victims *could* be identified, with names, ethnicities and ages. This leads @baron2011heuristics to suggest that "the identifiability effect may fail a simpler test of rationality".^$^{(??)}$
 <div class="marginnote">
 What test?^
 </div>
@@ -383,56 +383,56 @@ What test?^
 
 ### Evidence
 
-<!-- TODO: more complete overview of the types of evidence as well as existing meta-analyses --> 
+<!-- TODO: more complete overview of the types of evidence as well as existing meta-analyses -->
 
 One of the potential reasons that identified victims could elicit greater generosity is that their stories can involve more sympathy-inducing information (see @jenniExplainingIdentifiableVictim1997 and @loewensteinScarecrowTinMan2007 for more on the causes of the identifiable victim effect and more on sympathy biases). However, while sympathy-inducing information can contribute to the impact of the identifiable victim effect, some evidence suggests that it is not the sole factor driving this.
 
 @Small2003a designed studies to separate the effect of the *identification* of a victim from the effect of *information being provided* about a victim. They outlined this distinction as follows:
 
-> Although it has been claimed that people care about identifiable more than statistical victims, demonstrating this "identifiable victim effect" has proven difficult because identification usually provides information about a victim, and people may respond to the information rather than to identification *per se*. We show that a very weak form of identifiability - determining the victim without providing any personalizing information - increases caring. 
+> Although it has been claimed that people care about identifiable more than statistical victims, demonstrating this "identifiable victim effect" has proven difficult because identification usually provides information about a victim, and people may respond to the information rather than to identification *per se*. We show that a very weak form of identifiability - determining the victim without providing any personalizing information - increases caring.
 
-In one of their studies, they used a version of the dictator game. In dictator games, the first player, known as the 'allocator' is given an endowment. They then make a unilateral decision on how they should split this endowment. The second player, known as the 'recipient', has to accept this split. 
+In one of their studies, they used a version of the dictator game. In dictator games, the first player, known as the 'allocator' is given an endowment. They then make a unilateral decision on how they should split this endowment. The second player, known as the 'recipient', has to accept this split.
 <div class="marginnote">
-For more on dictator games see @kahneman1986fairness and @camerer1995anomalies. 
+For more on dictator games see @kahneman1986fairness and @camerer1995anomalies.
 </div>
 
-There were two conditions in the slightly altered dictator game devised by @Small2003a. In the 'determined' condition, allocators were given a number to link them with the recipient before they made their decision, while in the 'undetermined' condition they were linked after the decision. Their hypothesis, that an allocator would give more money to recipients in the determined condition, was supported. Subjects gave significantly more to those victims who had been determined before the allocation. The mean donation for an undetermined victim was USD 2.12, compared to USD 3.42 for determined victims. 
+There were two conditions in the slightly altered dictator game devised by @Small2003a. In the 'determined' condition, allocators were given a number to link them with the recipient before they made their decision, while in the 'undetermined' condition they were linked after the decision. Their hypothesis, that an allocator would give more money to recipients in the determined condition, was supported. Subjects gave significantly more to those victims who had been determined before the allocation. The mean donation for an undetermined victim was USD 2.12, compared to USD 3.42 for determined victims.
 
 The second study from @Small2003a was a field experiment with the following methodology:
 
 > ... potential donors were presented with a letter requesting money to buy materials for a house that was to be built for a needy family through the Habit for Humanity organization. The letter described several families on the waiting list to move into homes. Identifiability was manipulated by informing respondents that the family either "*has been selected*" or "*will be selected*" from the list. In neither condition were respondents told which family had been or would be selected; the only difference between conditions was in whether the decision had already been made
 
-As in their first study, they found evidence supporting their hypothesis that contributions would be larger when the recipients had already been determined. Mean, median and mode donations were all larger in the determined condition, with a mean of USD 2.93 given in the determined family condition, and a mean of USD 2.33 given in the undetermined family condition. This study could arguably provide stronger support for the identifiable victim effect impacting altruism, as @Small2003a suggest: 
+As in their first study, they found evidence supporting their hypothesis that contributions would be larger when the recipients had already been determined. Mean, median and mode donations were all larger in the determined condition, with a mean of USD 2.93 given in the determined family condition, and a mean of USD 2.33 given in the undetermined family condition. This study could arguably provide stronger support for the identifiable victim effect impacting altruism, as @Small2003a suggest:
 
 > By moving out of the laboratory, we eliminated potential artifacts such as the concern that students might have felt of being "found out" by their peers or other non-empathatic motives. By collecting money for a real charity to help people truly in need, we illustrate the real world implications of this effect.
 
-Both of these studies from @Small2003a suggest that identifying a victim, even without providing additional information, can potentially increase giving. 
+Both of these studies from @Small2003a suggest that identifying a victim, even without providing additional information, can potentially increase giving.
 
-Results from @charnessWhatNameAnonymity2008 similarly offer support for the identifiable victim effect from dictator games. In their dictator game, they found that when the family name of the recipient was revealed, the allocator gave a significantly larger portion of their endowment. Allocators who were told the family name gave 50 percent more than those who weren't. 
+Results from @charnessWhatNameAnonymity2008 similarly offer support for the identifiable victim effect from dictator games. In their dictator game, they found that when the family name of the recipient was revealed, the allocator gave a significantly larger portion of their endowment. Allocators who were told the family name gave 50 percent more than those who weren't.
 
-@kogutIdentifiedVictimEffect2005 also studied the IVE with the following design for participants: 
+@kogutIdentifiedVictimEffect2005 also studied the IVE with the following design for participants:
 
 > They were randomly assigned to one of eight conditions. Two factors were varied between subjects in a 2 x 4 factorial design: the singularity of the victim (single vs. a group of eight individuals) and the identifying information (unidentified; age only; age & name; age, name, & picture)
 
-Participants were given the same story, describing either a sick child, or a group of eight sick children. They were then asked if they would donate, and if so, how much they would donate. 
+Participants were given the same story, describing either a sick child, or a group of eight sick children. They were then asked if they would donate, and if so, how much they would donate.
 
 Their first finding was that "the effect of identification may be largely restricted to single victims", as the impact of being identified was significantly less for the group of eight children than for the single child. Secondly, they found that "the identification of the single victim is more effective the more vivid the representation", with willingness to donate at its highest when the victims were identified by age, name, and picture.
 
 <div class="marginnote">
 I'd like to check the robustness of this 'interaction' effect; such effects can be confounded with non-linearity. See discussion [here, section 1.3.7](https://daaronr.github.io/metrics_discussion/introduction.html#basic-regression-and-statistical-inference-common-mistakes-and-issues)
 </div>
- 
 
-@Sudhir2016a also found support for the IVE. In their study, they randomized advertising content in a large-scale experiment with charitable mailings across India. In the individual condition, they described an individual along with her photograph, and in the group condition they described the victims as a group of four women and used a photo collage. They found that in the individual condition, the average donation rate was 0.24% compared to 0.09% for the group condition. They also found that as well as the identifiable victim effect contributing to more donors giving, it also increased the level of giving among those that did give. 
+
+@Sudhir2016a also found support for the IVE. In their study, they randomized advertising content in a large-scale experiment with charitable mailings across India. In the individual condition, they described an individual along with her photograph, and in the group condition they described the victims as a group of four women and used a photo collage. They found that in the individual condition, the average donation rate was 0.24% compared to 0.09% for the group condition. They also found that as well as the identifiable victim effect contributing to more donors giving, it also increased the level of giving among those that did give.
 
 Linked to the identifiable victim effect is the notion that people are sensitive to the proportion of lives saved, rather than absolute lives (as discussed in more detail [above](#prop-dom)) [@Baron1997; @fetherstonhaughInsensitivityValueHuman1997; @Small2007]. @loewensteinScarecrowTinMan2007 suggest that if the proportion of lives saved is higher, then the lives could be more identifiable, resulting in more sympathy. They clain that, for example, "Ten lives out of a group of 100 is a high proportion and thus more sympathy inducing than 10 lives out of 1,000,000". @loewensteinScarecrowTinMan2007 also argue that the IVE represents one extreme on a continuum. If a single victim is identified, this victim becomes part of one's own reference group; thus one might experience higher levels of sympathy. At the opposite end of the continuum we find the 'drop-in-the-bucket' effect, where "there are so many victims in the reference group that the individual victims are hidden among the masses".
 
-## Availability heuristic 
+## Availability heuristic
 
 <div class="marginnote">
 (in probabilities?)
 </div>
- 
+
 
 People judge the probability of events and the importance of problems by the ease by which they can be brought to mind.  This may impact the importance they ascribe to causes and charities.	Effective  causes may be distant and underreported, for various reasons. Furthermore there may be a set of charities that are for a variety of reasons underreported or unconnected to the lives of the majority of donors; these will be neglected (and thus  more effective by dint of a lack of funding).
 
@@ -451,9 +451,9 @@ Effective causes may be distant and underreported, for various reasons. Furtherm
 
 ### Description {-}
 
-Potential donors may have a negative feeling towards a charity's costs that are considered "overhead" rather than "direct spending on program activities." This may make them reluctant to donate to charities that express a high "overhead ratio" and/or when they believe their donation will go to "pay for overhead", and to favor instead charities that report low "overhead ratios". 
+Potential donors may have a negative feeling towards a charity's costs that are considered "overhead" rather than "direct spending on program activities." This may make them reluctant to donate to charities that express a high "overhead ratio" and/or when they believe their donation will go to "pay for overhead", and to favor instead charities that report low "overhead ratios".
 
-Discussion: There are some clear flaws in this logic (thus we may call it "overhead bias"): many things considered overhead are fixed or sunk costs which will not be changed by the amounts donated; thus, at the *margin* the donation may not actually go towards this overhead. 
+Discussion: There are some clear flaws in this logic (thus we may call it "overhead bias"): many things considered overhead are fixed or sunk costs which will not be changed by the amounts donated; thus, at the *margin* the donation may not actually go towards this overhead.
 
 Marginal overhead is also possible. Suppose, e.g., the cost of an
 additional year of school tuition fees for a child are £200, but this
@@ -532,7 +532,7 @@ administration, a 25% share.
 
 ### State of Evidence; key papers {-}
 
-**Methodological issues** 
+**Methodological issues**
 
 
 -   Observational (correlational) studies: Overhead varies across
@@ -572,9 +572,9 @@ Share donating: Overhead (8.5%) $>$ \*\*\* $\geq$    Match $>$ Control (3.4%)
 Amount raised: Overhead (`$`2.31) \> \*\* Seed, Match > \*\*\* Control (`$0.80`)
 
 </div>
- 
 
-Note that while the framing differed, the *actual* treatment of the seed money in each case was the same; unless the charity could change the way it *administered* its programs between treatment, there is no clear way to experimentally vary the *actual* overhead. 
+
+Note that while the framing differed, the *actual* treatment of the seed money in each case was the same; unless the charity could change the way it *administered* its programs between treatment, there is no clear way to experimentally vary the *actual* overhead.
 
 This amounts to a clear piece of evidence that in such contexts
 *framing* overhead as being "covered" in this way may increase
@@ -598,7 +598,7 @@ this lab experiment, a donor who cares about her marginal impact
 <div class="marginnote">
  Other standard critiques of lab experiments in this domain apply    here.
  </div>
- 
+
 
 #### Portillo, Javier E.; Stinn, Joseph, (2018). "Overhead Aversion: Do Some Types Of Overhead Matter More Than Others?". Journal Of Behavioral And Experimental Economics, 72, , 40\--50. {-}
 
@@ -616,7 +616,7 @@ fundraising efforts instead of salary-related expenditures.
 
 #### Kinsbergen, Sara; Tolsma, Jochem, (2013) {-}
 
-@kinsbergenExplainingMonetaryDonations2013 
+@kinsbergenExplainingMonetaryDonations2013
 
 Hypothetical survey (vignettes, scenarios) "We constructed 960 scenarios in which a fictive international development organisation was described. ... A large representative sample of the Dutch population (N = 2,758) received six randomly allocated scenarios and had to decide if, and if so, how much they would donate to the depicted (fictive) organisation.... Although donors have a strong aversion regarding overhead costs, we find that donors seem to value the capacities of paid staff members and are, to a certain extent, willing to pay a price for these.
 
@@ -624,7 +624,7 @@ Hypothetical survey (vignettes, scenarios) "We constructed 960 scenarios in whic
 
 #### Meer, Jonathan, 2017 {-}
 
-@meerDoesFundraisingCreate2017 "Effects of the price of charitable giving: Evidence from an online crowdfunding platform 
+@meerDoesFundraisingCreate2017 "Effects of the price of charitable giving: Evidence from an online crowdfunding platform
 "
 
 -   DonorsChoose platform involves plausibly exogenous variation in the providing (the same) goods to teachers across projects (varying sales taxes, fullfillment, payment processing fees, etc).[^3] Fees are 'explicit and salient'.
@@ -654,15 +654,15 @@ Malawi, or greater costs of identifying legitimately poor families
     changes affected only newly posted projects; therefore, for nearly
     half a year after each change was implemented, active projects that
     might be otherwise identical had different fee levels."
-    
-  
+
+
 Furthermore, DonorsChoose doesn't have clearly separate variation
     in effectiveness of the outputs which we could compare to the
     differential prices of providing particular outputs (fees, etc.), to
     potentially detect oversensitivity to the former.
 
 </div>
- 
+
 
 
 #### Solutions (add section)
@@ -691,7 +691,7 @@ among those who did research, the most commonly sought information was
 some type of overhead ratio, and two-thirds were seeking some sort of
 information related to efficiency."-Meer
 
-"Making an impact? The relevance of information on aid effectiveness for charitable giving. A laboratory experiment" Metzger L Günther, *Journal of Development Economics (2019) 136* 
+"Making an impact? The relevance of information on aid effectiveness for charitable giving. A laboratory experiment" Metzger L Günther, *Journal of Development Economics (2019) 136*
 [@metzger2019making]
 
 **"**We thus clarified that a decrease in administrative costs from 40%
@@ -781,8 +781,8 @@ Study finds ‘no correlation’ between overhead and effectiveness-- is it conv
 References: @gneezyAvoidingOverheadAversion2014, @portillo2018overhead, @kinsbergenExplainingMonetaryDonations2013, @Mayo2009, @meerDoesFundraisingCreate2017, @chhaochharia2008charity, and @Caviola2014
 
 <!-- ## Possible: Altruistic opportunity cost neglect -->
- 
- 
+
+
 ## Possible: Misunderstanding need (and misunderstanding marginality/tractability/sunk costs?)
 
 ```{block2,  type='fold'}
@@ -794,7 +794,7 @@ Related terms: misunderstanding marginality, misunderstanding tractability, sunk
 
 1) donations may respond to number of *deaths* from a disaster rather than to the scale of the need of *survivors* (sunk losses)
 
-2) donations may respond to average cost per life saved, rather than marginal cost per life 
+2) donations may respond to average cost per life saved, rather than marginal cost per life
 
 General barrier to accurate assessment of effectiveness ergo a barrier to effective giving.
 ```
@@ -807,11 +807,11 @@ General barrier to accurate assessment of effectiveness ergo a barrier to effect
 
 Kahneman1992 (Part I: Embedding effect):
 the expressed willingness of Toronto residents to pay increased taxes to prevent the drop in fish populations in all Ontario lakes was only slightly higher than the willingness to pay to preserve the fish stocks in only a small area of the province."
-```  
+```
 
 ```{block2,  type='note'}
 When assessing effectiveness  in determining which charity to donate to (and how much),  a utilitarian  should be very sensitive to the scale of the impact (essentially the benefit per cost). If people  are scope insensitive they will be bad at making these judgments (particularly when presented in isolation).
-```  
+```
 
 Ref: @hseeUnitAskingMethod2013
 
@@ -822,5 +822,7 @@ Ref: @hseeUnitAskingMethod2013
 ### Bias towards tangibility
 
 ### Corruption aversion
+
+## Other possibilities: "Risk aversion",  Lack of tangibility, Corruption aversion {#other-possibilities}
 
 See Airtable
