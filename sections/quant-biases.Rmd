@@ -438,21 +438,51 @@ People judge the probability of events and the importance of problems by the eas
 
 Effective causes may be distant and underreported, for various reasons. Furthermore there may be a set of charities that are for a variety of reasons underreported or unconnected to the lives of the majority of donors; these will be neglected (and thus  more effective by dint of a lack of funding).
 
-## Diversification heuristic 
+## Diversification heuristic
 
-@baron2011heuristics suggest that diversification in many different fields can often be a good idea. For example, when it comes to experiences, diversification can mean variety, helping to reduce the likelihood of adaption and things being repeated. This comes from the idea of diminishing marginal utility, and @read1995diversification explain the classical model of variety seeking as follows:
+@baron2011heuristics suggest that, in many contexts,  diversification can often be beneficial. For example, when it comes to experiences, diversification can mean variety, helping to reduce the likelihood of adaption and things being repeated. This comes from the idea of diminishing marginal utility, and @read1995diversification explain the classical model of variety seeking as follows:
 
-> According to the classical model, variety seeking arises from object-specific satiation or the *diminishing rate of marginal return to consumption*. According to this view, the optimal bundle of goods contains variety because the benefit from an additional unit of a specific good (i.e., its marginal return) decreases as a function of the number of units of that good one already possesses
+> According to the classical model, variety seeking arises from object-specific satiation or the *diminishing rate of marginal return to consumption* [of an individual good]. According to this view, the optimal bundle of goods contains variety because the benefit from an additional unit of a specific good (i.e., its marginal return) decreases as a function of the number of units of that good one already possesses.
 
-Diversification can also have value in investing, where it can reduce the exposure to risk. 
 
-However, people can continue to diversify even in domains where this no longer makes sense, as they use *diversification heuristics*. The causes of diversification heuristics more broadly are discussed in detail by @read1995diversification. A study by @Benartzi2007 is also useful for examining the evidence of diversification heuristics more widely, particularly for establishing what they refer to as the 1/n rule. The 1/n rule was inspired by the tendency for people to sometimes split allocations evenly across their options: 
+\
+```{block2,  type='note'}
+
+David Reinstein: The classical economics model does not assert a diminishing rate of marginal return to consumption as a general *universal* property. It is recognized that this may not hold over all goods for all quantities and all individuals.
+
+\
+However, this (as well as the more rigorous concepts of 'convex' preferences or 'quasi-concave' upper-contour sets) are 
+
+1. Convenient for the maths/proofs, allowing continuous responses to prices, etc.
+
+2. Intuitively (and perhaps empirically) justified in many contexts.
+
+3. A reasonable way of explaining why individuals do not 'spend their money on a single good'. 
+
+```  
+
+
+\
+
+Diversification can particularly have value in investing, where it can reduce the exposure to risk (variance) for a given expected return (or increase the expected return for a given expected variance of the return. (See 'diversification', 'asset pricing' and the CAPM model, in standard textbooks.)
+
+\
+
+However, people may continue to diversify even in domains where this no longer makes sense, as they use *diversification heuristics*. The causes of diversification heuristics more broadly are discussed in detail by @read1995diversification. A study by @Benartzi2007 is also useful for examining the evidence of diversification heuristics more widely, particularly for establishing what they refer to as the "$1/n$ rule". The $1/n$ rule was inspired by the tendency for people to sometimes split allocations evenly across their options: 
 
 > Nobel laureate Harry Markowitz, one of the founders of modern portfolio theory, confessed: “I should have computed the historic covariances of the asset classes and drawn an efficient frontier. Instead, . . . I split my contributions fifty–fifty between bonds and equities” [@zweig1998five]. Markowitz was not alone. During the period when TIAA-CREF had only two options—TIAA invests in fixed income securities and CREF invests in equities—more than half the participants had selected a fifty–fifty split. Markowitz’s strategy can be viewed as naive diversification: when faced with “n” options, divide assets evenly across the options. We have dubbed this heuristic the “1/n rule.”
 
 <div class="marginnote">
-The study from @Benartzi2007 was focused on heuristics and biases in retirement savings, [TIAA-CREF](https://www.tiaainstitute.org/sites/default/files/presentations/2017-02/ti_differ0210.pdf) is a retirement plan 
+
+The study from @Benartzi2007 was focused on heuristics and biases in retirement savings, 
 </div>
+
+
+<!-- [TIAA-CREF](https://www.tiaainstitute.org/sites/default/files/presentations/2017-02/ti_differ0210.pdf) is a retirement plan 
+-->
+
+
+### Implications and causes of diversification heuristics in charitable giving {-}
 
 For the rest of this section, we will focus on the implications and causes of diversification heuristics as they relates to charitable giving specifically, but the above studies are valuable for further examining the underlying causes behind diversification heuristics in general. 
 
@@ -483,10 +513,10 @@ If people do use diversification heuristics in charitable domains, as these stud
 
 > The marginal benefit per dollar (recall the difference between the average vs. marginal benefit) of some support is usually much higher than the marginal benefit of support in addition to some other previous support. In the context of charitable donations, however, a single donor does not have much influence over the total level of the charity’s income (unless the donor is a major philanthropist). Thus, the usual arguments that favour diversification in investments do not necessarily apply to donations by typical donors. For charities, the focus should be on maximizing the expected increase in the economic welfare per dollar of every contribution… In reality, however, more often than not, each contributor has only a tiny effect on the total funding required by a charitable organization, so the argument based on the principle of declining marginal utility is unlikely to apply. We should, therefore, identify a charity with the highest expected benefit per dollar, and make our entire contribution to that one charity.
 > In other words, a donor may err by thinking and acting as if she were the only donor to the charities that she supports. If she were, then it would make sense to diversify because of the principle of declining marginal utility just described. In reality, however, more often than not, each contributor has only a tiny effect on the total funding required by a charitable organization, so the argument based on the principle of declining marginal utility is unlikely to apply.
+
 > We should, therefore, identify a charity with the highest expected benefit per dollar, and make our entire contribution to that one charity.
 
 ## Overhead aversion
-
 
 ### Related Terms {-}
 
