@@ -438,6 +438,53 @@ People judge the probability of events and the importance of problems by the eas
 
 Effective causes may be distant and underreported, for various reasons. Furthermore there may be a set of charities that are for a variety of reasons underreported or unconnected to the lives of the majority of donors; these will be neglected (and thus  more effective by dint of a lack of funding).
 
+## Diversification heuristic 
+
+@baron2011heuristics suggest that diversification in many different fields can often be a good idea. For example, when it comes to experiences, diversification can mean variety, helping to reduce the likelihood of adaption and things being repeated. This comes from the idea of diminishing marginal utility, and @read1995diversification explain the classical model of variety seeking as follows:
+
+> According to the classical model, variety seeking arises from object-specific satiation or the *diminishing rate of marginal return to consumption*. According to this view, the optimal bundle of goods contains variety because the benefit from an additional unit of a specific good (i.e., its marginal return) decreases as a function of the number of units of that good one already possesses
+
+Diversification can also have value in investing, where it can reduce the exposure to risk. 
+
+However, people can continue to diversify even in domains where this no longer makes sense, as they use *diversification heuristics*. The causes of diversification heuristics more broadly are discussed in detail by @read1995diversification. A study by @Benartzi2007 is also useful for examining the evidence of diversification heuristics more widely, particularly for establishing what they refer to as the 1/n rule. The 1/n rule was inspired by the tendency for people to sometimes split allocations evenly across their options: 
+
+> Nobel laureate Harry Markowitz, one of the founders of modern portfolio theory, confessed: “I should have computed the historic covariances of the asset classes and drawn an efficient frontier. Instead, . . . I split my contributions fifty–fifty between bonds and equities” [@zweig1998five]. Markowitz was not alone. During the period when TIAA-CREF had only two options—TIAA invests in fixed income securities and CREF invests in equities—more than half the participants had selected a fifty–fifty split. Markowitz’s strategy can be viewed as naive diversification: when faced with “n” options, divide assets evenly across the options. We have dubbed this heuristic the “1/n rule.”
+
+<div class="marginnote">
+The study from @Benartzi2007 was focused on heuristics and biases in retirement savings, [TIAA-CREF](https://www.tiaainstitute.org/sites/default/files/presentations/2017-02/ti_differ0210.pdf) is a retirement plan 
+</div>
+
+For the rest of this section, we will focus on the implications and causes of diversification heuristics as they relates to charitable giving specifically, but the above studies are valuable for further examining the underlying causes behind diversification heuristics in general. 
+
+One study that offers some evidence for people diversifying when this is no longer effective comes from a study examining how people chose to distribute screening tests for colon cancer, by @ubel1996cost, who used the following method:
+
+> We asked prospective jurors, medical ethicists, and experts in medical decision making to choose between two screening tests for a population at low risk for colon cancer. One test was more cost effective than the other but because of budget constraints was too expensive to be given to everyone in the population. With the use of the more effective test for only half the population, 1100 lives could be saved at the same cost as that of saving 1000 lives with the use of the less effective test for the entire population.
+
+They found that 56 percent of the prospective jurors, 53 percent of the medical ethicists, and 41 percent of the experts chose the less effective test. The authors report that most defended this choice on the basis of valuing equity, leading @ubel1996cost to conclude that “People place greater emphasis on equity than is reflected by cost-effectiveness analysis”. While this study is not on charitable giving directly, it may have implications in understanding how people may view trade-offs in equity and efficiency, particularly where real human lives are at stake. 
+
+@fox2005subjective also expanded on a problem linked to diversification, which they refer to as partition dependence. This builds on the finding that people can often split allocations evenly across options [@Benartzi2007]. They discuss the distinction between the two ideas:
+
+> If a decision maker subjectively partitions the option set in different ways on different occasions, then choices and allocations will vary systematically with these partitions. We refer to this phenomenon as partition dependence. To illustrate, suppose that a philanthropist intent on donating to an array of children’s charities is presented with a set of organizations that are grouped by whether they are domestic or international. She may decide to diversify fully across these two categories by allocating half of her donation to domestic charities and half to international charities. However, suppose instead that she is presented with the same set of organizations, grouped into local charities, national charities, and international charities. In this case, the philanthropist may allocate two thirds to domestic charities (one third to local, one third to national) and one third to international charities. Note that partition dependence differs from diversification heuristics such as the “1/n rule,” documented by @Benartzi2007, in which people spread their retirement savings evenly across the n investment instruments that were offered (e.g., stock fund, bond fund.) The 1/n rule refers to the tendency to spread savings evenly among investment options with little regard to the particular investments that are offered; partition dependence refers to the tendency to make different allocations among the same set of options as a function of the way those options are subjectively grouped. 
+
+In one of their studies to examine partition dependence, @fox2005subjective recruited participants and told them that the researchers would donate $2 on behalf of each participant to United Way charities (a charity which includes funds that benefit both international projects and local communities). The participants could choose how to allocate the funds, and were told the following:
+
+> In particular, you can allocate the United Way donation into international funds (which the United Way would then allocate to more specific funds abroad) and/or Durham County funds (including programs benefiting seniors, programs nurturing our young children, programs promoting health and wellness, and programs strengthening our families).
+
+The study had two conditions in order to examine the potential impacts of partition dependence, non-hierarchical and hierarchical: 
+
+> Participants in the nonhierarchical partition condition (n  = 15) were then asked to indicate their proposed allocation to international funds and each of four Durham County funds, with the order identical to that listed in the preceding paragraph. Respondents were asked to indicate percentages and were reminded to make sure that their allocation summed to 100%. 
+> Participants in the hierarchical partition condition (n = 16) were told, “Below we will ask you to first allocate geographically, then to more specific funds.” Next they were asked to indicate how much of the money they would donate to (superordinate categories of) international funds versus Durham County funds and were reminded to make sure that their allocation summed to 100%. Finally, these participants were asked to indicate how they would allocate their Durham County donation among each of the four possibilities.
+
+Their results suggested that there was evidence for partition dependence in participants: 
+
+> The mean donation to the international fund was 55% in the hierarchical condition (n = 16) but only 21% in the nonhierarchical condition (n = 15), t(29) = 3.73, p = .0004, one-tailed. In fact, median donations were 50% in the hierarchical condition and 20% in the nonhierarchical condition—the precise proportions one would expect if participants applied pure partition-dependent diversification without adjustment.
+
+If people do use diversification heuristics in charitable domains, as these studies from @ubel1996cost and @fox2005subjective suggest, this could have significant implications for the extent to which people give effectively. While diversifying could have some value, and may make some sense if people are uncertain about the outcomes of their giving, @baron2011heuristics outline why the usual arguments for diversification are less likely to apply for charitable giving:
+
+> The marginal benefit per dollar (recall the difference between the average vs. marginal benefit) of some support is usually much higher than the marginal benefit of support in addition to some other previous support. In the context of charitable donations, however, a single donor does not have much influence over the total level of the charity’s income (unless the donor is a major philanthropist). Thus, the usual arguments that favour diversification in investments do not necessarily apply to donations by typical donors. For charities, the focus should be on maximizing the expected increase in the economic welfare per dollar of every contribution… In reality, however, more often than not, each contributor has only a tiny effect on the total funding required by a charitable organization, so the argument based on the principle of declining marginal utility is unlikely to apply. We should, therefore, identify a charity with the highest expected benefit per dollar, and make our entire contribution to that one charity.
+> In other words, a donor may err by thinking and acting as if she were the only donor to the charities that she supports. If she were, then it would make sense to diversify because of the principle of declining marginal utility just described. In reality, however, more often than not, each contributor has only a tiny effect on the total funding required by a charitable organization, so the argument based on the principle of declining marginal utility is unlikely to apply.
+> We should, therefore, identify a charity with the highest expected benefit per dollar, and make our entire contribution to that one charity.
+
 ## Overhead aversion
 
 
@@ -826,3 +873,5 @@ Ref: @hseeUnitAskingMethod2013
 ## Other possibilities: "Risk aversion",  Lack of tangibility, Corruption aversion {#other-possibilities}
 
 See Airtable
+
+
