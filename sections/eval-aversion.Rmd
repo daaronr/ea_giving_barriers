@@ -122,8 +122,6 @@ On the other hand ...  a majority ranked effectiveness [how highly?] as a crucia
 
 #### Psychological theory behind CBA {-}
 
-
-
 This CBA discomfort brings together several overlapping theoretical
 frameworks:
 
@@ -131,7 +129,7 @@ frameworks:
 
 -   Taboo Tradeoffs & Protected Values: to the extent that CBA requires making taboo tradeoffs that clash with protected values, people may be reticent to engage in CBA for prosocial purposes. 
 
--   Distorted Altruists as the existing dominant view (contrast) c.f., @loewensteinScarecrowTinMan2007; @sloviPsychicNumbingGenocide2007 \-- people care about welfare maximization, **but without clear information to make comparisons**, they rely on their feelings to guide choice (@loewensteinScarecrowTinMan2007; @slovicPsychicNumbingGenocide2007). @Berman2018 build on this. 
+-   Distorted Altruists as the existing dominant view (contrast) c.f., @loewensteinScarecrowTinMan2007; @slovicPsychicNumbingGenocide2007 \-- people care about welfare maximization, **but without clear information to make comparisons**, they rely on their feelings to guide choice (@loewensteinScarecrowTinMan2007; @slovicPsychicNumbingGenocide2007). @Berman2018 build on this. 
 
 <div class="marginnote">
 We distinguish CBA opposition from the inability to conduct CBA. The former is treated here while the latter involves a series of [quantitative biases discussed later](#quant-biases).

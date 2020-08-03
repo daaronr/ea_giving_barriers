@@ -112,27 +112,32 @@ Here we should distinguish individual's *own* response to shocks from their symp
 <!-- @LS -it's improving but lets focus more on the *evidence* for these things. It will help to look at the previous literature review and synthesis work on these (see section 2.2 for a start). We can even incorporate material from this work, carefully citing it
 -->
 
-## Distance -  Temporal (future problems and people), Hypothetical (probability to happen)
+## Distance -  Temporal (future problems/individuals) and Hypothetical (probability of occurance)
 
 <div class="marginnote">
 This is particularly relevant to causes and charities dealing with the medium-term and long-term future.
 </div>
 
-When considering how we can reduce suffering through effective altruism, immediate problems such as hunger and poverty are clearly visible. However, as well as the people alive today, altruistic concerns should arguably consider challenges that can impact the welfare of future individuals as well. Benjamin Todd outlines this in his article on [‘longtermism’](https://80000hours.org/articles/future-generations) (worth reading for a more in-depth discussion of the issue) as follows:
+### Overview {-}
+
+When considering how we can reduce suffering through effective altruism, immediate problems such as hunger and poverty are clearly visible. However, as well as the sentient beings alive today, altruists may consider challenges that can impact the welfare of future individuals as well. Benjamin Todd outlines this in his article on [‘longtermism’](https://80000hours.org/articles/future-generations) (worth reading for a more in-depth discussion of the issue) as follows:
 
 > Since the future is big, there could be far more people in the future than in the present generation. This means that if you want to help people in general, your *key concern* shouldn't be to help the present generation, but to ensure that the future goes well in the long-term... This thesis is often confused with the claim that we shouldn't *do* anything to help people in the present generation. But the long-term value thesis is about what most *matters* - what should *do* about it is a further question. It might turn out that the best way to help those in the future is to improve the lives of people in the present, such as through providing health and education. The difference is that the major *reason* to help those in the present is to improve the long-term"
 
-This consideration of future people and future problems includes commonly discussed issues, such as the future of climate change, as well as more low-probability problems that may be more neglected in terms of attention from altruists, such as nuclear war, bioterrorism and AI related issues [@macaskillDoingGoodBetter2015]. Arguments for the importance of considering these problems have been made by individuals such as @ord2020precipice and institutions like the [Future of Humanity Institute](https://www.fhi.ox.ac.uk)
+This consideration of future people and future problems includes well-known issues such as climate change. It also includes less-discussed) lower-probability or more distant events such as nuclear war, bioterrorism and AI related issues [@macaskillDoingGoodBetter2015]. Individuals such as @ord2020precipice and institutions like the [Future of Humanity Institute](https://www.fhi.ox.ac.uk) have argued that these problems are important and neglected. 
 
-However, even motivating giving for current issues [presents many challenges](#present-puzzle), so encouraging giving for people who are yet to be born could prove even more difficult.
+However, even motivating 'giving for current issues' [presents many challenges](#present-puzzle); encouraging giving for (e.g.) 'individuals who are yet to be' born could prove even more difficult.
 
 <div class="marginnote">
-See [this podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/) and the articles and books linked for a more comprehensive introduction to the long-term future
+See [this podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/) and the articles and books linked for a more comprehensive introduction to the long-term future.
 </div>
 
-Considering how heavily we should weigh the future is a subject that has been raised frequently in the field of Economics (perhaps most notably climate economics in recent times), leading us to the idea of discount rates [@ackerman2008climate]. @greaves2017discounting outlines how discount rates can work as follows:
 
-> Suppose we have an opportunity to undertake an investment project, sacrificing *k* < 1 units of consumption today in order to secure an increase of 1 unit in consumption a time interval t later. Our basic question is: what is the threshold value of k at which the status quo becomes socially preferable to such a sacrifice? The answer to this question is the *social discount factor* for consumption at time t, *R(t)*. (One also has a *private* discount factor, corresponding to private as opposed to social preferences; in the remainder of this article, the focus is on the social version.) One generally expects *R* to decline with time — we are willing to sacrifice more today to gain an increase in one unit of consumption tomorrow than to gain an increase of one unit of consumption next year. The decline, however, may be faster or slower, and for current purposes the rate of the decline is crucial.
+### Discounting future payoffs/assets/welfare {-}
+
+Considering how heavily we should weigh the future is a subject that has been raised frequently in the field of Economics (perhaps most notably climate economics in recent times), leading us to the idea (and various conceptions) of 'discount rates' [@ackerman2008climate]. @greaves2017discounting outlines how discount rates can work as follows:
+
+> Suppose we have an opportunity to undertake an investment project, sacrificing *k* < 1 units of consumption today in order to secure an increase of 1 unit in consumption a time interval *t* later. Our basic question is: what is the threshold value of k at which the status quo becomes socially preferable to such a sacrifice? The answer to this question is the *social discount factor* for consumption at time t, *R(t)*. (One also has a *private* discount factor, corresponding to private as opposed to social preferences; in the remainder of this article, the focus is on the social version.) One generally expects *R* to decline with time — we are willing to sacrifice more today to gain an increase in one unit of consumption tomorrow than to gain an increase of one unit of consumption next year. The decline, however, may be faster or slower, and for current purposes the rate of the decline is crucial.
 
 > The choice of discount rate is crucial in the evaluation of projects some of whose important effects are long-term. Analyses that use a higher discount rate will tend to favour the short term: projects requiring sacrifices in the short term for the sake of benefits in the further future will be more likely to fail cost-benefit tests.
 
@@ -183,38 +188,41 @@ This is not the same as discounting future utility or welfare. There's no clear 
 
 ```
 
+### Reasons the distant future may be neglected {-}
 
-Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020 also outlines a few reasons why the distant future may receive less attention and action. Firstly, he suggests that present issues are likely more salient than future issues, and because these issues are more salient, they will get discussed more. Secondly, he argues that uncertainty is likely an important factor. Even if you are concerned with future well-being, if it is unclear how you can impact the distant future, you may be more likely to focus on other issues. He also makes the case that a lack of political polarisation could mean that issues get less attention, as “When there is no political conflict, a question might get less discussed, even if it’s seen as morally important”.
+Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020  outlines a few reasons why the distant future may receive less attention and action. 
 
+He argues:
 
-<div class="marginnote">
-However the uncertainty channel is not necessarily a bias. It may be a reasonable response. And if we are 'too risk-averse' in our other-regarding choices, that is a bias but it is not a bias of 'distance'... it merits its own category.  (This is something we aim to discuss under quantitative biases, ['excessive risk aversion'](#risk_a).)
+1. Present issues are likely more salient than future issues, and because these issues are more salient, they will be discussed more. 
 
- </div>
+2. Uncertainty is likely an important factor. Even if you are concerned with future well-being, if it is unclear how you can impact the distant future, you may be more likely to focus on other issues. 
 
-Beyond the technical analysis of at what rates people might discount the future, @schubertFocusCollectiveAttention2020 also outlines a few reasons why the distant future may receive less attention and action. Firstly, he suggests that present issues are likely more salient than future issues, and because these issues are more salient, they will get discussed more.
+3. Lack-of-polarisation: “When there is no political conflict, a question might get less discussed, even if it’s seen as morally important”.
 
-Secondly, he argues that uncertainty is likely an important factor. Even if you are concerned with future well-being, if it is unclear how you can impact the distant future, you may be more likely to focus on other issues. While uncertainty could pose a problem for encouraging giving for distant future causes in particular, factoring in uncertainty is not necessarily a bias. It may be a reasonable choice, and there is further discussion of uncertainty and how this may link to risk aversion [(see here)](#other-possibilities).
+ While uncertainty could pose a problem for encouraging giving for distant future causes in particular, factoring in uncertainty is not necessarily a bias. It may be a reasonable choice, and there is further discussion of uncertainty and how this may link to a form of risk-aversion [(see here)](#other-possibilities).
 
-Additionally, he makes the case that a lack of political polarisation could mean that issues get less attention, as “When there is no political conflict, a question might get less discussed, even if it’s seen as morally important”.
+The other barriers in this section also link to a potential lack of future-focused giving. For example, when it comes to the [availability bias](#availability), we suggested that vividness and salience of events may influence how people estimate probabilities. Future events may be hard to picture, particularly more abstract risks like the [dangers of artificial intelligence](https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/)
 
-We can also point to the other barriers to effective giving in this section, and link these to a potential lack of future-focused giving. For example, when it comes to the [availability bias](#availability), we suggested that vividness and salience of events may influence how people estimate probabilities. Future events may be hard to picture, particularly more abstract risks like the [dangers of artificial intelligence](https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/)
-
-We also discussed the [identifiable victim effect](#statvictim). It could be significantly harder to create a story around a single victim if victims affected by that issue do not yet exist. Victims of the distant future may have to be statistical victims only, potentially eliciting less sympathy and consequently less donations. Charities that focus on the distant future may also have issues demonstrating evidence of their impact to donors, which can help to encourage donations ([@karlanEffectEffectivenessDonor2017]. However, the influence of demonstrating impact is mixed, discussed more [here](#eval-aversion)
+We also discussed the [identifiable victim effect](#statvictim). It could be significantly harder to create a story around a single victim if victims affected by that issue do not yet exist. Victims of the distant future may have to be statistical victims only, potentially eliciting less sympathy and consequently less donations. Charities that focus on the distant future may also have issues demonstrating evidence of their impact to donors, which can help to encourage donations ([@karlanEffectEffectivenessDonor2017]. However, the influence of demonstrating impact is mixed, as we further discuss[here](#eval-aversion).
 
 \
-
-### Evidence (work in progress) {#future-bias-ev}
-
-
-- **What is the evidence ** that they are actually doing this (taking into account the 'uncertainty' issue (we know less about how to help the far-future).
-
-- What factors drive this bias or mitigate it?
 
 The impact of people being categorised into [in-groups and out-groups](#in-group) could also be considered in analysing potential donations to distant-future causes. In their review of the literature, @Sudhir2016a suggest social identity works as follows:
 
 > Social identity has three major components: categorization, identification and comparison. Categorization is the process of putting people, including ourselves, into categories; for example, labelling a person as Chinese, black, female, or a lawyer are all different ways of categorization. Categorization also defines our self-image. Identification is the process by which we associate or identify ourselves with certain groups. We identify with in-groups, and we do not identify with out-groups. Finally, comparison is the process by which we compare in-groups with out-groups, creating a favourable bias toward the in-group. Overall, categorization of others as belonging to an in-group arouses feelings of greater closeness and responsibility and augments emotional response to their misfortune through greater sympathy (@brewer1996we, @dovidio1997nature) and willingness to help (@dovidio1984helping, @dovidio1997nature).
 
-It is possible that distant-future generations could be put in their own category, considered separately from near-future and present generations, and their distance could mean that people identify with them less. If distant-future generations *are* seen as an out-group, this could pose a barrier for giving to distant future generations. Whether those in the future do in fact form an out-group could be a direction for further research in this area.
+Distant-future generations might be mentally placed in their own category (considered separated from near-future and present generations). This categorical distance could mean that people identify with distant-future generations less. If they *are* seen as an out-group, this could pose a barrier for giving to distant future generations. 
+
+<div class="marginnote">
+Whether those in the future are indeed commonly percieved or treated as an out-group may be an interesting research direction. This is  something we need to look into more for this present survey.
+</div>
+
+### Evidence (work in progress) {#future-bias-ev}
+
+- **What is the evidence ** that they are actually doing this (taking into account the 'uncertainty' issue (we know less about how to help the far-future).
+
+- What factors drive this bias or mitigate it?
+
 
 

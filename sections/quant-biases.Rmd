@@ -509,12 +509,37 @@ Their results suggested that there was evidence for partition dependence in part
 
 > The mean donation to the international fund was 55% in the hierarchical condition (n = 16) but only 21% in the nonhierarchical condition (n = 15), t(29) = 3.73, p = .0004, one-tailed. In fact, median donations were 50% in the hierarchical condition and 20% in the nonhierarchical condition—the precise proportions one would expect if participants applied pure partition-dependent diversification without adjustment.
 
-If people do use diversification heuristics in charitable domains, as these studies from @ubel1996cost and @fox2005subjective suggest, this could have significant implications for the extent to which people give effectively. While diversifying could have some value, and may make some sense if people are uncertain about the outcomes of their giving, @baron2011heuristics outline why the usual arguments for diversification are less likely to apply for charitable giving:
+If people do use diversification heuristics in charitable domains, as these studies from @ubel1996cost and @fox2005subjective suggest, this could have significant implications for the extent to which people give effectively. While diversifying could have some value, and may make some sense if people are uncertain about the outcomes of their giving, @baron2011heuristics outline 'why the usual arguments for diversification are less likely to apply for charitable giving':
 
 > The marginal benefit per dollar (recall the difference between the average vs. marginal benefit) of some support is usually much higher than the marginal benefit of support in addition to some other previous support. In the context of charitable donations, however, a single donor does not have much influence over the total level of the charity’s income (unless the donor is a major philanthropist). Thus, the usual arguments that favour diversification in investments do not necessarily apply to donations by typical donors. For charities, the focus should be on maximizing the expected increase in the economic welfare per dollar of every contribution… In reality, however, more often than not, each contributor has only a tiny effect on the total funding required by a charitable organization, so the argument based on the principle of declining marginal utility is unlikely to apply. We should, therefore, identify a charity with the highest expected benefit per dollar, and make our entire contribution to that one charity.
+
 > In other words, a donor may err by thinking and acting as if she were the only donor to the charities that she supports. If she were, then it would make sense to diversify because of the principle of declining marginal utility just described. In reality, however, more often than not, each contributor has only a tiny effect on the total funding required by a charitable organization, so the argument based on the principle of declining marginal utility is unlikely to apply.
 
 > We should, therefore, identify a charity with the highest expected benefit per dollar, and make our entire contribution to that one charity.
+
+
+```{block2,  type='note'}
+
+DR: There are some perspectives under which a certain amount diversification in charitable giving, motivated by a form of risk-aversion, may be optimising, at least for an individual with particular other-regarding preferences. For example, suppose:
+
+- ... an individual donor values the impact that *she actually has in terms of realized outcomes* (rather than valuing her 'expected value impact'), and ...
+
+- she gains diminishing returns to this impact (making her, in a sense 'risk-averse')
+
+This would imply that, if she is maximising her expected utility (a standard assumption in Economics): 
+  
+- she would strictly prefer to have (e.g.) a 100\% chance of saving one life over a 50\% chance of saving two lives, and
+
+- she would strictly prefer to have a 10\% chance of saving one life over a 5\% chance of saving two lives, and
+
+- she *might* strictly prefer to have a 10\% chance of saving 100 lives over a 5\% chance of saving 201 lives.
+
+Consider the probabilities that each dollar donated to a charity (leads to an intervention that) saves a life (or achieves a particular outcome). Suppose these outcomes (the lives saved) are not perfectly correlated across charities. In such a case, this an individual would find it optimal to diversify her giving across equally-impactful charities, and potentially even to include some 'slightly less impactful' charities in her 'giving bundle.' 
+
+```  
+
+
+### Evidence for diversification heuristic in charitable giving (to do) {-}
 
 ## Overhead aversion
 
