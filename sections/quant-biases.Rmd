@@ -429,14 +429,53 @@ Linked to the identifiable victim effect is the notion that people are sensitive
 
 ## Availability heuristic
 
+The availability heuristic suggests that people judge the frequency of classes, or the probability of events, by the ease with which they come to mind [@tversky1973availability]. This means that people may treat an event *a* as more likely than an event *b*, if *a* comes to mind more easily than *b* [@angner2012course]. 
+
+Availability could be a heuristic to consider when evaluating barriers to effective giving. As a result of people using the availability heuristic, it could be the case that people are underestimating the prevalence of, and placing less value on, problems such as extreme poverty, because they aren't as salient to them. In particular, this may be the case when these problems are contrasted with issues people regularly encounter such cancer. Many people in developed countries have their own personal experiences with cancer, and as well as this potentially inducing more sympathy (see [here](#aware-distance) for more on sympathy biases), it could mean that people place disproportionate value on curing cancer relative to other problems. @tversky1973availability discussed how personal experience can influence judgments of probability in their original paper on the availability heuristic: 
+
+> Perhaps the most obvious demonstration of availability in real life is the impact of the fortuitous availability of incidents of scenarios. Many readers must have experienced the temporary rise in the subjective probability of an accident after seeing a car overturned by the side of the road. Similarly, many must have noticed an increase in the subjective probability that an accident or malfunction will start a thermonuclear war after seeing a movie in which such an occurrence was vividly portrayed. Continued preoccupation with an outcome may increase its availability, and hence its perceived likelihood. 
+
+```{block2,  type='note'}
+@kahnemanThinkingFastSlow2011 also looks at studies from @slovic1981rating, @slovic1981perceived, and @lichtenstein1978judged, and he summarises some of the most interesting findings on how people estimate the probabilities of death from various causes: 
+
+> Strokes cause almost twice as many deaths as all accidents combined, but 80% of respondents judged accidental deaths to be more likely
+> Tornadoes were seen as more frequent killers than asthma, although the latter cause 20 times more deaths
+> Death by disease is 18 times more likely as accidental death, but the two were judged about equally likely
+
+@kahnemanThinkingFastSlow2011 concludes from these findings that: 
+
+> The lesson is clear: estimates of death are warped by media coverage. The coverage itself is biased toward novelty and poignancy. The media do not just shape what the public is interested in, but are also shaped by it
+
 <div class="marginnote">
-(in probabilities?)
+For more on the links between media coverage, the availability heuristic, and charity, see [here](#availability)
+</div>
+```  
+
+We can attempt to illustrate how the use of the availability heuristic could translate to more effective charities being neglected. For example, let us take two causes that receive drastically different amounts of attention from most donors, and that also differ in how effective the charities that tackle them are: cancer, and malaria. In countries like the UK, cancer is a very prominent charitable cause, and Cancer Research UK is [one of the UK's most popular charities](https://yougov.co.uk/ratings/politics/fame/charities-organisations/all). This is in spite of the fact that giving to Cancer Research is likely significantly less effective than giving to some malaria charities @macaskillDoingGoodBetter2015. The [Against Malaria Foundation](https://www.againstmalaria.com/) for instance is ranked highly by [GiveWell](https://www.givewell.org/), but receives relatively little attention, and is not among the most popular charities in the UK. 
+
+```{block2,  type='note'}
+@macaskillDoingGoodBetter2015 has also discussed how we should compare malaria and cancer as issues:
+  
+> Every year cancer kills 8.2 million people and is responsible for 7.6 percent of all deaths and ill health worldwide (measured in terms of QALYs lost). USD 217 billion per year is spent on cancer treatment. Malaria is responsible for 3.3 percent of QALYs lost worldwide. In terms of its health impacts, cancer is about twice as bad as malaria, so if medical spending were in proportion to the scale of the problem, we would expect malaria treatment to receive about USD 100 billion per year. In reality only USD 1.6 billion per year is spent on malaria treatment: about sixty times less than we would expect. 
+
+> Cancer treatment receives so much more funding than malaria treatment because malaria is such a cheap problem to solve that rich countries no longer suffer from it. (It was eliminated in the US in 1951.) The fact that cancer treatment receives so much more funding than malaria treatment means that, on the margin, each of us can provide a far greater benefit for other people by funding the most effective malaria treatments in the developing world than we can by funding the most effective cancer treatments in the developed world. In the United States, public health experts regard any programme that provides one QALY for less than USD 50,000 as good value, and health programmes will often be funded even if the cost per QALY is much higher than USD 50,000. In contrast, providing the same benefit in poor countries (such as by distributing insecticide-treated bed nets to prevent the spread of malaria) can cost as little as USD 100. That means that, with a given amount of money, you can benefit people in poor countries 500 times more than people in rich countries. 
+  
+</div>
+``` 
+
+This could possibly be due in part to the differing salience of the two issues. Most people in developed countries like the US and the UK will have an experience with cancer over their lifetime, either personally or through a loved one, as it is estimated that roughly [38% of men and women](https://www.cancer.gov/about-cancer/understanding/statistics#:~:text=Approximately%2038.4%25%20of%20men%20and,1%2C790%20died%20of%20the%20disease.) will be diagnosed with cancer at some point over their lifetime. Contrast this with malaria: while it receives some international coverage, it was [eliminated in the US in the 1950s](https://www.npr.org/sections/goatsandsoda/2017/04/24/525405956/malaria-wiped-out-in-u-s-but-still-plagues-u-s-hospitals?t=1596537819296), and could consequently be less of a visible issue on a day-to-day basis.
+
+As a result, it could be that cancer charities can receive more attention than malaria charities in part because people see the issue of cancer are more often. This could increase the salience of the issue, and consequently lead people to overestimate its importance through their use of the availability heuristic.
+
+<div class="marginnote">
+This is not to say that the availability heuristic is the primary reason that cancer may get more attention as an issue, only that it is a potential factor. There are doubtless many different factors that may drive why cancer research receives so much attention
 </div>
 
+It should be noted that this argument (that people may overestimate the importance of problems like cancer due to the availability heuristic and consequently give less) is separate from suggesting that people are more likely to donate to cancer research out of self-interest (i.e. thinking that it may help them personally). The question of self-interest in charitable giving is a separate issue discussed [here](#self-interest). 
 
-People judge the probability of events and the importance of problems by the ease by which they can be brought to mind.  This may impact the importance they ascribe to causes and charities.	Effective  causes may be distant and underreported, for various reasons. Furthermore there may be a set of charities that are for a variety of reasons underreported or unconnected to the lives of the majority of donors; these will be neglected (and thus  more effective by dint of a lack of funding).
+Availability could also be linked to other biases we have discussed. As salience contributes to probability estimations, and events that come to mind more easily can be judged as more likely, this could help to explain other findings. For example, the [identifiable victim effect](#statvictim) and the lack of attention given to [distant future](#future) causes. @angner2012course dicusses the link between the availability heuristic and vivid stories (with vividness discussed as a potential contributor to both the IVE and distant future issues):
 
-Effective causes may be distant and underreported, for various reasons. Furthermore there may be a set of charities that are for a variety of reasons underreported or unconnected to the lives of the majority of donors; these will be neglected (and thus  more effective by dint of a lack of funding).
+> The availability heuristic sheds light on the power of storytelling. As every writer knows, stories are often far more compelling than scientific data. If you doubt that, just ask a wolf. Wolves pose a trivial danger to humans: the number of verifiable, fatal attacks by wolves on humans is exceedingly low. And yet, fear of wolves runs deep. Part of the explanation is certainly that there are so many stories about big, bad wolves eating, e.g., little girls’ grandmothers. As a result of these stories, the idea of wolves attacking humans is highly salient, which means that people treat it as likely – even though the data establish it is not. Far more dangerous organisms, such as the *Salmonella* bacterium that kills some 400 people each year in the US alone, do not figure in the public imagination in the same way and consequently are not as feared as they probably should be. The power of storytelling can be harnessed to communicate risk communication very effectively, but it can also do immense harm. A single story about an illegal immigrant committing a heinous crime can generate strong anti-immigration sentiments in spite of evidence of the beneficial welfare effects of immigration.
 
 ## Diversification heuristic
 
