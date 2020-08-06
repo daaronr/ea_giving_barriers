@@ -39,7 +39,6 @@ Social science, biology and philosophy present a range of potential theoretical 
 
 <!-- TODO: Reference survey articles for the above -->
 
-
 A plain-language summary of key points, without references (unfold):
 
 ```{block2,  type='fold'}

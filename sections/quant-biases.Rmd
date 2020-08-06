@@ -353,7 +353,7 @@ The identifiable victim effect (IVE) is credited as being first developed by @sc
 @baron2011heuristics discuss how the IVE could pose a problem for effective altruism, suggesting two reasons that this could be considered a bias from the utilitarian perspective. Firstly, they suggest that when altruism is increased for identified victims, this could result in less altruism for those who are not identified,$^{(?)}$ <div class="marginnote">
 Why? Through which channel.
 </div>
- The latter group may include those most in need of help (such as large groups of people who are severely deprived). @kogut2011identifiable similarly argued that the IVE could yield less efficiency given that it is improbable that the benefits to society will be maximized when more resources are given to victims who are identified than those who aren't. (This essentially restates [our general efficiency argument above](#quant-biases)).
+ The latter group may include those most in need of help (such as large groups of people who are severely deprived). @kogut2011identifiable similarly argued that the IVE could yield less efficiency given that it is improbable that the benefits to society will be maximized when more resources are given to victims who are identified than those who aren't. (This essentially restates [our general efficiency argument above](#quant-biases), in section \@ref(quant-biases)).
 
 ```{block2,  type='note'}
 
@@ -429,53 +429,73 @@ Linked to the identifiable victim effect is the notion that people are sensitive
 
 ## Availability heuristic
 
-The availability heuristic suggests that people judge the frequency of classes, or the probability of events, by the ease with which they come to mind [@tversky1973availability]. This means that people may treat an event *a* as more likely than an event *b*, if *a* comes to mind more easily than *b* [@angner2012course]. 
+### Definition and relevance 
+The availability heuristic suggests that people judge the frequency of classes, or the probability of events, by the ease with which they come to mind [@tversky1973availability]. I.e., people may treat an event *a* as more likely than an event *b*, if *a* comes to mind more easily than *b* [@angner2012course].
 
-Availability could be a heuristic to consider when evaluating barriers to effective giving. As a result of people using the availability heuristic, it could be the case that people are underestimating the prevalence of, and placing less value on, problems such as extreme poverty, because they aren't as salient to them. In particular, this may be the case when these problems are contrasted with issues people regularly encounter such cancer. Many people in developed countries have their own personal experiences with cancer, and as well as this potentially inducing more sympathy (see [here](#aware-distance) for more on sympathy biases), it could mean that people place disproportionate value on curing cancer relative to other problems. @tversky1973availability discussed how personal experience can influence judgments of probability in their original paper on the availability heuristic: 
+As a result of people using the availability heuristic, they may underestimate the prevalence of--and place less value on--problems such as extreme poverty. These  problems may be less salient than issues people in developed countries regularly encounter. For example, many of us have personal experiences with cancer. As well as potentially inducing more sympathy (see [here](#aware-distance) for more on sympathy biases), this could lead us to that people place disproportionately high value on curing cancer relative to, e.g., preventing malaria. @tversky1973availability discussed how personal experience can influence judgments of probability in their original paper on the availability heuristic:
 
-> Perhaps the most obvious demonstration of availability in real life is the impact of the fortuitous availability of incidents of scenarios. Many readers must have experienced the temporary rise in the subjective probability of an accident after seeing a car overturned by the side of the road. Similarly, many must have noticed an increase in the subjective probability that an accident or malfunction will start a thermonuclear war after seeing a movie in which such an occurrence was vividly portrayed. Continued preoccupation with an outcome may increase its availability, and hence its perceived likelihood. 
+> Perhaps the most obvious demonstration of availability in real life is the impact of the fortuitous availability of incidents of scenarios. Many readers must have experienced the temporary rise in the subjective probability of an accident after seeing a car overturned by the side of the road. Similarly, many must have noticed an increase in the subjective probability that an accident or malfunction will start a thermonuclear war after seeing a movie in which such an occurrence was vividly portrayed. Continued preoccupation with an outcome may increase its availability, and hence its perceived likelihood.
 
 ```{block2,  type='note'}
-@kahnemanThinkingFastSlow2011 also looks at studies from @slovic1981rating, @slovic1981perceived, and @lichtenstein1978judged, and he summarises some of the most interesting findings on how people estimate the probabilities of death from various causes: 
+
+@kahnemanThinkingFastSlow2011 also looks at studies from @slovic1981rating, @slovic1981perceived, and @lichtenstein1978judged, summarising:
 
 > Strokes cause almost twice as many deaths as all accidents combined, but 80% of respondents judged accidental deaths to be more likely
 > Tornadoes were seen as more frequent killers than asthma, although the latter cause 20 times more deaths
 > Death by disease is 18 times more likely as accidental death, but the two were judged about equally likely
 
-@kahnemanThinkingFastSlow2011 concludes from these findings that: 
+@kahnemanThinkingFastSlow2011 concludes:
 
 > The lesson is clear: estimates of death are warped by media coverage. The coverage itself is biased toward novelty and poignancy. The media do not just shape what the public is interested in, but are also shaped by it
 
-<div class="marginnote">
-For more on the links between media coverage, the availability heuristic, and charity, see [here](#availability)
-</div>
-```  
+```
 
-We can attempt to illustrate how the use of the availability heuristic could translate to more effective charities being neglected. For example, let us take two causes that receive drastically different amounts of attention from most donors, and that also differ in how effective the charities that tackle them are: cancer, and malaria. In countries like the UK, cancer is a very prominent charitable cause, and Cancer Research UK is [one of the UK's most popular charities](https://yougov.co.uk/ratings/politics/fame/charities-organisations/all). This is in spite of the fact that giving to Cancer Research is likely significantly less effective than giving to some malaria charities @macaskillDoingGoodBetter2015. The [Against Malaria Foundation](https://www.againstmalaria.com/) for instance is ranked highly by [GiveWell](https://www.givewell.org/), but receives relatively little attention, and is not among the most popular charities in the UK. 
-
-```{block2,  type='note'}
-@macaskillDoingGoodBetter2015 has also discussed how we should compare malaria and cancer as issues:
-  
-> Every year cancer kills 8.2 million people and is responsible for 7.6 percent of all deaths and ill health worldwide (measured in terms of QALYs lost). USD 217 billion per year is spent on cancer treatment. Malaria is responsible for 3.3 percent of QALYs lost worldwide. In terms of its health impacts, cancer is about twice as bad as malaria, so if medical spending were in proportion to the scale of the problem, we would expect malaria treatment to receive about USD 100 billion per year. In reality only USD 1.6 billion per year is spent on malaria treatment: about sixty times less than we would expect. 
-
-> Cancer treatment receives so much more funding than malaria treatment because malaria is such a cheap problem to solve that rich countries no longer suffer from it. (It was eliminated in the US in 1951.) The fact that cancer treatment receives so much more funding than malaria treatment means that, on the margin, each of us can provide a far greater benefit for other people by funding the most effective malaria treatments in the developing world than we can by funding the most effective cancer treatments in the developed world. In the United States, public health experts regard any programme that provides one QALY for less than USD 50,000 as good value, and health programmes will often be funded even if the cost per QALY is much higher than USD 50,000. In contrast, providing the same benefit in poor countries (such as by distributing insecticide-treated bed nets to prevent the spread of malaria) can cost as little as USD 100. That means that, with a given amount of money, you can benefit people in poor countries 500 times more than people in rich countries. 
-  
-</div>
-``` 
-
-This could possibly be due in part to the differing salience of the two issues. Most people in developed countries like the US and the UK will have an experience with cancer over their lifetime, either personally or through a loved one, as it is estimated that roughly [38% of men and women](https://www.cancer.gov/about-cancer/understanding/statistics#:~:text=Approximately%2038.4%25%20of%20men%20and,1%2C790%20died%20of%20the%20disease.) will be diagnosed with cancer at some point over their lifetime. Contrast this with malaria: while it receives some international coverage, it was [eliminated in the US in the 1950s](https://www.npr.org/sections/goatsandsoda/2017/04/24/525405956/malaria-wiped-out-in-u-s-but-still-plagues-u-s-hospitals?t=1596537819296), and could consequently be less of a visible issue on a day-to-day basis.
-
-As a result, it could be that cancer charities can receive more attention than malaria charities in part because people see the issue of cancer are more often. This could increase the salience of the issue, and consequently lead people to overestimate its importance through their use of the availability heuristic.
+The availability heuristic could translate to more effective charities being neglected. For example, in the UK, cancer is a very prominent charitable cause, and Cancer Research UK is [one of the UK's most popular charities](https://yougov.co.uk/ratings/politics/fame/charities-organisations/all). This is in spite of the fact, per-dollar, Cancer Research is appears significantly less effective than several anti-malaria charities @macaskillDoingGoodBetter2015. 
 
 <div class="marginnote">
-This is not to say that the availability heuristic is the primary reason that cancer may get more attention as an issue, only that it is a potential factor. There are doubtless many different factors that may drive why cancer research receives so much attention
+E.g., the [Against Malaria Foundation](https://www.againstmalaria.com/) is ranked highly by [GiveWell](https://www.givewell.org/), but receives relatively little attention, and is not among the most popular charities in the UK.
+</div>
+ 
+ 
+@macaskillDoingGoodBetter2015 has also discussed how we should compare malaria and cancer as issues (unfold):
+
+```{block2,  type='fold'}
+
+Macaskill: 
+
+> Every year cancer kills 8.2 million people and is responsible for 7.6 percent of all deaths and ill health worldwide (measured in terms of QALYs lost). USD 217 billion per year is spent on cancer treatment. Malaria is responsible for 3.3 percent of QALYs lost worldwide. In terms of its health impacts, cancer is about twice as bad as malaria, so if medical spending were in proportion to the scale of the problem, we would expect malaria treatment to receive about USD 100 billion per year. In reality only USD 1.6 billion per year is spent on malaria treatment: about sixty times less than we would expect.
+
+> Cancer treatment receives so much more funding than malaria treatment because malaria is such a cheap problem to solve that rich countries no longer suffer from it. (It was eliminated in the US in 1951.) The fact that cancer treatment receives so much more funding than malaria treatment means that, on the margin, each of us can provide a far greater benefit for other people by funding the most effective malaria treatments in the developing world than we can by funding the most effective cancer treatments in the developed world. In the United States, public health experts regard any programme that provides one QALY for less than USD 50,000 as good value, and health programmes will often be funded even if the cost per QALY is much higher than USD 50,000. In contrast, providing the same benefit in poor countries (such as by distributing insecticide-treated bed nets to prevent the spread of malaria) can cost as little as USD 100. That means that, with a given amount of money, you can benefit people in poor countries 500 times more than people in rich countries.
+
+
+```
+
+ Most people in developed countries like the US and the UK will have an experience with cancer over their lifetime, either personally or through a loved one.
+
+<div class="marginnote">
+It is estimated that roughly [38% of men and women](https://www.cancer.gov/about-cancer/understanding/statistics#:~:text=Approximately%2038.4%25%20of%20men%20and,1%2C790%20died%20of%20the%20disease.) will be diagnosed with cancer at some point over their lifetime. 
 </div>
 
-It should be noted that this argument (that people may overestimate the importance of problems like cancer due to the availability heuristic and consequently give less) is separate from suggesting that people are more likely to donate to cancer research out of self-interest (i.e. thinking that it may help them personally). The question of self-interest in charitable giving is a separate issue discussed [here](#self-interest). 
+In contrast, while malaria it receives some international coverage,  was [eliminated in the US in the 1950s](https://www.npr.org/sections/goatsandsoda/2017/04/24/525405956/malaria-wiped-out-in-u-s-but-still-plagues-u-s-hospitals?t=1596537819296).
 
-Availability could also be linked to other biases we have discussed. As salience contributes to probability estimations, and events that come to mind more easily can be judged as more likely, this could help to explain other findings. For example, the [identifiable victim effect](#statvictim) and the lack of attention given to [distant future](#future) causes. @angner2012course dicusses the link between the availability heuristic and vivid stories (with vividness discussed as a potential contributor to both the IVE and distant future issues):
+If cancer is more *visible*, it could be more *salient*,leading people to overestimate its importance through their use of the availability heuristic.
+
+<div class="marginnote">
+Note that none of the 'barriers' we mention are mutually exclusive. There may be many other factors driving the popularity of cancer research charities.
+</div>
+
+
+### Connection to other biases 
+
+This 'availability' bias is distinct from the idea that are more likely to donate to cancer research out of self-interest (i.e. thinking that it may help them personally); the latter [is discussed in](#self-interest) section \@ref(self-interest).
+
+Availability has some links to other biases we consider. Salience contributes to probability estimations, and events that come to mind more easily can be judged as more likely. Thus, this could be a mechanism behind other biases, such as  the [identifiable victim effect](#statvictim) and the lack of attention given to [distant future](#future) causes. @angner2012course discusses the link between the availability heuristic and vivid stories (with vividness discussed as a potential contributor to both the IVE and distant future issues):
 
 > The availability heuristic sheds light on the power of storytelling. As every writer knows, stories are often far more compelling than scientific data. If you doubt that, just ask a wolf. Wolves pose a trivial danger to humans: the number of verifiable, fatal attacks by wolves on humans is exceedingly low. And yet, fear of wolves runs deep. Part of the explanation is certainly that there are so many stories about big, bad wolves eating, e.g., little girls’ grandmothers. As a result of these stories, the idea of wolves attacking humans is highly salient, which means that people treat it as likely – even though the data establish it is not. Far more dangerous organisms, such as the *Salmonella* bacterium that kills some 400 people each year in the US alone, do not figure in the public imagination in the same way and consequently are not as feared as they probably should be. The power of storytelling can be harnessed to communicate risk communication very effectively, but it can also do immense harm. A single story about an illegal immigrant committing a heinous crime can generate strong anti-immigration sentiments in spite of evidence of the beneficial welfare effects of immigration.
+
+\
+
+### Evidence (to do)
 
 ## Diversification heuristic
 
@@ -490,15 +510,15 @@ Availability could also be linked to other biases we have discussed. As salience
 David Reinstein: The classical economics model does not assert a diminishing rate of marginal return to consumption as a general *universal* property. It is recognized that this may not hold over all goods for all quantities and all individuals.
 
 \
-However, this (as well as the more rigorous concepts of 'convex' preferences or 'quasi-concave' upper-contour sets) are 
+However, this (as well as the more rigorous concepts of 'convex' preferences or 'quasi-concave' upper-contour sets) are
 
 1. Convenient for the maths/proofs, allowing continuous responses to prices, etc.
 
 2. Intuitively (and perhaps empirically) justified in many contexts.
 
-3. A reasonable way of explaining why individuals do not 'spend their money on a single good'. 
+3. A reasonable way of explaining why individuals do not 'spend their money on a single good'.
 
-```  
+```
 
 
 \
@@ -507,44 +527,44 @@ Diversification can particularly have value in investing, where it can reduce th
 
 \
 
-However, people may continue to diversify even in domains where this no longer makes sense, as they use *diversification heuristics*. The causes of diversification heuristics more broadly are discussed in detail by @read1995diversification. A study by @Benartzi2007 is also useful for examining the evidence of diversification heuristics more widely, particularly for establishing what they refer to as the "$1/n$ rule". The $1/n$ rule was inspired by the tendency for people to sometimes split allocations evenly across their options: 
+However, people may continue to diversify even in domains where this no longer makes sense, as they use *diversification heuristics*. The causes of diversification heuristics more broadly are discussed in detail by @read1995diversification. A study by @Benartzi2007 is also useful for examining the evidence of diversification heuristics more widely, particularly for establishing what they refer to as the "$1/n$ rule". The $1/n$ rule was inspired by the tendency for people to sometimes split allocations evenly across their options:
 
 > Nobel laureate Harry Markowitz, one of the founders of modern portfolio theory, confessed: “I should have computed the historic covariances of the asset classes and drawn an efficient frontier. Instead, . . . I split my contributions fifty–fifty between bonds and equities” [@zweig1998five]. Markowitz was not alone. During the period when TIAA-CREF had only two options—TIAA invests in fixed income securities and CREF invests in equities—more than half the participants had selected a fifty–fifty split. Markowitz’s strategy can be viewed as naive diversification: when faced with “n” options, divide assets evenly across the options. We have dubbed this heuristic the “1/n rule.”
 
 <div class="marginnote">
 
-The study from @Benartzi2007 was focused on heuristics and biases in retirement savings, 
+The study from @Benartzi2007 was focused on heuristics and biases in retirement savings,
 </div>
 
 
-<!-- [TIAA-CREF](https://www.tiaainstitute.org/sites/default/files/presentations/2017-02/ti_differ0210.pdf) is a retirement plan 
+<!-- [TIAA-CREF](https://www.tiaainstitute.org/sites/default/files/presentations/2017-02/ti_differ0210.pdf) is a retirement plan
 -->
 
 
 ### Implications and causes of diversification heuristics in charitable giving {-}
 
-For the rest of this section, we will focus on the implications and causes of diversification heuristics as they relates to charitable giving specifically, but the above studies are valuable for further examining the underlying causes behind diversification heuristics in general. 
+For the rest of this section, we will focus on the implications and causes of diversification heuristics as they relates to charitable giving specifically, but the above studies are valuable for further examining the underlying causes behind diversification heuristics in general.
 
 One study that offers some evidence for people diversifying when this is no longer effective comes from a study examining how people chose to distribute screening tests for colon cancer, by @ubel1996cost, who used the following method:
 
 > We asked prospective jurors, medical ethicists, and experts in medical decision making to choose between two screening tests for a population at low risk for colon cancer. One test was more cost effective than the other but because of budget constraints was too expensive to be given to everyone in the population. With the use of the more effective test for only half the population, 1100 lives could be saved at the same cost as that of saving 1000 lives with the use of the less effective test for the entire population.
 
-They found that 56 percent of the prospective jurors, 53 percent of the medical ethicists, and 41 percent of the experts chose the less effective test. The authors report that most defended this choice on the basis of valuing equity, leading @ubel1996cost to conclude that “People place greater emphasis on equity than is reflected by cost-effectiveness analysis”. While this study is not on charitable giving directly, it may have implications in understanding how people may view trade-offs in equity and efficiency, particularly where real human lives are at stake. 
+They found that 56 percent of the prospective jurors, 53 percent of the medical ethicists, and 41 percent of the experts chose the less effective test. The authors report that most defended this choice on the basis of valuing equity, leading @ubel1996cost to conclude that “People place greater emphasis on equity than is reflected by cost-effectiveness analysis”. While this study is not on charitable giving directly, it may have implications in understanding how people may view trade-offs in equity and efficiency, particularly where real human lives are at stake.
 
 @fox2005subjective also expanded on a problem linked to diversification, which they refer to as partition dependence. This builds on the finding that people can often split allocations evenly across options [@Benartzi2007]. They discuss the distinction between the two ideas:
 
-> If a decision maker subjectively partitions the option set in different ways on different occasions, then choices and allocations will vary systematically with these partitions. We refer to this phenomenon as partition dependence. To illustrate, suppose that a philanthropist intent on donating to an array of children’s charities is presented with a set of organizations that are grouped by whether they are domestic or international. She may decide to diversify fully across these two categories by allocating half of her donation to domestic charities and half to international charities. However, suppose instead that she is presented with the same set of organizations, grouped into local charities, national charities, and international charities. In this case, the philanthropist may allocate two thirds to domestic charities (one third to local, one third to national) and one third to international charities. Note that partition dependence differs from diversification heuristics such as the “1/n rule,” documented by @Benartzi2007, in which people spread their retirement savings evenly across the n investment instruments that were offered (e.g., stock fund, bond fund.) The 1/n rule refers to the tendency to spread savings evenly among investment options with little regard to the particular investments that are offered; partition dependence refers to the tendency to make different allocations among the same set of options as a function of the way those options are subjectively grouped. 
+> If a decision maker subjectively partitions the option set in different ways on different occasions, then choices and allocations will vary systematically with these partitions. We refer to this phenomenon as partition dependence. To illustrate, suppose that a philanthropist intent on donating to an array of children’s charities is presented with a set of organizations that are grouped by whether they are domestic or international. She may decide to diversify fully across these two categories by allocating half of her donation to domestic charities and half to international charities. However, suppose instead that she is presented with the same set of organizations, grouped into local charities, national charities, and international charities. In this case, the philanthropist may allocate two thirds to domestic charities (one third to local, one third to national) and one third to international charities. Note that partition dependence differs from diversification heuristics such as the “1/n rule,” documented by @Benartzi2007, in which people spread their retirement savings evenly across the n investment instruments that were offered (e.g., stock fund, bond fund.) The 1/n rule refers to the tendency to spread savings evenly among investment options with little regard to the particular investments that are offered; partition dependence refers to the tendency to make different allocations among the same set of options as a function of the way those options are subjectively grouped.
 
 In one of their studies to examine partition dependence, @fox2005subjective recruited participants and told them that the researchers would donate $2 on behalf of each participant to United Way charities (a charity which includes funds that benefit both international projects and local communities). The participants could choose how to allocate the funds, and were told the following:
 
 > In particular, you can allocate the United Way donation into international funds (which the United Way would then allocate to more specific funds abroad) and/or Durham County funds (including programs benefiting seniors, programs nurturing our young children, programs promoting health and wellness, and programs strengthening our families).
 
-The study had two conditions in order to examine the potential impacts of partition dependence, non-hierarchical and hierarchical: 
+The study had two conditions in order to examine the potential impacts of partition dependence, non-hierarchical and hierarchical:
 
-> Participants in the nonhierarchical partition condition (n  = 15) were then asked to indicate their proposed allocation to international funds and each of four Durham County funds, with the order identical to that listed in the preceding paragraph. Respondents were asked to indicate percentages and were reminded to make sure that their allocation summed to 100%. 
+> Participants in the nonhierarchical partition condition (n  = 15) were then asked to indicate their proposed allocation to international funds and each of four Durham County funds, with the order identical to that listed in the preceding paragraph. Respondents were asked to indicate percentages and were reminded to make sure that their allocation summed to 100%.
 > Participants in the hierarchical partition condition (n = 16) were told, “Below we will ask you to first allocate geographically, then to more specific funds.” Next they were asked to indicate how much of the money they would donate to (superordinate categories of) international funds versus Durham County funds and were reminded to make sure that their allocation summed to 100%. Finally, these participants were asked to indicate how they would allocate their Durham County donation among each of the four possibilities.
 
-Their results suggested that there was evidence for partition dependence in participants: 
+Their results suggested that there was evidence for partition dependence in participants:
 
 > The mean donation to the international fund was 55% in the hierarchical condition (n = 16) but only 21% in the nonhierarchical condition (n = 15), t(29) = 3.73, p = .0004, one-tailed. In fact, median donations were 50% in the hierarchical condition and 20% in the nonhierarchical condition—the precise proportions one would expect if participants applied pure partition-dependent diversification without adjustment.
 
@@ -565,17 +585,17 @@ DR: There are some perspectives under which a certain amount diversification in 
 
 - she gains diminishing returns to this impact (making her, in a sense 'risk-averse')
 
-This would imply that, if she is maximising her expected utility (a standard assumption in Economics): 
-  
+This would imply that, if she is maximising her expected utility (a standard assumption in Economics):
+
 - she would strictly prefer to have (e.g.) a 100\% chance of saving one life over a 50\% chance of saving two lives, and
 
 - she would strictly prefer to have a 10\% chance of saving one life over a 5\% chance of saving two lives, and
 
 - she *might* strictly prefer to have a 10\% chance of saving 100 lives over a 5\% chance of saving 201 lives.
 
-Consider the probabilities that each dollar donated to a charity (leads to an intervention that) saves a life (or achieves a particular outcome). Suppose these outcomes (the lives saved) are not perfectly correlated across charities. In such a case, this an individual would find it optimal to diversify her giving across equally-impactful charities, and potentially even to include some 'slightly less impactful' charities in her 'giving bundle.' 
+Consider the probabilities that each dollar donated to a charity (leads to an intervention that) saves a life (or achieves a particular outcome). Suppose these outcomes (the lives saved) are not perfectly correlated across charities. In such a case, this an individual would find it optimal to diversify her giving across equally-impactful charities, and potentially even to include some 'slightly less impactful' charities in her 'giving bundle.'
 
-```  
+```
 
 
 ### Evidence for diversification heuristic in charitable giving (to do) {-}

@@ -2,7 +2,7 @@
 
 ```{block2,  type='note'}
 
-Note: this is an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis being planned. 
+Note: this relates to an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis being planned. 
 
 Much of this project is organised in the [dualprocess repo](https://github.com/daaronr/dualprocess).
 
@@ -16,9 +16,9 @@ An earlier set of presentation slides (now pictures are missing -- need to recov
 ![](lifeboat_choice.jpg){width=35%} ![](givewell-sheet.png){width=35%}
 -->
 
-## General relevance to effective giving
+## General relevance to effective giving 
 
-For people to choose one product over another on the basis of some characteristic (e.g., safety, taste, or durability), they presumably must be *aware* of these differences before purchasing. Economists note [ref] the difficulty of investing in producing, marketing and selling high-quality products and services when consumers have difficulty distinguishing these products from inferior ones.  This is especially difficult when the quality of a product is not known before purchase (an 'Experience good' [ref] such as a ticket to a particular stage show), or when it is not known until a long time later, if at all (a 'credence good' such as a health remedy or investment advice.) 
+For people to choose one product over another on the basis of some characteristic (e.g., safety, taste, or durability), they presumably must be *aware* of these differences before purchasing. Economists note [ref] the difficulty of investing in producing, marketing and selling high-quality products and services when consumers have difficulty distinguishing these products from inferior ones.  This is especially difficult when the quality of a product is not known before purchase (an 'Experience good'^[ref]^ such as a ticket to a particular stage show), or when it is not known until a long time later, if at all (a 'credence good' such as a health remedy or investment advice.) 
 
 <div class="marginnote">
 Insert abundant references here to asymmetric information, fly-by-night competition, and experience and creedence goods, product reviews, regulation, advertising as a signal, etc.
@@ -26,7 +26,7 @@ Insert abundant references here to asymmetric information, fly-by-night competit
 
 \
 
-Considering a charitable donation as a product purchased by the donor, it seems to  fall into the latter category [ref to authors making this point]. If donors value their 'marginal impact on outcomes' as discussed in our earlier [definitions of impact](#def-impact), they may need to do extensive research (or at least know about and visit web sites such as [GiveWell](http://givewell.org) and [ImpactMatters](http://impactmatters.org)) to have some estimate of the value-for-money they are getting.
+Considering a charitable donation as a product purchased by the donor, it seems to  fall into the latter category^[ref to authors making this point]^. If donors value their 'marginal impact on outcomes' as discussed in our earlier [definitions of impact](#def-impact), they may need to do extensive research (or at least know about and visit web sites such as [GiveWell](http://givewell.org) and [ImpactMatters](http://impactmatters.org)) to have some estimate of the value-for-money they are getting.
  
 <div class="marginnote">
 Donors may also be uncertain about other benefits they main gain from each donation such as 'gratitude and long-term sense of fulfillment'.

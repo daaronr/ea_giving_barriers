@@ -11,7 +11,9 @@ In the context of 'team reasoning' and cooperative equilibria, it may seem selfi
 ## Cognitive dissonance
 
 ```{block2,  type='note'}
+
 "Accepting EA would imply I was wasting my money/doing it wrong... $\rightarrow$  they try not to think about effectiveness or are averse to it or just consistency motive"
+
 ```  
 
 

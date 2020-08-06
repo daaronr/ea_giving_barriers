@@ -80,7 +80,7 @@ Here we also give a general ['conceptual' overview of these barriers](#barriers-
 
 \
 
-** [Barriers: Awareness, consideration, and distance](#aware-distance) **
+**[Barriers: Awareness, consideration, and distance](#aware-distance)**
 
 <div class="marginnote">
 Whether a cause/charity is something people are aware of, feel is important/salient, and feel close to.
@@ -90,38 +90,38 @@ Whether a cause/charity is something people are aware of, feel is important/sali
 Responses?:  (Info enhancing) social closeness of recipient 
 </div>
 
-** [Barriers: Identity and cognitive dissonance](#identity) {-}
+**[Barriers: Identity and cognitive dissonance](#identity)**
 
 <!-- Volunteer experience unlocks emotion and giving -->
 
-** [Barriers: Signaling and social pressures/social identity](#social) **
+**[Barriers: Signaling and social pressures/social identity](#social)**
 
 <!-- Self-interest/local public good [put elsewhere or remove??
 Social perceptions and signaling empathy vs effectiveness; related: difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness'
 -->
 
-** [Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity](#eval-aversion) **
+**[Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
  
-** [Barriers: Quantitative biases](#quant-biases) **
+**[Barriers: Quantitative biases](#quant-biases)**
 
-** [Barriers: Inertia and systemic/institutional](#inertia) **
+**[Barriers: Inertia and systemic/institutional](#inertia)**
 
-** [Tools for motivating EA giving](#tools) **
+**[Tools for motivating EA giving](#tools)**
 
-** [Conclusion; a research agenda](#conclusion-agenda) **
+**[Conclusion; a research agenda](#conclusion-agenda)**
 
 
-## Structure of each 'barriers' section {-#structure-barriers} 
+## Structure of each 'barriers' section {#structure-barriers} 
 
 **In each section we consider:**
 
-**A category of barriers (first-level heading, e.g. '[Quantitative biases](#quant-biases)')**
+**A category of barriers**; this is a first-level heading, e.g. '[Quantitative biases](#quant-biases)' is section \@ref(quant-biases).
 
 Here we discuss this category in general, explaining its meaning and plausibility in terms of the underlying theories, models, and generalized observations.
 
 
 \
-**Each specific barrier in this category** gets a second-level heading, e.g., ["Proportional dominance effect"](#prop-dom)
+**Each specific barrier in this category** gets a second-level heading, e.g., ["Proportional dominance effect"](#prop-dom) is section \@ref(prop-dom).
 
 \
 
@@ -148,7 +148,7 @@ In considering the evidence for these claims, we generally consider one paper or
 
 - The strength and credibility of the empirical results (considering, e.g., limitations and confounds in the design, experimenter-demand effects, estimates' statistical strength and power, appropriateness of the statistical analysis, preregistration, signs of specification-fishing and multiple-testing without corrections, replications and citations, etc.)
 
-We (should) also link where to find the paper itself as well as the materials and hte data collected.
+We (should) also link where to find the paper itself as well as the materials and the data collected.
 \
 
 
@@ -162,7 +162,7 @@ weighing evidence  specific claims such as ["People sometimes actively avoid inf
 
 ```  
 
-## Other practical considerations {-}
+## Other practical considerations 
 
 ### Notes on potential integration with PriorityWiki/Rethink Charity {-}
 
