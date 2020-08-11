@@ -658,8 +658,13 @@ to a certain extent, willing to pay a price for these."
 
 -   How this particular barrier proves problematic for effective giving?
 
-Study [ref] finds 'no correlation' between overhead and
-effectiveness\-- is it convincing?
+Studies  finds 'no correlation' between overhead and
+effectiveness\-- are these  convincing?
+
+<div class="marginnote">
+Check claims made in "BBB Wise Giving Alliance"; Caviola et al., 2014; Gregory & Howard, 2009; Karlan, 2014; Pallotta, 2008; Sellers, 2018
+</div>
+ 
 
 As noted above, overhead is an important input to the charity's
 production function, enabing it to be effective. A biases against

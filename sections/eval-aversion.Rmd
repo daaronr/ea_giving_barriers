@@ -196,6 +196,11 @@ Null attributes this failure to buy information either to subjects who "simply d
 
 \
 
+<!-- Todo: investigate these references...
+
+While most donors say their primary motivation is to make a difference, few donors seek information about charities before deciding where to give (Camber Collective, 2015; Hope Consulting, 2010, 2011; Osili et al., 2016). When they do conduct research, data on impact ranks lower than other types of information, such as the charity’s financial overhead and the demographics of the program recipients (Metzger & Günther, 2019)
+-->
+
 #### Evidence for "People do not respond 'efficiently' to information about costs and benefits" {-}
 
 <div class="marginnote">
@@ -581,6 +586,8 @@ The wide confidence intervals of the odds ratios suggests that Study 6 had limit
 
 > Charities are only rewarded for revealing information about their impact when the results are unrealistic and unattainable. 
 
+<!--  Third, donors may reward unrealistic impact information, creating a financial incentive for charities to deceive the public into thinking they are more effective than is realistically achievable. -->
+      
 ### Evidence: Analytical information $\times$ emotional information and 'identifiable victim'
 
  [@kogut2011identifiable; @loewensteinScarecrowTinMan2007; @Small2007]
@@ -662,9 +669,22 @@ One characterization, from @bergh2020empathic
 
 
 
-#### See also
+#### See also {-}
 
 @Vesterlund2003a
 @chhaochharia2008charity, @landry2010donor, @Brown2016
 
 @Gordon2009
+
+#### Notes
+
+There is also evidence that people may dramatically *underestimate* the cost of saving lives. 
+
+<div class="marginnote">
+DR: I am considering whether this should be seen as a relevant barrier. It is important to note in trying to *measure* the impact of effectiveness information. 
+Evidence comes from Caviola et al 2019 and Greenberg et al 2017
+</div>
+
+<!-- two separate surveys, participants were asked how much they thought it would cost “a typical charity to prevent one child in a poor country from dying unnecessarily by improving access to medical care.” In one survey, their median estimate was $40, and in the other survey, it was $150. The surveys asked the same question about the most cost-effective charities, for which the median estimate was $25 in one survey and $100 in the other (Caviola -->
+
+

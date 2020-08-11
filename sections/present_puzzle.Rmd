@@ -27,7 +27,7 @@ This raises two related questions:
 To address this, we must understand what drives giving choices, and how people react to the presentation of charity-effectiveness information.
 
 <div class="marginnote">
- Note that these two questions are not identical:   the first asks about the amounts given to the most needy charities, and the second about  the choice of charities conditional on giving.
+Note that these two questions are not identical:  the first asks about the amounts given to the most needy charities, and the second about  the choice of charities conditional on giving.
 </div>
  
  
@@ -99,7 +99,6 @@ Ideas42: "We did not find many field-based, experimental studies on the factors 
 <!--Wiepking2012 -->
 
 ### Effectiveness-specific work
-
 
 - @baron2011heuristics - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers
 
@@ -241,7 +240,7 @@ The idea that each donor gives only to a single charity essentially depends on t
  
  \
  
-But we do *not* seem to be doing this. Again: billions are given to charity, and these charities clearly have vastly different marginal impacts,  even among those that seem to target very similar outcomes.
+But we do *not* seem to be doing this. Again: billions are given to charity, and these charities clearly have vastly different marginal impacts, even among those that seem to target very similar outcomes.
 
 <!-- TODO:  many of the above arguments have probably been  made much more  carefully and completely both in Economics papers and in places like the EA Forum; draw and cite more from these -->
 
@@ -443,4 +442,12 @@ Less proximate needs are less salient, thus under-funded.
 [@meerBrotherCanYou2011]
 
 Does one contribution crowd out another? If so, social pressure, systems enforcing 'local public goods' and inertial factors may limit effective (non-local) giving.
+
+<!-- #TODO: At some point we should Make the point that in order for people to give effectively they need to know which charities are effective. For this to be the case, charities must transparently submit to rigorous metrics. Charities must advertise their impact and compete on this basis. For charities to want to do this, they must believe that donors as ‘consumers’ care about this.
+
+According to Mulesky (2020) “Charities routinely appeal to impact when soliciting donations”; However, the example she gives is not a clear measure of per dollar impact. 
+
+However, a feature of philanthropy overlooked in published research is that nonprofit
+organizations rarely, if ever, support these claims with rigorous evidence
+-->
 
