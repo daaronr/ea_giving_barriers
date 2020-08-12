@@ -1,7 +1,7 @@
 # Functions used in general Reinstein code
 
 
-################# 'Hijacking' standard functions
+#### 'Hijacking' standard functions ####
 
 ### See - https://www.r-bloggers.com/hijacking-r-functions-changing-default-arguments/
 
@@ -23,14 +23,14 @@ hijack <- function (FUN, ...) {
 
 ############## Automation helpers
 
-### Function to filter by given string:
+#### Function to filter by given string: ####
 
 filter_parse <- function(df, x) {
  {{df}} %>%
    filter(rlang::eval_tidy(rlang::parse_expr({{x}})))
 }
 
-################# Test functions
+#### Test functions ####
 
 # Generic test function: a helper function
 doTest <- function(pair, df = ADSX, stage = 2, depvar = donation, treatvar = Treatment, testname = "t.test2") {
@@ -70,7 +70,7 @@ TR <- thetest(pull(ADSplit[[1]], !!depvar), pull(ADSplit[[2]], !!depvar)) %>%
     TreatCol = pair[2])
 }
 
-# Fisher's exact test
+#### Fisher's exact test ####
 
 ## With numbers
 
@@ -141,9 +141,11 @@ fisher.bintest <- function(formula, data, alpha = 0.05, p.method = "fdr") {
   return(test)
 }
 
-# Lift tests t-test
+#### # Lift tests t-test ####
 t.test2 <- function(x, y) t.test(x, y)
 liftedTT <- purrr::lift(t.test2, .unnamed = TRUE)
+
+
 
 # Wilcoxon rank-sum test for continuous outcome variables.
 # wilcoxon(subd[subd$Shares=='High', ]$EscThreshold,
@@ -153,6 +155,8 @@ liftedTT <- purrr::lift(t.test2, .unnamed = TRUE)
 wilcox.test2 <- function(x, y) wilcox.test(x, y, exact = FALSE)
 liftedWilcox <- purrr::lift(wilcox.test2, .unnamed = TRUE)
 
+
+#### Data work ####
 # compare column types across two df (e.g., in advance of a
 # merge); from
 # https://stackoverflow.com/questions/45743991/r-compare-column-types-between-two-dataframes
@@ -162,8 +166,9 @@ compareColumns <- function(df1, df2) {
     class), df2 = sapply(df2[, commonNames], class))
 }
 
-# Join and update, take nonmissing values from -
+#### # Join and update, take nonmissing values from - ####
 # https://alistaire.rbind.io/blog/coalescing-joins/
+
 coalesce_join <- function(x, y, by = NULL, suffix = c(".x", ".y"),
   join = dplyr::full_join, ...) {
   joined <- join(x, y, by = by, suffix = suffix, ...)
@@ -230,7 +235,7 @@ merge_cols <- function(x, y, by) {
   dplyr::select(union(colnames(x), colnames(y))) %>% dplyr::distinct()
 }
 
-# summary tables function(s)
+####  summary tables function(s) ####
 
 sumtab_func_full <- function(df = ADSX, depvar = donation, treatvar = TreatFirstAsk,
   caption = "") {
@@ -308,7 +313,9 @@ sumtab2_func_plus <- function(df = ADSX, depvar = donation, treatvar = TreatFirs
 # 'N'), sep = ' ') %>%
 
 
-# tabsum
+#### tabsum and simple tables ####
+
+
 tabsum <- function(df = ADSX, yvar = donation, xvar = Stage,
   treatvar = Treatment) {
   yvar <- enquo(yvar)
@@ -320,12 +327,22 @@ tabsum <- function(df = ADSX, yvar = donation, xvar = Stage,
     na.rm = TRUE))
 }
 
+
+
+tabyl_ow_plus <- function(df, var) {
+    {{df}} %>%
+  tabyl({{var}}) %>%
+   dplyr::arrange(desc(n)) %>%
+    adorn_totals() %>%
+    kable() %>%
+    kable_styling()
+}
+
 # WIP function -- doesn't work yet:
 tabylme <- function(df = ADSX, rowvar = TreatFirstAsk, colvar = treat_second_ask,
   adorn = "row") {
-  rowvar <- enquo(rowvar)
-  colvar <- enquo(colvar)
-  tabyl(!!rowvar, !!colvar) %>% adorn_percentages(adorn) %>%
+    {{df}} %>%
+  tabyl({{rowvar}}, {{colvar}}) %>% adorn_percentages({{adorn}}) %>%
     adorn_pct_formatting(digits = 2) %>% adorn_ns() %>% kable() %>%
     kable_styling()
 }
@@ -589,6 +606,20 @@ comb2pngs <- function(imgs, bottom_text = NULL){
   img2 <-  grid::rasterGrob(as.raster(readPNG(imgs[2])),
                             interpolate = FALSE)
   grid.arrange(img1, img2, ncol = 2, bottom = bottom_text)
+}
+
+
+#multi-output text color
+#https://dr-harper.github.io/rmarkdown-cookbook/changing-font-colour.html#multi-output-text-colour
+#We can then use the code as an inline R expression format_with_col("my text", "red")
+
+format_with_col = function(x, color){
+  if(knitr::is_latex_output())
+    paste("\\textcolor{",color,"}{",x,"}",sep="")
+  else if(knitr::is_html_output())
+    paste("<font color='",color,"'>",x,"</font>",sep="")
+  else
+    x
 }
 
 ################# Coding shortcuts

@@ -21,7 +21,7 @@
   <meta name="twitter:description" content="A broad project" />
   
 
-<meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Luke Arundel and more" />
+<meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
 <meta name="date" content="2020-08-12" />
@@ -33,16 +33,6 @@
   
 <link rel="prev" href="present-puzzle.html"/>
 <link rel="next" href="aware-distance.html"/>
-<style type="text/css">
-p.abstract{
-  text-align: center;
-  font-weight: bold;
-}
-div.abstract{
-  margin: auto;
-  width: 90%;
-}
-</style>
 <script src="book_assets/header-attrs-2.3/header-attrs.js"></script>
 <script src="book_assets/jquery-2.2.3/jquery.min.js"></script>
 <link href="book_assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -82,10 +72,8 @@ div.abstract{
 
 
 
-<!-- open review block, in case we want it ever
 
 <script async defer src="https://hypothes.is/embed.js"></script>
--->
 
 <!-- Folding text box javascript thing -->
 
@@ -216,12 +204,12 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#pop-abstract"><i class="fa fa-check"></i>Non-technical abstract</a></li>
+</ul></li>
 <li class="chapter" data-level="1" data-path="outline.html"><a href="outline.html"><i class="fa fa-check"></i><b>1</b> Introduction and outline</a>
 <ul>
-<li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#abstract"><i class="fa fa-check"></i>Extended abstract</a>
-<ul>
-<li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#pop-abstract"><i class="fa fa-check"></i>Non-technical abstract</a></li>
-</ul></li>
 <li class="chapter" data-level="1.1" data-path="outline.html"><a href="outline.html#overview"><i class="fa fa-check"></i><b>1.1</b> Overview</a></li>
 <li class="chapter" data-level="1.2" data-path="outline.html"><a href="outline.html#structure-barriers"><i class="fa fa-check"></i><b>1.2</b> Structure of each ‘barriers’ section</a>
 <ul>
@@ -449,7 +437,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="substitution" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Are charities in competition? Is the ineffective giving reducing effective giving?</h1>
-<p>Are charitable gifts complements or substitutes; are charities are rivals? Does one donation request (or donation itself) crowd out another, and if so when and how much? This is critical to understanding the extent to which gains can be achieved by getting people to ‘switch’ from less to more effective charities. To the extent this crowding-out occurs, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressuring you to give to local organisations) themselves represent barriers to EA giving.</p>
+<p>Are charitable gifts complements or substitutes; are charities rivals? Does one donation request (or donation itself) crowd out another, and if so when and by how much? This is critical to understanding the extent to which gains can be achieved by getting people to ‘switch’ from less to more effective charities. To the extent this crowding-out occurs, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressuring you to give to local organisations) themselves represent barriers to EA giving.</p>
 <!-- (David Reinstein has a simultaneous research project on this 'expenditure substitution' question.) -->
 <!--
 [@vandiepenDoesIrritationInduced2009], @Donkers2017, [@Scharf2017], [@Deryugina2015b; @Harwella:1; @Meer2017; @Reinstein2010a:1; @Reinstein2011d] -->
@@ -525,9 +513,10 @@ on the partial second derivatives of utility and the relative prices.</p>
 p_{2}U_{12}(g_{1,}g_{2})-p_{1}U_{22}(g_{1,}g_{2})}{%
 p_{1}U_{12}(g_{1,}g_{2})-p_{2}U_{11}(g_{1,}g_{2})}]d\alpha
 \label{integralgeneral}\]</span></p>
-<p>With quadratic utility, the partial derivatives will be constants,</p>
-<div class="marginnote">
-<p><span class="math inline">\(U(x_{0},x_{1},...,x_{n})=x_{0}+\Sigma _{i=1}^{n}\alpha _{i}x_{i}-(\Sigma _{i=1}^{n}\beta _{i}x_{i}^{2}+2\Sigma _{i\neq j}^{n}\gamma _{ij}x_{i}x_{j})/2\)</span></p>
+<p>With quadratic utility (defined in fold), the partial derivatives will be constants,</p>
+
+<div class="fold">
+<span class="math inline">\(U(x_{0},x_{1},...,x_{n})=x_{0}+\Sigma _{i=1}^{n}\alpha _{i}x_{i}-(\Sigma _{i=1}^{n}\beta _{i}x_{i}^{2}+2\Sigma _{i\neq j}^{n}\gamma _{ij}x_{i}x_{j})/2\)</span>
 </div>
 <p>and the <em>discrete</em> indirect effect, as well as the marginal effect, will
 be a simple linear function of the direct effect:</p>
@@ -539,10 +528,9 @@ effect may be a nonlinear function of the direct effect, but these should be sol
 </div>
 <div id="previous-approaches-and-evidence" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> Previous approaches and evidence</h2>
-
-<div class="note">
+<div class="marginnote">
 <p>The material in this section largely overlaps the literature review in Reinstein, Reiner and Vance-McMullen 202 ongoing, in the repository <a href="https://github.com/gerhardriener/CharitySubstitutionExperiment/" class="uri">https://github.com/gerhardriener/CharitySubstitutionExperiment/</a>, in the file lit-synth.Rmd</p>
-These should be integrated with one another.
+<p>These should be integrated with one another.</p>
 </div>
 <p>There is a <strong>lack of data</strong> on donations at the individual-charity level.</p>
 <p>For identification: Lack of <strong>independent observable variation</strong> in price, shocks, or appeals.</p>
@@ -654,7 +642,7 @@ Todo: add pictures of the relevant environments for these studies here
 <div id="synthesis-emerging" class="section level2" number="3.3">
 <h2><span class="header-section-number">3.3</span> Synthesis (emerging)</h2>
 <div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="substitution.html#cb20-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;picsfigs/subst_meta_cut.png&#39;</span>)</span></code></pre></div>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-17"></span>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-16"></span>
 <img src="picsfigs/subst_meta_cut.png" alt="Papers on substitution; database" width="85%" />
 <p class="caption">
 Figure 3.1: Papers on substitution; database

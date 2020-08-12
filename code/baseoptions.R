@@ -1,4 +1,4 @@
-#Options and sourcing for general Reinstein code
+ #### Options and sourcing for general Reinstein code ####
 
 knitr::opts_chunk$set(echo = TRUE,include=TRUE, warning=FALSE)
 #knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())

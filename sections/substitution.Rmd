@@ -1,6 +1,6 @@
 # Are charities in competition? Is the ineffective giving reducing effective giving? {#substitution}
 
-Are charitable gifts complements or substitutes; are charities are rivals? Does one donation request (or donation itself) crowd out another, and if so when and how much?   This is critical to understanding  the extent to which gains can be achieved by getting people to 'switch'  from less to more effective charities. To the extent this crowding-out occurs, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressuring you to give to local organisations) themselves represent barriers to EA giving.
+Are charitable gifts complements or substitutes; are charities rivals? Does one donation request (or donation itself) crowd out another, and if so when and by how much?  This is critical to understanding  the extent to which gains can be achieved by getting people to 'switch' from less to more effective charities. To the extent this crowding-out occurs, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressuring you to give to local organisations) themselves represent barriers to EA giving.
 
 <!-- (David Reinstein has a simultaneous research project on this 'expenditure substitution' question.) -->
 
@@ -105,13 +105,14 @@ p_{2}U_{12}(g_{1,}g_{2})-p_{1}U_{22}(g_{1,}g_{2})}{%
 p_{1}U_{12}(g_{1,}g_{2})-p_{2}U_{11}(g_{1,}g_{2})}]d\alpha
 \label{integralgeneral}\]
 
-With quadratic utility, the partial derivatives will be constants,
+With quadratic utility (defined in fold), the partial derivatives will be constants,
 
-<div class="marginnote">
+```{block2,  type='fold'}
+
 $U(x_{0},x_{1},...,x_{n})=x_{0}+\Sigma
 _{i=1}^{n}\alpha _{i}x_{i}-(\Sigma _{i=1}^{n}\beta _{i}x_{i}^{2}+2\Sigma
 _{i\neq j}^{n}\gamma _{ij}x_{i}x_{j})/2$
-</div>
+```
 
 
 and the *discrete* indirect effect, as well as the marginal effect, will
@@ -133,12 +134,12 @@ effect may be a nonlinear function of the direct effect, but these should be sol
 ## Previous approaches and evidence
 
 
-```{block2,  type='note'}
-
+<div class="marginnote">
+ 
 The material in this section largely overlaps the literature review in Reinstein, Reiner and Vance-McMullen 202 ongoing, in the repository https://github.com/gerhardriener/CharitySubstitutionExperiment/, in the file lit-synth.Rmd
 
 These should be integrated with one another.
-```
+</div>
 
 
 There is a **lack of data** on donations at the individual-charity level.

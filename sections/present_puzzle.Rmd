@@ -33,7 +33,11 @@ Note that these two questions are not identical:  the first asks about the amoun
  
 ## Motivation and descriptives {#motivate-puzzle}
 
-Individual donors, governments and firms demonstrate substantial generosity (e.g., UK charity represents 0.5-1\% of GDP, US charity around 2\% of GDP)[@CAFWorldGiving; @CharitableGivingTops]. However, most donations go towards charities that are worthwhile but improve human well-being far less per dollar than basic medical interventions in poor countries, such as antimalarial bednets (see [Givewell.org](http://givewell.org)).  Even within the same category, more can be achieved for less: e.g. while it costs around USD 50,000 to provide a blind person a guide dog, the equivalent amount could cure 500 people of blindness if it was spent on surgery to prevent blindness from trachoma [@burton2009global; @macaskillDoingGoodBetter2015].
+Individual donors, governments and firms demonstrate substantial generosity (e.g., UK charity represents 0.5-1\% of GDP, US charity around 2\% of GDP).
+<div class="marginnote">
+[@CAFWorldGiving; @CharitableGivingTops]
+</div>
+However, most donations go towards charities that are worthwhile but improve human well-being far less per dollar than basic medical interventions in poor countries, such as antimalarial bednets (see [Givewell.org](http://givewell.org)).  Even within the same category, more can be achieved for less: e.g. while it costs around USD 50,000 to provide a blind person a guide dog, the equivalent amount could cure 500 people of blindness if it was spent on surgery to prevent blindness from trachoma [@burton2009global; @macaskillDoingGoodBetter2015].
 
 Social science, biology and philosophy present a range of potential theoretical explanations of how values, preferences, and biases drive this ‘inefficient altruism’. However, evidence (e.g., for ‘availability bias’, or for ‘scope insensitivity’) comes largely from small-scale experiments in domains outside of charitable-giving. It is difficult to distinguish robust, credible findings from one-off results that are vulnerable to hype, p-hacking and publication bias (echoing the 'replication crisis' in experimental social science [@shrout2018psychology]). Given the limited, scattered findings, we do not have a definitive picture of which factors substantially impact ‘effective giving and support for policies that reduce extreme poverty’. (We give a review of papers surveying this evidence [below](#prevsurvey))
 
@@ -65,7 +69,7 @@ Our main ‘policy’ audience includes both effective nonprofit organisations a
 
 ### Descriptives of giving (US, international) and how \'ineffective\' it is.  {#ea-depict}
 
-Who *does* give effectively? Potential global welfare gains to changing "where we give.  Who does give effectively? 
+Who *does* give effectively? Potential global welfare gains to changing 'where we give'.  Who does give effectively? 
 
 Fitz/Kagan: Understanding Effective Givers: 
 
@@ -306,9 +310,9 @@ yoruk_2016, Gneezy2014	brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tolsm
 
 The discussion above largely assumes that people are, at least to some extent:
 
-i. Other-regarding/pro-social: her preferences or ger "utility function they are maximizing" incorporates the well-being of others, at least to some extent
+i. Other-regarding/pro-social: her preferences or the "utility function she is maximizing" incorporates the well-being of others, at least to some extent
 
-ii. Moral utilitarians: The value  she places  on helping others (or on others' outcomes)  is principally increasing in  some measure of the *amount* of good they have done for others,  or in others' welfare. For a given personal sacrifice, she will always prefer to have made more people more well-off than to have made fewer people less well-off. In Economics terms, she strictly prefers and values *Pareto-improvements*.
+ii. Moral utilitarians: The value she places on helping others (or on others' outcomes)  is principally increasing in  some measure of the *amount* of good they have done for others, or in others' welfare. For a given personal sacrifice, she will always prefer to have made more people more well-off than to have made fewer people less well-off. In Economics terms, she strictly prefers and values *Pareto-improvements*.
 
 <div class="marginnote">
 A mathematical  statement of this may be helpful here.
@@ -319,21 +323,19 @@ iii. Universalist:  In considering others' welfare, she values all others equall
 ```{block2,  type='note'}
 Universalism: a  more precise example:
   
-Consider a world with three other people (B,C,D), begin in a Poor state. Consider outcomes such as:
+Consider a world with three other people (B,C,D). Suppose each begin in a poor state. Consider outcomes such as:
 
 1. B and C are well off and D is poor 
 
 2. D is well-off and B and C are  poor
 
-She would always prefer outcome 1 over outcome 2. She would also rather achieve outcome 1 over outcome 2 with her charity, *no  matter the identity of persons B, C, and D.*
+A universalist, as I define it, would always prefer outcome 1 over outcome 2. She would also rather achieve outcome 1 over outcome 2 with her charity, *no  matter the identity of persons B, C, and D.*
 
 ```  
 
 iv. Not 'deontological':  there are no other relevant absolute moral constraints (constraints such as 'do no harm in your actions, even if others are helped') 
 
-\
-
-To what extent does a ‘moral utilitarian’ (MU) consequentialist ethic govern beliefs and behaviour? To the extent it *does*, limited effective giving represents a puzzling intention/action gap. 
+**To what extent does a ‘moral utilitarian’ (MU) consequentialist ethic govern beliefs and behaviour?** To the extent it *does*, limited effective giving represents a puzzling intention/action gap. 
 
 However, for non-utilitarians this is no puzzle. If other forces and motivations drive our giving choices,  we might not expect these to be aligned with effectiveness. 
 
@@ -378,24 +380,19 @@ Perhaps moral utilitarianism (MU) is relatively unimportant in most people's cha
 
 People may (at least to some extent) *want* to be effective in their donation. However, they may simply not be good at doing this. Quantitative biases may drive departures from effectiveness in general. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the "production function for good outcomes", or to misjudge  charities  will lead  me astray from effective giving.  If I am making any mistake,  I am failing to optimize. Furthermore, some biases may happen to be *particularly* harmful to those charities and causes that are most effective.
 
-We  briefly list some of these biases below; we consider these extensively in the section "[Barriers: Quantitative biases](#quant-biases)".
+We consider these extensively in the section "[Barriers: Quantitative biases](#quant-biases)".
 
-\
-
-**Cognitive biases:** 
-
+<div class="marginnote">
+Cognitive biases include:
 - Overweighting and underweighting probabilities
-
 - Misunderstanding marginality
-
 - Scope-insensitivity
-
 - Opportunity-cost Neglect 
-
-- Identifiable victims effect 
-
-- Overhead aversion  [@gneezyAvoidingOverheadAversion2014]
-
+- Identifiable victims effect
+- Overhead aversion  
+</div>
+ 
+\
 
 <!-- Responses: De-biasing, etc. 
 
@@ -416,14 +413,20 @@ Charity effectiveness (info/deliberation)
 - Donor's mood (Impacting) 
 - Affect prime
 
-- Evaluation mode -
+- Evaluation mode
 
-(Karlan & W, '07),[@kogut2005singularity; @kogutIdentifiedVictimEffect2005], [@Small2007], [@Drouvelis2016], [@Caviola2014]
-
+<div class="marginnote">
+See:  (Karlan & W, '07),[@kogut2005singularity; @kogutIdentifiedVictimEffect2005], [@Small2007], [@Drouvelis2016], [@Caviola2014]
+</div>
+ 
+\
 
 **Avoiding information, motivated reasoning in processing it**
 
-@andreoniAvoidingAskField2017, @exleyExcusingSelfishnessCharitable2016a, @exleyImpactSurpriseDonation2018, @dellavigna2012testing, @reinstein2018commitments
+<div class="marginnote">
+See: @andreoniAvoidingAskField2017, @exleyExcusingSelfishnessCharitable2016a, @exleyImpactSurpriseDonation2018, @dellavigna2012testing, @reinstein2018commitments
+</div>
+ 
 
 \
 
