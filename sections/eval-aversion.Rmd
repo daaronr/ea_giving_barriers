@@ -582,11 +582,39 @@ The wide confidence intervals of the odds ratios suggests that Study 6 had limit
 
 #### [@mulesky2020demand]
 
-- Series of hypothetical experiments, "recruited through Positly, an online study recruiter that solicits high quality participants from Amazon’s M-Turk"
+**Setup** 
 
+- Participants "recruited through Positly, an online study recruiter that solicits high quality participants from Amazon’s M-Turk"
+
+- Series of experiments giving participants a *hypothetical* choice: "you have the opportunity to donate 100 USD to i. [described charity] or ii. Some other international health charity." They needed to hypothetically allocate the 100USD completely between these two. 
+
+
+Study 1 treatments: 
+
+- No Impact information
+- Null Impact information ("study found that Human Rights International did not have the desired impact, suggesting that reform is needed to increase effectiveness’.)
+- Realistic impact information ... "results of the study suggest ... [HHI} saves the life of one person for each 2000 USD spent"
+- Unrealistic impact information "... for each 150 USD spent"
+
+Study 2: Similar to Study 1, but for preventing HIV infections
+
+<div class="marginnote">
+The third study revolves around the addition of overhead information, in with what might be seen as a fairly negative presentation. I do not discuss it here </div>
+
+\
+
+**Results considered**
+ 
+Stated finding:
 > Charities are only rewarded for revealing information about their impact when the results are unrealistic and unattainable. 
 
+In fact, the mean donations were ordered: Unrealistic (Impact information) $>$ Realistic $>$ No(ne) $>$ Null. 
+
+While the difference between Realistic and None was not significant by the standard tests, the confidence interval does not rule out an affect of up to almost 15 percentage points.
+
+
 <!--  Third, donors may reward unrealistic impact information, creating a financial incentive for charities to deceive the public into thinking they are more effective than is realistically achievable. -->
+
       
 ### Evidence: Analytical information $\times$ emotional information and 'identifiable victim'
 
@@ -633,7 +661,6 @@ Researchers gave study participants the opportunity to donate $0-5 to famine rel
 There is a small body of evidence on how charity quality ratings (which are not typically 'impact' ratings as we have defined it) affect, or at least correlate with a  charity's fundraising success. The effect of these ratings presumably relates both to individual's willingness to seek out and process this information ([as in our discussion of CBA](#cba-aversion)), and to the impact of this information on an individual's generosity (as in our discussion of . If individual's strongly avoided seeing this information and ignored being exposed to this information 
 
 ### Evidence on responses to charity ratings
-
 
 One characterization, from @bergh2020empathic
 

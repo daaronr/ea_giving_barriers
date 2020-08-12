@@ -119,7 +119,6 @@ Social perceptions and signaling empathy vs effectiveness; related: difficulty o
 
 Here we discuss this category in general, explaining its meaning and plausibility in terms of the underlying theories, models, and generalized observations.
 
-
 \
 **Each specific barrier in this category** gets a second-level heading, e.g., ["Proportional dominance effect"](#prop-dom) is section \@ref(prop-dom).
 
@@ -138,15 +137,19 @@ Within this, we consider the **evidence for each specific empirical claim** supp
 
 \
 
-In considering the evidence for these claims, we generally consider one paper or project at a time (or a specific piece of independent evidence from this paper). However, we are still thinking about the best narrative approach to presenting evidence from multiple papers/projects/analyses.  For each paper we focus on key elements such as:
+In considering the evidence for these claims, we generally consider one paper or project at a time (or a specific piece of independent evidence from this paper). However, we are still thinking about the best narrative approach to presenting evidence from multiple papers/projects/analyses.  
 
-- Method (lab experiment involving real charitable asks, natural field experiment with charity partner, observational analysis asserting causality via a regression discontinuity approach, etc.)
+### Consideration of each paper {#paper-structure}
 
-- The context and data (the population of donors or lab participants, the charity(s) involved, etc.)
+For each paper we focus on key elements, including:
 
-- The nature of the 'treatment' or independent variable (e.g., realistic information presented about impact per dollar)
+- **Method** (lab experiment involving real charitable asks, natural field experiment with charity partner, observational analysis asserting causality via a regression discontinuity approach, etc.)
 
-- The strength and credibility of the empirical results (considering, e.g., limitations and confounds in the design, experimenter-demand effects, estimates' statistical strength and power, appropriateness of the statistical analysis, preregistration, signs of specification-fishing and multiple-testing without corrections, replications and citations, etc.)
+- The **context** and data (the population of donors or lab participants, the charity(s) involved, etc.)
+
+- The **nature of the 'treatment'** or independent variable (e.g., realistic information presented about impact per dollar)
+
+- The **strength and credibility of the empirical results** (considering, e.g., limitations and confounds in the design, experimenter-demand effects, estimates' statistical strength and power, appropriateness of the statistical analysis, preregistration, signs of specification-fishing and multiple-testing without corrections, replications and citations, etc.)
 
 We (should) also link where to find the paper itself as well as the materials and the data collected.
 \
