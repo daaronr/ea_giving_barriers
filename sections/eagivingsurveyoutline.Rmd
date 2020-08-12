@@ -197,3 +197,16 @@ How have EA orgs been brought together ...especially at universities?
 - [EA hub](https://eahub.org/)
 
 - [Facebook group](https://www.facebook.com/groups/effective.altruists/)
+
+<html>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148137970-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148137970-4');
+</script>
+</html>
+

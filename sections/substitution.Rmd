@@ -115,7 +115,7 @@ _{i\neq j}^{n}\gamma _{ij}x_{i}x_{j})/2$
 ```
 
 
-and the *discrete* indirect effect, as well as the marginal effect, will
+... and the *discrete* indirect effect, as well as the marginal effect, will
 be a simple linear function of the direct effect:
 
 
@@ -124,15 +124,10 @@ $$g_{1}(\alpha )=A+Bg_{2}(\alpha )$$
 *where* $A$ and $B$ are constants.
 
 Quadratic utility is often justified as a second-order approximation to any other utility function. With other utility functions the partial derivatives may vary at different consumption bundles, so the indirect
-effect may be a nonlinear function of the direct effect, but these should be solvable  for a predictable functional form, which for estimation purposes, can be approximated to any desired accuracy by a polynomial function. 
-
-
-
-
+effect may be a nonlinear function of the direct effect, but these should be solvable for a predictable functional form, which for estimation purposes, can be approximated to any desired accuracy by a polynomial function. 
 
 
 ## Previous approaches and evidence
-
 
 <div class="marginnote">
  
@@ -153,7 +148,6 @@ Estimation of 'Expenditure substitution' [@reinsteinDoesOneCharitable] is compli
 
 ### Observational work
 
-
 **Observational data** typically lacks shocks that are clearly
 *specific* to giving to one charity. Observational data on charitable
 giving (e.g., survey data or tax data) offers few variables that can be
@@ -171,7 +165,6 @@ thus estimate a lower bound on substitution.**
 
 @reinsteinDoesOneCharitable using PSID/COPPS data
 finds some evidence of expenditure substitution, especially for large givers.
-
 
 He makes a “bounding below” argument
 

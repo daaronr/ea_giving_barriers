@@ -167,14 +167,14 @@ Can define text blocks here, refer to them again and again if desired
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 <html>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QLKFNFTGXX"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148137970-4"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-QLKFNFTGXX');
+  gtag('config', 'UA-148137970-4');
 </script>
 </html>
 
