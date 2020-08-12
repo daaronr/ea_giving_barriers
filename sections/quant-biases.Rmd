@@ -985,9 +985,9 @@ Ref: @hseeUnitAskingMethod2013
 
 ### "Excessive Risk aversion or loss aversion" {#risk_a}
 
-### Bias towards tangibility
+### Bias towards tangibility (perhaps not 'quantitative'?)
 
-### Corruption aversion
+### Corruption aversion (perhaps not 'quantitative'?)
 
 ## Other possibilities: "Risk aversion",  Lack of tangibility, Corruption aversion {#other-possibilities}
 

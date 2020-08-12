@@ -162,6 +162,39 @@ weighing evidence  specific claims such as ["People sometimes actively avoid inf
 
 ```  
 
+## Airtable organisation; contributing content {#airtable-contrib}
+
+**These classifications of barriers** are organised, outlined, and defined in our Airtable; see the view below.
+
+  
+<iframe class="airtable-embed" src="https://airtable.com/embed/shr7Hs75V0k24wtI9?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="330" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+\
+
+**The barriers themselves** are organised as well, see the view below:
+  
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrUbA0AdoQNymoCU?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="330" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+
+\
+
+**To suggest a new barrier,** or a modification of an existing proposed barrier, please fill out the form below [and linked here](https://airtable.com/embed/shr1i7JKagMxTIXR8?backgroundColor=purple) (or contact us otherwise, including via a hypothes.is comment):
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shr1i7JKagMxTIXR8?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="330" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+\
+
+**Did we leave out a paper or a source of evidence?**  Please fill out the form below or [click the link HERE](https://airtable.com/embed/shr0fMY4izZX6Z0Hz?backgroundColor=purple) (or contact us otherwise, including via a hypothes.is comment):
+
+\
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shr0fMY4izZX6Z0Hz?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="400" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+
+**All contributions will be credited and engaged with.**
+
+\
+
 ## Other practical considerations 
 
 ### Notes on potential integration with PriorityWiki/Rethink Charity {-}

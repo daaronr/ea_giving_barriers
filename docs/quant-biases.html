@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Luke Arundel and more" />
 
 
-<meta name="date" content="2020-08-11" />
+<meta name="date" content="2020-08-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -224,7 +224,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="1.1" data-path="outline.html"><a href="outline.html#overview"><i class="fa fa-check"></i><b>1.1</b> Overview</a></li>
 <li class="chapter" data-level="1.2" data-path="outline.html"><a href="outline.html#structure-barriers"><i class="fa fa-check"></i><b>1.2</b> Structure of each ‘barriers’ section</a></li>
-<li class="chapter" data-level="1.3" data-path="outline.html"><a href="outline.html#other-practical-considerations"><i class="fa fa-check"></i><b>1.3</b> Other practical considerations</a>
+<li class="chapter" data-level="1.3" data-path="outline.html"><a href="outline.html#airtable-contrib"><i class="fa fa-check"></i><b>1.3</b> Airtable organisation; contributing content</a></li>
+<li class="chapter" data-level="1.4" data-path="outline.html"><a href="outline.html#other-practical-considerations"><i class="fa fa-check"></i><b>1.4</b> Other practical considerations</a>
 <ul>
 <li class="chapter" data-level="" data-path="outline.html"><a href="outline.html#notes-on-potential-integration-with-prioritywikirethink-charity"><i class="fa fa-check"></i>Notes on potential integration with PriorityWiki/Rethink Charity</a></li>
 </ul></li>
@@ -351,8 +352,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>8.10</b> Other quantitative biases</a>
 <ul>
 <li class="chapter" data-level="8.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>8.10.1</b> “Excessive Risk aversion or loss aversion”</a></li>
-<li class="chapter" data-level="8.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility"><i class="fa fa-check"></i><b>8.10.2</b> Bias towards tangibility</a></li>
-<li class="chapter" data-level="8.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion"><i class="fa fa-check"></i><b>8.10.3</b> Corruption aversion</a></li>
+<li class="chapter" data-level="8.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>8.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="8.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>8.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
 </ul></li>
 <li class="chapter" data-level="8.11" data-path="quant-biases.html"><a href="quant-biases.html#other-possibilities"><i class="fa fa-check"></i><b>8.11</b> Other possibilities: “Risk aversion”, Lack of tangibility, Corruption aversion</a></li>
 </ul></li>
@@ -805,7 +806,7 @@ In one of their studies, they used a version of the dictator game. In dictator g
 <p>The availability heuristic suggests that people judge the frequency of classes, or the probability of events, by the ease with which they come to mind <span class="citation">(Tversky and Kahneman <a href="#ref-tversky1973availability" role="doc-biblioref">1973</a>)</span>. I.e., people may treat an event <em>a</em> as more likely than an event <em>b</em>, if <em>a</em> comes to mind more easily than <em>b</em> <span class="citation">(Angner <a href="#ref-angner2012course" role="doc-biblioref">2012</a>)</span>.</p>
 <p>As a result of people using the availability heuristic, they may underestimate the prevalence of–and place less value on–problems such as extreme poverty. These problems may be less salient than issues people in developed countries regularly encounter. For example, many of us have personal experiences with cancer. As well as potentially inducing more sympathy (see <a href="aware-distance.html#aware-distance">here</a> for more on sympathy biases), this could lead us to that people place disproportionately high value on curing cancer relative to, e.g., preventing malaria. <span class="citation">Tversky and Kahneman (<a href="#ref-tversky1973availability" role="doc-biblioref">1973</a>)</span> discussed how personal experience can influence judgments of probability in their original paper on the availability heuristic:</p>
 <blockquote>
-<p>Perhaps the most obvious demonstration of availability in real life is the impact of the fortuitous availability of incidents of scenarios. Many readers must have experienced the temporary rise in the subjective probability of an accident after seeing a car overturned by the side of the road. Similarly, many must have noticed an increase in the subjective probability that an accident or malfunction will start a thermonuclear war after seeing a movie in which such an occurrence was vividly portrayed. Continued preoccupation with an outcome may increase its availability, and hence its perceived likelihood.</p>
+<p>Perhaps the most obvious demonstration of availability in real life is the impact of the fortuitous availability of incidents of scenarios. Many readers must have experienced the temporary rise in the subjective probability of an accident after seeing a car overturned by the side of the road… Continued preoccupation with an outcome may increase its availability, and hence its perceived likelihood.</p>
 </blockquote>
 
 <div class="note">
@@ -832,7 +833,7 @@ Death by disease is 18 times more likely as accidental death, but the two were j
 <p>Every year cancer kills 8.2 million people and is responsible for 7.6 percent of all deaths and ill health worldwide (measured in terms of QALYs lost). USD 217 billion per year is spent on cancer treatment. Malaria is responsible for 3.3 percent of QALYs lost worldwide. In terms of its health impacts, cancer is about twice as bad as malaria, so if medical spending were in proportion to the scale of the problem, we would expect malaria treatment to receive about USD 100 billion per year. In reality only USD 1.6 billion per year is spent on malaria treatment: about sixty times less than we would expect.</p>
 </blockquote>
 <blockquote>
-<p>Cancer treatment receives so much more funding than malaria treatment because malaria is such a cheap problem to solve that rich countries no longer suffer from it. (It was eliminated in the US in 1951.) The fact that cancer treatment receives so much more funding than malaria treatment means that, on the margin, each of us can provide a far greater benefit for other people by funding the most effective malaria treatments in the developing world than we can by funding the most effective cancer treatments in the developed world. In the United States, public health experts regard any programme that provides one QALY for less than USD 50,000 as good value, and health programmes will often be funded even if the cost per QALY is much higher than USD 50,000. In contrast, providing the same benefit in poor countries (such as by distributing insecticide-treated bed nets to prevent the spread of malaria) can cost as little as USD 100. That means that, with a given amount of money, you can benefit people in poor countries 500 times more than people in rich countries.</p>
+<p>Cancer treatment receives so much more funding than malaria treatment because malaria is such a cheap problem to solve that rich countries no longer suffer from it. (It was eliminated in the US in 1951.) The fact that cancer treatment receives so much more funding than malaria treatment means that, on the margin, each of us can provide a far greater benefit for other people by funding the most effective malaria treatments in the developing world than we can by funding the most effective cancer treatments in the developed world.</p>
 </blockquote>
 </div>
 <p>Most people in developed countries like the US and the UK will have an experience with cancer over their lifetime, either personally or through a loved one.</p>
@@ -1262,11 +1263,11 @@ When assessing effectiveness in determining which charity to donate to (and how 
 <div id="risk_a" class="section level3" number="8.10.1">
 <h3><span class="header-section-number">8.10.1</span> “Excessive Risk aversion or loss aversion”</h3>
 </div>
-<div id="bias-towards-tangibility" class="section level3" number="8.10.2">
-<h3><span class="header-section-number">8.10.2</span> Bias towards tangibility</h3>
+<div id="bias-towards-tangibility-perhaps-not-quantitative" class="section level3" number="8.10.2">
+<h3><span class="header-section-number">8.10.2</span> Bias towards tangibility (perhaps not ‘quantitative’?)</h3>
 </div>
-<div id="corruption-aversion" class="section level3" number="8.10.3">
-<h3><span class="header-section-number">8.10.3</span> Corruption aversion</h3>
+<div id="corruption-aversion-perhaps-not-quantitative" class="section level3" number="8.10.3">
+<h3><span class="header-section-number">8.10.3</span> Corruption aversion (perhaps not ‘quantitative’?)</h3>
 </div>
 </div>
 <div id="other-possibilities" class="section level2" number="8.11">

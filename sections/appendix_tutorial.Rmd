@@ -6,6 +6,8 @@
 
 This appendix provides a brief introduction to the several types of software and processes used to creating websites such as [Increasing Effective Charitable Giving](https://daaronr.github.io/ea_giving_barriers/outline.html) and [Researching and writing for Economics students](https://daaronr.github.io/writing_econ_research/about-this-work.html). We aim to encourage others to participate in this collaborative work, and to spin off their own projects. If you would like to provide feedback or ask a question about these projects then using ['hypothes.is'](https://web.hypothes.is/) is an easy way to do so.
 
+You can also contribute content through the Airtable forms (see [above](#airtable-contrib)).
+
 
 ```{block2,  type='note'}
 The template for my bookdown projects is maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template)
