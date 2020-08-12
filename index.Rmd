@@ -164,19 +164,6 @@ my_output <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 Can define text blocks here, refer to them again and again if desired
 -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-
-<html>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148137970-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-148137970-4');
-</script>
-</html>
 
 
 # Abstract {-#abstract} 
@@ -192,3 +179,17 @@ Hunger, homelessness, mental and physical illness, environmental degradation: th
 
 Academics (in Economics, Psychology, Biology, and Philosophy) have applied a range of theories to explain what drives "inefficient altruism." Evidence comes from a variety of studies, involving surveys, observational work, laboratory experiments, and, where feasible, natural field experiments. These have not been run as part of a systematic project addressing this issue; goals, contexts, and approaches have varied as opportunities presented. Given the disparate findings, we do not have a definitive picture of which factors impact effective giving.
 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<html>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148137970-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148137970-4');
+</script>
+</html>
