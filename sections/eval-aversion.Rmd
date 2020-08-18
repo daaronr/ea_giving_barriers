@@ -244,7 +244,7 @@ to not care about the money once it has left their hands, at least when
 it is framed in terms of [money]{.underline}*
 -->
 
-#### Evidence for "people accept and value subjectivity in the charitable domain more so than for other choice domains" {-}
+#### Evidence for "people accept and value subjectivity in the charitable domain more so than for other choice domains" {#subjectivity}
 
 **[@Berman2018]** provide evidence from a series of five survey/vignette experiments; unlike those mentioned above, these (mostly) involve hypothetical choices among *multiple* causes. All experiments use standard subject pools (behavioral lab subjects or m-turkers) with reasonably large samples. All ask for hypothetical (Likert-scale) responses involving fictional charities, investments, and other scenariae; they mostly rely on between-subject responses, and their statistical analyses report reasonable tests on the relevant comparisons. 
 
