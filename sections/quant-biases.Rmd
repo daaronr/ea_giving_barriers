@@ -1,9 +1,13 @@
-# Barriers: Quantitative biases {#quant-biases}
+# Barriers: Quantitative biases (the 'distorted altruist') {#quant-biases}
 
 Recapping the discussion from the  [Conceptual breakdown of 'barriers'](#barriers-concept).
 
 Even if people *want* to be effective givers, they may simply be bad at this, because they have quantitative limitations and biases. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the "production function for good outcomes", or to misjudge  charities will lead me astray from effective giving.
 
+<div class="marginnote">
+This is related to what [@Berman2018] refer to as "distorted altruists", and [@caviola2020many] call a "belief-based" explanation.
+</div>
+ 
 Furthermore, some biases may happen to be *particularly* harmful to those charities and causes that are most effective.
 
 ## Biases in perceiving impact
@@ -658,8 +662,7 @@ to a certain extent, willing to pay a price for these."
 
 -   How this particular barrier proves problematic for effective giving?
 
-Studies  finds 'no correlation' between overhead and
-effectiveness\-- are these  convincing?
+Studies  finds 'no correlation' between overhead and effectiveness\-- are these  convincing?
 
 <div class="marginnote">
 Check claims made in "BBB Wise Giving Alliance"; Caviola et al., 2014; Gregory & Howard, 2009; Karlan, 2014; Pallotta, 2008; Sellers, 2018
@@ -983,14 +986,52 @@ Ref: @hseeUnitAskingMethod2013
 
 ## Other quantitative biases {#other_q_bias}
 
-### "Excessive Risk aversion or loss aversion" {#risk_a}
+### "Mistaken Risk aversion or loss aversion" {#risk_a}
+
+
+Thoughts... (unfold)
+
+```{block2,  type='fold'}
+
+
+"Risk aversion with respect to the impact that I make" 
+
+This would come out of (i.e., would be equivalent to) mazimising a utility function which included an 'impact term' with diminishing marginal returns to this impact. This would not in itself be a bias. 
+
+However, an individual donor might:
+
+- Misunderstand what 'risk' means in this context
+- Mis-percieve the risks/probabilities 
+- Fail to consider that other donors are giving to distinct causes, leading to some automatic diversification
+
+```
 
 ### Bias towards tangibility (perhaps not 'quantitative'?)
 
 ### Corruption aversion (perhaps not 'quantitative'?)
 
-## Other possibilities: "Risk aversion",  Lack of tangibility, Corruption aversion {#other-possibilities}
+Basic idea: (Unfold) 
 
-See Airtable
+```{block2,  type='fold'}
+A donor might overstate the importance of corruption in determining the effectiveness of a gift.  E.g., suppose...
+
+*Intervention A (e.g., bednets in country A)*: Saves one life, on average, per 5000 USD donated and used. However, for every 1 USD donated, 5 cents must be paid in bribes to enable the bednets to be distributed. Suppose--just for this example--that the paying these bribes has no other negative consequences in the short or long term.
+
+<div class="marginnote">
+This may be hard to swallow. We could also consider that the negative consequences of these bribes has already been taken into account and considering the effectiveness.
+</div>
+
+*Intervention B (e.g., building wells in country B)*: Saves one life, on average, per 10000 USD donated and used.  No bribery is involved.
+  
+Clearly,  in this artificially constructed example, donations for intervention A are more effective. Even net of the bribes, this will save more lives on average. 
+
+However,  individuals may be particularly averse to knowing that their donation is used even in some small part to pay bribes, enriching someone unjustly, even though it has a much greater positive affect on others.
+
+This is not necessarily a *bias*,  it may be an inherent part of preferences, potentially embodying non-moral-utilitarian deontological concerns. Such a preference would nonetheless lead to 'inefficient donations'  from the point of view of  someone who does not have this concern.
+
+But their *might also* be a bias involved in some cases.  Some individuals  may not have this inherent distaste for bribery, or may have a distaste for it but still primarily value donating to the most (e.g.) lifesaving-per-dollar cause. However, the silence and visceral repugnance of corruption may cause these individuals to over-estimate its impact on efficiency. (This seems related to the [availibility](#availability) bias.)
+  
+```
+
 
 
