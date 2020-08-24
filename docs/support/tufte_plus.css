@@ -355,9 +355,14 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 .note{
   display: inline-block;
-  background: #ffb972 5px center/3em no-repeat;
+  background: #faf4c8 5px center/3em no-repeat;
     border: 1px solid black;
 }
+
+.note {
+  background-image: url("support/images/notechalk.jpeg");
+}
+
 
 .def{
   padding: 1em;
@@ -372,10 +377,12 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 .inputq{
   background: #c9f5c9 50px center/3em no-repeat;
+  background-image: url("support/images/mega.png");
 }
 
 .supplement{
   background: #d6b5e5 5px center/3em no-repeat;
+  background-image: url("support/images/pills.jpeg");
 }
 
 .technote{
@@ -384,15 +391,18 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 .warning{
   background: #ffaaa5 5px center/3em no-repeat;
+  background-image: url("support/images/warning.png");
 }
 
 .tip{
   background: #f8e6ff 5px center/3em no-repeat;
+  background-image: url("support/images/tip.png");
     border: 1px solid black;
 }
 
 .compqn{
   background: #cbecf2 5px center/3em no-repeat;
+  background-image: url("support/images/micro.png");
 }
 
 .goofus{
@@ -402,6 +412,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
   display: inline-block;
   margin-bottom: 5px;
   width: 75%!important;
+  background-image: url("support/images/goofus.png");
 }
 .gallant{
   margin-bottom: 2px;
@@ -410,10 +421,11 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
   display: inline-block;
   margin-bottom: 5px;
   width: 75%!important;
+  background-image: url("support/images/crown.png");
 }
 
 .rmdtipi {
-  background-image: url("../images/tip.png");
+  background-image: url("support/images/tip.png");
 }
 
 .book .book-body .page-wrapper .page-inner {
