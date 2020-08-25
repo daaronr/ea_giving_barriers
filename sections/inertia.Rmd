@@ -3,7 +3,20 @@
 
 ## Social norms
 
+Some of the social norms around charitable giving could work against the ideas of effective altruism. @cialdini1998social define social norms as follows:
+
+> Social norms are rules and standards that are understood by members of a group, and that guide and/or constrain social behavior without the force of laws. These norms may emerge out of interaction with others; they may or may not be stated explicitly, and any sanctions for deviating from them come from social networks, not from the legal system
+
+@elster1989social explains how the use of social norms could pose a problem for how rational individuals are, and how as a result social norms could contribute to inefficiencies:
+
+> One of the most persistent cleavages in the social sciences is the opposition between two lines of thought conveniently associated with Adam Smith and Emile Durkheim, between *homo economicus* and *homo sociologicus*. Of these, the former is supposed to be guided by instrumental rationality, while the behavior of the latter is dictated by social norms... The former adapts to changing circumstances, always on the lookout for improvements. The latter is insensitive to circumstances, sticking to the prescribed behavior even if new and apparently better options become available
+
+If social norms can cause departures from efficiency, then this could be considered as one of the causes of 'ineffective' altruism. It should be noted that this comparison between *homo economicus* and *homo sociologicus* is similar to a distinction offered by @Thaler2008. They similarly argued that we should understand human behaviour by viewing people as 'homo sapiens' rather than 'homo economicus', as 'Humans' rather than 'Econs' [@Thaler2008]. While discussion from @Thaler2008, @tversky1973availability and the others in Behavioural Economics has focused more on how the use of heuristics can cause departures from rationality, as we discussed [here](#quant-biases), this section looks at the impact of social norms on the efficiency of giving. 
+
+<div class="marginnote">
 Social norms promote giving to traditional non-EA causes and fundraisers, and responding to peer requests. --> crowding out? Norms may also suggest giving to causes like AMF is "weird".
+</div>
+
 
 \
 
