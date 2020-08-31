@@ -10,6 +10,14 @@ This is related to what [@Berman2018] refer to as "distorted altruists", and [@c
  
 Furthermore, some biases may happen to be *particularly* harmful to those charities and causes that are most effective.
 
+<div class="marginnote">
+For more on the psychology of effective altruism, including cognitive biases, see [this article/talk](https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-ea/) by Stefan Schubert
+</div>
+
+<div class="marginnote">
+Also see [here](https://www.effectivealtruism.org/articles/mahendra-prasad-rational-group-decision-making/) for a discussion on effective altruism and *group* decision-making
+</div>
+
 ## Biases in perceiving impact
 
 Cognitive biases: Overweighting and underweighting probabilities, misunderstanding marginality, scope-insensitivity, Opportunity-cost Neglect. etc. Identifiable victims effect.

@@ -132,6 +132,10 @@ However, even motivating 'giving for current issues' [presents many challenges](
 See [this podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/) and the articles and books linked for a more comprehensive introduction to the long-term future.
 </div>
 
+<div class="marginnote">
+See also these resources from [effectivealtruism.org](https://www.effectivealtruism.org/), see [here](https://www.effectivealtruism.org/articles/tyler-john-representing-future-generations/) for a talk on the importance of future generations, and [here](https://www.effectivealtruism.org/articles/cause-profile-long-run-future/) for an overview of the long-run future as an issue
+</div>
+
 
 ### Discounting future payoffs/assets/welfare {-}
 
@@ -191,6 +195,10 @@ This is not the same as discounting future utility or welfare. There's no clear 
 ### Reasons the distant future may be neglected {-}
 
 Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020  outlines a few reasons why the distant future may receive less attention and action. 
+
+<div class="marginnote">
+Stefan Schubert also discusses the psychology of long-termism and existential risk [here](https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-existential-risk/)
+</div>
 
 He argues:
 

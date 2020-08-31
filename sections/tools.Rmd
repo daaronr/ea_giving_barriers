@@ -14,6 +14,10 @@ We divide this into three categories:
 
 <!-- I.e., how can we best apply well-tested emotional and behavioral approaches (evidence-based fundraising tools like “gift exchange”) to effective charities. In applying these tools, what “superpowers” and weaknesses do the most effective charities have? -->
 
+<div class="marginnote">
+Also see [here](https://www.effectivealtruism.org/articles/spencer-greenberg-effective-behavior-change/) for an article/talk on effective behaviour change by Spencer Greenberg
+</div>
+
 ## Psych/behavioral tools; applicability to EA charities 
 
 Do the standard collection of psych/behavioral tools work for EA charities, or can they be made to do so? Does EA have any 'superpowers' for any of these? E.g., presenting identifiable victim. Emotional stimuli. Gift exchange, etc.
