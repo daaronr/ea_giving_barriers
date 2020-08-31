@@ -174,7 +174,7 @@ $B_j(G_j)$: A function defining the beneficial *outcome* achieved by charity $j$
 Here, we are referring to $B_j(G_j)$ as (the improvement to) some *ultimate outcome*:  Lives saved (i.e., deaths averted), quality adjusted life years (QALY) added, QALY weighted by age, Disease-adjusted (DALY), future happy lives generated, sentient suffering averted, etc. 
 
 <div class="marginnote">
-As noted, there are disagreements over how and whether we should trade off among these outcomes. Issues such as population ethics, andthe importance of sentience and experience --- come to the fore. We will ignore these for now.
+As noted, there are disagreements over how and whether we should trade off among these outcomes. Issues such as population ethics, and the importance of sentience and experience --- come to the fore. We will ignore these for now.
 </div>
 
 

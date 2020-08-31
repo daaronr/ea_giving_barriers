@@ -17,7 +17,6 @@ output:
         collapse: section
         scroll_highlight: yes
       fontsettings:
-        theme: sepia
         family: serif
         size: 2 
       sharing:
