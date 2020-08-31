@@ -17,7 +17,7 @@ output:
         collapse: section
         scroll_highlight: yes
       fontsettings:
-        family: serif
+        family: sans
         size: 2 
       sharing:
         facebook: yes
