@@ -65,9 +65,6 @@ Effectiveness information may also affect how donors perceive the *social signal
 \
 
 
-
-
-
 Further 'grant-worthy' motivation (unfold).
 
 ```{block2,  type='fold'}
@@ -499,7 +496,7 @@ This looks like an underpowered study. They can perhaps rule out an effect great
 -->
 
 
-## Exposure to cost effectiveness and impact information (analytical information) may reduce generosity {#analytical-grinch}
+## Exposure to cost effectiveness and impact information (analytical information) might reduce generosity {#analytical-grinch}
 
 - May turn off System-1 and reduce giving
 
@@ -690,15 +687,43 @@ knitr::include_graphics(c('picsfigs/study_6_fisher_cis.png'))
 The wide confidence intervals of the odds ratios suggests that Study 6 had limited statstical power.
 
 
-#### [@caviola2020many] {#caviola}
+#### [@caviola2020many] (Information treatments, debunking/debiasing) {#caviola}
 
-- Series of hypothetical experiments, mainly on M-Turk
+<div class="marginnote">
+CONSIDER: This paper/result may not inform evaluation aversion; should we move it to another section or subsection?  
+</div>
+ 
+
+- Series of four hypothetical experiments, mainly on M-Turk
 
 > Abstract: ... Across six tasks (Studies 1a, 1b), we found support for both explanations. Among lay donors, we observed multiple misconceptions—regarding disaster relief, overhead costs, donation splitting, and the relative effectiveness of local and foreign charities—that reduced thee ffectiveness of their giving. 
 
 > Similarly, we found that they were unfamiliar with the most effective charities (Studies 2a, 2b). Debunking these misconceptions and informing people about effectiveness boosted effective donations; however, a portion of lay donors continued to give ineffectively to satisfy their personal preferences.
 
 > By contrast, a sample of self-identified effective altruists gave effectively across all tasks. 
+
+<div class="marginnote">
+Notes on this paper are adapted from Janek Kretschmer's work
+</div>
+ 
+ 
+\
+
+**Summarised findings (the authors' claim) and main points**: 
+
+- Both 'lack of knowledge' and preferences impede effective giving
+
+- It is important to understand the (ambivalent) relationship between the desire to do the most good and 'knowing about the best option' and 'actually giving to the most effective charities'
+
+- There are huge difference between 'EA donors' and the general population [?] (lay people) in term of knowledge and preferences
+
+- Study 2 finds strong effects of informing participants about GiveWell’s top-recommended charities: 
+  - e.g., in Study 2a, it resulted in 41% of participants expressing an interest in donating to one of them.
+  
+- Misconceptions about charities and preferences for ineffective options were closely linked
+ 
+\
+
 
 #### [@mulesky2020demand]
 
@@ -709,14 +734,18 @@ The wide confidence intervals of the odds ratios suggests that Study 6 had limit
 - Series of experiments giving participants a *hypothetical* choice: "you have the opportunity to donate 100 USD to i. [described charity] or ii. Some other international health charity." They needed to hypothetically allocate the 100USD completely between these two. 
 
 
-Study 1 treatments: 
+\
+
+*Study 1 treatments:* 
 
 - No Impact information
 - Null Impact information ("study found that Human Rights International did not have the desired impact, suggesting that reform is needed to increase effectiveness’.)
 - Realistic impact information ... "results of the study suggest ... [HHI} saves the life of one person for each 2000 USD spent"
 - Unrealistic impact information "... for each 150 USD spent"
 
-Study 2: Similar to Study 1, but for preventing HIV infections
+\
+
+*Study 2: Similar to Study 1, but for preventing HIV infections*
 
 <div class="marginnote">
 The third study revolves around the addition of overhead information, in with what might be seen as a fairly negative presentation. I do not discuss it here </div>
@@ -734,6 +763,27 @@ While the difference between Realistic and None was not significant by the stand
 
 
 <!--  Third, donors may reward unrealistic impact information, creating a financial incentive for charities to deceive the public into thinking they are more effective than is realistically achievable. -->
+
+
+Other comments (unfold)
+
+```{block2,  type='fold'}
+
+Comments from Janek Kretschmer:
+  
+- The author considers three aspects of the 'problem' with beliefs: no-reward for actual high impact, punishment for low impact, and reward for unrealistic high impact. This might be reduced to the simple assumption that actual cost-effectiveness information can not live up to donors’ expectations [which] makes an investment into scientific evaluation unprofitable for NGOs.
+
+- The results may largely be explained by the evaluation bias (Caviola et al. 2014). This could be emphasized further. 
+
+- In study 3, the presentation of possible overhead spending is potentially too negative. 
+
+- Also,  after accounting for overhead the difference between both scenarios is small 2000 USD vs. 1800 USD, and more mental resources are required to obtain this conclusion
+
+- More information about the “another charity option” would be helpful. Ideally, the author would provide the participants’ decision screen in the appendix.
+
+When the author wonders whether “active donors [...] differ from the general population,” she asks a relevant question (cf. Karlan and Woods, 2017). However, she simply provides the mean donation (M = 70.9 USD) to Human Health International among respondents who have donated in the past twelve months. Thus, it can be said that there is no statistical difference from the mean donation (M = 69.9 USD) among all respondents, including non-donors However,  the more interesting question “do large donors react differently to the four conditions?” remains answered. 
+
+```
 
       
 ### Evidence: Analytical information $\times$ emotional information and 'identifiable victim'
