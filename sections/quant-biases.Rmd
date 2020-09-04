@@ -114,14 +114,9 @@ evidence and evaluation of evidence
 
 **Methods**
 
-Range of hypothetical scenariae and evaluations, within-subject
-manipulations only (with clear contrasts), framed as aid/targeting not
-charitable donations, standard (mostly Economics) student subject pools.
+Range of hypothetical scenariae and evaluations, within-subject manipulations only (with clear contrasts), framed as aid/targeting not charitable donations, standard (mostly Economics) student subject pools.
 
-These authors conducted survey experiments on standard (fairly small
-sample?) student participants. They presented a variety of hypothetical
-scenariae (e.g., "imagine themselves as a government official of a
-small, developing country"\...), asking for ratings, rankings, etc.
+These authors conducted survey experiments on standard (fairly small sample?) student participants. They presented a variety of hypothetical scenariae (e.g., "imagine themselves as a government official of a small, developing country"\...), asking for ratings, rankings, etc.
 
 \
 **Findings**
@@ -149,17 +144,11 @@ Within-subject treatments here:
 
 Benefit: allow estimation of heterogeneous responses,
 
-Mixed pro and con: highlight the difference in denominators/proportions, making them
-salient; but this might also be expected to be an inhibitor of this
-(seemingly non-rational) effect, especially for the Economics-trained
-sample
+Mixed pro and con: highlight the difference in denominators/proportions, making them salient; but this might also be expected to be an inhibitor of this (seemingly non-rational) effect, especially for the Economics-trained sample
 
 \
 
-Statistical tests (ANOVA) appear strong and highly significant in most
-cases, but further investigation warranted (e.g., pre-registration?
-Evidence of specification fishing and MHT?)
-\
+Statistical tests (ANOVA) appear strong and highly significant in most cases, but further investigation warranted (e.g., pre-registration? Evidence of specification fishing and MHT?) \
 
 **@erlandssonEmotionalReactionsPerceived2015**
 

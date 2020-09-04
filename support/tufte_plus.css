@@ -144,11 +144,13 @@ blockquote footer { width: 50%;
                     font-size: 1.1rem;
                     text-align: right; }
 
-ol, ul { padding: 0;
-}
+/*
+ol, ul { width: 100%;
+         -webkit-padding-start: 5%;
+         -webkit-padding-end: 5%; }
+*/
 
-li {     width: 75%;
-}
+li { padding: 0.5rem 0; width 75% }
 
 table {
   border-top: 2px solid #111;
