@@ -144,13 +144,7 @@ blockquote footer { width: 50%;
                     font-size: 1.1rem;
                     text-align: right; }
 
-/*
-ol, ul { width: 100%;
-         -webkit-padding-start: 5%;
-         -webkit-padding-end: 5%; }
-*/
-
-li { padding: 0.5rem 0; width 75% }
+                    li { padding: 0.5rem 0; width 75% }
 
 table {
   border-top: 2px solid #111;
@@ -223,29 +217,28 @@ img {max-width: 100%;}
 }
 
 .marginnote ul { width: 100%;
-			padding-right:30%!important;
+			padding-right:5%!important;
 			line-height:1.2!important;
          -webkit-padding-start: 0%;
          -webkit-padding-end: 0%;
-      padding-left: 12px;
-          padding-right: 30px;
+      padding-left: 10px;
+          padding-right: 20px;
 
 
 }
 
 .marginnote li {width: 80%;
-				padding-right: 5%;
+    padding-right: 5%;
       padding-left: 12px;
-          padding-right: 30px;
-
+          padding-right: 20px;
 
 }
 
 .marginnote ol {font-size:90%!important;
 				width: 100%;
 				padding-right:5%!important;
-      padding-left: 12px;
-          padding-right: 30px;
+      padding-left: 10px;
+          padding-right: 20px;
 
 
 }

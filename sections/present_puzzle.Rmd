@@ -15,8 +15,8 @@ Also see [here](https://www.effectivealtruism.org/resources/) for an introductor
  When faced with the [“girl drowning in the pond”](https://www.thelifeyoucansave.org/videos#pondvideo) we are willing to sacrifice substantial wealth to save a life. However, [most people don’t make large donations to the very poor](https://givingusa.org/giving-usa-2017-total-charitable-donations-rise-to-new-high-of-390-05-billion/), in spite of evidence suggesting that lives can be saved [for less than 10,000 USD](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness). This is not for lack of generosity. There is a strong case that most donations go to charities that improve well-being far less per-dollar than others.
  
 <div class="marginnote">
-As Hoffman et al (2018) state:^[Moshe Hoffman, Bethany Burum, Dave Rand, and Martin Nowak "Hidden Motives Behind Ineffective Altruism", unpublished manuscript"
-]
+As [@burumEvolutionaryExplanationIneffective2020] state:
+
 
 "We donate billions of dollars to charities each year, yet much of our giving is ineffective. Why are we motivated to give, but not motivated to give effectively?"
 
@@ -418,6 +418,8 @@ Cognitive biases include:
 
 #### Emotion overrides cognition {-}
 
+See section \@ref(analytical-grinch) 
+
 **Presenting analytical/impact information switches off system 1**
 
 Charity effectiveness (info/deliberation) 
@@ -433,7 +435,10 @@ See:  (Karlan & W, '07),[@kogut2005singularity; @kogutIdentifiedVictimEffect2005
  
 \
 
-**Avoiding information, motivated reasoning in processing it**
+### Avoiding information, motivated reasoning in processing it
+
+[See 'Cost-benefit analysis aversion'](#cba-aversion)
+
 
 <div class="marginnote">
 See: @andreoniAvoidingAskField2017, @exleyExcusingSelfishnessCharitable2016a, @exleyImpactSurpriseDonation2018, @dellavigna2012testing, @reinstein2018commitments
@@ -445,6 +450,11 @@ See: @andreoniAvoidingAskField2017, @exleyExcusingSelfishnessCharitable2016a, @e
 #### Identity and signaling {-}
 
 Considering effectiveness in giving (and publicizing this concern) may conflict with an individual's self-perception. It may also harm her reputation, at least relative to emotional or 'deontological' helping responses.
+
+[@burumEvolutionaryExplanationIneffective2020]
+
+\
+
 
 #### Barriers: Distance (Physical, Psychological/Emotional, Social) {-}
 

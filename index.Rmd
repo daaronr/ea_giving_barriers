@@ -18,7 +18,7 @@ output:
         scroll_highlight: yes
       fontsettings:
         family: sans
-        size: 2 
+        size: 2
       sharing:
         facebook: yes
         twitter: yes
@@ -166,18 +166,37 @@ Can define text blocks here, refer to them again and again if desired
 
 
 
-# Abstract {-#abstract} 
+# Abstract {-#abstract}
 
 <div class="marginnote">
 Present or link an extended abstract here.
 </div>
- 
 
-## Non-technical abstract {-#pop-abstract} 
+
+
+While hundreds of billions of dollars are donated to charity each year, the effectiveness of these charities differ by orders of magnitude, even within similar categories. Furthermore, many individuals do not donate substantially even though they believe that the cost of saving a life is small.
+
+
+This raises two related questions:
+
+**1. “Why don’t we give more to the most effective charities and to those most in need?”,** and
+
+**2. “Why are we not more efficient with our giving choices?”**
+
+To address this, we must understand what drives giving choices, and how people react to the presentation of charity-effectiveness information.
+
+Our collaborative and dynamic synthesis considers this ‘puzzle’. We outline and categorize potential barriers to effective giving and assess the evidence for each barrier. This directly informs “how to motivate effective giving”. It also offers insights into the drivers of ‘concern for’ and ‘willingness to act’ to address the most neglected, tractable, and consequential global and humanitarian priorities.
+
+
+
+## Non-technical abstract {-#pop-abstract}
 
 Hunger, homelessness, mental and physical illness, environmental degradation: the needs are boundless, but the resources to solve these problems are limited. Even with the best of intentions and impressive generosity ([Americans give roughly 2% of their income to charity](https://www.philanthropy.com/article/The-Stubborn-2-Giving-Rate/154691#:~:text=Americans%20gave%20%24316.2%2Dbillion%20to,the%20same%20as%20in%202011.)), donors often contribute to inefficient charities -- ones that spend more but accomplish less than others that may be competing for the same funds. Each dollar given to the most effective charities (like those rated by [Givewell.org](http://givewell.org)) benefits greater numbers of people in more significant ways than the least effective ones. However, donors do not always consider "Effective Altruism" (EA) when deciding how much to give and to which organizations.
 
 Academics (in Economics, Psychology, Biology, and Philosophy) have applied a range of theories to explain what drives "inefficient altruism." Evidence comes from a variety of studies, involving surveys, observational work, laboratory experiments, and, where feasible, natural field experiments. These have not been run as part of a systematic project addressing this issue; goals, contexts, and approaches have varied as opportunities presented. Given the disparate findings, we do not have a definitive picture of which factors impact effective giving.
+
+[Introduction to the project: audio+slides](https://www.dropbox.com/s/i59imgi6tqmouj8/barriers_to_EA_overview_Screen%20Recording%202019-09-12%20at%2014.52.15.mov?dl=0)
+
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

@@ -235,8 +235,19 @@ merge_cols <- function(x, y, by) {
   dplyr::select(union(colnames(x), colnames(y))) %>% dplyr::distinct()
 }
 
-####  summary tables function(s) ####
 
+#### TODO function to Coalesce all .x and .y columns, taking .x as default, removing extensions
+
+#### Just keep .x after a join ####
+just_x  <- function(df) {
+    {{df}} %>%
+        select(!matches("\\.y$")) %>%
+               select_all(~gsub("\\.x$", "", .))
+}
+
+
+
+####  summary tables function(s) ####
 sumtab_func_full <- function(df = ADSX, depvar = donation, treatvar = TreatFirstAsk,
   caption = "") {
   df %>%
