@@ -119,6 +119,19 @@ Background mechanism:  donors’ failure to prioritize cost-effectiveness can be
 Key findings:  Across six studies, donors who deliberated were perceived as having worse moral character, were rated as less desirable as social partners, and were judged to be less guided by moral motives. On the other hand, those who deliberated were also seen as more reasonable and competent, and were judged to be more guided by pragmatic motives. Thus, there may be reputational benefits associated with deliberating. However, since deliberators are less preferred as social partners the authors believe the overall effect one reputation is negative. They do not find any differences in trustworthiness. Exhibiting empathy before deliberating reduced most negative reputational effects. People how do not give at all are seen as the worst. Surprisingly, participants judge the empathy donors as more wasteful.
 
 
+##### Burum et al, '20 
+
+
+[@burumEvolutionaryExplanationIneffective2020]
+
+Involving variation in donation multipliers and social signaling/rewards 
+
+<div class="marginnote">
+Writeup needed here
+</div>
+ 
+
+
 #### Considerations 
 
 Even if we accept the above evidence (that those who make consequentialist active choices in "sacrificial dilemmas" are seen as less trustworthy and less moral) this may not generalize to *effective giving*. Researching and selecting a more effective charity is closest to the 'track switching' scenario in these experiments, in which no substantial difference was observed, and even here it is a stretch. Choosing a more effective charity instead of a more local one (e.g., river blindess prevention in Africa versus local guide Dogs) would be hard to cast seen as taking an active step to *harm someone*. 

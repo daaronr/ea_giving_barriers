@@ -12,7 +12,7 @@ For an introduction to the field of effective altruism, see [this article](https
 Also see [here](https://www.effectivealtruism.org/resources/) for an introductory resource list for effective altruism, including articles on the key ideas of the movement, as well as books, podcasts and videos.
 </div>
  
- When faced with the [“girl drowning in the pond”](https://www.thelifeyoucansave.org/videos#pondvideo) we are willing to sacrifice substantial wealth to save a life. However, [most people don’t make large donations to the very poor](https://givingusa.org/giving-usa-2017-total-charitable-donations-rise-to-new-high-of-390-05-billion/), in spite of evidence suggesting that lives can be saved [for less than 10,000 USD](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness). This is not for lack of generosity. There is a strong case that most donations go to charities that improve well-being far less per-dollar than others.
+ When faced with the [“girl drowning in the pond”](https://www.youtube.com/watch?v=rBMZiaD-OYo) we are willing to sacrifice substantial wealth to save a life. However, [most people don’t make large donations to the very poor](https://givingusa.org/giving-usa-2017-total-charitable-donations-rise-to-new-high-of-390-05-billion/), in spite of evidence suggesting that lives can be saved [for less than 10,000 USD](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness). This is not for lack of generosity. There is a strong case that most donations go to charities that improve well-being far less per-dollar than others.
  
 <div class="marginnote">
 As [@burumEvolutionaryExplanationIneffective2020] state:

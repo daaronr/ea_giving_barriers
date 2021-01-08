@@ -10,48 +10,42 @@
 
 ## Overview
 
-**[Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle)** 
+**\@ref(present-puzzle): [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle)** 
 
 <div class="marginnote">
 Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
 </div>
 
-\
 
 
 - [Motivation and descriptives](#motivate-puzzle)
-- [Definitions - "Efficiency" versus impact](#impact-definitions)
+
+- [Definitions - "Efficiency" versus impact](#impact-definitions)\*
 
 <div class="marginnote">
-Relevant to charity 'quality ratings', overhead aversion
+\* Relevant to charity 'quality ratings', overhead aversion
 </div>
 
 
-- [Why (under what models) is this a puzzle?](#why-puzzle)
+- [Why (under what models) is this a puzzle?](#why-puzzle)\*\*
 
 <div class="marginnote">
+\*\*
+- Do people *actually care about* impact? Does moral utilitarianism matter?
 -  Economics and psych models $\rightarrow$  puzzle?
 - Models where people care about the impact of their gift or just 'amount sacrificed' (naive warm glow). 
 - Does impact map into the 'good feeling' from giving, can it do so?
 </div>
  
- 
-\
-
 - [Conceptual breakdown of 'barriers' (first presentation)](#barriers-concept)
 
+  
 
-\
 
-<div class="marginnote">
-Do people *actually care about* impact? Does moral utilitarianism matter?
-</div>
+<!-- Economic and psych models conceptualizing this --> 
 
-<!-- Economic and psych models conceptualizing this -->
 
-\
-
-**[Are charities in competition? Is the ineffective giving reducing effective giving? Ask people to give to EA charity 'instead'?](#substitution)**
+**\@ref(substitution): [Are charities in competition? Is the ineffective giving reducing effective giving? Ask people to give to EA charity 'instead'?](#substitution)**
 
 <!-- (Or put in section 2?) -->
 
@@ -60,7 +54,7 @@ rivals? Does one donation request ask (or donation itself) crowd out another, an
 
 \
 
-**[Explaining the puzzle: Barriers to EA giving and potential responses, evidence](#barriers-intro)** 
+**\@ref(barriers-intro): [Explaining the puzzle: Barriers to EA giving and potential responses, evidence](#barriers-intro)** 
 
 <!-- moved old classification to barriers_old_classification.Rmd -->
 
@@ -68,35 +62,43 @@ Here we also give a general ['conceptual' overview of these barriers](#barriers-
 
 \
 
-**[Barriers: Awareness, consideration, and distance](#aware-distance)**
+**\@ref(aware-distance): [Barriers: Awareness, consideration, and distance](#aware-distance)**
 
-<div class="marginnote">
 Whether a cause/charity is something people are aware of, feel is important/salient, and feel close to.
-</div>
 
 <div class="marginnote">
-Responses?:  (Info enhancing) social closeness of recipient 
+Responses?:  (Information enhancing) the social closeness of a recipient/beneficiary.
 </div>
 
-**[Barriers: Identity and cognitive dissonance](#identity)**
+\
+
+
+**\@ref(identity): [Barriers: Identity and cognitive dissonance](#identity)**
 
 <!-- Volunteer experience unlocks emotion and giving -->
 
-**[Barriers: Signaling and social pressures/social identity](#social)**
+\
 
-<!-- Self-interest/local public good [put elsewhere or remove??
-Social perceptions and signaling empathy vs effectiveness; related: difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness'
--->
+**\@ref(social): [Barriers: Signaling and social pressures/social identity](#social)**
 
-**[Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
+Includes, e.g., 
+
+- social perceptions and 'signaling empathy vs effectiveness' ([@caviola2020many]) 
+
+- difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness' [@burumEvolutionaryExplanationIneffective2020]
+
+
+\
+
+**\@ref(eval-aversion): [Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
  
-**[Barriers: Quantitative biases](#quant-biases)**
+**\@ref(quant-biases): [Barriers: Quantitative biases](#quant-biases)**
 
-**[Barriers: Inertia and systemic/institutional](#inertia)**
+**\@ref(inertia): [Barriers: Inertia and systemic/institutional](#inertia)**
 
-**[Tools for motivating EA giving](#tools)**
+**\@ref(tools): [Tools for motivating EA giving](#tools)**
 
-**[Conclusion; a research agenda](#conclusion-agenda)**
+**\@ref(conclusion-agenda): [Conclusion; a research agenda](#conclusion-agenda)**
 
 
 ## Structure of each 'barriers' section {#structure-barriers} 

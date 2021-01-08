@@ -16,8 +16,12 @@ Typically, the most effective charities operate in developing countries, with al
 
 Construal theory,  psychological distance,  moral distance/moral circles
 
+
+- Moral expansiveness <!-- TODO: add content from Crimston -->
+
 <div class="marginnote">
 Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychological distance" (PDF). Psychological Review. 117 (2): 440–463. doi:10.1037/a0018963
+@crimstonPsychologyMoralExpansiveness2018
 </div>
 
 <!-- ?cuddy\_ea\_2007 (Sudhir ea, \'16) -->

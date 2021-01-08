@@ -1,6 +1,6 @@
-fig:unnamed-chunk-16
-tab:unnamed-chunk-63
-fig:unnamed-chunk-68
+fig:unnamed-chunk-17
+tab:unnamed-chunk-65
+fig:unnamed-chunk-70
 outline
 overview
 structure-barriers
@@ -15,6 +15,7 @@ effectiveness-specific-work
 def-impact
 why-puzzle
 barriers-concept
+avoiding-information-motivated-reasoning-in-processing-it
 substitution
 theoretical-framework-and-concerns
 previous-approaches-and-evidence
@@ -40,6 +41,7 @@ social
 signaling-empathy
 theory-and-argument
 evidence-for-this-barrier
+burum-et-al-20
 considerations
 indirect-evidence
 eval-aversion

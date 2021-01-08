@@ -287,7 +287,11 @@ code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
         font-size: 1.125rem;
         line-height: 1.6; }
 
-pre code { font-size: 1rem; }
+pre code { 
+  font-size: 1rem; 
+  white-space: inherit;
+  width: 75%; /* Width for chunk outputs in R */ 
+}
 
 p code { white-space: inherit; }
 
@@ -295,7 +299,7 @@ h1 code, h2 code, h3 code { font-size: 0.80em; }
 
 .marginnote code, .sidenote code { font-size: 1rem; }
 
-pre { width: 70%;
+pre { width: 75%;
            overflow-x: auto; }
 
 .fullwidth { max-width: 90%;
@@ -303,6 +307,13 @@ pre { width: 70%;
 
 span.newthought { font-variant: small-caps;
                   font-size: 1.2em; }
+
+.sourceCode{ /* Create a wrapper for Rmd chunk source code */
+  word-wrap: normal;
+  white-space: pre;
+  max-width: 75%;
+  clear:both;
+}
 
 input.margin-toggle { display: none; }
 

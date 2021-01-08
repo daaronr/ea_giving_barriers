@@ -669,8 +669,15 @@ knitr::include_graphics(c('picsfigs/bergh_pooled_regs.png'))
 
 ```
 
+Notes on above table:
+
+```{block2,  type='fold'}
+
 (Note that in the above, all binary variables are 'effect coded')
 Considering 'Don share' (the share of the endowment contributed), as well as the linear probability model, we see that the pooled effect of the effectiveness information is fairly tightly bounded around zero. Even at the 95% lower bound, the effect is no more than an 11% reduction in the share donated (.04/0.35), and a 10% reduction in incidence (.06/.62).
+
+```
+
 
 \
 Study 6 had the most straightforward 'impact information' as per our definitions.
@@ -696,14 +703,16 @@ CONSIDER: This paper/result may not inform evaluation aversion; should we move i
 
 - Series of four hypothetical experiments, mainly on M-Turk
 
-> Abstract: ... Across six tasks (Studies 1a, 1b), we found support for both explanations. Among lay donors, we observed multiple misconceptions—regarding disaster relief, overhead costs, donation splitting, and the relative effectiveness of local and foreign charities—that reduced thee ffectiveness of their giving. 
+> Abstract: ... Across six tasks (Studies 1a, 1b), we found support for both explanations. Among lay donors, we observed multiple misconceptions—regarding disaster relief, overhead costs, donation splitting, and the relative effectiveness of local and foreign charities—that reduced the effectiveness of their giving. [\*]
 
-> Similarly, we found that they were unfamiliar with the most effective charities (Studies 2a, 2b). Debunking these misconceptions and informing people about effectiveness boosted effective donations; however, a portion of lay donors continued to give ineffectively to satisfy their personal preferences.
+> Similarly, we found that they were unfamiliar with the most effective charities (Studies 2a, 2b). Debunking these misconceptions and informing people about effectiveness boosted effective donations [\*]; however, a portion of lay donors continued to give ineffectively to satisfy their personal preferences.
 
-> By contrast, a sample of self-identified effective altruists gave effectively across all tasks. 
+> By contrast, a sample of self-identified effective altruists gave [\*] effectively across all tasks. 
 
 <div class="marginnote">
-Notes on this paper are adapted from Janek Kretschmer's work
+Notes on this paper are adapted from Janek Kretschmer's work.
+
+\* All experiments in this paper involved hypothetical (stated) giving 'choices'. 
 </div>
  
  
@@ -825,10 +834,9 @@ Researchers gave study participants the opportunity to donate $0-5 to famine rel
 
 #### Bergh and Reinstein, 2020, SPSS {-}
 
-
 ## Overall 'net' responses to charity ratings {#ratings}
 
-There is a small body of evidence on how charity quality ratings (which are not typically 'impact' ratings as we have defined it) affect, or at least correlate with a  charity's fundraising success. The effect of these ratings presumably relates both to individual's willingness to seek out and process this information ([as in our discussion of CBA](#cba-aversion)), and to the impact of this information on an individual's generosity (as in our discussion of . If individual's strongly avoided seeing this information and ignored being exposed to this information 
+There is a small body of evidence on how charity quality ratings (which are not typically 'impact' ratings as we have defined it) affect, or at least correlate with a  charity's fundraising success. The effect of these ratings presumably relates both to individual's willingness to seek out and process this information ([as in our discussion of CBA](#cba-aversion)), and to the impact of this information on an individual's generosity... .
 
 ### Evidence on responses to charity ratings
 
