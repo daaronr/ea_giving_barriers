@@ -1,0 +1,38 @@
+#  Barriers: Persistent and systematic incorrect empirical beliefs {#factual}
+
+Recapping the discussion from the  [Conceptual breakdown of 'barriers'](#barriers-concept).
+
+There is abundant evidence that people are misinformed (or at least *state* incorrect beliefs) about the true state of the world, in systematic ways, And that misconceptions persist over time. 
+
+Some of these misconceptions may prove particularly prenicious to effective charitable giving; others may simply lead to "departure from optimization" in giving choices. 
+
+We considered whether to present these as 'fundamental barriers', rather than the results of other fundamental biases and norms. For example:
+
+- People may make statements about the effectiveness of humanitarian aid and charity that are clearly too pessimistic. However, these statements may come from a desire to *justify* one's lack of support for this, rather than being a deeply-held belief. (ref: that 'Elephant in the Brain' discussion)
+
+- Limited knowledge about the welfare/suffering/poverty of people and animals, and about long-term existential risks may result from *[distance](#aware-distance)*: physical, experiential, cultural, etc.
+
+- Common [quantitative biases](#quant-biases) may foster and enhance these misconceptions
+
+
+Fundamentally there are systematic reasons why we might *not* expect incorrect beliefs that are relevant to charitable donation choices to be corrected. The incentives and the information-feedback is not clearly present. Charitable giving is a *creedence* good for the donor. Charitable organizations may often raise more money by *not* correcting these misconceptions, and even by enhancing them. 
+
+
+\
+
+## Some key misconceptions;  evidence these may have an effect
+
+- Differences in effectiveness across charities (understated)
+
+
+
+- Cost of saving a life (understated)
+
+- Relative global affluence (understated): @nairMisperceptionsRelativeAffluence2018
+
+
+## Content to be filled in here 
+
+
+
+

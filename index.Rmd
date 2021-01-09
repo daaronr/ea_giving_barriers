@@ -192,17 +192,26 @@ To address this, we must understand what drives giving choices, and perhaps, how
 Our collaborative and dynamic synthesis considers this ‘puzzle’. We outline and categorize potential barriers to effective giving and assess the evidence for each barrier. This directly informs “how to motivate effective giving”. It also offers insights into the drivers of ‘concern for’ and ‘willingness to act’ to address the most neglected, tractable, and consequential global and humanitarian priorities.
 
 
-Notes for Global Priorities Institute presentation (unfold)
+\
+
+*Why should 'Effective Altruists' and those interested in long-term global priorities care about the effective/ineffective giving behavior of 'typical' individuals?* --  notes for Global Priorities Institute presentation (unfold)
 
 ```{block2,  type='fold'}
 
+*Private 'small donor' donations are a substantial part of the global economy* (100s of Billions)...
+
+... but most/much seems orders of magnitude less effective by any reasonable (cosmopolitan) consideration. Bold research and action into global priorities is and will be largely funded by private giving. 
+
+*How much private charitable giving is there?*  About $300b/year from the US alone (note appropriate caveats here; much of this goes to local 'club goods' like churches etc). (TODO: add some citations here, and give an overview of donation by 'mega-donors' versus the lay-person; see, e.g., recent paper by Meer et al.)
 
 
-GPI: Donations are a substantial part of global economy (100s of Billions), but most/much seems OOM less effective by any reasonable (cosmopolitan) consideration. Bold research and action into global priorities is and will be largely funded by private giving. 
+*How does this compare to the 'available pot of EA funds?'* GoodVentures spent 272 million USD in 2019, GiveWell 'directed' roughly 161 mln/year (add citations)
 
-'(Lack of) effective giving (choices)' = a concrete, tangible, incentive-aligned measure of  ‘concern for’ and ‘willingness to act’ towards neglected/tractable/consequential global priorities, including long-term well-being and existential threats.  
+*Giving is also an important metric for beliefs and attitudes:*
+  
+'(Lack of) effective giving (choices)' = a concrete, tangible, incentive-aligned measure of  ‘concern for’ and ‘willingness to act’ towards neglected/tractable/consequential global priorities, including long-term well-being and existential threats.
 
-'Drivers and barriers to effective giving are also drivers/barriers to EA personal, professional and political choices'.
+Drivers and barriers to effective giving are also drivers/barriers to effective pro-social personal, professional and political choices.
  
 \
  
@@ -212,11 +221,11 @@ Relation to GPI research :
 
 2. Knowing the 'barriers' requires a clear definition of the priorities.  
 
-3. The 'enlightement project', which involves overcoming many of these barriers, may itself be a priority, e.g., in preventing existential risk
+3. The 'enlightement project', which involves overcoming many of these barriers, may itself be a priority, e.g., in preventing existential risk.
 
 ```
   
-## Non-technical abstract {-#pop-abstract}
+## Non-technical abstract (for mainstream audiences) {-#pop-abstract}
 
 Hunger, homelessness, mental and physical illness, environmental degradation, the suffering of humans and animals: the needs are boundless, but the resources to solve these problems are limited. Even with the best of intentions and impressive generosity ([Americans give roughly 2% of their income to charity](https://www.philanthropy.com/article/The-Stubborn-2-Giving-Rate/154691#:~:text=Americans%20gave%20%24316.2%2Dbillion%20to,the%20same%20as%20in%202011.)), donors often contribute to inefficient charities -- ones that spend more but accomplish less than othersthat may be competing for the same funds.\*\* Each dollar given to the most effective charities (like those rated by [Givewell.org](http://givewell.org)) benefits greater numbers of people in more significant ways than the least effective ones. However, donors do not always consider effectiveness when deciding how much to give and to which organizations.
 

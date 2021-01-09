@@ -1028,7 +1028,7 @@ However,  individuals may be particularly averse to knowing that their donation 
 
 This is not necessarily a *bias*,  it may be an inherent part of preferences, potentially embodying non-moral-utilitarian deontological concerns. Such a preference would nonetheless lead to 'inefficient donations'  from the point of view of  someone who does not have this concern.
 
-But their *might also* be a bias involved in some cases.  Some individuals  may not have this inherent distaste for bribery, or may have a distaste for it but still primarily value donating to the most (e.g.) lifesaving-per-dollar cause. However, the silence and visceral repugnance of corruption may cause these individuals to over-estimate its impact on efficiency. (This seems related to the [availibility](#availability) bias.)
+But there *might also* be a bias involved in some cases.  Some individuals  may not have this inherent distaste for bribery, or may have a distaste for it but still primarily value donating to the most (e.g.) lifesaving-per-dollar cause. However, the silence and visceral repugnance of corruption may cause these individuals to over-estimate its impact on efficiency. (This seems related to the [availibility](#availability) bias.)
   
 ```
 

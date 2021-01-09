@@ -62,6 +62,9 @@ evidence-analytical-information-times-emotional-information-and-identifiable-vic
 ratings
 evidence-on-responses-to-charity-ratings
 notes
+factual
+some-key-misconceptions-evidence-these-may-have-an-effect
+content-to-be-filled-in-here
 quant-biases
 biases-in-perceiving-impact
 other-biases-driving-departures-from-efficiency
