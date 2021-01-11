@@ -1,6 +1,6 @@
-fig:unnamed-chunk-17
-tab:unnamed-chunk-65
-fig:unnamed-chunk-70
+fig:unnamed-chunk-18
+tab:unnamed-chunk-66
+fig:unnamed-chunk-71
 outline
 overview
 structure-barriers
