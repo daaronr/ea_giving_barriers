@@ -1,6 +1,6 @@
 fig:unnamed-chunk-18
 tab:unnamed-chunk-66
-fig:unnamed-chunk-71
+fig:unnamed-chunk-73
 outline
 overview
 structure-barriers
@@ -131,6 +131,7 @@ adding-referencescitations
 specific-system-for-adding-references-in-this-project
 a-test-of-adding-references
 how-to-build-and-view-the-book
+exporting-rmarkdown-to-google-docsdrive
 joining-this-project
 creating-a-branch-and-a-pull-request
 github-web-page-content

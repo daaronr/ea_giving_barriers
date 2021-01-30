@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
-<meta name="date" content="2021-01-11" />
+<meta name="date" content="2021-01-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,7 +51,6 @@
 
 
 
-<script src="book_assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- font families -->
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
@@ -132,6 +131,7 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -348,8 +348,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>9.10</b> Other quantitative biases</a>
 <ul>
 <li class="chapter" data-level="9.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>9.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
-<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
-<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative?’)</a></li>
+<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative?’)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>10</b> Barriers: Inertia and systemic/institutional</a>
@@ -407,7 +407,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="13.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#specific-system-for-adding-references-in-this-project"><i class="fa fa-check"></i><b>13.6.7</b> Specific system for adding references in this project</a></li>
 <li class="chapter" data-level="13.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#a-test-of-adding-references"><i class="fa fa-check"></i><b>13.6.8</b> A test of adding references</a></li>
 </ul></li>
-<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a></li>
+<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a>
+<ul>
+<li class="chapter" data-level="13.7.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#exporting-rmarkdown-to-google-docsdrive"><i class="fa fa-check"></i><b>13.7.1</b> Exporting Rmarkdown to Google Docs/Drive</a></li>
+</ul></li>
 <li class="chapter" data-level="13.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>13.8</b> Joining this project</a>
 <ul>
 <li class="chapter" data-level="13.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>13.8.1</b> Creating a Branch and a ‘pull request’</a></li>
@@ -446,25 +449,25 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <h1><span class="header-section-number">10</span> Barriers: Inertia and systemic/institutional</h1>
 <div id="social-norms" class="section level2" number="10.1">
 <h2><span class="header-section-number">10.1</span> Social norms</h2>
-<p>Some of the social norms around charitable giving could work against the ideas of effective altruism. <span class="citation">Cialdini and Trost (<a href="#ref-cialdini1998social" role="doc-biblioref">1998</a>)</span> define social norms as follows:</p>
+<p>Some of the social norms around charitable giving could work against the ideas of effective altruism. <span class="citation"><a href="references.html#ref-cialdini1998social" role="doc-biblioref">Cialdini and Trost</a> (<a href="references.html#ref-cialdini1998social" role="doc-biblioref">1998</a>)</span> define social norms as follows:</p>
 <blockquote>
 <p>Social norms are rules and standards that are understood by members of a group, and that guide and/or constrain social behavior without the force of laws. These norms may emerge out of interaction with others; they may or may not be stated explicitly, and any sanctions for deviating from them come from social networks, not from the legal system</p>
 </blockquote>
-<p><span class="citation">Elster (<a href="#ref-elster1989social" role="doc-biblioref">1989</a>)</span> explains how the use of social norms could pose a problem for how rational individuals are, and how as a result social norms could contribute to inefficiencies:</p>
+<p><span class="citation"><a href="references.html#ref-elster1989social" role="doc-biblioref">Elster</a> (<a href="references.html#ref-elster1989social" role="doc-biblioref">1989</a>)</span> explains how the use of social norms could pose a problem for how rational individuals are, and how as a result social norms could contribute to inefficiencies:</p>
 <blockquote>
 <p>One of the most persistent cleavages in the social sciences is the opposition between two lines of thought conveniently associated with Adam Smith and Emile Durkheim, between <em>homo economicus</em> and <em>homo sociologicus</em>. Of these, the former is supposed to be guided by instrumental rationality, while the behavior of the latter is dictated by social norms… The former adapts to changing circumstances, always on the lookout for improvements. The latter is insensitive to circumstances, sticking to the prescribed behavior even if new and apparently better options become available</p>
 </blockquote>
-<p>If social norms can cause departures from efficiency, then this could be considered as one of the causes of ‘ineffective’ altruism. It should be noted that this comparison between <em>homo economicus</em> and <em>homo sociologicus</em> is similar to a distinction offered by <span class="citation">Thaler and Sunstein (<a href="#ref-Thaler2008" role="doc-biblioref">2008</a>)</span>. They similarly argued that we should understand human behaviour by viewing people as ‘homo sapiens’ rather than ‘homo economicus’, as ‘Humans’ rather than ‘Econs’ <span class="citation">(Thaler and Sunstein <a href="#ref-Thaler2008" role="doc-biblioref">2008</a>)</span>. While discussion from <span class="citation">Thaler and Sunstein (<a href="#ref-Thaler2008" role="doc-biblioref">2008</a>)</span>, <span class="citation">Tversky and Kahneman (<a href="#ref-tversky1973availability" role="doc-biblioref">1973</a>)</span> and the others in Behavioural Economics has focused more on how the use of heuristics can cause departures from rationality, as we discussed <a href="quant-biases.html#quant-biases">here</a>, this section looks at the impact of social norms on the efficiency of giving.</p>
+<p>If social norms can cause departures from efficiency, then this could be considered as one of the causes of ‘ineffective’ altruism. It should be noted that this comparison between <em>homo economicus</em> and <em>homo sociologicus</em> is similar to a distinction offered by <span class="citation"><a href="references.html#ref-Thaler2008" role="doc-biblioref">Thaler and Sunstein</a> (<a href="references.html#ref-Thaler2008" role="doc-biblioref">2008</a>)</span>. They similarly argued that we should understand human behaviour by viewing people as ‘homo sapiens’ rather than ‘homo economicus,’ as ‘Humans’ rather than ‘Econs’ <span class="citation">(<a href="references.html#ref-Thaler2008" role="doc-biblioref">Thaler and Sunstein 2008</a>)</span>. While discussion from <span class="citation"><a href="references.html#ref-Thaler2008" role="doc-biblioref">Thaler and Sunstein</a> (<a href="references.html#ref-Thaler2008" role="doc-biblioref">2008</a>)</span>, <span class="citation"><a href="references.html#ref-tversky1973availability" role="doc-biblioref">Amos Tversky and Kahneman</a> (<a href="references.html#ref-tversky1973availability" role="doc-biblioref">1973</a>)</span> and the others in Behavioural Economics has focused more on how the use of heuristics can cause departures from rationality, as we discussed <a href="quant-biases.html#quant-biases">here</a>, this section looks at the impact of social norms on the efficiency of giving.</p>
 <div class="marginnote">
-<p>Social norms promote giving to traditional non-EA causes and fundraisers, and responding to peer requests. –&gt; crowding out? Norms may also suggest giving to causes like AMF is “weird”.</p>
+<p>Social norms promote giving to traditional non-EA causes and fundraisers, and responding to peer requests. –&gt; crowding out? Norms may also suggest giving to causes like AMF is “weird.”</p>
 </div>
 <p><br />
 </p>
 <p><strong>Asks</strong> (Own category?)</p>
-<p>Donation requests increase the propensity to give <span class="citation">(Yörük <a href="#ref-yorukHowResponsiveAre2009" role="doc-biblioref">2009</a>)</span>. There is a conventional wisdom that “most donations occur in response to an ask”. If there are systematic asks for non-EA causes this may crowd out EG.</p>
+<p>Donation requests increase the propensity to give <span class="citation">(<a href="references.html#ref-yorukHowResponsiveAre2009" role="doc-biblioref">BarÄÅŸ K. Yörük 2009</a>)</span>. There is a conventional wisdom that “most donations occur in response to an ask.” If there are systematic asks for non-EA causes this may crowd out EG.</p>
 <div id="subjectivity-in-the-charitable-domain--" class="section level3" number="10.1.1">
 <h3><span class="header-section-number">10.1.1</span> Subjectivity in the charitable domain -</h3>
-<p>Evidence from <span class="citation">Berman et al. (<a href="#ref-Berman2018" role="doc-biblioref">2018</a>)</span></p>
+<p>Evidence from <span class="citation"><a href="references.html#ref-Berman2018" role="doc-biblioref">Berman et al.</a> (<a href="references.html#ref-Berman2018" role="doc-biblioref">2018</a>)</span></p>
 <p>The idea that ‘charity is a subjective decision’ may constitute a social norm, a systemic factor inhibiting effective giving. We discuss this in more detail under <a href="eval-aversion.html#subjectivity">evaluation aversion</a>, particularly in subsection <a href="eval-aversion.html#subjectivity">7.2.3.1</a>.</p>
 </div>
 </div>
@@ -477,27 +480,6 @@ Mulesky:
 Even international health and humanitarian charities recognized as being unusually transparent keep details about their cost-effectiveness confidential. For example, in 2012 a representative from Médicines San Frontières told GiveWell that it regularly conducts program evaluations, but only a small number were publicly available. According to MSF, “sharing more program reports would take excessive time and resources” (GiveWell, 2012). Informal discussions with evaluation staff reveal that charities sometimes intentionally conceal the information from the public when the evaluations demonstrate the ineffectiveness of the organization’s program. For example, according to an interview with an evaluation consultant, Handicap International (HI) hired external evaluators to assess the impact of its antenatal care program for women in the Democratic Republic of the Congo three years into the project. The results “showed that the program hadn’t met any of its targets – it was a failed program with all the investment wasted.” After presenting the evaluation’s findings to staff in Brussels, the report was never disseminated beyond those in attendance, and “for all anyone knew it was a ‘success’...The message didn’t penetrate within the organization
 -->
 
-</div>
-</div>
-<h3> List of references</h3>
-<div id="refs" class="references">
-<div id="ref-Berman2018">
-<p>Berman, Jonathan Z., Alixandra Barasch, Emma E. Levine, and Deborah A. Small. 2018. “Impediments to Effective Altruism: The Role of Subjective Preferences in Charitable Giving.” <em>Psychological Science</em>, 095679761774764. <a href="https://doi.org/10.1177/0956797617747648">https://doi.org/10.1177/0956797617747648</a>.</p>
-</div>
-<div id="ref-cialdini1998social">
-<p>Cialdini, Robert B, and Melanie R Trost. 1998. “Social Influence: Social Norms, Conformity and Compliance.”</p>
-</div>
-<div id="ref-elster1989social">
-<p>Elster, Jon. 1989. “Social Norms and Economic Theory.” <em>Journal of Economic Perspectives</em> 3 (4): 99–117.</p>
-</div>
-<div id="ref-Thaler2008">
-<p>Thaler, Richard H, and Cass R Sunstein. 2008. <em>Nudge: Improving Decisions About Health, Wealth, and Happiness</em>. Yale University Press.</p>
-</div>
-<div id="ref-tversky1973availability">
-<p>Tversky, Amos, and Daniel Kahneman. 1973. “Availability: A Heuristic for Judging Frequency and Probability.” <em>Cognitive Psychology</em> 5 (2): 207–32.</p>
-</div>
-<div id="ref-yorukHowResponsiveAre2009">
-<p>Yörük, Barış K. 2009. “How Responsive Are Charitable Donors to Requests to Give?” <em>Journal of Public Economics</em> 93 (9-10): 1111–7. <a href="https://doi.org/10.1016/J.JPUBECO.2009.06.001">https://doi.org/10.1016/J.JPUBECO.2009.06.001</a>.</p>
 </div>
 </div>
             </section>

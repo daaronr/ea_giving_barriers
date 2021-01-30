@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
-<meta name="date" content="2021-01-11" />
+<meta name="date" content="2021-01-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,7 +51,6 @@
 
 
 
-<script src="book_assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- font families -->
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
@@ -132,6 +131,7 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -348,8 +348,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>9.10</b> Other quantitative biases</a>
 <ul>
 <li class="chapter" data-level="9.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>9.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
-<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
-<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative?’)</a></li>
+<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative?’)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>10</b> Barriers: Inertia and systemic/institutional</a>
@@ -407,7 +407,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="13.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#specific-system-for-adding-references-in-this-project"><i class="fa fa-check"></i><b>13.6.7</b> Specific system for adding references in this project</a></li>
 <li class="chapter" data-level="13.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#a-test-of-adding-references"><i class="fa fa-check"></i><b>13.6.8</b> A test of adding references</a></li>
 </ul></li>
-<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a></li>
+<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a>
+<ul>
+<li class="chapter" data-level="13.7.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#exporting-rmarkdown-to-google-docsdrive"><i class="fa fa-check"></i><b>13.7.1</b> Exporting Rmarkdown to Google Docs/Drive</a></li>
+</ul></li>
 <li class="chapter" data-level="13.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>13.8</b> Joining this project</a>
 <ul>
 <li class="chapter" data-level="13.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>13.8.1</b> Creating a Branch and a ‘pull request’</a></li>
@@ -445,417 +448,408 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div id="references" class="section level1" number="14">
 <h1><span class="header-section-number">14</span> List of references</h1>
 
-<div id="refs" class="references hanging-indent">
-<div>
-<p>Ackerman, Frank. 2008. “Climate Economics in Four Easy Pieces.” <em>Development</em> 51 (3): 325–31.</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-ackerman2008climate" class="csl-entry">
+<p>Ackerman, Frank. 2008. <span>“Climate Economics in Four Easy Pieces.”</span> <em>Development</em> 51 (3): 325–31.</p>
 </div>
-<div>
-<p>Adena, Maja, and Steffen Huck. 2019. “Giving Once, Giving Twice: A Two-Period Field Experiment on Intertemporal Crowding in Charitable Giving.” <em>Journal of Public Economics</em> 172. <a href="https://doi.org/10.1016/j.jpubeco.2019.01.002">https://doi.org/10.1016/j.jpubeco.2019.01.002</a>.</p>
+<div id="ref-adenaGivingOnceGiving2019" class="csl-entry">
+<p>Adena, Maja, and Steffen Huck. 2019. <span>“Giving Once, Giving Twice: <span>A</span> Two-Period Field Experiment on Intertemporal Crowding in Charitable Giving.”</span> <em>Journal of Public Economics</em> 172. <a href="https://doi.org/10.1016/j.jpubeco.2019.01.002">https://doi.org/10.1016/j.jpubeco.2019.01.002</a>.</p>
 </div>
-<div>
-<p>Aggarwal, Pankaj. 2004. “The Effects of Brand Relationship Norms on Consumer Attitudes and Behavior.” <em>Journal of Consumer Research</em> 31 (1): 87–101.</p>
+<div id="ref-aggarwal2004effects" class="csl-entry">
+<p>Aggarwal, Pankaj. 2004. <span>“The Effects of Brand Relationship Norms on Consumer Attitudes and Behavior.”</span> <em>Journal of Consumer Research</em> 31 (1): 87–101.</p>
 </div>
-<div>
-<p>Aknin, Lara B, Elizabeth W Dunn, Ashley V Whillans, Adam M Grant, and Michael I Norton. 2013. “Making a Difference Matters: Impact Unlocks the Emotional Benefits of Prosocial Spending.” <em>Journal of Economic Behavior &amp; Organization</em>. <a href="https://doi.org/10.1016/j.jebo.2013.01.008">https://doi.org/10.1016/j.jebo.2013.01.008</a>.</p>
+<div id="ref-Aknin2013" class="csl-entry">
+<p>Aknin, Lara B, Elizabeth W Dunn, Ashley V Whillans, Adam M Grant, and Michael I Norton. 2013. <span>“Making a Difference Matters: <span>Impact</span> Unlocks the Emotional Benefits of Prosocial Spending.”</span> <em>Journal of Economic Behavior &amp; Organization</em>. <a href="https://doi.org/10.1016/j.jebo.2013.01.008">https://doi.org/10.1016/j.jebo.2013.01.008</a>.</p>
 </div>
-<div>
-<p>Andreoni, James, Justin M Rao, and Hannah Trachtman. 2017. “Avoiding the Ask: A Field Experiment on Altruism, Empathy, and Charitable Giving.” <em>Journal of Political Economy</em> 125 (3): 625–53.</p>
+<div id="ref-andreoniAvoidingAskField2017" class="csl-entry">
+<p>Andreoni, James, Justin M Rao, and Hannah Trachtman. 2017. <span>“Avoiding the Ask: <span>A</span> Field Experiment on Altruism, Empathy, and Charitable Giving.”</span> <em>Journal of Political Economy</em> 125 (3): 625–53.</p>
 </div>
-<div>
-<p>Angner, Erik. 2012. <em>A Course in Behavioral Economics</em>. Macmillan International Higher Education.</p>
+<div id="ref-angner2012course" class="csl-entry">
+<p>Angner, Erik. 2012. <em>A Course in Behavioral Economics</em>. <span>Macmillan International Higher Education</span>.</p>
 </div>
-<div>
-<p>Baron, Jonathan. 1997. “Confusion of Relative and Absolute Risk in Valuation.” <em>Journal of Risk and Uncertainty</em> 14 (3): 301–9. <a href="https://doi.org/10.1023/A:1007796310463">https://doi.org/10.1023/A:1007796310463</a>.</p>
+<div id="ref-Baron1997" class="csl-entry">
+<p>Baron, Jonathan. 1997. <span>“Confusion of Relative and Absolute Risk in Valuation.”</span> <em>Journal of Risk and Uncertainty</em> 14 (3): 301–9. <a href="https://doi.org/10.1023/A:1007796310463">https://doi.org/10.1023/A:1007796310463</a>.</p>
 </div>
-<div>
-<p>Baron, Jonathan, and Ewa Szymanska. 2011. “Heuristics and Biases in Charity.”</p>
+<div id="ref-baron2011heuristics" class="csl-entry">
+<p>Baron, Jonathan, and Ewa Szymanska. 2011. <span>“Heuristics and Biases in Charity.”</span></p>
 </div>
-<div>
-<p>Benartzi, Shlomo, and Richard H Thaler. 2007. “Heuristics and Biases in Retirement Savings Behavior.” <em>The Journal of Economic Perspectives</em>, 81–104.</p>
+<div id="ref-Benartzi2007" class="csl-entry">
+<p>Benartzi, Shlomo, and Richard H Thaler. 2007. <span>“Heuristics and Biases in Retirement Savings Behavior.”</span> <em>The Journal of Economic Perspectives</em>, 81–104.</p>
 </div>
-<div>
-<p>Bergh, Robin, and David Reinstein. 2020. “Empathic and Numerate Giving: The Joint Effects of Victim Images and Charity Evaluations.” <em>Social Psychological and Personality Science</em>, 1948550619893968.</p>
+<div id="ref-bergh2020empathic" class="csl-entry">
+<p>Bergh, Robin, and David Reinstein. 2020. <span>“Empathic and Numerate Giving: <span>The</span> Joint Effects of Victim Images and Charity Evaluations.”</span> <em>Social Psychological and Personality Science</em>, 1948550619893968.</p>
 </div>
-<div>
-<p>Berman, Jonathan Z., Alixandra Barasch, Emma E. Levine, and Deborah A. Small. 2018. “Impediments to Effective Altruism: The Role of Subjective Preferences in Charitable Giving.” <em>Psychological Science</em>, 095679761774764. <a href="https://doi.org/10.1177/0956797617747648">https://doi.org/10.1177/0956797617747648</a>.</p>
+<div id="ref-Berman2018" class="csl-entry">
+<p>Berman, Jonathan Z., Alixandra Barasch, Emma E. Levine, and Deborah A. Small. 2018. <span>“Impediments to Effective Altruism: <span>The</span> Role of Subjective Preferences in Charitable Giving.”</span> <em>Psychological Science</em>, 095679761774764. <a href="https://doi.org/10.1177/0956797617747648">https://doi.org/10.1177/0956797617747648</a>.</p>
 </div>
-<div>
-<p>Borgloh, Sarah, Astrid Dannenberg, and Bodo Aretz. 2013. “Small Is BeautifulExperimental Evidence of Donors’ Preferences for Charities.” <em>Economics Letters</em> 120 (2): 242–44.</p>
+<div id="ref-borgloh2013small" class="csl-entry">
+<p>Borgloh, Sarah, Astrid Dannenberg, and Bodo Aretz. 2013. <span>“Small Is Beautiful<span><span>Experimental</span></span> Evidence of Donors’ Preferences for Charities.”</span> <em>Economics Letters</em> 120 (2): 242–44.</p>
 </div>
-<div>
-<p>Bowman, Woods. 2006. “Should Donors Care About Overhead Costs? Do They Care?” <em>Nonprofit and Voluntary Sector Quarterly</em> 35 (2): 288–310.</p>
+<div id="ref-bowman2006should" class="csl-entry">
+<p>Bowman, Woods. 2006. <span>“Should Donors Care about Overhead Costs? <span>Do</span> They Care?”</span> <em>Nonprofit and Voluntary Sector Quarterly</em> 35 (2): 288–310.</p>
 </div>
-<div>
-<p>Brewer, Marilynn B, and Wendi Gardner. 1996. “Who Is This" We"? Levels of Collective Identity and Self Representations.” <em>Journal of Personality and Social Psychology</em> 71 (1): 83.</p>
+<div id="ref-brewer1996we" class="csl-entry">
+<p>Brewer, Marilynn B, and Wendi Gardner. 1996. <span>“Who Is This<span>"</span> <span>We</span><span>"</span>? <span>Levels</span> of Collective Identity and Self Representations.”</span> <em>Journal of Personality and Social Psychology</em> 71 (1): 83.</p>
 </div>
-<div>
-<p>Brown, A L, J Meer, and J F Williams. 2016. “Social Distance and Quality Ratings in Charity Choice.” <em>Journal of Behavioral and Experimental</em>.</p>
+<div id="ref-Brown2016" class="csl-entry">
+<p>Brown, A L, J Meer, and J F Williams. 2016. <span>“Social Distance and Quality Ratings in Charity Choice.”</span> <em>Journal of Behavioral and Experimental</em>.</p>
 </div>
-<div>
-<p>Burton, Matthew J, and David CW Mabey. 2009. “The Global Burden of Trachoma: A Review.” <em>PLoS Neglected Tropical Diseases</em> 3 (10): e460.</p>
+<div id="ref-burton2009global" class="csl-entry">
+<p>Burton, Matthew J, and David CW Mabey. 2009. <span>“The Global Burden of Trachoma: A Review.”</span> <em>PLoS Neglected Tropical Diseases</em> 3 (10): e460.</p>
 </div>
-<div>
-<p>“CAF World Giving Index 2018 | Research into Global Giving Behaviour.” n.d. https://www.cafonline.org/about-us/publications/2018-publications/caf-world-giving-index-2018.</p>
+<div id="ref-CAFWorldGiving" class="csl-entry">
+<p><span>“<span>CAF World Giving Index</span> 2018 | <span>Research</span> into Global Giving Behaviour.”</span> n.d. https://www.cafonline.org/about-us/publications/2018-publications/caf-world-giving-index-2018.</p>
 </div>
-<div>
-<p>Cairns, Jason, and Robert Slonim. 2011. “Substitution Effects Across Charitable Donations.” <em>Economics Letters</em> 111 (2): 173–75. <a href="https://doi.org/10.1016/j.econlet.2011.01.028">https://doi.org/10.1016/j.econlet.2011.01.028</a>.</p>
+<div id="ref-Cairns2011" class="csl-entry">
+<p>Cairns, Jason, and Robert Slonim. 2011. <span>“Substitution Effects Across Charitable Donations.”</span> <em>Economics Letters</em> 111 (2): 173–75. <a href="https://doi.org/10.1016/j.econlet.2011.01.028">https://doi.org/10.1016/j.econlet.2011.01.028</a>.</p>
 </div>
-<div>
-<p>Camerer, Colin F, and Richard H Thaler. 1995. “Anomalies: Ultimatums, Dictators and Manners.” <em>Journal of Economic Perspectives</em> 9 (2): 209–19.</p>
+<div id="ref-camerer1995anomalies" class="csl-entry">
+<p>Camerer, Colin F, and Richard H Thaler. 1995. <span>“Anomalies: <span>Ultimatums</span>, Dictators and Manners.”</span> <em>Journal of Economic Perspectives</em> 9 (2): 209–19.</p>
 </div>
-<div>
-<p>Caviola, Lucius, Nadira Faulmüller, Jim. A C Everett, and Julian Savulescu. 2014. “The Evaluability Bias in Charitable Giving: Saving Administration Costs or Saving Lives?” <em>Judgment and Decision Making</em> 9 (4): 303–15. <a href="https://doi.org/None">https://doi.org/None</a>.</p>
+<div id="ref-Caviola2014" class="csl-entry">
+<p>Caviola, Lucius, Nadira Faulmüller, Jim. A C Everett, and Julian Savulescu. 2014. <span>“The Evaluability Bias in Charitable Giving: <span>Saving</span> Administration Costs or Saving Lives?”</span> <em>Judgment and Decision Making</em> 9 (4): 303–15. <a href="https://doi.org/None">https://doi.org/None</a>.</p>
 </div>
-<div>
-<p>Caviola, Lucius, Stefan Schubert, and Jason Nemirow. 2020. “The Many Obstacles to Effective Giving.” <em>Judgment and Decision Making</em> 15 (2): 159.</p>
+<div id="ref-caviola2020many" class="csl-entry">
+<p>Caviola, Lucius, Stefan Schubert, and Jason Nemirow. 2020. <span>“The Many Obstacles to Effective Giving.”</span> <em>Judgment and Decision Making</em> 15 (2): 159.</p>
 </div>
-<div>
-<p>Charness, G, and U Gneezy. 2008. “What’s in a Name? Anonymity and Social Distance in Dictator and Ultimatum Games.” <em>Journal of Economic Behavior and Organization</em>. <a href="https://doi.org/10.1016/j.jebo.2008.03.001">https://doi.org/10.1016/j.jebo.2008.03.001</a>.</p>
+<div id="ref-charnessWhatNameAnonymity2008" class="csl-entry">
+<p>Charness, G, and U Gneezy. 2008. <span>“What’s in a Name? <span>Anonymity</span> and Social Distance in Dictator and Ultimatum Games.”</span> <em>Journal of Economic Behavior and Organization</em>. <a href="https://doi.org/10.1016/j.jebo.2008.03.001">https://doi.org/10.1016/j.jebo.2008.03.001</a>.</p>
 </div>
-<div>
-<p>Chen, Yan, and Sherry Xin Li. 2009. “Group Identity and Social Preferences.” <em>American Economic Review</em> 99 (1): 431–57. <a href="https://doi.org/10.1257/aer.99.1.431">https://doi.org/10.1257/aer.99.1.431</a>.</p>
+<div id="ref-chenGroupIdentitySocial2009" class="csl-entry">
+<p>Chen, Yan, and Sherry Xin Li. 2009. <span>“Group <span>Identity</span> and <span>Social Preferences</span>.”</span> <em>American Economic Review</em> 99 (1): 431–57. <a href="https://doi.org/10.1257/aer.99.1.431">https://doi.org/10.1257/aer.99.1.431</a>.</p>
 </div>
-<div>
-<p>Chhaochharia, Vidhi, Suman Ghosh, and others. 2008. “Do Charity Ratings Matter.” <em>Unpublished Manuscript, Florida Atlantic University</em>.</p>
+<div id="ref-chhaochharia2008charity" class="csl-entry">
+<p>Chhaochharia, Vidhi, Suman Ghosh, and others. 2008. <span>“Do Charity Ratings Matter.”</span> <em>Unpublished Manuscript, Florida Atlantic University</em>.</p>
 </div>
-<div>
-<p>Cialdini, Robert B, and Melanie R Trost. 1998. “Social Influence: Social Norms, Conformity and Compliance.”</p>
+<div id="ref-cialdini1998social" class="csl-entry">
+<p>Cialdini, Robert B, and Melanie R Trost. 1998. <span>“Social Influence: <span>Social</span> Norms, Conformity and Compliance.”</span></p>
 </div>
-<div>
-<p>Cuddy, Amy JC, Susan T Fiske, and Peter Glick. 2007. “The BIAS Map: Behaviors from Intergroup Affect and Stereotypes.” <em>Journal of Personality and Social Psychology</em> 92 (4): 631.</p>
+<div id="ref-cuddy2007bias" class="csl-entry">
+<p>Cuddy, Amy JC, Susan T Fiske, and Peter Glick. 2007. <span>“The <span>BIAS</span> Map: Behaviors from Intergroup Affect and Stereotypes.”</span> <em>Journal of Personality and Social Psychology</em> 92 (4): 631.</p>
 </div>
-<div>
-<p>DellaVigna, Stefano, John A List, and Ulrike Malmendier. 2012. “Testing for Altruism and Social Pressure in Charitable Giving.” <em>The Quarterly Journal of Economics</em> 127 (1): 1–56.</p>
+<div id="ref-dellavigna2012testing" class="csl-entry">
+<p>DellaVigna, Stefano, John A List, and Ulrike Malmendier. 2012. <span>“Testing for Altruism and Social Pressure in Charitable Giving.”</span> <em>The Quarterly Journal of Economics</em> 127 (1): 1–56.</p>
 </div>
-<div>
-<p>Deryugina, Tatyana, and Benjamin Marx. 2015. “Do Causes Crowd Each Other Out ? Evidence from Tornado Strikes,” no. December: 1–19.</p>
+<div id="ref-Deryugina2015" class="csl-entry">
+<p>Deryugina, Tatyana, and Benjamin Marx. 2015. <span>“Do Causes Crowd Each Other Out ? <span>Evidence</span> from Tornado Strikes,”</span> no. December: 1–19.</p>
 </div>
-<div>
-<p>Donkers, Bas, Merel Van Diepen, and Philip Hans Franses. 2017. “Journal of Behavioral and Experimental Economics Do Charities Get More When They Ask More Often ? Evidence from a Unique Field Experiment 73” 66: 58–65. <a href="https://doi.org/10.1016/j.socec.2016.05.006">https://doi.org/10.1016/j.socec.2016.05.006</a>.</p>
+<div id="ref-Donkers2017" class="csl-entry">
+<p>Donkers, Bas, Merel Van Diepen, and Philip Hans Franses. 2017. <span>“Journal of <span>Behavioral</span> and <span>Experimental Economics Do</span> Charities Get More When They Ask More Often ? <span>Evidence</span> from a Unique Field Experiment <span>73</span>”</span> 66: 58–65. <a href="https://doi.org/10.1016/j.socec.2016.05.006">https://doi.org/10.1016/j.socec.2016.05.006</a>.</p>
 </div>
-<div>
-<p>Dovidio, John F. 1984. “Helping Behavior and Altruism: An Empirical and Conceptual Overview.” In <em>Advances in Experimental Social Psychology</em>, 17:361–427. Elsevier.</p>
+<div id="ref-dovidio1984helping" class="csl-entry">
+<p>Dovidio, John F. 1984. <span>“Helping Behavior and Altruism: <span>An</span> Empirical and Conceptual Overview.”</span> In <em>Advances in Experimental Social Psychology</em>, 17:361–427. <span>Elsevier</span>.</p>
 </div>
-<div>
-<p>Dovidio, John F, Kerry Kawakami, Craig Johnson, Brenda Johnson, and Adaiah Howard. 1997. “On the Nature of Prejudice: Automatic and Controlled Processes.” <em>Journal of Experimental Social Psychology</em> 33 (5): 510–40.</p>
+<div id="ref-dovidio1997nature" class="csl-entry">
+<p>Dovidio, John F, Kerry Kawakami, Craig Johnson, Brenda Johnson, and Adaiah Howard. 1997. <span>“On the Nature of Prejudice: <span>Automatic</span> and Controlled Processes.”</span> <em>Journal of Experimental Social Psychology</em> 33 (5): 510–40.</p>
 </div>
-<div>
-<p>Drouvelis, Michalis, and Brit Grosskopf. 2016. “The Effects of Induced Emotions on Pro-Social Behaviour.” <em>Journal of Public Economics</em> 134: 1–8.</p>
+<div id="ref-Drouvelis2016" class="csl-entry">
+<p>Drouvelis, Michalis, and Brit Grosskopf. 2016. <span>“The Effects of Induced Emotions on Pro-Social Behaviour.”</span> <em>Journal of Public Economics</em> 134: 1–8.</p>
 </div>
-<div>
-<p>Ebert, Jane EJ, and Drazen Prelec. 2007. “The Fragility of Time: Time-Insensitivity and Valuation of the Near and Far Future.” <em>Management Science</em> 53 (9): 1423–38.</p>
+<div id="ref-ebert2007fragility" class="csl-entry">
+<p>Ebert, Jane EJ, and Drazen Prelec. 2007. <span>“The Fragility of Time: <span>Time</span>-Insensitivity and Valuation of the Near and Far Future.”</span> <em>Management Science</em> 53 (9): 1423–38.</p>
 </div>
-<div>
-<p>Eisensee, T, and D Stromberg. 2007. “News Floods, News Droughts, and US Disaster Relief.” <em>Quarterly Journal of Economics</em> 122 (2): 693–728. <a href="https://doi.org/10.1162/qjec.122.2.693">https://doi.org/10.1162/qjec.122.2.693</a>.</p>
+<div id="ref-eisenseeNewsFloodsNews2007" class="csl-entry">
+<p>Eisensee, T, and D Stromberg. 2007. <span>“News <span>Floods</span>, <span>News Droughts</span>, and <span>US Disaster Relief</span>.”</span> <em>Quarterly Journal of Economics</em> 122 (2): 693–728. <a href="https://doi.org/10.1162/qjec.122.2.693">https://doi.org/10.1162/qjec.122.2.693</a>.</p>
 </div>
-<div>
-<p>Elster, Jon. 1989. “Social Norms and Economic Theory.” <em>Journal of Economic Perspectives</em> 3 (4): 99–117.</p>
+<div id="ref-elster1989social" class="csl-entry">
+<p>Elster, Jon. 1989. <span>“Social Norms and Economic Theory.”</span> <em>Journal of Economic Perspectives</em> 3 (4): 99–117.</p>
 </div>
-<div>
-<p>Epstein, Keith. 2006. “Crisis Mentality (SSIR).” https://ssir.org/articles/entry/crisis_mentality.</p>
+<div id="ref-epsteinCrisisMentalitySSIR2006" class="csl-entry">
+<p>Epstein, Keith. 2006. <span>“Crisis <span>Mentality</span> (<span>SSIR</span>).”</span> https://ssir.org/articles/entry/crisis_mentality.</p>
 </div>
-<div>
-<p>Erlandsson, Arvid, Fredrik Björklund, and Martin Bäckström. 2014. “Perceived Utility (Not Sympathy) Mediates the Proportion Dominance Effect in Helping Decisions.” <em>Journal of Behavioral Decision Making</em> 27 (1): 37–47.</p>
+<div id="ref-erlandsson2014perceived" class="csl-entry">
+<p>Erlandsson, Arvid, Fredrik Björklund, and Martin Bäckström. 2014. <span>“Perceived Utility (Not Sympathy) Mediates the Proportion Dominance Effect in Helping Decisions.”</span> <em>Journal of Behavioral Decision Making</em> 27 (1): 37–47.</p>
 </div>
-<div>
-<p>———. 2015. “Emotional Reactions, Perceived Impact and Perceived Responsibility Mediate the Identifiable Victim Effect, Proportion Dominance Effect and in-Group Effect Respectively.” <em>Organizational Behavior and Human Decision Processes</em> 127: 1–14. <a href="https://doi.org/10.1016/j.obhdp.2014.11.003">https://doi.org/10.1016/j.obhdp.2014.11.003</a>.</p>
+<div id="ref-erlandssonEmotionalReactionsPerceived2015" class="csl-entry">
+<p>———. 2015. <span>“Emotional Reactions, Perceived Impact and Perceived Responsibility Mediate the Identifiable Victim Effect, Proportion Dominance Effect and in-Group Effect Respectively.”</span> <em>Organizational Behavior and Human Decision Processes</em> 127: 1–14. <a href="https://doi.org/10.1016/j.obhdp.2014.11.003">https://doi.org/10.1016/j.obhdp.2014.11.003</a>.</p>
 </div>
-<div>
-<p>Erlandsson, A, D Västfjäll, O Sundfelt, P Slovic - Journal of Economic, and undefined 2016. n.d. “Argument-Inconsistency in Charity Appeals: Statistical Information About the Scope of the Problem Decrease Helping Toward a Single Identified Victim but Not Helping.” <em>Elsevier</em>.</p>
+<div id="ref-erlandssonArgumentinconsistencyCharityAppeals" class="csl-entry">
+<p>Erlandsson, A, D Västfjäll, O Sundfelt, P Slovic -Journal of Economic, and undefined 2016. n.d. <span>“Argument-Inconsistency in Charity Appeals: <span>Statistical</span> Information about the Scope of the Problem Decrease Helping Toward a Single Identified Victim but Not Helping.”</span> <em>Elsevier</em>.</p>
 </div>
-<div>
-<p>Evans, Jonathan St BT, and Keith E Stanovich. 2013. “Dual-Process Theories of Higher Cognition: Advancing the Debate.” <em>Perspectives on Psychological Science</em> 8 (3): 223–41.</p>
+<div id="ref-evans2013dual" class="csl-entry">
+<p>Evans, Jonathan St BT, and Keith E Stanovich. 2013. <span>“Dual-Process Theories of Higher Cognition: <span>Advancing</span> the Debate.”</span> <em>Perspectives on Psychological Science</em> 8 (3): 223–41.</p>
 </div>
-<div>
-<p>Everett, Jim A. C., David A. Pizarro, and M. J. Crockett. 2016. “Inference of Trustworthiness from Intuitive Moral Judgments.” <em>Journal of Experimental Psychology: General</em> 145 (6): 772–87. <a href="https://doi.org/10.1037/xge0000165">https://doi.org/10.1037/xge0000165</a>.</p>
+<div id="ref-Everett2016" class="csl-entry">
+<p>Everett, Jim A. C., David A. Pizarro, and M. J. Crockett. 2016. <span>“Inference of Trustworthiness from Intuitive Moral Judgments.”</span> <em>Journal of Experimental Psychology: General</em> 145 (6): 772–87. <a href="https://doi.org/10.1037/xge0000165">https://doi.org/10.1037/xge0000165</a>.</p>
 </div>
-<div>
-<p>Everett, Jim AC, David A. Pizarro, and Molly J. Crockett. 2016. “Inference of Trustworthiness from Intuitive Moral Judgments.” <em>Journal of Experimental Psychology: General</em> 145 (6): 772.</p>
+<div id="ref-everettInferenceTrustworthinessIntuitive2016" class="csl-entry">
+<p>Everett, Jim AC, David A. Pizarro, and Molly J. Crockett. 2016. <span>“Inference of Trustworthiness from Intuitive Moral Judgments.”</span> <em>Journal of Experimental Psychology: General</em> 145 (6): 772. <a href="https://doi.org/10.1037/xge0000165">https://doi.org/10.1037/xge0000165</a>.</p>
 </div>
-<div>
-<p>Exley, Christine L. 2016. “Excusing Selfishness in Charitable Giving: The Role of Risk.” <em>Review of Economic Studies</em>. <a href="https://doi.org/10.1093/restud/rdv051">https://doi.org/10.1093/restud/rdv051</a>.</p>
+<div id="ref-exleyExcusingSelfishnessCharitable2016a" class="csl-entry">
+<p>Exley, Christine L. 2016. <span>“Excusing Selfishness in Charitable Giving: <span>The</span> Role of Risk.”</span> <em>Review of Economic Studies</em>. <a href="https://doi.org/10.1093/restud/rdv051">https://doi.org/10.1093/restud/rdv051</a>.</p>
 </div>
-<div>
-<p>Exley, Christine L, and Ragan Petrie. 2018. “The Impact of a Surprise Donation Ask.” <em>Journal of Public Economics</em>. <a href="https://doi.org/10.1016/j.jpubeco.2017.12.015">https://doi.org/10.1016/j.jpubeco.2017.12.015</a>.</p>
+<div id="ref-exleyImpactSurpriseDonation2018" class="csl-entry">
+<p>Exley, Christine L, and Ragan Petrie. 2018. <span>“The <span>Impact</span> of a <span>Surprise Donation Ask</span>.”</span> <em>Journal of Public Economics</em>. <a href="https://doi.org/10.1016/j.jpubeco.2017.12.015">https://doi.org/10.1016/j.jpubeco.2017.12.015</a>.</p>
 </div>
-<div>
-<p>Farmer, J Doyne, and John Geanakoplos. 2009. “Hyperbolic Discounting Is Rational: Valuing the Far Future with Uncertain Discount Rates.”</p>
+<div id="ref-farmer2009hyperbolic" class="csl-entry">
+<p>Farmer, J Doyne, and John Geanakoplos. 2009. <span>“Hyperbolic Discounting Is Rational: <span>Valuing</span> the Far Future with Uncertain Discount Rates.”</span></p>
 </div>
-<div>
-<p>Fetherstonhaugh, David, Paul Slovic, Stephen Johnson, and James Friedrich. 1997. “Insensitivity to the Value of Human Life: A Study of Psychophysical Numbing.” <em>Journal of Risk and Uncertainty</em> 14 (3): 283–300. <a href="https://doi.org/10.1023/A:1007744326393">https://doi.org/10.1023/A:1007744326393</a>.</p>
+<div id="ref-fetherstonhaughInsensitivityValueHuman1997" class="csl-entry">
+<p>Fetherstonhaugh, David, Paul Slovic, Stephen Johnson, and James Friedrich. 1997. <span>“Insensitivity to the Value of Human Life: <span>A</span> Study of Psychophysical Numbing.”</span> <em>Journal of Risk and Uncertainty</em> 14 (3): 283–300. <a href="https://doi.org/10.1023/A:1007744326393">https://doi.org/10.1023/A:1007744326393</a>.</p>
 </div>
-<div>
-<p>Filiz-Ozbay, Emel, and Neslihan Uler. 2019. “Demand for Giving to Multiple Charities: An Experimental Study.” <em>Journal of the European Economic Association</em> 17 (3): 725–53. <a href="https://doi.org/10.1093/jeea/jvy011">https://doi.org/10.1093/jeea/jvy011</a>.</p>
+<div id="ref-Filiz-Ozbay2019" class="csl-entry">
+<p>Filiz-Ozbay, Emel, and Neslihan Uler. 2019. <span>“Demand for Giving to Multiple Charities: <span>An</span> Experimental Study.”</span> <em>Journal of the European Economic Association</em> 17 (3): 725–53. <a href="https://doi.org/10.1093/jeea/jvy011">https://doi.org/10.1093/jeea/jvy011</a>.</p>
 </div>
-<div>
-<p>Fiske, Alan P. 1992. “The Four Elementary Forms of Sociality: Framework for a Unified Theory of Social Relations.” <em>Psychological Review</em> 99 (4): 689.</p>
+<div id="ref-fiskeFourElementaryForms1992" class="csl-entry">
+<p>Fiske, Alan P. 1992. <span>“The Four Elementary Forms of Sociality: Framework for a Unified Theory of Social Relations.”</span> <em>Psychological Review</em> 99 (4): 689.</p>
 </div>
-<div>
-<p>Fong, Christina, and Felix Oberholzer-Gee. 2010a. “Truth in Giving: Experimental Evidence on the Welfare Effects of Informed Giving to the Poor.” <em>Journal of Public Economics</em>.</p>
+<div id="ref-fongTruthGivingExperimental2010" class="csl-entry">
+<p>Fong, Christina, and Felix Oberholzer-Gee. 2010. <span>“Truth in Giving: <span>Experimental</span> Evidence on the Welfare Effects of Informed Giving to the Poor.”</span> <em>Journal of Public Economics</em>.</p>
 </div>
-<div>
-<p>———. 2010a. “Truth in Giving: Experimental Evidence on the Welfare Effects of Informed Giving to the Poor.” <em>Journal of Public Economics</em>.</p>
+<div id="ref-fox2005subjective" class="csl-entry">
+<p>Fox, Craig R, Rebecca K Ratner, and Daniel S Lieb. 2005. <span>“How Subjective Grouping of Options Influences Choice and Allocation: Diversification Bias and the Phenomenon of Partition Dependence.”</span> <em>Journal of Experimental Psychology: General</em> 134 (4): 538.</p>
 </div>
-<div>
-<p>———. 2010a. “Truth in Giving: Experimental Evidence on the Welfare Effects of Informed Giving to the Poor.” <em>Journal of Public Economics</em>.</p>
+<div id="ref-friedrichPsychophysicalNumbingWhen1999" class="csl-entry">
+<p>Friedrich, James, Paul Barnes, Kathryn Chapin, Ian Dawson, Valerie Garst, and David Kerr. 1999. <span>“Psychophysical Numbing: <span>When</span> Lives Are Valued Less as the Lives at Risk Increase.”</span> <em>Journal of Consumer Psychology</em> 8 (3): 277–99. <a href="https://doi.org/10.1207/s15327663jcp0803_05">https://doi.org/10.1207/s15327663jcp0803_05</a>.</p>
 </div>
-<div>
-<p>Fox, Craig R, Rebecca K Ratner, and Daniel S Lieb. 2005. “How Subjective Grouping of Options Influences Choice and Allocation: Diversification Bias and the Phenomenon of Partition Dependence.” <em>Journal of Experimental Psychology: General</em> 134 (4): 538.</p>
+<div id="ref-frumkin2001strategic" class="csl-entry">
+<p>Frumkin, Peter, and Mark T Kim. 2001. <span>“Strategic Positioning and the Financing of Nonprofit Organizations: <span>Is</span> Efficiency Rewarded in the Contributions Marketplace?”</span> <em>Public Administration Review</em> 61 (3): 266–75.</p>
 </div>
-<div>
-<p>Friedrich, James, Paul Barnes, Kathryn Chapin, Ian Dawson, Valerie Garst, and David Kerr. 1999. “Psychophysical Numbing: When Lives Are Valued Less as the Lives at Risk Increase.” <em>Journal of Consumer Psychology</em> 8 (3): 277–99. <a href="https://doi.org/10.1207/s15327663jcp0803_05">https://doi.org/10.1207/s15327663jcp0803_05</a>.</p>
+<div id="ref-gneezyAvoidingOverheadAversion2014" class="csl-entry">
+<p>Gneezy, Uri, Elizabeth A. Keenan, and Ayelet Gneezy. 2014. <span>“Avoiding Overhead Aversion in Charity.”</span> <em>Science</em>. <a href="https://doi.org/10.1126/science.1253932">https://doi.org/10.1126/science.1253932</a>.</p>
 </div>
-<div>
-<p>Frumkin, Peter, and Mark T Kim. 2001. “Strategic Positioning and the Financing of Nonprofit Organizations: Is Efficiency Rewarded in the Contributions Marketplace?” <em>Public Administration Review</em> 61 (3): 266–75.</p>
+<div id="ref-goodwin2008psychology" class="csl-entry">
+<p>Goodwin, Geoffrey P, and John M Darley. 2008. <span>“The Psychology of Meta-Ethics: <span>Exploring</span> Objectivism.”</span> <em>Cognition</em> 106 (3): 1339–66.</p>
 </div>
-<div>
-<p>Gneezy, Uri, Elizabeth A. Keenan, and Ayelet Gneezy. 2014. “Avoiding Overhead Aversion in Charity.” <em>Science</em>. <a href="https://doi.org/10.1126/science.1253932">https://doi.org/10.1126/science.1253932</a>.</p>
+<div id="ref-Gordon2009" class="csl-entry">
+<p>Gordon, Teresa P, Cathryn L Knock, and Daniel G Neely. 2009. <span>“The Role of Rating Agencies in the Market for Charitable Contributions: <span>An</span> Empirical Test.”</span> <em>Journal of Accounting and Public Policy</em> 28 (6): 469–84. <a href="https://doi.org/10.1016/j.jaccpubpol.2009.08.001">https://doi.org/10.1016/j.jaccpubpol.2009.08.001</a>.</p>
 </div>
-<div>
-<p>Goodwin, Geoffrey P, and John M Darley. 2008. “The Psychology of Meta-Ethics: Exploring Objectivism.” <em>Cognition</em> 106 (3): 1339–66.</p>
+<div id="ref-greaves2017discounting" class="csl-entry">
+<p>Greaves, Hilary. 2017. <span>“Discounting for Public Policy: <span>A</span> Survey.”</span> <em>Economics &amp; Philosophy</em> 33 (3): 391–439.</p>
 </div>
-<div>
-<p>Gordon, Teresa P, Cathryn L Knock, and Daniel G Neely. 2009. “The Role of Rating Agencies in the Market for Charitable Contributions: An Empirical Test.” <em>Journal of Accounting and Public Policy</em> 28 (6): 469–84. <a href="https://doi.org/10.1016/j.jaccpubpol.2009.08.001">https://doi.org/10.1016/j.jaccpubpol.2009.08.001</a>.</p>
+<div id="ref-Harwell" class="csl-entry">
+<p>Harwell, Haley, Ph D Candidate, and Catherine Eckel. n.d. <span>“Did the Ice Bucket Challenge Drain the Philanthropic Reservoir ?: <span>Evidence</span> from a Real-Donation Lab Experiment Version as of November 19 , 2015 <span>DRAFT</span> : <span>DO NOT QUOTE WITHOUT AUTHORS</span> ’ <span>PERMISSION</span>,”</span> 1–37.</p>
 </div>
-<div>
-<p>Greaves, Hilary. 2017. “Discounting for Public Policy: A Survey.” <em>Economics &amp; Philosophy</em> 33 (3): 391–439.</p>
+<div id="ref-Heckman2015a" class="csl-entry">
+<p>Heckman, James J, and Rodrigo Pinto. 2015. <span>“Econometric Mediation Analyses: <span>Identifying</span> the Sources of Treatment Effects from Experimentally Estimated Production Technologies with Unmeasured and Mismeasured Inputs.”</span> <em>Econometric Reviews</em> 34 (September 2016): 6–31. <a href="https://doi.org/10.1080/07474938.2014.944466">https://doi.org/10.1080/07474938.2014.944466</a>.</p>
 </div>
-<div>
-<p>Harwell, Haley, Ph D Candidate, and Catherine Eckel. n.d. “Did the Ice Bucket Challenge Drain the Philanthropic Reservoir ?: Evidence from a Real-Donation Lab Experiment Version as of November 19 , 2015 DRAFT : DO NOT QUOTE WITHOUT AUTHORS ’ PERMISSION,” 1–37.</p>
+<div id="ref-heyman2004effort" class="csl-entry">
+<p>Heyman, James, and Dan Ariely. 2004. <span>“Effort for Payment: <span>A</span> Tale of Two Markets.”</span> <em>Psychological Science</em> 15 (11): 787–93.</p>
 </div>
-<div>
-<p>Heckman, James J, and Rodrigo Pinto. 2015. “Econometric Mediation Analyses: Identifying the Sources of Treatment Effects from Experimentally Estimated Production Technologies with Unmeasured and Mismeasured Inputs.” <em>Econometric Reviews</em> 34 (September 2016): 6–31. <a href="https://doi.org/10.1080/07474938.2014.944466">https://doi.org/10.1080/07474938.2014.944466</a>.</p>
+<div id="ref-Hoffman2015" class="csl-entry">
+<p>Hoffman, Moshe, Erez Yoeli, and Martin A. Nowak. 2015. <span>“Cooperate Without Looking: <span>Why</span> We Care What People Think and Not Just What They Do.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 112 (6): 1727–32. <a href="https://doi.org/10.1073/pnas.1417904112">https://doi.org/10.1073/pnas.1417904112</a>.</p>
 </div>
-<div>
-<p>Heyman, James, and Dan Ariely. 2004. “Effort for Payment: A Tale of Two Markets.” <em>Psychological Science</em> 15 (11): 787–93.</p>
+<div id="ref-hseeUnitAskingMethod2013" class="csl-entry">
+<p>Hsee, Christopher K, Jiao Zhang, Zoe Y Lu, and Fei Xu. 2013. <span>“Unit <span>Asking</span> : <span>A Method</span> to <span>Boost Donations</span> and <span>Beyond</span>.”</span> <a href="https://doi.org/10.1177/0956797613482947">https://doi.org/10.1177/0956797613482947</a>.</p>
 </div>
-<div>
-<p>Hoffman, Moshe, Erez Yoeli, and Martin A. Nowak. 2015. “Cooperate Without Looking: Why We Care What People Think and Not Just What They Do.” <em>Proceedings of the National Academy of Sciences of the United States of America</em> 112 (6): 1727–32. <a href="https://doi.org/10.1073/pnas.1417904112">https://doi.org/10.1073/pnas.1417904112</a>.</p>
+<div id="ref-jamisonDeceiveNotDeceive2008" class="csl-entry">
+<p>Jamison, Julian, Dean Karlan, and Laura Schechter. 2008. <span>“To Deceive or Not to Deceive: <span>The</span> Effect of Deception on Behavior in Future Laboratory Experiments.”</span> <em>Journal of Economic Behavior &amp; Organization</em> 68 (3): 477–88.</p>
 </div>
-<div>
-<p>Hsee, Christopher K, Jiao Zhang, Zoe Y Lu, and Fei Xu. 2013. “Unit Asking : A Method to Boost Donations and Beyond.” <a href="https://doi.org/10.1177/0956797613482947">https://doi.org/10.1177/0956797613482947</a>.</p>
+<div id="ref-jenniExplainingIdentifiableVictim1997" class="csl-entry">
+<p>Jenni, Karen, and George Loewenstein. 1997. <span>“Explaining the Identifiable Victim Effect.”</span> <em>Journal of Risk and Uncertainty</em> 14 (3): 235–57. <a href="https://doi.org/10.1023/A:1007740225484">https://doi.org/10.1023/A:1007740225484</a>.</p>
 </div>
-<div>
-<p>Jamison, Julian, Dean Karlan, and Laura Schechter. 2008. “To Deceive or Not to Deceive: The Effect of Deception on Behavior in Future Laboratory Experiments.” <em>Journal of Economic Behavior &amp; Organization</em> 68 (3): 477–88.</p>
+<div id="ref-jin2006information" class="csl-entry">
+<p>Jin, Ginger Zhe, and Alan T Sorensen. 2006. <span>“Information and Consumer Choice: The Value of Publicized Health Plan Ratings.”</span> <em>Journal of Health Economics</em> 25 (2): 248–75.</p>
 </div>
-<div>
-<p>Jenni, Karen, and George Loewenstein. 1997. “Explaining the Identifiable Victim Effect.” <em>Journal of Risk and Uncertainty</em> 14 (3): 235–57. <a href="https://doi.org/10.1023/A:1007740225484">https://doi.org/10.1023/A:1007740225484</a>.</p>
+<div id="ref-Jordan2016b" class="csl-entry">
+<p>Jordan, Jillian J., Moshe Hoffman, Martin A. Nowak, and David G. Rand. 2016. <span>“Uncalculating Cooperation Is Used to Signal Trustworthiness.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 113 (31): 8658–63. <a href="https://doi.org/10.1073/pnas.1601280113">https://doi.org/10.1073/pnas.1601280113</a>.</p>
 </div>
-<div>
-<p>Jin, Ginger Zhe, and Alan T Sorensen. 2006. “Information and Consumer Choice: The Value of Publicized Health Plan Ratings.” <em>Journal of Health Economics</em> 25 (2): 248–75.</p>
+<div id="ref-kahane2018beyond" class="csl-entry">
+<p>Kahane, Guy, Jim AC Everett, Brian D Earp, Lucius Caviola, Nadira S Faber, Molly J Crockett, and Julian Savulescu. 2018. <span>“Beyond Sacrificial Harm: <span>A</span> Two-Dimensional Model of Utilitarian Psychology.”</span> <em>Psychological Review</em> 125 (2): 131.</p>
 </div>
-<div>
-<p>Jordan, Jillian J., Moshe Hoffman, Martin A. Nowak, and David G. Rand. 2016. “Uncalculating Cooperation Is Used to Signal Trustworthiness.” <em>Proceedings of the National Academy of Sciences of the United States of America</em> 113 (31): 8658–63. <a href="https://doi.org/10.1073/pnas.1601280113">https://doi.org/10.1073/pnas.1601280113</a>.</p>
+<div id="ref-kahnemanThinkingFastSlow2011" class="csl-entry">
+<p>Kahneman, Daniel. 2011. <em>Thinking, <span>Fast</span> and <span>Slow</span></em>. <span>Penguin Books</span>.</p>
 </div>
-<div>
-<p>Kahane, Guy, Jim AC Everett, Brian D Earp, Lucius Caviola, Nadira S Faber, Molly J Crockett, and Julian Savulescu. 2018. “Beyond Sacrificial Harm: A Two-Dimensional Model of Utilitarian Psychology.” <em>Psychological Review</em> 125 (2): 131.</p>
+<div id="ref-kahneman1986fairness" class="csl-entry">
+<p>Kahneman, Daniel, Jack L Knetsch, and Richard H Thaler. 1986. <span>“Fairness and the Assumptions of Economics.”</span> <em>Journal of Business</em>, S285–300.</p>
 </div>
-<div>
-<p>Kahneman, Daniel. 2011. <em>Thinking, Fast and Slow</em>. Penguin Books.</p>
+<div id="ref-kahnemanProspectTheoryAnalysis1979" class="csl-entry">
+<p>Kahneman, Daniel, and Amos Tversky. 1979. <span>“Prospect <span>Theory</span>: <span>An Analysis</span> of <span>Decision</span> Under <span>Risk</span>.”</span> <em>Econometrica</em> 47 (2): 263–91. <a href="https://doi.org/10.2307/1914185">https://doi.org/10.2307/1914185</a>.</p>
 </div>
-<div>
-<p>Kahneman, Daniel, Jack L Knetsch, and Richard H Thaler. 1986. “Fairness and the Assumptions of Economics.” <em>Journal of Business</em>, S285–S300.</p>
+<div id="ref-karlanEffectEffectivenessDonor2017a" class="csl-entry">
+<p>Karlan, Dean, and Daniel H. Wood. 2017c. <span>“The Effect of Effectiveness: <span>Donor</span> Response to Aid Effectiveness in a Direct Mail Fundraising Experiment.”</span> <em>Journal of Behavioral and Experimental Economics</em> 66: 1–8. <a href="https://doi.org/10.1016/j.socec.2016.05.005">https://doi.org/10.1016/j.socec.2016.05.005</a>.</p>
 </div>
-<div>
-<p>Kahneman, Daniel, and Amos Tversky. 1979. “Prospect Theory: An Analysis of Decision Under Risk.” <em>Econometrica</em> 47 (2): 263–91. <a href="https://doi.org/10.2307/1914185">https://doi.org/10.2307/1914185</a>.</p>
+<div id="ref-karlanEffectEffectivenessDonor2017b" class="csl-entry">
+<p>———. 2017b. <span>“The Effect of Effectiveness: <span>Donor</span> Response to Aid Effectiveness in a Direct Mail Fundraising Experiment.”</span> <em>Journal of Behavioral and Experimental Economics</em> 66: 1–8. <a href="https://doi.org/10.1016/j.socec.2016.05.005">https://doi.org/10.1016/j.socec.2016.05.005</a>.</p>
 </div>
-<div>
-<p>Karlan, Dean, and Daniel H. Wood. 2017a. “The Effect of Effectiveness: Donor Response to Aid Effectiveness in a Direct Mail Fundraising Experiment.” <em>Journal of Behavioral and Experimental Economics</em> 66: 1–8. <a href="https://doi.org/10.1016/j.socec.2016.05.005">https://doi.org/10.1016/j.socec.2016.05.005</a>.</p>
+<div id="ref-karlanEffectEffectivenessDonor2017" class="csl-entry">
+<p>———. 2017a. <span>“The Effect of Effectiveness: <span>Donor</span> Response to Aid Effectiveness in a Direct Mail Fundraising Experiment.”</span> <em>Journal of Behavioral and Experimental Economics</em> 66: 1–8. <a href="https://doi.org/10.1016/j.socec.2016.05.005">https://doi.org/10.1016/j.socec.2016.05.005</a>.</p>
 </div>
-<div>
-<p>———. 2017a. “The Effect of Effectiveness: Donor Response to Aid Effectiveness in a Direct Mail Fundraising Experiment.” <em>Journal of Behavioral and Experimental Economics</em> 66: 1–8. <a href="https://doi.org/10.1016/j.socec.2016.05.005">https://doi.org/10.1016/j.socec.2016.05.005</a>.</p>
+<div id="ref-kinsbergenExplainingMonetaryDonations2013" class="csl-entry">
+<p>Kinsbergen, Sara, and Jochem Tolsma. 2013. <span>“Explaining Monetary Donations to International Development Organisations: <span>A</span> Factorial Survey Approach.”</span> <em>Social Science Research</em> 42 (6): 1571–86. <a href="https://doi.org/10.1016/j.ssresearch.2013.06.011">https://doi.org/10.1016/j.ssresearch.2013.06.011</a>.</p>
 </div>
-<div>
-<p>———. 2017a. “The Effect of Effectiveness: Donor Response to Aid Effectiveness in a Direct Mail Fundraising Experiment.” <em>Journal of Behavioral and Experimental Economics</em> 66: 1–8. <a href="https://doi.org/10.1016/j.socec.2016.05.005">https://doi.org/10.1016/j.socec.2016.05.005</a>.</p>
+<div id="ref-kogutIdentifiedVictimEffect2005" class="csl-entry">
+<p>Kogut, Tehila, and Ilana Ritov. 2005a. <span>“The <span>‘Identified Victim’</span> Effect: <span>An</span> Identified Group, or Just a Single Individual?”</span> <em>Journal of Behavioral Decision Making</em> 18 (3): 157–67. <a href="https://doi.org/10.1002/bdm.492">https://doi.org/10.1002/bdm.492</a>.</p>
 </div>
-<div>
-<p>Kinsbergen, Sara, and Jochem Tolsma. 2013. “Explaining Monetary Donations to International Development Organisations: A Factorial Survey Approach.” <em>Social Science Research</em> 42 (6): 1571–86. <a href="https://doi.org/10.1016/j.ssresearch.2013.06.011">https://doi.org/10.1016/j.ssresearch.2013.06.011</a>.</p>
+<div id="ref-kogut2005singularity" class="csl-entry">
+<p>———. 2005b. <span>“The Singularity Effect of Identified Victims in Separate and Joint Evaluations.”</span> <em>Organizational Behavior and Human Decision Processes</em> 97 (2): 106–16.</p>
 </div>
-<div>
-<p>Kogut, Tehila, and Ilana Ritov. 2005a. “The ‘Identified Victim’ Effect: An Identified Group, or Just a Single Individual?” <em>Journal of Behavioral Decision Making</em> 18 (3): 157–67. <a href="https://doi.org/10.1002/bdm.492">https://doi.org/10.1002/bdm.492</a>.</p>
+<div id="ref-kogut2011identifiable" class="csl-entry">
+<p>———. 2011. <span>“The Identifiable Victim Effect: <span>Causes</span> and Boundary Conditions.”</span> <em>The Science of Giving: Experimental Approaches to the Study of Charity</em>, 133–45.</p>
 </div>
-<div>
-<p>———. 2005b. “The Singularity Effect of Identified Victims in Separate and Joint Evaluations.” <em>Organizational Behavior and Human Decision Processes</em> 97 (2): 106–16.</p>
+<div id="ref-landry2010donor" class="csl-entry">
+<p>Landry, Craig E, Andreas Lange, John A List, Michael K Price, and Nicholas G Rupp. 2010. <span>“Is a Donor in Hand Better Than Two in the Bush? <span>Evidence</span> from a Natural Field Experiment.”</span> <em>American Economic Review</em> 100 (3): 958–83.</p>
 </div>
-<div>
-<p>———. 2011. “The Identifiable Victim Effect: Causes and Boundary Conditions.” <em>The Science of Giving: Experimental Approaches to the Study of Charity</em>, 133–45.</p>
+<div id="ref-lichtenstein1978judged" class="csl-entry">
+<p>Lichtenstein, Sarah, Paul Slovic, Baruch Fischhoff, Mark Layman, and Barbara Combs. 1978. <span>“Judged Frequency of Lethal Events.”</span> <em>Journal of Experimental Psychology: Human Learning and Memory</em> 4 (6): 551.</p>
 </div>
-<div>
-<p>Landry, Craig E, Andreas Lange, John A List, Michael K Price, and Nicholas G Rupp. 2010. “Is a Donor in Hand Better Than Two in the Bush? Evidence from a Natural Field Experiment.” <em>American Economic Review</em> 100 (3): 958–83.</p>
+<div id="ref-Linda2007" class="csl-entry">
+<p>Linda, M, Not-for-profit Organizations, and Linda M Parsons. 2007. <span>“The Impact of Financial Information and Voluntary Disclosures on Contributions to Not-for-Profit Organizations,”</span> 179–96.</p>
 </div>
-<div>
-<p>Lichtenstein, Sarah, Paul Slovic, Baruch Fischhoff, Mark Layman, and Barbara Combs. 1978. “Judged Frequency of Lethal Events.” <em>Journal of Experimental Psychology: Human Learning and Memory</em> 4 (6): 551.</p>
+<div id="ref-loewensteinScarecrowTinMan2007" class="csl-entry">
+<p>Loewenstein, George, and Deborah A Small. 2007. <span>“The <span>Scarecrow</span> and the <span>Tin Man</span> : <span>The Vicissitudes</span> of <span>Human Sympathy</span> and <span>Caring</span>”</span> 11 (2): 112–26. <a href="https://doi.org/10.1037/1089-2680.11.2.112">https://doi.org/10.1037/1089-2680.11.2.112</a>.</p>
 </div>
-<div>
-<p>Linda, M, Not-for-profit Organizations, and Linda M Parsons. 2007. “The Impact of Financial Information and Voluntary Disclosures on Contributions to Not-for-Profit Organizations,” 179–96.</p>
+<div id="ref-macaskillDoingGoodBetter2015" class="csl-entry">
+<p>Macaskill, William. 2015. <em>Doing <span>Good Better</span></em>. <span>Guardian Books</span>.</p>
 </div>
-<div>
-<p>Loewenstein, George, and Deborah A Small. 2007a. “The Scarecrow and the Tin Man : The Vicissitudes of Human Sympathy and Caring” 11 (2): 112–26. <a href="https://doi.org/10.1037/1089-2680.11.2.112">https://doi.org/10.1037/1089-2680.11.2.112</a>.</p>
+<div id="ref-Mayo2009" class="csl-entry">
+<p>Mayo, and Tinsley. 2009. <span>“<span>‘<span>Warm</span> Glow and Charitable Giving: Why the Wealthy Do Not Give More to Charity?’</span>.”</span></p>
 </div>
-<div>
-<p>———. 2007a. “The Scarecrow and the Tin Man : The Vicissitudes of Human Sympathy and Caring” 11 (2): 112–26. <a href="https://doi.org/10.1037/1089-2680.11.2.112">https://doi.org/10.1037/1089-2680.11.2.112</a>.</p>
+<div id="ref-Meer2014" class="csl-entry">
+<p>Meer, J. 2014. <span>“Effects of the Price of Charitable Giving: <span>Evidence</span> from an Online Crowdfunding Platform.”</span> <em>Journal of Economic Behavior &amp; Organization</em>. <a href="https://doi.org/10.1016/j.jebo.2014.04.010">https://doi.org/10.1016/j.jebo.2014.04.010</a>.</p>
 </div>
-<div>
-<p>Macaskill, William. 2015. <em>Doing Good Better</em>. Guardian Books.</p>
+<div id="ref-meerBrotherCanYou2011" class="csl-entry">
+<p>Meer, Jonathan. 2011. <span>“Brother, Can You Spare a Dime? <span>Peer</span> Pressure in Charitable Solicitation.”</span> <em>Journal of Public Economics</em> 95 (7-8): 926–41. <a href="https://doi.org/10.1016/j.jpubeco.2010.11.026">https://doi.org/10.1016/j.jpubeco.2010.11.026</a>.</p>
 </div>
-<div>
-<p>Mayo, and Tinsley. 2009. “‘Warm Glow and Charitable Giving: Why the Wealthy Do Not Give More to Charity?’.”</p>
+<div id="ref-meerDoesFundraisingCreate2017" class="csl-entry">
+<p>———. 2017. <span>“Does Fundraising Create New Giving?”</span> <em>Journal of Public Economics</em> 145: 82–93. <a href="https://doi.org/10.1016/j.jpubeco.2016.11.009">https://doi.org/10.1016/j.jpubeco.2016.11.009</a>.</p>
 </div>
-<div>
-<p>Meer, J. 2014. “Effects of the Price of Charitable Giving: Evidence from an Online Crowdfunding Platform.” <em>Journal of Economic Behavior &amp; Organization</em>. <a href="https://doi.org/10.1016/j.jebo.2014.04.010">https://doi.org/10.1016/j.jebo.2014.04.010</a>.</p>
+<div id="ref-metzgerMakingImpactRelevance2019" class="csl-entry">
+<p>Metzger, Laura, and Isabel Günther. 2019a. <span>“Making an Impact ? <span>The</span> Relevance of Information on Aid e Ff Ectiveness for Charitable Giving . <span>A</span> Laboratory Experiment.”</span> <em>Journal of Development Economics</em> 136 (September 2018): 18–33. <a href="https://doi.org/10.1016/j.jdeveco.2018.08.015">https://doi.org/10.1016/j.jdeveco.2018.08.015</a>.</p>
 </div>
-<div>
-<p>Meer, Jonathan. 2011. “Brother, Can You Spare a Dime? Peer Pressure in Charitable Solicitation.” <em>Journal of Public Economics</em> 95 (7-8): 926–41. <a href="https://doi.org/10.1016/j.jpubeco.2010.11.026">https://doi.org/10.1016/j.jpubeco.2010.11.026</a>.</p>
+<div id="ref-Metzger2019" class="csl-entry">
+<p>———. 2019b. <span>“Making an Impact ? <span>The</span> Relevance of Information on Aid e Ff Ectiveness for Charitable Giving . <span>A</span> Laboratory Experiment.”</span> <em>Journal of Development Economics</em> 136 (September 2018): 18–33. <a href="https://doi.org/10.1016/j.jdeveco.2018.08.015">https://doi.org/10.1016/j.jdeveco.2018.08.015</a>.</p>
 </div>
-<div>
-<p>———. 2017. “Does Fundraising Create New Giving?” <em>Journal of Public Economics</em> 145: 82–93. <a href="https://doi.org/10.1016/j.jpubeco.2016.11.009">https://doi.org/10.1016/j.jpubeco.2016.11.009</a>.</p>
+<div id="ref-metzger2019making" class="csl-entry">
+<p>———. 2019c. <span>“Making an Impact? <span>The</span> Relevance of Information on Aid Effectiveness for Charitable Giving. <span>A</span> Laboratory Experiment.”</span> <em>Journal of Development Economics</em> 136: 18–33.</p>
 </div>
-<div>
-<p>Metzger, Laura, and Isabel Günther. 2019a. “Making an Impact ? The Relevance of Information on Aid E Ff Ectiveness for Charitable Giving . A Laboratory Experiment.” <em>Journal of Development Economics</em> 136 (September 2018): 18–33. <a href="https://doi.org/10.1016/j.jdeveco.2018.08.015">https://doi.org/10.1016/j.jdeveco.2018.08.015</a>.</p>
+<div id="ref-morewedge2010associative" class="csl-entry">
+<p>Morewedge, Carey K, and Daniel Kahneman. 2010. <span>“Associative Processes in Intuitive Judgment.”</span> <em>Trends in Cognitive Sciences</em> 14 (10): 435–40.</p>
 </div>
-<div>
-<p>———. 2019b. “Making an Impact ? The Relevance of Information on Aid E Ff Ectiveness for Charitable Giving . A Laboratory Experiment.” <em>Journal of Development Economics</em> 136 (September 2018): 18–33. <a href="https://doi.org/10.1016/j.jdeveco.2018.08.015">https://doi.org/10.1016/j.jdeveco.2018.08.015</a>.</p>
+<div id="ref-mulesky2020demand" class="csl-entry">
+<p>Mulesky, Suzie. 2020. <span>“The Demand (or Lack Thereof) for Honest, Rigorous Impact Information in Charity.”</span> <em>Rigorous Impact Information in Charity (March 16, 2020)</em>.</p>
 </div>
-<div>
-<p>———. 2019c. “Making an Impact? The Relevance of Information on Aid Effectiveness for Charitable Giving. A Laboratory Experiment.” <em>Journal of Development Economics</em> 136: 18–33.</p>
+<div id="ref-Null2011b" class="csl-entry">
+<p>Null, C. 2011. <span>“Warm Glow, Information, and Inefficient Charitable Giving.”</span> <em>Journal of Public Economics</em> 95 (5-6): 455–65. <a href="https://doi.org/10.1016/j.jpubeco.2010.06.018">https://doi.org/10.1016/j.jpubeco.2010.06.018</a>.</p>
 </div>
-<div>
-<p>Morewedge, Carey K, and Daniel Kahneman. 2010. “Associative Processes in Intuitive Judgment.” <em>Trends in Cognitive Sciences</em> 14 (10): 435–40.</p>
+<div id="ref-ord2020precipice" class="csl-entry">
+<p>Ord, Toby. 2020. <em>The Precipice: Existential Risk and the Future of Humanity</em>. <span>Hachette Books</span>.</p>
 </div>
-<div>
-<p>Mulesky, Suzie. 2020. “The Demand (or Lack Thereof) for Honest, Rigorous Impact Information in Charity.” <em>Rigorous Impact Information in Charity (March 16, 2020)</em>.</p>
+<div id="ref-Pollak1969" class="csl-entry">
+<p>Pollak, Robert A. 1969. <span>“Conditional Demand Functions and Consumption Theory.”</span> <em>The Quarterly Journal of Economics</em> 83 (1): 60–78. <a href="https://doi.org/10.2307/1883993">https://doi.org/10.2307/1883993</a>.</p>
 </div>
-<div>
-<p>Null, C. 2011. “Warm Glow, Information, and Inefficient Charitable Giving.” <em>Journal of Public Economics</em> 95 (5-6): 455–65. <a href="https://doi.org/10.1016/j.jpubeco.2010.06.018">https://doi.org/10.1016/j.jpubeco.2010.06.018</a>.</p>
+<div id="ref-portillo2018overhead" class="csl-entry">
+<p>Portillo, Javier E, and Joseph Stinn. 2018. <span>“Overhead Aversion: <span>Do</span> Some Types of Overhead Matter More Than Others?”</span> <em>Journal of Behavioral and Experimental Economics</em> 72: 40–50.</p>
 </div>
-<div>
-<p>Ord, Toby. 2020. <em>The Precipice: Existential Risk and the Future of Humanity</em>. Hachette Books.</p>
+<div id="ref-pressDirectMeasurementUtility2018" class="csl-entry">
+<p>Press, Illinois. 2018. <span>“The <span>Direct Measurement</span> of <span>Utility</span> and <span>Subjective Probability Author</span> ( s ): <span>Eugene Galanter Source</span> : <span>The American Journal</span> of <span>Psychology</span> , <span>Vol</span> . 75 , <span>No</span> . 2 ( <span>Jun</span> ., 1962 ), Pp . 208-220 <span>Published</span> by : <span>University</span> of <span>Illinois Press Stable URL</span> : <span class="nocase">http://www.js</span>”</span> 75 (2): 208–20.</p>
 </div>
-<div>
-<p>Pollak, Robert A. 1969. “Conditional Demand Functions and Consumption Theory.” <em>The Quarterly Journal of Economics</em> 83 (1): 60–78. <a href="https://doi.org/10.2307/1883993">https://doi.org/10.2307/1883993</a>.</p>
+<div id="ref-read1995diversification" class="csl-entry">
+<p>Read, Daniel, and George Loewenstein. 1995. <span>“Diversification Bias: <span>Explaining</span> the Discrepancy in Variety Seeking Between Combined and Separated Choices.”</span> <em>Journal of Experimental Psychology: Applied</em> 1 (1): 34.</p>
 </div>
-<div>
-<p>Portillo, Javier E, and Joseph Stinn. 2018. “Overhead Aversion: Do Some Types of Overhead Matter More Than Others?” <em>Journal of Behavioral and Experimental Economics</em> 72: 40–50.</p>
+<div id="ref-reinsteinSubstitutionMotivationsCharitable2011" class="csl-entry">
+<p>Reinstein, David. 2011. <span>“Substitution <span>Between</span> (and <span>Motivations</span> for) <span>Charitable Contributions</span>: <span>An Experimental Study</span>.”</span> <em>Mimeo</em>.</p>
 </div>
-<div>
-<p>Press, Illinois. 2018. “The Direct Measurement of Utility and Subjective Probability Author ( S ): Eugene Galanter Source : The American Journal of Psychology , Vol . 75 , No . 2 ( Jun ., 1962 ), Pp . 208-220 Published by : University of Illinois Press Stable URL : http://www.js” 75 (2): 208–20.</p>
+<div id="ref-reinsteinDoesOneCharitable" class="csl-entry">
+<p>Reinstein, David A. n.d. <span>“Does <span>One Charitable Contribution Come</span> at the <span>Expense</span> of <span>Another</span>?”</span> <em>The BE Journal of Economic Analysis &amp; Policy</em> 11 (1).</p>
 </div>
-<div>
-<p>Read, Daniel, and George Loewenstein. 1995. “Diversification Bias: Explaining the Discrepancy in Variety Seeking Between Combined and Separated Choices.” <em>Journal of Experimental Psychology: Applied</em> 1 (1): 34.</p>
+<div id="ref-reinsteinInfluenceExpertReviews2005" class="csl-entry">
+<p>Reinstein, David, and Christopher J Snyder. 2005. <span>“The <span>Influence</span> of <span>Expert Reviews</span> on <span>Consumer Demand</span> for <span>Experience Goods</span>: <span>A Case Study</span> of <span>Movie Critics</span>.”</span> <em>Journal of Industrial Economics</em>. <a href="https://doi.org/10.1111/j.0022-1821.2005.00244.x">https://doi.org/10.1111/j.0022-1821.2005.00244.x</a>.</p>
 </div>
-<div>
-<p>Reinstein, David. 2011. “Substitution Between (and Motivations for) Charitable Contributions: An Experimental Study.” <em>Mimeo</em>.</p>
+<div id="ref-reinstein2018commitments" class="csl-entry">
+<p>Reinstein, D, G Riener, and C Kellner. 2018. <span>“Commitments to Give-If-You-Win Exceed Donations After a Win.”</span> <em>Journal of Public Economics</em>.</p>
 </div>
-<div>
-<p>Reinstein, David A. n.d. “Does One Charitable Contribution Come at the Expense of Another?” <em>The BE Journal of Economic Analysis &amp; Policy</em> 11 (1).</p>
+<div id="ref-scharfLiftShiftEffect2017" class="csl-entry">
+<p>Scharf, Kimberley, Sarah Smith, and Mark Ottoni-Wilhelm. 2017. <span>“Lift and <span>Shift</span>: <span>The Effect</span> of <span>Fundraising Interventions</span> in <span>Charity Space</span> and <span>Time</span>.”</span> <a href="https://doi.org/10.1920/wp.ifs.2017.W1720">https://doi.org/10.1920/wp.ifs.2017.W1720</a>.</p>
 </div>
-<div>
-<p>Reinstein, David, and Christopher J Snyder. 2005. “The Influence of Expert Reviews on Consumer Demand for Experience Goods: A Case Study of Movie Critics.” <em>Journal of Industrial Economics</em>. <a href="https://doi.org/10.1111/j.0022-1821.2005.00244.x">https://doi.org/10.1111/j.0022-1821.2005.00244.x</a>.</p>
+<div id="ref-schelling1968life" class="csl-entry">
+<p>Schelling, Thomas C. 1968. <span>“The Life You Save May Be Your Own.”</span> <em>Problems in Public Expenditure</em>, 127–62.</p>
 </div>
-<div>
-<p>Reinstein, D, G Riener, and C Kellner. 2018. “Commitments to Give-If-You-Win Exceed Donations After a Win.”</p>
+<div id="ref-Schmitz2019" class="csl-entry">
+<p>Schmitz, Jan. 2019. <span>“Temporal Dynamics of Pro-Social Behavior: An Experimental Analysis.”</span> <em>Experimental Economics</em> 22 (1). <a href="https://doi.org/10.1007/s10683-018-9583-2">https://doi.org/10.1007/s10683-018-9583-2</a>.</p>
 </div>
-<div>
-<p>Scharf, Kimberley, Sarah Smith, and Mark Ottoni-Wilhelm. 2017. “Lift and Shift: The Effect of Fundraising Interventions in Charity Space and Time.” <a href="https://doi.org/10.1920/wp.ifs.2017.W1720">https://doi.org/10.1920/wp.ifs.2017.W1720</a>.</p>
+<div id="ref-Schmitz" class="csl-entry">
+<p>———. n.d. <span>“Inter-Charity Competition for Individuals ’ Contributions- Experimental Testing of Substitution- , Complementary- , and Crowding Out Effects,”</span> no. January 2013.</p>
 </div>
-<div>
-<p>Schelling, Thomas C. 1968. “The Life You Save May Be Your Own.” <em>Problems in Public Expenditure</em>, 127–62.</p>
+<div id="ref-schubertFocusCollectiveAttention2020" class="csl-entry">
+<p>Schubert, Stefan. 2020. <span>“The <span>Focus</span> of <span>Collective Attention</span> and the <span>Long</span>-<span>Run Future</span>.”</span> <em>Stefan Schubert</em>. https://stefanfschubert.com/blog/2020/7/24/the-focus-of-collective-attention-and-the-long-run-future.</p>
 </div>
-<div>
-<p>Schmitz, Jan. 2019. “Temporal Dynamics of Pro-Social Behavior: An Experimental Analysis.” <em>Experimental Economics</em> 22 (1). <a href="https://doi.org/10.1007/s10683-018-9583-2">https://doi.org/10.1007/s10683-018-9583-2</a>.</p>
+<div id="ref-shrout2018psychology" class="csl-entry">
+<p>Shrout, Patrick E, and Joseph L Rodgers. 2018. <span>“Psychology, Science, and Knowledge Construction: <span>Broadening</span> Perspectives from the Replication Crisis.”</span> <em>Annual Review of Psychology</em> 69: 487–510.</p>
 </div>
-<div>
-<p>———. n.d. “Inter-Charity Competition for Individuals ’ Contributions- Experimental Testing of Substitution- , Complementary- , and Crowding Out Effects,” no. January 2013.</p>
+<div id="ref-simler2017elephant" class="csl-entry">
+<p>Simler, Kevin, and Robin Hanson. 2017. <em>The Elephant in the Brain: <span>Hidden</span> Motives in Everyday Life</em>. <span>Oxford University Press</span>.</p>
 </div>
-<div>
-<p>Schubert, Stefan. 2020. “The Focus of Collective Attention and the Long-Run Future.” <em>Stefan Schubert</em>. https://stefanfschubert.com/blog/2020/7/24/the-focus-of-collective-attention-and-the-long-run-future.</p>
+<div id="ref-slovicPsychicNumbingGenocide2007" class="csl-entry">
+<p>Slovic, Paul. 2007. <span>“Psychic <span>Numbing</span> and <span>Genocide</span>: (718332007-003).”</span> <span>American Psychological Association</span>. <a href="https://doi.org/10.1037/e718332007-003">https://doi.org/10.1037/e718332007-003</a>.</p>
 </div>
-<div>
-<p>Shrout, Patrick E, and Joseph L Rodgers. 2018. “Psychology, Science, and Knowledge Construction: Broadening Perspectives from the Replication Crisis.” <em>Annual Review of Psychology</em> 69: 487–510.</p>
+<div id="ref-slovic1981perceived" class="csl-entry">
+<p>Slovic, Paul, Baruch Fischhoff, and Sarah Lichtenstein. 1981a. <span>“Perceived Risk: Psychological Factors and Social Implications.”</span> <em>Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences</em> 376 (1764): 17–34.</p>
 </div>
-<div>
-<p>Simler, Kevin, and Robin Hanson. 2017. <em>The Elephant in the Brain: Hidden Motives in Everyday Life</em>. Oxford University Press.</p>
+<div id="ref-slovic1981rating" class="csl-entry">
+<p>———. 1981b. <span>“Rating the Risks.”</span> In <em>Risk/Benefit Analysis in Water Resources Planning and Management</em>, 193–217. <span>Springer</span>.</p>
 </div>
-<div>
-<p>Slovic, Paul. 2007. “Psychic Numbing and Genocide: (718332007-003).” American Psychological Association. <a href="https://doi.org/10.1037/e718332007-003">https://doi.org/10.1037/e718332007-003</a>.</p>
+<div id="ref-small2010reference" class="csl-entry">
+<p>Small, Deborah A. 2010. <span>“Reference-Dependent Sympathy.”</span> <em>Organizational Behavior and Human Decision Processes</em> 112 (2): 151–60.</p>
 </div>
-<div>
-<p>Slovic, Paul, Baruch Fischhoff, and Sarah Lichtenstein. 1981a. “Perceived Risk: Psychological Factors and Social Implications.” <em>Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences</em> 376 (1764): 17–34.</p>
+<div id="ref-Small2003a" class="csl-entry">
+<p>Small, Deborah A, and George Loewenstein. 2003. <span>“Helping a Victim or Helping the Victim: <span>Altruism</span> and Identifiability.”</span> <em>Journal of Risk and Uncertainty</em> 26 (1): 5–16. <a href="https://doi.org/10.1023/A:1022299422219">https://doi.org/10.1023/A:1022299422219</a>.</p>
 </div>
-<div>
-<p>———. 1981b. “Rating the Risks.” In <em>Risk/Benefit Analysis in Water Resources Planning and Management</em>, 193–217. Springer.</p>
+<div id="ref-Small2007" class="csl-entry">
+<p>Small, Deborah A, George Loewenstein, and Paul Slovic. 2007. <span>“Sympathy and Callousness: <span>The</span> Impact of Deliberative Thought on Donations to Identifiable and Statistical Victims.”</span> <em>Organizational Behavior and Human Decision Processes</em> 102 (2): 143–53.</p>
 </div>
-<div>
-<p>Small, Deborah A. 2010. “Reference-Dependent Sympathy.” <em>Organizational Behavior and Human Decision Processes</em> 112 (2): 151–60.</p>
+<div id="ref-smeets2015giving" class="csl-entry">
+<p>Smeets, Paul, Rob Bauer, and Uri Gneezy. 2015. <span>“Giving Behavior of Millionaires.”</span> <em>Proceedings of the National Academy of Sciences</em> 112 (34): 10641–44.</p>
 </div>
-<div>
-<p>Small, Deborah A, and George Loewenstein. 2003. “Helping a Victim or Helping the Victim: Altruism and Identifiability.” <em>Journal of Risk and Uncertainty</em> 26 (1): 5–16. <a href="https://doi.org/10.1023/A:1022299422219">https://doi.org/10.1023/A:1022299422219</a>.</p>
+<div id="ref-spenceMismatchingMoneyNeed2006" class="csl-entry">
+<p>Spence, C. 2006. <span>“Mismatching Money and Need.”</span> <em>Stanford Social Innovation Review</em> 4 (1).</p>
 </div>
-<div>
-<p>Small, Deborah A, George Loewenstein, and Paul Slovic. 2007. “Sympathy and Callousness: The Impact of Deliberative Thought on Donations to Identifiable and Statistical Victims.” <em>Organizational Behavior and Human Decision Processes</em> 102 (2): 143–53.</p>
+<div id="ref-spenceJobMarketSignaling1973" class="csl-entry">
+<p>Spence, M. 1973. <span>“Job <span>Market Signaling</span>.”</span> <em>Quarterly Journal of Economics</em> 87 (3): 355–74. <a href="https://doi.org/10.2307/1882010">https://doi.org/10.2307/1882010</a>.</p>
 </div>
-<div>
-<p>Smeets, Paul, Rob Bauer, and Uri Gneezy. 2015. “Giving Behavior of Millionaires.” <em>Proceedings of the National Academy of Sciences</em> 112 (34): 10641–4.</p>
+<div id="ref-spiller2017consumer" class="csl-entry">
+<p>Spiller, Stephen A, and Lena Belogolova. 2017. <span>“On Consumer Beliefs about Quality and Taste.”</span> <em>Journal of Consumer Research</em> 43 (6): 970–91.</p>
 </div>
-<div>
-<p>Spence, C. 2006. “Mismatching Money and Need.” <em>Stanford Social Innovation Review</em> 4 (1).</p>
+<div id="ref-steinbergShouldDonorsCare1986" class="csl-entry">
+<p>Steinberg. 1986. <span>“<span>"</span><span>Should Donors Care About Fundraising</span>.<span>"</span>.”</span></p>
 </div>
-<div>
-<p>Spence, M. 1973. “Job Market Signaling.” <em>Quarterly Journal of Economics</em> 87 (3): 355–74. <a href="https://doi.org/10.2307/1882010">https://doi.org/10.2307/1882010</a>.</p>
+<div id="ref-Sudhir2016a" class="csl-entry">
+<p>Sudhir, K, Subroto Roy, and Mathew Cherian. 2016. <span>“Do Sympathy Biases Induce Charitable Giving? <span>The</span> Effects of Advertising Content.”</span> <em>Marketing Science</em> 35 (6): 849–69. <a href="https://doi.org/10.1287/mksc.2016.0989">https://doi.org/10.1287/mksc.2016.0989</a>.</p>
 </div>
-<div>
-<p>Spiller, Stephen A, and Lena Belogolova. 2017. “On Consumer Beliefs About Quality and Taste.” <em>Journal of Consumer Research</em> 43 (6): 970–91.</p>
+<div id="ref-summers1994psychophysical" class="csl-entry">
+<p>Summers, C, P Slovic, D Hine, and D Zuliani. 1994. <span>“<span>‘<span>Psychophysical</span> Numbing’</span>: <span>An</span> Empirical Basis for Perceptions of Collective Violence.”</span> <em>Collective Violence: Harmful Behavior in Groups and Governments</em>.</p>
 </div>
-<div>
-<p>Steinberg. 1986. “"Should Donors Care About Fundraising.".”</p>
+<div id="ref-Thaler2008" class="csl-entry">
+<p>Thaler, Richard H, and Cass R Sunstein. 2008. <em>Nudge: <span>Improving</span> Decisions about Health, Wealth, and Happiness</em>. <span>Yale University Press</span>.</p>
 </div>
-<div>
-<p>Sudhir, K, Subroto Roy, and Mathew Cherian. 2016. “Do Sympathy Biases Induce Charitable Giving? The Effects of Advertising Content.” <em>Marketing Science</em> 35 (6): 849–69. <a href="https://doi.org/10.1287/mksc.2016.0989">https://doi.org/10.1287/mksc.2016.0989</a>.</p>
+<div id="ref-tinkelman1998differences" class="csl-entry">
+<p>Tinkelman, Daniel. 1998. <span>“Differences in Sensitivity of Financial Statement Users to Joint Cost Allocations: <span>The</span> Case of Nonprofit Organizations.”</span> <em>Journal of Accounting, Auditing &amp; Finance</em> 13 (4): 377–93.</p>
 </div>
-<div>
-<p>Summers, C, P Slovic, D Hine, and D Zuliani. 1994. “‘Psychophysical Numbing’: An Empirical Basis for Perceptions of Collective Violence.” <em>Collective Violence: Harmful Behavior in Groups and Governments</em>.</p>
+<div id="ref-TopCharities" class="csl-entry">
+<p><span>“Top <span>Charities</span>.”</span> n.d. <em>GiveWell</em>. https://www.givewell.org/charities/top-charities.</p>
 </div>
-<div>
-<p>Thaler, Richard H, and Cass R Sunstein. 2008. <em>Nudge: Improving Decisions About Health, Wealth, and Happiness</em>. Yale University Press.</p>
+<div id="ref-trussel2007financial" class="csl-entry">
+<p>Trussel, John M, and Linda M Parsons. 2007. <span>“Financial Reporting Factors Affecting Donations to Charitable Organizations.”</span> <em>Advances in Accounting</em> 23: 263–85.</p>
 </div>
-<div>
-<p>Tinkelman, Daniel. 1998. “Differences in Sensitivity of Financial Statement Users to Joint Cost Allocations: The Case of Nonprofit Organizations.” <em>Journal of Accounting, Auditing &amp; Finance</em> 13 (4): 377–93.</p>
+<div id="ref-tverskyLossAversionRiskless1991" class="csl-entry">
+<p>Tversky, A, and D Kahneman. 1991. <span>“Loss Aversion in Riskless Choice: <span>A</span> Reference-Dependent Model.”</span> <em>The Quarterly Journal of Economics</em> 106 (4): 1039–61. <a href="https://doi.org/10.2307/2937956">https://doi.org/10.2307/2937956</a>.</p>
 </div>
-<div>
-<p>“Top Charities.” n.d. <em>GiveWell</em>. https://www.givewell.org/charities/top-charities.</p>
+<div id="ref-tversky1973availability" class="csl-entry">
+<p>Tversky, Amos, and Daniel Kahneman. 1973. <span>“Availability: <span>A</span> Heuristic for Judging Frequency and Probability.”</span> <em>Cognitive Psychology</em> 5 (2): 207–32.</p>
 </div>
-<div>
-<p>Trussel, John M, and Linda M Parsons. 2007. “Financial Reporting Factors Affecting Donations to Charitable Organizations.” <em>Advances in Accounting</em> 23: 263–85.</p>
+<div id="ref-CharitableGivingTops" class="csl-entry">
+<p><span>“U.<span>S</span>. Charitable Giving Tops $400 Billion for First Time.”</span> n.d. https://www.cbsnews.com/news/u-s-charitable-giving-tops-400-billion-for-first-time/.</p>
 </div>
-<div>
-<p>Tversky, A, and D Kahneman. 1991. “Loss Aversion in Riskless Choice: A Reference-Dependent Model.” <em>The Quarterly Journal of Economics</em> 106 (4): 1039–61. <a href="https://doi.org/10.2307/2937956">https://doi.org/10.2307/2937956</a>.</p>
+<div id="ref-ubel1996cost" class="csl-entry">
+<p>Ubel, Peter A, Michael L DeKay, Jonathan Baron, and David A Asch. 1996. <span>“Cost-Effectiveness Analysis in a Setting of Budget Constraints<span></span>is It Equitable?”</span> <em>New England Journal of Medicine</em> 334 (18): 1174–77.</p>
 </div>
-<div>
-<p>Tversky, Amos, and Daniel Kahneman. 1973. “Availability: A Heuristic for Judging Frequency and Probability.” <em>Cognitive Psychology</em> 5 (2): 207–32.</p>
+<div id="ref-vaniwaardenCharitiesHowImportant2009" class="csl-entry">
+<p>van Iwaarden, Jos, Ton Van Der Wiele, Roger Williams, and Claire Moxham. 2009. <span>“Charities: How Important Is Performance to Donors?”</span> <em>International Journal of Quality &amp; Reliability Management</em>.</p>
 </div>
-<div>
-<p>Ubel, Peter A, Michael L DeKay, Jonathan Baron, and David A Asch. 1996. “Cost-Effectiveness Analysis in a Setting of Budget ConstraintsIs It Equitable?” <em>New England Journal of Medicine</em> 334 (18): 1174–7.</p>
+<div id="ref-Vesterlund2003a" class="csl-entry">
+<p>Vesterlund, L. 2003. <span>“The Informational Value of Sequential Fundraising.”</span> <em>Journal of Public Economics</em>.</p>
 </div>
-<div>
-<p>“U.S. Charitable Giving Tops $400 Billion for First Time.” n.d. https://www.cbsnews.com/news/u-s-charitable-giving-tops-400-billion-for-first-time/.</p>
+<div id="ref-weitzman1998far" class="csl-entry">
+<p>Weitzman, Martin L. 1998. <span>“Why the Far-Distant Future Should Be Discounted at Its Lowest Possible Rate.”</span> <em>Journal of Environmental Economics and Management</em> 36 (3): 201–8.</p>
 </div>
-<div>
-<p>van Iwaarden, Jos, Ton Van Der Wiele, Roger Williams, and Claire Moxham. 2009. “Charities: How Important Is Performance to Donors?” <em>International Journal of Quality &amp; Reliability Management</em>.</p>
+<div id="ref-Yoruk2016" class="csl-entry">
+<p>Yörük, B K. 2016. <span>“Charity Ratings.”</span> <em>Journal of Economics &amp; Management Strategy</em>. <a href="https://doi.org/10.1111/jems.12139">https://doi.org/10.1111/jems.12139</a>.</p>
 </div>
-<div>
-<p>Vesterlund, L. 2003. “The Informational Value of Sequential Fundraising.” <em>Journal of Public Economics</em>.</p>
+<div id="ref-yorukHowResponsiveAre2009" class="csl-entry">
+<p>Yörük, BarÄÅŸ K. 2009. <span>“How Responsive Are Charitable Donors to Requests to Give?”</span> <em>Journal of Public Economics</em> 93 (9-10): 1111–17. <a href="https://doi.org/10.1016/J.JPUBECO.2009.06.001">https://doi.org/10.1016/J.JPUBECO.2009.06.001</a>.</p>
 </div>
-<div>
-<p>Weitzman, Martin L. 1998. “Why the Far-Distant Future Should Be Discounted at Its Lowest Possible Rate.” <em>Journal of Environmental Economics and Management</em> 36 (3): 201–8.</p>
-</div>
-<div>
-<p>Yörük, Barış K. 2009. “How Responsive Are Charitable Donors to Requests to Give?” <em>Journal of Public Economics</em> 93 (9-10): 1111–7. <a href="https://doi.org/10.1016/J.JPUBECO.2009.06.001">https://doi.org/10.1016/J.JPUBECO.2009.06.001</a>.</p>
-</div>
-<div>
-<p>Yörük, B K. 2016. “Charity Ratings.” <em>Journal of Economics &amp; Management Strategy</em>. <a href="https://doi.org/10.1111/jems.12139">https://doi.org/10.1111/jems.12139</a>.</p>
-</div>
-<div>
-<p>Zweig, Jason. 1998. “Five Investing Lessons from America’s Top Pension Fund.” <em>Money</em> 27 (1): 115–88.</p>
+<div id="ref-zweig1998five" class="csl-entry">
+<p>Zweig, Jason. 1998. <span>“Five Investing Lessons from <span>America</span>’s Top Pension Fund.”</span> <em>Money</em> 27 (1): 115–88.</p>
 </div>
 </div>
 </div>

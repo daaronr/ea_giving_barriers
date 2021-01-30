@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
-<meta name="date" content="2021-01-11" />
+<meta name="date" content="2021-01-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,7 +51,6 @@
 
 
 
-<script src="book_assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- font families -->
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
@@ -132,6 +131,7 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -348,8 +348,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>9.10</b> Other quantitative biases</a>
 <ul>
 <li class="chapter" data-level="9.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>9.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
-<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
-<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative?’)</a></li>
+<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative?’)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>10</b> Barriers: Inertia and systemic/institutional</a>
@@ -407,7 +407,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="13.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#specific-system-for-adding-references-in-this-project"><i class="fa fa-check"></i><b>13.6.7</b> Specific system for adding references in this project</a></li>
 <li class="chapter" data-level="13.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#a-test-of-adding-references"><i class="fa fa-check"></i><b>13.6.8</b> A test of adding references</a></li>
 </ul></li>
-<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a></li>
+<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a>
+<ul>
+<li class="chapter" data-level="13.7.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#exporting-rmarkdown-to-google-docsdrive"><i class="fa fa-check"></i><b>13.7.1</b> Exporting Rmarkdown to Google Docs/Drive</a></li>
+</ul></li>
 <li class="chapter" data-level="13.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>13.8</b> Joining this project</a>
 <ul>
 <li class="chapter" data-level="13.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>13.8.1</b> Creating a Branch and a ‘pull request’</a></li>
@@ -448,8 +451,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <h2><span class="header-section-number">6.1</span> Signaling concern for effectiveness/impact versus other values</h2>
 <div id="theory-and-argument" class="section level3" number="6.1.1">
 <h3><span class="header-section-number">6.1.1</span> Theory and argument</h3>
-<p><span class="citation">Simler and Hanson (<a href="#ref-simler2017elephant" role="doc-biblioref">2017</a>)</span> argue that social signaling is a major driver of human behavior, particularly in the charitable domain. Essentially, we may make choices that we would not have otherwise made in order to boost our reputation among our peers, colleagues, etc.. Reputation may be valued for its own sake or instrumentally, as a means to inducing others to act more favorably to us. Game theory (see esp. <span class="citation">(Spence <a href="#ref-spenceJobMarketSignaling1973" role="doc-biblioref">1973</a>)</span>) offers a precise conception of this signaling as a costly way to demonstrate one’s positive “type” in a context with asymmetric information.</p>
-<p>Several authors (can be interpreted to) suggest that valuing ‘’effectiveness in generosity’‘, i.e., moral-utilitarianism, is seen as a negative signal by peers and lowers fitness in the cooperation market, at least in comparison to signaling compared to deontological or ‘sacred values’. The exchange below captures the basic argument…</p>
+<p><span class="citation"><a href="references.html#ref-simler2017elephant" role="doc-biblioref">Simler and Hanson</a> (<a href="references.html#ref-simler2017elephant" role="doc-biblioref">2017</a>)</span> argue that social signaling is a major driver of human behavior, particularly in the charitable domain. Essentially, we may make choices that we would not have otherwise made in order to boost our reputation among our peers, colleagues, etc.. Reputation may be valued for its own sake or instrumentally, as a means to inducing others to act more favorably to us. Game theory (see esp. <span class="citation">(<a href="references.html#ref-spenceJobMarketSignaling1973" role="doc-biblioref">M. Spence 1973</a>)</span>) offers a precise conception of this signaling as a costly way to demonstrate one’s positive “type” in a context with asymmetric information.</p>
+<p>Several authors (can be interpreted to) suggest that valuing ‘’effectiveness in generosity’‘, i.e., moral-utilitarianism, is seen as a negative signal by peers and lowers fitness in the cooperation market, at least in comparison to signaling compared to deontological or ‘sacred values.’ The exchange below captures the basic argument…</p>
 
 <div class="note">
 <p><em>From Robin Hanson and Rob Wiblin exchange on 80000 hours podcast; see Chapter 12 of “The Elephant in the Brain” (Hanson)</em><br />
@@ -467,11 +470,11 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p><br />
 Hanson: Right, but at least if I want your help and I’m your friend it will be my job to put myself in your face and to tell you about my problem. And maybe I figure I coul successfully get myself in front of your face and make you pay attention to my problem and help you understand what I think is effective and then you would just do what I say, and that’s maybe what I’m mostly hoping for. And if you were this person who thinks carefully about how to help the best person in the world who needs help, well I’m plausibly not going to be that best person in the world who needs help so I’m not going to win out in that contest so it’s not actually going to be that useful to know you as the sort of person who will help the person in the world who needs the most help.</p>
 </div>
-<p><span class="citation">(J. A. Everett, Pizarro, and Crockett <a href="#ref-everettInferenceTrustworthinessIntuitive2016" role="doc-biblioref">2016</a>)</span> argue that deontological ethics signal stable cooperative behavior to others, which enhances fitness in mutualistic partner choice models. The basic argument is “An individual who claims [and believes] that stealing is always morally wrong … seems much less likely to steal from me than an individual who believes that the stealing is sometimes morally acceptable depending on the consequences.”</p>
+<p><span class="citation">(<a href="references.html#ref-everettInferenceTrustworthinessIntuitive2016" role="doc-biblioref">J. A. Everett, Pizarro, and Crockett 2016</a>)</span> argue that deontological ethics signal stable cooperative behavior to others, which enhances fitness in mutualistic partner choice models. The basic argument is “An individual who claims [and believes] that stealing is always morally wrong … seems much less likely to steal from me than an individual who believes that the stealing is sometimes morally acceptable depending on the consequences.”</p>
 Background and further discussion … in fold
 
 <div class="fold">
-<p>The authors’ motivation is to explore why “intuitive moral judgments often”share characteristics with deontological theories while “consequentialist judgments are often the result of slow, deliberative cognitive processes”. Their key theoretical argument cites “mutualistic partner choice models of the evolution of morality”, which…</p>
+<p>The authors’ motivation is to explore why “intuitive moral judgments often”share characteristics with deontological theories while “consequentialist judgments are often the result of slow, deliberative cognitive processes.” Their key theoretical argument cites “mutualistic partner choice models of the evolution of morality,” which…</p>
 <blockquote>
 <p>posit a cooperation market such that agents who can be relied upon to act in a mutually beneficial way are more likely to be chosen as cooperation partners, thus increasing their own fitness</p>
 </blockquote>
@@ -479,10 +482,10 @@ Background and further discussion … in fold
 <p>the typical deontological reason for why specific actions are wrong is that they violate duties to respect persons and honor social obligations-features that are crucial when selecting a social partner. An individual who claims that stealing is always morally wrong and believes themselves morally obligated to act in accordance with this duty seems much less likely to steal from me than an individual who believes that the stealing is sometimes morally acceptable depending on the consequences. Actors who express characteristically deontological judgments may therefore be preferred to those expressing consequentialist judgments because these judgments may be more reliable indicators of stable cooperative behavior.</p>
 </blockquote>
 <blockquote>
-<p>And recent theoretical work has demonstrated that -“cooperating without looking”—that is, without considering the costs and benefits of cooperation—is a subgame perfect equilibrium <span class="citation">(Hoffman, Yoeli, and Nowak <a href="#ref-Hoffman2015" role="doc-biblioref">2015</a>)</span>. Therefore, expressing characteristically deontological judgments could constitute a behavior that enhances individual fitness in a cooperation market because these judgments are seen as reliable indicators of a specific valued behavior-cooperation.</p>
+<p>And recent theoretical work has demonstrated that -“cooperating without looking”—that is, without considering the costs and benefits of cooperation—is a subgame perfect equilibrium <span class="citation">(<a href="references.html#ref-Hoffman2015" role="doc-biblioref">Hoffman, Yoeli, and Nowak 2015</a>)</span>. Therefore, expressing characteristically deontological judgments could constitute a behavior that enhances individual fitness in a cooperation market because these judgments are seen as reliable indicators of a specific valued behavior-cooperation.</p>
 </blockquote>
 </div>
-<p><span class="citation">Hoffman, Yoeli, and Nowak (<a href="#ref-Hoffman2015" role="doc-biblioref">2015</a>)</span> present an evolutionary game theoretic analysis of an indefinitely repeated game where</p>
+<p><span class="citation"><a href="references.html#ref-Hoffman2015" role="doc-biblioref">Hoffman, Yoeli, and Nowak</a> (<a href="references.html#ref-Hoffman2015" role="doc-biblioref">2015</a>)</span> present an evolutionary game theoretic analysis of an indefinitely repeated game where</p>
 <div class="marginnote">
 <p>Here the analogy to effective versus ineffective giving is not clear…</p>
 </div>
@@ -493,19 +496,19 @@ Background and further discussion … in fold
 <li>Player 2 chooses whether to continue repeating the above game, or end the relationship.</li>
 </ul>
 <p>They provide conditions under which ‘cooperating without looking’ (CWOL) is part of a subgame-perfect Nash equilibrium, and an evolutionarily stable equilibrium can involve a substantial rate of CWOL play.</p>
-<p>However, the analogy to effective versus ineffective giving is not clear. Perhaps a connection could be made <em>if considering the charity effectiveness tended to provide a motivation to give less</em>, but this is not obviously the case. In general, an ‘excuse not to do something’ is not the same as a ‘choice to be effective’.</p>
+<p>However, the analogy to effective versus ineffective giving is not clear. Perhaps a connection could be made <em>if considering the charity effectiveness tended to provide a motivation to give less</em>, but this is not obviously the case. In general, an ‘excuse not to do something’ is not the same as a ‘choice to be effective.’</p>
 </div>
 <div id="evidence-for-this-barrier" class="section level3" number="6.1.2">
 <h3><span class="header-section-number">6.1.2</span> Evidence for this barrier</h3>
 <p><em>We consider specific empirical claims that could be interpreted as evidence that this is an important barrier</em>.</p>
-<div id="evidence-that-consequentialist-choices-lead-to-negative-signals-and-less-favorable-treatment-relative-to-deontologicalemotionally-intuitive-choices" class="section level4 unnumbered" number="">
+<div id="evidence-that-consequentialist-choices-lead-to-negative-signals-and-less-favorable-treatment-relative-to-deontologicalemotionally-intuitive-choices" class="section level4 unnumbered">
 <h4>Evidence that “consequentialist choices lead to negative signals and less-favorable treatment relative to deontological/emotionally intuitive choices”</h4>
-<div id="everettinferencetrustworthinessintuitive2016" class="section level5 unnumbered" number="">
-<h5><span class="citation">(J. A. Everett, Pizarro, and Crockett <a href="#ref-everettInferenceTrustworthinessIntuitive2016" role="doc-biblioref">2016</a>)</span></h5>
-<p><span class="citation">J. A. Everett, Pizarro, and Crockett (<a href="#ref-everettInferenceTrustworthinessIntuitive2016" role="doc-biblioref">2016</a>)</span> ran a series of experiments on the Mturk platform, involving hypothetical dilemmas paired with low-stakes (or no) Trust games.</p>
+<div id="everettinferencetrustworthinessintuitive2016" class="section level5 unnumbered">
+<h5><span class="citation">(<a href="references.html#ref-everettInferenceTrustworthinessIntuitive2016" role="doc-biblioref">J. A. Everett, Pizarro, and Crockett 2016</a>)</span></h5>
+<p><span class="citation"><a href="references.html#ref-everettInferenceTrustworthinessIntuitive2016" role="doc-biblioref">J. A. Everett, Pizarro, and Crockett</a> (<a href="references.html#ref-everettInferenceTrustworthinessIntuitive2016" role="doc-biblioref">2016</a>)</span> ran a series of experiments on the Mturk platform, involving hypothetical dilemmas paired with low-stakes (or no) Trust games.</p>
 <p>In each, participants were asked to make and justify their judgement in a moral dillemma such as the famous ‘trolley dillemma.’ In each case, this was a (hypothetical) choice between inaction and taking an action that sacrifices a small number of lives to save a larger number of lives.</p>
 <div class="marginnote">
-<p>Would you “push a man off a footbridge to stop an oncoming train from hitting five”?</p>
+<p>Would you “push a man off a footbridge to stop an oncoming train from hitting five?”</p>
 </div>
 <blockquote>
 <p>We then had our participants rate the morality and trustworthiness of each agent on a scale (Study 1a), play a hypothetical trust game (TG) with the agents (Study 1b), and, finally, play a TG involving real monetary stakes with the agents (Study</p>
@@ -514,7 +517,7 @@ Background and further discussion … in fold
 <p>However, this difference was not present in the track-switching dilemma, the only dilemma in which a majority favored the consequentialist choice.</p>
 <p>Incorporate some of the other papers mentioned in the Gdoc <a href="https://docs.google.com/document/d/1j5y-shBeo6wMy1pCq9DSd7s5UmDUNcXYy2drBeEZlIs/edit?ts=5e440d71#heading=h.1lrjvfcyoa">here</a></p>
 </div>
-<div id="montealegre-et-al.-2020-does-maximizing-good-make-people-look-bad-manuscript" class="section level5 unnumbered" number="">
+<div id="montealegre-et-al.-2020-does-maximizing-good-make-people-look-bad-manuscript" class="section level5 unnumbered">
 <h5>Montealegre et al. (2020) Does Maximizing Good Make People Look Bad? Manuscript</h5>
 <p>Type of evidence: Online experiment (M-turk) with hypothetical choices (attitudes), six pre-registered studies using two different scenarios (N = 1,961)</p>
 <p>Relation to charitable giving: directly, since …</p>
@@ -535,12 +538,12 @@ Across conditions, participants were presented with the general scenario and onl
 <p>Deliberation: “John thought that donating to help Rokia might not be the most cost-effective way to use his money and that maybe he should donate to a charity doing something more cost-effective instead. He asked the charity fundraiser about the relevant statistics of the program and since the data suggested this charity was the most cost-effective John donated to the charity.”
 Empathy: “John was deeply moved by Rokia’s situation and about how terrible her situation must be for her. After hearing about her tragic story and imagining how his donation could help her John donated to the charity.”</p>
 <p>Robustness checks for: gender, stake size</p>
-<p>Background mechanism: donors’ failure to prioritize cost-effectiveness can be explained by signaling concerns, since people who favor deontological over consequentialist decisions are preferred as social partners <span class="citation">(J. A. C. Everett, Pizarro, and Crockett <a href="#ref-Everett2016" role="doc-biblioref">2016</a>)</span></p>
+<p>Background mechanism: donors’ failure to prioritize cost-effectiveness can be explained by signaling concerns, since people who favor deontological over consequentialist decisions are preferred as social partners <span class="citation">(<a href="references.html#ref-Everett2016" role="doc-biblioref">J. A. C. Everett, Pizarro, and Crockett 2016</a>)</span></p>
 <p>Key findings: Across six studies, donors who deliberated were perceived as having worse moral character, were rated as less desirable as social partners, and were judged to be less guided by moral motives. On the other hand, those who deliberated were also seen as more reasonable and competent, and were judged to be more guided by pragmatic motives. Thus, there may be reputational benefits associated with deliberating. However, since deliberators are less preferred as social partners the authors believe the overall effect one reputation is negative. They do not find any differences in trustworthiness. Exhibiting empathy before deliberating reduced most negative reputational effects. People how do not give at all are seen as the worst. Surprisingly, participants judge the empathy donors as more wasteful.</p>
 </div>
 <div id="burum-et-al-20" class="section level5" number="6.1.2.0.1">
 <h5><span class="header-section-number">6.1.2.0.1</span> Burum et al, ’20</h5>
-<p><span class="citation">(<span class="citeproc-not-found" data-reference-id="burumEvolutionaryExplanationIneffective2020"><strong>???</strong></span>)</span></p>
+<p><span class="citation">(<a href="#ref-burumEvolutionaryExplanationIneffective2020" role="doc-biblioref"><strong>burumEvolutionaryExplanationIneffective2020?</strong></a>)</span></p>
 <p>Involving variation in donation multipliers and social signaling/rewards</p>
 <div class="marginnote">
 <p>Writeup needed here</p>
@@ -556,34 +559,10 @@ Empathy: “John was deeply moved by Rokia’s situation and about how terrible 
 </div>
 <div id="indirect-evidence" class="section level4" number="6.1.2.2">
 <h4><span class="header-section-number">6.1.2.2</span> Indirect evidence</h4>
-<p>(<span class="citation">Kahane et al. (<a href="#ref-kahane2018beyond" role="doc-biblioref">2018</a>)</span>; <span class="citation">Jordan et al. (<a href="#ref-Jordan2016b" role="doc-biblioref">2016</a>)</span>; <span class="citation">Hoffman, Yoeli, and Nowak (<a href="#ref-Hoffman2015" role="doc-biblioref">2015</a>)</span>)</p>
+<p>(<span class="citation"><a href="references.html#ref-kahane2018beyond" role="doc-biblioref">Kahane et al.</a> (<a href="references.html#ref-kahane2018beyond" role="doc-biblioref">2018</a>)</span>; <span class="citation"><a href="references.html#ref-Jordan2016b" role="doc-biblioref">Jordan et al.</a> (<a href="references.html#ref-Jordan2016b" role="doc-biblioref">2016</a>)</span>; <span class="citation"><a href="references.html#ref-Hoffman2015" role="doc-biblioref">Hoffman, Yoeli, and Nowak</a> (<a href="references.html#ref-Hoffman2015" role="doc-biblioref">2015</a>)</span>)</p>
 
 </div>
 </div>
-</div>
-</div>
-<h3> List of references</h3>
-<div id="refs" class="references">
-<div id="ref-Everett2016">
-<p>Everett, Jim A. C., David A. Pizarro, and M. J. Crockett. 2016. “Inference of Trustworthiness from Intuitive Moral Judgments.” <em>Journal of Experimental Psychology: General</em> 145 (6): 772–87. <a href="https://doi.org/10.1037/xge0000165">https://doi.org/10.1037/xge0000165</a>.</p>
-</div>
-<div id="ref-everettInferenceTrustworthinessIntuitive2016">
-<p>Everett, Jim AC, David A. Pizarro, and Molly J. Crockett. 2016. “Inference of Trustworthiness from Intuitive Moral Judgments.” <em>Journal of Experimental Psychology: General</em> 145 (6): 772.</p>
-</div>
-<div id="ref-Hoffman2015">
-<p>Hoffman, Moshe, Erez Yoeli, and Martin A. Nowak. 2015. “Cooperate Without Looking: Why We Care What People Think and Not Just What They Do.” <em>Proceedings of the National Academy of Sciences of the United States of America</em> 112 (6): 1727–32. <a href="https://doi.org/10.1073/pnas.1417904112">https://doi.org/10.1073/pnas.1417904112</a>.</p>
-</div>
-<div id="ref-Jordan2016b">
-<p>Jordan, Jillian J., Moshe Hoffman, Martin A. Nowak, and David G. Rand. 2016. “Uncalculating Cooperation Is Used to Signal Trustworthiness.” <em>Proceedings of the National Academy of Sciences of the United States of America</em> 113 (31): 8658–63. <a href="https://doi.org/10.1073/pnas.1601280113">https://doi.org/10.1073/pnas.1601280113</a>.</p>
-</div>
-<div id="ref-kahane2018beyond">
-<p>Kahane, Guy, Jim AC Everett, Brian D Earp, Lucius Caviola, Nadira S Faber, Molly J Crockett, and Julian Savulescu. 2018. “Beyond Sacrificial Harm: A Two-Dimensional Model of Utilitarian Psychology.” <em>Psychological Review</em> 125 (2): 131.</p>
-</div>
-<div id="ref-simler2017elephant">
-<p>Simler, Kevin, and Robin Hanson. 2017. <em>The Elephant in the Brain: Hidden Motives in Everyday Life</em>. Oxford University Press.</p>
-</div>
-<div id="ref-spenceJobMarketSignaling1973">
-<p>Spence, M. 1973. “Job Market Signaling.” <em>Quarterly Journal of Economics</em> 87 (3): 355–74. <a href="https://doi.org/10.2307/1882010">https://doi.org/10.2307/1882010</a>.</p>
 </div>
 </div>
             </section>

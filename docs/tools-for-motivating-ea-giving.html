@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
-<meta name="date" content="2021-01-11" />
+<meta name="date" content="2021-01-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,7 +51,6 @@
 
 
 
-<script src="book_assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- font families -->
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
@@ -132,6 +131,7 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -348,8 +348,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>9.10</b> Other quantitative biases</a>
 <ul>
 <li class="chapter" data-level="9.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>9.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
-<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
-<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative?’)</a></li>
+<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative?’)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>10</b> Barriers: Inertia and systemic/institutional</a>
@@ -407,7 +407,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="13.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#specific-system-for-adding-references-in-this-project"><i class="fa fa-check"></i><b>13.6.7</b> Specific system for adding references in this project</a></li>
 <li class="chapter" data-level="13.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#a-test-of-adding-references"><i class="fa fa-check"></i><b>13.6.8</b> A test of adding references</a></li>
 </ul></li>
-<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a></li>
+<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a>
+<ul>
+<li class="chapter" data-level="13.7.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#exporting-rmarkdown-to-google-docsdrive"><i class="fa fa-check"></i><b>13.7.1</b> Exporting Rmarkdown to Google Docs/Drive</a></li>
+</ul></li>
 <li class="chapter" data-level="13.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>13.8</b> Joining this project</a>
 <ul>
 <li class="chapter" data-level="13.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>13.8.1</b> Creating a Branch and a ‘pull request’</a></li>
@@ -477,11 +480,11 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="a-listing" class="section level2" number="11.6">
 <h2><span class="header-section-number">11.6</span> A listing</h2>
-<div id="make-impact-more-comparable-by-allowing-joint-evaluation-evaluation-mode" class="section level3 unnumbered" number="">
+<div id="make-impact-more-comparable-by-allowing-joint-evaluation-evaluation-mode" class="section level3 unnumbered">
 <h3>Make impact more comparable by allowing joint evaluation (Evaluation mode)</h3>
 <p>Effective charities could present their (e.g., lifesaving) statistics <em>relative</em> to average/popular charities (but be careful about demonizing particular ones)</p>
 <p>Theory: Evaluability bias</p>
-<p>Cite: <span class="citation">(Caviola et al. <a href="#ref-Caviola2014" role="doc-biblioref">2014</a>; Kogut and Ritov <a href="#ref-kogut2005singularity" role="doc-biblioref">2005</a><a href="#ref-kogut2005singularity" role="doc-biblioref">b</a>, <a href="#ref-kogutIdentifiedVictimEffect2005" role="doc-biblioref">2005</a><a href="#ref-kogutIdentifiedVictimEffect2005" role="doc-biblioref">a</a>)</span></p>
+<p>Cite: <span class="citation">(<a href="references.html#ref-Caviola2014" role="doc-biblioref">Caviola et al. 2014</a>; <a href="references.html#ref-kogut2005singularity" role="doc-biblioref">Kogut and Ritov 2005b</a>, <a href="references.html#ref-kogutIdentifiedVictimEffect2005" role="doc-biblioref">2005a</a>)</span></p>
 </div>
 <div id="info-enhancing-social-closeness-of-recipient" class="section level3" number="11.6.1">
 <h3><span class="header-section-number">11.6.1</span> (Info enhancing) social closeness of recipient</h3>
@@ -489,18 +492,6 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p>Psychometrics and targeting people likely to be responsive</p>
 
 </div>
-</div>
-</div>
-<h3> List of references</h3>
-<div id="refs" class="references">
-<div id="ref-Caviola2014">
-<p>Caviola, Lucius, Nadira Faulmüller, Jim. A C Everett, and Julian Savulescu. 2014. “The Evaluability Bias in Charitable Giving: Saving Administration Costs or Saving Lives?” <em>Judgment and Decision Making</em> 9 (4): 303–15. <a href="https://doi.org/None">https://doi.org/None</a>.</p>
-</div>
-<div id="ref-kogutIdentifiedVictimEffect2005">
-<p>Kogut, Tehila, and Ilana Ritov. 2005a. “The ‘Identified Victim’ Effect: An Identified Group, or Just a Single Individual?” <em>Journal of Behavioral Decision Making</em> 18 (3): 157–67. <a href="https://doi.org/10.1002/bdm.492">https://doi.org/10.1002/bdm.492</a>.</p>
-</div>
-<div id="ref-kogut2005singularity">
-<p>Kogut, Tehila, and Ilana Ritov. 2005b. “The Singularity Effect of Identified Victims in Separate and Joint Evaluations.” <em>Organizational Behavior and Human Decision Processes</em> 97 (2): 106–16.</p>
 </div>
 </div>
             </section>

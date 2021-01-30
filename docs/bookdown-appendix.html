@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
-<meta name="date" content="2021-01-11" />
+<meta name="date" content="2021-01-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,7 +51,6 @@
 
 
 
-<script src="book_assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- font families -->
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
@@ -132,6 +131,7 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -348,8 +348,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>9.10</b> Other quantitative biases</a>
 <ul>
 <li class="chapter" data-level="9.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>9.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
-<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
-<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative?’)</a></li>
+<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative?’)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>10</b> Barriers: Inertia and systemic/institutional</a>
@@ -407,7 +407,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="13.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#specific-system-for-adding-references-in-this-project"><i class="fa fa-check"></i><b>13.6.7</b> Specific system for adding references in this project</a></li>
 <li class="chapter" data-level="13.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#a-test-of-adding-references"><i class="fa fa-check"></i><b>13.6.8</b> A test of adding references</a></li>
 </ul></li>
-<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a></li>
+<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a>
+<ul>
+<li class="chapter" data-level="13.7.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#exporting-rmarkdown-to-google-docsdrive"><i class="fa fa-check"></i><b>13.7.1</b> Exporting Rmarkdown to Google Docs/Drive</a></li>
+</ul></li>
 <li class="chapter" data-level="13.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>13.8</b> Joining this project</a>
 <ul>
 <li class="chapter" data-level="13.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>13.8.1</b> Creating a Branch and a ‘pull request’</a></li>
@@ -447,8 +450,18 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p><em>This tutorial written by Oska Fentem with David Reinstein</em></p>
 <div id="introduction-1" class="section level2" number="13.1">
 <h2><span class="header-section-number">13.1</span> Introduction</h2>
-<p>This appendix provides a brief introduction to the several types of software and processes used to creating websites such as <a href="https://daaronr.github.io/ea_giving_barriers/outline.html">Increasing Effective Charitable Giving</a> and <a href="https://daaronr.github.io/writing_econ_research/about-this-work.html">Researching and writing for Economics students</a>. We aim to encourage others to participate in this collaborative work, and to spin off their own projects. If you would like to provide feedback or ask a question about these projects then using <a href="https://web.hypothes.is/">‘hypothes.is’</a> is an easy way to do so.</p>
-<p>You can also contribute content through the Airtable forms (see <a href="outline.html#airtable-contrib">above</a>).</p>
+<p>This appendix provides a brief introduction to the several types of
+software and processes used to creating websites such as <a href="https://daaronr.github.io/ea_giving_barriers/outline.html">Increasing
+Effective Charitable
+Giving</a> and
+<a href="https://daaronr.github.io/writing_econ_research/about-this-work.html">Researching and writing for Economics
+students</a>.
+We aim to encourage others to participate in this collaborative work,
+and to spin off their own projects. If you would like to provide
+feedback or ask a question about these projects then using
+<a href="https://web.hypothes.is/">‘hypothes.is’</a> is an easy way to do so.</p>
+<p>You can also contribute content through the Airtable forms (see
+<a href="outline.html#airtable-contrib">above</a>).</p>
 
 <div class="note">
 The template for my bookdown projects is maintained in my repo <a href="https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template">here</a>
@@ -489,12 +502,25 @@ The template for my bookdown projects is maintained in my repo <a href="https://
 <li>Features of the GitHub website such as ‘projects’</li>
 </ul>
 </div>
-<p>We first give a <em>brief</em> overview of R &amp; RStudio, Git &amp; Github, and R Markdown &amp; Bookdown, linking more extensive further resources/tutorials.</p>
+<p>We first give a <em>brief</em> overview of R &amp; RStudio, Git &amp; Github, and R
+Markdown &amp; Bookdown, linking more extensive further resources/tutorials.</p>
 </div>
 <div id="git-and-github" class="section level2" number="13.2">
 <h2><span class="header-section-number">13.2</span> Git and Github</h2>
 <ul>
-<li><strong>Git</strong> is a version control system which enables users to track changes and progress in coding projects or any files in general. It is particularly useful for collaborating on projects as it provides a useful way to show who has altered which files and when. Users are even able to clone a <em>repository</em> (a folder inside of a project which tracks all changes made) and make changes without affecting the original project. Git also provides a very simple way to keep changes to projects up to date across different operating systems such as Windows and Mac. Installation and configuration of Git can be confusing to the newly-initiated user, <a href="https://happygitwithr.com/index.html">Happy Git</a> provides a user friendly tutorial on installing Git, <a href="https://git-scm.com/">which can be downloaded here</a>.</li>
+<li><strong>Git</strong> is a version control system which enables users to track
+changes and progress in coding projects or any files in general. It
+is particularly useful for collaborating on projects as it provides
+a useful way to show who has altered which files and when. Users are
+even able to clone a <em>repository</em> (a folder inside of a project
+which tracks all changes made) and make changes without affecting
+the original project. Git also provides a very simple way to keep
+changes to projects up to date across different operating systems
+such as Windows and Mac. Installation and configuration of Git can
+be confusing to the newly-initiated user, <a href="https://happygitwithr.com/index.html">Happy
+Git</a> provides a user friendly
+tutorial on installing Git, <a href="https://git-scm.com/">which can be downloaded
+here</a>.</li>
 </ul>
 
 <div class="note">
@@ -508,7 +534,9 @@ Here’s a guide to exactly how to do it.
 </div>
 <div id="some-key-things-to-know-about-git-and-github" class="section level3" number="13.2.1">
 <h3><span class="header-section-number">13.2.1</span> Some key things to know about Git and GitHub</h3>
-<p>A brief overview of key functions inside Git (assuming a remote Github repo) including commits, pushes &amp; pulls, forks &amp; branches and pull requests: (unfold)</p>
+<p>A brief overview of key functions inside Git (assuming a remote Github
+repo) including commits, pushes &amp; pulls, forks &amp; branches and pull
+requests: (unfold)</p>
 
 <div class="fold">
 <ul>
@@ -526,7 +554,8 @@ Here’s a guide to exactly how to do it.
 </ul>
 </div>
 <p><br />
-Git and GitHub can be a bit confusing. Here are some things that I wish I had known, that took my a while to figure out (unfold)</p>
+Git and GitHub can be a bit confusing. Here are some things that I wish
+I had known, that took my a while to figure out (unfold)</p>
 
 <div class="fold">
 <ul>
@@ -542,10 +571,19 @@ Git and GitHub can be a bit confusing. Here are some things that I wish I had kn
 <div id="r-and-rstudio" class="section level2" number="13.3">
 <h2><span class="header-section-number">13.3</span> R and RStudio</h2>
 <ul>
-<li><strong>R</strong> is a free programming language which is mainly used for data analysis and statistics. It can be downloaded <a href="https://www.r-project.org/">here</a>. The popularity of R is growing in Economics Academia, largely due to the growth of Machine Learning techniques in R as well as the flexibility of the language itself.
-R makes use of <strong>packages</strong> which are a collection of functions written in order to achieve specific tasks. Whilst R comes pre-installed with a variety of useful packages, it is often useful to install more, which can be done using the <em>install.packages</em> command.
+<li><p><strong>R</strong> is a free programming language which is mainly used for data
+analysis and statistics. It can be downloaded
+<a href="https://www.r-project.org/">here</a>. The popularity of R is growing
+in Economics Academia, largely due to the growth of Machine Learning
+techniques in R as well as the flexibility of the language itself. R
+makes use of <strong>packages</strong> which are a collection of functions
+written in order to achieve specific tasks. Whilst R comes
+pre-installed with a variety of useful packages, it is often useful
+to install more, which can be done using the <em>install.packages</em>
+command.</p>
 <div class="marginnote">
-<p>If you are familiar with Python, these R packages are roughly comparable to Python’s <strong>modules</strong>.</p>
+<p>If you are familiar with Python, these R packages are roughly
+comparable to Python’s <strong>modules</strong>.</p>
 </div></li>
 </ul>
 
@@ -554,7 +592,14 @@ R makes use of <strong>packages</strong> which are a collection of functions wri
 Here’s a guide to exactly how to do it.
 </div>
 <ul>
-<li><strong>RStudio</strong> is a programming environment and interface which helps facilitate a variety of tasks such as writing scripts using R (as well as other languages), and building/knitting these into various document formats. RStudio ‘Addins’ can also be extremely useful for things like tracking ‘todos’, adding citations, and formatting code. RStudio can also be configured so as to work seamlessly with Git (more on this later). RStudio can be downloaded <a href="https://rstudio.com/">here</a></li>
+<li><strong>RStudio</strong> is a programming environment and interface which helps
+facilitate a variety of tasks such as writing scripts using R (as
+well as other languages), and building/knitting these into various
+document formats. RStudio ‘Addins’ can also be extremely useful for
+things like tracking ‘todos,’ adding citations, and formatting code.
+RStudio can also be configured so as to work seamlessly with Git
+(more on this later). RStudio can be downloaded
+<a href="https://rstudio.com/">here</a></li>
 </ul>
 
 <div class="note">
@@ -565,12 +610,28 @@ Here’s a guide to exactly how to do it.
 <div id="markdown-and-bookdown" class="section level2" number="13.4">
 <h2><span class="header-section-number">13.4</span> Markdown and Bookdown</h2>
 <ul>
-<li><p><strong>Markdown</strong> is a popular set of formats (really a ‘syntax for specifying output’) for generating and authoring documents. The Rmarkdown format (rmarkdown package) is one flavor of Markdown that works with R to enable ‘dynamic documents’ involving text, data-analysis, and other elements. It can then export your work to a variety of outputs such as html, pdf and word documents. As well as this it can also be used to create webpages, such as the one you are currently reading. The power of Markdown files comes from the way that they are able include/embed code as well as data and tables, which is useful for writing reproducible research and creating websites.<br />
+<li><p><strong>Markdown</strong> is a popular set of formats (really a ‘syntax for
+specifying output’) for generating and authoring documents. The
+Rmarkdown format (rmarkdown package) is one flavor of Markdown that
+works with R to enable ‘dynamic documents’ involving text,
+data-analysis, and other elements. It can then export your work to a
+variety of outputs such as html, pdf and word documents. As well as
+this it can also be used to create webpages, such as the one you are
+currently reading. The power of Markdown files comes from the way
+that they are able include/embed code as well as data and tables,
+which is useful for writing reproducible research and creating
+websites.<br />
 </p></li>
-<li><p>The <strong>Bookdown</strong> package was built on the Rmarkdown package, but it adds many features to enable larger and more structured output, particularly ‘web books’ and web sites. As we use it, this these books combine multiple Rmarkdown files, with each such ‘Rmd’ file becoming its own HTML page.</p></li>
+<li><p>The <strong>Bookdown</strong> package was built on the Rmarkdown package, but it
+adds many features to enable larger and more structured output,
+particularly ‘web books’ and web sites. As we use it, this these
+books combine multiple Rmarkdown files, with each such ‘Rmd’ file
+becoming its own HTML page.</p></li>
 </ul>
 <div class="marginnote">
-<p>Look at the list of headings on the left of this page: each second-level header is it’s own web-page (a distinct html link). “All the content in one scrolled page” is limited to a single first-level header.
+<p>Look at the list of headings on the left of this page: each second-level
+header is it’s own web-page (a distinct html link). “All the content in
+one scrolled page” is limited to a single first-level header.
 <!-- @Oska -- perhaps you can say this better --></p>
 </div>
 
@@ -599,10 +660,14 @@ Here’s a guide to exactly how to do it.
 <p>docs: html output put here for web hosting</p>
 <p><strong>Folder: <a href="writing_econ_book">writing_econ_book</a></strong></p>
 <ul>
-<li><a href="writing_econ_book/bookdown.yml">bookdown.yml</a>: determines which files are included in the book</li>
-<li><a href="writing_econ_book/writing_econ_gfm.Rmd">writing_econ_gfm.Rmd</a>: The main content; body of the book (many chapters)</li>
-<li>index.Rmd: Setup content and some styling/parameters; determines how the book is built (into which format, etc)</li>
-<li>header_include.html: Important commands included here including folding boxes</li>
+<li><a href="writing_econ_book/bookdown.yml">bookdown.yml</a>: determines which
+files are included in the book</li>
+<li><a href="writing_econ_book/writing_econ_gfm.Rmd">writing_econ_gfm.Rmd</a>: The
+main content; body of the book (many chapters)</li>
+<li>index.Rmd: Setup content and some styling/parameters; determines how
+the book is built (into which format, etc)</li>
+<li>header_include.html: Important commands included here including
+folding boxes</li>
 <li>references_cut.bib: bibtex references referred to in ‘@ref’ notes</li>
 <li>tufte_plus.css: Determines layout and styling</li>
 <li>writing_econ_book.Rproj: ‘project’ … to work on this in R-studio</li>
@@ -635,11 +700,22 @@ Here’s a guide to exactly how to do it.
 <div id="basic-r-markdown" class="section level3" number="13.6.1">
 <h3><span class="header-section-number">13.6.1</span> Basic (R-)Markdown</h3>
 <!-- Could do with rewording -->
-<p>The Markdown format offers a simple plain-text notation for specifying the elements of documents, reports, web sites, etc. (It is much simpler and easier to read than html, latex, etc.) It is widely used by programmers, on comment boards/forums, and throughout the internet. For example, GitHub.com automatically renders markdown code, particularly in <code>readme.md</code> files.</p>
+<p>The Markdown format offers a simple plain-text notation for specifying
+the elements of documents, reports, web sites, etc. (It is much simpler
+and easier to read than html, latex, etc.) It is widely used by
+programmers, on comment boards/forums, and throughout the internet. For
+example, GitHub.com automatically renders markdown code, particularly in
+<code>readme.md</code> files.</p>
 <div class="marginnote">
-<p>Actually there are several varieties of markdown, but they mainly share key elements.</p>
+<p>Actually there are several varieties of markdown, but they mainly share
+key elements.</p>
 </div>
-<p>Markdown documents are usually saved as plain text files with the extension <code>.md</code>, e.g., <code>report.md</code>. These allow for an easy way to create a variety of outputs, particularly reports and text-focused web pages. The markdown format is <em>converted</em> into other formats (html, latex, etc.) with a variety of tools, particularly something called Pandoc.</p>
+<p>Markdown documents are usually saved as plain text files with the
+extension <code>.md</code>, e.g., <code>report.md</code>. These allow for an easy way to
+create a variety of outputs, particularly reports and text-focused web
+pages. The markdown format is <em>converted</em> into other formats (html,
+latex, etc.) with a variety of tools, particularly something called
+Pandoc.</p>
 
 <div class="note">
 <p><strong>What is Pandoc?</strong></p>
@@ -648,37 +724,67 @@ Here’s a guide to exactly how to do it.
 <p>You can also install and use Pandoc directly in the command line, or try it out (in a limited but still useful way) on the web <a href="https://pandoc.org/try/">here</a></p>
 For more on Pandoc visit <a href="https://pandoc.org/">pandoc.org</a>
 </div>
-<p>In the R (statistically focused) language there are tools such as <code>knitR</code> that allow R users to produce reports combining text, statistical output, and interactive content. These are generally written in “R-markdown” documents, saved as <code>.Rmd</code> rather than <code>.md</code> files. The R-studio interface, and several “add-ins”, also help facilitate this. This interface is very useful; in fact, it may be convenient to build web books and other content using this even if you are not planning to extensively integrate R code and data. (As in the present book, although I’m hoping to build this in).</p>
-<p>Using R-markdown and Knitr (and other tools and add-ins like ‘Bookdown’) content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or regression output.</p>
+<p>In the R (statistically focused) language there are tools such as
+<code>knitR</code> that allow R users to produce reports combining text,
+statistical output, and interactive content. These are generally written
+in “R-markdown” documents, saved as <code>.Rmd</code> rather than <code>.md</code> files. The
+R-studio interface, and several “add-ins,” also help facilitate this.
+This interface is very useful; in fact, it may be convenient to build
+web books and other content using this even if you are not planning to
+extensively integrate R code and data. (As in the present book, although
+I’m hoping to build this in).</p>
+<p>Using R-markdown and Knitr (and other tools and add-ins like ‘Bookdown’)
+content from multiple sources can easily be embedded into these
+documents allowing users to easily display objects such as plots or
+regression output.</p>
 </div>
 <div id="simple-md-rules" class="section level3" number="13.6.2">
 <h3><span class="header-section-number">13.6.2</span> Some simple markdown rules</h3>
-<p>Text can be made <em>italic</em> using single asterisks <code>*italic</code> or <strong>bold</strong> by using asterisks <code>**bold**</code>.</p>
-<p>Hashtags/pound signs (<code>#</code>) specify headers and subheaders, e.g., this third-level subsection header was created with the code:</p>
+<p>Text can be made <em>italic</em> using single asterisks <code>*italic</code> or <strong>bold</strong>
+by using asterisks <code>**bold**</code>.</p>
+<p>Hashtags/pound signs (<code>#</code>) specify headers and subheaders, e.g., this
+third-level subsection header was created with the code:</p>
 <p><code>### Some simple markdown rules {#simple-md-rules}</code></p>
-<p>Where the bit in the curly braces allows us to link-back with the code <code>[link back text whatever](#simple-md-rules)</code> … rendering as <a href="bookdown-appendix.html#simple-md-rules">link back text whatever</a>.</p>
+<p>Where the bit in the curly braces allows us to link-back with the code
+<code>[link back text whatever](#simple-md-rules)</code> … rendering as <a href="bookdown-appendix.html#simple-md-rules">link
+back text whatever</a>.</p>
 <p>Other key features are ordered lists and unordered lists:</p>
 <pre><code>- unordered first entry
 - unordered second entry
      - subelement of second entry</code></pre>
-<p>While basic markdown has a limited set of rules, there are many more formatting and content options for documents produced in (R)-Markdown, far too many to detail here. These may combine markdown code, html code, latex code, and more. The following cheatsheets are very useful for writing (R)-markdown documents:</p>
-<p>Markdown documents allow for an easy way to write reports. Content from multiple sources can easily be embedded into these documents allowing users to easily display objects such as plots or tables of data.</p>
+<p>While basic markdown has a limited set of rules, there are many more
+formatting and content options for documents produced in (R)-Markdown,
+far too many to detail here. These may combine markdown code, html code,
+latex code, and more. The following cheatsheets are very useful for
+writing (R)-markdown documents:</p>
+<p>Markdown documents allow for an easy way to write reports. Content from
+multiple sources can easily be embedded into these documents allowing
+users to easily display objects such as plots or tables of data.</p>
 <div class="marginnote">
-<p>Text can be made <em>italic</em> using single asterisks <code>*italic*</code> and <strong>bold</strong> by using double asterisks <code>**bold**</code>.</p>
+<p>Text can be made <em>italic</em> using single asterisks <code>*italic*</code> and <strong>bold</strong>
+by using double asterisks <code>**bold**</code>.</p>
 </div>
-<p>There are various text formatting options in Markdown, far too many to detail here… The following cheatsheets are very useful for writing markdown documents:</p>
+<p>There are various text formatting options in Markdown, far too many to
+detail here… The following cheatsheets are very useful for writing
+markdown documents:</p>
 <ul>
-<li><p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown cheatsheet</a></p></li>
-<li><p><a href="https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf">R Markdown cheatsheet</a></p></li>
+<li><p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown
+cheatsheet</a></p></li>
+<li><p><a href="https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf">R Markdown
+cheatsheet</a></p></li>
 </ul>
 <p><br />
 </p>
 <p>See also (most useful, but highly detailed):</p>
 <ul>
-<li><a href="https://bookdown.org/yihui/rmarkdown/">R markdown - the definitive guide</a></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown/">R markdown - the definitive
+guide</a></li>
 </ul>
-<p>Code chunks provide an easy way to embed code into your R Markdown files. The code language is not just limited to R either, as other languages can be used. This means that there is a wide variety of content which can be displayed in a chunk. Such as tables of data:</p>
-<p><table class="huxtable" style="border-collapse: collapse; border: 0px; margin-bottom: 2em; margin-top: 2em; ; margin-left: auto; margin-right: auto;  " id="tab:unnamed-chunk-66">
+<p>Code chunks provide an easy way to embed code into your R Markdown
+files. The code language is not just limited to R either, as other
+languages can be used. This means that there is a wide variety of
+content which can be displayed in a chunk. Such as tables of data:</p>
+<table class="huxtable" style="border-collapse: collapse; border: 0px; margin-bottom: 2em; margin-top: 2em; ; margin-left: auto; margin-right: auto;  " id="tab:unnamed-chunk-66">
 <caption style="caption-side: top; text-align: center;"><span id="tab:unnamed-chunk-66">Table 13.1: </span> </caption><col><col><col><col><col><tr>
 <th style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">Sepal.Length</th><th style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">Sepal.Width</th><th style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">Petal.Length</th><th style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">Petal.Width</th><th style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0.4pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">Species</th></tr>
 <tr>
@@ -695,31 +801,51 @@ For more on Pandoc visit <a href="https://pandoc.org/">pandoc.org</a>
 <td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">5.4</td><td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">3.9</td><td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">1.7</td><td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">0.4</td><td style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0.4pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">setosa</td></tr>
 </table>
 
-Code chunks are defined by wrapping text inside <code>```  ```</code>. The above example was coded using:</p>
-<div class="sourceCode" id="cb23"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb23-1"><a href="bookdown-appendix.html#cb23-1"></a><span class="bn">```{r}</span></span>
-<span id="cb23-2"><a href="bookdown-appendix.html#cb23-2"></a><span class="bn">head(iris)</span></span>
-<span id="cb23-3"><a href="bookdown-appendix.html#cb23-3"></a><span class="bn">```</span></span></code></pre></div>
-<!-- ````markdown ```
-```` -->
-<p>Options can be specified inside of the curly brackets {}
-More information is provided <a href="https://bookdown.org/yihui/rmarkdown/r-code.html">here</a></p>
+<p>Code chunks are defined by wrapping text inside <code>```  ```</code>. The above example was coded using:</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb29-1"><a href="bookdown-appendix.html#cb29-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-2"><a href="bookdown-appendix.html#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb29-3"><a href="bookdown-appendix.html#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="in">head(iris)</span></span></code></pre></div>
+<!-- ````markdown ``` ```` -->
+<p>Options can be specified inside of the curly brackets {} More
+information is provided
+<a href="https://bookdown.org/yihui/rmarkdown/r-code.html">here</a></p>
 </div>
 <div id="inline-code" class="section level3" number="13.6.3">
 <h3><span class="header-section-number">13.6.3</span> Inline code</h3>
-<p>Inline code is a quick and easy way to put snippets of R code. As an alternative to using code chunks, R code can simply be placed inside of <code>`r `</code>. For example, this can be used as an easy way to insert the value of a variable into a paragraph without inserting a chunk.</p>
+<p>Inline code is a quick and easy way to put snippets of R code. As an
+alternative to using code chunks, R code can simply be placed inside of
+<code>`r `</code>. For example, this can be used as an easy way to insert the
+value of a variable into a paragraph without inserting a chunk.</p>
 </div>
 <div id="latexmaths" class="section level3" number="13.6.4">
 <h3><span class="header-section-number">13.6.4</span> Latex/maths</h3>
-<p>R Markdown also can make use of the LaTeX document preparation system, which is popular for writing technical documents with mathematical content. This allows us to publish documents which include equations such as:</p>
+<p>R Markdown also can make use of the LaTeX document preparation system,
+which is popular for writing technical documents with mathematical
+content. This allows us to publish documents which include equations
+such as:</p>
 <p><span class="math display">\[y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u\]</span></p>
-<p>Which is written using <code>$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$</code>. Using <code>$$</code> means that the equation will be centered on the page. Alternatively <code>$</code> can be used in the same way, without the centering.</p>
-<p><a href="https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html">A very useful guide to maths in R Markdown</a> provides a detailed outline of the various mathematical symbols which can be used.</p>
+<p>Which is written using
+<code>$$y = \beta_0+\beta_1x_1 +\beta_2x_2+...+\beta_kx_k+u.$$</code>. Using <code>$$</code>
+means that the equation will be centered on the page. Alternatively <code>$</code>
+can be used in the same way, without the centering.</p>
+<p><a href="https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html">A very useful guide to maths in R
+Markdown</a>
+provides a detailed outline of the various mathematical symbols which
+can be used.</p>
 </div>
 <div id="custom-styles" class="section level3" number="13.6.5">
 <h3><span class="header-section-number">13.6.5</span> Custom styles</h3>
-<p>Bookdown allows for users to build their own custom styles in order to change the appearance of documents. To create styles for HTML projects a custom css file is used. For these projects, styles are contained in <a href="support/tufte_plus.css">support/tufte_plus.css</a>. To use a defined style, the user can specify options at the start of a chunk, or using a HTML wrapper as show below for margin notes.</p>
+<p>Bookdown allows for users to build their own custom styles in order to
+change the appearance of documents. To create styles for HTML projects a
+custom css file is used. For these projects, styles are contained in
+<a href="support/tufte_plus.css">support/tufte_plus.css</a>. To use a defined
+style, the user can specify options at the start of a chunk, or using a
+HTML wrapper as show below for margin notes.</p>
 <ul>
-<li><p>More on creating styles <a href="https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html">here</a>. Below will outline several key styles used throughout these projects:</p></li>
+<li><p>More on creating styles
+<a href="https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html">here</a>.
+Below will outline several key styles used throughout these
+projects:</p></li>
 <li><p><strong>‘Notes’</strong></p></li>
 </ul>
 
@@ -727,15 +853,18 @@ More information is provided <a href="https://bookdown.org/yihui/rmarkdown/r-cod
 Formatted ‘Notes’ have been defined in this work which allow text to be placed in coloured blocks such as this one. To use this note style, <code>{block2, type ='note'}</code> can be specified at the start of the block, or a HTML wrapper can be used. This assigns the .note formatting from the tufte_plus.css file to the chunk.
 </div>
 <ul>
-<li><strong>Margin notes</strong>
-Margin notes are used throughout these projects as a way of displaying information in an organised and aesthetically pleasing way. To add a margin note, text is placed inside the following HTML wrapper:</li>
+<li><strong>Margin notes</strong> Margin notes are used throughout these projects as
+a way of displaying information in an organised and aesthetically
+pleasing way. To add a margin note, text is placed inside the
+following HTML wrapper:</li>
 </ul>
 <div class="marginnote">
-<p>The margin notes used in this project are inspired by the Tufte handout style developed by American statistician Edward Tufte.</p>
+<p>The margin notes used in this project are inspired by the Tufte handout
+style developed by American statistician Edward Tufte.</p>
 </div>
-<div class="sourceCode" id="cb24"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb24-1"><a href="bookdown-appendix.html#cb24-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;marginnote&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb24-2"><a href="bookdown-appendix.html#cb24-2"></a>Your margin note goes here.</span>
-<span id="cb24-3"><a href="bookdown-appendix.html#cb24-3"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb30"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb30-1"><a href="bookdown-appendix.html#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;marginnote&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb30-2"><a href="bookdown-appendix.html#cb30-2" aria-hidden="true" tabindex="-1"></a>Your margin note goes here.</span>
+<span id="cb30-3"><a href="bookdown-appendix.html#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
 <p>Or margin notes can be added by using chunk options.</p>
 <ul>
 <li><strong>Folding boxes</strong></li>
@@ -747,59 +876,99 @@ Folding boxes also provide a useful way to incorporate content without clutterin
 </div>
 <div id="adding-referencescitations" class="section level3" number="13.6.6">
 <h3><span class="header-section-number">13.6.6</span> Adding references/citations</h3>
-<p>As with any academic work, it is always important to reference sourced material. Across these projects the following software is used:</p>
+<p>As with any academic work, it is always important to reference sourced
+material. Across these projects the following software is used:</p>
 <ul>
 <li><strong>Setup</strong></li>
 </ul>
-<p>Pandoc provides a way to generate formatted references as well as a bibliography in <a href="https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html">R-Markdown</a>.</p>
-<p>The bibliography file to be sourced is specified within ‘YAML’ content, which guides the processing of these documents. (YAML content is generally enclosed with a three-dash <code>---</code> break at top and bottom.)</p>
-<p>I generally specify the bibliography source in the YAML at the top of the .Rmd file, or for Bookdown projects in the the YAML content in index.Rmd.</p>
+<p>Pandoc provides a way to generate formatted references as well as a
+bibliography in
+<a href="https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html">R-Markdown</a>.</p>
+<p>The bibliography file to be sourced is specified within ‘YAML’ content,
+which guides the processing of these documents. (YAML content is
+generally enclosed with a three-dash <code>---</code> break at top and bottom.)</p>
+<p>I generally specify the bibliography source in the YAML at the top of
+the .Rmd file, or for Bookdown projects in the the YAML content in
+index.Rmd.</p>
 <!-- @Oska -- we should try to explain this yaml stuff a bit better. -->
 <ul>
 <li><strong>BibTeX</strong></li>
 </ul>
-<p>The BibTeX format refers to a stylized file format which is used predomoninantly for lists of references, mainly and originally for working with latex.. BibTeX bibliographies use the .bib extension. For example the bibliography for this project is <a href="support/giving_keywords.bib">giving_keywords.bib</a>. For more information on BibTeX see <a href="http://www.bibtex.org/">here</a></p>
+<p>The BibTeX format refers to a stylized file format which is used
+predomoninantly for lists of references, mainly and originally for
+working with latex.. BibTeX bibliographies use the .bib extension. For
+example the bibliography for this project is
+<a href="support/giving_keywords.bib">giving_keywords.bib</a>. For more information
+on BibTeX see <a href="http://www.bibtex.org/">here</a></p>
 <ul>
 <li><strong>Zotero</strong></li>
 </ul>
-<p>Zotero is a free open source reference manager, which enables users to sync their library of references across multiple devices. Similarly to other reference managers, Zotero offers plugins for popular browsers such as Chrome and Safari. This project makes use of a shared reference library in Zotero, contact daaronr AT gmail.com to be added. <a href="https://www.zotero.org/download/">Download Zotero</a></p>
+<p>Zotero is a free open source reference manager, which enables users to
+sync their library of references across multiple devices. Similarly to
+other reference managers, Zotero offers plugins for popular browsers
+such as Chrome and Safari. This project makes use of a shared reference
+library in Zotero, contact daaronr AT gmail.com to be added. <a href="https://www.zotero.org/download/">Download
+Zotero</a></p>
 <ul>
 <li><strong>Better BibTeX for Zotero</strong></li>
 </ul>
-<p>Better BibTeX for Zotero is a add-on for Zotero. Among other things it allows the Zotero library to be exported from Zotero for use in Markdown. Installation instructions are provided <a href="http://retorque.re/zotero-better-bibtex/installation/">here.</a></p>
+<p>Better BibTeX for Zotero is a add-on for Zotero. Among other things it
+allows the Zotero library to be exported from Zotero for use in
+Markdown. Installation instructions are provided
+<a href="http://retorque.re/zotero-better-bibtex/installation/">here.</a></p>
 <ul>
 <li><strong>Citr package (addin) for RStudio</strong></li>
 </ul>
-<p>The Citr package provides functions to search Zotero and BibTeX libraries in order to insert references into Markdown files. Citr also features a plugin for RStudio which makes the referencing process even easier. Instructions for download, as well as a demonstration of the Rstudio plugin are provided <a href="https://github.com/crsh/citr/blob/master/README.md">here.</a>
-When using the Citr package to add citations to projects such as this one, make sure to have Citr update the correct Bibtex file.</p>
+<p>The Citr package provides functions to search Zotero and BibTeX
+libraries in order to insert references into Markdown files. Citr also
+features a plugin for RStudio which makes the referencing process even
+easier. Instructions for download, as well as a demonstration of the
+Rstudio plugin are provided
+<a href="https://github.com/crsh/citr/blob/master/README.md">here.</a> When using
+the Citr package to add citations to projects such as this one, make
+sure to have Citr update the correct Bibtex file.</p>
 <div class="figure">
 <img src="picsfigs/citr_settings.png" alt="" />
 <p class="caption">Citr Settings for Ea_giving_barriers</p>
 </div>
 <div class="marginnote">
-<p>The Bibtex file to “Add references to” is the bibliography file specified in the YAML header of index.Rmd.</p>
+<p>The Bibtex file to “Add references to” is the bibliography file
+specified in the YAML header of index.Rmd.</p>
 </div>
 </div>
 <div id="specific-system-for-adding-references-in-this-project" class="section level3" number="13.6.7">
 <h3><span class="header-section-number">13.6.7</span> Specific system for adding references in this project</h3>
 <p><strong>Method 1 (recommended): Rstudio citr plugin linked to Zotero</strong></p>
 <ol style="list-style-type: decimal">
-<li><p>Install Zotero software, Rstudio, and <code>citr</code> package (an ‘Add-in’). Make sure all are running.</p></li>
-<li><p>Join the Zotero <a href="https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs">reinstein_research_and_impact_collabs</a> group</p></li>
-<li><p>Make sure the <a href="https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs/library">group library</a> is syncronised with your Zotero</p></li>
-<li><p>R-Studio ‘Addins (see bar at top)’, (Citr) ‘insert citation’, settings (brings up the screen shown above)</p></li>
+<li><p>Install Zotero software, Rstudio, and <code>citr</code> package (an ‘Add-in’).
+Make sure all are running.</p></li>
+<li><p>Join the Zotero
+<a href="https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs">reinstein_research_and_impact_collabs</a>
+group</p></li>
+<li><p>Make sure the <a href="https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs/library">group
+library</a>
+is syncronised with your Zotero</p></li>
+<li><p>R-Studio ‘Addins (see bar at top),’ (Citr) ‘insert citation,’
+settings (brings up the screen shown above)</p></li>
 </ol>
 <ul>
-<li><p>Make sure ‘add references to’ specifies the “…<code>ea_giving_barriers/support/reinstein_bibtex.bib</code>” folder.</p></li>
-<li><p>Make sure Zotero ‘reinstein_research_and_impact_collabs’ library is loaded</p></li>
+<li><p>Make sure ‘add references to’ specifies the
+“…<code>ea_giving_barriers/support/reinstein_bibtex.bib</code>” folder.</p></li>
+<li><p>Make sure Zotero ‘reinstein_research_and_impact_collabs’ library is
+loaded</p></li>
 </ul>
 <ol start="5" style="list-style-type: decimal">
 <li>Try to add the citation/reference.</li>
 </ol>
 <ul>
-<li><p>Note that <code>[@reference]</code> gives a different format than <code>@reference</code> (see below test).</p></li>
-<li><p>If the reference is not present, add it to the Zotero library (there are various methods, from Google Scholar etc) and synchronise your library, and try it again.</p></li>
-<li><p>If you are not sure what the reference is, consult the Airtable, use context, and consult other survey papers. If you are still not sure ask on Github.</p></li>
+<li><p>Note that <code>[@reference]</code> gives a different format than <code>@reference</code>
+(see below test).</p></li>
+<li><p>If the reference is not present, add it to the Zotero library (there
+are various methods, from Google Scholar etc) and synchronise your
+library, and try it again.</p></li>
+<li><p>If you are not sure what the reference is, consult the Airtable, use
+context, and consult other survey papers. If you are still not sure
+ask on Github.</p></li>
 </ul>
 <p><br />
 </p>
@@ -818,15 +987,15 @@ When using the Citr package to add citations to projects such as this one, make 
 <li>Browse addins</li>
 </ul>
 <p>Click in box “keyboard shortcuts”</p>
-<p>Click the addin “Insert Citations” under ‘shortcuts’, and enter a keyboard shortcut of your choice.</p>
+<p>Click the addin “Insert Citations” under ‘shortcuts,’ and enter a keyboard shortcut of your choice.</p>
 </div>
 </div>
 <div id="a-test-of-adding-references" class="section level3" number="13.6.8">
 <h3><span class="header-section-number">13.6.8</span> A test of adding references</h3>
 <p><em>Test a reference from reinstein_bibtex.bib:</em>
-<span class="citation">Fong and Oberholzer-Gee (<a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a><a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">a</a>)</span> no brackets
-<span class="citation">(Fong and Oberholzer-Gee <a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a><a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">a</a>)</span> with brackets</p>
-<p>using an “ID”" only: <span class="citation">(Fong and Oberholzer-Gee <a href="#ref-Fong2010" role="doc-biblioref">2010</a><a href="#ref-Fong2010" role="doc-biblioref">a</a>)</span><br />
+<span class="citation"><a href="references.html#ref-fongTruthGivingExperimental2010" role="doc-biblioref">Fong and Oberholzer-Gee</a> (<a href="references.html#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a>)</span> no brackets
+<span class="citation">(<a href="references.html#ref-fongTruthGivingExperimental2010" role="doc-biblioref">Fong and Oberholzer-Gee 2010</a>)</span> with brackets</p>
+<p>using an “ID”" only: <span class="citation">(<a href="#ref-Fong2010" role="doc-biblioref"><strong>Fong2010?</strong></a>)</span><br />
 </p>
 </div>
 </div>
@@ -835,47 +1004,124 @@ When using the Citr package to add citations to projects such as this one, make 
 <p><strong>One way is within RStudio</strong></p>
 <ul>
 <li><p>Be sure Github repo is synced so all files are present</p></li>
-<li><p>Packages need to be installed, but this should (?) be done automatically when you build via the <code>source(here("code", "baseoptions.R"))</code> line in index.Rmd</p>
+<li><p>Packages need to be installed, but this should (?) be done
+automatically when you build via the
+<code>source(here("code", "baseoptions.R"))</code> line in index.Rmd</p>
 <ul>
 <li>knitr is a key package</li>
 </ul></li>
-<li><p>Click ‘Build’, ‘Build all’, or the shortcut key shift-cmd-b</p>
+<li><p>Click ‘Build,’ ‘Build all,’ or the shortcut key shift-cmd-b</p>
 <ul>
-<li>… this seems to run the command <code>rmarkdown::render_site(encoding = 'UTF-8')</code></li>
+<li>… this seems to run the command
+<code>rmarkdown::render_site(encoding = 'UTF-8')</code></li>
 </ul></li>
 </ul>
-<p>Building may take some time, depending on how much code is present in the Rmd files and what that code does</p>
+<p>Building may take some time, depending on how much code is present in
+the Rmd files and what that code does</p>
 <ul>
-<li><p>It puts all the Rmd files specified in the _bookdown.yml into a single file, here labeled barriers-to-effective-giving.knit.md (I think), and then turns that into html, also invoking bibtex along the way</p></li>
-<li><p>Depending on your RStudio settings (-Tools, -Project Options, -Build tools, -Preview book after building), it may put up a ‘preview version’ of the site. Sometimes an error will appear such as “some/file not found”, this can typically be bypassed by clicking <strong>open in browser</strong>.</p></li>
-<li><p>All the ‘new’ output is directed to be put in the ‘docs’ folder, a bunch of html files. You can view those ‘local’ files in any web browser</p></li>
-<li><p>Once you commit and push, the ‘new’ bookdown website should be up on the WWW</p></li>
+<li><p>It puts all the Rmd files specified in the _bookdown.yml into a
+single file, here labeled barriers-to-effective-giving.knit.md (I
+think), and then turns that into html, also invoking bibtex along
+the way</p></li>
+<li><p>Depending on your RStudio settings (-Tools, -Project Options, -Build
+tools, -Preview book after building), it may put up a ‘preview
+version’ of the site. Sometimes an error will appear such as
+“some/file not found,” this can typically be bypassed by clicking
+<strong>open in browser</strong>.</p></li>
+<li><p>All the ‘new’ output is directed to be put in the ‘docs’ folder, a
+bunch of html files. You can view those ‘local’ files in any web
+browser</p></li>
+<li><p>Once you commit and push, the ‘new’ bookdown website should be up on
+the WWW</p></li>
 </ul>
+<div id="exporting-rmarkdown-to-google-docsdrive" class="section level3" number="13.7.1">
+<h3><span class="header-section-number">13.7.1</span> Exporting Rmarkdown to Google Docs/Drive</h3>
+<p>Suppose that we wish to share our work with collaborators who aren’t
+familiar with Github or Rmarkdown. In this case we may find it useful to
+export work to Google Drive. This process is easy in R as we can use the
+<a href="https://googledrive.tidyverse.org/">googledrive package</a> and <a href="https://github.com/MilesMcBain/markdrive">markdrive
+packages</a>. Below we will
+outline a basic workflow for rendering Rmarkdown and uploading these
+files to Google Drive. During this process files are rendered and converted to Google Docs.</p>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="bookdown-appendix.html#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(markdrive)</span>
+<span id="cb31-2"><a href="bookdown-appendix.html#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="bookdown-appendix.html#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Render and upload Rmarkdown file</span></span>
+<span id="cb31-4"><a href="bookdown-appendix.html#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="fu">gdoc_render</span>(<span class="at">filename=</span><span class="st">&quot;sections/barriers_old_classification.Rmd&quot;</span>, </span>
+<span id="cb31-5"><a href="bookdown-appendix.html#cb31-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_name=</span> <span class="st">&quot;A test&quot;</span>,</span>
+<span id="cb31-6"><a href="bookdown-appendix.html#cb31-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_path=</span> <span class="st">&quot;Test folder&quot;</span>)</span></code></pre></div>
+<p>In the above example we render an Rmarkdown document to HTML and upload
+the corresponding document to Google Drive. This process tends to work
+best with Rmd files with <em>html_document</em> output.</p>
+<p>One drawback of this method is that rendering and uploading files
+multiple times will result in <em>multiple</em> files. That is, duplicate files
+are not identified and removed automatically. This is possible when
+uploading files to Google Drive using the <code>googledrive</code> package,
+however, due to the need to render and convert our Rmarkdown file
+we must make use of the <code>markdrive</code> commands which do not support this. We now
+consider a workflow which identifies existing files and moves these to
+trash. This ensures that we do not create duplicates when uploading.</p>
+<p><strong>Warning</strong>: Make sure that you <strong>do not</strong> already have files with duplicate labels inside your <code>gdoc_path</code>. Otherwise these files will be deleted.</p>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="bookdown-appendix.html#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googledrive)</span>
+<span id="cb32-2"><a href="bookdown-appendix.html#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(markdrive)</span>
+<span id="cb32-3"><a href="bookdown-appendix.html#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="bookdown-appendix.html#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Define files and folders for simplicity</span></span>
+<span id="cb32-5"><a href="bookdown-appendix.html#cb32-5" aria-hidden="true" tabindex="-1"></a>gdoc_file <span class="ot">&lt;-</span> <span class="st">&quot;A test&quot;</span></span>
+<span id="cb32-6"><a href="bookdown-appendix.html#cb32-6" aria-hidden="true" tabindex="-1"></a>gdoc_path <span class="ot">&lt;-</span> <span class="st">&quot;Term 2&quot;</span></span>
+<span id="cb32-7"><a href="bookdown-appendix.html#cb32-7" aria-hidden="true" tabindex="-1"></a>local_file <span class="ot">&lt;-</span> <span class="st">&quot;test.Rmd&quot;</span></span>
+<span id="cb32-8"><a href="bookdown-appendix.html#cb32-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-9"><a href="bookdown-appendix.html#cb32-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if our file to upload exists already</span></span>
+<span id="cb32-10"><a href="bookdown-appendix.html#cb32-10" aria-hidden="true" tabindex="-1"></a><span class="co"># If so move this file to trash</span></span>
+<span id="cb32-11"><a href="bookdown-appendix.html#cb32-11" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (gdoc_file <span class="sc">%in%</span> <span class="fu">drive_ls</span>(<span class="at">path=</span>gdoc_path)<span class="sc">$</span>name) {</span>
+<span id="cb32-12"><a href="bookdown-appendix.html#cb32-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drive_trash</span>(<span class="fu">as_dribble</span>(<span class="fu">paste</span>(gdoc_path, gdoc_file, <span class="at">sep=</span><span class="st">&quot;/&quot;</span>)))</span>
+<span id="cb32-13"><a href="bookdown-appendix.html#cb32-13" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb32-14"><a href="bookdown-appendix.html#cb32-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-15"><a href="bookdown-appendix.html#cb32-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Render and upload Rmarkdown file</span></span>
+<span id="cb32-16"><a href="bookdown-appendix.html#cb32-16" aria-hidden="true" tabindex="-1"></a><span class="fu">gdoc_render</span>(<span class="at">filename=</span> local_file, </span>
+<span id="cb32-17"><a href="bookdown-appendix.html#cb32-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_name=</span> gdoc_file,</span>
+<span id="cb32-18"><a href="bookdown-appendix.html#cb32-18" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_path=</span> gdoc_path)</span></code></pre></div>
+</div>
 </div>
 <div id="joining-this-project" class="section level2" number="13.8">
 <h2><span class="header-section-number">13.8</span> Joining this project</h2>
 <ul>
-<li><p>Get a Github account, contact daaronr AT gmail.com and tell him your github account ID (or the email you used to join should probably work as well)</p></li>
-<li><p>Remember to ‘accept’ the invitation to the repos (here, the EA_giving_barriers repo; and possibly some other supporting repos as well). You should receive this invitations via email and it should also be in your “notifications” on Github.</p></li>
+<li><p>Get a Github account, contact daaronr AT gmail.com and tell him your
+github account ID (or the email you used to join should probably
+work as well)</p></li>
+<li><p>Remember to ‘accept’ the invitation to the repos (here, the
+EA_giving_barriers repo; and possibly some other supporting repos as
+well). You should receive this invitations via email and it should
+also be in your “notifications” on Github.</p></li>
 </ul>
 <div id="creating-a-branch-and-a-pull-request" class="section level3" number="13.8.1">
 <h3><span class="header-section-number">13.8.1</span> Creating a Branch and a ‘pull request’</h3>
 </div>
 <div id="github-web-page-content" class="section level3" number="13.8.2">
 <h3><span class="header-section-number">13.8.2</span> GitHub web page content {#}</h3>
-<p>As noted, GitHub is a web page and interface that acts as an external server and storage space for git projects/repos. It works well with this and also incorporate several additional features. You can see it and even interact with much of a repo simply via the GitHub webpage without even installing Git (but I strongly recommend that you do install Git as well as a tool like GitHub Desktop, unless you want to solely rely on command line Git).</p>
-<div id="web-page-for-a-repo" class="section level4 unnumbered" number="">
+<p>As noted, GitHub is a web page and interface that acts as an external
+server and storage space for git projects/repos. It works well with this
+and also incorporate several additional features. You can see it and
+even interact with much of a repo simply via the GitHub webpage without
+even installing Git (but I strongly recommend that you do install Git as
+well as a tool like GitHub Desktop, unless you want to solely rely on
+command line Git).</p>
+<div id="web-page-for-a-repo" class="section level4 unnumbered">
 <h4>Web page for a repo</h4>
-<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="bookdown-appendix.html#cb25-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;picsfigs/ea_barriers_github_repo_startpage.png&#39;</span>)</span></code></pre></div>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-71"></span>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="bookdown-appendix.html#cb33-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;picsfigs/ea_barriers_github_repo_startpage.png&#39;</span>)</span></code></pre></div>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-73"></span>
 <img src="picsfigs/ea_barriers_github_repo_startpage.png" alt="EA barriers repo github starting page" width="100%" />
 <p class="caption">
 Figure 13.1: EA barriers repo github starting page
 </p>
 </div>
-<p>In your account when you click on the repo you’ll see something like the screen above. There are many tabs, starting with the code tab. At the top of this, you will see the list of folders and files, with messages describing the latest comments.</p>
+<p>In your account when you click on the repo you’ll see something like the
+screen above. There are many tabs, starting with the code tab. At the
+top of this, you will see the list of folders and files, with messages
+describing the latest comments.</p>
 <div class="marginnote">
-<p>Once you’ve installed Git you will want to ‘clone this repo’ to have it on your machine and to be able to easily work with it and commit and push and pull changes. You will do this clone either via the web site, GitHub Desktop or another application, or using the command line</p>
+<p>Once you’ve installed Git you will want to ‘clone this repo’ to have it
+on your machine and to be able to easily work with it and commit and
+push and pull changes. You will do this clone either via the web site,
+GitHub Desktop or another application, or using the command line</p>
 </div>
 <p>Note here we also see:</p>
 <ul>
@@ -883,18 +1129,30 @@ Figure 13.1: EA barriers repo github starting page
 <li><p>2 ‘branches’</p></li>
 <li><p>2 contributors</p></li>
 </ul>
-<p>Below this, some options allowing you to switch branch, manually upload files, clone or download etc.</p>
+<p>Below this, some options allowing you to switch branch, manually upload
+files, clone or download etc.</p>
 </div>
-<div id="readme-for-a-repo" class="section level4 unnumbered" number="">
+<div id="readme-for-a-repo" class="section level4 unnumbered">
 <h4>Readme for a repo</h4>
-<p>Below the list of files you should see the “readme” for this repository. This is a file ‘README.md’ stored in the root directory of this repository. If you click on it or look at the file you’ll see it is written in markdown syntax but the GitHub website renders it into a nice format.</p>
-<p>I typically use this readme to explain what the project is about and describe (and link) the folder structure.</p>
+<p>Below the list of files you should see the “readme” for this repository.
+This is a file ‘README.md’ stored in the root directory of this
+repository. If you click on it or look at the file you’ll see it is
+written in markdown syntax but the GitHub website renders it into a nice
+format.</p>
+<p>I typically use this readme to explain what the project is about and
+describe (and link) the folder structure.</p>
 </div>
-<div id="commentsnotifications" class="section level4 unnumbered" number="">
+<div id="commentsnotifications" class="section level4 unnumbered">
 <h4>Comments/notifications</h4>
-<p>In a variety of places within a repo when you are adding comments or content you can refer to a collaborator who will then receive a “notification” linking this content. (These are also called “callouts” in some systems.) These may come as as emails to that collaborator if they set a setting to get email notifications, but they will definitely appear as a notification, again that bell thing in the upper right hand corner.</p>
+<p>In a variety of places within a repo when you are adding comments or
+content you can refer to a collaborator who will then receive a
+“notification” linking this content. (These are also called “callouts”
+in some systems.) These may come as as emails to that collaborator if
+they set a setting to get email notifications, but they will definitely
+appear as a notification, again that bell thing in the upper right hand
+corner.</p>
 </div>
-<div id="seeing-recent-commits-history-and-blame" class="section level4 unnumbered" number="">
+<div id="seeing-recent-commits-history-and-blame" class="section level4 unnumbered">
 <h4>Seeing recent commits, history and ‘blame’</h4>
 <div class="figure">
 <img src="picsfigs/some_commits.png" alt="" />
@@ -903,41 +1161,61 @@ Figure 13.1: EA barriers repo github starting page
 <p><br />
 </p>
 <p>Above, this shows the most recent commits.</p>
-<p>Clicking on one of these commits will show you ‘what changed’ and old versus new versions.</p>
+<p>Clicking on one of these commits will show you ‘what changed’ and old
+versus new versions.</p>
 <p><br />
 </p>
 <div class="figure">
 <img src="picsfigs/commit_some_diffs.png" alt="" />
 <p class="caption">Showing the most recent commits</p>
 </div>
-<p>For example, above we see something like a “split diff” view, with the ‘old version’ (before this commit) on the left and the ‘new version’ on the right. What is new is in green (with a ‘+’), and what is removed is in red highlight (with a “-”).</p>
+<p>For example, above we see something like a “split diff” view, with the
+‘old version’ (before this commit) on the left and the ‘new version’ on
+the right. What is new is in green (with a ‘+’), and what is removed is
+in red highlight (with a “-”).</p>
 <p>Here we see that …</p>
 <ul>
-<li>in the file ‘sections/inertia.rmd’ a space has been added after ‘crowding out?’
+<li><p>in the file ‘sections/inertia.rmd’ a space has been added after
+‘crowding out?’</p>
 <div class="marginnote">
-<p>This is but one way to view and consider changes. Various text editors such as Atom and ViM also offer great tools, as does the Git program itself and the GitHub desktop application.</p>
+<p>This is but one way to view and consider changes. Various text
+editors such as Atom and ViM also offer great tools, as does the Git
+program itself and the GitHub desktop application.</p>
 </div></li>
-<li>in ‘present_puzzle.Rmd’ an (obsolete) ‘underline’ notation has been replaced with a third level markdown header (three <code>#</code> marks)</li>
+<li><p>in ‘present_puzzle.Rmd’ an (obsolete) ‘underline’ notation has been
+replaced with a third level markdown header (three <code>#</code> marks)</p></li>
 </ul>
 </div>
-<div id="commenting-within-commits-etc.-tagging-collaborators-in-this" class="section level4 unnumbered" number="">
+<div id="commenting-within-commits-etc.-tagging-collaborators-in-this" class="section level4 unnumbered">
 <h4>Commenting within commits, etc., tagging collaborators in this</h4>
-<p>One way to ask questions, comment on changes and let people know about changes you made, is via adding a comment within a commit itself. (Check: can this be tied to an ‘issue’?)</p>
+<p>One way to ask questions, comment on changes and let people know about
+changes you made, is via adding a comment within a commit itself.
+(Check: can this be tied to an ‘issue?’)</p>
 <div class="figure">
 <img src="picsfigs/commenting_a_commit.png" alt="" />
-<p class="caption">Commenting on a part of a commit, notifying a collaborator</p>
+<p class="caption">Commenting on a part of a commit, notifying a
+collaborator</p>
 </div>
-<p>Above, we see that by clicking on a plus sign that appears just to the right of the the line number when viewing a commit, we can add a comment on that particular part of the commit. We can then flag another collaborator (see ‘@daaronr’ above … when you type the ‘@’ you get a dropdown of collaborators) who will be notified of this.</p>
-<p>This mode of commenting and conversation has the advantage of avoiding cluttering up the actual code and text with excess comments.</p>
+<p>Above, we see that by clicking on a plus sign that appears just to the
+right of the the line number when viewing a commit, we can add a comment
+on that particular part of the commit. We can then flag another
+collaborator (see ‘@daaronr’ above … when you type the ‘@’ you get a
+dropdown of collaborators) who will be notified of this.</p>
+<p>This mode of commenting and conversation has the advantage of avoiding
+cluttering up the actual code and text with excess comments.</p>
 <p><br />
 </p>
-<p>You can also link each comment to an ‘issue’ (issues are discussed below) by adding a hash to the comment and citing the issue number. This comment and link to the place in the code or text for that commit will then show up when you look at that issue. This makes the discussion more organized, at least we hope.</p>
+<p>You can also link each comment to an ‘issue’ (issues are discussed
+below) by adding a hash to the comment and citing the issue number. This
+comment and link to the place in the code or text for that commit will
+then show up when you look at that issue. This makes the discussion more
+organized, at least we hope.</p>
 <div class="figure">
 <img src="picsfigs/comment_link_issue.png" alt="" />
 <p class="caption">Link an issue in a comment</p>
 </div>
 </div>
-<div id="the-project-board-and-issues" class="section level4 unnumbered" number="">
+<div id="the-project-board-and-issues" class="section level4 unnumbered">
 <h4>The ‘Project’ board and ‘Issues’</h4>
 
 <div class="note">
@@ -945,8 +1223,10 @@ Figure 13.1: EA barriers repo github starting page
 <p>Note that the ‘project board’ and ‘issues’ are just tools on the Github web site for discussing and managing the project; these are not files or data, it’s a built-in tool.</p>
 </div>
 <ul>
-<li><p>the Project is a ‘Kanban board’ for managing tasks, responsibilities and progress</p></li>
-<li><p>these should be entered as ‘issues’, enabling assignments and further discussion within the ‘issues’ pages</p></li>
+<li><p>the Project is a ‘Kanban board’ for managing tasks, responsibilities
+and progress</p></li>
+<li><p>these should be entered as ‘issues,’ enabling assignments and
+further discussion within the ‘issues’ pages</p></li>
 </ul>
 <p><br />
 </p>
@@ -971,39 +1251,59 @@ Figure 13.1: EA barriers repo github starting page
 </div>
 <div id="airtable-and-innovationsinfundraising.org" class="section level2" number="13.9">
 <h2><span class="header-section-number">13.9</span> Airtable and innovationsinfundraising.org</h2>
-<p>This project is closely connected to <a href="innovationsinfundraising.org">innovationsinfundraising.org</a>. Much of these projects overlap, and there is a shared ‘database’ stored as an airtable <a href="https://airtable.com/invite/l?inviteId=invjWg63fpQAOBcch&amp;inviteToken=0b154f62460aba428e0bf8c082ae3947e2e9b62b1045994a767eee551bb92833">Giving researchers shared</a></p>
-<p>We had an earlier … <a href="https://github.com/daaronr/ea_giving_barriers/blob/master/documentatiion_and_tutorials/project_airtableexplained/airtable_database_overview.pdf">tutorial on using the Airtable and Innovationsinfundraising.org here</a></p>
+<p>This project is closely connected to
+<a href="innovationsinfundraising.org">innovationsinfundraising.org</a>. Much of
+these projects overlap, and there is a shared ‘database’ stored as an
+airtable <a href="https://airtable.com/invite/l?inviteId=invjWg63fpQAOBcch&amp;inviteToken=0b154f62460aba428e0bf8c082ae3947e2e9b62b1045994a767eee551bb92833">Giving researchers
+shared</a></p>
+<p>We had an earlier … <a href="https://github.com/daaronr/ea_giving_barriers/blob/master/documentatiion_and_tutorials/project_airtableexplained/airtable_database_overview.pdf">tutorial on using the Airtable and
+Innovationsinfundraising.org
+here</a></p>
 <p>I add a few more points below, more relevant to the current project:<br />
 </p>
-<div id="airtable" class="section level3 unnumbered" number="">
+<div id="airtable" class="section level3 unnumbered">
 <h3>Airtable</h3>
-<p><a href="https://airtable.com/">Airtable</a> is a collaborative web-based software with a variety of displays and organizational structures; it has many features of a relational database, and even more features if one engages their API. It is user-friendly, with a gui resembling a spreadsheet, and easy tutorials, instructions and examples. You can operate it from a browser or a web-driven app.</p>
+<p><a href="https://airtable.com/">Airtable</a> is a collaborative web-based software
+with a variety of displays and organizational structures; it has many
+features of a relational database, and even more features if one engages
+their API. It is user-friendly, with a gui resembling a spreadsheet, and
+easy tutorials, instructions and examples. You can operate it from a
+browser or a web-driven app.</p>
 </div>
-<div id="key-features-of-tables-in-airtables-quick-views" class="section level3 unnumbered" number="">
+<div id="key-features-of-tables-in-airtables-quick-views" class="section level3 unnumbered">
 <h3>Key features of tables in Airtables (quick views)</h3>
-<p>Each Airtable user can have any number of <em>Bases</em>, and bases can be shared in work groups.</p>
+<p>Each Airtable user can have any number of <em>Bases</em>, and bases can be
+shared in work groups.</p>
 <ul>
 <li>Command-K to jump to any other Base</li>
 </ul>
-<p>“key_papers”; the papers providing the most relevant and strongest evidence for the tool, and “secondary papers”.</p>
+<p>“key_papers”; the papers providing the most relevant and strongest
+evidence for the tool, and “secondary papers.”</p>
 </div>
-<div id="key-content" class="section level3 unnumbered" number="">
+<div id="key-content" class="section level3 unnumbered">
 <h3>Key content</h3>
-<p>The “Categories” table provides and explains a number of “schema” we use to characterize both the tools and the “Barriers to effective giving” (discussed later).</p>
+<p>The “Categories” table provides and explains a number of “schema” we use
+to characterize both the tools and the “Barriers to effective giving”
+(discussed later).</p>
 <div class="figure">
 <img src="picsfigs/categories_table.png" alt="" />
 <p class="caption">categories table</p>
 </div>
 <p><br />
 </p>
-<p>Key papers are stored and organised in the ‘papers_mass’ table. This is crosslinked in several other tables. Within each paper ‘row’ there is a variety of relevant information and discussion on each paper.</p>
+<p>Key papers are stored and organised in the ‘papers_mass’ table. This is
+crosslinked in several other tables. Within each paper ‘row’ there is a
+variety of relevant information and discussion on each paper.</p>
 <div class="figure">
 <img src="picsfigs/key_papers.png" alt="" />
 <p class="caption">key papers</p>
 </div>
 <p><br />
 </p>
-<p>The fundingwiki app automatically populates and updates information on the number of times each paper has been cited, using the Crossref database. Tool such as these will enable this to be a perrennial resource, rather than a frozen-in-time evaluation.</p>
+<p>The fundingwiki app automatically populates and updates information on
+the number of times each paper has been cited, using the Crossref
+database. Tool such as these will enable this to be a perrennial
+resource, rather than a frozen-in-time evaluation.</p>
 <div class="figure">
 <img src="picsfigs/citations_auto_update.png" alt="" />
 <p class="caption">citations auto update</p>
@@ -1014,12 +1314,15 @@ Figure 13.1: EA barriers repo github starting page
 <div class="note">
 <p><strong>Note</strong>: Some but not all of the Airtable content discussed in the rest of this subsection has already been incorporated into the present bookdown.</p>
 </div>
-<p>The table “EAlit_sections” outlines the (earlier?) structure of the EA barriers paper, already providing links to information that will be integrated.</p>
+<p>The table “EAlit_sections” outlines the (earlier?) structure of the EA
+barriers paper, already providing links to information that will be
+integrated.</p>
 <div class="figure">
 <img src="picsfigs/organizing_ealitpaper.png" alt="" />
 <p class="caption">organizing ealitpaper</p>
 </div>
-<p>This table also links directly to the papers_mass table, organizing the papers we are referencing and reviewing in each section.</p>
+<p>This table also links directly to the papers_mass table, organizing the
+papers we are referencing and reviewing in each section.</p>
 <div class="figure">
 <img src="picsfigs/organizing_EAlit_papers.png" alt="" />
 <p class="caption">organizing EAlit papers</p>
@@ -1027,7 +1330,14 @@ Figure 13.1: EA barriers repo github starting page
 <p><br />
 </p>
 <p>The separate “Barriers to EAG” table is below.</p>
-<p>This organizes and assembles the discussion and evidence on potential factors and categories of factors that may explain the limited amount of “effective giving”. This represents the largest part of our review paper; we focus on clear definitions of the most relevant psychological (and “behavioral economic”) biases, and carefully asses the available evidence. We focus specifically on evidence in the charitable domain, but we also consider the broader evidence for these biases in other contexts.</p>
+<p>This organizes and assembles the discussion and evidence on potential
+factors and categories of factors that may explain the limited amount of
+“effective giving.” This represents the largest part of our review
+paper; we focus on clear definitions of the most relevant psychological
+(and “behavioral economic”) biases, and carefully asses the available
+evidence. We focus specifically on evidence in the charitable domain,
+but we also consider the broader evidence for these biases in other
+contexts.</p>
 <div class="figure">
 <img src="picsfigs/barriers_to_EAG.png" alt="" />
 <p class="caption">barriers to EAG</p>
@@ -1035,14 +1345,17 @@ Figure 13.1: EA barriers repo github starting page
 <div class="marginnote">
 <p>Again, this is older work, maybe already incorporated into the Bookdown?</p>
 </div>
-<p>For each barrier or bias, we consider why it is may be particularly relevant to <em>effective</em> giving.</p>
+<p>For each barrier or bias, we consider why it is may be particularly
+relevant to <em>effective</em> giving.</p>
 <div class="figure">
 <img src="picsfigs/barriers_to_EAG_whyrelevant.png" alt="" />
-<p class="caption">barriers to EAG, why relevant</p>
+<p class="caption">barriers to EAG, why
+relevant</p>
 </div>
 <p><br />
 </p>
-<p>We further propose and discuss tools addressing these barriers and promoting effective charitable giving.</p>
+<p>We further propose and discuss tools addressing these barriers and
+promoting effective charitable giving.</p>
 <div class="figure">
 <img src="picsfigs/tools_remedies.png" alt="" />
 <p class="caption">tools remedies</p>
@@ -1053,26 +1366,22 @@ Figure 13.1: EA barriers repo github starting page
 </div>
 <div id="useful-resources" class="section level2" number="13.10">
 <h2><span class="header-section-number">13.10</span> Useful resources</h2>
-<p>Like most things, when working with code the internet is your best friend. Listed below are several useful resources for learning about the material mentioned above:</p>
+<p>Like most things, when working with code the internet is your best
+friend. Listed below are several useful resources for learning about the
+material mentioned above:</p>
 <div id="r-markdown-the-definitive-guide" class="section level4" number="13.10.0.1">
 <h4><span class="header-section-number">13.10.0.1</span> <a href="https://bookdown.org/yihui/rmarkdown/" class="unnumbered">R Markdown: The definitive guide</a></h4>
 </div>
 <div id="r-for-data-science" class="section level4" number="13.10.0.2">
 <h4><span class="header-section-number">13.10.0.2</span> <a href="https://r4ds.had.co.nz/" class="unnumbered">R for Data Science</a></h4>
 </div>
-<div id="authoring-books-with-r-markdown" class="section level4 unnumbered" number="">
+<div id="authoring-books-with-r-markdown" class="section level4 unnumbered">
 <h4><a href="https://bookdown.org/yihui/bookdown/">Authoring Books with R Markdown</a></h4>
 </div>
 <div id="yarrr-the-pirates-guide-to-r" class="section level4" number="13.10.0.3">
 <h4><span class="header-section-number">13.10.0.3</span> <a href="https://bookdown.org/ndphillips/YaRrr/" class="unnumbered">YaRrr! The Pirate’s Guide to R</a></h4>
 
 </div>
-</div>
-</div>
-<h3> List of references</h3>
-<div id="refs" class="references">
-<div id="ref-fongTruthGivingExperimental2010">
-<p>Fong, Christina, and Felix Oberholzer-Gee. 2010a. “Truth in Giving: Experimental Evidence on the Welfare Effects of Informed Giving to the Poor.” <em>Journal of Public Economics</em>.</p>
 </div>
 </div>
             </section>

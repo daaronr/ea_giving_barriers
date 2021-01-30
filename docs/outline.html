@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
-<meta name="date" content="2021-01-11" />
+<meta name="date" content="2021-01-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,7 +51,6 @@
 
 
 
-<script src="book_assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- font families -->
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
@@ -132,6 +131,7 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -348,8 +348,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>9.10</b> Other quantitative biases</a>
 <ul>
 <li class="chapter" data-level="9.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>9.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
-<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
-<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative?’)</a></li>
+<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative?’)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>10</b> Barriers: Inertia and systemic/institutional</a>
@@ -407,7 +407,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="13.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#specific-system-for-adding-references-in-this-project"><i class="fa fa-check"></i><b>13.6.7</b> Specific system for adding references in this project</a></li>
 <li class="chapter" data-level="13.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#a-test-of-adding-references"><i class="fa fa-check"></i><b>13.6.8</b> A test of adding references</a></li>
 </ul></li>
-<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a></li>
+<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a>
+<ul>
+<li class="chapter" data-level="13.7.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#exporting-rmarkdown-to-google-docsdrive"><i class="fa fa-check"></i><b>13.7.1</b> Exporting Rmarkdown to Google Docs/Drive</a></li>
+</ul></li>
 <li class="chapter" data-level="13.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>13.8</b> Joining this project</a>
 <ul>
 <li class="chapter" data-level="13.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>13.8.1</b> Creating a Branch and a ‘pull request’</a></li>
@@ -451,13 +454,13 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <h2><span class="header-section-number">1.1</span> Overview</h2>
 <p><strong>Section <a href="present-puzzle.html#present-puzzle">2</a>: <a href="present-puzzle.html#present-puzzle">Presenting the puzzle and challenge: Our ineffective giving</a></strong></p>
 <div class="marginnote">
-<p>Why should you care about this? Descriptives of giving (US, international) and how ‘ineffective’ it is. Potential global welfare gains to changing ‘where we give’. Lack of previous evidence/synthesis</p>
+<p>Why should you care about this? Descriptives of giving (US, international) and how ‘ineffective’ it is. Potential global welfare gains to changing ‘where we give.’ Lack of previous evidence/synthesis</p>
 </div>
 <ul>
 <li><p><a href="present-puzzle.html#motivate-puzzle">Motivation and descriptives</a></p></li>
 <li><p><a href="#impact-definitions">Definitions - “Efficiency” versus impact</a>*</p>
 <div class="marginnote">
-<p>* Relevant to charity ‘quality ratings’, overhead aversion</p>
+<p>* Relevant to charity ‘quality ratings,’ overhead aversion</p>
 </div></li>
 <li><p><a href="present-puzzle.html#why-puzzle">Why (under what models) is this a puzzle?</a>**</p></li>
 </ul>
@@ -474,7 +477,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <!-- Economic and psych models conceptualizing this -->
 <p><br />
 </p>
-<p><strong>Section <a href="substitution.html#substitution">3</a>: <a href="substitution.html#substitution">Are charities in competition? Is the ineffective giving reducing effective giving? Ask people to give to EA charity ‘instead’?</a></strong></p>
+<p><strong>Section <a href="substitution.html#substitution">3</a>: <a href="substitution.html#substitution">Are charities in competition? Is the ineffective giving reducing effective giving? Ask people to give to EA charity ‘instead?’</a></strong></p>
 <!-- (Or put in section 2?) -->
 <p>Are charitable gifts complements or substitutes; are charities are
 rivals? Does one donation request ask (or donation itself) crowd out another, and if so when and how much? This is critical to understanding the extent to which gains can be achieved by getting people to ‘switch’ from less to more effective charities. To the extent this crowding-out is the case, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors’ pressuring you to give to local organisations) themselves represent barriers to EA giving.</p>
@@ -499,8 +502,8 @@ rivals? Does one donation request ask (or donation itself) crowd out another, an
 <p><strong>Section <a href="social.html#social">6</a>: <a href="social.html#social">Barriers: Signaling and social pressures/social identity</a></strong></p>
 <p>Includes, e.g.,</p>
 <ul>
-<li><p>social perceptions and ‘signaling empathy vs effectiveness’ (<span class="citation">(Caviola, Schubert, and Nemirow <a href="#ref-caviola2020many" role="doc-biblioref">2020</a>)</span>)</p></li>
-<li><p>difficulty of coordinated signaling with a hard-to-coordinate measure such as ‘effectiveness’ <span class="citation">(<span class="citeproc-not-found" data-reference-id="burumEvolutionaryExplanationIneffective2020"><strong>???</strong></span>)</span></p></li>
+<li><p>social perceptions and ‘signaling empathy vs effectiveness’ (<span class="citation">(<a href="references.html#ref-caviola2020many" role="doc-biblioref">Caviola, Schubert, and Nemirow 2020</a>)</span>)</p></li>
+<li><p>difficulty of coordinated signaling with a hard-to-coordinate measure such as ‘effectiveness’ <span class="citation">(<a href="#ref-burumEvolutionaryExplanationIneffective2020" role="doc-biblioref"><strong>burumEvolutionaryExplanationIneffective2020?</strong></a>)</span></p></li>
 </ul>
 <p><br />
 </p>
@@ -551,7 +554,7 @@ Next we consider the <strong>Evidence</strong>, with a third-level header preamb
 <p>For example, within the category <strong><a href="eval-aversion.html#eval-aversion">Barriers: Aversion/obstacles to <em>doing</em> (using) evaluations; effect of analytical information on generosity</a></strong> …</p>
 <p>we consider the barrier <a href="eval-aversion.html#cba-aversion">“General cost-benefit analysis (CBA)-aversion or reluctance”</a>…</p>
 <p>weighing evidence specific claims such as <a href="-#avoid_info_CBA">“People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA…”</a>…
-coming from research papers/studies such as <span class="citation">(Fong and Oberholzer-Gee <a href="#ref-Fong2011" role="doc-biblioref">2010</a><a href="#ref-Fong2011" role="doc-biblioref">a</a>)</span>.</p>
+coming from research papers/studies such as <span class="citation">(<a href="#ref-Fong2011" role="doc-biblioref"><strong>Fong2011?</strong></a>)</span>.</p>
 </div>
 </div>
 </div>
@@ -602,12 +605,6 @@ coming from research papers/studies such as <span class="citation">(Fong and Obe
 </script>
 </html>
 
-</div>
-</div>
-<h3> List of references</h3>
-<div id="refs" class="references">
-<div id="ref-caviola2020many">
-<p>Caviola, Lucius, Stefan Schubert, and Jason Nemirow. 2020. “The Many Obstacles to Effective Giving.” <em>Judgment and Decision Making</em> 15 (2): 159.</p>
 </div>
 </div>
             </section>
