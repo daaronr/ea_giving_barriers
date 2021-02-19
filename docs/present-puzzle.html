@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
-<meta name="date" content="2021-01-30" />
+<meta name="date" content="2021-02-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,7 @@
 
 
 
+<script src="book_assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- font families -->
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
@@ -131,7 +132,6 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -348,8 +348,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>9.10</b> Other quantitative biases</a>
 <ul>
 <li class="chapter" data-level="9.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>9.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
-<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative?’)</a></li>
-<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative?’)</a></li>
+<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>10</b> Barriers: Inertia and systemic/institutional</a>
@@ -458,12 +458,12 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <p>When faced with the <a href="https://www.youtube.com/watch?v=rBMZiaD-OYo">“girl drowning in the pond”</a> we are willing to sacrifice substantial wealth to save a life. However, <a href="https://givingusa.org/giving-usa-2017-total-charitable-donations-rise-to-new-high-of-390-05-billion/">most people don’t make large donations to the very poor</a>, in spite of evidence suggesting that lives can be saved <a href="https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness">for less than 10,000 USD</a>. This is not for lack of generosity. There is a strong case that most donations go to charities that improve well-being far less per-dollar than others.</p>
 <div class="marginnote">
-<p>As <span class="citation">(<a href="#ref-burumEvolutionaryExplanationIneffective2020" role="doc-biblioref"><strong>burumEvolutionaryExplanationIneffective2020?</strong></a>)</span> state:</p>
+<p>As <span class="citation">(<span class="citeproc-not-found" data-reference-id="burumEvolutionaryExplanationIneffective2020"><strong>???</strong></span>)</span> state:</p>
 <p>“We donate billions of dollars to charities each year, yet much of our giving is ineffective. Why are we motivated to give, but not motivated to give effectively?”</p>
 <p>References supporting this claim are given <a href="present-puzzle.html#evidence_eff">below</a>.</p>
 </div>
 <p>This raises two related questions:</p>
-<p><strong>1. “Why don’t we give more to the most effective charities and to those most in need?”</strong> and</p>
+<p><strong>1. “Why don’t we give more to the most effective charities and to those most in need?”,</strong> and</p>
 <p><strong>2. “Why are we not more efficient with our giving choices?”</strong></p>
 <p>To address this, we must understand what drives giving choices, and how people react to the presentation of charity-effectiveness information.</p>
 <div class="marginnote">
@@ -473,10 +473,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <h2><span class="header-section-number">2.1</span> Motivation and descriptives</h2>
 Individual donors, governments and firms demonstrate substantial generosity (e.g., UK charity represents 0.5-1% of GDP, US charity around 2% of GDP).
 <div class="marginnote">
-<span class="citation">(<a href="references.html#ref-CAFWorldGiving" role="doc-biblioref"><span>“<span>CAF World Giving Index</span> 2018 | <span>Research</span> into Global Giving Behaviour,”</span> n.d.</a>; <a href="references.html#ref-CharitableGivingTops" role="doc-biblioref"><span>“U.<span>S</span>. Charitable Giving Tops $400 Billion for First Time,”</span> n.d.</a>)</span>
+<span class="citation">(“CAF World Giving Index 2018 | Research into Global Giving Behaviour,” <a href="#ref-CAFWorldGiving" role="doc-biblioref">n.d.</a>; “U.S. Charitable Giving Tops $400 Billion for First Time,” <a href="#ref-CharitableGivingTops" role="doc-biblioref">n.d.</a>)</span>
 </div>
-<p>However, most donations go towards charities that are worthwhile but improve human well-being far less per dollar than basic medical interventions in poor countries, such as antimalarial bednets (see <a href="http://givewell.org">Givewell.org</a>). Even within the same category, more can be achieved for less: e.g. while it costs around USD 50,000 to provide a blind person a guide dog, the equivalent amount could cure 500 people of blindness if it was spent on surgery to prevent blindness from trachoma <span class="citation">(<a href="references.html#ref-burton2009global" role="doc-biblioref">Burton and Mabey 2009</a>; <a href="references.html#ref-macaskillDoingGoodBetter2015" role="doc-biblioref">Macaskill 2015</a>)</span>.</p>
-<p>Social science, biology and philosophy present a range of potential theoretical explanations of how values, preferences, and biases drive this ‘inefficient altruism.’ However, evidence (e.g., for ‘availability bias,’ or for ‘scope insensitivity’) comes largely from small-scale experiments in domains outside of charitable-giving. It is difficult to distinguish robust, credible findings from one-off results that are vulnerable to hype, p-hacking and publication bias (echoing the ‘replication crisis’ in experimental social science <span class="citation">(<a href="references.html#ref-shrout2018psychology" role="doc-biblioref">Shrout and Rodgers 2018</a>)</span>). Given the limited, scattered findings, we do not have a definitive picture of which factors substantially impact ‘effective giving and support for policies that reduce extreme poverty.’ (We give a review of papers surveying this evidence <a href="present-puzzle.html#prevsurvey">below</a>)</p>
+<p>However, most donations go towards charities that are worthwhile but improve human well-being far less per dollar than basic medical interventions in poor countries, such as antimalarial bednets (see <a href="http://givewell.org">Givewell.org</a>). Even within the same category, more can be achieved for less: e.g. while it costs around USD 50,000 to provide a blind person a guide dog, the equivalent amount could cure 500 people of blindness if it was spent on surgery to prevent blindness from trachoma <span class="citation">(Burton and Mabey <a href="#ref-burton2009global" role="doc-biblioref">2009</a>; Macaskill <a href="#ref-macaskillDoingGoodBetter2015" role="doc-biblioref">2015</a>)</span>.</p>
+<p>Social science, biology and philosophy present a range of potential theoretical explanations of how values, preferences, and biases drive this ‘inefficient altruism’. However, evidence (e.g., for ‘availability bias’, or for ‘scope insensitivity’) comes largely from small-scale experiments in domains outside of charitable-giving. It is difficult to distinguish robust, credible findings from one-off results that are vulnerable to hype, p-hacking and publication bias (echoing the ‘replication crisis’ in experimental social science <span class="citation">(Shrout and Rodgers <a href="#ref-shrout2018psychology" role="doc-biblioref">2018</a>)</span>). Given the limited, scattered findings, we do not have a definitive picture of which factors substantially impact ‘effective giving and support for policies that reduce extreme poverty’. (We give a review of papers surveying this evidence <a href="present-puzzle.html#prevsurvey">below</a>)</p>
 <!-- TODO: Reference survey articles for the above -->
 <p>A plain-language summary of key points, without references (unfold):</p>
 
@@ -490,18 +490,18 @@ Individual donors, governments and firms demonstrate substantial generosity (e.g
 </ol>
 <p><strong>There is some evidence on this but it is far from definitive.</strong> We do not expect there to be only a single answer to these questions; there may be a set of beliefs, biases, preferences, and underlying circumstances driving this. We would like to understand which of these are robustly supported by the evidence, and will have a sense of how important each of these are in terms of the magnitude of driving and absence of effective giving. There has been only a limited amount of research into this and it has not been systematic, coordinated, nor heavily funded.</p>
 <p><strong>We seek to understand because we believe that there is potential to change attitudes, beliefs, and actions</strong> (primarily charitable giving, but also political and voting behaviour and workplace/career choices). Different charitable appeals, information interventions and approaches may substantially change peoples charity choices. We see potential for changing the “domain” of causes chosen (e.g., international versus US domestic) as well as the effectiveness of the charities chosen within these categories. (However, we have some disagreement over the relative potential for either of these.)</p>
-<p>Our main ‘policy’ audience includes both effective nonprofit organisations and ‘effective altruists.’ The EA movement is highly-motivated, growing, and gaining funding. However, it represents a niche audience: the ‘hyper-analytic but morally-scrupulous.’ EA organisations have focused on identifying effective causes and career paths, but have pursued neither extensive outreach nor ‘market research’ on a larger audience (see <a href="http://www.charityscience.com/operations-details/scaling-down-charity-science-outreach">Charity Science</a>, <a href="http://www.ideas42.org/wp-content/uploads/2018/08/ideas42-Best-of-Intentions_Charitable-Giving-1.pdf">Gates Foundation/Ideas42</a>).</p>
+<p>Our main ‘policy’ audience includes both effective nonprofit organisations and ‘effective altruists’. The EA movement is highly-motivated, growing, and gaining funding. However, it represents a niche audience: the ‘hyper-analytic but morally-scrupulous’. EA organisations have focused on identifying effective causes and career paths, but have pursued neither extensive outreach nor ‘market research’ on a larger audience (see <a href="http://www.charityscience.com/operations-details/scaling-down-charity-science-outreach">Charity Science</a>, <a href="http://www.ideas42.org/wp-content/uploads/2018/08/ideas42-Best-of-Intentions_Charitable-Giving-1.pdf">Gates Foundation/Ideas42</a>).</p>
 </div>
 <!-- Done? Why should you care about this? -->
 <div id="ea-depict" class="section level3" number="2.1.1">
 <h3><span class="header-section-number">2.1.1</span> Descriptives of giving (US, international) and how 'ineffective' it is.</h3>
-<p>Who <em>does</em> give effectively? Potential global welfare gains to changing ‘where we give.’ Who does give effectively?</p>
+<p>Who <em>does</em> give effectively? Potential global welfare gains to changing ‘where we give’. Who does give effectively?</p>
 <p>Fitz/Kagan: Understanding Effective Givers:</p>
 <blockquote>
 <p>In this study we attempt to understand who is predisposed towards effective giving. After providing a description of the effective giving movement, we measure support for effective giving and measure a wide range of personality traits and demographics that may predict support for effective giving. We briefly define the EA movement as an important force “we” (economists, psychologists) need to discuss.</p>
 </blockquote>
 <p>Some references (WIP):
-- General giving statistics: <span class="citation">(<a href="#ref-meerGenerosityIncomeWealth2020" role="doc-biblioref"><strong>meerGenerosityIncomeWealth2020?</strong></a>)</span>, <span class="citation">(<a href="#ref-rooneyDynamicsAmericanGiving2019" role="doc-biblioref"><strong>rooneyDynamicsAmericanGiving2019?</strong></a>)</span>
+- General giving statistics: <span class="citation">(<span class="citeproc-not-found" data-reference-id="meerGenerosityIncomeWealth2020"><strong>???</strong></span>)</span>, <span class="citation">(<span class="citeproc-not-found" data-reference-id="rooneyDynamicsAmericanGiving2019"><strong>???</strong></span>)</span>
 - Various references at IUPIU; see also Osili, Weipking, Bekkers work</p>
 <ul>
 <li>Sources of data: PSID, GVUSA, GINPS, [add the list here], Giving USA: The Annual Report on Philanthropy (raw data?), Study of High Net Worth Philanthropy</li>
@@ -510,7 +510,7 @@ Individual donors, governments and firms demonstrate substantial generosity (e.g
 </div>
 <div id="prevsurvey" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> (Lack of) previous synthesis on this</h2>
-<p>While there have been some relevant prior reviews (<span class="citation"><a href="references.html#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref">Loewenstein and Small</a> (<a href="references.html#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref">2007</a>)</span>, introduction to <span class="citation"><a href="references.html#ref-Berman2018" role="doc-biblioref">Berman et al.</a> (<a href="references.html#ref-Berman2018" role="doc-biblioref">2018</a>)</span>, <span class="citation"><a href="references.html#ref-baron2011heuristics" role="doc-biblioref">Baron and Szymanska</a> (<a href="references.html#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span>)</p>
+<p>While there have been some relevant prior reviews (<span class="citation">Loewenstein and Small (<a href="#ref-Loewenstein2007" role="doc-biblioref">2007</a><a href="#ref-Loewenstein2007" role="doc-biblioref">a</a>)</span>, introduction to <span class="citation">Berman et al. (<a href="#ref-Berman2018" role="doc-biblioref">2018</a>)</span>, <span class="citation">Baron and Szymanska (<a href="#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span>),</p>
 <div class="marginnote">
 <p>There has also been some unpublished or non-academic work: ‘Behavior and Charitable Giving’ (Ideas42, 2016), ‘Charitable Fundraising And Smart Giving’ (Gertler, 2015), and ‘The Psychology of Effective Altruism’ (Miller, 2016, slides only).</p>
 </div>
@@ -518,18 +518,26 @@ Individual donors, governments and firms demonstrate substantial generosity (e.g
 <ol style="list-style-type: lower-roman">
 <li><p>A focus on effectiveness,</p></li>
 <li><p>considering ‘choices among charities’ as well as in isolation,</p></li>
-<li><p>incorporating recent work and developments from the ‘EA movement,’</p></li>
+<li><p>incorporating recent work and developments from the ‘EA movement’,</p></li>
 <li><p>a rigorous, sceptical approach to evidence, and</p></li>
 <li><p>advancing a research agenda while building tools that promote robust evidence.</p></li>
 </ol>
 <div class="marginnote">
 <p>Ideas42: “We did not find many field-based, experimental studies on the factors that encourage people to choose thoughtfully among charities or to plan ahead to give.”</p>
 </div>
+<p><br />
+</p>
+<p><em>Note:</em> <span class="citation">(<span class="citeproc-not-found" data-reference-id="greenhalghSystematicReviewBarriers2020"><strong>???</strong></span>)</span> performed ‘A systematic review of the barriers to and facilitators of the use of evidence by philanthropists when determining which charities (including health charities or programmes) to funds’ using PRISMA guidelines.</p>
+
+<div class="fold">
+<p>19 Feb 2021, DR: I am looking into this in more detail. My impression is that their approach is distinct. They seem not to focus on psychological barriers, they focus more on large philanthropists and foundations, and they put greater weight on qualitative work and self-reports than we do here.</p>
+<p>I intend to look more closely at how they identified these studies, how they eliminated studies from consideration, and why many of the studies we discuss in the current project were not found or were excluded.</p>
+</div>
 <!--Wiepking2012 -->
 <div id="effectiveness-specific-work" class="section level3" number="2.2.1">
 <h3><span class="header-section-number">2.2.1</span> Effectiveness-specific work</h3>
 <ul>
-<li><p><span class="citation"><a href="references.html#ref-baron2011heuristics" role="doc-biblioref">Baron and Szymanska</a> (<a href="references.html#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers</p></li>
+<li><p><span class="citation">Baron and Szymanska (<a href="#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers</p></li>
 <li><p>Gertler, <a href="https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf">Charitable Fundraising and Smart Giving</a> (not peer-reviewed but very useful)</p></li>
 </ul>
 <p><strong>Comparison of outlines: unfold</strong></p>
@@ -543,7 +551,7 @@ Individual donors, governments and firms demonstrate substantial generosity (e.g
 </ul>
 <p><br />
 </p>
-<p><strong><span class="citation">(<a href="references.html#ref-baron2011heuristics" role="doc-biblioref">Baron and Szymanska 2011</a>)</span> (chapter) </strong></p>
+<p><strong><span class="citation">(Baron and Szymanska <a href="#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> (chapter) </strong></p>
 <ul>
 <li><p>Introduction (with problem/puzzle)</p></li>
 <li><p>Possible Nonutilitarian Heuristics</p></li>
@@ -594,7 +602,7 @@ Individual donors, governments and firms demonstrate substantial generosity (e.g
 <div class="marginnote">
 <p>As noted, there are disagreements over how and whether we should trade off among these outcomes. Issues such as population ethics, and the importance of sentience and experience — come to the fore. We will ignore these for now.</p>
 </div>
-<p>The important distinction here: <span class="math inline">\(B(G_j)\)</span> does not refer to a simple intermediate <em>‘output’</em> such as ‘antimalarial nets provided’ nor ‘textbooks purchased.’ We are referring to the social <em>outcome</em> of ultimate value; an outcome that could be valued in and of itself.</p>
+<p>The important distinction here: <span class="math inline">\(B(G_j)\)</span> does not refer to a simple intermediate <em>‘output’</em> such as ‘antimalarial nets provided’ nor ‘textbooks purchased’. We are referring to the social <em>outcome</em> of ultimate value; an outcome that could be valued in and of itself.</p>
 <p>This naturally takes into account <em>both</em> the ‘technical efficiency’ in terms of how many units of output can be produced per dollar, and the rate at which each unit of this output boosts the ultimate outcomes of interest.</p>
 <br />
 
@@ -603,7 +611,7 @@ Individual donors, governments and firms demonstrate substantial generosity (e.g
 (Total or marginal) impact per dollar = output per dollar <span class="math inline">\(\times\)</span> impact per output
 </div>
 <div class="marginnote">
-<p>This is obviously an oversimplification. To achieve the beneficial outcome the charity will require many intermediate inputs (or “outputs” as noted above), including ‘management’ and ‘careful targetting of programs.’ Some charities may be able to acquire these inputs at better prices than others, and some may also use a more efficient mix of inputs.</p>
+<p>This is obviously an oversimplification. To achieve the beneficial outcome the charity will require many intermediate inputs (or “outputs” as noted above), including ‘management’ and ‘careful targetting of programs’. Some charities may be able to acquire these inputs at better prices than others, and some may also use a more efficient mix of inputs.</p>
 </div>
 <p><br />
 </p>
@@ -618,11 +626,11 @@ Individual donors, governments and firms demonstrate substantial generosity (e.g
 <p>I assert that <span class="math inline">\(B_j^\prime(G_j)\)</span> is the quantity that GiveWell (and perhaps other EA charity raters) are attempting to measure.</p>
 <p><br />
 </p>
-<div id="evidence_eff" class="section level5 unnumbered">
+<div id="evidence_eff" class="section level5 unnumbered" number="">
 <h5><em>We know (evidence cited in fold):</em></h5>
 
 <div class="fold">
-There is abundant evidence for this. Some links and references: Ord, T. (2013, March 12). “The moral imperative toward cost-effectiveness in global health. Center for Global Development.” Retrieved from www.cgdev.org/content/publications/detail/142701. Also “Your dollar goes farther overseas.” (2016). Retrieved from <a href="http://www.givewell.org/giving101/Your-dollar-goes-further-overseas" class="uri">http://www.givewell.org/giving101/Your-dollar-goes-further-overseas</a>
+<p>There is abundant evidence for this. Some links and references: Ord, T. (2013, March 12). “The moral imperative toward cost-effectiveness in global health. Center for Global Development.” Retrieved from www.cgdev.org/content/publications/detail/142701. Also “Your dollar goes farther overseas”. (2016). Retrieved from <a href="http://www.givewell.org/giving101/Your-dollar-goes-further-overseas" class="uri">http://www.givewell.org/giving101/Your-dollar-goes-further-overseas</a></p>
 </div>
 <p><span class="math inline">\(B_j^\prime(G_j)\)</span> is much larger for the most <em>impactful</em> relative to the most <em>popular</em> charities.</p>
 <p><br />
@@ -634,8 +642,8 @@ B_k^\prime(G_k) = B_j^\prime(G_j)\forall j,k s.t. G_j&gt;0, G_k&gt;0
 \end{equation}\]</span></p>
 <div class="marginnote">
 <p>Caveats:</p>
-<p>This assumes a single impact goal, essentially ‘cause neutrality.’</p>
-<p>The idea that each donor gives only to a single charity essentially depends on the above ‘Small donor assumption.’ Still, allowing that the marginal-benefit-leading-charity may vary within the range of an individuals’ donation simply implies that they should allocate among multiple charities each up to the point that the last dollar given yields the same marginal benefit as the other charities, yielding the above result. We can imagine an equilibrium in which all donors give to multiple charities, with each of these charities being virtually “tied” in their marginal effectiveness.</p>
+<p>This assumes a single impact goal, essentially ‘cause neutrality’.</p>
+<p>The idea that each donor gives only to a single charity essentially depends on the above ‘Small donor assumption’. Still, allowing that the marginal-benefit-leading-charity may vary within the range of an individuals’ donation simply implies that they should allocate among multiple charities each up to the point that the last dollar given yields the same marginal benefit as the other charities, yielding the above result. We can imagine an equilibrium in which all donors give to multiple charities, with each of these charities being virtually “tied” in their marginal effectiveness.</p>
 </div>
 <p><br />
 </p>
@@ -669,7 +677,7 @@ Aside on ‘Warm glow’… consider the contrast between models where people ca
 
 <div class="note">
 <p><strong>A conceptual breakdown of barriers:</strong></p>
-<p>Base values: (non) utilitarian: people are optimising their own ‘X,’ which does not coincide with impact <span class="math inline">\(\rightarrow\)</span> no puzzle?</p>
+<p>Base values: (non) utilitarian: people are optimising their own ‘X’, which does not coincide with impact <span class="math inline">\(\rightarrow\)</span> no puzzle?</p>
 <p>Judgement/cognition failures: People try but fail to optimize<br />
 </p>
 <p>Emotion overrides cognition: Our brain serves two masters, those decisions are not consistent<br />
@@ -678,11 +686,11 @@ Aside on ‘Warm glow’… consider the contrast between models where people ca
 </p>
 <p>Systemic factors (and inertia): “It’s society’s fault, man” … social systems leading to pressure and incentives from others to give to local or less-effective causes. Even if impact is a goal these systems take a long time to adjust.</p>
 </div>
-<!-- 
+<!--
 (Yoruk, 2016), (Gneezy ea, '14)
-yoruk_2016, Gneezy2014  brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tolsma_13 
+yoruk_2016, Gneezy2014  brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tolsma_13
 -->
-<div id="are_we_util" class="section level4 unnumbered">
+<div id="are_we_util" class="section level4 unnumbered" number="">
 <h4>Are people utilitarian?</h4>
 <p>The discussion above largely assumes that people are, at least to some extent:</p>
 <ol style="list-style-type: lower-roman">
@@ -718,7 +726,7 @@ yoruk_2016, Gneezy2014  brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tols
 <p>While these statements may, strictly speaking, be contradictory, we shouldn’t expect perfect consistency or constancy. Most people are not asked to rigidly join the deontological or utilitarian camp, and those who have not studied philosophy or social science may never have contemplated these issues directly.</p>
 </div>
 <!-- TODO: Citations here; I recall having seen evidence  and argumentation suggesting that people are far from consistently in one camp or another -->
-<p>Perhaps moral utilitarianism (MU) is relatively unimportant in most people’s charitable choices. Even if this is the case, understanding the ways in which people do pursue their giving goals, and their obstacles and “biases” in doing so may suggest ways of making giving more impactful. For example, many donors may prioritize their local community, leading to their less-effective giving (from a universalist point of view). However, they might be persuaded to expand their definition of their own ‘community.’</p>
+<p>Perhaps moral utilitarianism (MU) is relatively unimportant in most people’s charitable choices. Even if this is the case, understanding the ways in which people do pursue their giving goals, and their obstacles and “biases” in doing so may suggest ways of making giving more impactful. For example, many donors may prioritize their local community, leading to their less-effective giving (from a universalist point of view). However, they might be persuaded to expand their definition of their own ‘community’.</p>
 <!-- Even if this is the case, specific campaigns, tools, and fundraising approaches may still help align their parochial, self-interested, or reputation-seeking values and intentions with more effective giving. -->
 <p><br />
 </p>
@@ -738,10 +746,10 @@ yoruk_2016, Gneezy2014  brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tols
 <p><br />
 </p>
 </div>
-<div id="cog-failures" class="section level4 unnumbered">
+<div id="cog-failures" class="section level4 unnumbered" number="">
 <h4>Judgement/cognition failures; Biases in perceiving impact and in making choices</h4>
-<p>People may (at least to some extent) <em>want</em> to be effective in their donation. However, they may simply not be good at doing this. Quantitative biases may drive departures from effectiveness in general. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the “production function for good outcomes,” or to misjudge charities will lead me astray from effective giving. If I am making any mistake, I am failing to optimize. Furthermore, some biases may happen to be <em>particularly</em> harmful to those charities and causes that are most effective.</p>
-<p>We consider these extensively in the section “<a href="quant-biases.html#quant-biases">Barriers: Quantitative biases</a>.”</p>
+<p>People may (at least to some extent) <em>want</em> to be effective in their donation. However, they may simply not be good at doing this. Quantitative biases may drive departures from effectiveness in general. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the “production function for good outcomes”, or to misjudge charities will lead me astray from effective giving. If I am making any mistake, I am failing to optimize. Furthermore, some biases may happen to be <em>particularly</em> harmful to those charities and causes that are most effective.</p>
+<p>We consider these extensively in the section “<a href="quant-biases.html#quant-biases">Barriers: Quantitative biases</a>”.</p>
 <div class="marginnote">
 <p>Cognitive biases include:
 - Overweighting and underweighting probabilities
@@ -753,14 +761,14 @@ yoruk_2016, Gneezy2014  brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tols
 </div>
 <p><br />
 </p>
-<!-- Responses: De-biasing, etc. 
+<!-- Responses: De-biasing, etc.
 
 @small2007sympathy, @gneezyAvoidingOverheadAversion2014,    @ein2013giving, @kogut2005identified, @kogut_2005b, @Kinsbergen_tolsma_13 -->
 <!-- (or excuse-driven, motivated reasoning), lack of tangibility (giving to a diffuse cause); Percieved lack of transparency, and perceived corruption overseas -->
 <!-- Information about recipients' deservingness, Avoid uncertainties/excuses not to give/mental transactions costs
  (Fong & O, '10), (Exley, '16b) (Andreoni ea, '17), (Dellavigna ea, '12) -->
 </div>
-<div id="emotion-overrides-cognition" class="section level4 unnumbered">
+<div id="emotion-overrides-cognition" class="section level4 unnumbered" number="">
 <h4>Emotion overrides cognition</h4>
 <p>See section <a href="eval-aversion.html#analytical-grinch">7.4</a></p>
 <p><strong>Presenting analytical/impact information switches off system 1</strong></p>
@@ -771,7 +779,7 @@ yoruk_2016, Gneezy2014  brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tols
 <li><p>Evaluation mode</p></li>
 </ul>
 <div class="marginnote">
-<p>See: (Karlan &amp; W, ’07),<span class="citation">(<a href="references.html#ref-kogut2005singularity" role="doc-biblioref">Kogut and Ritov 2005b</a>, <a href="references.html#ref-kogutIdentifiedVictimEffect2005" role="doc-biblioref">2005a</a>)</span>, <span class="citation">(<a href="references.html#ref-Small2007" role="doc-biblioref">Small, Loewenstein, and Slovic 2007</a>)</span>, <span class="citation">(<a href="references.html#ref-Drouvelis2016" role="doc-biblioref">Drouvelis and Grosskopf 2016</a>)</span>, <span class="citation">(<a href="references.html#ref-Caviola2014" role="doc-biblioref">Caviola et al. 2014</a>)</span></p>
+<p>See: (Karlan &amp; W, ’07),<span class="citation">(Kogut and Ritov <a href="#ref-kogut2005singularity" role="doc-biblioref">2005</a><a href="#ref-kogut2005singularity" role="doc-biblioref">b</a>, <a href="#ref-kogutIdentifiedVictimEffect2005" role="doc-biblioref">2005</a><a href="#ref-kogutIdentifiedVictimEffect2005" role="doc-biblioref">a</a>)</span>, <span class="citation">(Small, Loewenstein, and Slovic <a href="#ref-Small2007" role="doc-biblioref">2007</a>)</span>, <span class="citation">(Drouvelis and Grosskopf <a href="#ref-Drouvelis2016" role="doc-biblioref">2016</a>)</span>, <span class="citation">(Caviola et al. <a href="#ref-Caviola2014" role="doc-biblioref">2014</a>)</span></p>
 </div>
 <p><br />
 </p>
@@ -780,30 +788,30 @@ yoruk_2016, Gneezy2014  brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tols
 <h3><span class="header-section-number">2.5.1</span> Avoiding information, motivated reasoning in processing it</h3>
 <p><a href="eval-aversion.html#cba-aversion">See ‘Cost-benefit analysis aversion’</a></p>
 <div class="marginnote">
-<p>See: <span class="citation"><a href="references.html#ref-andreoniAvoidingAskField2017" role="doc-biblioref">Andreoni, Rao, and Trachtman</a> (<a href="references.html#ref-andreoniAvoidingAskField2017" role="doc-biblioref">2017</a>)</span>, <span class="citation"><a href="references.html#ref-exleyExcusingSelfishnessCharitable2016a" role="doc-biblioref">Christine L. Exley</a> (<a href="references.html#ref-exleyExcusingSelfishnessCharitable2016a" role="doc-biblioref">2016</a>)</span>, <span class="citation"><a href="references.html#ref-exleyImpactSurpriseDonation2018" role="doc-biblioref">Christine L. Exley and Petrie</a> (<a href="references.html#ref-exleyImpactSurpriseDonation2018" role="doc-biblioref">2018</a>)</span>, <span class="citation"><a href="references.html#ref-dellavigna2012testing" role="doc-biblioref">DellaVigna, List, and Malmendier</a> (<a href="references.html#ref-dellavigna2012testing" role="doc-biblioref">2012</a>)</span>, <span class="citation"><a href="references.html#ref-reinstein2018commitments" role="doc-biblioref">D. Reinstein, Riener, and Kellner</a> (<a href="references.html#ref-reinstein2018commitments" role="doc-biblioref">2018</a>)</span></p>
+<p>See: <span class="citation">Andreoni, Rao, and Trachtman (<a href="#ref-andreoniAvoidingAskField2017" role="doc-biblioref">2017</a>)</span>, <span class="citation">Exley (<a href="#ref-exleyExcusingSelfishnessCharitable2016a" role="doc-biblioref">2016</a>)</span>, <span class="citation">Exley and Petrie (<a href="#ref-exleyImpactSurpriseDonation2018" role="doc-biblioref">2018</a>)</span>, <span class="citation">DellaVigna, List, and Malmendier (<a href="#ref-dellavigna2012testing" role="doc-biblioref">2012</a>)</span>, <span class="citation">Reinstein, Riener, and Kellner (<a href="#ref-reinstein2018commitments" role="doc-biblioref">2018</a>)</span></p>
 </div>
 <p><br />
 </p>
-<div id="identity-and-signaling" class="section level4 unnumbered">
+<div id="identity-and-signaling" class="section level4 unnumbered" number="">
 <h4>Identity and signaling</h4>
 <p>Considering effectiveness in giving (and publicizing this concern) may conflict with an individual’s self-perception. It may also harm her reputation, at least relative to emotional or ‘deontological’ helping responses.</p>
-<p><span class="citation">(<a href="#ref-burumEvolutionaryExplanationIneffective2020" role="doc-biblioref"><strong>burumEvolutionaryExplanationIneffective2020?</strong></a>)</span></p>
+<p><span class="citation">(<span class="citeproc-not-found" data-reference-id="burumEvolutionaryExplanationIneffective2020"><strong>???</strong></span>)</span></p>
 <p><br />
 </p>
 </div>
-<div id="barriers-distance-physical-psychologicalemotional-social" class="section level4 unnumbered">
+<div id="barriers-distance-physical-psychologicalemotional-social" class="section level4 unnumbered" number="">
 <h4>Barriers: Distance (Physical, Psychological/Emotional, Social)</h4>
 <p>Less proximate needs are less salient, thus under-funded.</p>
 <p>(Info enhancing) social closeness of recipient -</p>
-<p><span class="citation"><a href="references.html#ref-cuddy2007bias" role="doc-biblioref">Cuddy, Fiske, and Glick</a> (<a href="references.html#ref-cuddy2007bias" role="doc-biblioref">2007</a>)</span>, <span class="citation">(<a href="references.html#ref-Sudhir2016a" role="doc-biblioref">Sudhir, Roy, and Cherian 2016</a>)</span></p>
+<p><span class="citation">Cuddy, Fiske, and Glick (<a href="#ref-cuddy2007bias" role="doc-biblioref">2007</a>)</span>, <span class="citation">(Sudhir, Roy, and Cherian <a href="#ref-Sudhir2016a" role="doc-biblioref">2016</a>)</span></p>
 </div>
-<div id="barriers-strong-local-appeals-the-ask-social-obligations-to-give-locally-and-crowding-outmoral-licencing" class="section level4 unnumbered">
+<div id="barriers-strong-local-appeals-the-ask-social-obligations-to-give-locally-and-crowding-outmoral-licencing" class="section level4 unnumbered" number="">
 <h4>Barriers: Strong local appeals (‘the ask’), social obligations to give locally (and ‘crowding out’/moral licencing)</h4>
-<p><span class="citation">(<a href="references.html#ref-meerBrotherCanYou2011" role="doc-biblioref">Jonathan Meer 2011</a>)</span></p>
+<p><span class="citation">(Meer <a href="#ref-meerBrotherCanYou2011" role="doc-biblioref">2011</a>)</span></p>
 <p>Does one contribution crowd out another? If so, social pressure, systems enforcing ‘local public goods’ and inertial factors may limit effective (non-local) giving.</p>
 <!-- #TODO: At some point we should Make the point that in order for people to give effectively they need to know which charities are effective. For this to be the case, charities must transparently submit to rigorous metrics. Charities must advertise their impact and compete on this basis. For charities to want to do this, they must believe that donors as ‘consumers’ care about this.
 
-According to Mulesky (2020) “Charities routinely appeal to impact when soliciting donations”; However, the example she gives is not a clear measure of per dollar impact. 
+According to Mulesky (2020) “Charities routinely appeal to impact when soliciting donations”; However, the example she gives is not a clear measure of per dollar impact.
 
 However, a feature of philanthropy overlooked in published research is that nonprofit
 organizations rarely, if ever, support these claims with rigorous evidence
@@ -811,6 +819,69 @@ organizations rarely, if ever, support these claims with rigorous evidence
 
 </div>
 </div>
+</div>
+</div>
+<h3> List of references</h3>
+<div id="refs" class="references">
+<div id="ref-andreoniAvoidingAskField2017">
+<p>Andreoni, James, Justin M Rao, and Hannah Trachtman. 2017. “Avoiding the Ask: A Field Experiment on Altruism, Empathy, and Charitable Giving.” <em>Journal of Political Economy</em> 125 (3): 625–53.</p>
+</div>
+<div id="ref-baron2011heuristics">
+<p>Baron, Jonathan, and Ewa Szymanska. 2011. “Heuristics and Biases in Charity.”</p>
+</div>
+<div id="ref-Berman2018">
+<p>Berman, Jonathan Z., Alixandra Barasch, Emma E. Levine, and Deborah A. Small. 2018. “Impediments to Effective Altruism: The Role of Subjective Preferences in Charitable Giving.” <em>Psychological Science</em>, 095679761774764. <a href="https://doi.org/10.1177/0956797617747648">https://doi.org/10.1177/0956797617747648</a>.</p>
+</div>
+<div id="ref-burton2009global">
+<p>Burton, Matthew J, and David CW Mabey. 2009. “The Global Burden of Trachoma: A Review.” <em>PLoS Neglected Tropical Diseases</em> 3 (10): e460.</p>
+</div>
+<div id="ref-CAFWorldGiving">
+<p>“CAF World Giving Index 2018 | Research into Global Giving Behaviour.” n.d. https://www.cafonline.org/about-us/publications/2018-publications/caf-world-giving-index-2018.</p>
+</div>
+<div id="ref-Caviola2014">
+<p>Caviola, Lucius, Nadira Faulmüller, Jim. A C Everett, and Julian Savulescu. 2014. “The Evaluability Bias in Charitable Giving: Saving Administration Costs or Saving Lives?” <em>Judgment and Decision Making</em> 9 (4): 303–15. <a href="https://doi.org/None">https://doi.org/None</a>.</p>
+</div>
+<div id="ref-cuddy2007bias">
+<p>Cuddy, Amy JC, Susan T Fiske, and Peter Glick. 2007. “The BIAS Map: Behaviors from Intergroup Affect and Stereotypes.” <em>Journal of Personality and Social Psychology</em> 92 (4): 631.</p>
+</div>
+<div id="ref-dellavigna2012testing">
+<p>DellaVigna, Stefano, John A List, and Ulrike Malmendier. 2012. “Testing for Altruism and Social Pressure in Charitable Giving.” <em>The Quarterly Journal of Economics</em> 127 (1): 1–56.</p>
+</div>
+<div id="ref-Drouvelis2016">
+<p>Drouvelis, Michalis, and Brit Grosskopf. 2016. “The Effects of Induced Emotions on Pro-Social Behaviour.” <em>Journal of Public Economics</em> 134: 1–8.</p>
+</div>
+<div id="ref-exleyExcusingSelfishnessCharitable2016a">
+<p>Exley, Christine L. 2016. “Excusing Selfishness in Charitable Giving: The Role of Risk.” <em>Review of Economic Studies</em>. <a href="https://doi.org/10.1093/restud/rdv051">https://doi.org/10.1093/restud/rdv051</a>.</p>
+</div>
+<div id="ref-exleyImpactSurpriseDonation2018">
+<p>Exley, Christine L, and Ragan Petrie. 2018. “The Impact of a Surprise Donation Ask.” <em>Journal of Public Economics</em>. <a href="https://doi.org/10.1016/j.jpubeco.2017.12.015">https://doi.org/10.1016/j.jpubeco.2017.12.015</a>.</p>
+</div>
+<div id="ref-kogutIdentifiedVictimEffect2005">
+<p>Kogut, Tehila, and Ilana Ritov. 2005a. “The ‘Identified Victim’ Effect: An Identified Group, or Just a Single Individual?” <em>Journal of Behavioral Decision Making</em> 18 (3): 157–67. <a href="https://doi.org/10.1002/bdm.492">https://doi.org/10.1002/bdm.492</a>.</p>
+</div>
+<div id="ref-kogut2005singularity">
+<p>Kogut, Tehila, and Ilana Ritov. 2005b. “The Singularity Effect of Identified Victims in Separate and Joint Evaluations.” <em>Organizational Behavior and Human Decision Processes</em> 97 (2): 106–16.</p>
+</div>
+<div id="ref-macaskillDoingGoodBetter2015">
+<p>Macaskill, William. 2015. <em>Doing Good Better</em>. Guardian Books.</p>
+</div>
+<div id="ref-meerBrotherCanYou2011">
+<p>Meer, Jonathan. 2011. “Brother, Can You Spare a Dime? Peer Pressure in Charitable Solicitation.” <em>Journal of Public Economics</em> 95 (7-8): 926–41. <a href="https://doi.org/10.1016/j.jpubeco.2010.11.026">https://doi.org/10.1016/j.jpubeco.2010.11.026</a>.</p>
+</div>
+<div id="ref-reinstein2018commitments">
+<p>Reinstein, D, G Riener, and C Kellner. 2018. “Commitments to Give-If-You-Win Exceed Donations After a Win.”</p>
+</div>
+<div id="ref-shrout2018psychology">
+<p>Shrout, Patrick E, and Joseph L Rodgers. 2018. “Psychology, Science, and Knowledge Construction: Broadening Perspectives from the Replication Crisis.” <em>Annual Review of Psychology</em> 69: 487–510.</p>
+</div>
+<div id="ref-Small2007">
+<p>Small, Deborah A, George Loewenstein, and Paul Slovic. 2007. “Sympathy and Callousness: The Impact of Deliberative Thought on Donations to Identifiable and Statistical Victims.” <em>Organizational Behavior and Human Decision Processes</em> 102 (2): 143–53.</p>
+</div>
+<div id="ref-Sudhir2016a">
+<p>Sudhir, K, Subroto Roy, and Mathew Cherian. 2016. “Do Sympathy Biases Induce Charitable Giving? The Effects of Advertising Content.” <em>Marketing Science</em> 35 (6): 849–69. <a href="https://doi.org/10.1287/mksc.2016.0989">https://doi.org/10.1287/mksc.2016.0989</a>.</p>
+</div>
+<div id="ref-CharitableGivingTops">
+<p>“U.S. Charitable Giving Tops $400 Billion for First Time.” n.d. https://www.cbsnews.com/news/u-s-charitable-giving-tops-400-billion-for-first-time/.</p>
 </div>
 </div>
             </section>

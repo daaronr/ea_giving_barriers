@@ -24,7 +24,7 @@ If we *could* shift the 'meaningful giving' \(\rightarrow\) we could use theory 
 
 \
 
-What we *can* measure in a straightforward way (in principle): Does a promotion for a less-effective charity (such as CRUK) cause more or less giving to a more-effective charity (such as Oxfam)? Most of the work discussed below focuses on this sort of estimate.
+What we *can* measure in a straightforward way (in principle): Does a promotion for a less-effective charity (such as Cancer Research UK) cause more or less giving to a presumably more-effective charity (such as Oxfam)? Most of the work discussed below focuses on this sort of estimate.
 
 
 \

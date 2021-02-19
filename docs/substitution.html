@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
-<meta name="date" content="2021-01-30" />
+<meta name="date" content="2021-02-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,7 @@
 
 
 
+<script src="book_assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- font families -->
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
@@ -131,7 +132,6 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -348,8 +348,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>9.10</b> Other quantitative biases</a>
 <ul>
 <li class="chapter" data-level="9.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>9.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
-<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative?’)</a></li>
-<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative?’)</a></li>
+<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>10</b> Barriers: Inertia and systemic/institutional</a>
@@ -460,16 +460,16 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p>Prices/ external changes shift each, but we can’t “force you to voluntarily give.” Furthermore, “prices” are unclear in this context (see Economics models of giving) and prices for one cause or charity rarely vary exogenously.</p>
 <p><br />
 </p>
-<p>If we <em>could</em> shift the ‘meaningful giving’ <span class="math inline">\(\rightarrow\)</span> we could use theory of Conditional Demand <span class="citation">(<a href="references.html#ref-Pollak1969" role="doc-biblioref">Pollak 1969</a>)</span> <span class="math inline">\(\rightarrow\)</span> “expenditure substitution” <span class="citation">(<a href="references.html#ref-reinsteinDoesOneCharitable" role="doc-biblioref">D. A. Reinstein, n.d.</a>)</span>. Still, the sign of the conditional demand effects are straightforward only under very restrictive conditions.</p>
+<p>If we <em>could</em> shift the ‘meaningful giving’ <span class="math inline">\(\rightarrow\)</span> we could use theory of Conditional Demand <span class="citation">(Pollak <a href="#ref-Pollak1969" role="doc-biblioref">1969</a>)</span> <span class="math inline">\(\rightarrow\)</span> “expenditure substitution” <span class="citation">(Reinstein, <a href="#ref-reinsteinDoesOneCharitable" role="doc-biblioref">n.d.</a>)</span>. Still, the sign of the conditional demand effects are straightforward only under very restrictive conditions.</p>
 <p><br />
 </p>
-<p>What we <em>can</em> measure in a straightforward way (in principle): Does a promotion for a less-effective charity (such as CRUK) cause more or less giving to a more-effective charity (such as Oxfam)? Most of the work discussed below focuses on this sort of estimate.</p>
+<p>What we <em>can</em> measure in a straightforward way (in principle): Does a promotion for a less-effective charity (such as Cancer Research UK) cause more or less giving to a presumably more-effective charity (such as Oxfam)? Most of the work discussed below focuses on this sort of estimate.</p>
 <p><br />
 </p>
 <p>A more difficult question: Is the causality:</p>
 <ul>
 <li><p>CRUK promo <span class="math inline">\(\rightarrow\)</span> give more to CRUK <span class="math inline">\(\rightarrow\)</span> give less (more) to Oxfam?</p></li>
-<li><p>But can we rule out <em>direct</em> effects of the first promotion? (see <span class="citation">(<a href="references.html#ref-Heckman2015a" role="doc-biblioref">Heckman and Pinto 2015</a>)</span> on “mediators”)</p></li>
+<li><p>But can we rule out <em>direct</em> effects of the first promotion? (see <span class="citation">(Heckman and Pinto <a href="#ref-Heckman2015a" role="doc-biblioref">2015</a>)</span> on “mediators”)</p></li>
 </ul>
 <p>This is in fact relevant for a policymaker. She might face a ’shock’ that she knows or expects will lead to donations to charity A to rise by EUR 1,000,000 EUR. She will want to know ‘how much can we expect donations to charity B to fall?’</p>
 <p><br />
@@ -480,10 +480,10 @@ could also be expressed in terms of a utility function with particularly
 diminishing returns to total charitable giving; there may be a discount
 rate on the recency of the donation, as in a <em>perishable</em> good.</p>
 <!-- Todo: Cite Scharf paper on intertemporal elasticity of warm glow component. -->
-<div id="expend-subst" class="section level3 unnumbered">
+<div id="expend-subst" class="section level3 unnumbered" number="">
 <h3>Expenditure substitution maths</h3>
 <div class="marginnote">
-<p>This is largely drawn from the appendix of <span class="citation">(<a href="references.html#ref-reinsteinSubstitutionMotivationsCharitable2011" role="doc-biblioref">David Reinstein 2011</a>)</span></p>
+<p>This is largely drawn from the appendix of <span class="citation">(Reinstein <a href="#ref-reinsteinSubstitutionMotivationsCharitable2011" role="doc-biblioref">2011</a>)</span></p>
 </div>
 <p>Assuming that utility is separable in own consumption and charitable
 gifts, and assuming an additive specific shock (<span class="math inline">\(\alpha\)</span>), we can
@@ -545,7 +545,7 @@ effect may be a nonlinear function of the direct effect, but these should be sol
 <p>There is a <strong>lack of data</strong> on donations at the individual-charity level.</p>
 <p>For identification: Lack of <strong>independent observable variation</strong> in price, shocks, or appeals.</p>
 <p><strong>Intertemporal substitution</strong> is an issue, and we typically <strong>cannot observe ‘lifetime giving.’ </strong></p>
-<p>Estimation of ‘Expenditure substitution’ <span class="citation">(<a href="references.html#ref-reinsteinDoesOneCharitable" role="doc-biblioref">D. A. Reinstein, n.d.</a>)</span> is complicated by issues of extensive vs intensive margins, as well as heterogeneity.</p>
+<p>Estimation of ‘Expenditure substitution’ <span class="citation">(Reinstein, <a href="#ref-reinsteinDoesOneCharitable" role="doc-biblioref">n.d.</a>)</span> is complicated by issues of extensive vs intensive margins, as well as heterogeneity.</p>
 <div id="observational-work" class="section level3" number="3.2.1">
 <h3><span class="header-section-number">3.2.1</span> Observational work</h3>
 <p><strong>Observational data</strong> typically lacks shocks that are clearly
@@ -556,11 +556,11 @@ charity but have no independent effect on giving to other charities.
 Most observable variables that are believed to increase giving to one
 charity will also increase giving to other charities, masking
 substitution effects.</p>
-<div id="signing-the-bias-approach" class="section level4 unnumbered">
+<div id="signing-the-bias-approach" class="section level4 unnumbered" number="">
 <h4>Signing-the-bias approach</h4>
 <p><strong>However, under reasonable assumptions we can <em>sign</em> this bias, and
 thus estimate a lower bound on substitution.</strong></p>
-<p><span class="citation"><a href="references.html#ref-reinsteinDoesOneCharitable" role="doc-biblioref">D. A. Reinstein</a> (<a href="references.html#ref-reinsteinDoesOneCharitable" role="doc-biblioref">n.d.</a>)</span> using PSID/COPPS data
+<p><span class="citation">Reinstein (<a href="#ref-reinsteinDoesOneCharitable" role="doc-biblioref">n.d.</a>)</span> using PSID/COPPS data
 finds some evidence of expenditure substitution, especially for large givers.</p>
 <p>He makes a “bounding below” argument</p>
 <ul>
@@ -572,19 +572,19 @@ fixed-effects regressions on donations to categories of charitable causes</p></l
 <li><p>Interpretation: heterogeneous motivations for giving, small vs large givers</p></li>
 </ul>
 </div>
-<div id="observational-data-paired-with-exogenous-shocks" class="section level4 unnumbered">
+<div id="observational-data-paired-with-exogenous-shocks" class="section level4 unnumbered" number="">
 <h4>Observational data paired with ‘exogenous’ shocks</h4>
-<p><span class="citation">(<a href="references.html#ref-Deryugina2015" role="doc-biblioref">Deryugina and Marx 2015</a>)</span></p>
-<p>Donations in a state affected by tornado increase 1.7-2 percent in that year and 1.9-2 percent in the 2 years after. The authors can only reject ‘full crowding out.’</p>
+<p><span class="citation">(Deryugina and Marx <a href="#ref-Deryugina2015" role="doc-biblioref">2015</a>)</span></p>
+<p>Donations in a state affected by tornado increase 1.7-2 percent in that year and 1.9-2 percent in the 2 years after. The authors can only reject ‘full crowding out’.</p>
 <p><br />
 </p>
-<p><span class="citation">(<a href="references.html#ref-scharfLiftShiftEffect2017" role="doc-biblioref">Scharf, Smith, and Ottoni-Wilhelm 2017</a>)</span></p>
+<p><span class="citation">(Scharf, Smith, and Ottoni-Wilhelm <a href="#ref-scharfLiftShiftEffect2017" role="doc-biblioref">2017</a>)</span></p>
 <p>These authors observe “CAF accounts”; for this particular group, they observe all donations over a substantial period.</p>
 <ul>
-<li><span class="math inline">\(\rightarrow\)</span> Reject ‘full crowd-out,’ tight zero LR crowdout</li>
+<li><span class="math inline">\(\rightarrow\)</span> Reject ‘full crowd-out’, tight zero LR crowdout</li>
 </ul>
 <p><span class="math inline">\(\rightarrow\)</span> non-disaster giving pre-poned (!), esp. for disaster/intl donors; “halo effect?”
-Estimates: +.537 log donations to DEC-13, se .032; -0.008 log donations to ‘other charities,’ se 0.017 <span class="math inline">\(\rightarrow\)</span> Reject ‘full crowd-out,’ tight zero LR crowdout</p>
+Estimates: +.537 log donations to DEC-13, se .032; -0.008 log donations to ‘other charities’, se 0.017 <span class="math inline">\(\rightarrow\)</span> Reject ‘full crowd-out’, tight zero LR crowdout</p>
 <p><em>Interpretation…</em></p>
 <p>consistent with… for (only) people responding to the DEC appeal … the disaster appeal increased the effectiveness with which donating to all charities, including Other charities, produces warm glow utility—a halo effect</p>
 <p>They argue that their data allows them to reject the transactions cost explanation because they see i. less bunching than usual, ii. shifts in amounts given and not just at the extensive margin and
@@ -597,25 +597,25 @@ Todo: add pictures of the relevant environments for these studies here
 </div>
 <div id="simultaneousproximate-lab-experiments" class="section level3" number="3.2.2">
 <h3><span class="header-section-number">3.2.2</span> Simultaneous/proximate ‘lab’ experiments</h3>
-<p>(esp. Reinstein 2006/11; <span class="citation">(<a href="references.html#ref-Filiz-Ozbay2019" role="doc-biblioref">Filiz-Ozbay and Uler 2019</a>)</span>)</p>
+<p>(esp. Reinstein 2006/11; <span class="citation">(Filiz-Ozbay and Uler <a href="#ref-Filiz-Ozbay2019" role="doc-biblioref">2019</a>)</span>)</p>
 <p><em>Figures: Berkeley design, types</em></p>
 <p>Vary choice sets/prices, shocks <span class="math inline">\(\rightarrow\)</span> crowd-out, esp. similar causes</p>
 <p><em>Figures: Berkeley line graphs</em></p>
 <p>(Reinstein, 2011) <span class="math inline">\(\rightarrow\)</span> Strong “expenditure substitution” responses to shocks, esp for similar charities; approx 50% crowd-out; 2.59 cross-price-elast)</p>
 <ul>
-<li>Heterogeneity; mix of ‘fixed purse,’ ‘flexible purse/never substitute’]</li>
+<li>Heterogeneity; mix of ‘fixed purse’, ‘flexible purse/never substitute’]</li>
 </ul>
-<p><span class="citation"><a href="references.html#ref-Filiz-Ozbay2019" role="doc-biblioref">Filiz-Ozbay and Uler</a> (<a href="references.html#ref-Filiz-Ozbay2019" role="doc-biblioref">2019</a>)</span> : Five paired choices, varying ‘rebate rate’ for one only; price-focus
+<p><span class="citation">Filiz-Ozbay and Uler (<a href="#ref-Filiz-Ozbay2019" role="doc-biblioref">2019</a>)</span> : Five paired choices, varying ‘rebate rate’ for one only; price-focus
 - ‘Stealing’ almost always
 - +0.35 net cross-price elast for ‘substitute’ charities</p>
 <ul>
-<li><span class="citation"><a href="references.html#ref-Harwell" role="doc-biblioref">Harwell, Candidate, and Eckel</a> (<a href="references.html#ref-Harwell" role="doc-biblioref">n.d.</a>)</span>; <span class="citation"><a href="references.html#ref-Schmitz" role="doc-biblioref">Schmitz</a> (<a href="references.html#ref-Schmitz" role="doc-biblioref">n.d.</a>)</span>: somewhat related designs, similar results in favor</li>
+<li><span class="citation">Harwell, Candidate, and Eckel (<a href="#ref-Harwell" role="doc-biblioref">n.d.</a>)</span>; <span class="citation">Schmitz (<a href="#ref-Schmitz" role="doc-biblioref">n.d.</a>)</span>: somewhat related designs, similar results in favor</li>
 </ul>
 </div>
 <div id="labframed-experiments-with-time-gaps" class="section level3" number="3.2.3">
 <h3><span class="header-section-number">3.2.3</span> Lab/framed experiments with time gaps</h3>
 <ul>
-<li><p><span class="citation"><a href="references.html#ref-Schmitz2019" role="doc-biblioref">Schmitz</a> (<a href="references.html#ref-Schmitz2019" role="doc-biblioref">2019</a>)</span></p></li>
+<li><p><span class="citation">Schmitz (<a href="#ref-Schmitz2019" role="doc-biblioref">2019</a>)</span></p></li>
 <li><p>Vance-Mullen component of Reinstein et al</p></li>
 </ul>
 <p><br />
@@ -630,28 +630,28 @@ Todo: add pictures of the relevant environments for these studies here
  investigated the impact of the German church tax on households’ other charitable giving.  used a field experiment to examine how donations to different charities respond to changes in relative match rates – however, as the total donation was decided ex-ante, the substitution among charities was constrained to be complete. Finally, an earlier work () examines substitution between giving and volunteering. However, to the best of my knowledge, no work directly addresses the cross-price elasticity (nor the expenditure substitution) between gifts to charitable causes.
 </div>
 <ul>
-<li><span class="citation"><a href="references.html#ref-Meer2014" role="doc-biblioref">J. Meer</a> (<a href="references.html#ref-Meer2014" role="doc-biblioref">2014</a>)</span>, <span class="citation"><a href="references.html#ref-meerDoesFundraisingCreate2017" role="doc-biblioref">Jonathan Meer</a> (<a href="references.html#ref-meerDoesFundraisingCreate2017" role="doc-biblioref">2017</a>)</span>: <a href="donorschoose.org">DonorsChoose.org</a> competition, matching campaigns</li>
+<li><span class="citation">Meer (<a href="#ref-Meer2014" role="doc-biblioref">2014</a>)</span>, <span class="citation">Meer (<a href="#ref-meerDoesFundraisingCreate2017" role="doc-biblioref">2017</a>)</span>: <a href="donorschoose.org">DonorsChoose.org</a> competition, matching campaigns</li>
 </ul>
 <p>2017: Increased funding for project, no significant impact on donations to other projects</p>
-<p><span class="citation"><a href="references.html#ref-Meer2014" role="doc-biblioref">J. Meer</a> (<a href="references.html#ref-Meer2014" role="doc-biblioref">2014</a>)</span>: “increased competition reduces the likelihood of a project being funded”</p>
+<p><span class="citation">Meer (<a href="#ref-Meer2014" role="doc-biblioref">2014</a>)</span>: “increased competition reduces the likelihood of a project being funded”</p>
 <ul>
-<li><span class="citation"><a href="references.html#ref-Donkers2017" role="doc-biblioref">Donkers, Diepen, and Franses</a> (<a href="references.html#ref-Donkers2017" role="doc-biblioref">2017</a>)</span>: Extra mailings to existing donors in a week, top-NL charities
+<li><span class="citation">Donkers, Diepen, and Franses (<a href="#ref-Donkers2017" role="doc-biblioref">2017</a>)</span>: Extra mailings to existing donors in a week, top-NL charities
 <ul>
 <li>Extra mailings +1.81 EUR for charity,</li>
 <li>-0.10 EUR per ‘regular’ mailing for <em>other</em> charity in <em>same week</em></li>
 <li>loss of 10% of revenues via competitive effects</li>
 <li>can’t reject zero-crowding, but wide CI’s</li>
 </ul></li>
-<li>Anticipated second asks: <span class="citation">(<a href="references.html#ref-adenaGivingOnceGiving2019" role="doc-biblioref">Adena and Huck 2019</a>; <a href="references.html#ref-Cairns2011" role="doc-biblioref">Cairns and Slonim 2011</a>)</span></li>
+<li>Anticipated second asks: <span class="citation">(Adena and Huck <a href="#ref-adenaGivingOnceGiving2019" role="doc-biblioref">2019</a>; Cairns and Slonim <a href="#ref-Cairns2011" role="doc-biblioref">2011</a>)</span></li>
 </ul>
-<p><span class="citation"><a href="references.html#ref-Cairns2011" role="doc-biblioref">Cairns and Slonim</a> (<a href="references.html#ref-Cairns2011" role="doc-biblioref">2011</a>)</span>: <em>Anticipated</em> `2nd collection’ at Mass raised 7695 USD , reduced 1st collections by 1708 USD (22% “crowdout”)</p>
-<p><span class="citation"><a href="references.html#ref-adenaGivingOnceGiving2019" role="doc-biblioref">Adena and Huck</a> (<a href="references.html#ref-adenaGivingOnceGiving2019" role="doc-biblioref">2019</a>)</span>: Anticipated repetition <span class="math inline">\(\rightarrow\)</span> 40% less “this year” (but also a <em>persistent</em> lower don)</p>
+<p><span class="citation">Cairns and Slonim (<a href="#ref-Cairns2011" role="doc-biblioref">2011</a>)</span>: <em>Anticipated</em> `2nd collection’ at Mass raised 7695 USD , reduced 1st collections by 1708 USD (22% “crowdout”)</p>
+<p><span class="citation">Adena and Huck (<a href="#ref-adenaGivingOnceGiving2019" role="doc-biblioref">2019</a>)</span>: Anticipated repetition <span class="math inline">\(\rightarrow\)</span> 40% less “this year” (but also a <em>persistent</em> lower don)</p>
 <p>Reinstein et al, 2020: First field-experiment to ask (or not ask) on multiple separate occasions with a significant delay, vary this delay time; find some crowding out but evidence on interaction with delay time is mixed. Possibly two channels: consistency versus fading of moral license/warm glow.</p>
 </div>
 </div>
 <div id="synthesis-emerging" class="section level2" number="3.3">
 <h2><span class="header-section-number">3.3</span> Synthesis (emerging)</h2>
-<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="substitution.html#cb26-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;picsfigs/subst_meta_cut.png&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="substitution.html#cb11-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;picsfigs/subst_meta_cut.png&#39;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-18"></span>
 <img src="picsfigs/subst_meta_cut.png" alt="Papers on substitution; database" width="85%" />
 <p class="caption">
@@ -667,6 +667,54 @@ Figure 3.1: Papers on substitution; database
 In Reinstein et al, we are planning a meta-analysis of the above papers
 </div>
 
+</div>
+</div>
+<h3> List of references</h3>
+<div id="refs" class="references">
+<div id="ref-adenaGivingOnceGiving2019">
+<p>Adena, Maja, and Steffen Huck. 2019. “Giving Once, Giving Twice: A Two-Period Field Experiment on Intertemporal Crowding in Charitable Giving.” <em>Journal of Public Economics</em> 172. <a href="https://doi.org/10.1016/j.jpubeco.2019.01.002">https://doi.org/10.1016/j.jpubeco.2019.01.002</a>.</p>
+</div>
+<div id="ref-Cairns2011">
+<p>Cairns, Jason, and Robert Slonim. 2011. “Substitution Effects Across Charitable Donations.” <em>Economics Letters</em> 111 (2): 173–75. <a href="https://doi.org/10.1016/j.econlet.2011.01.028">https://doi.org/10.1016/j.econlet.2011.01.028</a>.</p>
+</div>
+<div id="ref-Deryugina2015">
+<p>Deryugina, Tatyana, and Benjamin Marx. 2015. “Do Causes Crowd Each Other Out ? Evidence from Tornado Strikes,” no. December: 1–19.</p>
+</div>
+<div id="ref-Donkers2017">
+<p>Donkers, Bas, Merel Van Diepen, and Philip Hans Franses. 2017. “Journal of Behavioral and Experimental Economics Do Charities Get More When They Ask More Often ? Evidence from a Unique Field Experiment 73” 66: 58–65. <a href="https://doi.org/10.1016/j.socec.2016.05.006">https://doi.org/10.1016/j.socec.2016.05.006</a>.</p>
+</div>
+<div id="ref-Filiz-Ozbay2019">
+<p>Filiz-Ozbay, Emel, and Neslihan Uler. 2019. “Demand for Giving to Multiple Charities: An Experimental Study.” <em>Journal of the European Economic Association</em> 17 (3): 725–53. <a href="https://doi.org/10.1093/jeea/jvy011">https://doi.org/10.1093/jeea/jvy011</a>.</p>
+</div>
+<div id="ref-Harwell">
+<p>Harwell, Haley, Ph D Candidate, and Catherine Eckel. n.d. “Did the Ice Bucket Challenge Drain the Philanthropic Reservoir ?: Evidence from a Real-Donation Lab Experiment Version as of November 19 , 2015 DRAFT : DO NOT QUOTE WITHOUT AUTHORS ’ PERMISSION,” 1–37.</p>
+</div>
+<div id="ref-Heckman2015a">
+<p>Heckman, James J, and Rodrigo Pinto. 2015. “Econometric Mediation Analyses: Identifying the Sources of Treatment Effects from Experimentally Estimated Production Technologies with Unmeasured and Mismeasured Inputs.” <em>Econometric Reviews</em> 34 (September 2016): 6–31. <a href="https://doi.org/10.1080/07474938.2014.944466">https://doi.org/10.1080/07474938.2014.944466</a>.</p>
+</div>
+<div id="ref-Meer2014">
+<p>Meer, J. 2014. “Effects of the Price of Charitable Giving: Evidence from an Online Crowdfunding Platform.” <em>Journal of Economic Behavior &amp; Organization</em>. <a href="https://doi.org/10.1016/j.jebo.2014.04.010">https://doi.org/10.1016/j.jebo.2014.04.010</a>.</p>
+</div>
+<div id="ref-meerDoesFundraisingCreate2017">
+<p>Meer, Jonathan. 2017. “Does Fundraising Create New Giving?” <em>Journal of Public Economics</em> 145: 82–93. <a href="https://doi.org/10.1016/j.jpubeco.2016.11.009">https://doi.org/10.1016/j.jpubeco.2016.11.009</a>.</p>
+</div>
+<div id="ref-Pollak1969">
+<p>Pollak, Robert A. 1969. “Conditional Demand Functions and Consumption Theory.” <em>The Quarterly Journal of Economics</em> 83 (1): 60–78. <a href="https://doi.org/10.2307/1883993">https://doi.org/10.2307/1883993</a>.</p>
+</div>
+<div id="ref-reinsteinSubstitutionMotivationsCharitable2011">
+<p>Reinstein, David. 2011. “Substitution Between (and Motivations for) Charitable Contributions: An Experimental Study.” <em>Mimeo</em>.</p>
+</div>
+<div id="ref-reinsteinDoesOneCharitable">
+<p>Reinstein, David A. n.d. “Does One Charitable Contribution Come at the Expense of Another?” <em>The BE Journal of Economic Analysis &amp; Policy</em> 11 (1).</p>
+</div>
+<div id="ref-scharfLiftShiftEffect2017">
+<p>Scharf, Kimberley, Sarah Smith, and Mark Ottoni-Wilhelm. 2017. “Lift and Shift: The Effect of Fundraising Interventions in Charity Space and Time.” <a href="https://doi.org/10.1920/wp.ifs.2017.W1720">https://doi.org/10.1920/wp.ifs.2017.W1720</a>.</p>
+</div>
+<div id="ref-Schmitz2019">
+<p>Schmitz, Jan. 2019. “Temporal Dynamics of Pro-Social Behavior: An Experimental Analysis.” <em>Experimental Economics</em> 22 (1). <a href="https://doi.org/10.1007/s10683-018-9583-2">https://doi.org/10.1007/s10683-018-9583-2</a>.</p>
+</div>
+<div id="ref-Schmitz">
+<p>Schmitz, Jan. n.d. “Inter-Charity Competition for Individuals ’ Contributions- Experimental Testing of Substitution- , Complementary- , and Crowding Out Effects,” no. January 2013.</p>
 </div>
 </div>
             </section>

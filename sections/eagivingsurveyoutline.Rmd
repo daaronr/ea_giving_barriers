@@ -192,6 +192,8 @@ weighing evidence  specific claims such as ["People sometimes actively avoid inf
 
 \
 
+
+
 ## Other practical considerations 
 
 Consider on potential integration with (no-longer-maintained) PriorityWiki/Rethink Charity {-}
