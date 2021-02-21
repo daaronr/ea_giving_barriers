@@ -451,7 +451,7 @@ yoruk_2016, Gneezy2014	brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tolsm
 
 Cognitive biases: Overweighting and underweighting probabilities, misunderstanding marginality, scope-insensitivity, Opportunity-cost Neglect. etc. Identifiable victims effect. Responses: De-biasing, etc.
 
-@small2007sympathy, @gneezyAvoidingOverheadAversion2014,	@ein2013giving, @kogut2005identified, @kogut_2005b, @Kinsbergen_tolsma_13
+@@smallSympathyCallousnessImpact2007, @gneezyAvoidingOverheadAversion2014,	@ein2013giving, @kogut2005identified, @kogut_2005b, @Kinsbergen_tolsma_13
 
 
 Perfectionism/deontological aversion to 'waste' (or excuse-driven, motivated reasoning), lack of tangibility (giving to a diffuse cause); Percieved lack of transparency, and perceived corruption overseas

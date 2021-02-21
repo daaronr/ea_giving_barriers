@@ -36,7 +36,7 @@ output:
 bookdown::pdf_book:
     keep_tex: yes
 always_allow_html: yes
-bibliography: ["support/reinstein_bibtex_from_dropbox.bib", "support/reinstein_references.bib", "support/packages.bib"] #this second one should be included in the citr settings, first comes from Zotero-dropbox sync, and it's re-downloaded below
+bibliography: "`r rbbt::bbt_write_bib('support/references.bib', overwrite = TRUE, library_id = rbbt::bbt_libraries()[rbbt::bbt_libraries()$name == 'reinstein_research_and_impact_collabs', 1])`"
 biblio-style: apalike
 link-citations: yes
 github-repo: daaronr/ea_giving_barriers

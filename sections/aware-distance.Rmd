@@ -10,7 +10,7 @@ Typically, the most effective charities operate in developing countries, with al
 
 @loewensteinScarecrowTinMan2007 propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by @kahnemanThinkingFastSlow2011). This model distinguishes between System 1, which makes initial judgements (using 'affective cognition'); these are monitored by a more 'deliberative cognition' System 2 [@morewedge2010associative].(This model has been subjected to some criticism, @evans2013dual discuss the debate around dual system theories)
 
-<!-- @LA: this psychological model is widely known but also widely criticised model; we need to either mention it briefly with a link to some papers surveying it, or discuss it more carefully. Perhaps you can draw (and quote) some language from my paper with Robin Bergh, or others in this literature -->
+<!-- LA: this psychological model is widely known but also widely criticised model; we need to either mention it briefly with a link to some papers surveying it, or discuss it more carefully. Perhaps you can draw (and quote) some language from my paper with Robin Bergh, or others in this literature -->
 
 ## Theoretical and conceptual underpinning
 
@@ -51,7 +51,7 @@ There is some evidence for this in charitable contexts. In a laboratory experime
 
 Rare events such as natural disasters are particularly vivid and salient, and the availability bias suggests that people will overestimate the probability and value of events if they come to mind more easily [@tversky1973availability]. For example, people might overestimate the probability of airplane crashes due to their salience.
 
-@loewensteinScarecrowTinMan2007 argue that vividness is also one of the key determinants of sympathy, and one of the most important demonstrations of this is the identifiable victim effect. Their research suggests that victims who are 'determined' received higher levels of aid compared with indeterminate victims, as without identifying them people struggle to empathise, and are as a result less likely to help [@Small2003a].
+@loewensteinScarecrowTinMan2007 argue that vividness is also one of the key determinants of sympathy, and one of the most important demonstrations of this is the identifiable victim effect. Their research suggests that victims who are 'determined' received higher levels of aid compared with indeterminate victims, as without identifying them people struggle to empathise, and are as a result less likely to help [@smallHelpingVictimHelping2003].
 
 <div class="marginnote">
  This effect is discussed further under the ['statistical/identifiable victims'](#statvictims) quantitative bias.
@@ -113,7 +113,7 @@ Here we should distinguish individual's *own* response to shocks from their symp
 
 
 
-<!-- @LS -it's improving but lets focus more on the *evidence* for these things. It will help to look at the previous literature review and synthesis work on these (see section 2.2 for a start). We can even incorporate material from this work, carefully citing it
+<!-- LS -it's improving but lets focus more on the *evidence* for these things. It will help to look at the previous literature review and synthesis work on these (see section 2.2 for a start). We can even incorporate material from this work, carefully citing it
 -->
 
 ## Distance -  Temporal (future problems/individuals) and Hypothetical (probability of occurance) {#future}
@@ -143,11 +143,13 @@ See also these resources from [effectivealtruism.org](https://www.effectivealtru
 
 ### Discounting future payoffs/assets/welfare {-}
 
-Considering how heavily we should weigh the future is a subject that has been raised frequently in the field of Economics (perhaps most notably climate economics in recent times), leading us to the idea (and various conceptions) of 'discount rates' [@ackerman2008climate]. @greaves2017discounting outlines how discount rates can work as follows:
+Considering how heavily we should weigh the future is a subject that has been raised frequently in the field of Economics (perhaps most notably climate economics in recent times), leading us to the idea (and various conceptions) of 'discount rates' [@ackerman2008climate]. Greaves (2017)  outlines how discount rates can work as follows:
 
 > Suppose we have an opportunity to undertake an investment project, sacrificing *k* < 1 units of consumption today in order to secure an increase of 1 unit in consumption a time interval *t* later. Our basic question is: what is the threshold value of k at which the status quo becomes socially preferable to such a sacrifice? The answer to this question is the *social discount factor* for consumption at time t, *R(t)*. (One also has a *private* discount factor, corresponding to private as opposed to social preferences; in the remainder of this article, the focus is on the social version.) One generally expects *R* to decline with time — we are willing to sacrifice more today to gain an increase in one unit of consumption tomorrow than to gain an increase of one unit of consumption next year. The decline, however, may be faster or slower, and for current purposes the rate of the decline is crucial.
 
 > The choice of discount rate is crucial in the evaluation of projects some of whose important effects are long-term. Analyses that use a higher discount rate will tend to favour the short term: projects requiring sacrifices in the short term for the sake of benefits in the further future will be more likely to fail cost-benefit tests.
+
+<!-- #TODO: recover reference greaves2017discounting -->
 
 <div class="marginnote">
 
@@ -216,7 +218,9 @@ He argues:
 
 The other barriers in this section also link to a potential lack of future-focused giving. For example, when it comes to the [availability bias](#availability), we suggested that vividness and salience of events may influence how people estimate probabilities. Future events may be hard to picture, particularly more abstract risks like the [dangers of artificial intelligence](https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/)
 
-We also discussed the [identifiable victim effect](#statvictim). It could be significantly harder to create a story around a single victim if victims affected by that issue do not yet exist. Victims of the distant future may have to be statistical victims only, potentially eliciting less sympathy and consequently less donations. Charities that focus on the distant future may also have issues demonstrating evidence of their impact to donors, which can help to encourage donations ([@karlanEffectEffectivenessDonor2017]. However, the influence of demonstrating impact is mixed, as we further discuss[here](#eval-aversion).
+We also discussed the [identifiable victim effect](#statvictim). It could be significantly harder to create a story around a single victim if victims affected by that issue do not yet exist. Victims of the distant future may have to be statistical victims only, potentially eliciting less sympathy and consequently less donations. Charities that focus on the distant future may also have issues demonstrating evidence of their impact to donors, which can help to encourage donations (Karlan and Wood, 2017). However, the influence of demonstrating impact is mixed, as we further discuss[here](#eval-aversion).
+
+<!-- #TODO -- recover ref (Karlan and Wood, 2017) --> 
 
 \
 

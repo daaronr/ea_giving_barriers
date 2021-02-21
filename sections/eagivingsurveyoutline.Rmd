@@ -155,7 +155,9 @@ For example, within the category **[Barriers: Aversion/obstacles to *doing* (usi
 we consider the barrier ["General cost-benefit analysis (CBA)-aversion or reluctance"](#cba-aversion)...
   
 weighing evidence  specific claims such as ["People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..."](-#avoid_info_CBA)...
-                                                                                coming from research papers/studies such as [@Fong2011].                                                                                          
+
+                                                                                                                                                            
+                                                                                                                                                      coming from research papers/studies such as  @fongTruthGivingExperimental2010.                                                                                          
 
 ```  
 

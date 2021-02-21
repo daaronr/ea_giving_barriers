@@ -146,7 +146,7 @@ Stated more broadly, effective giving is predicated on conducting CBA for progra
 
 #### Evidence for claim: "People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..." {-#avoid_info_CBA}
 
-**[@Fong2011]** run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh;  each subject is matched with a particular recipient  of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers." 
+** @fongTruthGivingExperimental2010** run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh;  each subject is matched with a particular recipient  of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers." 
 
 But this needs to be interpreted carefully:  *those who decide not to buy information appear less generous than the average*!
 
@@ -426,7 +426,7 @@ Commenting this out because it seems to be subsumed above
 
 ## Information as an 'excuse' not to give; allows motivated reasoning
 
-**@exleyExcusingSelfishnessCharitable2016a** Greater discounting of 'less-efficient' charity in charity-charity decision-making than in charity-self d-m
+**@exleyExcusingSelfishnessCharitable2016** Greater discounting of 'less-efficient' charity in charity-charity decision-making than in charity-self d-m
 
 <br>
 
@@ -502,7 +502,7 @@ This looks like an underpowered study. They can perhaps rule out an effect great
 
 - Statistics diminish impact of 'identifiable victim'
 
-References: @Small2007, @karlanEffectEffectivenessDonor2017b, @bergh2020empathic, @smeets2015giving
+References: @Small2007, @(Karlan and Wood, 2017), @bergh2020empathic, @smeets2015giving
 
 See also: @Linda2007
 
@@ -519,9 +519,9 @@ The evidence (from the Economics/Behavioral Economics literature) is largely mix
 
 ### Presenting "Effectiveness" and other types of analytical efficiency information
 
-#### @karlanEffectEffectivenessDonor2017b
+#### Karlan and Wood, 2017
 
-> While @karlanEffectEffectivenessDonor2017b did find that those who had previously donated large amounts gave more when they received effectiveness information (and Parsons found similar effects for efficiency and prior donors), the reason for this effect is unclear. For example, large/frequent donors may experience a greater pressure to donate in light of any new positive information.  
+> While @(Karlan and Wood, 2017) did find that those who had previously donated large amounts gave more when they received effectiveness information (and Parsons found similar effects for efficiency and prior donors), the reason for this effect is unclear. For example, large/frequent donors may experience a greater pressure to donate in light of any new positive information.  
 - @bergh2020empathic
   
 \

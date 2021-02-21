@@ -199,7 +199,7 @@ Here's a guide to exactly how to do it.
 Look at the list of headings on the left of this page: each second-level
 header is it's own web-page (a distinct html link). "All the content in
 one scrolled page" is limited to a single first-level header.
-<!-- @Oska -- perhaps you can say this better -->
+<!--Oska -- perhaps you can say this better -->
 :::
 
 ```{block2,  type='note'}
@@ -491,7 +491,7 @@ I generally specify the bibliography source in the YAML at the top of
 the .Rmd file, or for Bookdown projects in the the YAML content in
 index.Rmd.
 
-<!-- @Oska -- we should try to explain this yaml stuff a bit better. -->
+<!-- #TODO Oska -- we should try to explain this yaml stuff a bit better. -->
 
 -   **BibTeX**
 
@@ -562,7 +562,7 @@ specified in the YAML header of index.Rmd.
 
 5.  Try to add the citation/reference.
 
--   Note that `[@reference]` gives a different format than `@reference`
+-   Note that `[(at symbol) reference]` gives a different format than `(at symbol) reference`
     (see below test).
 
 -   If the reference is not present, add it to the Zotero library (there
@@ -605,7 +605,6 @@ Click the addin "Insert Citations" under 'shortcuts', and enter a keyboard short
 @fongTruthGivingExperimental2010 no brackets
 [@fongTruthGivingExperimental2010] with brackets
 
-using an "ID"" only: [@Fong2010]\
 
 ## How to 'build' and view the book
 

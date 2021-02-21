@@ -792,7 +792,7 @@ Kellner\_EA\_2017,
 >
 > Responses: De-biasing, etc.
 >
-> small2007sympathy, Gneezy2014 ein2013giving, kogut2005identified,
+> @smallSympathyCallousnessImpact2007, Gneezy2014 ein2013giving, kogut2005identified,
 > kogut\_2005b, Kinsbergen\_tolsma\_13
 
 ### 2.7.1. Scope insensitivity
@@ -839,7 +839,7 @@ Discussion/evaluation of specific evidence here
 
 > Responses: De-biasing, etc.
 >
-> small2007sympathy, Gneezy2014 ein2013giving, kogut2005identified,
+> @smallSympathyCallousnessImpact2007, Gneezy2014 ein2013giving, kogut2005identified,
 > kogut\_2005b, Kinsbergen\_tolsma\_13
 
 ### 2.7.4. Misunderstanding need

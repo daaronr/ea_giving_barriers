@@ -89,7 +89,7 @@ Some references (WIP):
 
 ## (Lack of) previous synthesis on this {#prevsurvey}
 
-While there have been some relevant prior reviews (@Loewenstein2007, introduction to  @Berman2018, @baron2011heuristics),
+While there have been some relevant prior reviews (@loewensteinScarecrowTinMan2007, introduction to  @Berman2018, @baron2011heuristics),
 
 <div class="marginnote">
 
@@ -115,7 +115,7 @@ Ideas42: "We did not find many field-based, experimental studies on the factors 
 
 \
 
-*Note:* @greenhalghSystematicReviewBarriers2020  performed 'A systematic review of the barriers to and facilitators of the use of evidence by philanthropists when determining which charities (including health charities or programmes) to funds'  using PRISMA guidelines.
+*Note:* @greenhalghSystematicReviewBarriers2020 performed 'a systematic review of the barriers to and facilitators of the use of evidence by philanthropists when determining which charities (including health charities or programmes) to funds'  using PRISMA guidelines.
 
 ```{block2,  type='fold'}
 
@@ -443,7 +443,7 @@ Cognitive biases include:
 
 <!-- Responses: De-biasing, etc.
 
-@small2007sympathy, @gneezyAvoidingOverheadAversion2014,	@ein2013giving, @kogut2005identified, @kogut_2005b, @Kinsbergen_tolsma_13 -->
+smallSympathyCallousnessImpact2007, gneezyAvoidingOverheadAversion2014,	ein2013giving, kogut2005identified, kogut_2005b, Kinsbergen_tolsma_13 -->
 
 <!-- (or excuse-driven, motivated reasoning), lack of tangibility (giving to a diffuse cause); Percieved lack of transparency, and perceived corruption overseas -->
 
@@ -476,7 +476,7 @@ See:  (Karlan & W, '07),[@kogut2005singularity; @kogutIdentifiedVictimEffect2005
 
 
 <div class="marginnote">
-See: @andreoniAvoidingAskField2017, @exleyExcusingSelfishnessCharitable2016a, @exleyImpactSurpriseDonation2018, @dellavigna2012testing, @reinstein2018commitments
+See: @andreoniAvoidingAskField2017, @exleyExcusingSelfishnessCharitable2016, @exleyImpactSurpriseDonation2018, @dellavigna2012testing, @reinstein2018commitments
 </div>
 
 

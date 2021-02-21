@@ -224,7 +224,7 @@ effect (system 1), etc.
 
 Responses: De-biasing, etc.
 
-small2007sympathy, Gneezy2014 ein2013giving, kogut2005identified,
+@smallSympathyCallousnessImpact2007, Gneezy2014 ein2013giving, kogut2005identified,
 kogut\_2005b, Kinsbergen\_tolsma\_13
 
 ### 2b. Barriers: Presenting analytical/impact information switches off system 1;

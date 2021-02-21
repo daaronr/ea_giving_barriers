@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
-<meta name="date" content="2021-02-19" />
+<meta name="date" content="2021-02-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -632,7 +632,7 @@ becoming its own HTML page.</p></li>
 <p>Look at the list of headings on the left of this page: each second-level
 header is it’s own web-page (a distinct html link). “All the content in
 one scrolled page” is limited to a single first-level header.
-<!-- @Oska -- perhaps you can say this better --></p>
+<!--Oska -- perhaps you can say this better --></p>
 </div>
 
 <div class="note">
@@ -802,9 +802,9 @@ content which can be displayed in a chunk. Such as tables of data:</p>
 </table>
 
 <p>Code chunks are defined by wrapping text inside <code>```  ```</code>. The above example was coded using:</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb14-1"><a href="bookdown-appendix.html#cb14-1"></a></span>
-<span id="cb14-2"><a href="bookdown-appendix.html#cb14-2"></a><span class="bn">```{r}</span></span>
-<span id="cb14-3"><a href="bookdown-appendix.html#cb14-3"></a><span class="bn">head(iris)</span></span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb15-1"><a href="bookdown-appendix.html#cb15-1"></a></span>
+<span id="cb15-2"><a href="bookdown-appendix.html#cb15-2"></a><span class="bn">```{r}</span></span>
+<span id="cb15-3"><a href="bookdown-appendix.html#cb15-3"></a><span class="bn">head(iris)</span></span></code></pre></div>
 <!-- ````markdown ``` ```` -->
 <p>Options can be specified inside of the curly brackets {} More
 information is provided
@@ -862,9 +862,9 @@ following HTML wrapper:</li>
 <p>The margin notes used in this project are inspired by the Tufte handout
 style developed by American statistician Edward Tufte.</p>
 </div>
-<div class="sourceCode" id="cb15"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb15-1"><a href="bookdown-appendix.html#cb15-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;marginnote&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb15-2"><a href="bookdown-appendix.html#cb15-2"></a>Your margin note goes here.</span>
-<span id="cb15-3"><a href="bookdown-appendix.html#cb15-3"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb16-1"><a href="bookdown-appendix.html#cb16-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;marginnote&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb16-2"><a href="bookdown-appendix.html#cb16-2"></a>Your margin note goes here.</span>
+<span id="cb16-3"><a href="bookdown-appendix.html#cb16-3"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
 <p>Or margin notes can be added by using chunk options.</p>
 <ul>
 <li><strong>Folding boxes</strong></li>
@@ -890,7 +890,7 @@ generally enclosed with a three-dash <code>---</code> break at top and bottom.)<
 <p>I generally specify the bibliography source in the YAML at the top of
 the .Rmd file, or for Bookdown projects in the the YAML content in
 index.Rmd.</p>
-<!-- @Oska -- we should try to explain this yaml stuff a bit better. -->
+<!-- #TODO Oska -- we should try to explain this yaml stuff a bit better. -->
 <ul>
 <li><strong>BibTeX</strong></li>
 </ul>
@@ -961,7 +961,7 @@ loaded</p></li>
 <li>Try to add the citation/reference.</li>
 </ol>
 <ul>
-<li><p>Note that <code>[@reference]</code> gives a different format than <code>@reference</code>
+<li><p>Note that <code>[(at symbol) reference]</code> gives a different format than <code>(at symbol) reference</code>
 (see below test).</p></li>
 <li><p>If the reference is not present, add it to the Zotero library (there
 are various methods, from Google Scholar etc) and synchronise your
@@ -993,10 +993,8 @@ ask on Github.</p></li>
 <div id="a-test-of-adding-references" class="section level3" number="13.6.8">
 <h3><span class="header-section-number">13.6.8</span> A test of adding references</h3>
 <p><em>Test a reference from reinstein_bibtex.bib:</em>
-<span class="citation">Fong and Oberholzer-Gee (<a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a><a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">a</a>)</span> no brackets
-<span class="citation">(Fong and Oberholzer-Gee <a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a><a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">a</a>)</span> with brackets</p>
-<p>using an “ID”" only: <span class="citation">(Fong and Oberholzer-Gee <a href="#ref-Fong2010" role="doc-biblioref">2010</a><a href="#ref-Fong2010" role="doc-biblioref">a</a>)</span><br />
-</p>
+<span class="citation">Fong and Oberholzer-Gee (<a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a>)</span> no brackets
+<span class="citation">(Fong and Oberholzer-Gee <a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a>)</span> with brackets</p>
 </div>
 </div>
 <div id="how-to-build-and-view-the-book" class="section level2" number="13.7">
@@ -1043,12 +1041,12 @@ export work to Google Drive. This process is easy in R as we can use the
 packages</a>. Below we will
 outline a basic workflow for rendering Rmarkdown and uploading these
 files to Google Drive. During this process files are rendered and converted to Google Docs.</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="bookdown-appendix.html#cb16-1"></a><span class="kw">library</span>(markdrive)</span>
-<span id="cb16-2"><a href="bookdown-appendix.html#cb16-2"></a></span>
-<span id="cb16-3"><a href="bookdown-appendix.html#cb16-3"></a><span class="co"># Render and upload Rmarkdown file</span></span>
-<span id="cb16-4"><a href="bookdown-appendix.html#cb16-4"></a><span class="kw">gdoc_render</span>(<span class="dt">filename=</span><span class="st">&quot;sections/barriers_old_classification.Rmd&quot;</span>, </span>
-<span id="cb16-5"><a href="bookdown-appendix.html#cb16-5"></a>            <span class="dt">gdoc_name=</span> <span class="st">&quot;A test&quot;</span>,</span>
-<span id="cb16-6"><a href="bookdown-appendix.html#cb16-6"></a>            <span class="dt">gdoc_path=</span> <span class="st">&quot;Test folder&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="bookdown-appendix.html#cb17-1"></a><span class="kw">library</span>(markdrive)</span>
+<span id="cb17-2"><a href="bookdown-appendix.html#cb17-2"></a></span>
+<span id="cb17-3"><a href="bookdown-appendix.html#cb17-3"></a><span class="co"># Render and upload Rmarkdown file</span></span>
+<span id="cb17-4"><a href="bookdown-appendix.html#cb17-4"></a><span class="kw">gdoc_render</span>(<span class="dt">filename=</span><span class="st">&quot;sections/barriers_old_classification.Rmd&quot;</span>, </span>
+<span id="cb17-5"><a href="bookdown-appendix.html#cb17-5"></a>            <span class="dt">gdoc_name=</span> <span class="st">&quot;A test&quot;</span>,</span>
+<span id="cb17-6"><a href="bookdown-appendix.html#cb17-6"></a>            <span class="dt">gdoc_path=</span> <span class="st">&quot;Test folder&quot;</span>)</span></code></pre></div>
 <p>In the above example we render an Rmarkdown document to HTML and upload
 the corresponding document to Google Drive. This process tends to work
 best with Rmd files with <em>html_document</em> output.</p>
@@ -1061,24 +1059,24 @@ we must make use of the <code>markdrive</code> commands which do not support thi
 consider a workflow which identifies existing files and moves these to
 trash. This ensures that we do not create duplicates when uploading.</p>
 <p><strong>Warning</strong>: Make sure that you <strong>do not</strong> already have files with duplicate labels inside your <code>gdoc_path</code>. Otherwise these files will be deleted.</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="bookdown-appendix.html#cb17-1"></a><span class="kw">library</span>(googledrive)</span>
-<span id="cb17-2"><a href="bookdown-appendix.html#cb17-2"></a><span class="kw">library</span>(markdrive)</span>
-<span id="cb17-3"><a href="bookdown-appendix.html#cb17-3"></a></span>
-<span id="cb17-4"><a href="bookdown-appendix.html#cb17-4"></a><span class="co"># Define files and folders for simplicity</span></span>
-<span id="cb17-5"><a href="bookdown-appendix.html#cb17-5"></a>gdoc_file &lt;-<span class="st"> &quot;A test&quot;</span></span>
-<span id="cb17-6"><a href="bookdown-appendix.html#cb17-6"></a>gdoc_path &lt;-<span class="st"> &quot;Term 2&quot;</span></span>
-<span id="cb17-7"><a href="bookdown-appendix.html#cb17-7"></a>local_file &lt;-<span class="st"> &quot;test.Rmd&quot;</span></span>
-<span id="cb17-8"><a href="bookdown-appendix.html#cb17-8"></a></span>
-<span id="cb17-9"><a href="bookdown-appendix.html#cb17-9"></a><span class="co"># Check if our file to upload exists already</span></span>
-<span id="cb17-10"><a href="bookdown-appendix.html#cb17-10"></a><span class="co"># If so move this file to trash</span></span>
-<span id="cb17-11"><a href="bookdown-appendix.html#cb17-11"></a><span class="cf">if</span> (gdoc_file <span class="op">%in%</span><span class="st"> </span><span class="kw">drive_ls</span>(<span class="dt">path=</span>gdoc_path)<span class="op">$</span>name) {</span>
-<span id="cb17-12"><a href="bookdown-appendix.html#cb17-12"></a>  <span class="kw">drive_trash</span>(<span class="kw">as_dribble</span>(<span class="kw">paste</span>(gdoc_path, gdoc_file, <span class="dt">sep=</span><span class="st">&quot;/&quot;</span>)))</span>
-<span id="cb17-13"><a href="bookdown-appendix.html#cb17-13"></a>}</span>
-<span id="cb17-14"><a href="bookdown-appendix.html#cb17-14"></a></span>
-<span id="cb17-15"><a href="bookdown-appendix.html#cb17-15"></a><span class="co"># Render and upload Rmarkdown file</span></span>
-<span id="cb17-16"><a href="bookdown-appendix.html#cb17-16"></a><span class="kw">gdoc_render</span>(<span class="dt">filename=</span> local_file, </span>
-<span id="cb17-17"><a href="bookdown-appendix.html#cb17-17"></a>            <span class="dt">gdoc_name=</span> gdoc_file,</span>
-<span id="cb17-18"><a href="bookdown-appendix.html#cb17-18"></a>            <span class="dt">gdoc_path=</span> gdoc_path)</span></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="bookdown-appendix.html#cb18-1"></a><span class="kw">library</span>(googledrive)</span>
+<span id="cb18-2"><a href="bookdown-appendix.html#cb18-2"></a><span class="kw">library</span>(markdrive)</span>
+<span id="cb18-3"><a href="bookdown-appendix.html#cb18-3"></a></span>
+<span id="cb18-4"><a href="bookdown-appendix.html#cb18-4"></a><span class="co"># Define files and folders for simplicity</span></span>
+<span id="cb18-5"><a href="bookdown-appendix.html#cb18-5"></a>gdoc_file &lt;-<span class="st"> &quot;A test&quot;</span></span>
+<span id="cb18-6"><a href="bookdown-appendix.html#cb18-6"></a>gdoc_path &lt;-<span class="st"> &quot;Term 2&quot;</span></span>
+<span id="cb18-7"><a href="bookdown-appendix.html#cb18-7"></a>local_file &lt;-<span class="st"> &quot;test.Rmd&quot;</span></span>
+<span id="cb18-8"><a href="bookdown-appendix.html#cb18-8"></a></span>
+<span id="cb18-9"><a href="bookdown-appendix.html#cb18-9"></a><span class="co"># Check if our file to upload exists already</span></span>
+<span id="cb18-10"><a href="bookdown-appendix.html#cb18-10"></a><span class="co"># If so move this file to trash</span></span>
+<span id="cb18-11"><a href="bookdown-appendix.html#cb18-11"></a><span class="cf">if</span> (gdoc_file <span class="op">%in%</span><span class="st"> </span><span class="kw">drive_ls</span>(<span class="dt">path=</span>gdoc_path)<span class="op">$</span>name) {</span>
+<span id="cb18-12"><a href="bookdown-appendix.html#cb18-12"></a>  <span class="kw">drive_trash</span>(<span class="kw">as_dribble</span>(<span class="kw">paste</span>(gdoc_path, gdoc_file, <span class="dt">sep=</span><span class="st">&quot;/&quot;</span>)))</span>
+<span id="cb18-13"><a href="bookdown-appendix.html#cb18-13"></a>}</span>
+<span id="cb18-14"><a href="bookdown-appendix.html#cb18-14"></a></span>
+<span id="cb18-15"><a href="bookdown-appendix.html#cb18-15"></a><span class="co"># Render and upload Rmarkdown file</span></span>
+<span id="cb18-16"><a href="bookdown-appendix.html#cb18-16"></a><span class="kw">gdoc_render</span>(<span class="dt">filename=</span> local_file, </span>
+<span id="cb18-17"><a href="bookdown-appendix.html#cb18-17"></a>            <span class="dt">gdoc_name=</span> gdoc_file,</span>
+<span id="cb18-18"><a href="bookdown-appendix.html#cb18-18"></a>            <span class="dt">gdoc_path=</span> gdoc_path)</span></code></pre></div>
 </div>
 </div>
 <div id="joining-this-project" class="section level2" number="13.8">
@@ -1106,7 +1104,7 @@ well as a tool like GitHub Desktop, unless you want to solely rely on
 command line Git).</p>
 <div id="web-page-for-a-repo" class="section level4 unnumbered" number="">
 <h4>Web page for a repo</h4>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="bookdown-appendix.html#cb18-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;picsfigs/ea_barriers_github_repo_startpage.png&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="bookdown-appendix.html#cb19-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&#39;picsfigs/ea_barriers_github_repo_startpage.png&#39;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-73"></span>
 <img src="picsfigs/ea_barriers_github_repo_startpage.png" alt="EA barriers repo github starting page" width="100%" />
 <p class="caption">
@@ -1387,7 +1385,7 @@ material mentioned above:</p>
 <h3> List of references</h3>
 <div id="refs" class="references">
 <div id="ref-fongTruthGivingExperimental2010">
-<p>Fong, Christina, and Felix Oberholzer-Gee. 2010a. “Truth in Giving: Experimental Evidence on the Welfare Effects of Informed Giving to the Poor.” <em>Journal of Public Economics</em>.</p>
+<p>Fong, Christina, and Felix Oberholzer-Gee. 2010. “Truth in Giving: Experimental Evidence on the Welfare Effects of Informed Giving to the Poor.” <em>Journal of Public Economics</em>.</p>
 </div>
 </div>
             </section>

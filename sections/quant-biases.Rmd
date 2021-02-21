@@ -342,12 +342,12 @@ d.  (Ari:) "Increase evaluability: putting interventions on same
 ## Statistical/identifiable victim effect {#statvictim}
 
 <div class="marginnote">
-Cite: Hsee13, small2003helping, kogut2011identifiable, small2007sympathy_s3_s4
+Cite: Hsee13, small2003helping, kogut2011identifiable, @Small2007 (studies 3-4)
 </div>
 
 ### Definition
 
-The identifiable victim effect (IVE) is credited as being first developed by @schelling1968life, who argue "there is a distinction between an individual and a statistical life". People may react differently towards victims when these victims are *identified* rather than anonymous [@Small2003a]. As a result, resources may be more likely to be devoted to causes where individual victims are more prominent and identifiable (rather than cases where we only see large, unidentified groups) [@small2010reference]. @slovicPsychicNumbingGenocide2007 also discussed this effect, in a paper that derives its title from a Mother Teresa quote that reflects the key idea: "If I look at the mass I will never act. If I look at the one I will".
+The identifiable victim effect (IVE) is credited as being first developed by @schelling1968life, who argue "there is a distinction between an individual and a statistical life". People may react differently towards victims when these victims are *identified* rather than anonymous [@@smallHelpingVictimHelping2003]. As a result, resources may be more likely to be devoted to causes where individual victims are more prominent and identifiable (rather than cases where we only see large, unidentified groups) [@small2010reference]. @slovicPsychicNumbingGenocide2007 also discussed this effect, in a paper that derives its title from a Mother Teresa quote that reflects the key idea: "If I look at the mass I will never act. If I look at the one I will".
 
 \
 
@@ -390,7 +390,7 @@ What test?^
 
 One of the potential reasons that identified victims could elicit greater generosity is that their stories can involve more sympathy-inducing information (see @jenniExplainingIdentifiableVictim1997 and @loewensteinScarecrowTinMan2007 for more on the causes of the identifiable victim effect and more on sympathy biases). However, while sympathy-inducing information can contribute to the impact of the identifiable victim effect, some evidence suggests that it is not the sole factor driving this.
 
-@Small2003a designed studies to separate the effect of the *identification* of a victim from the effect of *information being provided* about a victim. They outlined this distinction as follows:
+@@smallHelpingVictimHelping2003 designed studies to separate the effect of the *identification* of a victim from the effect of *information being provided* about a victim. They outlined this distinction as follows:
 
 > Although it has been claimed that people care about identifiable more than statistical victims, demonstrating this "identifiable victim effect" has proven difficult because identification usually provides information about a victim, and people may respond to the information rather than to identification *per se*. We show that a very weak form of identifiability - determining the victim without providing any personalizing information - increases caring.
 
@@ -399,17 +399,17 @@ In one of their studies, they used a version of the dictator game. In dictator g
 For more on dictator games see @kahneman1986fairness and @camerer1995anomalies.
 </div>
 
-There were two conditions in the slightly altered dictator game devised by @Small2003a. In the 'determined' condition, allocators were given a number to link them with the recipient before they made their decision, while in the 'undetermined' condition they were linked after the decision. Their hypothesis, that an allocator would give more money to recipients in the determined condition, was supported. Subjects gave significantly more to those victims who had been determined before the allocation. The mean donation for an undetermined victim was USD 2.12, compared to USD 3.42 for determined victims.
+There were two conditions in the slightly altered dictator game devised by @@smallHelpingVictimHelping2003. In the 'determined' condition, allocators were given a number to link them with the recipient before they made their decision, while in the 'undetermined' condition they were linked after the decision. Their hypothesis, that an allocator would give more money to recipients in the determined condition, was supported. Subjects gave significantly more to those victims who had been determined before the allocation. The mean donation for an undetermined victim was USD 2.12, compared to USD 3.42 for determined victims.
 
-The second study from @Small2003a was a field experiment with the following methodology:
+The second study from @@smallHelpingVictimHelping2003 was a field experiment with the following methodology:
 
 > ... potential donors were presented with a letter requesting money to buy materials for a house that was to be built for a needy family through the Habit for Humanity organization. The letter described several families on the waiting list to move into homes. Identifiability was manipulated by informing respondents that the family either "*has been selected*" or "*will be selected*" from the list. In neither condition were respondents told which family had been or would be selected; the only difference between conditions was in whether the decision had already been made
 
-As in their first study, they found evidence supporting their hypothesis that contributions would be larger when the recipients had already been determined. Mean, median and mode donations were all larger in the determined condition, with a mean of USD 2.93 given in the determined family condition, and a mean of USD 2.33 given in the undetermined family condition. This study could arguably provide stronger support for the identifiable victim effect impacting altruism, as @Small2003a suggest:
+As in their first study, they found evidence supporting their hypothesis that contributions would be larger when the recipients had already been determined. Mean, median and mode donations were all larger in the determined condition, with a mean of USD 2.93 given in the determined family condition, and a mean of USD 2.33 given in the undetermined family condition. This study could arguably provide stronger support for the identifiable victim effect impacting altruism, as @@smallHelpingVictimHelping2003 suggest:
 
 > By moving out of the laboratory, we eliminated potential artifacts such as the concern that students might have felt of being "found out" by their peers or other non-empathatic motives. By collecting money for a real charity to help people truly in need, we illustrate the real world implications of this effect.
 
-Both of these studies from @Small2003a suggest that identifying a victim, even without providing additional information, can potentially increase giving.
+Both of these studies from @@smallHelpingVictimHelping2003 suggest that identifying a victim, even without providing additional information, can potentially increase giving.
 
 Results from @charnessWhatNameAnonymity2008 similarly offer support for the identifiable victim effect from dictator games. In their dictator game, they found that when the family name of the recipient was revealed, the allocator gave a significantly larger portion of their endowment. Allocators who were told the family name gave 50 percent more than those who weren't.
 

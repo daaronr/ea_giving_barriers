@@ -4,7 +4,7 @@
 
 Cognitive biases: Overweighting and underweighting probabilities, misunderstanding marginality, scope-insensitivity, Opportunity-cost Neglect. etc. Identifiable victims effect. Responses: De-biasing, etc.
 
-small2007sympathy, Gneezy2014	ein2013giving, kogut2005identified, kogut_2005b, Kinsbergen_tolsma_13
+@smallSympathyCallousnessImpact2007, Gneezy2014	ein2013giving, kogut2005identified, kogut_2005b, Kinsbergen_tolsma_13
 
 
 ### Barriers: Presenting analytical/impact information switches off system 1;
