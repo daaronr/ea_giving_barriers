@@ -1,6 +1,6 @@
 ---
-editor_options: 
-  markdown: 
+editor_options:
+  markdown:
     wrap: 72
 ---
 
@@ -267,15 +267,15 @@ docs: html output put here for web hosting
 
 **A tip: 'find in files'**
 
-'Find in files' is a nice tool when working in Rstudio for a project combining many files. 
+'Find in files' is a nice tool when working in Rstudio for a project combining many files.
 
 In menu bar, select:
 - Edit
 - Find in files...
 
 Or use the (built in?) shortcut (in Mac) `<Shift>-<cmd>-f`
-  
-  
+
+
 ```
 
 ### Basic (R-)Markdown
@@ -588,13 +588,13 @@ specified in the YAML header of index.Rmd.
 You may be able to save time in adding citations (via the CitR add-in in R-Studio) if you use a shortcut key.
 
 Select (menu bar):
-  
+
 - Tools
 - Addins
 - Browse addins
 
 Click in box "keyboard shortcuts"
-  
+
 Click the addin "Insert Citations" under 'shortcuts', and enter a keyboard shortcut of your choice.
 
 ```
@@ -658,7 +658,7 @@ files to Google Drive. During this process files are rendered and converted to G
 library(markdrive)
 
 # Render and upload Rmarkdown file
-gdoc_render(filename="sections/barriers_old_classification.Rmd", 
+gdoc_render(filename="sections/barriers_old_classification.Rmd",
             gdoc_name= "A test",
             gdoc_path= "Test folder")
 ```
@@ -694,7 +694,7 @@ if (gdoc_file %in% drive_ls(path=gdoc_path)$name) {
 }
 
 # Render and upload Rmarkdown file
-gdoc_render(filename= local_file, 
+gdoc_render(filename= local_file,
             gdoc_name= gdoc_file,
             gdoc_path= gdoc_path)
 ```
@@ -986,3 +986,20 @@ material mentioned above:
 #### [Authoring Books with R Markdown](https://bookdown.org/yihui/bookdown/) {.unnumbered}
 
 #### [YaRrr! The Pirate's Guide to R](https://bookdown.org/ndphillips/YaRrr/){.unnumbered}
+
+
+
+## Further misc notes
+
+For 'unpublic unhosted' Github bookdowns (unlike this one...)
+
+```{block2,  type='fold'}
+
+I keep updating and pushing the bookdown on the Github. As you know, if you have Github desktop it is automatically set to ‘background fetch’ every hour (I think), so you will regularly have the most recent update on your hard drive in your chosen folder.
+Then all you need to do to ‘keep a tab on this’ is have the local location opened or bookmarked in a browser, and refresh when you want to see the new state of things.
+
+What if you want to take notes or comment on that? You can either do so on Github, on the files themselves (and then push them), or, perhaps easiest, with hypothes.is.
+But how can you take notes on hypothesis on an unhosted document…?
+You can still use hypothesis in your browser, and then highlight and comment:
+But what’s the good of that? You can still search groups or tags on the hypothes.is search engine, and see new comments along with the highlighted text (but you don't see them in the full page context).
+```

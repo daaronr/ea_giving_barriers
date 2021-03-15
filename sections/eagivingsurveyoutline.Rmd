@@ -1,6 +1,10 @@
 
 # Introduction and outline {#outline}
 
+<center>
+**Increasing effective charitable giving: The puzzle, what we know, what we need to know next**
+
+</center>
 
 <!-- #TODO: reconcile this with the outline in 'EA giving survey-working version'... -->
 
@@ -10,7 +14,7 @@
 
 ## Overview
 
-**Section \@ref(present-puzzle): [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle)** 
+**Section \@ref(present-puzzle): [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle)**
 
 <div class="marginnote">
 Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
@@ -30,15 +34,15 @@ Why should you care about this? Descriptives of giving (US, international) and h
 \*\*
 - Do people *actually care about* impact? Does moral utilitarianism matter?
 -  Economics and psych models $\rightarrow$  puzzle?
-- Models where people care about the impact of their gift or just 'amount sacrificed' (naive warm glow). 
+- Models where people care about the impact of their gift or just 'amount sacrificed' (naive warm glow).
 - Does impact map into the 'good feeling' from giving, can it do so?
 </div>
- 
+
 - [Conceptual breakdown of 'barriers' (first presentation)](#barriers-concept)
-  
 
 
-<!-- Economic and psych models conceptualizing this --> 
+
+<!-- Economic and psych models conceptualizing this -->
 
 \
 
@@ -51,7 +55,7 @@ rivals? Does one donation request ask (or donation itself) crowd out another, an
 
 \
 
-**Section \@ref(#barriers-concept): [Explaining the puzzle: Barriers to EA giving and potential responses, evidence](##barriers-concept)** 
+**Section \@ref(#barriers-concept): [Explaining the puzzle: Barriers to EA giving and potential responses, evidence](##barriers-concept)**
 
 <!-- moved old classification to barriers_old_classification.Rmd -->
 
@@ -79,19 +83,19 @@ Responses?:  (Information enhancing) the social closeness of a recipient/benefic
 
 **Section \@ref(social): [Barriers: Signaling and social pressures/social identity](#social)**
 
-Includes, e.g., 
+Includes, e.g.,
 
-- social perceptions and 'signaling empathy vs effectiveness' ([@caviola2020many]) 
+- social perceptions and 'signaling empathy vs effectiveness' ([@caviola2020many])
 
-- difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness' @burumEvolutionaryExplanationIneffective2020 
+- difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness' @burumEvolutionaryExplanationIneffective2020
 
 \
 
 **Section \@ref(eval-aversion): [Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
- 
+
 **Section  \@ref(factual): [Barriers: Persistent and systematic incorrect empirical beliefs](#factual)**
 
- 
+
 **Section \@ref(quant-biases): [Barriers: Quantitative biases](#quant-biases)**
 
 **Section \@ref(inertia): [Barriers: Inertia and systemic/institutional](#inertia)**
@@ -101,7 +105,7 @@ Includes, e.g.,
 **Section \@ref(conclusion-agenda): [Conclusion; a research agenda](#conclusion-agenda)**
 
 
-## Structure of each 'barriers' section {#structure-barriers} 
+## Structure of each 'barriers' section {#structure-barriers}
 
 **In each section we consider:**
 
@@ -130,9 +134,9 @@ Within this, we consider the **evidence for each specific empirical claim** supp
 In considering the evidence for these claims, we generally consider one paper or project at a time (or a specific piece of independent evidence from this paper).\*
 
 <div class="marginnote">
-However, we are still thinking about the best narrative approach to presenting evidence from multiple papers/projects/analyses.  
+However, we are still thinking about the best narrative approach to presenting evidence from multiple papers/projects/analyses.
 </div>
- 
+
 ### Consideration of each paper {#paper-structure}
 
 For each paper we focus on key elements, including:
@@ -151,27 +155,27 @@ We (should) also link where to find the paper itself as well as the materials an
 
 ```{block2,  type='note'}
 For example, within the category **[Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity](#eval-aversion)** ...
-  
+
 we consider the barrier ["General cost-benefit analysis (CBA)-aversion or reluctance"](#cba-aversion)...
-  
+
 weighing evidence  specific claims such as ["People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..."](-#avoid_info_CBA)...
 
-                                                                                                                                                            
-                                                                                                                                                      coming from research papers/studies such as  @fongTruthGivingExperimental2010.                                                                                          
 
-```  
+                                                                                                                                                      coming from research papers/studies such as  @fongTruthGivingExperimental2010.
+
+```
 
 ## Airtable organisation; contributing content {#airtable-contrib}
 
 **These classifications of barriers** are organised, outlined, and defined in our Airtable; see the view below.
 
-  
+
 <iframe class="airtable-embed" src="https://airtable.com/embed/shr7Hs75V0k24wtI9?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="330" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 \
 
 **The barriers themselves** are organised as well, see the view below:
-  
+
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrUbA0AdoQNymoCU?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="330" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 
@@ -196,7 +200,7 @@ weighing evidence  specific claims such as ["People sometimes actively avoid inf
 
 
 
-## Other practical considerations 
+## Other practical considerations
 
 Consider on potential integration with (no-longer-maintained) PriorityWiki/Rethink Charity {-}
 

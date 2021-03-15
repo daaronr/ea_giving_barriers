@@ -17,7 +17,12 @@ Typically, the most effective charities operate in developing countries, with al
 Construal theory,  psychological distance,  moral distance/moral circles
 
 
-- Moral expansiveness <!-- TODO: add content from Crimston -->
+- Moral expansiveness
+
+<div class="marginnote">
+Crimston's (2016) 'moral expansiveness scale' aims to capture *breadth* (a 'representative spread of human and nonhuman entities') as well as *depth* (four defined boundaries expressing degree of obligation and moral standing). It expands earlier models and scales
+</div>
+
 
 <div class="marginnote">
 Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychological distance" (PDF). Psychological Review. 117 (2): 440–463. doi:10.1037/a0018963
@@ -26,7 +31,7 @@ Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychologi
 
 <!-- ?cuddy\_ea\_2007 (Sudhir ea, \'16) -->
 
-## Distance - Spatial/Physical, Social/Cultural: parochial altruism/ingroup bias,  interpersonal and identity e.g., race, gender, age, etc {#in-group}
+## Distance - Spatial/Physical, Social/Cultural: parochial altruism/in-group bias,  interpersonal and identity e.g., race, gender, age, etc {#in-group}
 
 Consider:
 
@@ -45,6 +50,10 @@ There is some evidence for this in charitable contexts. In a laboratory experime
 <div class="marginnote">
  Ref: small2007_friends	small_loewenstein_07_scarecrow
 </div>
+
+## Evidence on determinants of scope of moral circle/moral expansiveness and its impact on giving and other-regarding behavior
+
+See: Crimston et al (year) and references cited within
 
 
 ## Availability heuristic and media (also see 'biases') {#availability}
@@ -128,7 +137,7 @@ When considering how we can reduce suffering through effective altruism, immedia
 
 > Since the future is big, there could be far more people in the future than in the present generation. This means that if you want to help people in general, your *key concern* shouldn't be to help the present generation, but to ensure that the future goes well in the long-term... This thesis is often confused with the claim that we shouldn't *do* anything to help people in the present generation. But the long-term value thesis is about what most *matters* - what should *do* about it is a further question. It might turn out that the best way to help those in the future is to improve the lives of people in the present, such as through providing health and education. The difference is that the major *reason* to help those in the present is to improve the long-term"
 
-This consideration of future people and future problems includes well-known issues such as climate change. It also includes less-discussed) lower-probability or more distant events such as nuclear war, bioterrorism and AI related issues [@macaskillDoingGoodBetter2015]. Individuals such as @ord2020precipice and institutions like the [Future of Humanity Institute](https://www.fhi.ox.ac.uk) have argued that these problems are important and neglected. 
+This consideration of future people and future problems includes well-known issues such as climate change. It also includes less-discussed) lower-probability or more distant events such as nuclear war, bioterrorism and AI related issues [@macaskillDoingGoodBetter2015]. Individuals such as @ord2020precipice and institutions like the [Future of Humanity Institute](https://www.fhi.ox.ac.uk) have argued that these problems are important and neglected.
 
 However, even motivating 'giving for current issues' [presents many challenges](#present-puzzle); encouraging giving for (e.g.) 'individuals who are yet to be' born could prove even more difficult.
 
@@ -200,7 +209,7 @@ This is not the same as discounting future utility or welfare. There's no clear 
 
 ### Reasons the distant future may be neglected {-}
 
-Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020  outlines a few reasons why the distant future may receive less attention and action. 
+Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020  outlines a few reasons why the distant future may receive less attention and action.
 
 <div class="marginnote">
 Stefan Schubert also discusses the psychology of long-termism and existential risk [here](https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-existential-risk/)
@@ -208,9 +217,9 @@ Stefan Schubert also discusses the psychology of long-termism and existential ri
 
 He argues:
 
-1. Present issues are likely more salient than future issues, and because these issues are more salient, they will be discussed more. 
+1. Present issues are likely more salient than future issues, and because these issues are more salient, they will be discussed more.
 
-2. Uncertainty is likely an important factor. Even if you are concerned with future well-being, if it is unclear how you can impact the distant future, you may be more likely to focus on other issues. 
+2. Uncertainty is likely an important factor. Even if you are concerned with future well-being, if it is unclear how you can impact the distant future, you may be more likely to focus on other issues.
 
 3. Lack-of-polarisation: “When there is no political conflict, a question might get less discussed, even if it’s seen as morally important”.
 
@@ -220,7 +229,7 @@ The other barriers in this section also link to a potential lack of future-focus
 
 We also discussed the [identifiable victim effect](#statvictim). It could be significantly harder to create a story around a single victim if victims affected by that issue do not yet exist. Victims of the distant future may have to be statistical victims only, potentially eliciting less sympathy and consequently less donations. Charities that focus on the distant future may also have issues demonstrating evidence of their impact to donors, which can help to encourage donations (Karlan and Wood, 2017). However, the influence of demonstrating impact is mixed, as we further discuss[here](#eval-aversion).
 
-<!-- #TODO -- recover ref (Karlan and Wood, 2017) --> 
+<!-- #TODO -- recover ref (Karlan and Wood, 2017) -->
 
 \
 
@@ -228,7 +237,7 @@ The impact of people being categorised into [in-groups and out-groups](#in-group
 
 > Social identity has three major components: categorization, identification and comparison. Categorization is the process of putting people, including ourselves, into categories; for example, labelling a person as Chinese, black, female, or a lawyer are all different ways of categorization. Categorization also defines our self-image. Identification is the process by which we associate or identify ourselves with certain groups. We identify with in-groups, and we do not identify with out-groups. Finally, comparison is the process by which we compare in-groups with out-groups, creating a favourable bias toward the in-group. Overall, categorization of others as belonging to an in-group arouses feelings of greater closeness and responsibility and augments emotional response to their misfortune through greater sympathy (@brewer1996we, @dovidio1997nature) and willingness to help (@dovidio1984helping, @dovidio1997nature).
 
-Distant-future generations might be mentally placed in their own category (considered separated from near-future and present generations). This categorical distance could mean that people identify with distant-future generations less. If they *are* seen as an out-group, this could pose a barrier for giving to distant future generations. 
+Distant-future generations might be mentally placed in their own category (considered separated from near-future and present generations). This categorical distance could mean that people identify with distant-future generations less. If they *are* seen as an out-group, this could pose a barrier for giving to distant future generations.
 
 <div class="marginnote">
 Whether those in the future are indeed commonly percieved or treated as an out-group may be an interesting research direction. This is  something we need to look into more for this present survey.
@@ -239,3 +248,5 @@ Whether those in the future are indeed commonly percieved or treated as an out-g
 - **What is the evidence ** that they are actually doing this (taking into account the 'uncertainty' issue (we know less about how to help the far-future).
 
 - What factors drive this bias or mitigate it?
+
+

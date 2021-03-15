@@ -1,4 +1,4 @@
-# [Tools for motivating EA giving]{#tools}
+#  Tools for motivating EA giving {#tools}
 
 ## Introduction
 
@@ -18,7 +18,7 @@ We divide this into three categories:
 Also see [here](https://www.effectivealtruism.org/articles/spencer-greenberg-effective-behavior-change/) for an article/talk on effective behaviour change by Spencer Greenberg
 </div>
 
-## Psych/behavioral tools; applicability to EA charities 
+## Psych/behavioral tools; applicability to EA charities
 
 Do the standard collection of psych/behavioral tools work for EA charities, or can they be made to do so? Does EA have any 'superpowers' for any of these? E.g., presenting identifiable victim. Emotional stimuli. Gift exchange, etc.
 
@@ -29,11 +29,11 @@ Do the standard collection of psych/behavioral tools work for EA charities, or c
 
 ## Innovative proposals
 
-## EA-movement approaches, sucesses and pitfalls 
+## EA-movement approaches, sucesses and pitfalls
 
-What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too 'purist' (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)? 
+What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too 'purist' (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)?
 
-## A listing 
+## A listing
 
 ### Make impact more comparable by allowing joint evaluation (Evaluation mode) {-}
 
@@ -43,8 +43,8 @@ Theory: Evaluability bias
 
 Cite: [@Caviola2014; @kogut2005singularity; @kogutIdentifiedVictimEffect2005]
 
-### (Info enhancing) social closeness of recipient 
+### (Info enhancing) social closeness of recipient
 
-Percentage donations tied to purchases, especially in online auctions 
+Percentage donations tied to purchases, especially in online auctions
 
-Psychometrics and targeting people likely to be responsive 
+Psychometrics and targeting people likely to be responsive
