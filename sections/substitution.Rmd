@@ -45,11 +45,11 @@ Previous models from Economics typically consider an individual maximizing her u
 
 -   "Public goods": the total amount of 'charity as a public good' provided, no matter who provides it (sometimes referred to as 'pure altruism'),
 
--  "Warm glow": the amount the donor herself has sacrificed (in some depictions, *even if it does no good at all, or completely crowds out others' donations!* (\@andreoniImpureAltruismDonations1990, as interpreted by\@toninDisentanglingSourcesProsocially2010 and others),
+-  "Warm glow": the amount the donor herself has sacrificed (in some depictions, *even if it does no good at all, or completely crowds out others' donations!* \@andreoniImpureAltruismDonations1990, as interpreted by@toninDisentanglingSourcesProsocially2010 and others),
 
--   the "Impact" a donor's donation has on outcomes [@duncan2004] (*not* taking into account the effect of her donation on other donors) or particular identified beneficiaries, [@atkinson2009] and
+-   the "Impact" a donor's donation has on outcomes [@duncanTheoryImpactPhilanthropy2004] (*not* taking into account the effect of her donation on other donors) or particular identified beneficiaries, [@atkinsonGivingOverseasPublic2009] and
 
--  the donor's prestige [@harbaugh1998].
+-  the donor's prestige [@harbaughWhatDonationsBuy1998].
 
 
 *Note* (\*)

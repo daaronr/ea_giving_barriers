@@ -1,6 +1,8 @@
-fig:unnamed-chunk-18
-tab:unnamed-chunk-66
-fig:unnamed-chunk-73
+fig:unnamed-chunk-19
+tab:unnamed-chunk-67
+fig:unnamed-chunk-74
+present-links
+why-understand-reactions
 outline
 overview
 structure-barriers
@@ -29,6 +31,7 @@ description-and-relevance-to-effective-giving
 theoretical-and-conceptual-underpinning
 in-group
 distance-experiential-informational-emotionalaffective
+evidence-on-determinants-of-scope-of-moral-circlemoral-expansiveness-and-its-impact-on-giving-and-other-regarding-behavior
 availability
 reference-dependence
 future
@@ -97,9 +100,9 @@ inertia
 social-norms
 subjectivity-in-the-charitable-domain--
 consider-inertia-and-obstacles-to-charities-collecting-evaluating-and-sharing-impact-information
-tools-for-motivating-ea-giving
+tools
 introduction
-psychbehavioral-tools-applicability-to-ea-charities
+psychologicalbehavioral-tools-applicability-to-ea-charities
 de-biasing-and-misperception-correction
 innovative-proposals
 ea-movement-approaches-sucesses-and-pitfalls

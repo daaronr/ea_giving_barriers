@@ -1,7 +1,7 @@
-
 # Introduction and outline {#outline}
 
 <center>
+
 **Increasing effective charitable giving: The puzzle, what we know, what we need to know next**
 
 </center>
@@ -14,48 +14,56 @@
 
 ## Overview
 
-**Section \@ref(present-puzzle): [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle)**
+**Section** \@ref(present-puzzle)**: [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle)** \*
+
+::: {.marginnote}
+\* Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
+:::
+
+<!-- -->
+
+-   [Motivation and descriptives](#motivate-puzzle)
+
+-   [Definitions - "Efficiency" versus impact](#impact-definitions)\*\*
+
+    ::: {.marginnote}
+    \*\* Relevant to charity 'quality ratings', overhead aversion
+    :::
+
+    <!-- -->
+
+-   [Why (under which models) is this a puzzle?](#why-puzzle)\*\*\* 
 
 <div class="marginnote">
-Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
+\*\*\*
+
+-   Do people *actually care about* impact? Does moral utilitarianism matter?
+
+-   Economics and psych models $\rightarrow$ puzzle?
+
+-   Models where people care about the impact of their gift or just 'amount sacrificed' (naive warm glow).
+
+-   Does impact map into the 'good feeling' from giving, can it do so?
+
 </div>
 
-
-- [Motivation and descriptives](#motivate-puzzle)
-
-- [Definitions - "Efficiency" versus impact](#impact-definitions)\*
-<div class="marginnote">
-\* Relevant to charity 'quality ratings', overhead aversion
-</div>
-
-- [Why (under what models) is this a puzzle?](#why-puzzle)\*\*
-
-<div class="marginnote">
-\*\*
-- Do people *actually care about* impact? Does moral utilitarianism matter?
--  Economics and psych models $\rightarrow$  puzzle?
-- Models where people care about the impact of their gift or just 'amount sacrificed' (naive warm glow).
-- Does impact map into the 'good feeling' from giving, can it do so?
-</div>
-
-- [Conceptual breakdown of 'barriers' (first presentation)](#barriers-concept)
-
-
+-   [Conceptual breakdown of 'barriers' (first presentation)](#barriers-concept)
 
 <!-- Economic and psych models conceptualizing this -->
 
 \
 
-**Section \@ref(substitution): [Are charities in competition? Is the ineffective giving reducing effective giving? Ask people to give to EA charity 'instead'?](#substitution)**
+**Section** \@ref(substitution)**: Are charities in competition? Is the ineffective giving reducing effective giving? Should we ask people to give to EA charity 'instead' of the charities they currently give to?**
 
 <!-- (Or put in section 2?) -->
 
-Are charitable gifts complements or substitutes; are charities are
-rivals? Does one donation request ask (or donation itself) crowd out another, and if so when and how much?   This is critical to understanding  the extent to which gains can be achieved by getting people to 'switch'  from less to more effective charities. To the extent this crowding-out is the case, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors' pressuring you to give to local organisations) themselves represent barriers to EA giving.
+Are charitable gifts complements or substitutes; are charities are rivals? Does one donation request ask (or donation itself) crowd out another, and if so when and how much? This is critical to understanding the extent to which gains can be achieved by getting people to 'switch' from less to more effective charities.
+
+To the extent this crowding-out is present, *all* factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors' pressuring you to give to local organisations) *themselves* represent barriers to EA giving.
 
 \
 
-**Section \@ref(#barriers-concept): [Explaining the puzzle: Barriers to EA giving and potential responses, evidence](##barriers-concept)**
+**Section** \@ref(barriers-concept)**: [Explaining the puzzle: Barriers to EA giving and potential responses, evidence](#barriers-concept)**
 
 <!-- moved old classification to barriers_old_classification.Rmd -->
 
@@ -63,51 +71,38 @@ Here we also give a general ['conceptual' overview of these barriers](#barriers-
 
 \
 
+**Barriers** chapters:
 
-**Section \@ref(aware-distance): [Barriers: Awareness, consideration, and distance](#aware-distance)**
-
-Whether a cause/charity is something people are aware of, feel is important/salient, and feel close to.
-
-<div class="marginnote">
-Responses?:  (Information enhancing) the social closeness of a recipient/beneficiary.
-</div>
+- **Section** \@ref(aware-distance)**: [Barriers: Awareness, consideration, and distance](#aware-distance)**
 
 \
 
+- **Section** \@ref(identity)**: [Barriers: Identity and cognitive dissonance](#identity)**
 
-**Section \@ref(identity): [Barriers: Identity and cognitive dissonance](#identity)**
 
 <!-- Volunteer experience unlocks emotion and giving -->
 
 \
 
-**Section \@ref(social): [Barriers: Signaling and social pressures/social identity](#social)**
+- **Section** \@ref(social)**: [Barriers: Signaling and social pressures/social identity](#social)**
 
-Includes, e.g.,
 
-- social perceptions and 'signaling empathy vs effectiveness' ([@caviola2020many])
+- **Section** \@ref(eval-aversion)**: [Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
 
-- difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness' @burumEvolutionaryExplanationIneffective2020
+- **Section** \@ref(factual)**: [Barriers: Persistent and systematic incorrect empirical beliefs](#factual)**
 
+- **Section** \@ref(quant-biases)**: [Barriers: Quantitative biases](#quant-biases)**
+
+- **Section** \@ref(inertia)**: [Barriers: Inertia and systemic/institutional](#inertia)**
 \
 
-**Section \@ref(eval-aversion): [Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
+**Section** \@ref(tools)**: [Tools for motivating EA giving](#tools)**
 
-**Section  \@ref(factual): [Barriers: Persistent and systematic incorrect empirical beliefs](#factual)**
-
-
-**Section \@ref(quant-biases): [Barriers: Quantitative biases](#quant-biases)**
-
-**Section \@ref(inertia): [Barriers: Inertia and systemic/institutional](#inertia)**
-
-**Section \@ref(tools): [Tools for motivating EA giving](#tools)**
-
-**Section \@ref(conclusion-agenda): [Conclusion; a research agenda](#conclusion-agenda)**
-
+**Section** \@ref(conclusion-agenda)**: [Conclusion; a research agenda](#conclusion-agenda)**
 
 ## Structure of each 'barriers' section {#structure-barriers}
 
-**In each section we consider:**
+**In each 'barriers' section we consider:**
 
 **A category of barriers**; this is a first-level heading, e.g. '[Quantitative biases](#quant-biases)' is section \@ref(quant-biases).
 
@@ -120,9 +115,9 @@ Here we discuss this category in general, explaining its meaning and plausibilit
 
 For each specific barrier we first present (third-level headings):
 
-- **Definition** of the barrier
-- **Conceptual explanation of the barrier**, relating this to theory and generalized observation
-- **Relevance to the effective giving** (sometimes recapping what was stated above)
+-   **Definition** of the barrier
+-   **Conceptual explanation of the barrier**, relating this to theory and generalized observation
+-   **Relevance to the effective giving** (sometimes recapping what was stated above)
 
 \
 Next we consider the **Evidence**, with a third-level header preamble discussing the nature of the evidence.
@@ -133,25 +128,23 @@ Within this, we consider the **evidence for each specific empirical claim** supp
 
 In considering the evidence for these claims, we generally consider one paper or project at a time (or a specific piece of independent evidence from this paper).\*
 
-<div class="marginnote">
+::: {.marginnote}
 However, we are still thinking about the best narrative approach to presenting evidence from multiple papers/projects/analyses.
-</div>
+:::
 
 ### Consideration of each paper {#paper-structure}
 
 For each paper we focus on key elements, including:
 
-- **Method** (lab experiment involving real charitable asks, natural field experiment with charity partner, observational analysis asserting causality via a regression discontinuity approach, etc.)
+-   **Method** (lab experiment involving real charitable asks, natural field experiment with charity partner, observational analysis asserting causality via a regression discontinuity approach, etc.)
 
-- The **context** and data (the population of donors or lab participants, the charity(s) involved, etc.)
+-   The **context** and data (the population of donors or lab participants, the charity(s) involved, etc.)
 
-- The **nature of the 'treatment'** or independent variable (e.g., realistic information presented about impact per dollar)
+-   The **nature of the 'treatment'** or independent variable (e.g., realistic information presented about impact per dollar)
 
-- The **strength and credibility of the empirical results** (considering, e.g., limitations and confounds in the design, experimenter-demand effects, estimates' statistical strength and power, appropriateness of the statistical analysis, preregistration, signs of specification-fishing and multiple-testing without corrections, replications and citations, etc.)
+-   The **strength and credibility of the empirical results** (considering, e.g., limitations and confounds in the design, experimenter-demand effects, estimates' statistical strength and power, appropriateness of the statistical analysis, preregistration, signs of specification-fishing and multiple-testing without corrections, replications and citations, etc.)
 
-We (should) also link where to find the paper itself as well as the materials and the data collected.
-\
-
+We (should) also link where to find the paper itself as well as the materials and the data collected.\
 
 ```{block2,  type='note'}
 For example, within the category **[Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity](#eval-aversion)** ...
@@ -161,7 +154,7 @@ we consider the barrier ["General cost-benefit analysis (CBA)-aversion or reluct
 weighing evidence  specific claims such as ["People sometimes actively avoid information about charity effectiveness that would motivate doing a CBA..."](-#avoid_info_CBA)...
 
 
-                                                                                                                                                      coming from research papers/studies such as  @fongTruthGivingExperimental2010.
+coming from research papers/studies such as  @fongTruthGivingExperimental2010.
 
 ```
 
@@ -169,36 +162,39 @@ weighing evidence  specific claims such as ["People sometimes actively avoid inf
 
 **These classifications of barriers** are organised, outlined, and defined in our Airtable; see the view below.
 
+<iframe class="airtable-embed" src="https://airtable.com/embed/shr7Hs75V0k24wtI9?backgroundColor=purple&amp;viewControls=on" frameborder="0" onmousewheel width="100%" height="330" style="background: transparent; border: 1px solid #ccc;">
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shr7Hs75V0k24wtI9?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="330" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</iframe>
 
 \
 
 **The barriers themselves** are organised as well, see the view below:
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrUbA0AdoQNymoCU?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="330" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrUbA0AdoQNymoCU?backgroundColor=purple&amp;viewControls=on" frameborder="0" onmousewheel width="100%" height="330" style="background: transparent; border: 1px solid #ccc;">
 
+</iframe>
 
 \
 
 **To suggest a new barrier,** or a modification of an existing proposed barrier, please fill out the form below [and linked here](https://airtable.com/embed/shr1i7JKagMxTIXR8?backgroundColor=purple) (or contact us otherwise, including via a hypothes.is comment):
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shr1i7JKagMxTIXR8?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="330" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shr1i7JKagMxTIXR8?backgroundColor=purple" frameborder="0" onmousewheel width="100%" height="330" style="background: transparent; border: 1px solid #ccc;">
+
+</iframe>
 
 \
 
-**Did we leave out a paper or a source of evidence?**  Please fill out the form below or [click the link HERE](https://airtable.com/embed/shr0fMY4izZX6Z0Hz?backgroundColor=purple) (or contact us otherwise, including via a hypothes.is comment):
+**Did we leave out a paper or a source of evidence?** Please fill out the form below or [click the link HERE](https://airtable.com/embed/shr0fMY4izZX6Z0Hz?backgroundColor=purple) (or contact us otherwise, including via a hypothes.is comment):
 
 \
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shr0fMY4izZX6Z0Hz?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="400" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shr0fMY4izZX6Z0Hz?backgroundColor=purple" frameborder="0" onmousewheel width="100%" height="400" style="background: transparent; border: 1px solid #ccc;">
 
+</iframe>
 
 **All contributions will be credited and engaged with.**
 
 \
-
-
 
 ## Other practical considerations
 
@@ -206,21 +202,26 @@ Consider on potential integration with (no-longer-maintained) PriorityWiki/Rethi
 
 How have EA orgs been brought together ...especially at universities?
 
-- [Effective thesis project](https://effectivethesis.org/project/)
+-   [Effective thesis project](https://effectivethesis.org/project/)
 
-- [EA hub](https://eahub.org/)
+-   [EA hub](https://eahub.org/)
 
-- [Facebook group](https://www.facebook.com/groups/effective.altruists/)
+-   [Facebook group](https://www.facebook.com/groups/effective.altruists/)
 
 <html>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
+
+```{=html}
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148137970-4"></script>
+```
+```{=html}
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  gtag('js', new Date());  
 
   gtag('config', 'UA-148137970-4');
 </script>
+```
 </html>
-

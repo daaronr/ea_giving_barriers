@@ -40,9 +40,9 @@ bibliography: "`r rbbt::bbt_write_bib('support/references.bib', overwrite = TRUE
 biblio-style: apalike
 link-citations: yes
 github-repo: daaronr/ea_giving_barriers
-description: "A broad project"
+description: "A broad project of  definition, discussion synthesis, and meta-analysis"
 #url: 'https\://daaronr.github.io//'
-tags: [Effective altruism, charitable giving, meta-analysis, literature survey, field experiments, lab experiments, experimental design, Psychology, Economics]
+tags: [Effective altruism, charitable giving, meta-analysis, literature survey, field experiments, lab experiments, experimental design, Psychology, Economics, moral circles, behavioral economics, quantitative biases]
 ---
 
 
@@ -69,7 +69,6 @@ try_download <- function(url, path) {
     file.rename(new_path, path)
   )
 }
-
 
 
 #... Import packages for this project using template from dr-rstuff  ####
@@ -139,6 +138,10 @@ Can define text blocks here, refer to them again and again if desired
 Present or link an extended abstract here.
 </div>
 
+*[David Reinstein, link to CV](https://daaronr.github.io/markdown-cv/)*
+
+\
+
 
 While hundreds of billions of dollars are donated to charity each year, the effectiveness of these charities differ by orders of magnitude, even within similar categories. Furthermore, many individuals do not donate substantially even though they believe that the cost of saving a life is small.\* <!--
 
@@ -152,7 +155,12 @@ This raises two related questions:
 
 **2. “Why are we not more efficient with our giving choices?”**
 
-To address this, we must understand what drives giving choices, and perhaps, how people react to the presentation of charity-effectiveness information.
+To address this, we must understand what drives giving choices, and perhaps, how people react to the presentation of charity-effectiveness information.\*\*
+
+<div class="marginnote">
+Do we need to understand "how people react to the presentation of charity-effectiveness information"? See discussion in [fold below](#why-understand-reactions).
+</div>
+ 
 
 Our collaborative and dynamic synthesis considers this ‘puzzle’. We outline and categorize potential barriers to effective giving and assess the evidence for each barrier. This directly informs “how to motivate effective giving”. It also offers insights into the drivers of ‘concern for’ and ‘willingness to act’ to address the most neglected, tractable, and consequential global and humanitarian priorities.
 
@@ -200,6 +208,8 @@ Hunger, homelessness, mental and physical illness, environmental degradation, th
 
 Academics (in Economics, Psychology, Biology, and Philosophy) have applied a range of theories to explain what drives "inefficient altruism." Evidence comes from a variety of studies, involving surveys, observational work, laboratory experiments, and, where feasible, natural field experiments. These have not been run as part of a systematic project addressing this issue; goals, contexts, and approaches have varied as opportunities presented. Given the disparate findings, we do not have a definitive picture of which factors impact effective giving.
 
+## Some links to presentations {#present-links}
+
 - [Introduction to the project: audio+slides](https://www.dropbox.com/s/i59imgi6tqmouj8/barriers_to_EA_overview_Screen%20Recording%202019-09-12%20at%2014.52.15.mov?dl=0)\*
 
 <div class="marginnote">
@@ -209,6 +219,46 @@ Academics (in Economics, Psychology, Biology, and Philosophy) have applied a ran
 - ['Revealjs' html slides of this project and associated field experiments: press 'o' to navigate](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/)  
  
 
+## Discussions {#why-understand-reactions}
+
+For 'Effective Altruists' ...  (Why) do we care 'how people react to the presentation of charity-effectiveness information' from a practical point of view? (unfold discussion) 
+
+```{block2,  type='fold'}
+
+
+*Jason Schukraft:*
+
+> Maybe. I suppose it depends on our goals. Do we want people to give to top charities for the right reason (i.e., because those charities are effective) or do we just want people to give to top charities, simpliciter? If the latter, then maybe it doesn't matter how people react to effectiveness information; we should just go with whatever marketing strategy maximizes donations.
+
+
+\
+
+*David Reinstein:* 
+
+> Imho only the latter matters. Your argument makes sense but a typical marketing tool we find could equally be used by any charity. If we are ever to get people to systematically prioritise the effective charities, we need to a strategy that is tied to the effectiveness of the charities; the competitive advantage of the effective charities. The standard business argument is that 'to get people to buy a product based on characteristic A, we need to advertise characteristic A'.
+
+\
+
+*Michael Aird: *
+
+> I think another point similar to David's is: If we use means other than cost-effectiveness information in order to get people to give to the charities we think are most cost-effective, then this positive outcome is "brittle" in a few ways:
+
+> We might be wrong about relative cost-effectiveness (in fact, we almost certainly are to at least some extent). If we were focusing on cost-effectiveness, that probably increases the chance that someone else realises we're wrong and then makes a decision more in line with our principles than the specific decision we'd recommend, and/or gives us useful feedback.
+
+> Which charities are (believed to be) most cost-effective will probably change over time. We'd like our old arguments to help people update, without us needing a new campaign that pushes a different angle (maybe moving from making malaria sound scary to making fish seem cute, or whatever).
+
+> If we don't focus on our actual reasons for our beliefs, those alternative reasons might happen to push in favour of some charities that aren't actually great. E.g., some other charity that's superficially similar to AMF, but less well-run or focusing on a country where marginal improvements cost more.
+
+> (But I do think that, even given that, it'll probably sometimes be best to promote charities in ways that don't emphasise things strongly relevant to their cost-effectiveness.)
+
+This also feels reminiscent of two posts:
+
+[CEA - the-fidelity-model-of-spreading-idea](https://www.centreforeffectivealtruism.org/blog/the-fidelity-model-of-spreading-ideas/)
+
+[SlateStarCodex: guided-by-the-beauty-of-our-weapons](https://slatestarcodex.com/2017/03/24/guided-by-the-beauty-of-our-weapons/)
+
+
+```
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

@@ -4,27 +4,27 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>4 Barriers: Awareness, consideration, and distance | Increasing effective charitable giving: The puzzle, what we know, what we need to know next</title>
-  <meta name="description" content="A broad project" />
+  <title>5 Barriers: Awareness, consideration, and distance | Increasing effective charitable giving: The puzzle, what we know, what we need to know next</title>
+  <meta name="description" content="A broad project of definition, discussion synthesis, and meta-analysis" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="4 Barriers: Awareness, consideration, and distance | Increasing effective charitable giving: The puzzle, what we know, what we need to know next" />
+  <meta property="og:title" content="5 Barriers: Awareness, consideration, and distance | Increasing effective charitable giving: The puzzle, what we know, what we need to know next" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="A broad project" />
+  <meta property="og:description" content="A broad project of definition, discussion synthesis, and meta-analysis" />
   <meta name="github-repo" content="daaronr/ea_giving_barriers" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="4 Barriers: Awareness, consideration, and distance | Increasing effective charitable giving: The puzzle, what we know, what we need to know next" />
+  <meta name="twitter:title" content="5 Barriers: Awareness, consideration, and distance | Increasing effective charitable giving: The puzzle, what we know, what we need to know next" />
   
-  <meta name="twitter:description" content="A broad project" />
+  <meta name="twitter:description" content="A broad project of definition, discussion synthesis, and meta-analysis" />
   
 
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and more" />
 
 
-<meta name="date" content="2021-02-20" />
+<meta name="date" content="2021-04-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,7 +51,6 @@
 
 
 
-<script src="book_assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- font families -->
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
@@ -90,7 +89,7 @@ $(document).ready(function() {
 });
 </script>
 
-
+<!--
 <script type="text/javascript">
 
 // toggle visibility of R source blocks in R Markdown output
@@ -114,7 +113,7 @@ function toggle_R() {
 
 document.write('<input onclick="toggle_R();" type="button" value="Hide Global" id="myButton1" style="position: absolute; top: 10%; right: 2%; z-index: 200"></input>')
 
-</script>
+</script> -->
 
 <!-- Global site tag (gtag.js) - Google Analytics
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148137970-3"></script>
@@ -127,11 +126,562 @@ document.write('<input onclick="toggle_R();" type="button" value="Hide Global" i
 </script>
 -->
 
+<!-- FOLDING TEXT BOXES -->
+
+<script>
+/* ========================================================================
+ * Bootstrap: transition.js v3.3.7
+ * http://getbootstrap.com/javascript/#transitions
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+
++function ($) {
+  'use strict';
+
+  // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
+  // ============================================================
+
+  function transitionEnd() {
+    var el = document.createElement('bootstrap')
+
+    var transEndEventNames = {
+      WebkitTransition : 'webkitTransitionEnd',
+      MozTransition    : 'transitionend',
+      OTransition      : 'oTransitionEnd otransitionend',
+      transition       : 'transitionend'
+    }
+
+    for (var name in transEndEventNames) {
+      if (el.style[name] !== undefined) {
+        return { end: transEndEventNames[name] }
+      }
+    }
+
+    return false // explicit for ie8 (  ._.)
+  }
+
+  // http://blog.alexmaccaw.com/css-transitions
+  $.fn.emulateTransitionEnd = function (duration) {
+    var called = false
+    var $el = this
+    $(this).one('bsTransitionEnd', function () { called = true })
+    var callback = function () { if (!called) $($el).trigger($.support.transition.end) }
+    setTimeout(callback, duration)
+    return this
+  }
+
+  $(function () {
+    $.support.transition = transitionEnd()
+
+    if (!$.support.transition) return
+
+    $.event.special.bsTransitionEnd = {
+      bindType: $.support.transition.end,
+      delegateType: $.support.transition.end,
+      handle: function (e) {
+        if ($(e.target).is(this)) return e.handleObj.handler.apply(this, arguments)
+      }
+    }
+  })
+
+}(jQuery);
+</script>
+<script>
+/* ========================================================================
+ * Bootstrap: collapse.js v3.3.7
+ * http://getbootstrap.com/javascript/#collapse
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+/* jshint latedef: false */
+
++function ($) {
+  'use strict';
+
+  // COLLAPSE PUBLIC CLASS DEFINITION
+  // ================================
+
+  var Collapse = function (element, options) {
+    this.$element      = $(element)
+    this.options       = $.extend({}, Collapse.DEFAULTS, options)
+    this.$trigger      = $('[data-toggle="collapse"][href="#' + element.id + '"],' +
+                           '[data-toggle="collapse"][data-target="#' + element.id + '"]')
+    this.transitioning = null
+
+    if (this.options.parent) {
+      this.$parent = this.getParent()
+    } else {
+      this.addAriaAndCollapsedClass(this.$element, this.$trigger)
+    }
+
+    if (this.options.toggle) this.toggle()
+  }
+
+  Collapse.VERSION  = '3.3.7'
+
+  Collapse.TRANSITION_DURATION = 350
+
+  Collapse.DEFAULTS = {
+    toggle: true
+  }
+
+  Collapse.prototype.dimension = function () {
+    var hasWidth = this.$element.hasClass('width')
+    return hasWidth ? 'width' : 'height'
+  }
+
+  Collapse.prototype.show = function () {
+    if (this.transitioning || this.$element.hasClass('in')) return
+
+    var activesData
+    var actives = this.$parent && this.$parent.children('.panel').children('.in, .collapsing')
+
+    if (actives && actives.length) {
+      activesData = actives.data('bs.collapse')
+      if (activesData && activesData.transitioning) return
+    }
+
+    var startEvent = $.Event('show.bs.collapse')
+    this.$element.trigger(startEvent)
+    if (startEvent.isDefaultPrevented()) return
+
+    if (actives && actives.length) {
+      Plugin.call(actives, 'hide')
+      activesData || actives.data('bs.collapse', null)
+    }
+
+    var dimension = this.dimension()
+
+    this.$element
+      .removeClass('collapse')
+      .addClass('collapsing')[dimension](0)
+      .attr('aria-expanded', true)
+
+    this.$trigger
+      .removeClass('collapsed')
+      .attr('aria-expanded', true)
+
+    this.transitioning = 1
+
+    var complete = function () {
+      this.$element
+        .removeClass('collapsing')
+        .addClass('collapse in')[dimension]('')
+      this.transitioning = 0
+      this.$element
+        .trigger('shown.bs.collapse')
+    }
+
+    if (!$.support.transition) return complete.call(this)
+
+    var scrollSize = $.camelCase(['scroll', dimension].join('-'))
+
+    this.$element
+      .one('bsTransitionEnd', $.proxy(complete, this))
+      .emulateTransitionEnd(Collapse.TRANSITION_DURATION)[dimension](this.$element[0][scrollSize])
+  }
+
+  Collapse.prototype.hide = function () {
+    if (this.transitioning || !this.$element.hasClass('in')) return
+
+    var startEvent = $.Event('hide.bs.collapse')
+    this.$element.trigger(startEvent)
+    if (startEvent.isDefaultPrevented()) return
+
+    var dimension = this.dimension()
+
+    this.$element[dimension](this.$element[dimension]())[0].offsetHeight
+
+    this.$element
+      .addClass('collapsing')
+      .removeClass('collapse in')
+      .attr('aria-expanded', false)
+
+    this.$trigger
+      .addClass('collapsed')
+      .attr('aria-expanded', false)
+
+    this.transitioning = 1
+
+    var complete = function () {
+      this.transitioning = 0
+      this.$element
+        .removeClass('collapsing')
+        .addClass('collapse')
+        .trigger('hidden.bs.collapse')
+    }
+
+    if (!$.support.transition) return complete.call(this)
+
+    this.$element
+      [dimension](0)
+      .one('bsTransitionEnd', $.proxy(complete, this))
+      .emulateTransitionEnd(Collapse.TRANSITION_DURATION)
+  }
+
+  Collapse.prototype.toggle = function () {
+    this[this.$element.hasClass('in') ? 'hide' : 'show']()
+  }
+
+  Collapse.prototype.getParent = function () {
+    return $(this.options.parent)
+      .find('[data-toggle="collapse"][data-parent="' + this.options.parent + '"]')
+      .each($.proxy(function (i, element) {
+        var $element = $(element)
+        this.addAriaAndCollapsedClass(getTargetFromTrigger($element), $element)
+      }, this))
+      .end()
+  }
+
+  Collapse.prototype.addAriaAndCollapsedClass = function ($element, $trigger) {
+    var isOpen = $element.hasClass('in')
+
+    $element.attr('aria-expanded', isOpen)
+    $trigger
+      .toggleClass('collapsed', !isOpen)
+      .attr('aria-expanded', isOpen)
+  }
+
+  function getTargetFromTrigger($trigger) {
+    var href
+    var target = $trigger.attr('data-target')
+      || (href = $trigger.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '') // strip for ie7
+
+    return $(target)
+  }
+
+
+  // COLLAPSE PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this   = $(this)
+      var data    = $this.data('bs.collapse')
+      var options = $.extend({}, Collapse.DEFAULTS, $this.data(), typeof option == 'object' && option)
+
+      if (!data && options.toggle && /show|hide/.test(option)) options.toggle = false
+      if (!data) $this.data('bs.collapse', (data = new Collapse(this, options)))
+      if (typeof option == 'string') data[option]()
+    })
+  }
+
+  var old = $.fn.collapse
+
+  $.fn.collapse             = Plugin
+  $.fn.collapse.Constructor = Collapse
+
+
+  // COLLAPSE NO CONFLICT
+  // ====================
+
+  $.fn.collapse.noConflict = function () {
+    $.fn.collapse = old
+    return this
+  }
+
+
+  // COLLAPSE DATA-API
+  // =================
+
+  $(document).on('click.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) {
+    var $this   = $(this)
+
+    if (!$this.attr('data-target')) e.preventDefault()
+
+    var $target = getTargetFromTrigger($this)
+    var data    = $target.data('bs.collapse')
+    var option  = data ? 'toggle' : $this.data()
+
+    Plugin.call($target, option)
+  })
+
+}(jQuery);
+</script>
+<script>
+window.initializeCodeFolding = function(show) {
+
+  // handlers for show-all and hide all
+  $("#rmd-show-all-code").click(function() {
+    $('div.r-code-collapse').each(function() {
+      $(this).collapse('show');
+    });
+  });
+  $("#rmd-hide-all-code").click(function() {
+    $('div.r-code-collapse').each(function() {
+      $(this).collapse('hide');
+    });
+  });
+
+  // index for unique code element ids
+  var currentIndex = 1;
+
+  // select all R code blocks
+  var rCodeBlocks = $('pre.sourceCode, pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan, pre.js');
+  rCodeBlocks.each(function() {
+
+    // create a collapsable div to wrap the code in
+    var div = $('<div class="collapse r-code-collapse"></div>');
+    if (show)
+      div.addClass('in');
+    var id = 'rcode-643E0F36' + currentIndex++;
+    div.attr('id', id);
+    $(this).before(div);
+    $(this).detach().appendTo(div);
+
+    // add a show code button right above
+    var showCodeText = $('<span>' + (show ? 'Hide' : 'Code') + '</span>');
+    var showCodeButton = $('<button type="button" class="btn btn-default btn-xs code-folding-btn pull-right"></button>');
+    showCodeButton.append(showCodeText);
+    showCodeButton
+        .attr('data-toggle', 'collapse')
+        .attr('data-target', '#' + id)
+        .attr('aria-expanded', show)
+        .attr('aria-controls', id);
+
+    var buttonRow = $('<div class="row"></div>');
+    var buttonCol = $('<div class="col-md-12"></div>');
+
+    buttonCol.append(showCodeButton);
+    buttonRow.append(buttonCol);
+
+    div.before(buttonRow);
+
+    // update state of button on show/hide
+    div.on('hidden.bs.collapse', function () {
+      showCodeText.text('Code');
+    });
+    div.on('show.bs.collapse', function () {
+      showCodeText.text('Hide');
+    });
+  });
+
+}
+</script>
+<script>
+/* ========================================================================
+ * Bootstrap: dropdown.js v3.3.7
+ * http://getbootstrap.com/javascript/#dropdowns
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+
++function ($) {
+  'use strict';
+
+  // DROPDOWN CLASS DEFINITION
+  // =========================
+
+  var backdrop = '.dropdown-backdrop'
+  var toggle   = '[data-toggle="dropdown"]'
+  var Dropdown = function (element) {
+    $(element).on('click.bs.dropdown', this.toggle)
+  }
+
+  Dropdown.VERSION = '3.3.7'
+
+  function getParent($this) {
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && /#[A-Za-z]/.test(selector) && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    }
+
+    var $parent = selector && $(selector)
+
+    return $parent && $parent.length ? $parent : $this.parent()
+  }
+
+  function clearMenus(e) {
+    if (e && e.which === 3) return
+    $(backdrop).remove()
+    $(toggle).each(function () {
+      var $this         = $(this)
+      var $parent       = getParent($this)
+      var relatedTarget = { relatedTarget: this }
+
+      if (!$parent.hasClass('open')) return
+
+      if (e && e.type == 'click' && /input|textarea/i.test(e.target.tagName) && $.contains($parent[0], e.target)) return
+
+      $parent.trigger(e = $.Event('hide.bs.dropdown', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this.attr('aria-expanded', 'false')
+      $parent.removeClass('open').trigger($.Event('hidden.bs.dropdown', relatedTarget))
+    })
+  }
+
+  Dropdown.prototype.toggle = function (e) {
+    var $this = $(this)
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    clearMenus()
+
+    if (!isActive) {
+      if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
+        // if mobile we use a backdrop because click events don't delegate
+        $(document.createElement('div'))
+          .addClass('dropdown-backdrop')
+          .insertAfter($(this))
+          .on('click', clearMenus)
+      }
+
+      var relatedTarget = { relatedTarget: this }
+      $parent.trigger(e = $.Event('show.bs.dropdown', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this
+        .trigger('focus')
+        .attr('aria-expanded', 'true')
+
+      $parent
+        .toggleClass('open')
+        .trigger($.Event('shown.bs.dropdown', relatedTarget))
+    }
+
+    return false
+  }
+
+  Dropdown.prototype.keydown = function (e) {
+    if (!/(38|40|27|32)/.test(e.which) || /input|textarea/i.test(e.target.tagName)) return
+
+    var $this = $(this)
+
+    e.preventDefault()
+    e.stopPropagation()
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    if (!isActive && e.which != 27 || isActive && e.which == 27) {
+      if (e.which == 27) $parent.find(toggle).trigger('focus')
+      return $this.trigger('click')
+    }
+
+    var desc = ' li:not(.disabled):visible a'
+    var $items = $parent.find('.dropdown-menu' + desc)
+
+    if (!$items.length) return
+
+    var index = $items.index(e.target)
+
+    if (e.which == 38 && index > 0)                 index--         // up
+    if (e.which == 40 && index < $items.length - 1) index++         // down
+    if (!~index)                                    index = 0
+
+    $items.eq(index).trigger('focus')
+  }
+
+
+  // DROPDOWN PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.dropdown')
+
+      if (!data) $this.data('bs.dropdown', (data = new Dropdown(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  var old = $.fn.dropdown
+
+  $.fn.dropdown             = Plugin
+  $.fn.dropdown.Constructor = Dropdown
+
+
+  // DROPDOWN NO CONFLICT
+  // ====================
+
+  $.fn.dropdown.noConflict = function () {
+    $.fn.dropdown = old
+    return this
+  }
+
+
+  // APPLY TO STANDARD DROPDOWN ELEMENTS
+  // ===================================
+
+  $(document)
+    .on('click.bs.dropdown.data-api', clearMenus)
+    .on('click.bs.dropdown.data-api', '.dropdown form', function (e) { e.stopPropagation() })
+    .on('click.bs.dropdown.data-api', toggle, Dropdown.prototype.toggle)
+    .on('keydown.bs.dropdown.data-api', toggle, Dropdown.prototype.keydown)
+    .on('keydown.bs.dropdown.data-api', '.dropdown-menu', Dropdown.prototype.keydown)
+
+}(jQuery);
+</script>
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+.row { display: flex; }
+.collapse { display: none; }
+.in { display:block }
+.pull-right > .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+.open > .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+</style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("show" === "hide");
+});
+</script>
+
+
+<script>
+document.write('<div class="btn-group pull-right" style="position: absolute; top: 10%; right: 15%; z-index: 200"><button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-_extension-text-contrast=""><span>Code</span> <span class="caret"></span></button><ul class="dropdown-menu" style="min-width: 50px;"><li><a id="rmd-show-all-code" href="#">Show All Code</a></li><li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li></ul></div>')
+</script>
+
 
 <style type="text/css">
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -207,6 +757,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a>
 <ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#pop-abstract"><i class="fa fa-check"></i>Non-technical abstract (for mainstream audiences)</a></li>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#present-links"><i class="fa fa-check"></i><b>0.1</b> Some links to presentations</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#why-understand-reactions"><i class="fa fa-check"></i><b>0.2</b> Discussions</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="outline.html"><a href="outline.html"><i class="fa fa-check"></i><b>1</b> Introduction and outline</a>
 <ul>
@@ -230,201 +782,208 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="present-puzzle.html"><a href="present-puzzle.html#def-impact"><i class="fa fa-check"></i><b>2.3</b> Definitions - “Efficiency” versus impact</a></li>
 <li class="chapter" data-level="2.4" data-path="present-puzzle.html"><a href="present-puzzle.html#why-puzzle"><i class="fa fa-check"></i><b>2.4</b> Why (under which models) is this a puzzle?</a></li>
-<li class="chapter" data-level="2.5" data-path="present-puzzle.html"><a href="present-puzzle.html#barriers-concept"><i class="fa fa-check"></i><b>2.5</b> Conceptual breakdown of ‘barriers’ (first presentation)</a>
-<ul>
-<li class="chapter" data-level="2.5.1" data-path="present-puzzle.html"><a href="present-puzzle.html#avoiding-information-motivated-reasoning-in-processing-it"><i class="fa fa-check"></i><b>2.5.1</b> Avoiding information, motivated reasoning in processing it</a></li>
 </ul></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="substitution.html"><a href="substitution.html"><i class="fa fa-check"></i><b>3</b> Are charities in competition? Is the ineffective giving reducing effective giving?</a>
+<li class="chapter" data-level="3" data-path="barriers-concept.html"><a href="barriers-concept.html"><i class="fa fa-check"></i><b>3</b> Conceptual breakdown of ‘barriers’ (first presentation)</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="substitution.html"><a href="substitution.html#theoretical-framework-and-concerns"><i class="fa fa-check"></i><b>3.1</b> Theoretical framework and concerns</a>
+<li class="chapter" data-level="" data-path="barriers-concept.html"><a href="barriers-concept.html#are_we_util"><i class="fa fa-check"></i>Are people utilitarian?</a></li>
+<li class="chapter" data-level="" data-path="barriers-concept.html"><a href="barriers-concept.html#cog-failures"><i class="fa fa-check"></i>Judgement/cognition failures; Biases in perceiving impact and in making choices</a></li>
+<li class="chapter" data-level="" data-path="barriers-concept.html"><a href="barriers-concept.html#emotion-overrides-cognition"><i class="fa fa-check"></i>Emotion overrides cognition</a></li>
+<li class="chapter" data-level="3.1" data-path="barriers-concept.html"><a href="barriers-concept.html#avoiding-information-motivated-reasoning-in-processing-it"><i class="fa fa-check"></i><b>3.1</b> Avoiding information, motivated reasoning in processing it</a></li>
+<li><a href="barriers-concept.html#identity-and-signaling"><span>Identity and signaling</span></a></li>
+<li><a href="barriers-concept.html#barriers-awareness-consideration-and-distance-distance-physical-psychologicalemotional-social"><span>Barriers: Awareness, consideration, and distance distance (Physical, Psychological/Emotional, Social)</span></a></li>
+<li class="chapter" data-level="" data-path="barriers-concept.html"><a href="barriers-concept.html#barriers-strong-local-appeals-the-ask-social-obligations-to-give-locally-and-crowding-outmoral-licencing"><i class="fa fa-check"></i>Barriers: Strong local appeals (‘the ask’), social obligations to give locally (and ‘crowding out’/moral licencing)</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="substitution.html"><a href="substitution.html"><i class="fa fa-check"></i><b>4</b> Are charities in competition? Is the ineffective giving reducing effective giving?</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="substitution.html"><a href="substitution.html#theoretical-framework-and-concerns"><i class="fa fa-check"></i><b>4.1</b> Theoretical framework and concerns</a>
 <ul>
 <li class="chapter" data-level="" data-path="substitution.html"><a href="substitution.html#expend-subst"><i class="fa fa-check"></i>Expenditure substitution maths</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="substitution.html"><a href="substitution.html#previous-approaches-and-evidence"><i class="fa fa-check"></i><b>3.2</b> Previous approaches and evidence</a>
+<li class="chapter" data-level="4.2" data-path="substitution.html"><a href="substitution.html#previous-approaches-and-evidence"><i class="fa fa-check"></i><b>4.2</b> Previous approaches and evidence</a>
 <ul>
-<li class="chapter" data-level="3.2.1" data-path="substitution.html"><a href="substitution.html#observational-work"><i class="fa fa-check"></i><b>3.2.1</b> Observational work</a></li>
-<li class="chapter" data-level="3.2.2" data-path="substitution.html"><a href="substitution.html#simultaneousproximate-lab-experiments"><i class="fa fa-check"></i><b>3.2.2</b> Simultaneous/proximate ‘lab’ experiments</a></li>
-<li class="chapter" data-level="3.2.3" data-path="substitution.html"><a href="substitution.html#labframed-experiments-with-time-gaps"><i class="fa fa-check"></i><b>3.2.3</b> Lab/framed experiments with time gaps</a></li>
-<li class="chapter" data-level="3.2.4" data-path="substitution.html"><a href="substitution.html#fieldnatural-experiments"><i class="fa fa-check"></i><b>3.2.4</b> Field/natural experiments</a></li>
+<li class="chapter" data-level="4.2.1" data-path="substitution.html"><a href="substitution.html#observational-work"><i class="fa fa-check"></i><b>4.2.1</b> Observational work</a></li>
+<li class="chapter" data-level="4.2.2" data-path="substitution.html"><a href="substitution.html#simultaneousproximate-lab-experiments"><i class="fa fa-check"></i><b>4.2.2</b> Simultaneous/proximate ‘lab’ experiments</a></li>
+<li class="chapter" data-level="4.2.3" data-path="substitution.html"><a href="substitution.html#labframed-experiments-with-time-gaps"><i class="fa fa-check"></i><b>4.2.3</b> Lab/framed experiments with time gaps</a></li>
+<li class="chapter" data-level="4.2.4" data-path="substitution.html"><a href="substitution.html#fieldnatural-experiments"><i class="fa fa-check"></i><b>4.2.4</b> Field/natural experiments</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="substitution.html"><a href="substitution.html#synthesis-emerging"><i class="fa fa-check"></i><b>3.3</b> Synthesis (emerging)</a></li>
+<li class="chapter" data-level="4.3" data-path="substitution.html"><a href="substitution.html#synthesis-emerging"><i class="fa fa-check"></i><b>4.3</b> Synthesis (emerging)</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="aware-distance.html"><a href="aware-distance.html"><i class="fa fa-check"></i><b>4</b> Barriers: Awareness, consideration, and distance</a>
+<li class="chapter" data-level="5" data-path="aware-distance.html"><a href="aware-distance.html"><i class="fa fa-check"></i><b>5</b> Barriers: Awareness, consideration, and distance</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="aware-distance.html"><a href="aware-distance.html#description-and-relevance-to-effective-giving"><i class="fa fa-check"></i><b>4.1</b> Description and relevance to Effective Giving</a></li>
-<li class="chapter" data-level="4.2" data-path="aware-distance.html"><a href="aware-distance.html#theoretical-and-conceptual-underpinning"><i class="fa fa-check"></i><b>4.2</b> Theoretical and conceptual underpinning</a></li>
-<li class="chapter" data-level="4.3" data-path="aware-distance.html"><a href="aware-distance.html#in-group"><i class="fa fa-check"></i><b>4.3</b> Distance - Spatial/Physical, Social/Cultural: parochial altruism/ingroup bias, interpersonal and identity e.g., race, gender, age, etc</a></li>
-<li class="chapter" data-level="4.4" data-path="aware-distance.html"><a href="aware-distance.html#distance-experiential-informational-emotionalaffective"><i class="fa fa-check"></i><b>4.4</b> Distance: Experiential, Informational, Emotional/Affective</a></li>
-<li class="chapter" data-level="4.5" data-path="aware-distance.html"><a href="aware-distance.html#availability"><i class="fa fa-check"></i><b>4.5</b> Availability heuristic and media (also see ‘biases’)</a></li>
-<li class="chapter" data-level="4.6" data-path="aware-distance.html"><a href="aware-distance.html#reference-dependence"><i class="fa fa-check"></i><b>4.6</b> Reference dependence</a></li>
-<li class="chapter" data-level="4.7" data-path="aware-distance.html"><a href="aware-distance.html#future"><i class="fa fa-check"></i><b>4.7</b> Distance - Temporal (future problems/individuals) and Hypothetical (probability of occurance)</a>
+<li class="chapter" data-level="5.1" data-path="aware-distance.html"><a href="aware-distance.html#description-and-relevance-to-effective-giving"><i class="fa fa-check"></i><b>5.1</b> Description and relevance to Effective Giving</a></li>
+<li class="chapter" data-level="5.2" data-path="aware-distance.html"><a href="aware-distance.html#theoretical-and-conceptual-underpinning"><i class="fa fa-check"></i><b>5.2</b> Theoretical and conceptual underpinning</a></li>
+<li class="chapter" data-level="5.3" data-path="aware-distance.html"><a href="aware-distance.html#in-group"><i class="fa fa-check"></i><b>5.3</b> Distance - Spatial/Physical, Social/Cultural: parochial altruism/in-group bias, interpersonal and identity e.g., race, gender, age, etc</a></li>
+<li class="chapter" data-level="5.4" data-path="aware-distance.html"><a href="aware-distance.html#distance-experiential-informational-emotionalaffective"><i class="fa fa-check"></i><b>5.4</b> Distance: Experiential, Informational, Emotional/Affective</a></li>
+<li class="chapter" data-level="5.5" data-path="aware-distance.html"><a href="aware-distance.html#evidence-on-determinants-of-scope-of-moral-circlemoral-expansiveness-and-its-impact-on-giving-and-other-regarding-behavior"><i class="fa fa-check"></i><b>5.5</b> Evidence on determinants of scope of moral circle/moral expansiveness and its impact on giving and other-regarding behavior</a></li>
+<li class="chapter" data-level="5.6" data-path="aware-distance.html"><a href="aware-distance.html#availability"><i class="fa fa-check"></i><b>5.6</b> Availability heuristic and media (also see ‘biases’)</a></li>
+<li class="chapter" data-level="5.7" data-path="aware-distance.html"><a href="aware-distance.html#reference-dependence"><i class="fa fa-check"></i><b>5.7</b> Reference dependence</a></li>
+<li class="chapter" data-level="5.8" data-path="aware-distance.html"><a href="aware-distance.html#future"><i class="fa fa-check"></i><b>5.8</b> Distance - Temporal (future problems/individuals) and Hypothetical (probability of occurance)</a>
 <ul>
 <li class="chapter" data-level="" data-path="aware-distance.html"><a href="aware-distance.html#overview-1"><i class="fa fa-check"></i>Overview</a></li>
 <li class="chapter" data-level="" data-path="aware-distance.html"><a href="aware-distance.html#discounting-future-payoffsassetswelfare"><i class="fa fa-check"></i>Discounting future payoffs/assets/welfare</a></li>
 <li class="chapter" data-level="" data-path="aware-distance.html"><a href="aware-distance.html#reasons-the-distant-future-may-be-neglected"><i class="fa fa-check"></i>Reasons the distant future may be neglected</a></li>
-<li class="chapter" data-level="4.7.1" data-path="aware-distance.html"><a href="aware-distance.html#future-bias-ev"><i class="fa fa-check"></i><b>4.7.1</b> Evidence (work in progress)</a></li>
+<li class="chapter" data-level="5.8.1" data-path="aware-distance.html"><a href="aware-distance.html#future-bias-ev"><i class="fa fa-check"></i><b>5.8.1</b> Evidence (work in progress)</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="identity.html"><a href="identity.html"><i class="fa fa-check"></i><b>5</b> Barriers: Identity and cognitive dissonance</a>
+<li class="chapter" data-level="6" data-path="identity.html"><a href="identity.html"><i class="fa fa-check"></i><b>6</b> Barriers: Identity and cognitive dissonance</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="identity.html"><a href="identity.html#self-interest"><i class="fa fa-check"></i><b>5.1</b> Self-interest/local public good (?)</a></li>
-<li class="chapter" data-level="5.2" data-path="identity.html"><a href="identity.html#cognitive-dissonance"><i class="fa fa-check"></i><b>5.2</b> Cognitive dissonance</a></li>
-<li class="chapter" data-level="5.3" data-path="identity.html"><a href="identity.html#side-note-volunteer-experience-unlocks-emotion-and-giving"><i class="fa fa-check"></i><b>5.3</b> (Side note?) Volunteer experience unlocks emotion and giving</a></li>
+<li class="chapter" data-level="6.1" data-path="identity.html"><a href="identity.html#self-interest"><i class="fa fa-check"></i><b>6.1</b> Self-interest/local public good (?)</a></li>
+<li class="chapter" data-level="6.2" data-path="identity.html"><a href="identity.html#cognitive-dissonance"><i class="fa fa-check"></i><b>6.2</b> Cognitive dissonance</a></li>
+<li class="chapter" data-level="6.3" data-path="identity.html"><a href="identity.html#side-note-volunteer-experience-unlocks-emotion-and-giving"><i class="fa fa-check"></i><b>6.3</b> (Side note?) Volunteer experience unlocks emotion and giving</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="social.html"><a href="social.html"><i class="fa fa-check"></i><b>6</b> Barriers: Signaling and social pressures/social identity</a>
+<li class="chapter" data-level="7" data-path="social.html"><a href="social.html"><i class="fa fa-check"></i><b>7</b> Barriers: Signaling and social pressures/social identity</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="social.html"><a href="social.html#signaling-empathy"><i class="fa fa-check"></i><b>6.1</b> Signaling concern for effectiveness/impact versus other values</a>
+<li class="chapter" data-level="7.1" data-path="social.html"><a href="social.html#signaling-empathy"><i class="fa fa-check"></i><b>7.1</b> Signaling concern for effectiveness/impact versus other values</a>
 <ul>
-<li class="chapter" data-level="6.1.1" data-path="social.html"><a href="social.html#theory-and-argument"><i class="fa fa-check"></i><b>6.1.1</b> Theory and argument</a></li>
-<li class="chapter" data-level="6.1.2" data-path="social.html"><a href="social.html#evidence-for-this-barrier"><i class="fa fa-check"></i><b>6.1.2</b> Evidence for this barrier</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="7" data-path="eval-aversion.html"><a href="eval-aversion.html"><i class="fa fa-check"></i><b>7</b> Barriers: Aversion/obstacles to <em>doing</em> (using) evaluations; effect of analytical information on generosity</a>
-<ul>
-<li class="chapter" data-level="7.1" data-path="eval-aversion.html"><a href="eval-aversion.html#general-relevance-to-effective-giving"><i class="fa fa-check"></i><b>7.1</b> General relevance to effective giving</a></li>
-<li class="chapter" data-level="7.2" data-path="eval-aversion.html"><a href="eval-aversion.html#cba-aversion"><i class="fa fa-check"></i><b>7.2</b> General cost-benefit analysis (CBA)-aversion or reluctance</a>
-<ul>
-<li class="chapter" data-level="7.2.1" data-path="eval-aversion.html"><a href="eval-aversion.html#description"><i class="fa fa-check"></i><b>7.2.1</b> Description</a></li>
-<li class="chapter" data-level="7.2.2" data-path="eval-aversion.html"><a href="eval-aversion.html#theoreticalconceptual-discussion"><i class="fa fa-check"></i><b>7.2.2</b> Theoretical/conceptual discussion</a></li>
-<li class="chapter" data-level="7.2.3" data-path="eval-aversion.html"><a href="eval-aversion.html#cba-evidence"><i class="fa fa-check"></i><b>7.2.3</b> Evidence surrounding CBA</a></li>
-</ul></li>
-<li class="chapter" data-level="7.3" data-path="eval-aversion.html"><a href="eval-aversion.html#information-as-an-excuse-not-to-give-allows-motivated-reasoning"><i class="fa fa-check"></i><b>7.3</b> Information as an ‘excuse’ not to give; allows motivated reasoning</a></li>
-<li class="chapter" data-level="7.4" data-path="eval-aversion.html"><a href="eval-aversion.html#analytical-grinch"><i class="fa fa-check"></i><b>7.4</b> Exposure to cost effectiveness and impact information (analytical information) might reduce generosity</a>
-<ul>
-<li class="chapter" data-level="7.4.1" data-path="eval-aversion.html"><a href="eval-aversion.html#presenting-effectiveness-and-other-types-of-analytical-efficiency-information"><i class="fa fa-check"></i><b>7.4.1</b> Presenting “Effectiveness” and other types of analytical efficiency information</a></li>
-<li class="chapter" data-level="7.4.2" data-path="eval-aversion.html"><a href="eval-aversion.html#evidence-analytical-information-times-emotional-information-and-identifiable-victim"><i class="fa fa-check"></i><b>7.4.2</b> Evidence: Analytical information <span class="math inline">\(\times\)</span> emotional information and ‘identifiable victim’</a></li>
-</ul></li>
-<li class="chapter" data-level="7.5" data-path="eval-aversion.html"><a href="eval-aversion.html#ratings"><i class="fa fa-check"></i><b>7.5</b> Overall ‘net’ responses to charity ratings</a>
-<ul>
-<li class="chapter" data-level="7.5.1" data-path="eval-aversion.html"><a href="eval-aversion.html#evidence-on-responses-to-charity-ratings"><i class="fa fa-check"></i><b>7.5.1</b> Evidence on responses to charity ratings</a></li>
+<li class="chapter" data-level="7.1.1" data-path="social.html"><a href="social.html#theory-and-argument"><i class="fa fa-check"></i><b>7.1.1</b> Theory and argument</a></li>
+<li class="chapter" data-level="7.1.2" data-path="social.html"><a href="social.html#evidence-for-this-barrier"><i class="fa fa-check"></i><b>7.1.2</b> Evidence for this barrier</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="factual.html"><a href="factual.html"><i class="fa fa-check"></i><b>8</b> Barriers: Persistent and systematic incorrect empirical beliefs</a>
+<li class="chapter" data-level="8" data-path="eval-aversion.html"><a href="eval-aversion.html"><i class="fa fa-check"></i><b>8</b> Barriers: Aversion/obstacles to <em>doing</em> (using) evaluations; effect of analytical information on generosity</a>
 <ul>
-<li class="chapter" data-level="8.1" data-path="factual.html"><a href="factual.html#some-key-misconceptions-evidence-these-may-have-an-effect"><i class="fa fa-check"></i><b>8.1</b> Some key misconceptions; evidence these may have an effect</a></li>
-<li class="chapter" data-level="8.2" data-path="factual.html"><a href="factual.html#content-to-be-filled-in-here"><i class="fa fa-check"></i><b>8.2</b> Content to be filled in here</a></li>
+<li class="chapter" data-level="8.1" data-path="eval-aversion.html"><a href="eval-aversion.html#general-relevance-to-effective-giving"><i class="fa fa-check"></i><b>8.1</b> General relevance to effective giving</a></li>
+<li class="chapter" data-level="8.2" data-path="eval-aversion.html"><a href="eval-aversion.html#cba-aversion"><i class="fa fa-check"></i><b>8.2</b> General cost-benefit analysis (CBA)-aversion or reluctance</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="eval-aversion.html"><a href="eval-aversion.html#description"><i class="fa fa-check"></i><b>8.2.1</b> Description</a></li>
+<li class="chapter" data-level="8.2.2" data-path="eval-aversion.html"><a href="eval-aversion.html#theoreticalconceptual-discussion"><i class="fa fa-check"></i><b>8.2.2</b> Theoretical/conceptual discussion</a></li>
+<li class="chapter" data-level="8.2.3" data-path="eval-aversion.html"><a href="eval-aversion.html#cba-evidence"><i class="fa fa-check"></i><b>8.2.3</b> Evidence surrounding CBA</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="quant-biases.html"><a href="quant-biases.html"><i class="fa fa-check"></i><b>9</b> Barriers: Quantitative biases (the ‘distorted altruist’)</a>
+<li class="chapter" data-level="8.3" data-path="eval-aversion.html"><a href="eval-aversion.html#information-as-an-excuse-not-to-give-allows-motivated-reasoning"><i class="fa fa-check"></i><b>8.3</b> Information as an ‘excuse’ not to give; allows motivated reasoning</a></li>
+<li class="chapter" data-level="8.4" data-path="eval-aversion.html"><a href="eval-aversion.html#analytical-grinch"><i class="fa fa-check"></i><b>8.4</b> Exposure to cost effectiveness and impact information (analytical information) might reduce generosity</a>
 <ul>
-<li class="chapter" data-level="9.1" data-path="quant-biases.html"><a href="quant-biases.html#biases-in-perceiving-impact"><i class="fa fa-check"></i><b>9.1</b> Biases in perceiving impact</a></li>
-<li class="chapter" data-level="9.2" data-path="quant-biases.html"><a href="quant-biases.html#other-biases-driving-departures-from-efficiency"><i class="fa fa-check"></i><b>9.2</b> Other biases driving departures from efficiency</a></li>
-<li class="chapter" data-level="9.3" data-path="quant-biases.html"><a href="quant-biases.html#prop-dom"><i class="fa fa-check"></i><b>9.3</b> Proportional dominance effect</a>
+<li class="chapter" data-level="8.4.1" data-path="eval-aversion.html"><a href="eval-aversion.html#presenting-effectiveness-and-other-types-of-analytical-efficiency-information"><i class="fa fa-check"></i><b>8.4.1</b> Presenting “Effectiveness” and other types of analytical efficiency information</a></li>
+<li class="chapter" data-level="8.4.2" data-path="eval-aversion.html"><a href="eval-aversion.html#evidence-analytical-information-times-emotional-information-and-identifiable-victim"><i class="fa fa-check"></i><b>8.4.2</b> Evidence: Analytical information <span class="math inline">\(\times\)</span> emotional information and ‘identifiable victim’</a></li>
+</ul></li>
+<li class="chapter" data-level="8.5" data-path="eval-aversion.html"><a href="eval-aversion.html#ratings"><i class="fa fa-check"></i><b>8.5</b> Overall ‘net’ responses to charity ratings</a>
 <ul>
-<li class="chapter" data-level="9.3.1" data-path="quant-biases.html"><a href="quant-biases.html#definition"><i class="fa fa-check"></i><b>9.3.1</b> Definition</a></li>
-<li class="chapter" data-level="9.3.2" data-path="quant-biases.html"><a href="quant-biases.html#conceptual-discussion"><i class="fa fa-check"></i><b>9.3.2</b> Conceptual Discussion</a></li>
+<li class="chapter" data-level="8.5.1" data-path="eval-aversion.html"><a href="eval-aversion.html#evidence-on-responses-to-charity-ratings"><i class="fa fa-check"></i><b>8.5.1</b> Evidence on responses to charity ratings</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="factual.html"><a href="factual.html"><i class="fa fa-check"></i><b>9</b> Barriers: Persistent and systematic incorrect empirical beliefs</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="factual.html"><a href="factual.html#some-key-misconceptions-evidence-these-may-have-an-effect"><i class="fa fa-check"></i><b>9.1</b> Some key misconceptions; evidence these may have an effect</a></li>
+<li class="chapter" data-level="9.2" data-path="factual.html"><a href="factual.html#content-to-be-filled-in-here"><i class="fa fa-check"></i><b>9.2</b> Content to be filled in here</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="quant-biases.html"><a href="quant-biases.html"><i class="fa fa-check"></i><b>10</b> Barriers: Quantitative biases (the ‘distorted altruist’)</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="quant-biases.html"><a href="quant-biases.html#biases-in-perceiving-impact"><i class="fa fa-check"></i><b>10.1</b> Biases in perceiving impact</a></li>
+<li class="chapter" data-level="10.2" data-path="quant-biases.html"><a href="quant-biases.html#other-biases-driving-departures-from-efficiency"><i class="fa fa-check"></i><b>10.2</b> Other biases driving departures from efficiency</a></li>
+<li class="chapter" data-level="10.3" data-path="quant-biases.html"><a href="quant-biases.html#prop-dom"><i class="fa fa-check"></i><b>10.3</b> Proportional dominance effect</a>
+<ul>
+<li class="chapter" data-level="10.3.1" data-path="quant-biases.html"><a href="quant-biases.html#definition"><i class="fa fa-check"></i><b>10.3.1</b> Definition</a></li>
+<li class="chapter" data-level="10.3.2" data-path="quant-biases.html"><a href="quant-biases.html#conceptual-discussion"><i class="fa fa-check"></i><b>10.3.2</b> Conceptual Discussion</a></li>
 <li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#mechanisms"><i class="fa fa-check"></i>Mechanisms</a></li>
-<li class="chapter" data-level="9.3.3" data-path="quant-biases.html"><a href="quant-biases.html#eg-relevance"><i class="fa fa-check"></i><b>9.3.3</b> EG Relevance</a></li>
-<li class="chapter" data-level="9.3.4" data-path="quant-biases.html"><a href="quant-biases.html#state-of-evidence"><i class="fa fa-check"></i><b>9.3.4</b> State of Evidence</a></li>
-<li class="chapter" data-level="9.3.5" data-path="quant-biases.html"><a href="quant-biases.html#potential-solutions"><i class="fa fa-check"></i><b>9.3.5</b> Potential Solutions</a></li>
+<li class="chapter" data-level="10.3.3" data-path="quant-biases.html"><a href="quant-biases.html#eg-relevance"><i class="fa fa-check"></i><b>10.3.3</b> EG Relevance</a></li>
+<li class="chapter" data-level="10.3.4" data-path="quant-biases.html"><a href="quant-biases.html#state-of-evidence"><i class="fa fa-check"></i><b>10.3.4</b> State of Evidence</a></li>
+<li class="chapter" data-level="10.3.5" data-path="quant-biases.html"><a href="quant-biases.html#potential-solutions"><i class="fa fa-check"></i><b>10.3.5</b> Potential Solutions</a></li>
 </ul></li>
-<li class="chapter" data-level="9.4" data-path="quant-biases.html"><a href="quant-biases.html#statvictim"><i class="fa fa-check"></i><b>9.4</b> Statistical/identifiable victim effect</a>
+<li class="chapter" data-level="10.4" data-path="quant-biases.html"><a href="quant-biases.html#statvictim"><i class="fa fa-check"></i><b>10.4</b> Statistical/identifiable victim effect</a>
 <ul>
-<li class="chapter" data-level="9.4.1" data-path="quant-biases.html"><a href="quant-biases.html#definition-1"><i class="fa fa-check"></i><b>9.4.1</b> Definition</a></li>
-<li class="chapter" data-level="9.4.2" data-path="quant-biases.html"><a href="quant-biases.html#relevance-to-effective-giving"><i class="fa fa-check"></i><b>9.4.2</b> Relevance to effective giving</a></li>
-<li class="chapter" data-level="9.4.3" data-path="quant-biases.html"><a href="quant-biases.html#evidence"><i class="fa fa-check"></i><b>9.4.3</b> Evidence</a></li>
+<li class="chapter" data-level="10.4.1" data-path="quant-biases.html"><a href="quant-biases.html#definition-1"><i class="fa fa-check"></i><b>10.4.1</b> Definition</a></li>
+<li class="chapter" data-level="10.4.2" data-path="quant-biases.html"><a href="quant-biases.html#relevance-to-effective-giving"><i class="fa fa-check"></i><b>10.4.2</b> Relevance to effective giving</a></li>
+<li class="chapter" data-level="10.4.3" data-path="quant-biases.html"><a href="quant-biases.html#evidence"><i class="fa fa-check"></i><b>10.4.3</b> Evidence</a></li>
 </ul></li>
-<li class="chapter" data-level="9.5" data-path="quant-biases.html"><a href="quant-biases.html#availability-heuristic"><i class="fa fa-check"></i><b>9.5</b> Availability heuristic</a>
+<li class="chapter" data-level="10.5" data-path="quant-biases.html"><a href="quant-biases.html#availability-heuristic"><i class="fa fa-check"></i><b>10.5</b> Availability heuristic</a>
 <ul>
-<li class="chapter" data-level="9.5.1" data-path="quant-biases.html"><a href="quant-biases.html#definition-and-relevance"><i class="fa fa-check"></i><b>9.5.1</b> Definition and relevance</a></li>
-<li class="chapter" data-level="9.5.2" data-path="quant-biases.html"><a href="quant-biases.html#connection-to-other-biases"><i class="fa fa-check"></i><b>9.5.2</b> Connection to other biases</a></li>
-<li class="chapter" data-level="9.5.3" data-path="quant-biases.html"><a href="quant-biases.html#evidence-to-do"><i class="fa fa-check"></i><b>9.5.3</b> Evidence (to do)</a></li>
+<li class="chapter" data-level="10.5.1" data-path="quant-biases.html"><a href="quant-biases.html#definition-and-relevance"><i class="fa fa-check"></i><b>10.5.1</b> Definition and relevance</a></li>
+<li class="chapter" data-level="10.5.2" data-path="quant-biases.html"><a href="quant-biases.html#connection-to-other-biases"><i class="fa fa-check"></i><b>10.5.2</b> Connection to other biases</a></li>
+<li class="chapter" data-level="10.5.3" data-path="quant-biases.html"><a href="quant-biases.html#evidence-to-do"><i class="fa fa-check"></i><b>10.5.3</b> Evidence (to do)</a></li>
 </ul></li>
-<li class="chapter" data-level="9.6" data-path="quant-biases.html"><a href="quant-biases.html#diversification-heuristic"><i class="fa fa-check"></i><b>9.6</b> Diversification heuristic</a>
+<li class="chapter" data-level="10.6" data-path="quant-biases.html"><a href="quant-biases.html#diversification-heuristic"><i class="fa fa-check"></i><b>10.6</b> Diversification heuristic</a>
 <ul>
 <li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#implications-and-causes-of-diversification-heuristics-in-charitable-giving"><i class="fa fa-check"></i>Implications and causes of diversification heuristics in charitable giving</a></li>
 <li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#evidence-for-diversification-heuristic-in-charitable-giving-to-do"><i class="fa fa-check"></i>Evidence for diversification heuristic in charitable giving (to do)</a></li>
 </ul></li>
-<li class="chapter" data-level="9.7" data-path="quant-biases.html"><a href="quant-biases.html#overhead-aversion"><i class="fa fa-check"></i><b>9.7</b> Overhead aversion</a>
+<li class="chapter" data-level="10.7" data-path="quant-biases.html"><a href="quant-biases.html#overhead-aversion"><i class="fa fa-check"></i><b>10.7</b> Overhead aversion</a>
 <ul>
 <li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#related-terms"><i class="fa fa-check"></i>Related Terms</a></li>
 <li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#description-1"><i class="fa fa-check"></i>Description</a></li>
-<li class="chapter" data-level="9.7.1" data-path="quant-biases.html"><a href="quant-biases.html#overhead-evdc"><i class="fa fa-check"></i><b>9.7.1</b> Overview of Evidence</a></li>
-<li class="chapter" data-level="9.7.2" data-path="quant-biases.html"><a href="quant-biases.html#relevance-to-effective-giving-1"><i class="fa fa-check"></i><b>9.7.2</b> Relevance to effective giving</a></li>
+<li class="chapter" data-level="10.7.1" data-path="quant-biases.html"><a href="quant-biases.html#overhead-evdc"><i class="fa fa-check"></i><b>10.7.1</b> Overview of Evidence</a></li>
+<li class="chapter" data-level="10.7.2" data-path="quant-biases.html"><a href="quant-biases.html#relevance-to-effective-giving-1"><i class="fa fa-check"></i><b>10.7.2</b> Relevance to effective giving</a></li>
 <li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#state-of-evidence-key-papers"><i class="fa fa-check"></i>State of Evidence; key papers</a></li>
 </ul></li>
-<li class="chapter" data-level="9.8" data-path="quant-biases.html"><a href="quant-biases.html#possible-misunderstanding-need-and-misunderstanding-marginalitytractabilitysunk-costs"><i class="fa fa-check"></i><b>9.8</b> Possible: Misunderstanding need (and misunderstanding marginality/tractability/sunk costs?)</a></li>
-<li class="chapter" data-level="9.9" data-path="quant-biases.html"><a href="quant-biases.html#scope-insensitivityembedding-effectpart-whole-effect"><i class="fa fa-check"></i><b>9.9</b> Scope insensitivity/embedding effect/part-whole effect</a></li>
-<li class="chapter" data-level="9.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>9.10</b> Other quantitative biases</a>
+<li class="chapter" data-level="10.8" data-path="quant-biases.html"><a href="quant-biases.html#possible-misunderstanding-need-and-misunderstanding-marginalitytractabilitysunk-costs"><i class="fa fa-check"></i><b>10.8</b> Possible: Misunderstanding need (and misunderstanding marginality/tractability/sunk costs?)</a></li>
+<li class="chapter" data-level="10.9" data-path="quant-biases.html"><a href="quant-biases.html#scope-insensitivityembedding-effectpart-whole-effect"><i class="fa fa-check"></i><b>10.9</b> Scope insensitivity/embedding effect/part-whole effect</a></li>
+<li class="chapter" data-level="10.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>10.10</b> Other quantitative biases</a>
 <ul>
-<li class="chapter" data-level="9.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>9.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
-<li class="chapter" data-level="9.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
-<li class="chapter" data-level="9.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>9.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="10.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>10.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
+<li class="chapter" data-level="10.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>10.10.2</b> Bias towards tangibility (perhaps not ‘quantitative?’)</a></li>
+<li class="chapter" data-level="10.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>10.10.3</b> Corruption aversion (perhaps not ‘quantitative?’)</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>10</b> Barriers: Inertia and systemic/institutional</a>
+<li class="chapter" data-level="11" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i><b>11</b> Barriers: Inertia and systemic/institutional</a>
 <ul>
-<li class="chapter" data-level="10.1" data-path="inertia.html"><a href="inertia.html#social-norms"><i class="fa fa-check"></i><b>10.1</b> Social norms</a>
+<li class="chapter" data-level="11.1" data-path="inertia.html"><a href="inertia.html#social-norms"><i class="fa fa-check"></i><b>11.1</b> Social norms</a>
 <ul>
-<li class="chapter" data-level="10.1.1" data-path="inertia.html"><a href="inertia.html#subjectivity-in-the-charitable-domain--"><i class="fa fa-check"></i><b>10.1.1</b> Subjectivity in the charitable domain -</a></li>
+<li class="chapter" data-level="11.1.1" data-path="inertia.html"><a href="inertia.html#subjectivity-in-the-charitable-domain--"><i class="fa fa-check"></i><b>11.1.1</b> Subjectivity in the charitable domain -</a></li>
 </ul></li>
-<li class="chapter" data-level="10.2" data-path="inertia.html"><a href="inertia.html#consider-inertia-and-obstacles-to-charities-collecting-evaluating-and-sharing-impact-information"><i class="fa fa-check"></i><b>10.2</b> Consider: inertia and obstacles to charities collecting, evaluating, and sharing impact information</a></li>
+<li class="chapter" data-level="11.2" data-path="inertia.html"><a href="inertia.html#consider-inertia-and-obstacles-to-charities-collecting-evaluating-and-sharing-impact-information"><i class="fa fa-check"></i><b>11.2</b> Consider: inertia and obstacles to charities collecting, evaluating, and sharing impact information</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="tools-for-motivating-ea-giving.html"><a href="tools-for-motivating-ea-giving.html"><i class="fa fa-check"></i><b>11</b> <span id="tools">Tools for motivating EA giving</span></a>
+<li class="chapter" data-level="12" data-path="tools.html"><a href="tools.html"><i class="fa fa-check"></i><b>12</b> Tools for motivating EA giving</a>
 <ul>
-<li class="chapter" data-level="11.1" data-path="tools-for-motivating-ea-giving.html"><a href="tools-for-motivating-ea-giving.html#introduction"><i class="fa fa-check"></i><b>11.1</b> Introduction</a></li>
-<li class="chapter" data-level="11.2" data-path="tools-for-motivating-ea-giving.html"><a href="tools-for-motivating-ea-giving.html#psychbehavioral-tools-applicability-to-ea-charities"><i class="fa fa-check"></i><b>11.2</b> Psych/behavioral tools; applicability to EA charities</a></li>
-<li class="chapter" data-level="11.3" data-path="tools-for-motivating-ea-giving.html"><a href="tools-for-motivating-ea-giving.html#de-biasing-and-misperception-correction"><i class="fa fa-check"></i><b>11.3</b> De-biasing and misperception correction</a></li>
-<li class="chapter" data-level="11.4" data-path="tools-for-motivating-ea-giving.html"><a href="tools-for-motivating-ea-giving.html#innovative-proposals"><i class="fa fa-check"></i><b>11.4</b> Innovative proposals</a></li>
-<li class="chapter" data-level="11.5" data-path="tools-for-motivating-ea-giving.html"><a href="tools-for-motivating-ea-giving.html#ea-movement-approaches-sucesses-and-pitfalls"><i class="fa fa-check"></i><b>11.5</b> EA-movement approaches, sucesses and pitfalls</a></li>
-<li class="chapter" data-level="11.6" data-path="tools-for-motivating-ea-giving.html"><a href="tools-for-motivating-ea-giving.html#a-listing"><i class="fa fa-check"></i><b>11.6</b> A listing</a>
+<li class="chapter" data-level="12.1" data-path="tools.html"><a href="tools.html#introduction"><i class="fa fa-check"></i><b>12.1</b> Introduction</a></li>
+<li class="chapter" data-level="12.2" data-path="tools.html"><a href="tools.html#psychologicalbehavioral-tools-applicability-to-ea-charities"><i class="fa fa-check"></i><b>12.2</b> Psychological/behavioral tools; applicability to EA charities</a></li>
+<li class="chapter" data-level="12.3" data-path="tools.html"><a href="tools.html#de-biasing-and-misperception-correction"><i class="fa fa-check"></i><b>12.3</b> De-biasing and misperception correction</a></li>
+<li class="chapter" data-level="12.4" data-path="tools.html"><a href="tools.html#innovative-proposals"><i class="fa fa-check"></i><b>12.4</b> Innovative proposals</a></li>
+<li class="chapter" data-level="12.5" data-path="tools.html"><a href="tools.html#ea-movement-approaches-sucesses-and-pitfalls"><i class="fa fa-check"></i><b>12.5</b> EA-movement approaches, sucesses and pitfalls</a></li>
+<li class="chapter" data-level="12.6" data-path="tools.html"><a href="tools.html#a-listing"><i class="fa fa-check"></i><b>12.6</b> A listing</a>
 <ul>
-<li class="chapter" data-level="" data-path="tools-for-motivating-ea-giving.html"><a href="tools-for-motivating-ea-giving.html#make-impact-more-comparable-by-allowing-joint-evaluation-evaluation-mode"><i class="fa fa-check"></i>Make impact more comparable by allowing joint evaluation (Evaluation mode)</a></li>
-<li class="chapter" data-level="11.6.1" data-path="tools-for-motivating-ea-giving.html"><a href="tools-for-motivating-ea-giving.html#info-enhancing-social-closeness-of-recipient"><i class="fa fa-check"></i><b>11.6.1</b> (Info enhancing) social closeness of recipient</a></li>
+<li class="chapter" data-level="" data-path="tools.html"><a href="tools.html#make-impact-more-comparable-by-allowing-joint-evaluation-evaluation-mode"><i class="fa fa-check"></i>Make impact more comparable by allowing joint evaluation (Evaluation mode)</a></li>
+<li class="chapter" data-level="12.6.1" data-path="tools.html"><a href="tools.html#info-enhancing-social-closeness-of-recipient"><i class="fa fa-check"></i><b>12.6.1</b> (Info enhancing) social closeness of recipient</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html"><i class="fa fa-check"></i><b>12</b> Conclusion; a research agenda</a>
+<li class="chapter" data-level="13" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html"><i class="fa fa-check"></i><b>13</b> Conclusion; a research agenda</a>
 <ul>
-<li class="chapter" data-level="12.1" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#a-program-and-key-principles-for-future-research-and-action"><i class="fa fa-check"></i><b>12.1</b> A program and key principles for future research and action</a></li>
-<li class="chapter" data-level="12.2" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#key-practical-questions"><i class="fa fa-check"></i><b>12.2</b> Key practical questions</a></li>
-<li class="chapter" data-level="12.3" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#policy-issues"><i class="fa fa-check"></i><b>12.3</b> Policy issues</a></li>
-<li class="chapter" data-level="12.4" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#why-will-this-be-helpful-and-who-will-use-it-and-how"><i class="fa fa-check"></i><b>12.4</b> Why will this be helpful and who will use it and how?</a></li>
-<li class="chapter" data-level="12.5" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#research-infrastructure-and-methodology"><i class="fa fa-check"></i><b>12.5</b> Research infrastructure and methodology</a></li>
-<li class="chapter" data-level="12.6" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#targeting"><i class="fa fa-check"></i><b>12.6</b> Targeting</a></li>
-<li class="chapter" data-level="12.7" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#working-with-charities-and-organisations"><i class="fa fa-check"></i><b>12.7</b> Working with charities and organisations</a></li>
+<li class="chapter" data-level="13.1" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#a-program-and-key-principles-for-future-research-and-action"><i class="fa fa-check"></i><b>13.1</b> A program and key principles for future research and action</a></li>
+<li class="chapter" data-level="13.2" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#key-practical-questions"><i class="fa fa-check"></i><b>13.2</b> Key practical questions</a></li>
+<li class="chapter" data-level="13.3" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#policy-issues"><i class="fa fa-check"></i><b>13.3</b> Policy issues</a></li>
+<li class="chapter" data-level="13.4" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#why-will-this-be-helpful-and-who-will-use-it-and-how"><i class="fa fa-check"></i><b>13.4</b> Why will this be helpful and who will use it and how?</a></li>
+<li class="chapter" data-level="13.5" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#research-infrastructure-and-methodology"><i class="fa fa-check"></i><b>13.5</b> Research infrastructure and methodology</a></li>
+<li class="chapter" data-level="13.6" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#targeting"><i class="fa fa-check"></i><b>13.6</b> Targeting</a></li>
+<li class="chapter" data-level="13.7" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#working-with-charities-and-organisations"><i class="fa fa-check"></i><b>13.7</b> Working with charities and organisations</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html"><i class="fa fa-check"></i><b>13</b> Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own)</a>
+<li class="chapter" data-level="14" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html"><i class="fa fa-check"></i><b>14</b> Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own)</a>
 <ul>
-<li class="chapter" data-level="13.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#introduction-1"><i class="fa fa-check"></i><b>13.1</b> Introduction</a></li>
-<li class="chapter" data-level="13.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#git-and-github"><i class="fa fa-check"></i><b>13.2</b> Git and Github</a>
+<li class="chapter" data-level="14.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#introduction-1"><i class="fa fa-check"></i><b>14.1</b> Introduction</a></li>
+<li class="chapter" data-level="14.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#git-and-github"><i class="fa fa-check"></i><b>14.2</b> Git and Github</a>
 <ul>
-<li class="chapter" data-level="13.2.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#some-key-things-to-know-about-git-and-github"><i class="fa fa-check"></i><b>13.2.1</b> Some key things to know about Git and GitHub</a></li>
+<li class="chapter" data-level="14.2.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#some-key-things-to-know-about-git-and-github"><i class="fa fa-check"></i><b>14.2.1</b> Some key things to know about Git and GitHub</a></li>
 </ul></li>
-<li class="chapter" data-level="13.3" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#r-and-rstudio"><i class="fa fa-check"></i><b>13.3</b> R and RStudio</a></li>
-<li class="chapter" data-level="13.4" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#markdown-and-bookdown"><i class="fa fa-check"></i><b>13.4</b> Markdown and Bookdown</a></li>
-<li class="chapter" data-level="13.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-and-folder-structure-in-this-repo-and-what-it-means"><i class="fa fa-check"></i><b>13.5</b> The code and folder structure in this repo, and what it means</a>
+<li class="chapter" data-level="14.3" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#r-and-rstudio"><i class="fa fa-check"></i><b>14.3</b> R and RStudio</a></li>
+<li class="chapter" data-level="14.4" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#markdown-and-bookdown"><i class="fa fa-check"></i><b>14.4</b> Markdown and Bookdown</a></li>
+<li class="chapter" data-level="14.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-and-folder-structure-in-this-repo-and-what-it-means"><i class="fa fa-check"></i><b>14.5</b> The code and folder structure in this repo, and what it means</a>
 <ul>
-<li class="chapter" data-level="13.5.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020"><i class="fa fa-check"></i><b>13.5.1</b> Writing_econ_book: Files-folders of interest (taken from readme March 2020)</a></li>
+<li class="chapter" data-level="14.5.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020"><i class="fa fa-check"></i><b>14.5.1</b> Writing_econ_book: Files-folders of interest (taken from readme March 2020)</a></li>
 </ul></li>
-<li class="chapter" data-level="13.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-the-main-content-the-code-in-a-single-.rmd-file"><i class="fa fa-check"></i><b>13.6</b> Adding the main content… the code in a single “.Rmd” file</a>
+<li class="chapter" data-level="14.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-the-main-content-the-code-in-a-single-.rmd-file"><i class="fa fa-check"></i><b>14.6</b> Adding the main content… the code in a single “.Rmd” file</a>
 <ul>
-<li class="chapter" data-level="13.6.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#basic-r-markdown"><i class="fa fa-check"></i><b>13.6.1</b> Basic (R-)Markdown</a></li>
-<li class="chapter" data-level="13.6.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#simple-md-rules"><i class="fa fa-check"></i><b>13.6.2</b> Some simple markdown rules</a></li>
-<li class="chapter" data-level="13.6.3" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#inline-code"><i class="fa fa-check"></i><b>13.6.3</b> Inline code</a></li>
-<li class="chapter" data-level="13.6.4" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#latexmaths"><i class="fa fa-check"></i><b>13.6.4</b> Latex/maths</a></li>
-<li class="chapter" data-level="13.6.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#custom-styles"><i class="fa fa-check"></i><b>13.6.5</b> Custom styles</a></li>
-<li class="chapter" data-level="13.6.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-referencescitations"><i class="fa fa-check"></i><b>13.6.6</b> Adding references/citations</a></li>
-<li class="chapter" data-level="13.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#specific-system-for-adding-references-in-this-project"><i class="fa fa-check"></i><b>13.6.7</b> Specific system for adding references in this project</a></li>
-<li class="chapter" data-level="13.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#a-test-of-adding-references"><i class="fa fa-check"></i><b>13.6.8</b> A test of adding references</a></li>
+<li class="chapter" data-level="14.6.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#basic-r-markdown"><i class="fa fa-check"></i><b>14.6.1</b> Basic (R-)Markdown</a></li>
+<li class="chapter" data-level="14.6.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#simple-md-rules"><i class="fa fa-check"></i><b>14.6.2</b> Some simple markdown rules</a></li>
+<li class="chapter" data-level="14.6.3" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#inline-code"><i class="fa fa-check"></i><b>14.6.3</b> Inline code</a></li>
+<li class="chapter" data-level="14.6.4" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#latexmaths"><i class="fa fa-check"></i><b>14.6.4</b> Latex/maths</a></li>
+<li class="chapter" data-level="14.6.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#custom-styles"><i class="fa fa-check"></i><b>14.6.5</b> Custom styles</a></li>
+<li class="chapter" data-level="14.6.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-referencescitations"><i class="fa fa-check"></i><b>14.6.6</b> Adding references/citations</a></li>
+<li class="chapter" data-level="14.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#specific-system-for-adding-references-in-this-project"><i class="fa fa-check"></i><b>14.6.7</b> Specific system for adding references in this project</a></li>
+<li class="chapter" data-level="14.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#a-test-of-adding-references"><i class="fa fa-check"></i><b>14.6.8</b> A test of adding references</a></li>
 </ul></li>
-<li class="chapter" data-level="13.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>13.7</b> How to ‘build’ and view the book</a>
+<li class="chapter" data-level="14.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>14.7</b> How to ‘build’ and view the book</a>
 <ul>
-<li class="chapter" data-level="13.7.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#exporting-rmarkdown-to-google-docsdrive"><i class="fa fa-check"></i><b>13.7.1</b> Exporting Rmarkdown to Google Docs/Drive</a></li>
+<li class="chapter" data-level="14.7.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#exporting-rmarkdown-to-google-docsdrive"><i class="fa fa-check"></i><b>14.7.1</b> Exporting Rmarkdown to Google Docs/Drive</a></li>
 </ul></li>
-<li class="chapter" data-level="13.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>13.8</b> Joining this project</a>
+<li class="chapter" data-level="14.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>14.8</b> Joining this project</a>
 <ul>
-<li class="chapter" data-level="13.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>13.8.1</b> Creating a Branch and a ‘pull request’</a></li>
-<li class="chapter" data-level="13.8.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#github-web-page-content"><i class="fa fa-check"></i><b>13.8.2</b> GitHub web page content {#}</a></li>
+<li class="chapter" data-level="14.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>14.8.1</b> Creating a Branch and a ‘pull request’</a></li>
+<li class="chapter" data-level="14.8.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#github-web-page-content"><i class="fa fa-check"></i><b>14.8.2</b> GitHub web page content {#}</a></li>
 </ul></li>
-<li class="chapter" data-level="13.9" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable-and-innovationsinfundraising.org"><i class="fa fa-check"></i><b>13.9</b> Airtable and innovationsinfundraising.org</a>
+<li class="chapter" data-level="14.9" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable-and-innovationsinfundraising.org"><i class="fa fa-check"></i><b>14.9</b> Airtable and innovationsinfundraising.org</a>
 <ul>
 <li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable"><i class="fa fa-check"></i>Airtable</a></li>
 <li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#key-features-of-tables-in-airtables-quick-views"><i class="fa fa-check"></i>Key features of tables in Airtables (quick views)</a></li>
 <li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#key-content"><i class="fa fa-check"></i>Key content</a></li>
 </ul></li>
-<li class="chapter" data-level="13.10" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#useful-resources"><i class="fa fa-check"></i><b>13.10</b> Useful resources</a></li>
+<li class="chapter" data-level="14.10" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#useful-resources"><i class="fa fa-check"></i><b>14.10</b> Useful resources</a></li>
 </ul></li>
-<li class="chapter" data-level="14" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>14</b> List of references</a></li>
+<li class="chapter" data-level="15" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>15</b> List of references</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
 
@@ -445,58 +1004,68 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="aware-distance" class="section level1" number="4">
-<h1><span class="header-section-number">4</span> Barriers: Awareness, consideration, and distance</h1>
+<div id="aware-distance" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Barriers: Awareness, consideration, and distance</h1>
 <div class="marginnote">
 <p>This section was written by David Reinstein and Luke Arundel.</p>
 </div>
-<div id="description-and-relevance-to-effective-giving" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> Description and relevance to Effective Giving</h2>
-<p>Typically, the most effective charities operate in developing countries, with all but one of Give Well’s top charities supporting people in sub-Saharan Africa <span class="citation">(“Top Charities” <a href="#ref-TopCharities" role="doc-biblioref">n.d.</a>)</span>. Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount <span class="citation">(Macaskill <a href="#ref-macaskillDoingGoodBetter2015" role="doc-biblioref">2015</a>)</span>. However, the large, social, cultural geographic distance between those in developed countries and those in developing countries may be an important barrier to giving and a reason why people prefer to give locally.</p>
-<p><span class="citation">Loewenstein and Small (<a href="#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref">2007</a>)</span> propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by <span class="citation">Kahneman (<a href="#ref-kahnemanThinkingFastSlow2011" role="doc-biblioref">2011</a>)</span>). This model distinguishes between System 1, which makes initial judgements (using ‘affective cognition’); these are monitored by a more ‘deliberative cognition’ System 2 <span class="citation">(Morewedge and Kahneman <a href="#ref-morewedge2010associative" role="doc-biblioref">2010</a>)</span>.(This model has been subjected to some criticism, <span class="citation">Evans and Stanovich (<a href="#ref-evans2013dual" role="doc-biblioref">2013</a>)</span> discuss the debate around dual system theories)</p>
+<!-- 
+Check inclusion -- (Info enhancing) social closeness of recipient:   @cuddy2007bias, [@Sudhir2016a]
+-->
+<div id="description-and-relevance-to-effective-giving" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Description and relevance to Effective Giving</h2>
+<p>Typically, the most effective charities operate in developing countries, with all but one of Give Well’s top charities supporting people in sub-Saharan Africa <span class="citation">(<a href="#ref-TopCharities" role="doc-biblioref"><strong>TopCharities?</strong></a>)</span>. Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount <span class="citation">(<a href="#ref-macaskillDoingGoodBetter2015" role="doc-biblioref"><strong>macaskillDoingGoodBetter2015?</strong></a>)</span>. However, the large, social, cultural geographic distance between those in developed countries and those in developing countries may be an important barrier to giving and a reason why people prefer to give locally.</p>
+<p><span class="citation">(<a href="#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref"><strong>loewensteinScarecrowTinMan2007?</strong></a>)</span> propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by <span class="citation">(<a href="#ref-kahnemanThinkingFastSlow2011" role="doc-biblioref"><strong>kahnemanThinkingFastSlow2011?</strong></a>)</span>). This model distinguishes between System 1, which makes initial judgements (using ‘affective cognition’); these are monitored by a more ‘deliberative cognition’ System 2 <span class="citation">(<a href="#ref-morewedge2010associative" role="doc-biblioref"><strong>morewedge2010associative?</strong></a>)</span>.(This model has been subjected to some criticism, <span class="citation">(<a href="#ref-evans2013dual" role="doc-biblioref"><strong>evans2013dual?</strong></a>)</span> discuss the debate around dual system theories)</p>
 <!-- LA: this psychological model is widely known but also widely criticised model; we need to either mention it briefly with a link to some papers surveying it, or discuss it more carefully. Perhaps you can draw (and quote) some language from my paper with Robin Bergh, or others in this literature -->
 </div>
-<div id="theoretical-and-conceptual-underpinning" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Theoretical and conceptual underpinning</h2>
+<div id="theoretical-and-conceptual-underpinning" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Theoretical and conceptual underpinning</h2>
 <p>Construal theory, psychological distance, moral distance/moral circles</p>
 <ul>
-<li>Moral expansiveness <!-- TODO: add content from Crimston --></li>
+<li>Moral expansiveness</li>
 </ul>
 <div class="marginnote">
+<p>Crimston’s (2016) ‘moral expansiveness scale’ aims to capture <em>breadth</em> (a ‘representative spread of human and nonhuman entities’) as well as <em>depth</em> (four defined boundaries expressing degree of obligation and moral standing). It expands earlier models and scales</p>
+</div>
+<div class="marginnote">
 <p>Ref: Trope, Yaacov; Liberman, Nira (2010). “Construal-level theory of psychological distance” (PDF). Psychological Review. 117 (2): 440–463. <a href="doi:10.1037/a0018963" class="uri">doi:10.1037/a0018963</a>
-<span class="citation">Crimston et al. (<a href="#ref-crimstonPsychologyMoralExpansiveness2018" role="doc-biblioref">2018</a>)</span></p>
+<span class="citation">(<a href="#ref-crimstonPsychologyMoralExpansiveness2018" role="doc-biblioref"><strong>crimstonPsychologyMoralExpansiveness2018?</strong></a>)</span></p>
 </div>
 <!-- ?cuddy\_ea\_2007 (Sudhir ea, \'16) -->
 </div>
-<div id="in-group" class="section level2" number="4.3">
-<h2><span class="header-section-number">4.3</span> Distance - Spatial/Physical, Social/Cultural: parochial altruism/ingroup bias, interpersonal and identity e.g., race, gender, age, etc</h2>
+<div id="in-group" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Distance - Spatial/Physical, Social/Cultural: parochial altruism/in-group bias, interpersonal and identity e.g., race, gender, age, etc</h2>
 <p>Consider:</p>
 <ul>
 <li><p>What is the evidence that we are less empathetic or less generous to those far from us along these margins?</p></li>
 <li><p>What is the evidence that this is manifested in our actions and choices (political, professional, etc)?</p></li>
 <li><p>What is the evidence that this is manifested in our charitable giving?</p></li>
 </ul>
-<p>Parochialism may pose a significant barrier to effective giving. Parochialism, as defined by <span class="citation">Baron and Szymanska (<a href="#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> is the mental process of making a distinction between in-groups and out-groups, where people feel a greater connection with their own groups and weigh their welfare more heavily.</p>
-<p>There is some evidence for this in charitable contexts. In a laboratory experiment, <span class="citation">Chen and Li (<a href="#ref-chenGroupIdentitySocial2009" role="doc-biblioref">2009</a>)</span> found that when matched with an in-group member, people were significantly more likely to show charitable concern, shown through their allocation of tokens. <span class="citation">Sudhir, Roy, and Cherian (<a href="#ref-Sudhir2016a" role="doc-biblioref">2016</a>)</span> suggest that categorizing others as in-group members (along lines such as race, gender and age) increases the sense of responsibility and level of emotion felt, resulting in higher levels of sympathy and consequently a stronger urge to help. They examined this effect by randomizing advertising content in a large scale experiment with charitable mailings in India. When the woman on a flyer advertising the charity in question was from the in-group (in this case a Hindu woman in India, compared to a Christian woman in the out-group), they found a higher rate of donation and greater amounts raised. They suggest that the charity “more than doubles donation dollars by recognizing the identified victim sympathy bias in making its appeals”.</p>
+<p>Parochialism may pose a significant barrier to effective giving. Parochialism, as defined by <span class="citation"><a href="references.html#ref-baron2011heuristics" role="doc-biblioref">Baron and Szymanska</a> (<a href="references.html#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> is the mental process of making a distinction between in-groups and out-groups, where people feel a greater connection with their own groups and weigh their welfare more heavily.</p>
+<p>There is some evidence for this in charitable contexts. In a laboratory experiment, <span class="citation">(<a href="#ref-chenGroupIdentitySocial2009" role="doc-biblioref"><strong>chenGroupIdentitySocial2009?</strong></a>)</span> found that when matched with an in-group member, people were significantly more likely to show charitable concern, shown through their allocation of tokens. <span class="citation">(<a href="#ref-Sudhir2016a" role="doc-biblioref"><strong>Sudhir2016a?</strong></a>)</span> suggest that categorizing others as in-group members (along lines such as race, gender and age) increases the sense of responsibility and level of emotion felt, resulting in higher levels of sympathy and consequently a stronger urge to help. They examined this effect by randomizing advertising content in a large scale experiment with charitable mailings in India. When the woman on a flyer advertising the charity in question was from the in-group (in this case a Hindu woman in India, compared to a Christian woman in the out-group), they found a higher rate of donation and greater amounts raised. They suggest that the charity “more than doubles donation dollars by recognizing the identified victim sympathy bias in making its appeals.”</p>
 </div>
-<div id="distance-experiential-informational-emotionalaffective" class="section level2" number="4.4">
-<h2><span class="header-section-number">4.4</span> Distance: Experiential, Informational, Emotional/Affective</h2>
+<div id="distance-experiential-informational-emotionalaffective" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Distance: Experiential, Informational, Emotional/Affective</h2>
 <div class="marginnote">
 <p>Ref: small2007_friends small_loewenstein_07_scarecrow</p>
 </div>
 </div>
-<div id="availability" class="section level2" number="4.5">
-<h2><span class="header-section-number">4.5</span> Availability heuristic and media (also see ‘biases’)</h2>
-<p>Rare events such as natural disasters are particularly vivid and salient, and the availability bias suggests that people will overestimate the probability and value of events if they come to mind more easily <span class="citation">(Tversky and Kahneman <a href="#ref-tversky1973availability" role="doc-biblioref">1973</a>)</span>. For example, people might overestimate the probability of airplane crashes due to their salience.</p>
-<p><span class="citation">Loewenstein and Small (<a href="#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref">2007</a>)</span> argue that vividness is also one of the key determinants of sympathy, and one of the most important demonstrations of this is the identifiable victim effect. Their research suggests that victims who are ‘determined’ received higher levels of aid compared with indeterminate victims, as without identifying them people struggle to empathise, and are as a result less likely to help <span class="citation">(Small and Loewenstein <a href="#ref-smallHelpingVictimHelping2003" role="doc-biblioref">2003</a>)</span>.</p>
+<div id="evidence-on-determinants-of-scope-of-moral-circlemoral-expansiveness-and-its-impact-on-giving-and-other-regarding-behavior" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Evidence on determinants of scope of moral circle/moral expansiveness and its impact on giving and other-regarding behavior</h2>
+<p>See: Crimston et al (year) and references cited within</p>
+</div>
+<div id="availability" class="section level2" number="5.6">
+<h2><span class="header-section-number">5.6</span> Availability heuristic and media (also see ‘biases’)</h2>
+<p>Rare events such as natural disasters are particularly vivid and salient, and the availability bias suggests that people will overestimate the probability and value of events if they come to mind more easily <span class="citation">(<a href="references.html#ref-tversky1973availability" role="doc-biblioref">Tversky and Kahneman 1973</a>)</span>. For example, people might overestimate the probability of airplane crashes due to their salience.</p>
+<p><span class="citation">(<a href="#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref"><strong>loewensteinScarecrowTinMan2007?</strong></a>)</span> argue that vividness is also one of the key determinants of sympathy, and one of the most important demonstrations of this is the identifiable victim effect. Their research suggests that victims who are ‘determined’ received higher levels of aid compared with indeterminate victims, as without identifying them people struggle to empathise, and are as a result less likely to help <span class="citation">(<a href="#ref-smallHelpingVictimHelping2003" role="doc-biblioref"><strong>smallHelpingVictimHelping2003?</strong></a>)</span>.</p>
 <div class="marginnote">
 <p>This effect is discussed further under the <a href="#statvictims">‘statistical/identifiable victims’</a> quantitative bias.</p>
 </div>
 <!-- TODO: can we figure out a way to dynamically cite section numbers? -->
-<p><span class="citation">Epstein (<a href="#ref-epsteinCrisisMentalitySSIR2006" role="doc-biblioref">2006</a>)</span> concluded that natural disasters received a level of donations that was significantly out of proportion to the damage the disasters caused, while other long-term, persistent problems such as AIDS and malaria got much less attention, and consequently much less funding. For example, he discusses the difference in donation rates at the time (2006) between victims of Hurricane Katrina and victims of AIDS, with private donors giving 1,839 dollars per person to those affected by Katrina, and only 10 dollars per person diagnosed with AIDS. He also argued that the huge donations to causes like Hurricane Katrina had the effect of significantly reducing donations to some other charities, although this idea of ‘expenditure substitution’ is hard to measure and is still largely unresolved. See previous section (<a href="substitution.html#substitution">’Are characteristic in competition</a>)</p>
-<p>Even when it comes to relief from the government, <span class="citation">Eisensee and Stromberg (<a href="#ref-eisenseeNewsFloodsNews2007" role="doc-biblioref">2007</a>)</span> suggest that the level of U.S. relief for natural disasters depended on whether the disaster had happened while other widely covered events were also occurring.</p>
-<p>Using data on natural disasters from the Emergency Disaster Database (EM-DAT), and disaster responses from the Office of Foreign Disaster Assistance (OFDA), they explored the relationship between news coverage and relief for natural disasters. To examine whether news had a causal effect on relief, they used two instrumental variables. These variables served the purpose of constructing “meaningful and operational measures of the availability of newsworthy material”. First, they used ‘news pressure’, by measuring the median number of minutes news broadcasts devoted to the top three news stories of the day. Secondly, they used the Olympics, chosen as a large media event that isn’t directly related to politics.</p>
-<p>They concluded that U.S. disaster relief decisions were dependent on “the availability of other newsworthy material at the time of the disaster”. Their explanation of this effect is that “relief decisions are driven by news coverage of disasters and that this news coverage is crowded out by other newsworthy material”. This potentially poses an issue for effective giving, as the authors suggest that the levels of relief shouldn’t be driven by factors that are not related to the effectiveness of the relief.</p>
+<p><span class="citation">(<a href="#ref-epsteinCrisisMentalitySSIR2006" role="doc-biblioref"><strong>epsteinCrisisMentalitySSIR2006?</strong></a>)</span> concluded that natural disasters received a level of donations that was significantly out of proportion to the damage the disasters caused, while other long-term, persistent problems such as AIDS and malaria got much less attention, and consequently much less funding. For example, he discusses the difference in donation rates at the time (2006) between victims of Hurricane Katrina and victims of AIDS, with private donors giving 1,839 dollars per person to those affected by Katrina, and only 10 dollars per person diagnosed with AIDS. He also argued that the huge donations to causes like Hurricane Katrina had the effect of significantly reducing donations to some other charities, although this idea of ‘expenditure substitution’ is hard to measure and is still largely unresolved. See previous section (<a href="substitution.html#substitution">’Are characteristic in competition</a>)</p>
+<p>Even when it comes to relief from the government, <span class="citation"><a href="references.html#ref-eisenseeNewsFloodsNews2007" role="doc-biblioref">Eisensee and Stromberg</a> (<a href="references.html#ref-eisenseeNewsFloodsNews2007" role="doc-biblioref">2007</a>)</span> suggest that the level of U.S. relief for natural disasters depended on whether the disaster had happened while other widely covered events were also occurring.</p>
+<p>Using data on natural disasters from the Emergency Disaster Database (EM-DAT), and disaster responses from the Office of Foreign Disaster Assistance (OFDA), they explored the relationship between news coverage and relief for natural disasters. To examine whether news had a causal effect on relief, they used two instrumental variables. These variables served the purpose of constructing “meaningful and operational measures of the availability of newsworthy material.” First, they used ‘news pressure,’ by measuring the median number of minutes news broadcasts devoted to the top three news stories of the day. Secondly, they used the Olympics, chosen as a large media event that isn’t directly related to politics.</p>
+<p>They concluded that U.S. disaster relief decisions were dependent on “the availability of other newsworthy material at the time of the disaster.” Their explanation of this effect is that “relief decisions are driven by news coverage of disasters and that this news coverage is crowded out by other newsworthy material.” This potentially poses an issue for effective giving, as the authors suggest that the levels of relief shouldn’t be driven by factors that are not related to the effectiveness of the relief.</p>
 <div class="marginnote">
 They use a very interesting methodology; we might describe it a bit more.
 </div>
@@ -505,22 +1074,22 @@ They use a very interesting methodology; we might describe it a bit more.
 </div>
 <!-- Consistent problems aren't as noticable (reflected in media also) - availability heuristic [separate from 'repeated exposure makes it more relevant ... opposite implication] -->
 </div>
-<div id="reference-dependence" class="section level2" number="4.6">
-<h2><span class="header-section-number">4.6</span> Reference dependence</h2>
-<p>The issue of the arguably disproportionate attention that natural disasters receive has been previously explored. <span class="citation">Epstein (<a href="#ref-epsteinCrisisMentalitySSIR2006" role="doc-biblioref">2006</a>)</span> disccuses the high levels of support that natural disasters get. He drew on the work of <span class="citation">Spence (<a href="#ref-spenceMismatchingMoneyNeed2006" role="doc-biblioref">2006</a>)</span>, who reported that there was little relationship between the degree of need and the level of donations. This was illustrated by the private donations (at the time - 2006) of USD 1839 per person impacted by Hurricane Katrina, and USD 10 per person impacted by AIDS. <span class="citation">Small (<a href="#ref-small2010reference" role="doc-biblioref">2010</a>)</span> posed potential questions that this might raise:</p>
+<div id="reference-dependence" class="section level2" number="5.7">
+<h2><span class="header-section-number">5.7</span> Reference dependence</h2>
+<p>The issue of the arguably disproportionate attention that natural disasters receive has been previously explored. <span class="citation">(<a href="#ref-epsteinCrisisMentalitySSIR2006" role="doc-biblioref"><strong>epsteinCrisisMentalitySSIR2006?</strong></a>)</span> disccuses the high levels of support that natural disasters get. He drew on the work of <span class="citation">(<a href="#ref-spenceMismatchingMoneyNeed2006" role="doc-biblioref"><strong>spenceMismatchingMoneyNeed2006?</strong></a>)</span>, who reported that there was little relationship between the degree of need and the level of donations. This was illustrated by the private donations (at the time - 2006) of USD 1839 per person impacted by Hurricane Katrina, and USD 10 per person impacted by AIDS. <span class="citation">(<a href="#ref-small2010reference" role="doc-biblioref"><strong>small2010reference?</strong></a>)</span> posed potential questions that this might raise:</p>
 <blockquote>
 <p>Although the response to dramatic events showcases a great human capacity for caring, the relative neglect of ongoing suffering reveals an equal albeit less attractive capacity for indifference. Can we make sense of this duality? Why do chronic conditions fail to move us even though they do so much harm?</p>
 </blockquote>
-<p><span class="citation">Sudhir, Roy, and Cherian (<a href="#ref-Sudhir2016a" role="doc-biblioref">2016</a>)</span> and <span class="citation">Small (<a href="#ref-small2010reference" role="doc-biblioref">2010</a>)</span> have both suggested that reference dependence could provide an explanation for this issue, drawing on the work of <span class="citation">Kahneman and Tversky (<a href="#ref-kahnemanProspectTheoryAnalysis1979" role="doc-biblioref">1979</a>)</span>. Reference dependence is the notion that people don’t value absolute amounts, but instead view gains and losses relative to a reference point <span class="citation">(Kahneman and Tversky <a href="#ref-kahnemanProspectTheoryAnalysis1979" role="doc-biblioref">1979</a>; Tversky and Kahneman <a href="#ref-tverskyLossAversionRiskless1991" role="doc-biblioref">1991</a>)</span>.</p>
-<p>Studies from <span class="citation">Small (<a href="#ref-small2010reference" role="doc-biblioref">2010</a>)</span> analyze this effect beyond the utility of the individual, evaluating reference dependence in the context of others’ utility. She predicts that because sympathy could be based on change, rather than on a state, then people who have experienced a loss will induce greater levels of sympathy than those who have chronic issues. <span class="citation">Small (<a href="#ref-small2010reference" role="doc-biblioref">2010</a>)</span> summarizes the move from analyzing reference dependence for one’s own self, to analyzing reference dependence when viewing the circumstances of others, as follows:</p>
+<p><span class="citation">(<a href="#ref-Sudhir2016a" role="doc-biblioref"><strong>Sudhir2016a?</strong></a>)</span> and <span class="citation">(<a href="#ref-small2010reference" role="doc-biblioref"><strong>small2010reference?</strong></a>)</span> have both suggested that reference dependence could provide an explanation for this issue, drawing on the work of <span class="citation">(<a href="#ref-kahnemanProspectTheoryAnalysis1979" role="doc-biblioref"><strong>kahnemanProspectTheoryAnalysis1979?</strong></a>)</span>. Reference dependence is the notion that people don’t value absolute amounts, but instead view gains and losses relative to a reference point <span class="citation">(<a href="#ref-kahnemanProspectTheoryAnalysis1979" role="doc-biblioref"><strong>kahnemanProspectTheoryAnalysis1979?</strong></a>; <a href="#ref-tverskyLossAversionRiskless1991" role="doc-biblioref"><strong>tverskyLossAversionRiskless1991?</strong></a>)</span>.</p>
+<p>Studies from <span class="citation">(<a href="#ref-small2010reference" role="doc-biblioref"><strong>small2010reference?</strong></a>)</span> analyze this effect beyond the utility of the individual, evaluating reference dependence in the context of others’ utility. She predicts that because sympathy could be based on change, rather than on a state, then people who have experienced a loss will induce greater levels of sympathy than those who have chronic issues. <span class="citation">(<a href="#ref-small2010reference" role="doc-biblioref"><strong>small2010reference?</strong></a>)</span> summarizes the move from analyzing reference dependence for one’s own self, to analyzing reference dependence when viewing the circumstances of others, as follows:</p>
 <blockquote>
 <p>Although the reference dependence modeled in prospect theory was conceived to explain the value of outcomes for the self, this research suggests that feelings and behavior with respect to the outcomes of others similarly responds to changes in welfare, not just absolute states. The studies provide insight into how the hardships of others appeal to our emotions. Bearing reference dependence in mind, the government, media and humanitarian agencies can better appeal to sympathy by shifting the focus of attention away from stats of need and instead to losses relative to a reference point.</p>
 </blockquote>
 <p>She also suggests that the high levels of sympathy and donations seen with natural disasters like Hurricane Katrina, and the relative lack of sympathy for AIDS and malaria, are consistent with this idea.</p>
-<p>The first study from <span class="citation">Small (<a href="#ref-small2010reference" role="doc-biblioref">2010</a>)</span> examined whether people feel more sympathy for those who have had a negative change, by asking participants to rate their sympathy for people with health conditions that were described as either chronic or recent onset. She found that sympathy was significantly greater in the loss victims than the constant state victims, which she argued was the first evidence that sympathy may be greater in cases that involve a clear loss than for equivalent cases that involve a chronic misfortune.</p>
-<p>Her second study examined how this idea translated from emotion into actual decision making, using a dictator game. It found that allocators in the dictator game gave more money, and felt greater sympathy, to recipients who had recently lost than to those recipients who stayed constant. This led her to conclude that “prosocial behaviour is not simply a function of others’ states, but additionally responds to whether that state is chronic or changed”.</p>
-<p>In a study from <span class="citation">Sudhir, Roy, and Cherian (<a href="#ref-Sudhir2016a" role="doc-biblioref">2016</a>)</span>, where they randomized charitable marketing content (described above), they also found evidence for sympathy being driven by reference dependency. They found that when victims were labelled as currently destitute, having been well-off before, this generated 50% more donors, and average donations per mailing increased by 33%. This is relative to advertisements depicting someone also described as destitute, but with an undescribed past. They concluded that this supported their hypothesis that those in chronic poverty are likely to get less sympathy than those who have suffered a change.</p>
-<p>These reference dependence effects may only be significant when the target is an identified victim. In another study from <span class="citation">Small (<a href="#ref-small2010reference" role="doc-biblioref">2010</a>)</span>, she examined whether the affective quality of the victim moderates the reference dependence effect. She found, consistent with her other studies, that identified <em>loss</em> victims elicited more sympathy than identified <em>constant-state</em> victims. However, when this effect was examined with statistical victims, the effect was reversed, with the constant state victims getting more sympathy than the loss victims. Small suggests that this could be because when judgements are less emotion-based, as in the evaluation of statistical victims, people are more likely to account for the duration of the hardship. She evaluated the significance of this result as follows:</p>
+<p>The first study from <span class="citation">(<a href="#ref-small2010reference" role="doc-biblioref"><strong>small2010reference?</strong></a>)</span> examined whether people feel more sympathy for those who have had a negative change, by asking participants to rate their sympathy for people with health conditions that were described as either chronic or recent onset. She found that sympathy was significantly greater in the loss victims than the constant state victims, which she argued was the first evidence that sympathy may be greater in cases that involve a clear loss than for equivalent cases that involve a chronic misfortune.</p>
+<p>Her second study examined how this idea translated from emotion into actual decision making, using a dictator game. It found that allocators in the dictator game gave more money, and felt greater sympathy, to recipients who had recently lost than to those recipients who stayed constant. This led her to conclude that “prosocial behaviour is not simply a function of others’ states, but additionally responds to whether that state is chronic or changed.”</p>
+<p>In a study from <span class="citation">(<a href="#ref-Sudhir2016a" role="doc-biblioref"><strong>Sudhir2016a?</strong></a>)</span>, where they randomized charitable marketing content (described above), they also found evidence for sympathy being driven by reference dependency. They found that when victims were labelled as currently destitute, having been well-off before, this generated 50% more donors, and average donations per mailing increased by 33%. This is relative to advertisements depicting someone also described as destitute, but with an undescribed past. They concluded that this supported their hypothesis that those in chronic poverty are likely to get less sympathy than those who have suffered a change.</p>
+<p>These reference dependence effects may only be significant when the target is an identified victim. In another study from <span class="citation">(<a href="#ref-small2010reference" role="doc-biblioref"><strong>small2010reference?</strong></a>)</span>, she examined whether the affective quality of the victim moderates the reference dependence effect. She found, consistent with her other studies, that identified <em>loss</em> victims elicited more sympathy than identified <em>constant-state</em> victims. However, when this effect was examined with statistical victims, the effect was reversed, with the constant state victims getting more sympathy than the loss victims. Small suggests that this could be because when judgements are less emotion-based, as in the evaluation of statistical victims, people are more likely to account for the duration of the hardship. She evaluated the significance of this result as follows:</p>
 <blockquote>
 <p>“This finding lends support to the key theoretical claim that reference-dependent aid judgements are driven by emotion-based thought; when the victim description is unemotional, the effect does not persist”</p>
 </blockquote>
@@ -530,18 +1099,18 @@ They use a very interesting methodology; we might describe it a bit more.
 <!-- LS -it's improving but lets focus more on the *evidence* for these things. It will help to look at the previous literature review and synthesis work on these (see section 2.2 for a start). We can even incorporate material from this work, carefully citing it
 -->
 </div>
-<div id="future" class="section level2" number="4.7">
-<h2><span class="header-section-number">4.7</span> Distance - Temporal (future problems/individuals) and Hypothetical (probability of occurance)</h2>
+<div id="future" class="section level2" number="5.8">
+<h2><span class="header-section-number">5.8</span> Distance - Temporal (future problems/individuals) and Hypothetical (probability of occurance)</h2>
 <div class="marginnote">
 <p>This is particularly relevant to causes and charities dealing with the medium-term and long-term future.</p>
 </div>
-<div id="overview-1" class="section level3 unnumbered" number="">
+<div id="overview-1" class="section level3 unnumbered">
 <h3>Overview</h3>
 <p>When considering how we can reduce suffering through effective altruism, immediate problems such as hunger and poverty are clearly visible. However, as well as the sentient beings alive today, altruists may consider challenges that can impact the welfare of future individuals as well. Benjamin Todd outlines this in his article on <a href="https://80000hours.org/articles/future-generations">‘longtermism’</a> (worth reading for a more in-depth discussion of the issue) as follows:</p>
 <blockquote>
 <p>Since the future is big, there could be far more people in the future than in the present generation. This means that if you want to help people in general, your <em>key concern</em> shouldn’t be to help the present generation, but to ensure that the future goes well in the long-term… This thesis is often confused with the claim that we shouldn’t <em>do</em> anything to help people in the present generation. But the long-term value thesis is about what most <em>matters</em> - what should <em>do</em> about it is a further question. It might turn out that the best way to help those in the future is to improve the lives of people in the present, such as through providing health and education. The difference is that the major <em>reason</em> to help those in the present is to improve the long-term"</p>
 </blockquote>
-<p>This consideration of future people and future problems includes well-known issues such as climate change. It also includes less-discussed) lower-probability or more distant events such as nuclear war, bioterrorism and AI related issues <span class="citation">(Macaskill <a href="#ref-macaskillDoingGoodBetter2015" role="doc-biblioref">2015</a>)</span>. Individuals such as <span class="citation">Ord (<a href="#ref-ord2020precipice" role="doc-biblioref">2020</a>)</span> and institutions like the <a href="https://www.fhi.ox.ac.uk">Future of Humanity Institute</a> have argued that these problems are important and neglected.</p>
+<p>This consideration of future people and future problems includes well-known issues such as climate change. It also includes less-discussed) lower-probability or more distant events such as nuclear war, bioterrorism and AI related issues <span class="citation">(<a href="#ref-macaskillDoingGoodBetter2015" role="doc-biblioref"><strong>macaskillDoingGoodBetter2015?</strong></a>)</span>. Individuals such as <span class="citation">(<a href="#ref-ord2020precipice" role="doc-biblioref"><strong>ord2020precipice?</strong></a>)</span> and institutions like the <a href="https://www.fhi.ox.ac.uk">Future of Humanity Institute</a> have argued that these problems are important and neglected.</p>
 <p>However, even motivating ‘giving for current issues’ <a href="present-puzzle.html#present-puzzle">presents many challenges</a>; encouraging giving for (e.g.) ‘individuals who are yet to be’ born could prove even more difficult.</p>
 <div class="marginnote">
 <p>See <a href="https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/">this podcast</a> and the articles and books linked for a more comprehensive introduction to the long-term future.</p>
@@ -550,9 +1119,9 @@ They use a very interesting methodology; we might describe it a bit more.
 <p>See also these resources from <a href="https://www.effectivealtruism.org/">effectivealtruism.org</a>, see <a href="https://www.effectivealtruism.org/articles/tyler-john-representing-future-generations/">here</a> for a talk on the importance of future generations, and <a href="https://www.effectivealtruism.org/articles/cause-profile-long-run-future/">here</a> for an overview of the long-run future as an issue</p>
 </div>
 </div>
-<div id="discounting-future-payoffsassetswelfare" class="section level3 unnumbered" number="">
+<div id="discounting-future-payoffsassetswelfare" class="section level3 unnumbered">
 <h3>Discounting future payoffs/assets/welfare</h3>
-<p>Considering how heavily we should weigh the future is a subject that has been raised frequently in the field of Economics (perhaps most notably climate economics in recent times), leading us to the idea (and various conceptions) of ‘discount rates’ <span class="citation">(Ackerman <a href="#ref-ackerman2008climate" role="doc-biblioref">2008</a>)</span>. Greaves (2017) outlines how discount rates can work as follows:</p>
+<p>Considering how heavily we should weigh the future is a subject that has been raised frequently in the field of Economics (perhaps most notably climate economics in recent times), leading us to the idea (and various conceptions) of ‘discount rates’ <span class="citation">(<a href="#ref-ackerman2008climate" role="doc-biblioref"><strong>ackerman2008climate?</strong></a>)</span>. Greaves (2017) outlines how discount rates can work as follows:</p>
 <blockquote>
 <p>Suppose we have an opportunity to undertake an investment project, sacrificing <em>k</em> &lt; 1 units of consumption today in order to secure an increase of 1 unit in consumption a time interval <em>t</em> later. Our basic question is: what is the threshold value of k at which the status quo becomes socially preferable to such a sacrifice? The answer to this question is the <em>social discount factor</em> for consumption at time t, <em>R(t)</em>. (One also has a <em>private</em> discount factor, corresponding to private as opposed to social preferences; in the remainder of this article, the focus is on the social version.) One generally expects <em>R</em> to decline with time — we are willing to sacrifice more today to gain an increase in one unit of consumption tomorrow than to gain an increase of one unit of consumption next year. The decline, however, may be faster or slower, and for current purposes the rate of the decline is crucial.</p>
 </blockquote>
@@ -561,12 +1130,12 @@ They use a very interesting methodology; we might describe it a bit more.
 </blockquote>
 <!-- #TODO: recover reference greaves2017discounting -->
 <div class="marginnote">
-<p>For further reading on discount rates see <span class="citation">Weitzman (<a href="#ref-weitzman1998far" role="doc-biblioref">1998</a>)</span>, <span class="citation">Ackerman (<a href="#ref-ackerman2008climate" role="doc-biblioref">2008</a>)</span>, <span class="citation">Ebert and Prelec (<a href="#ref-ebert2007fragility" role="doc-biblioref">2007</a>)</span>, and <span class="citation">Farmer and Geanakoplos (<a href="#ref-farmer2009hyperbolic" role="doc-biblioref">2009</a>)</span></p>
+<p>For further reading on discount rates see <span class="citation">(<a href="#ref-weitzman1998far" role="doc-biblioref"><strong>weitzman1998far?</strong></a>)</span>, <span class="citation">(<a href="#ref-ackerman2008climate" role="doc-biblioref"><strong>ackerman2008climate?</strong></a>)</span>, <span class="citation">(<a href="#ref-ebert2007fragility" role="doc-biblioref"><strong>ebert2007fragility?</strong></a>)</span>, and <span class="citation">(<a href="#ref-farmer2009hyperbolic" role="doc-biblioref"><strong>farmer2009hyperbolic?</strong></a>)</span></p>
 </div>
 
 <div class="note">
 <p><strong>An informal discussion from David Reinstein</strong></p>
-<p>In considering whether there is a <em>bias</em> against helping people in the future we need to establish a baseline: At what rate (if at all) <em>should</em> an effective altruist weigh (far) future lives/pleasure/suffering as less-valuable as current or near-future lives? At what rate should we ‘discount’, if at all?</p>
+<p>In considering whether there is a <em>bias</em> against helping people in the future we need to establish a baseline: At what rate (if at all) <em>should</em> an effective altruist weigh (far) future lives/pleasure/suffering as less-valuable as current or near-future lives? At what rate should we ‘discount,’ if at all?</p>
 <p><br />
 </p>
 <p>I think it’s actually not clear that we, as a society, should be discounting at all, either for consumption itself, or for some conception of ‘happiness’ or ‘utility’ (where here I’m thinking of ‘utility’ as something that does express well-being, not the very abstract economic concept of ‘the thing that we maximize’).</p>
@@ -596,9 +1165,9 @@ They use a very interesting methodology; we might describe it a bit more.
 <p>This is not the same as discounting future utility or welfare. There’s no clear reason we should do this.</p>
 </div>
 </div>
-<div id="reasons-the-distant-future-may-be-neglected" class="section level3 unnumbered" number="">
+<div id="reasons-the-distant-future-may-be-neglected" class="section level3 unnumbered">
 <h3>Reasons the distant future may be neglected</h3>
-<p>Beyond the technical analysis of “at what rates people might discount the future”, <span class="citation">Schubert (<a href="#ref-schubertFocusCollectiveAttention2020" role="doc-biblioref">2020</a>)</span> outlines a few reasons why the distant future may receive less attention and action.</p>
+<p>Beyond the technical analysis of “at what rates people might discount the future,” <span class="citation">(<a href="#ref-schubertFocusCollectiveAttention2020" role="doc-biblioref"><strong>schubertFocusCollectiveAttention2020?</strong></a>)</span> outlines a few reasons why the distant future may receive less attention and action.</p>
 <div class="marginnote">
 <p>Stefan Schubert also discusses the psychology of long-termism and existential risk <a href="https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-existential-risk/">here</a></p>
 </div>
@@ -606,7 +1175,7 @@ They use a very interesting methodology; we might describe it a bit more.
 <ol style="list-style-type: decimal">
 <li><p>Present issues are likely more salient than future issues, and because these issues are more salient, they will be discussed more.</p></li>
 <li><p>Uncertainty is likely an important factor. Even if you are concerned with future well-being, if it is unclear how you can impact the distant future, you may be more likely to focus on other issues.</p></li>
-<li><p>Lack-of-polarisation: “When there is no political conflict, a question might get less discussed, even if it’s seen as morally important”.</p></li>
+<li><p>Lack-of-polarisation: “When there is no political conflict, a question might get less discussed, even if it’s seen as morally important.”</p></li>
 </ol>
 <p>While uncertainty could pose a problem for encouraging giving for distant future causes in particular, factoring in uncertainty is not necessarily a bias. It may be a reasonable choice, and there is further discussion of uncertainty and how this may link to a form of risk-aversion <a href="#other-possibilities">(see here)</a>.</p>
 <p>The other barriers in this section also link to a potential lack of future-focused giving. For example, when it comes to the <a href="aware-distance.html#availability">availability bias</a>, we suggested that vividness and salience of events may influence how people estimate probabilities. Future events may be hard to picture, particularly more abstract risks like the <a href="https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/">dangers of artificial intelligence</a></p>
@@ -614,107 +1183,23 @@ They use a very interesting methodology; we might describe it a bit more.
 <!-- #TODO -- recover ref (Karlan and Wood, 2017) -->
 <p><br />
 </p>
-<p>The impact of people being categorised into <a href="aware-distance.html#in-group">in-groups and out-groups</a> could also be considered in analysing potential donations to distant-future causes. In their review of the literature, <span class="citation">Sudhir, Roy, and Cherian (<a href="#ref-Sudhir2016a" role="doc-biblioref">2016</a>)</span> suggest social identity works as follows:</p>
+<p>The impact of people being categorised into <a href="aware-distance.html#in-group">in-groups and out-groups</a> could also be considered in analysing potential donations to distant-future causes. In their review of the literature, <span class="citation">(<a href="#ref-Sudhir2016a" role="doc-biblioref"><strong>Sudhir2016a?</strong></a>)</span> suggest social identity works as follows:</p>
 <blockquote>
-<p>Social identity has three major components: categorization, identification and comparison. Categorization is the process of putting people, including ourselves, into categories; for example, labelling a person as Chinese, black, female, or a lawyer are all different ways of categorization. Categorization also defines our self-image. Identification is the process by which we associate or identify ourselves with certain groups. We identify with in-groups, and we do not identify with out-groups. Finally, comparison is the process by which we compare in-groups with out-groups, creating a favourable bias toward the in-group. Overall, categorization of others as belonging to an in-group arouses feelings of greater closeness and responsibility and augments emotional response to their misfortune through greater sympathy (<span class="citation">Brewer and Gardner (<a href="#ref-brewer1996we" role="doc-biblioref">1996</a>)</span>, <span class="citation">Dovidio et al. (<a href="#ref-dovidio1997nature" role="doc-biblioref">1997</a>)</span>) and willingness to help (<span class="citation">Dovidio (<a href="#ref-dovidio1984helping" role="doc-biblioref">1984</a>)</span>, <span class="citation">Dovidio et al. (<a href="#ref-dovidio1997nature" role="doc-biblioref">1997</a>)</span>).</p>
+<p>Social identity has three major components: categorization, identification and comparison. Categorization is the process of putting people, including ourselves, into categories; for example, labelling a person as Chinese, black, female, or a lawyer are all different ways of categorization. Categorization also defines our self-image. Identification is the process by which we associate or identify ourselves with certain groups. We identify with in-groups, and we do not identify with out-groups. Finally, comparison is the process by which we compare in-groups with out-groups, creating a favourable bias toward the in-group. Overall, categorization of others as belonging to an in-group arouses feelings of greater closeness and responsibility and augments emotional response to their misfortune through greater sympathy (<span class="citation">(<a href="#ref-brewer1996we" role="doc-biblioref"><strong>brewer1996we?</strong></a>)</span>, <span class="citation">(<a href="#ref-dovidio1997nature" role="doc-biblioref"><strong>dovidio1997nature?</strong></a>)</span>) and willingness to help (<span class="citation">(<a href="#ref-dovidio1984helping" role="doc-biblioref"><strong>dovidio1984helping?</strong></a>)</span>, <span class="citation">(<a href="#ref-dovidio1997nature" role="doc-biblioref"><strong>dovidio1997nature?</strong></a>)</span>).</p>
 </blockquote>
 <p>Distant-future generations might be mentally placed in their own category (considered separated from near-future and present generations). This categorical distance could mean that people identify with distant-future generations less. If they <em>are</em> seen as an out-group, this could pose a barrier for giving to distant future generations.</p>
 <div class="marginnote">
 <p>Whether those in the future are indeed commonly percieved or treated as an out-group may be an interesting research direction. This is something we need to look into more for this present survey.</p>
 </div>
 </div>
-<div id="future-bias-ev" class="section level3" number="4.7.1">
-<h3><span class="header-section-number">4.7.1</span> Evidence (work in progress)</h3>
+<div id="future-bias-ev" class="section level3" number="5.8.1">
+<h3><span class="header-section-number">5.8.1</span> Evidence (work in progress)</h3>
 <ul>
 <li><p><strong>What is the evidence </strong> that they are actually doing this (taking into account the ‘uncertainty’ issue (we know less about how to help the far-future).</p></li>
 <li><p>What factors drive this bias or mitigate it?</p></li>
 </ul>
 
 </div>
-</div>
-</div>
-<h3> List of references</h3>
-<div id="refs" class="references">
-<div id="ref-ackerman2008climate">
-<p>Ackerman, Frank. 2008. “Climate Economics in Four Easy Pieces.” <em>Development</em> 51 (3): 325–31.</p>
-</div>
-<div id="ref-baron2011heuristics">
-<p>Baron, Jonathan, and Ewa Szymanska. 2011. “Heuristics and Biases in Charity.”</p>
-</div>
-<div id="ref-brewer1996we">
-<p>Brewer, Marilynn B, and Wendi Gardner. 1996. “Who Is This" We"? Levels of Collective Identity and Self Representations.” <em>Journal of Personality and Social Psychology</em> 71 (1): 83.</p>
-</div>
-<div id="ref-chenGroupIdentitySocial2009">
-<p>Chen, Yan, and Sherry Xin Li. 2009. “Group Identity and Social Preferences.” <em>American Economic Review</em> 99 (1): 431–57. <a href="https://doi.org/10.1257/aer.99.1.431">https://doi.org/10.1257/aer.99.1.431</a>.</p>
-</div>
-<div id="ref-crimstonPsychologyMoralExpansiveness2018">
-<p>Crimston, Daniel, Matthew J. Hornsey, Paul G. Bain, and Brock Bastian. 2018. “Toward a Psychology of Moral Expansiveness.” <em>Current Directions in Psychological Science</em> 27 (1): 14–19. <a href="https://doi.org/10/gc2tm2">https://doi.org/10/gc2tm2</a>.</p>
-</div>
-<div id="ref-dovidio1984helping">
-<p>Dovidio, John F. 1984. “Helping Behavior and Altruism: An Empirical and Conceptual Overview.” In <em>Advances in Experimental Social Psychology</em>, 17:361–427. Elsevier.</p>
-</div>
-<div id="ref-dovidio1997nature">
-<p>Dovidio, John F, Kerry Kawakami, Craig Johnson, Brenda Johnson, and Adaiah Howard. 1997. “On the Nature of Prejudice: Automatic and Controlled Processes.” <em>Journal of Experimental Social Psychology</em> 33 (5): 510–40.</p>
-</div>
-<div id="ref-ebert2007fragility">
-<p>Ebert, Jane EJ, and Drazen Prelec. 2007. “The Fragility of Time: Time-Insensitivity and Valuation of the Near and Far Future.” <em>Management Science</em> 53 (9): 1423–38.</p>
-</div>
-<div id="ref-eisenseeNewsFloodsNews2007">
-<p>Eisensee, T, and D Stromberg. 2007. “News Floods, News Droughts, and US Disaster Relief.” <em>Quarterly Journal of Economics</em> 122 (2): 693–728. <a href="https://doi.org/10.1162/qjec.122.2.693">https://doi.org/10.1162/qjec.122.2.693</a>.</p>
-</div>
-<div id="ref-epsteinCrisisMentalitySSIR2006">
-<p>Epstein, Keith. 2006. “Crisis Mentality (SSIR).” 2006. <a href="https://ssir.org/articles/entry/crisis_mentality">https://ssir.org/articles/entry/crisis_mentality</a>.</p>
-</div>
-<div id="ref-evans2013dual">
-<p>Evans, Jonathan St BT, and Keith E Stanovich. 2013. “Dual-Process Theories of Higher Cognition: Advancing the Debate.” <em>Perspectives on Psychological Science</em> 8 (3): 223–41.</p>
-</div>
-<div id="ref-farmer2009hyperbolic">
-<p>Farmer, J Doyne, and John Geanakoplos. 2009. “Hyperbolic Discounting Is Rational: Valuing the Far Future with Uncertain Discount Rates.”</p>
-</div>
-<div id="ref-kahnemanThinkingFastSlow2011">
-<p>Kahneman, Daniel. 2011. <em>Thinking, Fast and Slow</em>. Penguin Books.</p>
-</div>
-<div id="ref-kahnemanProspectTheoryAnalysis1979">
-<p>Kahneman, Daniel, and Amos Tversky. 1979. “Prospect Theory: An Analysis of Decision Under Risk.” <em>Econometrica</em> 47 (2): 263–91. <a href="https://doi.org/10.2307/1914185">https://doi.org/10.2307/1914185</a>.</p>
-</div>
-<div id="ref-loewensteinScarecrowTinMan2007">
-<p>Loewenstein, George, and Deborah A Small. 2007. “The Scarecrow and the Tin Man : The Vicissitudes of Human Sympathy and Caring” 11 (2): 112–26. <a href="https://doi.org/10.1037/1089-2680.11.2.112">https://doi.org/10.1037/1089-2680.11.2.112</a>.</p>
-</div>
-<div id="ref-macaskillDoingGoodBetter2015">
-<p>Macaskill, William. 2015. <em>Doing Good Better</em>. Guardian Books.</p>
-</div>
-<div id="ref-morewedge2010associative">
-<p>Morewedge, Carey K, and Daniel Kahneman. 2010. “Associative Processes in Intuitive Judgment.” <em>Trends in Cognitive Sciences</em> 14 (10): 435–40.</p>
-</div>
-<div id="ref-ord2020precipice">
-<p>Ord, Toby. 2020. <em>The Precipice: Existential Risk and the Future of Humanity</em>. Hachette Books.</p>
-</div>
-<div id="ref-schubertFocusCollectiveAttention2020">
-<p>Schubert, Stefan. 2020. “The Focus of Collective Attention and the Long-Run Future.” Stefan Schubert. 2020. <a href="https://stefanfschubert.com/blog/2020/7/24/the-focus-of-collective-attention-and-the-long-run-future">https://stefanfschubert.com/blog/2020/7/24/the-focus-of-collective-attention-and-the-long-run-future</a>.</p>
-</div>
-<div id="ref-small2010reference">
-<p>Small, Deborah A. 2010. “Reference-Dependent Sympathy.” <em>Organizational Behavior and Human Decision Processes</em> 112 (2): 151–60.</p>
-</div>
-<div id="ref-smallHelpingVictimHelping2003">
-<p>Small, Deborah A, and George Loewenstein. 2003. “Helping a Victim or Helping the Victim: Altrusim and Identifiability.” <em>Journal of Risk and Uncertainty</em> 26 (1): 5–16. <a href="https://doi.org/10.1023/A:1022299422219">https://doi.org/10.1023/A:1022299422219</a>.</p>
-</div>
-<div id="ref-spenceMismatchingMoneyNeed2006">
-<p>Spence, C. 2006. “Mismatching Money and Need.” <em>Stanford Social Innovation Review</em> 4 (1).</p>
-</div>
-<div id="ref-Sudhir2016a">
-<p>Sudhir, K, Subroto Roy, and Mathew Cherian. 2016. “Do Sympathy Biases Induce Charitable Giving? The Effects of Advertising Content.” <em>Marketing Science</em> 35 (6): 849–69. <a href="https://doi.org/10.1287/mksc.2016.0989">https://doi.org/10.1287/mksc.2016.0989</a>.</p>
-</div>
-<div id="ref-TopCharities">
-<p>“Top Charities.” n.d. GiveWell. Accessed July 7, 2020. <a href="https://www.givewell.org/charities/top-charities">https://www.givewell.org/charities/top-charities</a>.</p>
-</div>
-<div id="ref-tverskyLossAversionRiskless1991">
-<p>Tversky, A, and D Kahneman. 1991. “Loss Aversion in Riskless Choice: A Reference-Dependent Model.” <em>The Quarterly Journal of Economics</em> 106 (4): 1039–61. <a href="https://doi.org/10.2307/2937956">https://doi.org/10.2307/2937956</a>.</p>
-</div>
-<div id="ref-tversky1973availability">
-<p>Tversky, Amos, and Daniel Kahneman. 1973. “Availability: A Heuristic for Judging Frequency and Probability.” <em>Cognitive Psychology</em> 5 (2): 207–32.</p>
-</div>
-<div id="ref-weitzman1998far">
-<p>Weitzman, Martin L. 1998. “Why the Far-Distant Future Should Be Discounted at Its Lowest Possible Rate.” <em>Journal of Environmental Economics and Management</em> 36 (3): 201–8.</p>
 </div>
 </div>
             </section>

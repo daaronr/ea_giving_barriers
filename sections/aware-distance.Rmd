@@ -4,6 +4,12 @@
 This section was written by David Reinstein and Luke Arundel.
 </div>
 
+
+
+<!-- 
+Check inclusion -- (Info enhancing) social closeness of recipient:   @cuddy2007bias, [@Sudhir2016a]
+--> 
+
 ## Description and relevance to Effective Giving
 
 Typically, the most effective charities operate in developing countries, with all but one of Give Well's top charities supporting people in sub-Saharan Africa [@TopCharities]. Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount [@macaskillDoingGoodBetter2015]. However, the large, social,  cultural geographic distance between those in developed countries and those in developing countries may be an important barrier to giving  and a reason why people prefer to give locally.

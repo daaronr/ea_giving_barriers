@@ -10,15 +10,15 @@ We divide this into three categories:
 
 2. Fundraising approaches and innovations that will be *particularly* suitable  for more effective charities, perhaps because these approaches themselves are directly tied to effectiveness. We call these "superpowers" for effective charities.
 
-3. Fundraising strategies that may  have historically been underused by affective charities.
+3. Fundraising strategies that may have historically been underused by effective charities.
 
 <!-- I.e., how can we best apply well-tested emotional and behavioral approaches (evidence-based fundraising tools like “gift exchange”) to effective charities. In applying these tools, what “superpowers” and weaknesses do the most effective charities have? -->
 
 <div class="marginnote">
-Also see [here](https://www.effectivealtruism.org/articles/spencer-greenberg-effective-behavior-change/) for an article/talk on effective behaviour change by Spencer Greenberg
+Also see [here](https://www.effectivealtruism.org/articles/spencer-greenberg-effective-behavior-change/) for an article/talk on effective behaviour change by Spencer Greenberg.
 </div>
 
-## Psych/behavioral tools; applicability to EA charities
+## Psychological/behavioral tools; applicability to EA charities
 
 Do the standard collection of psych/behavioral tools work for EA charities, or can they be made to do so? Does EA have any 'superpowers' for any of these? E.g., presenting identifiable victim. Emotional stimuli. Gift exchange, etc.
 

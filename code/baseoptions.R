@@ -12,7 +12,12 @@ library(pacman)
 #)
 
 #p_load_gh("acoppock/attrition", "ngreifer/cobalt") # Alexander Coppock package to calculate trimming bounds. Not on CRAN
-p_load(arsenal, DescTools, blockTools, broom, car, citr, cobalt, codebook, coefplot, data.table, dataMaid, dplyr, estimatr, experiment, forcats, furniture, ggsignif, glmnet, glmnetcr, glue, here, huxtable, janitor, kableExtra, knitr, lmtest, lubridate, magrittr, paramtest, plotly, plyr, psych,  purrr, pwr, randomizr, readxl, recipes, reporttools, rlang, safejoin, sandwich, sjlabelled, sjmisc, skimr, snakecase, statmod, summarytools, tidyverse, todor)
+
+p_load(arsenal, blockTools, broom, car, citr, cobalt, codebook, coefplot, corx, data.table, dataMaid, DescTools, devtools, dplyr, estimatr, experiment, forcats, furniture, gapminder, GGally, gganimate, ggplot2, ggsignif, ggthemes, glmnet, glmnetcr, glue, gtools, gtsummary, here, Hmisc, hrbrthemes, huxtable, janitor, kableExtra, knitr, lmtest, lubridate, magrittr, paramtest, pastecs, plotly, plyr, pryr, psych, purrr, pwr, randomizr, readr, readxl, recipes, reporttools, rlang, safejoin, sandwich, scales, sjlabelled, sjmisc, skimr, snakecase, statmod, summarytools, tidyverse, todor)
+
+
+#Set function defaults
+where <- pryr::where
 
 #removed rsample because it interfered with codebook
 

@@ -13,6 +13,9 @@
     }
 }
 
+.book .book-body .navigation.navigation-prev {
+    left: -30px; /* Stop nav bar overlapping code fold */
+}
 
 .book .book-summary {
     position: absolute;
