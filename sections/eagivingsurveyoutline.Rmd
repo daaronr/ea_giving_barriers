@@ -71,30 +71,8 @@ Here we also give a general ['conceptual' overview of these barriers](#barriers-
 
 \
 
-**Barriers** chapters:
+**Barriers** chapters; these are outlined under ['practical barriers'](#practical-barriers) 
 
-- **Section** \@ref(aware-distance)**: [Barriers: Awareness, consideration, and distance](#aware-distance)**
-
-\
-
-- **Section** \@ref(identity)**: [Barriers: Identity and cognitive dissonance](#identity)**
-
-
-<!-- Volunteer experience unlocks emotion and giving -->
-
-\
-
-- **Section** \@ref(social)**: [Barriers: Signaling and social pressures/social identity](#social)**
-
-
-- **Section** \@ref(eval-aversion)**: [Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
-
-- **Section** \@ref(factual)**: [Barriers: Persistent and systematic incorrect empirical beliefs](#factual)**
-
-- **Section** \@ref(quant-biases)**: [Barriers: Quantitative biases](#quant-biases)**
-
-- **Section** \@ref(inertia)**: [Barriers: Inertia and systemic/institutional](#inertia)**
-\
 
 **Section** \@ref(tools)**: [Tools for motivating EA giving](#tools)**
 
