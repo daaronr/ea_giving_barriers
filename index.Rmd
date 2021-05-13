@@ -36,7 +36,7 @@ output:
 bookdown::pdf_book:
     keep_tex: yes
 always_allow_html: yes
-bibliography: "`r rbbt::bbt_write_bib('support/references.bib', overwrite = TRUE, library_id = rbbt::bbt_libraries()[rbbt::bbt_libraries()$name == 'reinstein_research_and_impact_collabs', 1])`"
+bibliography: references.bib
 biblio-style: apalike
 link-citations: yes
 github-repo: daaronr/ea_giving_barriers
@@ -45,12 +45,9 @@ description: "A broad project of  definition, discussion synthesis, and meta-ana
 tags: [Effective altruism, charitable giving, meta-analysis, literature survey, field experiments, lab experiments, experimental design, Psychology, Economics, moral circles, behavioral economics, quantitative biases]
 ---
 
-
-
 ```{r}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
 
 ```{r setting-up-based-on-template-files-and-code}
 
@@ -79,16 +76,17 @@ try_download(
 )
 
 ## You MUST run this for anything else to work (installs/loads key packages and functions):
-source(here("code", "project_setup.R"))
+source(here::here("code", "project_setup.R"))
 
 ```
 
 ```{r eval=FALSE}
+
 install.packages("bookdown")
 # or the development version
 # devtools::install_github("rstudio/bookdown")
-```
 
+```
 
 <!-- note installing packages is mainly removed because this is done in baseoptions.R -->
 
@@ -126,17 +124,19 @@ my_output <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 ```
 
+```{=html}
 <!--
 Can define text blocks here, refer to them again and again if desired
 -->
+```
 
+# Abstract {#abstract .unnumbered}
 
-
-# Abstract {-#abstract}
-
-<div class="marginnote">
+```{=html}
+<!-- <div class="marginnote">
 Present or link an extended abstract here.
 </div>
+--
 
 *[David Reinstein, link to CV](https://daaronr.github.io/markdown-cv/)*
 
@@ -145,29 +145,29 @@ Present or link an extended abstract here.
 
 While hundreds of billions of dollars are donated to charity each year, the effectiveness of these charities differ by orders of magnitude, even within similar categories. Furthermore, many individuals do not donate substantially even though they believe that the cost of saving a life is small.\* <!--
 
---><div class="marginnote">
-\* In an [exploratory survey](https://80000hours.org/2017/05/most-people-report-believing-its-incredibly-cheap-to-save-lives-in-the-developing-world/), the median belief was that a life could be saved for under $40.
-</div>
+-->
+```
+::: {.marginnote}
+\* In an [exploratory survey](https://80000hours.org/2017/05/most-people-report-believing-its-incredibly-cheap-to-save-lives-in-the-developing-world/), the median belief was that a life could be saved for under \$40.
+:::
 
 This raises two related questions:
 
-**1. “Why don’t we give more to the most effective charities and to those most in need?”,** and
+**1. "Why don't we give more to the most effective charities and to those most in need?",** and
 
-**2. “Why are we not more efficient with our giving choices?”**
+**2. "Why are we not more efficient with our giving choices?"**
 
 To address this, we must understand what drives giving choices, and perhaps, how people react to the presentation of charity-effectiveness information.\*\*
 
-<div class="marginnote">
+::: {.marginnote}
 Do we need to understand "how people react to the presentation of charity-effectiveness information"? See discussion in [fold below](#why-understand-reactions).
-</div>
- 
+:::
 
-Our collaborative and dynamic synthesis considers this ‘puzzle’. We outline and categorize potential barriers to effective giving and assess the evidence for each barrier. This directly informs “how to motivate effective giving”. It also offers insights into the drivers of ‘concern for’ and ‘willingness to act’ to address the most neglected, tractable, and consequential global and humanitarian priorities.
-
+Our collaborative and dynamic synthesis considers this 'puzzle'. We outline and categorize potential barriers to effective giving and assess the evidence for each barrier. This directly informs "how to motivate effective giving". It also offers insights into the drivers of 'concern for' and 'willingness to act' to address the most neglected, tractable, and consequential global and humanitarian priorities.
 
 \
 
-*Why should 'Effective Altruists' and those interested in long-term global priorities care about the effective/ineffective giving behavior of 'typical' individuals?* --  notes for Global Priorities Institute presentation (unfold)
+*Why should 'Effective Altruists' and those interested in long-term global priorities care about the effective/ineffective giving behavior of 'typical' individuals?* -- notes for Global Priorities Institute presentation (unfold)
 
 ```{block2,  type='fold'}
 
@@ -197,31 +197,30 @@ Relation to GPI research :
 3. The 'enlightement project', which involves overcoming many of these barriers, may itself be a priority, e.g., in preventing existential risk.
 
 ```
-  
-## Non-technical abstract (for mainstream audiences) {-#pop-abstract}
+
+## Non-technical abstract (for mainstream audiences) {#pop-abstract .unnumbered}
 
 Hunger, homelessness, mental and physical illness, environmental degradation, the suffering of humans and animals: the needs are boundless, but the resources to solve these problems are limited. Even with the best of intentions and impressive generosity ([Americans give roughly 2% of their income to charity](https://www.philanthropy.com/article/The-Stubborn-2-Giving-Rate/154691#:~:text=Americans%20gave%20%24316.2%2Dbillion%20to,the%20same%20as%20in%202011.)), donors often contribute to inefficient charities -- ones that spend more but accomplish less than others that may be competing for the same funds.\*\* Each dollar given to the most effective charities (like those rated by [Givewell.org](http://givewell.org)) benefits greater numbers of people in more significant ways than the least effective ones. However, donors do not always consider effectiveness when deciding how much to give and to which organizations.
 
-<div class="marginnote">
-\*\* This holds even for charities pursuing similar goals; some are clearly more impactful per-dollar, even (presumably) by the lights and standards of the donors.</div>
- 
+::: {.marginnote}
+\*\* This holds even for charities pursuing similar goals; some are clearly more impactful per-dollar, even (presumably) by the lights and standards of the donors.
+:::
 
 Academics (in Economics, Psychology, Biology, and Philosophy) have applied a range of theories to explain what drives "inefficient altruism." Evidence comes from a variety of studies, involving surveys, observational work, laboratory experiments, and, where feasible, natural field experiments. These have not been run as part of a systematic project addressing this issue; goals, contexts, and approaches have varied as opportunities presented. Given the disparate findings, we do not have a definitive picture of which factors impact effective giving.
 
 ## Some links to presentations {#present-links}
 
-- [Introduction to the project: audio+slides](https://www.dropbox.com/s/i59imgi6tqmouj8/barriers_to_EA_overview_Screen%20Recording%202019-09-12%20at%2014.52.15.mov?dl=0)\*
+-   [Introduction to the project: audio+slides](https://www.dropbox.com/s/i59imgi6tqmouj8/barriers_to_EA_overview_Screen%20Recording%202019-09-12%20at%2014.52.15.mov?dl=0)\*
 
-<div class="marginnote">
+::: {.marginnote}
 \*Note: the first part of this is decent but there was a technical problem at the end, and I will need to do some edits.
-</div>
+:::
 
-- ['Revealjs' html slides of this project and associated field experiments: press 'o' to navigate](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/)  
- 
+-   ['Revealjs' html slides of this project and associated field experiments: press 'o' to navigate](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/)
 
 ## Discussions {#why-understand-reactions}
 
-For 'Effective Altruists' ...  (Why) do we care 'how people react to the presentation of charity-effectiveness information' from a practical point of view? (unfold discussion) 
+For 'Effective Altruists' ... (Why) do we care 'how people react to the presentation of charity-effectiveness information' from a practical point of view? (unfold discussion)
 
 ```{block2,  type='fold'}
 
@@ -260,12 +259,16 @@ This also feels reminiscent of two posts:
 
 ```
 
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 <html>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
+
+```{=html}
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148137970-4"></script>
+```
+```{=html}
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -273,4 +276,23 @@ This also feels reminiscent of two posts:
 
   gtag('config', 'UA-148137970-4');
 </script>
+```
 </html>
+
+## Notes on this format
+
+```{block2,  type='note'}
+This project is presented in ['Bookdown' format](https://bookdown.org/); it is not only a single page!
+```  
+
+Please be aware that the left sidebar expands into sections and subsections...
+
+![](images/paste-7486896F.png){width="100"}
+
+
+On the right sidebar you should see some icons...
+
+![](images/paste-9053CDFD.png){width="100"}
+
+These are links to add and view comments using the tool [Hypothes.is](https://web.hypothes.is/start/). Please sign up (it only takes a moment) and get involved. I will try to respond to and acknowledge all comments (email me if I have overlooked yours.)
+

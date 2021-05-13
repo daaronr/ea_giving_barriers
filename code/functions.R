@@ -439,6 +439,13 @@ adornme_not <- function(atabyl, adorn = "row", digits = 2, cap = "",
 
 
 
+
+# tabylgd: tabyl plus sort by descening frequency -- the version we normally want
+tabg <- function(df, col) {
+    janitor::tabyl({{df}},{{col}}) %>%
+        arrange(-`n`)
+}
+
 # ... formatting default options for tabyl ####
 tabylstuff <- function(df, cap = "") {
   adorn_totals(df, c("row", "col")) %>% adorn_percentages("row") %>%

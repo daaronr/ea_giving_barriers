@@ -1,8 +1,9 @@
-fig:unnamed-chunk-19
-tab:unnamed-chunk-67
-fig:unnamed-chunk-74
+fig:unnamed-chunk-20
+tab:unnamed-chunk-68
+fig:unnamed-chunk-75
 present-links
 why-understand-reactions
+notes-on-this-format
 outline
 overview
 structure-barriers
@@ -16,6 +17,7 @@ prevsurvey
 effectiveness-specific-work
 def-impact
 why-puzzle
+breakdown-of-barriers
 barriers-concept
 avoiding-information-motivated-reasoning-in-processing-it
 substitution

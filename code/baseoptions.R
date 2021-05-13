@@ -13,11 +13,20 @@ library(pacman)
 
 #p_load_gh("acoppock/attrition", "ngreifer/cobalt") # Alexander Coppock package to calculate trimming bounds. Not on CRAN
 
-p_load(arsenal, blockTools, broom, car, citr, cobalt, codebook, coefplot, corx, data.table, dataMaid, DescTools, devtools, dplyr, estimatr, experiment, forcats, furniture, gapminder, GGally, gganimate, ggplot2, ggsignif, ggthemes, glmnet, glmnetcr, glue, gtools, gtsummary, here, Hmisc, hrbrthemes, huxtable, janitor, kableExtra, knitr, lmtest, lubridate, magrittr, paramtest, pastecs, plotly, plyr, pryr, psych, purrr, pwr, randomizr, readr, readxl, recipes, reporttools, rlang, safejoin, sandwich, scales, sjlabelled, sjmisc, skimr, snakecase, statmod, summarytools, tidyverse, todor)
+p_load(arsenal, blockTools, broom, car, citr, cobalt, codebook, coefplot, corx, data.table, dataMaid, DescTools, devtools, dplyr, estimatr, experiment, forcats, furniture, gapminder, GGally, gganimate, ggplot2, ggsignif, ggthemes, glmnet, glmnetcr, glue, gtools, gtsummary, here, Hmisc, hrbrthemes, huxtable, janitor, kableExtra, knitr, lmtest, lubridate, magrittr, paramtest, pastecs, plotly, plyr, pryr, psych, purrr, pwr, randomizr, readr, readxl, recipes, reporttools, rlang, safejoin, sandwich, santoku, scales, sjlabelled, sjmisc, skimr, snakecase, statmod, summarytools, tidyverse, todor, vtable)
 
+p_load_gh('peterhurford/surveytools2')
+p_load_gh('hughjonesd/rumpel')
 
 #Set function defaults
 where <- pryr::where
+
+#summ  <- surveytools2::data_summary
+summ <- vtable::sumtable
+
+vsumm <- surveytools2::var_summary
+tab <- surveytools2::tab
+
 
 #removed rsample because it interfered with codebook
 

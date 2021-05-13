@@ -63,8 +63,6 @@ try_download(
 )
 
 
-
-
 source(here("code", "baseoptions.R")) # Basic options used across files and shortcut functions, e.g., 'pp()' for print
 
 source(here("code", "functions.R")) # functions grabbed from web and created by us for analysis/output
