@@ -543,7 +543,11 @@ boxplot_func <- function(df = ADSX, yvar = donation, treatvar = Treatment, facet
 
 
 
+# Model building
 
+m_f <- function(lhs, rhs) {
+  as.formula(paste(lhs," ~ ", paste(rhs, collapse= "+")))
+}
 # Options and formatting code elements ####
 
 sidebyside <- function(..., width = 60) {
@@ -562,6 +566,14 @@ huxoptions <- function(df) {
   set_all_borders(1) %>% huxtable::add_colnames() %>% set_number_format(3)
 }
 
+huxreg_opts  <- function(df) {
+ df %>%
+    set_bold(1, everywhere)             %>%
+    set_bottom_border(1, everywhere) %>%
+    map_background_color(by_rows("grey87", "white"))  %>%
+    set_caption_pos("bottom") %>%
+    set_col_width(c(1.8, rep(.6, times=length(.)-1)))
+}
 
 # Todo: make function to create our preferred types of
 # summary statistics table Editing data functions FixNA and

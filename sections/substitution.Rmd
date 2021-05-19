@@ -1,6 +1,3 @@
----
-bibliography: references.bib
----
 
 # Are charities in competition? Is the ineffective giving reducing effective giving? {#substitution}
 

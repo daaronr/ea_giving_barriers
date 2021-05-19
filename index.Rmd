@@ -36,7 +36,7 @@ output:
 bookdown::pdf_book:
     keep_tex: yes
 always_allow_html: yes
-bibliography: references.bib
+bibliography: ["references.bib", "sections/references.bib"]
 biblio-style: apalike
 link-citations: yes
 github-repo: daaronr/ea_giving_barriers

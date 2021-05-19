@@ -1,50 +1,96 @@
-#  Tools for motivating EA giving {#tools}
+---
+bibliography: references.bib
+---
+
+# Tools for motivating EA giving {#tools}
 
 ## Introduction
 
-What "tools" and approaches may help to  increase effective giving?
+What "tools" and approaches may help to increase effective giving?
 
 We divide this into three categories:
 
-1. Approaches to overcoming the barriers and biases discussed in previous chapters.
+1.  Approaches to overcoming the barriers and biases discussed in previous chapters.
 
-2. Fundraising approaches and innovations that will be *particularly* suitable  for more effective charities, perhaps because these approaches themselves are directly tied to effectiveness. We call these "superpowers" for effective charities.
+2.  Fundraising approaches and innovations that will be *particularly* suitable for more effective charities, perhaps because these approaches themselves are directly tied to effectiveness. We call these "superpowers" for effective charities.
 
-3. Fundraising strategies that may have historically been underused by effective charities.
+3.  Fundraising strategies that have historically been underused by effective charities.
 
 <!-- I.e., how can we best apply well-tested emotional and behavioral approaches (evidence-based fundraising tools like “gift exchange”) to effective charities. In applying these tools, what “superpowers” and weaknesses do the most effective charities have? -->
 
-<div class="marginnote">
-Also see [here](https://www.effectivealtruism.org/articles/spencer-greenberg-effective-behavior-change/) for an article/talk on effective behaviour change by Spencer Greenberg.
-</div>
+::: {.marginnote}
+Also see [here](https://www.effectivealtruism.org/articles/spencer-greenberg-effective-behavior-change/) for an article/talk on 'effective behaviour change' by Spencer Greenberg.
+:::
 
 ## Psychological/behavioral tools; applicability to EA charities
 
-Do the standard collection of psych/behavioral tools work for EA charities, or can they be made to do so? Does EA have any 'superpowers' for any of these? E.g., presenting identifiable victim. Emotional stimuli. Gift exchange, etc.
+Do the standard collection of psych/behavioral tools "work" for effective charities (aka 'EA charities'), or can they be made to do so? Do effective causes have any 'superpowers' for any of these? E.g., do such charities and causes have advantages in presenting identifiable victims, offering emotional stimuli, incorporating gift exchange motivations, etc.?
 
+*In this section we intend to:*\
+1. Briefly highlight those 'tools' that give *non-EA* charities an advantage, but focus on 'what is actionable', and how might lessen or flip that advantage.\*
 
-1. Briefly highlight  those 'tools' that give non-EA an advantage, but focus on the actionable--how EA lessen or flip that advantage. 2. Which tools present particular challenges or opportunities for EA
+::: {.marginnote}
+\* Jason Schukraft: Instead of trying to get effective charities to use appeals that are more persuasive to the average donors, we might (instead or additionally) figure out who those charities already appeal to and then find more people like that. I seem to recall that a few years ago GiveWell ran a targeted marketing campaign aimed at podcasts whose audiences skewed analytical. I don't know the details but I remember thinking the campaign was successful.
+
+DR: Indeed targeted marketing and profiling is a very promising approach. I now highlight it below, but may not cover it extensively, as it is a bit different in kind and may need a separate treatment (which I'm also interested in doing).
+:::
+
+2\. Consider which tools present particular challenges or opportunities for EA charities
+
+### Unit asking
+
+Michael Justen writes:
+
+> "Unit asking" might be one strategy well-suited to promote effective giving. The strategy is presented in "Unit Asking: A Method to Boost Donations and Beyond" [@hsee2013]. Basically, you ask people how much they would hypothetically donate to one needy person and then how much they donate to multiple needy people. It is closely related to the well-documented *identifiable victim bias...* [It is] presented as a way to mitigate scope insensitivity and compassion fade in [@västfjäll2020] by increasing *evaluability* (related to 'joint evaluations' discussed below).
+>
+> I think Unit Asking could be used to increase (1) the amount given to effective charities and (2) increase people's likelihood to donate to a more effective charity over another charity, or more broadly the the intuition behind effectiveness. On (1), effective charities are particularly equipped to introduce a greater number of needy people which could get people to then donate more. On (2), having people recognize how much they value one unit/life and then introducing the differences in how many people the most effective charities vs. less effective charities help could help people recognize why effectiveness is so important (and then hopefully donate more effectively).
+
+[@abramowicz2004]\
 
 ## De-biasing and misperception correction
 
-## Innovative proposals
+See, e.g., [@caviola2020]:\
 
-## EA-movement approaches, sucesses and pitfalls
+> We found that lay people estimated that among charities helping the global poor, the most effective charities are 1.5 times more effective than the average charity (Studies 1 and 2). Effective altruists, in contrast, estimated the difference to be factor 30 (Study 3) and experts estimated the factor to be 100 (Study 4). We found that participants donated more to the most effective charity, and less to an average charity, when informed about the large difference in cost-effectiveness (Study 5).
+
+## EA-movement approaches, successes and pitfalls
 
 What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too 'purist' (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)?
 
-## A listing
+## Other proposed tools {#other-tools}
 
-### Make impact more comparable by allowing joint evaluation (Evaluation mode) {-}
+I highlight a few other proposals that I (David Reinstein) find promising, giving a quick explanation from the blurb in the [Airtable database](https://airtable.com/invite/l?inviteId=invfxhuOkmvi1DOKh&inviteToken=cee3b07b80a8ec3d4a4ca146dfe5148cde17e637c156719822d8732fbff46e3c), which is also previewed below.
 
-Effective charities could present their (e.g., lifesaving) statistics *relative* to average/popular charities (but be careful about demonizing particular ones)
+### Make impact more comparable by allowing joint evaluation (Evaluation mode) {.unnumbered}
+
+> Effective charities could present their (e.g., lifesaving) statistics *relative* to average/popular charities (but be careful about demonizing particular ones)
 
 Theory: Evaluability bias
 
-Cite: [@Caviola2014; @kogut2005singularity; @kogutIdentifiedVictimEffect2005]
+relevant work: [@Caviola2014; @kogut2005singularity; @kogutIdentifiedVictimEffect2005]
 
-### (Info enhancing) social closeness of recipient
+### (Info enhancing) social closeness of recipient {.unnumbered}
 
-Percentage donations tied to purchases, especially in online auctions
+> May be a 'superpower' because distances mean people perceive lack of closeness, but recent tech enables more visceral and interactive presentation (Skype, VR...) [for effective humanitarian charities]
 
-Psychometrics and targeting people likely to be responsive
+Relevant evidence: @sudhir2016
+
+###  {.unnumbered}
+
+### Percentage donations tied to purchases, especially in online auctions {.unnumbered}
+
+> May be a superpower because it triggers \*fairness\* and EA charities can buy more because of low costs and standards of living in LDCs. *Currently*: Common practice for certain international charities close to EA (like the water aid funds tied to bottled water); (Examples: Toms gives shoes/shoes; Warby-Parker glasses/glasses) "buy a pair give a pair"; more generally buy 'consumption tax' goods like chocolate. Future: Momentum type app (but note COIs)
+
+Relevant work: [@elfenbein2010]
+
+### Psychometrics, profiling and targeting people likely to be responsive {#targeting .unnumbered}
+
+> Who gives to EA and who is ripe to target? This is first-order importance but also may tell us about why people choose to give to such causes, what is their tipping point... At the moment it is a niche but non-obvious demographic.
+
+### Airtable: list of proposals, links: {.unnumbered}
+
+We give a brief overview of a range of tools and their relevance to promoting effective giving in the [Airtable](https://airtable.com/invite/l?inviteId=invfxhuOkmvi1DOKh&inviteToken=cee3b07b80a8ec3d4a4ca146dfe5148cde17e637c156719822d8732fbff46e3c) (also embedded below), with some links to relevant work. The evaluations and ratings are based on David Reinstein's adhoc opinions informed by some evidence.
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shr61hveuhS08kZGt?backgroundColor=purple&amp;viewControls=on" frameborder="0" onmousewheel width="100%" height="533" style="background: transparent; border: 1px solid #ccc;">
+
+</iframe>
