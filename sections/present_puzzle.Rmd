@@ -12,50 +12,67 @@ Overview of research question/problem: Why don't people give in an evidence-base
 For an introduction to the field of effective altruism, see [this article](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/) from [effectivealtruism.org](https://www.effectivealtruism.org/), as well as [here](https://www.effectivealtruism.org/resources/) for an introductory resource list.
 :::
 
-When faced with the ["girl drowning in the pond"](https://www.youtube.com/watch?v=rBMZiaD-OYo) we are willing to sacrifice substantial wealth to save a life. However, [most people don't make large donations to the very poor](https://givingusa.org/giving-usa-2017-total-charitable-donations-rise-to-new-high-of-390-05-billion/), in spite of evidence suggesting that lives can be saved [for less than 10,000 USD](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness). This is not for lack of generosity. 
+**(I) Limited giving to those most in need:** When faced with the ["girl drowning in the pond"](https://www.youtube.com/watch?v=rBMZiaD-OYo) we are willing to sacrifice substantial wealth to save a life. However, [most people don't make large donations to the very poor](https://givingusa.org/giving-usa-2017-total-charitable-donations-rise-to-new-high-of-390-05-billion/), in spite of evidence suggesting that lives can be saved [for less than 10,000 USD](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness). This is not for lack of generosity.
 
-There is a strong case that most donations go to charities that improve well-being far less per-dollar than others. The figure below depicts estimates of 'cost per additional disease-adjusted-life-year ([DALY](https://en.wikipedia.org/wiki/Disability-adjusted_life_year))' added from the most promising health interventions --- many of which have room for more funding from private charity. Even the upper bound of these estimates is routinely below 100 (USD) per DALY. 
-
- 
+**(II) Inefficiency of charitable giving:** There is a strong case that most donations go to charities that improve well-being far less per-dollar than others. The figure below depicts estimates of 'cost per additional disease-adjusted-life-year ([DALY](https://en.wikipedia.org/wiki/Disability-adjusted_life_year))' from the most promising health interventions. Many of these interventions have room for more funding from private charity. Even the upper bound of these estimates is routinely below 100 (USD) per DALY.cited in
 
 [![Source: Disease Control Priorities, Third Edition (2017)](picsfigs/daly_dcp3.png "Estimated cost per Disease Adjusted Life Year saved; key interventions"){#daly-dcp3 width="1100"}](https://openknowledge.worldbank.org/handle/10986/28877)
 
-<div class="marginnote">
-This figure is an adaptation of an original work by The World Bank. Views and opinions expressed in the adaptation are the sole responsibility of the author or authors of the adaptation and are not endorsed by The World Bank.
-</div>
+::: {.marginnote}
+Figure 7.1 is from original work by The World Bank. Views and opinions expressed in the present adaptation are the sole responsibility of the author or authors of the adaptation and are not endorsed by The World Bank.
+:::
 
-In contrast, charity-supported interventions such as providing guide dogs for the blind routinely cost over 5000 USD per dog per year, presumably yielding substantially less than a single DALY of benefit per year. Make-a-Wish 'wishes' for dying children [cost over 11,0000 USD on average](https://wish.org/faq#:~:text=to%20the%20top%20%5E-,How%20much%20does%20granting%20a%20wish%20cost%3F,of%20a%20wish%20was%20%2411%2C161); the same money may be able to *save* as many as four children's lives (on average) if devoted to (e.g.) [seasonal preventative anti-malarial drugs](https://www.givewell.org/charities/malaria-consortium) (see cell B-153 [here](https://docs.google.com/spreadsheets/d/16XOOB1oWse1ICbF0OVXUYtwWwpvG3mxAAQ6LYAAndQU/edit#gid=791021775) for the cost-per-life-saved estimate).\*
+In contrast, charity-supported interventions such as providing guide dogs for the blind routinely cost over 5000 USD per dog per year, presumably yielding substantially less than a single DALY of benefit per year. Make-a-Wish 'wishes' for dying children [cost over 11,0000 USD on average](https://wish.org/faq#:~:text=to%20the%20top%20%5E-,How%20much%20does%20granting%20a%20wish%20cost%3F,of%20a%20wish%20was%20%2411%2C161); the same money may be able to *save* as many as four children's lives (on average) if devoted to (e.g.) [seasonal preventative anti-malarial drugs](https://www.givewell.org/charities/malaria-consortium).\*
 
-<!-- Another costly example ... around 50k per DALY -- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3402472/ --> 
+::: {.marginnote}
+\* See cell B-153 in the google sheet [here](https://docs.google.com/spreadsheets/d/16XOOB1oWse1ICbF0OVXUYtwWwpvG3mxAAQ6LYAAndQU/edit#gid=791021775) for the cost-per-life-saved estimate.
+:::
+
+<!-- Another costly example ... around 50k per DALY -- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3402472/ -->
+
+In general, most charitable giving goes towards helping people in *wealthier* countries[^present_puzzle-1], even though it is widely accepted that far more lives can be saved and improved when funds are devoted towards more effective interventions in poor countries (see fold).
+
+[^present_puzzle-1]: ref
+
+```{block2,  type='fold'}
+
+> This range of cost-effectiveness values draws from the growing literature on health care opportunity costs, which suggests that a figure approximating half of gross domestic product (GDP) per capita per DALY averted is a realistic level of willingness-to-pay for health care interventions in [low to middle income countries] (Ochalek, Lomas, and Claxton 2015) , cited in [@bundy2017], chapter 3, page 48.
+
+Similar calculations referring to the value of a statistical life as being proportional to GDP per capita are found throughout this volume and beyond. E.g., (a random example) [@cobiac2012] considers "a cost-effectiveness threshold of 50,000 AUSD/DALY" (just a bit below their GDP per capita in 2012.).
+
+As of 2021 the IMF reported ([wikipedia link, accessed 20 May 2021]([https://en.wikipedia.org/wiki/List_of_countries_by_GDP\_(nominal)\_per_capita\#cite_note-GDP_IMF-4](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita#cite_note-GDP_IMF-4)) a GDP-per-capita of over 60,000 USD in the wealthiest countries like the United States and Australia, and under 550 USD in the poorest countries, such as Madagascar and Mozambique, a ratio of roughly 100 to 1.
+
+```
 
 As @burumEvolutionaryExplanationIneffective2020 state: "We donate billions of dollars to charities each year, yet much of our giving is ineffective. Why are we motivated to give, but not motivated to give effectively?"
 
+The above points (I) and (II) raises two related questions:
 
-The above raises two related questions:
+**I. "Why don't we give more to the most effective charities and to those most in need?",** and
 
-**1. "Why don't we give more to the most effective charities and to those most in need?",** and
+**II. "Why are we not more efficient with our giving choices?"**
 
-**2. "Why are we not more efficient with our giving choices?"**
-
-To address this, we must understand what drives giving choices, and how people react to the presentation of charity-effectiveness information.
+To address this, we must understand what drives giving choices, and how people react to the presentation of charity-effectiveness information.\*
 
 ::: {.marginnote}
-Note that these two questions are not identical: the first asks about the amounts given to the most needy charities, and the second about the choice of charities conditional on giving.
+\*Note that these two questions are not identical: the first asks about the amounts given to the most needy charities, and the second about the choice of charities conditional on giving.
 :::
 
 ## Motivation and descriptives {#motivate-puzzle}
 
-Individual donors, governments and firms demonstrate substantial generosity (e.g., UK charity represents 0.5-1% of GDP, US charity around 2% of GDP).
+Individual donors, governments and firms demonstrate substantial generosity (e.g., UK charity represents 0.5-1% of GDP, US charity around 2% of GDP).\*\*
 
 ::: {.marginnote}
-[@CAFWorldGiving; @CharitableGivingTops]
+\*\*[@CAFWorldGiving; @CharitableGivingTops]
 :::
 
-However, most donations go towards charities that are worthwhile but improve human well-being far less per dollar than basic medical interventions in poor countries, such as antimalarial bednets (see [Givewell.org](http://givewell.org)). Even within the same category, more can be achieved for less: e.g. while it costs around USD 50,000 to provide a blind person a guide dog, the equivalent amount may be able to  be used to prevent many cases of visual impairment from trachoma for many people [@burton2009global] through preventative measures and surgery, perhaps [more than 50](https://blog.givewell.org/2009/01/30/surgeries-performed-vs-cases-of-blindness-prevented/).\*
-<div class="marginnote">
-\* The latter figure is an extrapolation from the more conservative estimates in the Givewell Blog. Note that while the effectiveness of the trachoma interventions seem to have been [overstated in the past](https://forum.effectivealtruism.org/posts/SMRHnGXirRNpvB8LJ/fact-checking-comparison-between-trachoma-surgeries-and) by Peter Singer and others. Still,  they appear to be at least an order of magnitude more effective at prevventing harm from blindness as do guide dogs.
-</div>
- 
+However, most donations go towards charities that are worthwhile but improve human well-being far less per dollar than basic medical interventions in poor countries, such as antimalarial bednets (see [Givewell.org](http://givewell.org)). Even within the same category, more can be achieved for less: e.g. while it costs around USD 50,000 to provide a blind person a guide dog, the equivalent amount may be able to be used to prevent many cases of visual impairment from trachoma for many people [@burton2009global] through preventative measures and surgery, perhaps [more than 50](https://blog.givewell.org/2009/01/30/surgeries-performed-vs-cases-of-blindness-prevented/).\*
+
+::: {.marginnote}
+\* The latter figure is an extrapolation from the more conservative estimates in the Givewell Blog. Note that while the effectiveness of the trachoma interventions seem to have been [overstated in the past](https://forum.effectivealtruism.org/posts/SMRHnGXirRNpvB8LJ/fact-checking-comparison-between-trachoma-surgeries-and) by Peter Singer and others. Still, they appear to be at least an order of magnitude more effective at prevventing harm from blindness as do guide dogs.
+:::
+
+\
 
 Social science, biology and philosophy present a range of potential theoretical explanations of how values, preferences, and biases drive this 'inefficient altruism'. However, evidence (e.g., for 'availability bias', or for 'scope insensitivity') comes largely from small-scale experiments in domains outside of charitable-giving. It is difficult to distinguish robust, credible findings from one-off results that are vulnerable to hype, p-hacking and publication bias (echoing the 'replication crisis' in experimental social science [@shrout2018psychology]). Given the limited, scattered findings, we do not have a definitive picture of which factors substantially impact 'effective giving and support for policies that reduce extreme poverty'. (We give a review of papers surveying this evidence [below](#prevsurvey))
 
@@ -93,9 +110,15 @@ Fitz/Kagan: Understanding Effective Givers:
 
 > In this study we attempt to understand who is predisposed towards effective giving. After providing a description of the effective giving movement, we measure support for effective giving and measure a wide range of personality traits and demographics that may predict support for effective giving. We briefly define the EA movement as an important force "we" (economists, psychologists) need to discuss.
 
-Some references (WIP): - General giving statistics: @meerGenerosityIncomeWealth2020, @rooneyDynamicsAmericanGiving2019 - Various references at IUPIU; see also Osili, Weipking, Bekkers work
+Some references (WIP, unfold)
+
+```{block2,  type='fold'}
+
+- General giving statistics: @meerGenerosityIncomeWealth2020, @rooneyDynamicsAmericanGiving2019 - Various references at IUPIU; see also Osili, Weipking, Bekkers work
 
 -   Sources of data: PSID, GVUSA, GINPS, [add the list here], Giving USA: The Annual Report on Philanthropy (raw data?), Study of High Net Worth Philanthropy
+
+```
 
 ## (Lack of) previous synthesis on this {#prevsurvey}
 
@@ -262,13 +285,11 @@ I assert that $B_j^\prime(G_j)$ is the quantity that GiveWell (and perhaps other
 
 ```{block2,  type='fold'}
 
-There is abundant evidence for order-of-magnitude difference in the effectiveness of charities, and the most popular ones are far from the most effective. Some links and references: 
+There is abundant evidence for order-of-magnitude difference in the effectiveness of charities, and the most popular ones are far from the most effective. Some further links and references: 
 
 Ord, T. (2013, March 12). "The moral imperative toward cost-effectiveness in global health. Center for Global Development." Retrieved from www.cgdev.org/content/publications/detail/142701. 
 
 ["Your dollar goes farther overseas"](http://www.givewell.org/giving101/Your-dollar-goes-further-overseas) (Givewell, 2016). 
-
-
 
 ```
 
@@ -276,7 +297,7 @@ $B_j^\prime(G_j)$ is much larger for the most *impactful* relative to the most *
 
 \
 
-Increased benefits could be achieved if donations were ''reallocated'' towards more impactful charities. An individual who gains value from her giving through it's *impact* alone would naturally donate to only the *one* charity that has the greatest marginal impact, the charity $j$ with the greatest $B_j'(G_j)$ term. If every donor is doing this, then as an 'equilibrium' result, *every charity receiving positive donations should have the same last-dollar marginal impact.* In maths:
+Increased benefits could be achieved if donations were "reallocated" towards more impactful charities. An individual who gains value from her giving through it's *impact* alone would naturally donate to only the *one* charity that has the greatest marginal impact, the charity $j$ with the greatest $B_j'(G_j)$ term. If every donor is doing this, then as an 'equilibrium' result, *every charity receiving positive donations should have the same last-dollar marginal impact.* In maths:
 
 ```{=tex}
 \begin{equation}
@@ -284,13 +305,20 @@ Increased benefits could be achieved if donations were ''reallocated'' towards m
 B_k^\prime(G_k) = B_j^\prime(G_j)\forall j,k s.t. G_j>0, G_k>0
 \end{equation}
 ```
-::: {.marginnote}
-Caveats:
+
+Caveats (unfold):
+
+```{block2,  type='fold'}
 
 This assumes a single impact goal, essentially 'cause neutrality'.
 
 The idea that each donor gives only to a single charity essentially depends on the above 'Small donor assumption'. Still, allowing that the marginal-benefit-leading-charity may vary within the range of an individuals' donation simply implies that they should allocate among multiple charities each up to the point that the last dollar given yields the same marginal benefit as the other charities, yielding the above result. We can imagine an equilibrium in which all donors give to multiple charities, with each of these charities being virtually "tied" in their marginal effectiveness.
-:::
+
+
+See also this brief (EA Forum) on the ["Market efficiency of philanthropy"](https://forum.effectivealtruism.org/tag/market-efficiency-of-philanthropy). I hope to extend the discussion here, considering the  'efficient market hypothesis' applied to charitable donations, and the limitations of this. 
+
+```
+
 
 \
 
@@ -300,7 +328,7 @@ But we do *not* seem to be doing this. Again: billions are given to charity, and
 
 ## Why (under which models) is this a puzzle? {#why-puzzle}
 
-Does the set of facts mentioned above constitute a "puzzle" for our Economics and Psychology models... or are there obvious existing explanations? In Economic terms, are donors mysteriously ''leaving money on the table'' or are they simply optimizing given their their preferences and constraints? What could explain this?
+Does the set of facts mentioned above constitute a "puzzle" for our Economics and Psychology models,  or are there obvious existing explanations? In Economic terms, are donors mysteriously ''leaving money on the table'' or are they simply optimizing given their their preferences and constraints? What could explain this?
 
 ::: {.marginnote}
 Economists love when we can say that something is officially a *Puzzle*. It is an achievement in itself to be the researcher who first discovered a *Puzzle*, even if we have no clue how to resolve it.
