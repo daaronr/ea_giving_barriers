@@ -17,7 +17,8 @@ When faced with the ["girl drowning in the pond"](https://www.youtube.com/watch?
 There is a strong case that most donations go to charities that improve well-being far less per-dollar than others. The figure below depicts estimates of 'cost per additional disease-adjusted-life-year ([DALY](https://en.wikipedia.org/wiki/Disability-adjusted_life_year))' added from the most promising health interventions --- many of which have room for more funding from private charity. Even the upper bound of these estimates is routinely below 100 (USD) per DALY. 
 
  
-[![Source: Disease Control Priorities, Third Edition (2017)](../picsfigs/daly_dcp3.png "Estimated cost per Disease Adjusted Life Year saved; key interventions"){#daly-dcp3 width="1100"}](https://openknowledge.worldbank.org/handle/10986/28877)
+
+[![Source: Disease Control Priorities, Third Edition (2017)](picsfigs/daly_dcp3.png "Estimated cost per Disease Adjusted Life Year saved; key interventions"){#daly-dcp3 width="1100"}](https://openknowledge.worldbank.org/handle/10986/28877)
 
 <div class="marginnote">
 This figure is an adaptation of an original work by The World Bank. Views and opinions expressed in the adaptation are the sole responsibility of the author or authors of the adaptation and are not endorsed by The World Bank.
