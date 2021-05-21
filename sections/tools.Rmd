@@ -22,6 +22,52 @@ We divide this into three categories:
 Also see [here](https://www.effectivealtruism.org/articles/spencer-greenberg-effective-behavior-change/) for an article/talk on 'effective behaviour change' by Spencer Greenberg.
 :::
 
+In this section highlight a few other proposals that I (David Reinstein) find promising, giving a quick explanation from the blurb in the [Airtable database](https://airtable.com/invite/l?inviteId=invfxhuOkmvi1DOKh&inviteToken=cee3b07b80a8ec3d4a4ca146dfe5148cde17e637c156719822d8732fbff46e3c), which is also previewed at the bottom of this section.
+
+## Overcoming the "barriers and biases"
+
+### De-biasing and misperception correction
+
+**Barrier(s):**
+
+**Proposed response:**
+
+**:**
+
+See, e.g., [@caviola2020]:
+
+> We found that lay people estimated that among charities helping the global poor, the most effective charities are 1.5 times more effective than the average charity (Studies 1 and 2). Effective altruists, in contrast, estimated the difference to be factor 30 (Study 3) and experts estimated the factor to be 100 (Study 4). We found that participants donated more to the most effective charity, and less to an average charity, when informed about the large difference in cost-effectiveness (Study 5).
+
+### Make impact more comparable by allowing joint evaluation (Evaluation mode) {.unnumbered}
+
+**Barrier(s):**
+
+**Proposed response:**
+
+**:**
+
+> Effective charities could present their (e.g., lifesaving) statistics *relative* to average/popular charities (but be careful about demonizing particular ones)
+
+Theory: Evaluability bias
+
+relevant work: [@Caviola2014; @kogut2005singularity; @kogutIdentifiedVictimEffect2005]
+
+### Efficacy framings
+
+**Barrier(s):**
+
+**Proposed response:**
+
+Michael Justen writes:
+
+> Efficacy framings might be particularly suited to increase donation to effective charities. By efficacy framings I mean "letting people know how good the donations to these charities are at solving particular problems/saving lives" or similarly that donations here are the most efficient way known to solve the problem. I'm conceptualizing this similar to Will MacAskill's common one-liner that "we have a remarkable capacity to do good"
+>
+> Most of the research I have seen on efficacy in relation to charitable giving has been on "[pseudoinefficacy](https://www.arithmeticofcompassion.org/pseudoinefficacy)" - the idea that people are less willing to help one person when they are made aware of the broader scope of people in need that they are not helping. This is different than how I'm thinking of efficacy above, but since many EA charities tackle very big problems, EA charities should be cautious to avoid inspiring feelings of pseudoinefficacy. (Pseudoinefficacy could potentially be a barrier to effective giving).
+
+Reinstein:
+
+> The EA movement's (perhaps strongly grounded) has recently emphasized the far-future, the vast scope of potential humanity, and the expansion of moral circles to potentially-sentient beings. Although the arguments presented are careful and strong, this may be particularly unhelpful in making individual donation decisions feel like a futile "drop-in-the-ocean".\
+
 ## Psychological/behavioral tools; applicability to EA charities
 
 Do the standard collection of psych/behavioral tools "work" for effective charities (aka 'EA charities'), or can they be made to do so? Do effective causes have any 'superpowers' for any of these? E.g., do such charities and causes have advantages in presenting identifiable victims, offering emotional stimuli, incorporating gift exchange motivations, etc.?
@@ -45,37 +91,15 @@ Michael Justen writes:
 >
 > I think Unit Asking could be used to increase (1) the amount given to effective charities and (2) increase people's likelihood to donate to a more effective charity over another charity, or more broadly the the intuition behind effectiveness. On (1), effective charities are particularly equipped to introduce a greater number of needy people which could get people to then donate more. On (2), having people recognize how much they value one unit/life and then introducing the differences in how many people the most effective charities vs. less effective charities help could help people recognize why effectiveness is so important (and then hopefully donate more effectively).
 
-[@abramowicz2004]\
-
-## De-biasing and misperception correction
-
-See, e.g., [@caviola2020]:\
-
-> We found that lay people estimated that among charities helping the global poor, the most effective charities are 1.5 times more effective than the average charity (Studies 1 and 2). Effective altruists, in contrast, estimated the difference to be factor 30 (Study 3) and experts estimated the factor to be 100 (Study 4). We found that participants donated more to the most effective charity, and less to an average charity, when informed about the large difference in cost-effectiveness (Study 5).
-
-## EA-movement approaches, successes and pitfalls
-
-What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too 'purist' (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)?
-
-## Other proposed tools {#other-tools}
-
-I highlight a few other proposals that I (David Reinstein) find promising, giving a quick explanation from the blurb in the [Airtable database](https://airtable.com/invite/l?inviteId=invfxhuOkmvi1DOKh&inviteToken=cee3b07b80a8ec3d4a4ca146dfe5148cde17e637c156719822d8732fbff46e3c), which is also previewed below.
-
-### Make impact more comparable by allowing joint evaluation (Evaluation mode) {.unnumbered}
-
-> Effective charities could present their (e.g., lifesaving) statistics *relative* to average/popular charities (but be careful about demonizing particular ones)
-
-Theory: Evaluability bias
-
-relevant work: [@Caviola2014; @kogut2005singularity; @kogutIdentifiedVictimEffect2005]
+[@abramowicz2004]
 
 ### (Info enhancing) social closeness of recipient {.unnumbered}
 
-> May be a 'superpower' because distances mean people perceive lack of closeness, but recent tech enables more visceral and interactive presentation (Skype, VR...) [for effective humanitarian charities]
+> This may be a 'superpower' because distances mean people perceive lack of closeness, but recent tech enables more visceral and interactive presentation (Skype, VR...) [for effective humanitarian charities]
 
-Relevant evidence: @sudhir2016
+Relevant evidence: @sudhir2016 \
 
-###  {.unnumbered}
+## Mainstream and practical fundraising strategies --  underused by effective charities?
 
 ### Percentage donations tied to purchases, especially in online auctions {.unnumbered}
 
@@ -87,7 +111,11 @@ Relevant work: [@elfenbein2010]
 
 > Who gives to EA and who is ripe to target? This is first-order importance but also may tell us about why people choose to give to such causes, what is their tipping point... At the moment it is a niche but non-obvious demographic.
 
-### Airtable: list of proposals, links: {.unnumbered}
+## EA-movement approaches, successes and pitfalls
+
+What has EA tried and how has it worked; evaluate approaches in light of the evidence. Is the movement too 'purist' (e.g., focusing on only the most effective, proven charities instead of those with broader potential appeal but less evidence)?
+
+## Airtable: list of proposals, links: {.unnumbered}
 
 We give a brief overview of a range of tools and their relevance to promoting effective giving in the [Airtable](https://airtable.com/invite/l?inviteId=invfxhuOkmvi1DOKh&inviteToken=cee3b07b80a8ec3d4a4ca146dfe5148cde17e637c156719822d8732fbff46e3c) (also embedded below), with some links to relevant work. The evaluations and ratings are based on David Reinstein's adhoc opinions informed by some evidence.
 

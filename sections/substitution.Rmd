@@ -12,7 +12,7 @@ Are charitable gifts complements or substitutes; are charities rivals? Does one 
 <!--
 [vandiepenDoesIrritationInduced2009], Donkers2017, [Scharf2017], [Deryugina2015b; Harwella:1; Meer2017; Reinstein2010a:1; Reinstein2011d] -->
 ```
-## Theoretical framework and concerns
+## Theoretical framework and concerns {#subst-framework}
 
 What does this question even mean? In a standard Economics framework we would consider joint optimization over "gifts to an ineffective charity" and "gifts to an effective charity";\* one doesn't "respond" to the other.
 
@@ -28,11 +28,11 @@ What we *can* measure in a straightforward way (in principle), is :
 
 > Does a promotion for a less-effective charity (such as Cancer Research UK) cause more or less giving to a presumably more-effective charity (such as Oxfam)? Most of the work discussed below focuses on this sort of estimate.
 
-But this raises a more difficult question: Is the causality...
+But this raises a more difficult question:
 
--   CRUK promo $\rightarrow$ give more to CRUK $\rightarrow$ give less (more) to Oxfam?
+-   Is the causality CRUK promo $\rightarrow$ give more to CRUK $\rightarrow$ give less (more) to Oxfam?
 
--   But can we rule out *direct* effects of the first promotion? (see [@Heckman2015a] on "mediators")
+-   Can we rule out *direct* effects of the first promotion? (CRUK promo $\rightarrow$ donations to Oxfam; see [@Heckman2015a] on "mediators")
 
 This is directly relevant for a *policymaker*. She might face a 'shock' that she knows or expects will lead to donations to charity A to rise by EUR 1,000,000 EUR. She will want to know 'how much can we expect donations to charity B to fall?'\
 
@@ -44,14 +44,14 @@ The psychological ideas of "self-image management" and "moral-licensing" could a
 As previously noted, models from economics typically consider an individual maximizing her utility, including the utility she gets from her donations, directly or indirectly, quantified and formalized in terms of, e.g.,\*
 
 ::: {.marginnote}
-\* I discussed this in the previous section; I intend to integrate these discussions to avoid repetition. (To do.)
+\* I discussed this in [the previous section](#econ-models); I intend to integrate these discussions to avoid repetition. (To do.)
 :::
 
 -   "Public goods": the total amount of 'charity as a public good' provided, no matter who provides it (sometimes referred to as 'pure altruism'),
 
--   "Warm glow": the amount the donor herself has sacrificed (in some depictions, *even if it does no good at all, or completely crowds out others' donations!* \@andreoniImpureAltruismDonations1990, as interpreted [by\@toninDisentanglingSourcesProsocially2010](mailto:by@toninDisentanglingSourcesProsocially2010){.email} and others),
+-   "Warm glow": the amount the donor herself has sacrificed (in some depictions, *even if it does no good at all, or completely crowds out others' donations!* ( @andreoni1989givinga, as interpreted by and others),
 
--   the "Impact" a donor's donation has on outcomes [@duncanTheoryImpactPhilanthropy2004] (*not* taking into account the effect of her donation on other donors) or particular identified beneficiaries, [@atkinsonGivingOverseasPublic2009] and
+-   the "Impact" a donor's donation has on outcomes [@duncanTheoryImpactPhilanthropy2004] (*not* taking into account the effect of her donation on other donors) or on particular identified beneficiaries, [@atkinsonGivingOverseasPublic2009] and [@tonin2010a]
 
 -   the donor's prestige [@harbaughWhatDonationsBuy1998].
 
@@ -68,7 +68,7 @@ I discuss this further in an (unfinished) essay [here](https://docs.google.com/d
 
 These models do not explicitly differentiate between gifts to different charitable causes. Still, the models can be generalized to yield varying predictions for expenditure substitution, as discussed in @reinsteinDoesOneCharitable.
 
-From an Economics perspective, treating charitable giving like 'any other good' purchased by a donor (as a consumer), does not yield a clear prediction. Economists speak of goods being 'complements and substitutes', depending on how the price of one affects the number of units consumed of the other good. We can also consider how 'expenditures on one good vary with shocks to expenditures on another', referred to 'expenditure substitution' in @reinsteinDoesOneCharitable. Here again, the prediction is ambiguous, but essentially it depends on the extent to which consumption of good (or charity) A satiates the desire for (diminishes the marginal utility of) good/charity B.\
+From an economics perspective, treating charitable giving like 'any other good' purchased by a donor (as a consumer), does not yield a clear prediction. Economists speak of goods being 'complements and substitutes', depending on how the price of one affects the number of units consumed of the other good. We can also consider how 'expenditures on one good vary with shocks to expenditures on another', referred to 'expenditure substitution' in @reinsteinDoesOneCharitable. Here again, the prediction is ambiguous, but essentially it depends on the extent to which consumption of good (or charity) A satiates the desire for (diminishes the marginal utility of) good/charity B.\
 
 ::: {.marginnote}
 [@scharfLiftShiftEffect2017] consider the intertemporal elasticity of a 'warm glow' component.
@@ -121,7 +121,7 @@ $$g_{1}(\alpha )=A+Bg_{2}(\alpha )$$
 
 *where* $A$ and $B$ are constants.
 
-Quadratic utility is often justified as a second-order approximation to any other utility function. With other utility functions the partial derivatives may vary at different consumption bundles, so the indirect effect may be a nonlinear function of the direct effect, but these should be solvable for a predictable functional form, which for estimation purposes, can be approximated to any desired accuracy by a polynomial function.
+Quadratic utility is often justified as a second-order approximation to any other utility function. With other utility functions the partial derivatives may vary at different consumption bundles, so the indirect effect may be a nonlinear function of the direct effect, but these should be solvable for a predictable functional form, which for estimation purposes, can be approximated to any desired accuracy by a polynomial function. o
 
 ## Previous approaches and evidence
 
@@ -131,13 +131,13 @@ The material in this section largely overlaps the literature review in Reinstein
 These should be integrated with one another.
 :::
 
-There is a **lack of data** on donations at the individual-charity level.
+Observation of this 'crowding out' is difficult. There is a **lack of data** on donations at the individual-charity level; available data typically considers total individual giving in a year (especially via tax records), asks people to recall their recent donations, sometimes broadly differentiated by cause but not by specific charity (see, e.g., @wilhelm2006). There is also data on charity's total revenues (reported to the government as well as independent surveys), and data on giving through specific platforms. However, there is no source of data on an individual's lifetime giving broken down across modes and specific charities.
 
 For identification: Lack of **independent observable variation** in price, shocks, or appeals.
 
 **Intertemporal substitution** is an issue, and we typically **cannot observe 'lifetime giving.'**
 
-Estimation of 'Expenditure substitution' [@reinsteinDoesOneCharitable] is complicated by issues of extensive vs intensive margins, as well as heterogeneity.
+Even defining this issue is a challenge, as noted above. Furthermore, estimation of 'Expenditure substitution' [@reinsteinDoesOneCharitable] is complicated by issues of extensive vs intensive margins, as well as heterogeneity.
 
 ### Observational work
 
@@ -145,25 +145,28 @@ Estimation of 'Expenditure substitution' [@reinsteinDoesOneCharitable] is compli
 
 #### Signing-the-bias approach {.unnumbered}
 
-**However, under reasonable assumptions we can *sign* this bias, and thus estimate a lower bound on substitution.**
-
 @reinsteinDoesOneCharitable using PSID/COPPS data finds some evidence of expenditure substitution, especially for large givers.
 
-He makes a "bounding below" argument
+**Results, "bounding below" argument:**
 
--   Issues: charity categorization/misreporting; bounded result only
+-   He finds many negative significant correlations between residuals from fixed-effects regressions on donations to categories of charitable causes.
 
--   He finds many negative significant correlations between residuals from fixed-effects regressions on donations to categories of charitable causes
+    -   This especially holds for larger (prior) donors and for certain paired cause categories.
 
--   This especially holds for larger (prior) donors and for certain paired cause categories
+Under what he argues to be plausible econometric assumptions (essentially, net positive correlations between the residuals of 'propensity to donate to each cause') implies that negative correlations are strong evidence of expenditure substitution.
 
--   Under what he argues to be plausible econometric assumptions (essentially, a net positive correlations between the residuals of 'propensity to donate to each cause') $\rightarrow$ negative correlations are strong evidence of expenditure substitution
+\
+**Interpretation:** He interprets these in terms of 'heterogeneous motivations for giving', arguing that large givers are more likely to have a sophisticated optimization over charities incorporating diminishing returns to each cause, and small givers more likely to be responding to temporary shocks and appeals.
 
--   Interpretation: heterogeneous motivations for giving, small vs large givers
+\
+
+**Limitations:** Even if one accepts the bounding assumptions, t hese findings are limited, even as a bounded result. The data is recall data, and charitable categories are not well defined in the PSID data; respondents may categorize the same donations into different groupings.
 
 #### Observational data paired with 'exogenous' shocks {.unnumbered}
 
 @Deryugina2015**:**
+
+\*\*Results and interpretation:
 
 Donations in a state affected by tornado increase 1.7-2 percent in that year and 1.9-2 percent in the 2 years after. The authors can only reject 'full crowding out'.
 
@@ -193,55 +196,53 @@ They argue that their data allows them to reject the "transactions cost" explana
 
 \
 
-*Limitations:* Specific CAF population; disaster-specific; time-series variation issues (6 disasters=lumpy?)
+*Limitations:*
 
-```{=html}
-<!--
+-   Specific CAF population
+-   disaster-specific context
+-   time-series variation issues (6 disasters=lumpy?)
+
 Todo: add pictures of the relevant environments for these studies here
--->
-```
+
 ### Simultaneous/proximate 'lab' experiments
 
 A range of authors have asked 'economics laboratory' participants to make a sequence of real donation choices.
 
 These include Reinstein (2006/11); @filiz-ozbay and @schmitz2016
 
-```{=html}
-<!-- 
 *Figures: Berkeley design, types*
 
 Vary choice sets/prices, shocks $\rightarrow$ crowd-out, esp. similar causes
 
 *Figures: Berkeley line graphs*
 
-(Reinstein, 2011) $\rightarrow$ Strong "expenditure substitution" responses to shocks, esp for similar charities; approx 50% crowd-out; 2.59 cross-price-elast)
+(Reinstein, 2011) $\rightarrow$ Strong "expenditure substitution" responses to shocks, esp for similar charities; approx 50% crowd-out; 2.59 cross-price-elasticity)
 
 -   Heterogeneity; mix of 'fixed purse', 'flexible purse/never substitute']
+
+\
+\
 
 @Filiz-Ozbay2019 : Five paired choices, varying 'rebate rate' for one only; price-focus - 'Stealing' almost always - +0.35 net cross-price elast for 'substitute' charities
 
 -   @Harwell; @Schmitz: somewhat related designs, similar results in flavor
 
-
--->
-```
 ### Lab/framed experiments with time gaps
 
--   @Schmitz2019
+-   @Schmitz2019 (ExpEcon, small time gap)
 
 -   Vance-Mullen component of Reinstein et al
 
 \
-
-### Field/natural experiments
+\#\# Field/natural experiments
 
 Notes from previous paper (unfold)
 
 ```{block2,  type='fold'}
 
-\cite{van2009does} offer some field experimental evidence on the crowding-out effects of direct mail solicitations. 
+\cite{van2009does} offer some field experimental evidence on the crowding-out effects of direct mail solicitations.
 
-\cite{borgloh-have} investigated the impact of the German church tax on households' other charitable giving. \cite{null2011warm} used a field experiment to examine how donations to different charities respond to changes in relative match rates -- however, as the total donation was decided ex-ante, the substitution among charities was constrained to be complete. Finally, an earlier work (\citealp{andreoni1996cct}) examines substitution between giving and volunteering. However, to the best of my knowledge, no work directly addresses the cross-price elasticity (nor the expenditure substitution) between gifts to charitable causes.
+\cite{borgloh} have investigated the impact of the German church tax on households' other charitable giving. \cite{null2011warm} used a field experiment to examine how donations to different charities respond to changes in relative match rates -- however, as the total donation was decided ex-ante, the substitution among charities was constrained to be complete. Finally, an earlier work (\citealp{andreoni1996cct}) examines substitution between giving and volunteering. However, to the best of my knowledge, no work directly addresses the cross-price elasticity (nor the expenditure substitution) between gifts to charitable causes.
 ```
 
 -   @Meer2014, @meerDoesFundraisingCreate2017: [DonorsChoose.org](donorschoose.org) competition, matching campaigns
@@ -257,11 +258,9 @@ Notes from previous paper (unfold)
     -   loss of 10% of revenues via competitive effects
     -   can't reject zero-crowding, but wide CI's
 
--   Anticipated second asks: [@adenaGivingOnceGiving2019; @Cairns2011]
+@adenaGivingOnceGiving2019: Anticipated repetition $\rightarrow$ 40% less "this year" (but also a *persistent* lower donation)
 
 @Cairns2011: *Anticipated* \`2nd collection' at Mass raised 7695 USD , reduced 1st collections by 1708 USD (22% "crowdout")
-
-@adenaGivingOnceGiving2019: Anticipated repetition $\rightarrow$ 40% less "this year" (but also a *persistent* lower don)
 
 Reinstein et al, 2020: First field-experiment to ask (or not ask) on multiple separate occasions with a significant delay, vary this delay time; find some crowding out but evidence on interaction with delay time is mixed. Possibly two channels: consistency versus fading of moral license/warm glow.
 
@@ -279,7 +278,7 @@ However, the generalizability of this finding is limited by a particular set of 
 
 With naturally-occurring, more time-separated shocks and asks, the results are more mixed, sometimes with much smaller, or no apparent substitution.
 
-So "how proximate is proximate"? Evidence is still mixed <!-- (see above discussion on dual channels) -->
+So "how proximate is proximate"? Evidence is still mixed. <!-- (see above discussion on dual channels) -->
 
 ```{block2,  type='note'}
 In Reinstein et al, we are planning a meta-analysis of the above papers

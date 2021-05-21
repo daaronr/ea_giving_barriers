@@ -334,13 +334,17 @@ Does the set of facts mentioned above constitute a "puzzle" for our Economics an
 Economists love when we can say that something is officially a *Puzzle*. It is an achievement in itself to be the researcher who first discovered a *Puzzle*, even if we have no clue how to resolve it.
 :::
 
-### Aside: Economic models of giving
+### Aside: Economic models of giving \* {#econ-models}
+
+<div class="marginnote">
+I return to this discussion in section  \@ref(subst-framework)
+</div>
+ 
 
 Traditionally, economic models are essentially 'if then' exercises meant to illustrate what factors *might* be driving outcomes, perhaps facilitating empirical testing. They are not, in general, *claims* about people's preferences, how they behave, or what motivates them. The discussion of charity in the Economics literature has tended to focus on two extreme models, focusing on modeling assumptions that allow simple mathematical 'if-then' proofs. Most of these models involve an individual making choices between a private good and a homogenous charitable good so as to maximizing a "utility function" (value function), subject to their budget constraints
 
 1.  A adaptation of the '**Public goods model**' (often attributed to @becker1974) in which individuals care about the total amount of a charitable good provided (no matter who contributes it), either because it benefits them directly or because they care about other people. (The utility of others might be subsumed into one's own utility function). This is sometimes labeled (confusingly in my opinion) called "pure altruism".
 
-<!-- -->
 
 2.  An extreme representation of a '**Warm glow'** model [@andreoni1989giving] in which an individual's utility increases (presumably at a decreasing rate) in the 'amount they sacrifice' towards the charitable good.
 
