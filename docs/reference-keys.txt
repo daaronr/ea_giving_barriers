@@ -1,6 +1,6 @@
-fig:unnamed-chunk-22
-tab:unnamed-chunk-70
-fig:unnamed-chunk-77
+fig:unnamed-chunk-23
+tab:unnamed-chunk-71
+fig:unnamed-chunk-78
 present-links
 why-understand-reactions
 notes-on-this-format
@@ -17,9 +17,11 @@ prevsurvey
 effectiveness-specific-work
 def-impact
 why-puzzle
-breakdown-of-barriers
+aside-economic-models-of-giving
+barriers-breakdown
 barriers-concept
 avoiding-information-motivated-reasoning-in-processing-it
+barriers-practical
 substitution
 theoretical-framework-and-concerns
 previous-approaches-and-evidence

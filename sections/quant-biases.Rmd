@@ -1,3 +1,7 @@
+---
+bibliography: references.bib
+---
+
 # Barriers: Quantitative biases (the 'distorted altruist') {#quant-biases}
 
 Recapping the discussion from the [Conceptual breakdown of 'barriers'](#barriers-concept).
@@ -154,7 +158,7 @@ Statistical tests -
 
 [**Brief on tangential papers (non charity) and papers supporting the mechanism**]{.ul}
 
-@Baron1997**: "Confusion of Relative and Absolute Risk in Valuation"**
+@Baron1997**:** **"Confusion of Relative and Absolute Risk in Valuation"**
 
 [Methods]{.ul}
 
@@ -236,9 +240,9 @@ Cite: Hsee13, small2003helping, kogut2011identifiable, @Small2007 (studies 3-4)
 
 ### Definition
 
-The identifiable victim effect (IVE) is credited as being first developed by @schelling1968life, who argue "there is a distinction between an individual and a statistical life". People may react differently towards victims when these victims are *identified* rather than anonymous [\@ @smallHelpingVictimHelping2003]. As a result, resources may be more likely to be devoted to causes where individual victims are more prominent and identifiable (rather than cases where we only see large, unidentified groups) [@small2010reference]. @slovicPsychicNumbingGenocide2007 also discussed this effect, in a paper that derives its title from a Mother Teresa quote that reflects the key idea: "If I look at the mass I will never act. If I look at the one I will".
+The identifiable victim effect (IVE) is credited as being first developed by @schelling1968life, who argue "there is a distinction between an individual and a statistical life". People may react differently towards victims when these victims are *identified* rather than anonymous [@smallHelpingVictimHelping2003]. As a result, resources may be more likely to be devoted to causes where individual victims are more prominent and identifiable (rather than cases where we only see large, unidentified groups) [@small2010reference]. @slovicPsychicNumbingGenocide2007 also discussed this effect; this paper derives its title from a quote from Mother Teresa:\
 
-\
+> If I look at the mass I will never act. If I look at the *one* I will.
 
 ### Relevance to effective giving
 
@@ -269,10 +273,10 @@ In either case, we can still see the IVE as leading to inefficient giving. From 
 
 ```
 
-@baron2011heuristics also argue that the IVE could be viewed as a framing effect: the choices the donors make are influenced by how the information is *presented*, holding reality constant. This is about *presentation*: all victims *could* be identified, with names, ethnicities and ages. This leads @baron2011heuristics to suggest that "the identifiability effect may fail a simpler test of rationality".\^$^{(??)}$
+@baron2011heuristics also argue that the IVE could be viewed as a framing effect: the choices the donors make are influenced by how the information is *presented*, holding reality constant. This is about *presentation*: all victims *could* be identified, with names, ethnicities and ages. This leads @baron2011heuristics to suggest that "the identifiability effect may fail a simpler test of rationality".\*
 
 ::: {.marginnote}
-What test?\^
+\* What test? To do: clarify.
 :::
 
 \
@@ -281,31 +285,37 @@ What test?\^
 
 <!-- TODO: more complete overview of the types of evidence as well as existing meta-analyses -->
 
-One of the potential reasons that identified victims could elicit greater generosity is that their stories can involve more sympathy-inducing information (see @jenniExplainingIdentifiableVictim1997 and @loewensteinScarecrowTinMan2007 for more on the causes of the identifiable victim effect and more on sympathy biases). However, while sympathy-inducing information can contribute to the impact of the identifiable victim effect, some evidence suggests that it is not the sole factor driving this.
+One of the potential reasons that *identified victims* could elicit greater generosity is that their stories can involve more sympathy-inducing information.\*\*
 
-\@@smallHelpingVictimHelping2003 designed studies to separate the effect of the *identification* of a victim from the effect of *information being provided* about a victim. They outlined this distinction as follows:
+<div>
+
+\*\*See @jenniExplainingIdentifiableVictim1997 and @loewensteinScarecrowTinMan2007 for more on the causes of the identifiable victim effect and more on sympathy biases.
+
+</div>
+
+However, while sympathy-inducing information may contribute to the impact of the identifiable victim effect, some evidence suggests that it may not be the sole factor driving this. @smallHelpingVictimHelping2003 designed studies to separate the effect of the *identification* of a victim from the effect of *information being provided* about a victim. They outlined this distinction as follows:
 
 > Although it has been claimed that people care about identifiable more than statistical victims, demonstrating this "identifiable victim effect" has proven difficult because identification usually provides information about a victim, and people may respond to the information rather than to identification *per se*. We show that a very weak form of identifiability - determining the victim without providing any personalizing information - increases caring.
 
-In one of their studies, they used a version of the dictator game. In dictator games, the first player, known as the 'allocator' is given an endowment. They then make a unilateral decision on how they should split this endowment. The second player, known as the 'recipient', has to accept this split.
+In one of their studies, they used a version of the "dictator game". In dictator games, the first player, known as the 'allocator' is given an endowment. They then make a unilateral decision on how they should split this endowment. The second player, known as the 'recipient', has to accept this split.\*
 
 ::: {.marginnote}
-For more on dictator games see @kahneman1986fairness and @camerer1995anomalies.
+\*For more on dictator games see @kahneman1986fairness and @camerer1995anomalies.
 :::
 
-There were two conditions in the slightly altered dictator game devised by \@@smallHelpingVictimHelping2003. In the 'determined' condition, allocators were given a number to link them with the recipient before they made their decision, while in the 'undetermined' condition they were linked after the decision. Their hypothesis, that an allocator would give more money to recipients in the determined condition, was supported. Subjects gave significantly more to those victims who had been determined before the allocation. The mean donation for an undetermined victim was USD 2.12, compared to USD 3.42 for determined victims.
+There were two conditions in the slightly-altered dictator game devised by \@@smallHelpingVictimHelping2003. In the 'determined' condition, allocators were given a number to link them with the recipient before they made their decision, while in the 'undetermined' condition they were linked after the decision. Their hypothesis, that an allocator would give more money to recipients in the determined condition, was supported. Subjects gave significantly more to those victims who had been determined before the allocation. The mean donation for an undetermined victim was USD 2.12, compared to USD 3.42 for determined victims.
 
 The second study from \@@smallHelpingVictimHelping2003 was a field experiment with the following methodology:
 
-> ... potential donors were presented with a letter requesting money to buy materials for a house that was to be built for a needy family through the Habit for Humanity organization. The letter described several families on the waiting list to move into homes. Identifiability was manipulated by informing respondents that the family either "*has been selected*" or "*will be selected*" from the list. In neither condition were respondents told which family had been or would be selected; the only difference between conditions was in whether the decision had already been made
+> ... potential donors were presented with a letter requesting money to buy materials for a house that was to be built for a needy family through the Habit for Humanity organization. The letter described several families on the waiting list to move into homes. Identifiability was manipulated by informing respondents that the family either "*has been selected*" or "*will be selected*" from the list. In neither condition were respondents told which family had been or would be selected; the only difference between conditions was in whether the decision had already been made.
 
-As in their first study, they found evidence supporting their hypothesis that contributions would be larger when the recipients had already been determined. Mean, median and mode donations were all larger in the determined condition, with a mean of USD 2.93 given in the determined family condition, and a mean of USD 2.33 given in the undetermined family condition. This study could arguably provide stronger support for the identifiable victim effect impacting altruism, as \@@smallHelpingVictimHelping2003 suggest:
+As in their first study, they found evidence supporting their hypothesis that contributions would be larger when the recipients had already been determined. Mean, median and modal donations were all larger in the determined condition, with a mean of USD 2.93 given in the determined family condition, and a mean of USD 2.33 given in the undetermined family condition. This study could arguably provide stronger support for the identifiable victim effect impacting altruism, as @smallHelpingVictimHelping2003 suggest:
 
 > By moving out of the laboratory, we eliminated potential artifacts such as the concern that students might have felt of being "found out" by their peers or other non-empathatic motives. By collecting money for a real charity to help people truly in need, we illustrate the real world implications of this effect.
 
-Both of these studies from \@@smallHelpingVictimHelping2003 suggest that identifying a victim, even without providing additional information, can potentially increase giving.
+Both of these studies from @smallHelpingVictimHelping2003 suggest that identifying a victim, even without providing additional information, can potentially increase giving.
 
-Results from @charnessWhatNameAnonymity2008 similarly offer support for the identifiable victim effect from dictator games. In their dictator game, they found that when the family name of the recipient was revealed, the allocator gave a significantly larger portion of their endowment. Allocators who were told the family name gave 50 percent more than those who weren't.
+Results from @charnessWhatNameAnonymity2008 similarly offer support for the IVE from dictator games. In their dictator game, they found that when the family name of the recipient was revealed, the allocator gave a significantly larger portion (50 percent more) of their endowment.
 
 @kogutIdentifiedVictimEffect2005 also studied the IVE with the following design for participants:
 
@@ -316,12 +326,22 @@ Participants were given the same story, describing either a sick child, or a gro
 Their first finding was that "the effect of identification may be largely restricted to single victims", as the impact of being identified was significantly less for the group of eight children than for the single child. Secondly, they found that "the identification of the single victim is more effective the more vivid the representation", with willingness to donate at its highest when the victims were identified by age, name, and picture.
 
 ::: {.marginnote}
-I'd like to check the robustness of this 'interaction' effect; such effects can be confounded with non-linearity. See discussion [here, section 1.3.7](https://daaronr.github.io/metrics_discussion/introduction.html#basic-regression-and-statistical-inference-common-mistakes-and-issues)
+I'd like to check the robustness of this 'interaction' effect; such effects may be confounded with non-linearity. See discussion [here, section 1.3.7](https://daaronr.github.io/metrics_discussion/introduction.html#basic-regression-and-statistical-inference-common-mistakes-and-issues)
 :::
 
 @Sudhir2016a also found support for the IVE. They randomized advertising content in a large-scale experiment with charitable mailings across India. In the 'individual' condition, they described an individual along with her photograph. On the 'group' condition they described the victims as a group of four women and used a photo collage. They found an average donation rate of 0.24% in the individual condition, compared to 0.09% for the group condition. They also found that the IVE contributed both to a higher rate of giving, and higher amounts given.
 
 Linked to the identifiable victim effect is the notion that people are sensitive to the *proportion* of lives saved, rather than absolute lives (as discussed in more detail [above](#prop-dom)) [@Baron1997; @fetherstonhaughInsensitivityValueHuman1997; @Small2007]. @loewensteinScarecrowTinMan2007 suggest that if the proportion of lives saved is higher, then the lives could be more identifiable, resulting in more sympathy. They claim that, for example, "Ten lives out of a group of 100 is a high proportion and thus more sympathy inducing than 10 lives out of 1,000,000". @loewensteinScarecrowTinMan2007 also argue that the IVE represents one extreme on a continuum. If a single victim is identified, this victim becomes part of one's own reference group; thus one might experience higher levels of sympathy. At the opposite end of the continuum we find the 'drop-in-the-bucket' effect, where "there are so many victims in the reference group that the individual victims are hidden among the masses".
+
+@lee2016identifiable present a random-effects meta-analysis of the IVE, including 41 studies. They find\*
+
+<div>
+
+To do: check the extent to which these studies surround charitable giving.
+
+</div>
+
+> an overall significant yet modest IVE (*r* = .05) ... reliable mainly when there is a single identified or a single unidentified victim, and/or when study characteristics include elements of the following: a photographed child suffering from poverty, bearing little responsibility for the need, and/or associated with monetary requests.
 
 ## Availability heuristic
 

@@ -305,7 +305,6 @@ Increased benefits could be achieved if donations were "reallocated" towards mor
 B_k^\prime(G_k) = B_j^\prime(G_j)\forall j,k s.t. G_j>0, G_k>0
 \end{equation}
 ```
-
 Caveats (unfold):
 
 ```{block2,  type='fold'}
@@ -319,7 +318,6 @@ See also this brief (EA Forum) on the ["Market efficiency of philanthropy"](http
 
 ```
 
-
 \
 
 But we do *not* seem to be doing this. Again: billions are given to charity, and these charities clearly have vastly different marginal impacts, even among those that seem to target very similar outcomes.
@@ -328,41 +326,58 @@ But we do *not* seem to be doing this. Again: billions are given to charity, and
 
 ## Why (under which models) is this a puzzle? {#why-puzzle}
 
-Does the set of facts mentioned above constitute a "puzzle" for our Economics and Psychology models,  or are there obvious existing explanations? In Economic terms, are donors mysteriously ''leaving money on the table'' or are they simply optimizing given their their preferences and constraints? What could explain this?
+Does the set of facts mentioned above constitute a "puzzle" for our Economics and Psychology models, or are there obvious existing explanations? In Economic terms, are donors mysteriously ''leaving money on the table'' or are they simply optimizing given their their preferences and constraints? What could explain this?
+
+**We return to this in the [next section]\#(barriers-breakdown), while classifying potential 'barriers' to effective giving**.
 
 ::: {.marginnote}
 Economists love when we can say that something is officially a *Puzzle*. It is an achievement in itself to be the researcher who first discovered a *Puzzle*, even if we have no clue how to resolve it.
 :::
 
-```{block2,  type='note'}
-Aside on 'Warm glow'... consider the contrast between models where people care about the impact of their gift versus models in which they care only about the  'amount sacrificed' (naive warm glow).  Does impact map into the 'good feeling' from giving? Can it do so?
-  
-  
-It is also important to note that the 'warm glow' presented in the Economics literature does not map to a single psychological mechanism or theory, and there is some ambiguity as to which motivations should be subsumed in this. 
+### Aside: Economic models of giving
 
-"The concept of warm-glow is only a convenient reduced-form representation for deeper and more complex considerations of givers"  (Andreoni, 2006)
+Traditionally, economic models are essentially 'if then' exercises meant to illustrate what factors *might* be driving outcomes, perhaps facilitating empirical testing. They are not, in general, *claims* about people's preferences, how they behave, or what motivates them. The discussion of charity in the Economics literature has tended to focus on two extreme models, focusing on modeling assumptions that allow simple mathematical 'if-then' proofs. Most of these models involve an individual making choices between a private good and a homogenous charitable good so as to maximizing a "utility function" (value function), subject to their budget constraints
+
+1.  A adaptation of the '**Public goods model**' (often attributed to @becker1974) in which individuals care about the total amount of a charitable good provided (no matter who contributes it), either because it benefits them directly or because they care about other people. (The utility of others might be subsumed into one's own utility function). This is sometimes labeled (confusingly in my opinion) called "pure altruism".
+
+<!-- -->
+
+2.  An extreme representation of a '**Warm glow'** model [@andreoni1989giving] in which an individual's utility increases (presumably at a decreasing rate) in the 'amount they sacrifice' towards the charitable good.
+
+It is also important to note that the 'warm glow' presented in the Economics literature does not map to a single psychological mechanism or theory, and there is some ambiguity as to which motivations should be subsumed in this. According to Andreoni (who coined the term):
+
+> The concept of warm-glow is only a convenient reduced-form representation for deeper and more complex considerations of givers [@andreoni2006]
+
+In fact, each of the above models is an extreme representation that was originally used to provide insight into how to think about issues such as "does government spending crowd-out private donations" and "how do individuals respond to tax-benefits for giving"? In its simplest form, each model yields predictions that are profoundly unrealistic and can easily be "rejected" by real world data.
+
+Much is left ambiguous in each model, as well as in other fairly prominent models such as the "Impact" [@duncan2004] or "Identification" [@atkinson2009] models of giving, or reputation-based models [@harbaugh1998]
+
+Most importantly, for the present discussion:
+
+(When and how) does the "actual impact of one's gift" have an impact
+
+-   into the 'good feeling' one gets from giving
+
+-   or the thing the individual is maximizing
+
+... in a way that drives donation choices?
 
 
-```
 
-::: {.marginnote}
-[@andreoni2006]
-:::
-
-# Breakdown of barriers
+# Breakdown of barriers {#barriers-breakdown}
 
 ## Conceptual breakdown of 'barriers' (first presentation) {#barriers-concept}
 
-We focus on the 'barriers' or 'hurdles' to giving effectively among individuals who *already* engage in some charitable giving and other-regarding acts. Loosely, a donor would need to jump over all of these hurdles and cross each of these barriers in order to be giving effectively.
+We focus on the 'barriers' or 'hurdles to giving effectively' among individuals who *already* engage in some charitable giving and other-regarding acts. Loosely, a donor would need to "jump over all of these hurdles" and cross each of these barriers in order to be giving effectively.
 
 ::: {.marginnote}
-Recall: is there a well-known psychological framework for these sorts of multiple-hurdle choices?
+Consider: is there a well-known psychological framework for these sorts of multiple-hurdle choices?
 :::
 
-We first consider a fairly *conceptual* breakdown. (However, for the main organization, we will use a less theoretically precise categorization that proved more practically usable.)
+We first consider a fairly *conceptual* breakdown. (However, for the main organization, we will use a less theoretically-precise categorization that proved more practically usable.)
 
 ::: {.marginnote}
-Later chapters presents the direct and indirect evidence for very specific barriers, with real-world examples, and proposed 'tools' for surmounting these. Here the conceptual breakdown proved difficult, as most of the real world cases fell into multiple theoretical categories.
+Later chapters present the direct and indirect evidence for very specific barriers, with real-world examples, and proposed 'tools' for surmounting these. In doing this, the conceptual breakdown proved difficult, as most of the real-world cases fell into multiple theoretical categories.
 :::
 
 \
@@ -371,19 +386,19 @@ Later chapters presents the direct and indirect evidence for very specific barri
 
 **A conceptual breakdown of barriers:**
 
-Base values: (non) utilitarian: people are optimising their own 'X', which  does not coincide with impact $\rightarrow$ no puzzle?
+- Base values may be (non) utilitarian: People are optimising their own 'X', which  does not coincide with impact $\rightarrow$ no puzzle?
 
 
-Judgement/cognition failures: People try but fail to optimize
+- Judgement/cognition failures: People try but fail to optimize
 \
 
-Emotion overrides cognition: Our brain serves two masters, those decisions are not consistent
+- Emotion overrides cognition: Our brain serves two masters, those decisions are not consistent
 \
 
-Identity and signalling: Effectiveness in giving clashes with our self-image/self-beliefs, or with  how we want to appear to others
+- Identity and signalling: Effectiveness in giving clashes with our self-image/self-beliefs, or with  how we want to appear to others
 \
 
-Systemic factors (and inertia): "It's society's fault, man" ... social systems leading to pressure and incentives from others to give to local or less-effective causes. Even if impact is a goal these systems take a long time to adjust.
+- Systemic factors (and inertia): "It's society's fault, man" ... social systems leading to pressure and incentives from others to give to local or less-effective causes. Even if impact is a goal these systems take a long time to adjust.
 
 ```
 
@@ -395,23 +410,24 @@ yoruk_2016, Gneezy2014  brown_etal_2016, Chhaochharia_Ghosh_08?, Kinsbergen_tols
 ```
 ### Are people utilitarian? {#are_we_util .unnumbered}
 
-The discussion above largely assumes that people are, at least to some extent:
+Most of our discussion above largely assumes that an individual is, at least to some extent:
 
-i.  Other-regarding/pro-social: her preferences or the "utility function she is maximizing" incorporates the well-being of others, at least to some extent
+i.  *Other-regarding/pro-social:* Her preferences or the "utility function she is maximizing" incorporates the well-being of others, at least to some extent
 
-ii. Moral utilitarians: The value she places on helping others (or on others' outcomes) is principally increasing in some measure of the *amount* of good they have done for others, or in others' welfare. For a given personal sacrifice, she will always prefer to have made more people more well-off than to have made fewer people less well-off. In Economics terms, she strictly prefers and values *Pareto-improvements*.
+ii. *A moral utilitarian* (consequentialist): The value she places on helping others (or on others' outcomes) is principally increasing in some measure of the *amount* of good they have done for others, or in others' welfare. For a given personal sacrifice, she will always prefer to have made more people more well-off than to have made fewer people less well-off. In Economics terms, she strictly prefers and values *Pareto-improvements*.
 
 ::: {.marginnote}
-A mathematical statement of this may be helpful here.
+To do: A mathematical statement of this may be helpful here.
 :::
 
-iii. Agent-neutrality ('universalist'): In considering others' welfare, she values all others equally regardless of their identity.\*
+iii. *Agent-neutral* ('*universalist*'): In considering others' welfare, she values all others equally regardless of their identity. (Unfold for a precise example of this.)\*
 
      ::: {.marginnote}
      \* I believe this corresponds to a 'symmetric' welfare function in Economics.
      :::
 
-```{block2,  type='note'}
+```{block2,  type='fold'}
+
 Agent-neutrality: a more precise example:
 
 Consider a world with three other people (B,C,D). Suppose each begin in a poor state. Consider outcomes such as:
@@ -424,11 +440,13 @@ A universalist, as I define it, would always prefer outcome 1 over outcome 2. Sh
 
 ```
 
-iv. Not 'deontological': there are no other relevant absolute moral constraints (constraints such as 'do no harm in your actions, even if others are helped')
+iv. *Not 'deontological':* She faces no other relevant absolute moral constraints (constraints such as 'do no harm in your actions, even if others are helped')
+
+\
 
 **To what extent does a 'moral utilitarian' (MU) consequentialist ethic govern beliefs and behaviour?** To the extent it *does*, limited effective giving represents a puzzling intention/action gap.
 
-However, for non-utilitarians this is no puzzle. If other forces and motivations drive our giving choices, we might not expect these to be aligned with effectiveness.
+**However, for non-utilitarians this is no puzzle.** If other forces and motivations drive our giving choices, we might not expect these to be aligned with effectiveness.
 
 It could be argued that the above is posed too starkly. People may embrace concepts such as utilitarianism, universalism, and cause neutrality, and at the same time be largely driven by other concerns and sympathetic to other moral frameworks. We may agree with statements that "all lives are equal" and "we should strive to do the most good for the largest number" but also support maxims such as "charity begins at home" and "giving is about supporting something you have a personal connection to."
 
@@ -438,7 +456,7 @@ While these statements may, strictly speaking, be contradictory, we shouldn't ex
 
 <!-- TODO: Citations here; I recall having seen evidence  and argumentation suggesting that people are far from consistently in one camp or another -->
 
-Perhaps moral utilitarianism (MU) is relatively unimportant in most people's charitable choices. Even if this is the case, understanding the ways in which people do pursue their giving goals, and their obstacles and "biases" in doing so may suggest ways of making giving more impactful. For example, many donors may prioritize their local community, leading to their less-effective giving (from a universalist point of view). However, they might be persuaded to expand their definition of their own 'community'.
+Perhaps moral utilitarianism (MU) is relatively unimportant in most people's charitable choices. Even if this is the case, understanding the ways in which people *do* pursue their giving goals, and their obstacles and "biases" in doing so may suggest ways of making giving more impactful. For example, many donors may prioritize their local community, leading to their less-effective giving (from a universalist point of view). However, they might be persuaded to expand their definition of their own 'community', or more generally, expand their "moral circle" (discussed in [@crimston2018]).
 
 <!-- Even if this is the case, specific campaigns, tools, and fundraising approaches may still help align their parochial, self-interested, or reputation-seeking values and intentions with more effective giving. -->
 
@@ -518,7 +536,8 @@ See: @andreoniAvoidingAskField2017, @exleyExcusingSelfishnessCharitable2016, @ex
 :::
 
 \
-\#\# Practical breakdown (organizing this resource) {\#}
+
+## Practical breakdown (organizing this resource) {#barriers-practical}
 
 Most of this bookdown is devoted to classifying potential barriers to effective giving and assessing the general and specific evidence for these barriers. We use a more practical breakdown to organize this, particularly trying to avoid overlap between sections.
 
@@ -532,7 +551,6 @@ Responses?: (Information enhancing) the social closeness of a recipient/benefici
 
 Less proximate needs are less salient, thus under-funded.
 
-\
 
 ### [Identity and signaling](#identity) {.unnumbered}
 
@@ -540,7 +558,6 @@ Considering effectiveness in giving (and publicizing this concern) may conflict 
 
 [@burumEvolutionaryExplanationIneffective2020]
 
-\
 
 Includes, e.g.,
 
@@ -548,24 +565,20 @@ Includes, e.g.,
 
 -   difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness' @burumEvolutionaryExplanationIneffective2020
 
-\
 
 -   **Section** \@ref(identity)**: [Barriers: Identity and cognitive dissonance](#identity)**
 
 <!-- Volunteer experience unlocks emotion and giving -->
 
-\
 
 -   **Section** \@ref(social)**: [Barriers: Signaling and social pressures/social identity](#social)**
 
--   social obligations to give locally (and 'crowding out'/moral licencing)
-
-[@meerBrotherCanYou2011]
+-   social obligations to give locally (and 'crowding out'/moral licencing) (see, e.g., [@meerBrotherCanYou2011])
 
 Does one contribution crowd out another? If so, social pressure, systems enforcing 'local public goods' and inertial factors may limit effective (non-local) giving.
 
 ```{=html}
-<!-- #TODO: At some point we should Make the point that in order for people to give effectively they need to know which charities are effective. For this to be the case, charities must transparently submit to rigorous metrics. Charities must advertise their impact and compete on this basis. For charities to want to do this, they must believe that donors as ‘consumers’ care about this.
+<!-- #TODO: At some point we should make the point that in order for people to give effectively they need to know which charities are effective. For this to be the case, charities must transparently submit to rigorous metrics. Charities must advertise their impact and compete on this basis. For charities to want to do this, they must believe that donors as ‘consumers’ care about this.
 
 According to Mulesky (2020) “Charities routinely appeal to impact when soliciting donations”; However, the example she gives is not a clear measure of per dollar impact.
 
@@ -573,6 +586,7 @@ However, a feature of philanthropy overlooked in published research is that nonp
 organizations rarely, if ever, support these claims with rigorous evidence
 -->
 ```
+
 -   **Section** \@ref(eval-aversion)**: [Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
 
 -   **Section** \@ref(factual)**: [Barriers: Persistent and systematic incorrect empirical beliefs](#factual)**
