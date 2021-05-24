@@ -2,11 +2,11 @@
 
 ```{block2,  type='note'}
 
-Note: this relates to an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis being planned. 
+Note: this relates to an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis underway
 
-Much of this project is organised in the [dualprocess repo](https://github.com/daaronr/dualprocess).
+Much of this project is being openly presented in the (in-progress) ["Impact of impact treatments on giving: field experiments and synthesis"](https://daaronr.github.io/dualprocess/index.html) bookdown,  a project organised in the [dualprocess repo](https://github.com/daaronr/dualprocess).
 
-An earlier set of presentation slides (now pictures are missing -- need to recover) is hosted [here](https://daaronr.github.io/dualprocess/SPI_EA_impact#/) - press 'O' to see the fill multidimensional slide map; the outline slide is [here](https://daaronr.github.io/dualprocess/SPI_EA_impact#/outline-1) 
+An earlier set of presentation slidesis hosted [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/) - press 'O' to see the fill multidimensional slide map; the outline slide is [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/2/2) 
                                                        
 ```
 
@@ -18,7 +18,7 @@ An earlier set of presentation slides (now pictures are missing -- need to recov
 ```
 ## General relevance to effective giving
 
-For people to choose one product over another on the basis of some characteristic (e.g., safety, taste, or durability), they presumably must be *aware* of these differences before purchasing. Economists note [ref] the difficulty of investing in producing, marketing and selling high-quality products and services when consumers have difficulty distinguishing these products from inferior ones. This is especially difficult when the quality of a product is not known before purchase (an 'Experience good'^[ref]^ such as a ticket to a particular stage show), or when it is not known until a long time later, if at all (a 'credence good' such as a health remedy or investment advice.)
+For people to choose one product over another on the basis of some characteristic (e.g., safety, taste, or durability), they presumably must be *aware* of these differences before purchasing. Economists note^[ref]^ the difficulty of investing in producing, marketing and selling high-quality products and services when consumers have difficulty distinguishing these products from inferior ones. This is especially difficult when the quality of a product is not known before purchase (an 'Experience good'^[ref]^ such as a ticket to a particular stage show), or when it is not known until a long time later, if at all (a 'credence good' such as a health remedy or investment advice.)
 
 ::: {.marginnote}
 Insert abundant references here to asymmetric information, fly-by-night competition, and experience and creedence goods, product reviews, regulation, advertising as a signal, etc.
