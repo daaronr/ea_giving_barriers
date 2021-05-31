@@ -1,6 +1,6 @@
-fig:unnamed-chunk-25
-tab:unnamed-chunk-75
-fig:unnamed-chunk-82
+fig:unnamed-chunk-23
+tab:unnamed-chunk-73
+fig:unnamed-chunk-80
 present-links
 why-understand-reactions
 notes-on-this-format
@@ -8,6 +8,7 @@ outline
 overview
 structure-barriers
 paper-structure
+evidence-and-meta-analysis-discussion
 airtable-contrib
 other-practical-considerations
 present-puzzle

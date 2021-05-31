@@ -136,6 +136,20 @@ coming from research papers/studies such as  @fongTruthGivingExperimental2010.
 
 ```
 
+
+## Evidence and meta-analysis: discussion
+
+
+To do: In this subsection (or somewhere in this draft), we intend to discuss...
+
+1. The nature of evidence for drivers of effective/ineffective giving, and how we might evaluate it
+
+2. Meta analysis: Existing work and plans for doing meta-analysis as part of this project
+
+See [innovationsinfundraising](https://innovationsinfundraising.org/doku.php?id=tools:meta-analysis_approach#references_and_discussion_of_specific_issues_in_meta-analysis) for some earlier discussion of this, as well as ["What works to increase charitable donations? A meta-review with meta-meta-analysis" by Noetel et al](https://psyarxiv.com/yxmva/)
+
+ 
+
 ## Airtable organisation; contributing content {#airtable-contrib}
 
 **These classifications of barriers** are organised, outlined, and defined in our Airtable; see the view below.
