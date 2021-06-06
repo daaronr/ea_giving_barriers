@@ -371,7 +371,7 @@ markdown documents:
     cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 -   [R Markdown
-    cheatsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+    cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdfß)
 
 \
 
@@ -499,7 +499,7 @@ The BibTeX format refers to a stylized file format which is used
 predomoninantly for lists of references, mainly and originally for
 working with latex.. BibTeX bibliographies use the .bib extension. For
 example the bibliography for this project is
-[giving_keywords.bib](support/giving_keywords.bib). For more information
+[references.bib](references.bib). For more information
 on BibTeX see [here](http://www.bibtex.org/)
 
 -   **Zotero**
@@ -866,7 +866,7 @@ Note that the 'project board' and 'issues' are just tools on the Github web site
 ## Airtable and innovationsinfundraising.org
 
 This project is closely connected to
-[innovationsinfundraising.org](innovationsinfundraising.org). Much of
+[innovationsinfundraising.org](https://innovationsinfundraising.org/doku.php?id=start). Much of
 these projects overlap, and there is a shared 'database' stored as an
 airtable [Giving researchers
 shared](https://airtable.com/invite/l?inviteId=invjWg63fpQAOBcch&inviteToken=0b154f62460aba428e0bf8c082ae3947e2e9b62b1045994a767eee551bb92833)
