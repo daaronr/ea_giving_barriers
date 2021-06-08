@@ -1,6 +1,7 @@
 # Functions used in general Reinstein code
 
 
+
 #### 'Hijacking' standard functions ####
 
 ### See - https://www.r-bloggers.com/hijacking-r-functions-changing-default-arguments/
@@ -305,6 +306,19 @@ just_x  <- function(df) {
                select_all(~gsub("\\.x$", "", .))
 }
 
+#### Basic setup and codebooks
+
+
+
+rdr_cbk <- function(cbfile) {
+  #Convenience function to make codebooks with options
+  rmarkdown::render(
+    here("codebooks", cbfile),
+    output_dir = here("docs","codebooks"),
+    intermediates_dir = here("docs","codebooks"),
+    knit_root_dir = here("docs", "codebooks")
+  )
+}
 
 
 ####  summary tables function(s) ####

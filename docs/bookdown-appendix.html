@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>14 Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own) | Increasing effective charitable giving: The puzzle, what we know, what we need to know next</title>
   <meta name="description" content="A broad project of definition, discussion synthesis, and meta-analysis" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="14 Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own) | Increasing effective charitable giving: The puzzle, what we know, what we need to know next" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and others" />
 
 
-<meta name="date" content="2021-05-30" />
+<meta name="date" content="2021-06-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,8 +51,6 @@
 
 
 
-<link href="book_assets/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="book_assets/anchor-sections-1.0.1/anchor-sections.js"></script>
 <!-- font families -->
 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
@@ -743,29 +741,6 @@ code span.vs { color: #4e9a06; } /* VerbatimString */
 code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-<style type="text/css">
-/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}
-</style>
-
 <link rel="stylesheet" href="support/tufte_plus.css" type="text/css" />
 </head>
 
@@ -1282,7 +1257,6 @@ folding boxes</li>
 <ul>
 <li><p>In the <a href="https://www.dropbox.com/s/sw6i7hws15903a3/bookdown_template_rmd_intro.mp4?dl=0">video: intro to rmd and bookdown - template HERE</a> I introduce the basics of the Bookdown setup and folder structure, using the <a href="https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template">bookdown template repo files</a> as an example.</p></li>
 <li><p>I further discuss the elements of the .Rmd (and associated) files, and how they translate into html output in the <a href="https://www.dropbox.com/s/p724socu1pmjous/rmarkdown-bookdown-content.mp4?dl=0">video: rmarkdown content from template HERE</a></p></li>
-<li><p>A final video that focuses a bit more on adding citations is <a href="https://www.dropbox.com/s/30ix6h3sxr24k9j/the_bookdown_and_editing_rmd.mp4?dl=0">HERE</a> – this latter video has a very large file size, sorry.</p></li>
 </ul>
 <p><em>My apologies</em>: In these videos my dumb head is blocking an important part of the screen share. It may help you to have the original files up to see the missing bits. I hope to redo these when I have a chance.</p>
 <p><em>Note:</em> The key files and settings for my bookdown projects are maintained in my repo <a href="https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template">here</a>, along with a minimal example. This is (or should be) synchronised with all the other repos.</p>
@@ -1369,7 +1343,7 @@ markdown documents:</p>
 <ul>
 <li><p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown
 cheatsheet</a></p></li>
-<li><p><a href="https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf">R Markdown
+<li><p><a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdfß">R Markdown
 cheatsheet</a></p></li>
 </ul>
 <p><br />
@@ -1400,10 +1374,10 @@ content which can be displayed in a chunk. Such as tables of data:</p>
 <td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">5.4</td><td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">3.9</td><td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">1.7</td><td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">0.4</td><td style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0.4pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">setosa</td></tr>
 </table>
 
-<p>Code chunks are defined by wrapping text inside <code>```  ```</code>. The above example was coded using:</p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb19-1"><a href="bookdown-appendix.html#cb19-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-2"><a href="bookdown-appendix.html#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb19-3"><a href="bookdown-appendix.html#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="in">head(iris)</span></span></code></pre></div>
+<p>Code chunks are defined by wrapping text inside <code>```  ```</code>. The
+above example was coded using:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb12-1"><a href="bookdown-appendix.html#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb12-2"><a href="bookdown-appendix.html#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="in">head(iris)</span></span></code></pre></div>
 <!-- ````markdown ``` ```` -->
 <p>Options can be specified inside of the curly brackets {} More
 information is provided
@@ -1461,9 +1435,9 @@ following HTML wrapper:</li>
 <p>The margin notes used in this project are inspired by the Tufte handout
 style developed by American statistician Edward Tufte.</p>
 </div>
-<div class="sourceCode" id="cb20"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb20-1"><a href="bookdown-appendix.html#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;marginnote&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb20-2"><a href="bookdown-appendix.html#cb20-2" aria-hidden="true" tabindex="-1"></a>Your margin note goes here.</span>
-<span id="cb20-3"><a href="bookdown-appendix.html#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb13-1"><a href="bookdown-appendix.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;marginnote&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb13-2"><a href="bookdown-appendix.html#cb13-2" aria-hidden="true" tabindex="-1"></a>Your margin note goes here.</span>
+<span id="cb13-3"><a href="bookdown-appendix.html#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
 <p>Or margin notes can be added by using chunk options.</p>
 <ul>
 <li><strong>Folding boxes</strong></li>
@@ -1497,8 +1471,8 @@ index.Rmd.</p>
 predomoninantly for lists of references, mainly and originally for
 working with latex.. BibTeX bibliographies use the .bib extension. For
 example the bibliography for this project is
-<a href="support/giving_keywords.bib">giving_keywords.bib</a>. For more information
-on BibTeX see <a href="http://www.bibtex.org/">here</a></p>
+<a href="references.bib">references.bib</a>. For more information on BibTeX see
+<a href="http://www.bibtex.org/">here</a></p>
 <ul>
 <li><strong>Zotero</strong></li>
 </ul>
@@ -1515,29 +1489,10 @@ Zotero</a></p>
 allows the Zotero library to be exported from Zotero for use in
 Markdown. Installation instructions are provided
 <a href="http://retorque.re/zotero-better-bibtex/installation/">here.</a></p>
-<ul>
-<li><strong>Citr package (addin) for RStudio</strong></li>
-</ul>
-<p>The Citr package provides functions to search Zotero and BibTeX
-libraries in order to insert references into Markdown files. Citr also
-features a plugin for RStudio which makes the referencing process even
-easier. Instructions for download, as well as a demonstration of the
-Rstudio plugin are provided
-<a href="https://github.com/crsh/citr/blob/master/README.md">here.</a> When using
-the Citr package to add citations to projects such as this one, make
-sure to have Citr update the correct Bibtex file.</p>
-<div class="figure">
-<img src="picsfigs/citr_settings.png" alt="" />
-<p class="caption">Citr Settings for Ea_giving_barriers</p>
-</div>
-<div class="marginnote">
-<p>The Bibtex file to “Add references to” is the bibliography file
-specified in the YAML header of index.Rmd.</p>
-</div>
 </div>
 <div id="specific-system-for-adding-references-in-this-project" class="section level3" number="14.6.7">
 <h3><span class="header-section-number">14.6.7</span> Specific system for adding references in this project</h3>
-<p><strong>Method 1 (recommended): Rstudio citr plugin linked to Zotero</strong></p>
+<p><strong>Method 1 (recommended): Rstudio visual markdown editor</strong></p>
 <ol style="list-style-type: decimal">
 <li><p>Install Zotero software, Rstudio, and <code>citr</code> package (an ‘Add-in’).
 Make sure all are running.</p></li>
@@ -1547,21 +1502,13 @@ group</p></li>
 <li><p>Make sure the <a href="https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs/library">group
 library</a>
 is syncronised with your Zotero</p></li>
-<li><p>R-Studio ‘Addins (see bar at top),’ (Citr) ‘insert citation,’
-settings (brings up the screen shown above)</p></li>
+<li><p>Try to add the citation/reference using the visual markdown editor
+in Rstudio (see
+<a href="https://blog.rstudio.com/2020/11/09/rstudio-1-4-preview-citations/">here</a>)</p></li>
 </ol>
 <ul>
-<li><p>Make sure ‘add references to’ specifies the
-“…<code>ea_giving_barriers/support/reinstein_bibtex.bib</code>” folder.</p></li>
-<li><p>Make sure Zotero ‘reinstein_research_and_impact_collabs’ library is
-loaded</p></li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
-<li>Try to add the citation/reference.</li>
-</ol>
-<ul>
-<li><p>Note that <code>[(at symbol) reference]</code> gives a different format than <code>(at symbol) reference</code>
-(see below test).</p></li>
+<li><p>Note that <code>[(at symbol) reference]</code> gives a different format than
+<code>(at symbol) reference</code> (see below test).</p></li>
 <li><p>If the reference is not present, add it to the Zotero library (there
 are various methods, from Google Scholar etc) and synchronise your
 library, and try it again.</p></li>
@@ -1569,31 +1516,14 @@ library, and try it again.</p></li>
 context, and consult other survey papers. If you are still not sure
 ask on Github.</p></li>
 </ul>
-<p><br />
-</p>
 <p><strong>Method 2: Dropbox-syncronised Zotero to bibtex</strong></p>
 <p>(I’ll explain this later)</p>
-<p><br />
-</p>
-
-<div class="note">
-<p><strong>Adding a shortcut key for ‘insert citations’ in R-Studio</strong></p>
-<p>You may be able to save time in adding citations (via the CitR add-in in R-Studio) if you use a shortcut key.</p>
-<p>Select (menu bar):</p>
-<ul>
-<li>Tools</li>
-<li>Addins</li>
-<li>Browse addins</li>
-</ul>
-<p>Click in box “keyboard shortcuts”</p>
-<p>Click the addin “Insert Citations” under ‘shortcuts,’ and enter a keyboard shortcut of your choice.</p>
-</div>
 </div>
 <div id="a-test-of-adding-references" class="section level3" number="14.6.8">
 <h3><span class="header-section-number">14.6.8</span> A test of adding references</h3>
 <p><em>Test a reference from reinstein_bibtex.bib:</em>
-<span class="citation"><a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">Fong and Oberholzer-Gee</a> (<a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a>)</span> no brackets
-<span class="citation">(<a href="#ref-fongTruthGivingExperimental2010" role="doc-biblioref">Fong and Oberholzer-Gee 2010</a>)</span> with brackets</p>
+<span class="citation"><a href="references.html#ref-fongTruthGivingExperimental2010" role="doc-biblioref">Fong and Oberholzer-Gee</a> (<a href="references.html#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a>)</span> no brackets
+<span class="citation">(<a href="references.html#ref-fongTruthGivingExperimental2010" role="doc-biblioref">Fong and Oberholzer-Gee 2010</a>)</span> with brackets</p>
 </div>
 </div>
 <div id="how-to-build-and-view-the-book" class="section level2" number="14.7">
@@ -1639,13 +1569,14 @@ export work to Google Drive. This process is easy in R as we can use the
 <a href="https://googledrive.tidyverse.org/">googledrive package</a> and <a href="https://github.com/MilesMcBain/markdrive">markdrive
 packages</a>. Below we will
 outline a basic workflow for rendering Rmarkdown and uploading these
-files to Google Drive. During this process files are rendered and converted to Google Docs.</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="bookdown-appendix.html#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(markdrive)</span>
-<span id="cb21-2"><a href="bookdown-appendix.html#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-3"><a href="bookdown-appendix.html#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Render and upload Rmarkdown file</span></span>
-<span id="cb21-4"><a href="bookdown-appendix.html#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="fu">gdoc_render</span>(<span class="at">filename=</span><span class="st">&quot;sections/barriers_old_classification.Rmd&quot;</span>,</span>
-<span id="cb21-5"><a href="bookdown-appendix.html#cb21-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_name=</span> <span class="st">&quot;A test&quot;</span>,</span>
-<span id="cb21-6"><a href="bookdown-appendix.html#cb21-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_path=</span> <span class="st">&quot;Test folder&quot;</span>)</span></code></pre></div>
+files to Google Drive. During this process files are rendered and
+converted to Google Docs.</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="bookdown-appendix.html#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(markdrive)</span>
+<span id="cb14-2"><a href="bookdown-appendix.html#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="bookdown-appendix.html#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Render and upload Rmarkdown file</span></span>
+<span id="cb14-4"><a href="bookdown-appendix.html#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="fu">gdoc_render</span>(<span class="at">filename=</span><span class="st">&quot;sections/barriers_old_classification.Rmd&quot;</span>,</span>
+<span id="cb14-5"><a href="bookdown-appendix.html#cb14-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_name=</span> <span class="st">&quot;A test&quot;</span>,</span>
+<span id="cb14-6"><a href="bookdown-appendix.html#cb14-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_path=</span> <span class="st">&quot;Test folder&quot;</span>)</span></code></pre></div>
 <p>In the above example we render an Rmarkdown document to HTML and upload
 the corresponding document to Google Drive. This process tends to work
 best with Rmd files with <em>html_document</em> output.</p>
@@ -1653,29 +1584,31 @@ best with Rmd files with <em>html_document</em> output.</p>
 multiple times will result in <em>multiple</em> files. That is, duplicate files
 are not identified and removed automatically. This is possible when
 uploading files to Google Drive using the <code>googledrive</code> package,
-however, due to the need to render and convert our Rmarkdown file
-we must make use of the <code>markdrive</code> commands which do not support this. We now
-consider a workflow which identifies existing files and moves these to
-trash. This ensures that we do not create duplicates when uploading.</p>
-<p><strong>Warning</strong>: Make sure that you <strong>do not</strong> already have files with duplicate labels inside your <code>gdoc_path</code>. Otherwise these files will be deleted.</p>
-<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="bookdown-appendix.html#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googledrive)</span>
-<span id="cb22-2"><a href="bookdown-appendix.html#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(markdrive)</span>
-<span id="cb22-3"><a href="bookdown-appendix.html#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb22-4"><a href="bookdown-appendix.html#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Define files and folders for simplicity</span></span>
-<span id="cb22-5"><a href="bookdown-appendix.html#cb22-5" aria-hidden="true" tabindex="-1"></a>gdoc_file <span class="ot">&lt;-</span> <span class="st">&quot;A test&quot;</span></span>
-<span id="cb22-6"><a href="bookdown-appendix.html#cb22-6" aria-hidden="true" tabindex="-1"></a>gdoc_path <span class="ot">&lt;-</span> <span class="st">&quot;Term 2&quot;</span></span>
-<span id="cb22-7"><a href="bookdown-appendix.html#cb22-7" aria-hidden="true" tabindex="-1"></a>local_file <span class="ot">&lt;-</span> <span class="st">&quot;test.Rmd&quot;</span></span>
-<span id="cb22-8"><a href="bookdown-appendix.html#cb22-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb22-9"><a href="bookdown-appendix.html#cb22-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if our file to upload exists already</span></span>
-<span id="cb22-10"><a href="bookdown-appendix.html#cb22-10" aria-hidden="true" tabindex="-1"></a><span class="co"># If so move this file to trash</span></span>
-<span id="cb22-11"><a href="bookdown-appendix.html#cb22-11" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (gdoc_file <span class="sc">%in%</span> <span class="fu">drive_ls</span>(<span class="at">path=</span>gdoc_path)<span class="sc">$</span>name) {</span>
-<span id="cb22-12"><a href="bookdown-appendix.html#cb22-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drive_trash</span>(<span class="fu">as_dribble</span>(<span class="fu">paste</span>(gdoc_path, gdoc_file, <span class="at">sep=</span><span class="st">&quot;/&quot;</span>)))</span>
-<span id="cb22-13"><a href="bookdown-appendix.html#cb22-13" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb22-14"><a href="bookdown-appendix.html#cb22-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb22-15"><a href="bookdown-appendix.html#cb22-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Render and upload Rmarkdown file</span></span>
-<span id="cb22-16"><a href="bookdown-appendix.html#cb22-16" aria-hidden="true" tabindex="-1"></a><span class="fu">gdoc_render</span>(<span class="at">filename=</span> local_file,</span>
-<span id="cb22-17"><a href="bookdown-appendix.html#cb22-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_name=</span> gdoc_file,</span>
-<span id="cb22-18"><a href="bookdown-appendix.html#cb22-18" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_path=</span> gdoc_path)</span></code></pre></div>
+however, due to the need to render and convert our Rmarkdown file we
+must make use of the <code>markdrive</code> commands which do not support this. We
+now consider a workflow which identifies existing files and moves these
+to trash. This ensures that we do not create duplicates when uploading.</p>
+<p><strong>Warning</strong>: Make sure that you <strong>do not</strong> already have files with
+duplicate labels inside your <code>gdoc_path</code>. Otherwise these files will be
+deleted.</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="bookdown-appendix.html#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googledrive)</span>
+<span id="cb15-2"><a href="bookdown-appendix.html#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(markdrive)</span>
+<span id="cb15-3"><a href="bookdown-appendix.html#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="bookdown-appendix.html#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Define files and folders for simplicity</span></span>
+<span id="cb15-5"><a href="bookdown-appendix.html#cb15-5" aria-hidden="true" tabindex="-1"></a>gdoc_file <span class="ot">&lt;-</span> <span class="st">&quot;A test&quot;</span></span>
+<span id="cb15-6"><a href="bookdown-appendix.html#cb15-6" aria-hidden="true" tabindex="-1"></a>gdoc_path <span class="ot">&lt;-</span> <span class="st">&quot;Term 2&quot;</span></span>
+<span id="cb15-7"><a href="bookdown-appendix.html#cb15-7" aria-hidden="true" tabindex="-1"></a>local_file <span class="ot">&lt;-</span> <span class="st">&quot;test.Rmd&quot;</span></span>
+<span id="cb15-8"><a href="bookdown-appendix.html#cb15-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-9"><a href="bookdown-appendix.html#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if our file to upload exists already</span></span>
+<span id="cb15-10"><a href="bookdown-appendix.html#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="co"># If so move this file to trash</span></span>
+<span id="cb15-11"><a href="bookdown-appendix.html#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (gdoc_file <span class="sc">%in%</span> <span class="fu">drive_ls</span>(<span class="at">path=</span>gdoc_path)<span class="sc">$</span>name) {</span>
+<span id="cb15-12"><a href="bookdown-appendix.html#cb15-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drive_trash</span>(<span class="fu">as_dribble</span>(<span class="fu">paste</span>(gdoc_path, gdoc_file, <span class="at">sep=</span><span class="st">&quot;/&quot;</span>)))</span>
+<span id="cb15-13"><a href="bookdown-appendix.html#cb15-13" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb15-14"><a href="bookdown-appendix.html#cb15-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-15"><a href="bookdown-appendix.html#cb15-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Render and upload Rmarkdown file</span></span>
+<span id="cb15-16"><a href="bookdown-appendix.html#cb15-16" aria-hidden="true" tabindex="-1"></a><span class="fu">gdoc_render</span>(<span class="at">filename=</span> local_file,</span>
+<span id="cb15-17"><a href="bookdown-appendix.html#cb15-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_name=</span> gdoc_file,</span>
+<span id="cb15-18"><a href="bookdown-appendix.html#cb15-18" aria-hidden="true" tabindex="-1"></a>            <span class="at">gdoc_path=</span> gdoc_path)</span></code></pre></div>
 </div>
 </div>
 <div id="joining-this-project" class="section level2" number="14.8">
@@ -1703,8 +1636,8 @@ well as a tool like GitHub Desktop, unless you want to solely rely on
 command line Git).</p>
 <div id="web-page-for-a-repo" class="section level4 unnumbered">
 <h4>Web page for a repo</h4>
-<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="bookdown-appendix.html#cb23-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;picsfigs/ea_barriers_github_repo_startpage.png&#39;</span>)</span></code></pre></div>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-80"></span>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="bookdown-appendix.html#cb16-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;picsfigs/ea_barriers_github_repo_startpage.png&#39;</span>)</span></code></pre></div>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-79"></span>
 <img src="picsfigs/ea_barriers_github_repo_startpage.png" alt="EA barriers repo github starting page" width="100%" />
 <p class="caption">
 Figure 14.1: EA barriers repo github starting page
@@ -1849,9 +1782,9 @@ further discussion within the ‘issues’ pages</p></li>
 <div id="airtable-and-innovationsinfundraising.org" class="section level2" number="14.9">
 <h2><span class="header-section-number">14.9</span> Airtable and innovationsinfundraising.org</h2>
 <p>This project is closely connected to
-<a href="innovationsinfundraising.org">innovationsinfundraising.org</a>. Much of
-these projects overlap, and there is a shared ‘database’ stored as an
-airtable <a href="https://airtable.com/invite/l?inviteId=invjWg63fpQAOBcch&amp;inviteToken=0b154f62460aba428e0bf8c082ae3947e2e9b62b1045994a767eee551bb92833">Giving researchers
+<a href="https://innovationsinfundraising.org/doku.php?id=start">innovationsinfundraising.org</a>.
+Much of these projects overlap, and there is a shared ‘database’ stored
+as an airtable <a href="https://airtable.com/invite/l?inviteId=invjWg63fpQAOBcch&amp;inviteToken=0b154f62460aba428e0bf8c082ae3947e2e9b62b1045994a767eee551bb92833">Giving researchers
 shared</a></p>
 <p>We had an earlier … <a href="https://github.com/daaronr/ea_giving_barriers/blob/master/documentatiion_and_tutorials/project_airtableexplained/airtable_database_overview.pdf">tutorial on using the Airtable and
 Innovationsinfundraising.org
@@ -1992,12 +1925,6 @@ But what’s the good of that? You can still search groups or tags on the hypoth
 </div>
 </div>
 </div>
-<h3> List of references</h3>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-fongTruthGivingExperimental2010" class="csl-entry">
-Fong, Christina, and Felix Oberholzer-Gee. 2010. <span>“Truth in Giving: <span>Experimental</span> Evidence on the Welfare Effects of Informed Giving to the Poor.”</span> <em>Journal of Public Economics</em>.
-</div>
-</div>
             </section>
 
           </div>
@@ -2027,7 +1954,6 @@ gitbook.start({
 "weibo": true,
 "instapaper": false,
 "vk": false,
-"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"],
 "google": false
 },

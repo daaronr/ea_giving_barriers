@@ -47,7 +47,7 @@ tags: [Effective altruism, charitable giving, meta-analysis, literature survey, 
 
 ```{r}
 knitr::opts_chunk$set(echo = TRUE)
-pacman::p_load("bookdown, rmarkdown, knitr, broom, codebook, data.table, dataMaid, dplyr, glue, gtools, here, janitor, lubridate, magrittr, pacman, pastecs, purrr, readr, summarytools, tidyr, tidyverse, base, grid, huxtable, rlang, stats, tibble, pryr, revealjs, renv",
+pacman::p_load(broom, dplyr, grid, huxtable, janitor, purrr, rlang, stats, tibble, tidyr, here, pryr, revealjs,
                install=FALSE)
 ```
 

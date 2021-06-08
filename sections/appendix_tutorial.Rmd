@@ -255,8 +255,6 @@ docs: html output put here for web hosting
 
 - I further discuss the elements of the .Rmd (and associated) files, and how they translate into html output in the [video: rmarkdown content from template HERE](https://www.dropbox.com/s/p724socu1pmjous/rmarkdown-bookdown-content.mp4?dl=0)
 
-- A final video that focuses a bit more on adding citations is [HERE](https://www.dropbox.com/s/30ix6h3sxr24k9j/the_bookdown_and_editing_rmd.mp4?dl=0) -- this latter video has a very large file size, sorry.
-
 *My apologies*: In these videos my dumb head is blocking an important part of the screen share. It may help you to have the original files up to see the missing bits. I hope to redo these when I have a chance.
 
 *Note:* The key files and settings for my bookdown projects are maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template), along with a minimal example. This is (or should be) synchronised with all the other repos.
@@ -389,12 +387,13 @@ content which can be displayed in a chunk. Such as tables of data:
 head(iris)
 ```
 
-Code chunks are defined by wrapping text inside ```` ```  ``` ````. The above example was coded using:
-````markdown
+Code chunks are defined by wrapping text inside ```` ```  ``` ````. The
+above example was coded using:
 
+``` {.markdown}
 `r ''````{r}
 head(iris)
-````
+```
 
 <!-- ````markdown `r ''```` ```` -->
 
@@ -499,8 +498,8 @@ The BibTeX format refers to a stylized file format which is used
 predomoninantly for lists of references, mainly and originally for
 working with latex.. BibTeX bibliographies use the .bib extension. For
 example the bibliography for this project is
-[references.bib](references.bib). For more information
-on BibTeX see [here](http://www.bibtex.org/)
+[references.bib](references.bib). For more information on BibTeX see
+[here](http://www.bibtex.org/)
 
 -   **Zotero**
 
@@ -518,27 +517,9 @@ allows the Zotero library to be exported from Zotero for use in
 Markdown. Installation instructions are provided
 [here.](http://retorque.re/zotero-better-bibtex/installation/)
 
--   **Citr package (addin) for RStudio**
-
-The Citr package provides functions to search Zotero and BibTeX
-libraries in order to insert references into Markdown files. Citr also
-features a plugin for RStudio which makes the referencing process even
-easier. Instructions for download, as well as a demonstration of the
-Rstudio plugin are provided
-[here.](https://github.com/crsh/citr/blob/master/README.md) When using
-the Citr package to add citations to projects such as this one, make
-sure to have Citr update the correct Bibtex file.
-
-![Citr Settings for Ea_giving_barriers](picsfigs/citr_settings.png)
-
-::: {.marginnote}
-The Bibtex file to "Add references to" is the bibliography file
-specified in the YAML header of index.Rmd.
-:::
-
 ### Specific system for adding references in this project
 
-**Method 1 (recommended): Rstudio citr plugin linked to Zotero**
+**Method 1 (recommended): Rstudio visual markdown editor**
 
 1.  Install Zotero software, Rstudio, and `citr` package (an 'Add-in').
     Make sure all are running.
@@ -551,19 +532,12 @@ specified in the YAML header of index.Rmd.
     library](https://www.zotero.org/groups/2492098/reinstein_research_and_impact_collabs/library)
     is syncronised with your Zotero
 
-4.  R-Studio 'Addins (see bar at top)', (Citr) 'insert citation',
-    settings (brings up the screen shown above)
+4.  Try to add the citation/reference using the visual markdown editor
+    in Rstudio (see
+    [here](https://blog.rstudio.com/2020/11/09/rstudio-1-4-preview-citations/))
 
--   Make sure 'add references to' specifies the
-    "...`ea_giving_barriers/support/reinstein_bibtex.bib`" folder.
-
--   Make sure Zotero 'reinstein_research_and_impact_collabs' library is
-    loaded
-
-5.  Try to add the citation/reference.
-
--   Note that `[(at symbol) reference]` gives a different format than `(at symbol) reference`
-    (see below test).
+-   Note that `[(at symbol) reference]` gives a different format than
+    `(at symbol) reference` (see below test).
 
 -   If the reference is not present, add it to the Zotero library (there
     are various methods, from Google Scholar etc) and synchronise your
@@ -573,38 +547,15 @@ specified in the YAML header of index.Rmd.
     context, and consult other survey papers. If you are still not sure
     ask on Github.
 
-\
-
 **Method 2: Dropbox-syncronised Zotero to bibtex**
 
 (I'll explain this later)
-
-\
-
-```{block2,  type='note'}
-
-**Adding a shortcut key for 'insert citations' in R-Studio**
-
-You may be able to save time in adding citations (via the CitR add-in in R-Studio) if you use a shortcut key.
-
-Select (menu bar):
-
-- Tools
-- Addins
-- Browse addins
-
-Click in box "keyboard shortcuts"
-
-Click the addin "Insert Citations" under 'shortcuts', and enter a keyboard shortcut of your choice.
-
-```
 
 ### A test of adding references
 
 *Test a reference from reinstein_bibtex.bib:*
 @fongTruthGivingExperimental2010 no brackets
 [@fongTruthGivingExperimental2010] with brackets
-
 
 ## How to 'build' and view the book
 
@@ -652,7 +603,8 @@ export work to Google Drive. This process is easy in R as we can use the
 [googledrive package](https://googledrive.tidyverse.org/) and [markdrive
 packages](https://github.com/MilesMcBain/markdrive). Below we will
 outline a basic workflow for rendering Rmarkdown and uploading these
-files to Google Drive. During this process files are rendered and converted to Google Docs.
+files to Google Drive. During this process files are rendered and
+converted to Google Docs.
 
 ```{r, eval=FALSE}
 library(markdrive)
@@ -671,12 +623,14 @@ One drawback of this method is that rendering and uploading files
 multiple times will result in *multiple* files. That is, duplicate files
 are not identified and removed automatically. This is possible when
 uploading files to Google Drive using the `googledrive` package,
-however, due to the need to render and convert our Rmarkdown file
-we must make use of the `markdrive` commands which do not support this. We now
-consider a workflow which identifies existing files and moves these to
-trash. This ensures that we do not create duplicates when uploading.
+however, due to the need to render and convert our Rmarkdown file we
+must make use of the `markdrive` commands which do not support this. We
+now consider a workflow which identifies existing files and moves these
+to trash. This ensures that we do not create duplicates when uploading.
 
-**Warning**: Make sure that you **do not** already have files with duplicate labels inside your `gdoc_path`. Otherwise these files will be deleted.
+**Warning**: Make sure that you **do not** already have files with
+duplicate labels inside your `gdoc_path`. Otherwise these files will be
+deleted.
 
 ```{r, eval=FALSE}
 library(googledrive)
@@ -866,9 +820,9 @@ Note that the 'project board' and 'issues' are just tools on the Github web site
 ## Airtable and innovationsinfundraising.org
 
 This project is closely connected to
-[innovationsinfundraising.org](https://innovationsinfundraising.org/doku.php?id=start). Much of
-these projects overlap, and there is a shared 'database' stored as an
-airtable [Giving researchers
+[innovationsinfundraising.org](https://innovationsinfundraising.org/doku.php?id=start).
+Much of these projects overlap, and there is a shared 'database' stored
+as an airtable [Giving researchers
 shared](https://airtable.com/invite/l?inviteId=invjWg63fpQAOBcch&inviteToken=0b154f62460aba428e0bf8c082ae3947e2e9b62b1045994a767eee551bb92833)
 
 We had an earlier ... [tutorial on using the Airtable and
@@ -987,9 +941,7 @@ material mentioned above:
 
 #### [YaRrr! The Pirate's Guide to R](https://bookdown.org/ndphillips/YaRrr/){.unnumbered}
 
-
-
-## Further misc notes
+\#\# Further misc notes
 
 For 'unpublic unhosted' Github bookdowns (unlike this one...)
 
