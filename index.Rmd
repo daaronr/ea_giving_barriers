@@ -47,6 +47,8 @@ tags: [Effective altruism, charitable giving, meta-analysis, literature survey, 
 
 ```{r}
 knitr::opts_chunk$set(echo = TRUE)
+pacman::p_load(broom, dplyr, grid, huxtable, janitor, purrr, rlang, stats, tibble, tidyr, here, pryr, revealjs,
+               install=FALSE)
 ```
 
 ```{r setting-up-based-on-template-files-and-code}
