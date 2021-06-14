@@ -686,6 +686,15 @@ gdoc_render(filename= local_file,
 
 ## Joining this project
 
+```{block2,  type='note'}
+
+Note: Peter Hurford offers a very quick and practical introduction to Git and Github [HERE](https://gist.github.com/peterhurford/4d43aa5d6de114c0c741ba664c9c5ff5) (curated links and advice).
+
+[Happy Git and GitHub for the useR](https://happygitwithr.com/) is also recommended for those working with R (statistics/data)
+
+
+```  
+
 -   Get a Github account, contact daaronr AT gmail.com and tell him your
     github account ID (or the email you used to join should probably
     work as well)
