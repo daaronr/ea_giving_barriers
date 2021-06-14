@@ -153,12 +153,15 @@ I had known, that took my a while to figure out (unfold)
     If you are familiar with Python, these R packages are roughly
     comparable to Python's **modules**.
     :::
+    
+    
+If you like, you can try out R-code in the online tool here:
 
-```{block2,  type='note'}
-Installing R should take about XXX minutes.
+<iframe width='100%' height='300' src='https://rdrr.io/snippets/embed/' frameborder='0'></iframe>
+\
 
-Here's a guide to exactly how to do it.
-```
+
+
 
 -   **RStudio** is a programming environment and interface which helps
     facilitate a variety of tasks such as writing scripts using R (as
@@ -168,11 +171,11 @@ Here's a guide to exactly how to do it.
     RStudio can also be configured so as to work seamlessly with Git
     (more on this later). RStudio can be downloaded
     [here](https://rstudio.com/)
-
+    
 ```{block2,  type='note'}
-Installing and configuring RStudio should take about XXX minutes.
+Installing R and Rstudio should take about 20 minutes.
 
-Here's a guide to exactly how to do it.
+[Here's a guide to exactly how to do it.](https://rstudio-education.github.io/hopr/starting.html)
 ```
 
 ## Markdown and Bookdown
@@ -520,6 +523,17 @@ Markdown. Installation instructions are provided
 
 -   **Citr package (addin) for RStudio**
 
+```{block2,  type='note'}
+
+*Note 1 Jun 2021:** The discussion of Citr is now mainly  outdated, as there is now citation support within Rstudio, at least in the visual mode. Thus I put it in a fold below. This will be updated soon with a guide to  adding references with the built-in citation support.
+
+```
+
+
+Citr package notes (somewhat obsolete; to be updated)
+
+```{block2,  type='fold'}
+
 The Citr package provides functions to search Zotero and BibTeX
 libraries in order to insert references into Markdown files. Citr also
 features a plugin for RStudio which makes the referencing process even
@@ -531,10 +545,9 @@ sure to have Citr update the correct Bibtex file.
 
 ![Citr Settings for Ea_giving_barriers](picsfigs/citr_settings.png)
 
-::: {.marginnote}
 The Bibtex file to "Add references to" is the bibliography file
 specified in the YAML header of index.Rmd.
-:::
+
 
 ### Specific system for adding references in this project
 
@@ -581,7 +594,6 @@ specified in the YAML header of index.Rmd.
 
 \
 
-```{block2,  type='note'}
 
 **Adding a shortcut key for 'insert citations' in R-Studio**
 
@@ -598,6 +610,8 @@ Click in box "keyboard shortcuts"
 Click the addin "Insert Citations" under 'shortcuts', and enter a keyboard shortcut of your choice.
 
 ```
+```
+
 
 ### A test of adding references
 
@@ -712,7 +726,7 @@ gdoc_render(filename= local_file,
 
 ### Creating a Branch and a 'pull request'
 
-### GitHub web page content {\#}
+### GitHub web page content
 
 As noted, GitHub is a web page and interface that acts as an external
 server and storage space for git projects/repos. It works well with this

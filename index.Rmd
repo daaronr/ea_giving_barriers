@@ -129,17 +129,15 @@ my_output <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 Can define text blocks here, refer to them again and again if desired
 -->
 ```
-
 # Abstract {#abstract .unnumbered}
 
-<div class="marginnote">
+::: {.marginnote}
 Future work: present or link a more extensive abstract here.
-</div>
+:::
 
-*[David Reinstein, link to CV](https://daaronr.github.io/markdown-cv/)*
+[*David Reinstein, link to CV*](https://daaronr.github.io/markdown-cv/)
 
 \
-
 
 While hundreds of billions of dollars are donated to charity each year, the effectiveness of these charities differ by orders of magnitude, even within similar categories. Furthermore, many individuals do not donate substantially even though they believe that the cost of saving a life is small.\*
 
@@ -156,40 +154,42 @@ This raises two related questions:
 To address this, we must understand what drives giving choices, and perhaps, how people react to the presentation of charity-effectiveness information.\*\*
 
 ::: {.marginnote}
-\*\*
-Do we need to understand "how people react to the presentation of charity-effectiveness information"? See discussion in [fold below](#why-understand-reactions).
+\*\* Do we need to understand "how people react to the presentation of charity-effectiveness information"? See discussion in [fold below](#why-understand-reactions).
 :::
 
 Our collaborative and dynamic synthesis considers this 'puzzle'. We outline and categorize potential barriers to effective giving and assess the evidence for each barrier. This directly informs "how to motivate effective giving". It also offers insights into the drivers of 'concern for' and 'willingness to act' to address the most neglected, tractable, and consequential global and humanitarian priorities.
 
 \
 
-*Why should 'Effective Altruists' and those interested in long-term global priorities care about the effective/ineffective giving behavior of 'typical' individuals?* Nnotes for Global Priorities Institute presentation (unfold)
+*Why should 'Effective Altruists' and those interested in long-term global priorities care about the effective/ineffective giving behavior of 'typical' individuals?* Notes for Global Priorities Institute presentation (unfold)
 
 ```{block2,  type='fold'}
 
 *Private 'small donor' donations are a substantial part of the global economy* (100s of Billions)...
 
-... but most/much seems orders of magnitude less effective by any reasonable (cosmopolitan) consideration. Bold research and action into global priorities is and will be largely funded by private giving. 
+... but most/much seems orders of magnitude less effective by any reasonable (cosmopolitan) consideration. Bold research and action into global priorities is and will be largely funded by private giving.
 
 *How much private charitable giving is there?*  About $300b/year from the US alone (note appropriate caveats here; much of this goes to local 'club goods' like churches etc). (TODO: add some citations here, and give an overview of donation by 'mega-donors' versus the lay-person; see, e.g., recent paper by Meer et al.)
 
 
-*How does this compare to the 'available pot of EA funds?'* GoodVentures spent 272 million USD in 2019, GiveWell 'directed' roughly 161 mln/year (add citations)
+*How does this compare to the 'available pot of EA funds?'* GoodVentures spent 272 million USD in 2019, GiveWell 'directed' roughly 161 mln/year (Indirect source -- EA Forum post [here](https://forum.effectivealtruism.org/posts/4BJSXH9ho4eYNT73P/how-dependent-is-the-effective-altruism-movement-on-dustin)
 
 *Giving is also an important metric for beliefs and attitudes:*
-  
+
 '(Lack of) effective giving (choices)' = a concrete, tangible, incentive-aligned measure of  ‘concern for’ and ‘willingness to act’ towards neglected/tractable/consequential global priorities, including long-term well-being and existential threats.
 
 Drivers and barriers to effective giving are also drivers/barriers to effective pro-social personal, professional and political choices.
- 
-\
- 
-Relation to GPI research : 
-  
-1. Knowing priorities is only helpful if we can motivate people to care about them and take action. 
 
-2. Knowing the 'barriers' requires a clear definition of the priorities.  
+\
+
+In 2014, Ben Todd of 80,000 hours  rated 'Promoting effective altruism' as [tied for first-place](https://80000hours.org/2014/01/which-cause-is-most-effective-300/) in Importance, Tractibility and "Uncrowdedness" among 11 ranked causes, noting that 'interventions within this area include advocacy of key ideas in effective altruism and network-building'. This is at least *adjacent* to promoting effective charitable giving.
+
+\
+Relation to GPI research:
+
+1. Knowing priorities is only helpful if we can motivate people to care about them and take action.
+
+2. Knowing the 'barriers' requires a clear definition of the priorities.
 
 3. The 'enlightement project', which involves overcoming many of these barriers, may itself be a priority, e.g., in preventing existential risk.
 
@@ -231,7 +231,7 @@ For 'Effective Altruists' ... (Why) do we care 'how people react to the presenta
 
 \
 
-*David Reinstein:* 
+*David Reinstein:*
 
 > Imho only the latter matters. Your argument makes sense but a typical marketing tool we find could equally be used by any charity. If we are ever to get people to systematically prioritise the effective charities, we need to a strategy that is tied to the effectiveness of the charities; the competitive advantage of the effective charities. The standard business argument is that 'to get people to buy a product based on characteristic A, we need to advertise characteristic A'.
 
@@ -282,16 +282,14 @@ This also feels reminiscent of two posts:
 
 ```{block2,  type='note'}
 This project is presented in ['Bookdown' format](https://bookdown.org/); it is not only a single page!
-```  
+```
 
 Please be aware that the left sidebar expands into sections and subsections...
 
 ![](images/paste-7486896F.png){width="100"}
-
 
 On the right sidebar you should see some icons...
 
 ![](images/paste-9053CDFD.png){width="100"}
 
 These are links to add and view comments using the tool [Hypothes.is](https://web.hypothes.is/start/). Please sign up (it only takes a moment) and get involved. I will try to respond to and acknowledge all comments (email me if I have overlooked yours.)
-
