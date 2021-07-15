@@ -2,7 +2,7 @@
 bibliography: ../references.bib
 ---
 
-# Barriers: Awareness, consideration, and distance {#aware-distance}
+# Barriers: "Distance", awareness, and consideration {#aware-distance}
 
 ::: {.marginnote}
 This section was written by David Reinstein and Luke Arundel.
@@ -15,11 +15,13 @@ Check inclusion -- (Info enhancing) social closeness of recipient:   @cuddy2007b
 ```
 ## Description and relevance to Effective Giving
 
-Typically, the most effective charities operate in developing countries, with all but one of Give Well's top charities supporting people in sub-Saharan Africa [@TopCharities]. Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount [@macaskillDoingGoodBetter2015]. However, the large, social, cultural geographic distance between those in developed countries and those in developing countries may be an important barrier to giving and a reason why people prefer to give locally.
+If we focus on 'enhancing current human well-being and avoiding suffering', the evidence strongly suggests that the most effective charities operate in developing countries. All but one of [GiveWell's top charities](https://www.givewell.org/charities/top-charities) support people in sub-Saharan Africa [@TopCharities].\*<div class="marginnote">
+\*GiveWell focuses on charities that provide concrete interventions to help people alive today and soon-to be born, and focuses their evaluation on measurable outcomes such as ["QALY and DALY"](https://en.wikipedia.org/wiki/Disability-adjusted_life_year.
+</div>
+  Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount [@macaskillDoingGoodBetter2015]. However, the large, social, cultural geographic distance between those in developed countries and those in developing countries may be an important barrier to giving and a reason why people prefer to give locally.
+  
+Similar issues of 'distance' also applies to other causes with strong arguments for being effective and impactful (see, e.g., ['EA funds'](https://funds.effectivealtruism.org/) recommendations), particularly supporting (farmed and wild) animal welfare and the preserving the long-term future of humanity. Most potential donors do not see inside of factory farms^[citation needed] and obviously no one can visit the far-future.
 
-@loewensteinScarecrowTinMan2007 propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by @kahnemanThinkingFastSlow2011). This model distinguishes between System 1, which makes initial judgements (using 'affective cognition'); these are monitored by a more 'deliberative cognition' System 2 [@morewedge2010associative].(This model has been subjected to some criticism, @evans2013dual discuss the debate around dual system theories)
-
-<!-- LA: this psychological model is widely known but also widely criticised model; we need to either mention it briefly with a link to some papers surveying it, or discuss it more carefully. Perhaps you can draw (and quote) some language from my paper with Robin Bergh, or others in this literature -->
 
 ## Theoretical and conceptual underpinning
 
@@ -35,7 +37,24 @@ Crimston's (2016) 'moral expansiveness scale' aims to capture *breadth* (a 'repr
 Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychological distance" (PDF). Psychological Review. 117 (2): 440--463. <doi:10.1037/a0018963> @crimstonPsychologyMoralExpansiveness2018
 :::
 
+
+The importance of sympathy, which may be driven by distance and awareness...\*
+<div class="marginnote">
+
+@loewensteinScarecrowTinMan2007 propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by @kahnemanThinkingFastSlow2011). This model distinguishes between System 1, which makes initial judgements (using 'affective cognition'); these are monitored by a more 'deliberative cognition' System 2 [@morewedge2010associative].(However, this model has been subjected to some criticism, @evans2013dual discuss the debate around dual system theories.)
+
+</div>
+ 
+
 <!-- ?cuddy\_ea\_2007 (Sudhir ea, \'16) -->
+
+## Overall evidence
+
+
+Ana Diez suggests: 
+
+> fMRI studies ... have shown that the MPFC [medial pre-frontal cortex] is active when we think about ourselves. If we think of a family member, it will activate less. And if we are thinking of an unknown person, it will be even less active (Qin & Northoff, 2011). And more interestingly, when we think about our future selves, there is less activation of the MPFC than when we think of our actual self (Hershfield, Hal. 2011), meaning we care little about that person in the future.
+
 
 ## Distance - Spatial/Physical, Social/Cultural: parochial altruism/in-group bias, interpersonal and identity e.g., race, gender, age, etc {#in-group}
 
@@ -93,7 +112,7 @@ They use a very interesting methodology; we might describe it a bit more.
 
 ## Reference dependence
 
-The issue of the arguably disproportionate attention that natural disasters receive has been previously explored. @epsteinCrisisMentalitySSIR2006 disccuses the high levels of support that natural disasters get. He drew on the work of @spenceMismatchingMoneyNeed2006, who reported that there was little relationship between the degree of need and the level of donations. This was illustrated by the private donations (at the time - 2006) of USD 1839 per person impacted by Hurricane Katrina, and USD 10 per person impacted by AIDS. @small2010reference posed potential questions that this might raise:
+The issue of the arguably disproportionate attention that natural disasters receive has been previously explored. @epsteinCrisisMentalitySSIR2006 discusses the high levels of support that natural disasters get. He drew on the work of @spenceMismatchingMoneyNeed2006, who reported that there was little relationship between the degree of need and the level of donations. This was illustrated by the private donations (at the time - 2006) of USD 1839 per person impacted by Hurricane Katrina, and USD 10 per person impacted by AIDS. @small2010reference posed potential questions that this might raise:
 
 > Although the response to dramatic events showcases a great human capacity for caring, the relative neglect of ongoing suffering reveals an equal albeit less attractive capacity for indifference. Can we make sense of this duality? Why do chronic conditions fail to move us even though they do so much harm?
 
@@ -140,12 +159,14 @@ This consideration of future people and future problems includes well-known issu
 However, even motivating 'giving for current issues' [presents many challenges](#present-puzzle); encouraging giving for (e.g.) 'individuals who are yet to be' born could prove even more difficult.
 
 ::: {.marginnote}
-See [this podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/) and the articles and books linked for a more comprehensive introduction to the long-term future.
+See [80000 hours podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/) with Toby Ord and the articles and books linked (especially 'The Precipice') for a more comprehensive introduction to the long-term future.
 :::
 
 ::: {.marginnote}
-See also these resources from [effectivealtruism.org](https://www.effectivealtruism.org/), see [here](https://www.effectivealtruism.org/articles/tyler-john-representing-future-generations/) for a talk on the importance of future generations, and [here](https://www.effectivealtruism.org/articles/cause-profile-long-run-future/) for an overview of the long-run future as an issue
+See also these resources from [effectivealtruism.org](https://www.effectivealtruism.org/), see [here](https://www.effectivealtruism.org/articles/tyler-john-representing-future-generations/) for a talk on the importance of future generations, and [here](https://www.effectivealtruism.org/articles/cause-profile-long-run-future/) for an overview of the long-run future as an issue.
 :::
+
+\
 
 ### Discounting future payoffs/assets/welfare {.unnumbered}
 

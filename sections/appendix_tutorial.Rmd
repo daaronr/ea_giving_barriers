@@ -880,6 +880,26 @@ their API. It is user-friendly, with a gui resembling a spreadsheet, and
 easy tutorials, instructions and examples. You can operate it from a
 browser or a web-driven app.
 
+
+How to think about Airtable, learning it without getting overwhelmed...
+```{block2,  type='fold'}
+
+A good way of starting with Airtable/databases is to think
+
+- These are just a bunch of spreadsheets or individual ‘data sets’; I’ll treat them as separate for now
+  - Nice, it’s a bit easier to quickly add entries if I choose single or multi-select field types , or chechkboxes
+
+- Hey look, if I make this a “Link” field type can easily add rows from sheet B into sheet A, that’s cool!
+  - And I can also ‘create new rows in B while adding them to A’
+
+
+- Cool, sheet B now has a column indicating where it has been entered into sheet A
+
+- Hmm, sheet A has stuff on it that is not relevant for our partner; let me create a simpler ‘view’ of sheet A filtering out rows hiding columns that are not relevant to our partner.
+
+
+```
+
 ### Key features of tables in Airtables (quick views) {.unnumbered}
 
 Each Airtable user can have any number of *Bases*, and bases can be

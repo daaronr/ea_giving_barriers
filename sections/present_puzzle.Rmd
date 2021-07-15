@@ -160,6 +160,8 @@ I intend to look more closely at how they identified these studies, how they eli
 
 ### Effectiveness-specific work
 
+-   "[The many obstacles to effective giving](http://journal.sjdm.org/19/190810/jdm190810.pdf)" ... "on how both incorrect beliefs and preferences for ineffective charities contribute to ineffective giving." Mainly a series of MTurk experiments (and some with 'effective altruists' recruited through the EA Newsletter/Facebook) involving hypothetical donation choices, but also includes some literature review and conceptual breakdown
+
 -   @baron2011heuristics - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers
 
 -   Gertler, [Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf) (not peer-reviewed but very useful)
@@ -206,6 +208,12 @@ Gertler, "[Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-
 
 ```
 
+#### Other (potentially) relevant work and examples
+
+-   @gifford2011: "seven categories of psychological barriers..." that impede "climate change mitigation and adaptation"
+
+-   Stefan Schubert's ongoing work and book in progress
+
 ## Definitions - "Efficiency" versus impact {#def-impact}
 
 ::: {.marginnote}
@@ -231,8 +239,6 @@ For the sake of the discussion below, we might assume that either:
 - to the extent that their is uncertainty over the 'impact' of donations and interventions, this uncertainty is similar across causes.
 
 ```
-
-\
 
 $G_j$: The total donations given to charity $j$ during some interval; i.e., the charity's income.
 
@@ -326,29 +332,27 @@ But we do *not* seem to be doing this. Again: billions are given to charity, and
 
 ## Why (under which models) is this a puzzle? {#why-puzzle}
 
-Does the set of facts mentioned above constitute a "puzzle" for our Economics and Psychology models, or are there obvious existing explanations? In Economic terms, are donors mysteriously ''leaving money on the table'' or are they simply optimizing given their their preferences and constraints? What could explain this?
+Does the set of facts mentioned above constitute a "puzzle" for our Economics and Psychology models, or are there obvious existing explanations? In Economics terms, are donors mysteriously ''leaving money on the table'' or are they simply optimizing given their their preferences and constraints? What could explain this?
 
-**We return to this in the [next section]\#(barriers-breakdown), while classifying potential 'barriers' to effective giving**.
+*We return to this in the [next section](barriers-breakdown), while classifying potential 'barriers' to effective giving*.
 
 ::: {.marginnote}
 Economists love when we can say that something is officially a *Puzzle*. It is an achievement in itself to be the researcher who first discovered a *Puzzle*, even if we have no clue how to resolve it.
 :::
 
-### Aside: Economic models of giving \* {#econ-models}
+### Aside: Economic models of giving\* {#econ-models}
 
-<div class="marginnote">
-I return to this discussion in section  \@ref(subst-framework)
-</div>
- 
+::: {.marginnote}
+'\* I return to this discussion in section \@ref(subst-framework)
+:::
 
 Traditionally, economic models are essentially 'if then' exercises meant to illustrate what factors *might* be driving outcomes, perhaps facilitating empirical testing. They are not, in general, *claims* about people's preferences, how they behave, or what motivates them. The discussion of charity in the Economics literature has tended to focus on two extreme models, focusing on modeling assumptions that allow simple mathematical 'if-then' proofs. Most of these models involve an individual making choices between a private good and a homogenous charitable good so as to maximizing a "utility function" (value function), subject to their budget constraints
 
 1.  A adaptation of the '**Public goods model**' (often attributed to @becker1974) in which individuals care about the total amount of a charitable good provided (no matter who contributes it), either because it benefits them directly or because they care about other people. (The utility of others might be subsumed into one's own utility function). This is sometimes labeled (confusingly in my opinion) called "pure altruism".
 
-
 2.  An extreme representation of a '**Warm glow'** model [@andreoni1989giving] in which an individual's utility increases (presumably at a decreasing rate) in the 'amount they sacrifice' towards the charitable good.
 
-It is also important to note that the 'warm glow' presented in the Economics literature does not map to a single psychological mechanism or theory, and there is some ambiguity as to which motivations should be subsumed in this. According to Andreoni (who coined the term):
+It is also important to note that the 'warm glow' presented in the Economics literature does not map to only a single psychological mechanism or theory; it maps to many such mechanisms. There is some ambiguity as to which motivations should be subsumed in this 'warm glow'. According to Andreoni (who coined the term):
 
 > The concept of warm-glow is only a convenient reduced-form representation for deeper and more complex considerations of givers [@andreoni2006]
 
@@ -356,7 +360,9 @@ In fact, each of the above models is an extreme representation that was original
 
 Much is left ambiguous in each model, as well as in other fairly prominent models such as the "Impact" [@duncan2004] or "Identification" [@atkinson2009] models of giving, or reputation-based models [@harbaugh1998]
 
-Most importantly, for the present discussion:
+\
+
+*For the present discussion, our focus, in considering these models, is:*
 
 (When and how) does the "actual impact of one's gift" have an impact
 
@@ -365,8 +371,6 @@ Most importantly, for the present discussion:
 -   or the thing the individual is maximizing
 
 ... in a way that drives donation choices?
-
-
 
 # Breakdown of barriers {#barriers-breakdown}
 
@@ -393,7 +397,9 @@ Later chapters present the direct and indirect evidence for very specific barrie
 - Base values may be (non) utilitarian: People are optimising their own 'X', which  does not coincide with impact $\rightarrow$ no puzzle?
 
 
-- Judgement/cognition failures: People try but fail to optimize
+- Judgement/cognition failures, information failure: People try but fail to optimize, and/or have persistent incorrect beliefs
+
+
 \
 
 - Emotion overrides cognition: Our brain serves two masters, those decisions are not consistent
@@ -555,13 +561,11 @@ Responses?: (Information enhancing) the social closeness of a recipient/benefici
 
 Less proximate needs are less salient, thus under-funded.
 
-
 ### [Identity and signaling](#identity) {.unnumbered}
 
 Considering effectiveness in giving (and publicizing this concern) may conflict with an individual's self-perception. It may also harm her reputation, at least relative to emotional or 'deontological' helping responses.
 
 [@burumEvolutionaryExplanationIneffective2020]
-
 
 Includes, e.g.,
 
@@ -569,11 +573,9 @@ Includes, e.g.,
 
 -   difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness' @burumEvolutionaryExplanationIneffective2020
 
-
 -   **Section** \@ref(identity)**: [Barriers: Identity and cognitive dissonance](#identity)**
 
 <!-- Volunteer experience unlocks emotion and giving -->
-
 
 -   **Section** \@ref(social)**: [Barriers: Signaling and social pressures/social identity](#social)**
 
@@ -590,7 +592,6 @@ However, a feature of philanthropy overlooked in published research is that nonp
 organizations rarely, if ever, support these claims with rigorous evidence
 -->
 ```
-
 -   **Section** \@ref(eval-aversion)**: [Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
 
 -   **Section** \@ref(factual)**: [Barriers: Persistent and systematic incorrect empirical beliefs](#factual)**

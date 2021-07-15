@@ -1,6 +1,6 @@
 ---
 title: "Increasing effective charitable giving: The puzzle, what we know, what we need to know next"
-author: "Dr. David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and others"
+author: "David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and others. Comments from Jason Schukraft, Michael Aird, Robin Bergh, and others"
 #cover-image: "images/cardcatalogue.JPG"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -46,12 +46,15 @@ tags: [Effective altruism, charitable giving, meta-analysis, literature survey, 
 ---
 
 ```{r}
+library(pacman)
 knitr::opts_chunk$set(echo = TRUE)
 pacman::p_load(broom, dplyr, grid, huxtable, janitor, purrr, rlang, stats, tibble, tidyr, here, pryr, revealjs,
                install=FALSE)
 ```
 
 ```{r setting-up-based-on-template-files-and-code}
+
+p_load(here)
 
 library(here)
 here <- here::here()
@@ -141,7 +144,7 @@ Future work: present or link a more extensive abstract here.
 
 \
 
-While hundreds of billions of dollars are donated to charity each year, the effectiveness of these charities differ by orders of magnitude, even within similar categories. Furthermore, many individuals do not donate substantially even though they believe that the cost of saving a life is small.\*
+While hundreds of billions of dollars are donated to charity each year, the effectiveness of these charities differs by orders of magnitude, even within similar categories. Furthermore, many individuals do not donate substantially even though they believe that the cost of saving a life is small.\*
 
 ::: {.marginnote}
 \* In an [exploratory survey](https://80000hours.org/2017/05/most-people-report-believing-its-incredibly-cheap-to-save-lives-in-the-developing-world/), the median belief was that a life could be saved for under \$40.
