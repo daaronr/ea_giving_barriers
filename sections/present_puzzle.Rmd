@@ -114,7 +114,9 @@ Some references (WIP, unfold)
 
 ```{block2,  type='fold'}
 
-- General giving statistics: @meerGenerosityIncomeWealth2020, @rooneyDynamicsAmericanGiving2019 - Various references at IUPIU; see also Osili, Weipking, Bekkers work
+- General giving statistics: @meerGenerosityIncomeWealth2020, @rooneyDynamicsAmericanGiving2019
+
+- Various references at IUPIU; see also Osili, Weipking, Bekkers work
 
 -   Sources of data: PSID, GVUSA, GINPS, [add the list here], Giving USA: The Annual Report on Philanthropy (raw data?), Study of High Net Worth Philanthropy
 
@@ -122,7 +124,7 @@ Some references (WIP, unfold)
 
 ## (Lack of) previous synthesis on this {#prevsurvey}
 
-While there have been some relevant prior reviews (@loewensteinScarecrowTinMan2007, introduction to @Berman2018, @baron2011heuristics),
+While there have been some relevant prior reviews (@loewensteinScarecrowTinMan2007, introduction to @Berman2018, @baron2011heuristics), introduction to [Caviola et al](http://journal.sjdm.org/19/190810/jdm190810.pdf)
 
 ::: {.marginnote}
 There has also been some unpublished or non-academic work: 'Behavior and Charitable Giving' (Ideas42, 2016), 'Charitable Fundraising And Smart Giving' (Gertler, 2015), and 'The Psychology of Effective Altruism' (Miller, 2016, slides only).
@@ -210,9 +212,9 @@ Gertler, "[Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-
 
 #### Other (potentially) relevant work and examples
 
--   @gifford2011: "seven categories of psychological barriers..." that impede "climate change mitigation and adaptation"
+-  @gifford2011: "seven categories of psychological barriers..." that impede "climate change mitigation and adaptation"
 
--   Stefan Schubert's ongoing work and book in progress
+-  Stefan Schubert's ongoing work and book in progress
 
 ## Definitions - "Efficiency" versus impact {#def-impact}
 
@@ -291,11 +293,11 @@ I assert that $B_j^\prime(G_j)$ is the quantity that GiveWell (and perhaps other
 
 ```{block2,  type='fold'}
 
-There is abundant evidence for order-of-magnitude difference in the effectiveness of charities, and the most popular ones are far from the most effective. Some further links and references: 
+There is abundant evidence for order-of-magnitude difference in the effectiveness of charities, and the most popular ones are far from the most effective. Some further links and references:
 
-Ord, T. (2013, March 12). "The moral imperative toward cost-effectiveness in global health. Center for Global Development." Retrieved from www.cgdev.org/content/publications/detail/142701. 
+Ord, T. (2013, March 12). "The moral imperative toward cost-effectiveness in global health. Center for Global Development." Retrieved from www.cgdev.org/content/publications/detail/142701.
 
-["Your dollar goes farther overseas"](http://www.givewell.org/giving101/Your-dollar-goes-further-overseas) (Givewell, 2016). 
+["Your dollar goes farther overseas"](http://www.givewell.org/giving101/Your-dollar-goes-further-overseas) (Givewell, 2016).
 
 ```
 
@@ -320,7 +322,7 @@ This assumes a single impact goal, essentially 'cause neutrality'.
 The idea that each donor gives only to a single charity essentially depends on the above 'Small donor assumption'. Still, allowing that the marginal-benefit-leading-charity may vary within the range of an individuals' donation simply implies that they should allocate among multiple charities each up to the point that the last dollar given yields the same marginal benefit as the other charities, yielding the above result. We can imagine an equilibrium in which all donors give to multiple charities, with each of these charities being virtually "tied" in their marginal effectiveness.
 
 
-See also this brief (EA Forum) on the ["Market efficiency of philanthropy"](https://forum.effectivealtruism.org/tag/market-efficiency-of-philanthropy). I hope to extend the discussion here, considering the  'efficient market hypothesis' applied to charitable donations, and the limitations of this. 
+See also this brief (EA Forum) on the ["Market efficiency of philanthropy"](https://forum.effectivealtruism.org/tag/market-efficiency-of-philanthropy). I hope to extend the discussion here, considering the  'efficient market hypothesis' applied to charitable donations, and the limitations of this.
 
 ```
 
@@ -394,18 +396,22 @@ Later chapters present the direct and indirect evidence for very specific barrie
 
 **A conceptual breakdown of barriers:**
 
-- Base values may be (non) utilitarian: People are optimising their own 'X', which  does not coincide with impact $\rightarrow$ no puzzle?
+- Base values may be (non) utilitarian: People are optimising their own 'X', which does not coincide with impact $\rightarrow$ no puzzle?
 
+- Avoiding information about effectiveness: Even if people want to optimise impact, they may specifically dislike and avoid gathering information about effectiveness in a charitable giving setting
 
-- Judgement/cognition failures, information failure: People try but fail to optimize, and/or have persistent incorrect beliefs
+- Presenting effectiveness information may backfire: E.g., if it switches off the 'generous part of the brain', gets people to think in a more 'market' mode, or makes people indecisive
 
+- Judgement/cognition failures, quantitative biases, information failure: People try but fail to optimize, and/or have persistent incorrect beliefs
 
 \
 
 - Emotion overrides cognition: Our brain serves two masters, those decisions are not consistent
+
+
 \
 
-- Identity and signalling: Effectiveness in giving clashes with our self-image/self-beliefs, or with  how we want to appear to others
+- Identity and signalling: Effectiveness in giving clashes with our self-image/self-beliefs, or with how we want to appear to others
 \
 
 - Systemic factors (and inertia): "It's society's fault, man" ... social systems leading to pressure and incentives from others to give to local or less-effective causes. Even if impact is a goal these systems take a long time to adjust.
@@ -588,8 +594,7 @@ Does one contribution crowd out another? If so, social pressure, systems enforci
 
 According to Mulesky (2020) “Charities routinely appeal to impact when soliciting donations”; However, the example she gives is not a clear measure of per dollar impact.
 
-However, a feature of philanthropy overlooked in published research is that nonprofit
-organizations rarely, if ever, support these claims with rigorous evidence
+However, a feature of philanthropy overlooked in published research is that nonprofit organizations rarely, if ever, support these claims with rigorous evidence
 -->
 ```
 -   **Section** \@ref(eval-aversion)**: [Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
