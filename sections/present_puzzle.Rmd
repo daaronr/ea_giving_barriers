@@ -124,7 +124,8 @@ Some references (WIP, unfold)
 
 ## (Lack of) previous synthesis on this {#prevsurvey}
 
-While there have been some relevant prior reviews (@loewensteinScarecrowTinMan2007, introduction to @Berman2018, @baron2011heuristics), introduction to [Caviola et al](http://journal.sjdm.org/19/190810/jdm190810.pdf)
+While there have been some relevant prior reviews (particularly [Caviola et al, 2021]((https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0005)
+, as well as  @loewensteinScarecrowTinMan2007, introduction to @Berman2018, @baron2011heuristics), and the introduction to [Caviola et al](http://journal.sjdm.org/19/190810/jdm190810.pdf)
 
 ::: {.marginnote}
 There has also been some unpublished or non-academic work: 'Behavior and Charitable Giving' (Ideas42, 2016), 'Charitable Fundraising And Smart Giving' (Gertler, 2015), and 'The Psychology of Effective Altruism' (Miller, 2016, slides only).
@@ -142,9 +143,6 @@ iv. a rigorous, sceptical approach to evidence, and
 
 v.  advancing a research agenda while building tools that promote robust evidence.
 
-::: {.marginnote}
-Ideas42: "We did not find many field-based, experimental studies on the factors that encourage people to choose thoughtfully among charities or to plan ahead to give. "
-:::
 
 \
 
@@ -162,13 +160,37 @@ I intend to look more closely at how they identified these studies, how they eli
 
 ### Effectiveness-specific work
 
--   "[The many obstacles to effective giving](http://journal.sjdm.org/19/190810/jdm190810.pdf)" ... "on how both incorrect beliefs and preferences for ineffective charities contribute to ineffective giving." Mainly a series of MTurk experiments (and some with 'effective altruists' recruited through the EA Newsletter/Facebook) involving hypothetical donation choices, but also includes some literature review and conceptual breakdown
+- [Caviola et al, 2021, "The Psychology of (In)Effective Altruism"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0005)
+
 
 -   @baron2011heuristics - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers
 
 -   Gertler, [Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf) (not peer-reviewed but very useful)
 
-**Comparison of outlines: unfold**
+-   "[The many obstacles to effective giving](http://journal.sjdm.org/19/190810/jdm190810.pdf)" ... "on how both incorrect beliefs and preferences for ineffective charities contribute to ineffective giving." Mainly a series of MTurk experiments (and some with 'effective altruists' recruited through the EA Newsletter/Facebook) involving hypothetical donation choices, but also includes some literature review and conceptual breakdown
+
+
+\
+
+While Caviola et al, 2021, is probably the strongest, most relevant, and most insightful (and has some connection to the structure we present below). From their abstract:
+
+> We review the motivational and epistemic causes of (in)effective giving. Many donors view charitable giving as a matter of personal preference, which favors decisions based on emotional appeal rather than effectiveness. In addition, while many donors are motivated to give effectively, they often have misconceptions and cognitive biases that reduce effective giving.
+
+
+
+
+Still, Caviola et al does not drill deeply into the strength of the evidence and the relative importance of each factor. However, this may stem from a small amount of available evidence to survey. Ideas42 (ibid) wrote:
+
+> We did not find many field-based, experimental studies on the factors that encourage people to choose thoughtfully among charities or to plan ahead to give. "
+
+
+In the sections below, we (intend to) compare and incorporate our outline and discussion with Caviola et al's work. In the folds below, we briefly compare the outlines and structure of the syntheses mentioned above.
+\
+
+
+<!-- Add outline from Caviola ea '21 here? -->
+
+**Comparison of other outlines: unfold**
 
 ```{block2,  type='fold'}
 
@@ -289,7 +311,7 @@ I assert that $B_j^\prime(G_j)$ is the quantity that GiveWell (and perhaps other
 
 \
 
-##### *We know (evidence cited in fold):* {#evidence_eff .unnumbered}
+##### *We know (evidence cited in fold)u:* {#evidence_eff .unnumbered}
 
 ```{block2,  type='fold'}
 
@@ -375,6 +397,12 @@ Much is left ambiguous in each model, as well as in other fairly prominent model
 ... in a way that drives donation choices?
 
 # Breakdown of barriers {#barriers-breakdown}
+
+```{block2,  type='note'}
+
+To do: relate this breakdown to others' decompositions, especially that of Caviola et al (2021).
+```
+
 
 ## Conceptual breakdown of 'barriers' (first presentation) {#barriers-concept}
 
