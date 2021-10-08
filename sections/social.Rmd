@@ -142,7 +142,7 @@ Writeup needed here
 - [Johnson https://psyarxiv.com/r85jv/](Dimensions of Altruism: Do Evaluations of Prosocial Behavior Track Social Good or Personal Sacrifice?) ... Mturk experiments, people asked about praiseworthiness of hypothetical donors, between subject variation in amount donated and amount of impact achieved (1 of 6 studies) 
 
 
-- [Kawumara et al, 2020](https://journals.sagepub.com/doi/full/10.1177/1948550620929163?casa_token=rH8lmmSSNsIAAAAA%3AX77DVd9LDCTV_x3K3YQyYgpcvoZObKpCVQuRbkOBwLDHcRBjlxQDU5ljNvdQYIyDCxeCbX5yar0), perhaps in contrast to the above, seems to suggest that 'effectiveness' *is* rewarded with reputation. The people in the vignettes did seem to be rewarded (assessed as having both higher warmth and competence) by the participants for achieving a greater benefit, holding cost constant
+- [Kawumara et al, 2020](https://journals.sagepub.com/doi/full/10.1177/1948550620929163?casa_token=rH8lmmSSNsIAAAAA%3AX77DVd9LDCTV_x3K3YQyYgpcvoZObKpCVQuRbkOBwLDHcRBjlxQDU5ljNvdQYIyDCxeCbX5yar0), perhaps in contrast to the above, seems to suggest that 'effectiveness' *is* rewarded with reputation. he people in the vignettes did seem to be rewarded (assessed as having both higher warmth and competence) by the participants for achieving a greater benefit, holding cost constant
 
 
 
