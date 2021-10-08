@@ -72,6 +72,10 @@ However, the analogy to effective versus ineffective giving is not clear. Perhap
 #### Evidence that "consequentialist choices lead to negative signals and less-favorable treatment relative to deontological/emotionally intuitive choices" {-}
 
 
+> Although altruism is generally rewarded, several studies suggest that effective altruism is not 
+
+Citing: Burum et al, 2020; Montealegre et al, 2020; Yudkin et al, 2019
+
 ##### [@everettInferenceTrustworthinessIntuitive2016] {-}
 
 @everettInferenceTrustworthinessIntuitive2016 ran a series of experiments on the Mturk platform, involving hypothetical dilemmas paired with low-stakes (or no) Trust games.
@@ -130,6 +134,16 @@ Involving variation in donation multipliers and social signaling/rewards
 Writeup needed here
 </div>
  
+
+##### Also 
+
+- Yudkin et al, 2019, "Actions speak louder than outcomes in judgments of prosocial behavior" 
+
+- [Johnson https://psyarxiv.com/r85jv/](Dimensions of Altruism: Do Evaluations of Prosocial Behavior Track Social Good or Personal Sacrifice?) ... Mturk experiments, people asked about praiseworthiness of hypothetical donors, between subject variation in amount donated and amount of impact achieved (1 of 6 studies) 
+
+
+- [Kawumara et al, 2020](https://journals.sagepub.com/doi/full/10.1177/1948550620929163?casa_token=rH8lmmSSNsIAAAAA%3AX77DVd9LDCTV_x3K3YQyYgpcvoZObKpCVQuRbkOBwLDHcRBjlxQDU5ljNvdQYIyDCxeCbX5yar0), perhaps in contrast to the above, seems to suggest that 'effectiveness' *is* rewarded with reputation. The people in the vignettes did seem to be rewarded (assessed as having both higher warmth and competence) by the participants for achieving a greater benefit, holding cost constant
+
 
 
 #### Considerations 

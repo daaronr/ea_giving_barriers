@@ -25,7 +25,7 @@ Similar issues of 'distance' also applies to other causes with strong arguments 
 
 ## Theoretical and conceptual underpinning
 
-Construal theory, psychological distance, moral distance/moral circles
+Construal theory, psychological distance, moral distance/moral circles, parochialism and its evolutinoary underpinnings
 
 -   Moral expansiveness
 
@@ -45,11 +45,13 @@ The importance of sympathy, which may be driven by distance and awareness...\*
 
 </div>
  
+Jaeger and Vugt (2021) make an explicit connection to  evolutionary factors that may be driving parochialism: 
+
+> For much of their evolutionary history, humans lived in relatively small, close-knit groups. This has led to the emergence of prosocial emotions and intentions towards kin and other members of an individual’s ingroup, but not necessarily towards individuals who fall outside of the group boundaries. (Citing Aktipis et al, 2018; Greene, 2013)
 
 <!-- ?cuddy\_ea\_2007 (Sudhir ea, \'16) -->
 
 ## Overall evidence
-
 
 Ana Diez suggests: 
 
@@ -69,6 +71,28 @@ Consider:
 Parochialism may pose a significant barrier to effective giving. Parochialism, as defined by @baron2011heuristics is the mental process of making a distinction between in-groups and out-groups, where people feel a greater connection with their own groups and weigh their welfare more heavily.
 
 There is some evidence for this in charitable contexts. In a laboratory experiment, @chenGroupIdentitySocial2009 found that when matched with an in-group member, people were significantly more likely to show charitable concern, shown through their allocation of tokens. @Sudhir2016a suggest that categorizing others as in-group members (along lines such as race, gender and age) increases the sense of responsibility and level of emotion felt, resulting in higher levels of sympathy and consequently a stronger urge to help. They examined this effect by randomizing advertising content in a large scale experiment with charitable mailings in India. When the woman on a flyer advertising the charity in question was from the in-group (in this case a Hindu woman in India, compared to a Christian woman in the out-group), they found a higher rate of donation and greater amounts raised. They suggest that the charity "more than doubles donation dollars by recognizing the identified victim sympathy bias in making its appeals".
+
+\
+
+Other potentially relevant work: 
+
+Kogut et al 2018:
+
+> Abstract: In the present research, we examined how the prospective donorâ's psychological distance from a given victim may interact with the victim's identification to determine the donor's willingness to accede to requests for donations to help the victim in question. In three studies, we measured willingness to donate (Studies 1 and 2) and actual donations (Study 3) to identified or unidentified victims, while measuring (Study 1) or manipulating (Studies 2 and 3) the psychological distance between prospective donors and the recipients. Results indicate that increasing the psychological distance between prospective donors and victims decreases willingness to help  but only when the victims are unidentified, not when they are identified. This suggests that victim's identification mitigates the effect of distance on donor's willingness to help.
+
+K.F. Law, D. Campbell, B. Gaesser:  Biased benevolence: The perceived morality of effective altruism across social distance
+
+> Across four studies, the authors demonstrate that donating money to socially distant others (where donations usually have the largest impact) is perceived as less morally acceptable. Actors who helped a distant stranger rather than socially closer others (e.g., family or friends) were also judged more negatively and trusted less in an economic game.
+
+
+<!-- mabe
+R.M. McManus, M. Kleiman-Weiner, L. Young
+What we owe to family: The impact of special obligations on moral judgment
+
+-->
+
+
+
 
 ## Distance: Experiential, Informational, Emotional/Affective
 
@@ -264,3 +288,20 @@ Whether those in the future are indeed commonly percieved or treated as an out-g
 -   **What is the evidence** that they are actually doing this (taking into account the 'uncertainty' issue (we know less about how to help the far-future).
 
 -   What factors drive this bias or mitigate it?
+
+
+
+<!-- 
+Jaeger and Vugt: 
+. For example, geographically and socially distant others (e.g., people living in extreme poverty in Africa) evoke less empathic concern even though they often stand to benefit the most from charitable acts [13, 14∗, 15]. 
+
+Kogut et al 2018: Abstract: We are regularly told about people at various locations around the globe, both near and far, who are in distress or in dire need. In the present research, we examined how the prospective donorâ€™s psychological distance from a given victim may interact with the victimâ€™s identification to determine the donorâ€™s willingness to accede to requests for donations to help the victim in question. In three studies, we measured willingness to donate (Studies 1 and 2) and actual donations (Study 3) to identified or unidentified victims, while measuring (Study 1) or manipulating (Studies 2 and 3) the psychological distance between prospective donors and the recipients. Results indicate that increasing the psychological distance between prospective donors and victims decreases willingness to help â€” but only when the victims are unidentified, not when they are identified. This suggests that victimâ€™s identification mitigates the effect of distance on donorâ€™s willingness to help.
+
+ K.F. Law, D. Campbell, B. Gaesser
+Biased benevolence: The perceived morality of effective altruism across social distance
+Across four studies, the authors demonstrate that donating money to socially distant others (where donations usually have the largest impact) is perceived as less morally acceptable. Actors who helped a distant stranger rather than socially closer others (e.g., family or friends) were also judged more negatively and trusted less in an economic game.
+
+P. Bloom
+Empathy and its discontents
+Trends Cogn Sci, 21 (1) (2017),
+-->
