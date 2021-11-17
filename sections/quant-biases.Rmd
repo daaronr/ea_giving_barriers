@@ -377,11 +377,11 @@ E.g., the [Against Malaria Foundation](https://www.againstmalaria.com/) is ranke
 
 ```{block2,  type='fold'}
 
-Macaskill: 
+Macaskill:
 
 > Every year cancer kills 8.2 million people and is responsible for 7.6 percent of all deaths and ill health worldwide (measured in terms of QALYs lost). USD 217 billion per year is spent on cancer treatment. Malaria is responsible for 3.3 percent of QALYs lost worldwide. In terms of its health impacts, cancer is about twice as bad as malaria, so if medical spending were in proportion to the scale of the problem, we would expect malaria treatment to receive about USD 100 billion per year. In reality only USD 1.6 billion per year is spent on malaria treatment: about sixty times less than we would expect.
 
-> Cancer treatment receives so much more funding than malaria treatment because malaria is such a cheap problem to solve that rich countries no longer suffer from it. (It was eliminated in the US in 1951.) The fact that cancer treatment receives so much more funding than malaria treatment means that, on the margin, each of us can provide a far greater benefit for other people by funding the most effective malaria treatments in the developing world than we can by funding the most effective cancer treatments in the developed world. 
+> Cancer treatment receives so much more funding than malaria treatment because malaria is such a cheap problem to solve that rich countries no longer suffer from it. (It was eliminated in the US in 1951.) The fact that cancer treatment receives so much more funding than malaria treatment means that, on the margin, each of us can provide a far greater benefit for other people by funding the most effective malaria treatments in the developing world than we can by funding the most effective cancer treatments in the developed world.
 
 
 ```
@@ -775,19 +775,84 @@ Thoughts... (unfold)
 ```{block2,  type='fold'}
 
 
-"Risk aversion with respect to the impact that I make" 
+"Risk aversion with respect to the impact that I make"
 
-This would come out of (i.e., would be equivalent to) mazimising a utility function which included an 'impact term' with diminishing marginal returns to this impact. This would not in itself be a bias. 
+This would come out of (i.e., would be equivalent to) mazimising a utility function which included an 'impact term' with diminishing marginal returns to this impact. This would not in itself be a bias.
 
 However, an individual donor might:
 
 - Misunderstand what 'risk' means in this context
-- Mis-percieve the risks/probabilities 
+- Mis-percieve the risks/probabilities
 - Fail to consider that other donors are giving to distinct causes, leading to some automatic diversification
 
 ```
 
 ### Bias towards tangibility (perhaps not 'quantitative'?)
+
+Incorporate notes from  [this comment](https://forum.effectivealtruism.org/posts/oYvmPnc72npdtFuPg/effects-of-being-able-to-see-effects-of-donation-first-hand?commentId=CyeKP5TsdeNhLCFd2).
+
+Reprinted in fold.
+
+```{block2,  type='fold'}
+
+to make donations sustainable in the large community one might need to think about *both*
+- **the gains to the 'beneficiaries', and**
+- **the internal emotional and social benefits for the donor.**
+
+I.e., a **'two-sided market'.** One needs to consider the 'donor as consumer'. ... we might want to consider some reduction in former if it greatly increases the latter.
+
+The latter certainly involves tangibility, the feeling of having done something that you can see changes the world in a visible way, 'agency', and the feeling of having a particular attachment to somebody you can help. People buy fireworks because they get more pleasure from "lighting fireworks and controlling their direction" than from "seeing a display".
+
+The problem is that the forms of generosity that you can more easily 'control and see the tangible effects of' tend to be more local to the wealthy (by global standards) donors, less neglected, and thus less effective at the margin.
+
+Furthermore, ensuring and enabling this "specific donation" can itself be costly in terms of administration and communication. It can also  lead to some departure from 'giving to the most needy' if the 'most needy person' is harder to communicate with.
+
+But I think there is **potential to try to harness tangibility and incrementally in the effective giving space**.
+
+There is the idea of "sponsor an individual child or family or village". My impression is that many charities in fact do this in their marketing and communication but the actual donations are not directly tied to a particular beneficiaries.  And I expect donors realize this. When I spoke with these charities they say that there are both practical and ethical issues making this undoable (see below).
+
+**My proposal, which seems to overlap what you're saying,** was something like telling people
+
+> We are linking each potential donor to a particular  household (or village etc).  You are linked to the ZJHGUH household in SHMZPLA.
+
+> Do you want to donate to provide the  ZJHGUH household with education, medicine, and clean water?  You are the only potential donor linked to ZJHGUH by our organization.
+
+> If you donate to build a new sanitary facility, you will be able to choose which color it is painted, and we'll send photos
+
+The idea is close to what are you are suggesting. Furthermore, technology could allow us now to provide some pictures and feedback directly linked to the beneficiary household.
+
+**The very strong objections to this I have heard:**
+
+1.  "This is unethical/unfair to the beneficiary households not targeted"
+2. "This is too manipulative of potential donors"
+3. "This would be impossible to implement"
+4. "This is too 'white-saviour vs victim'-ish"
+
+These objections are somewhat reasonable (but some could also be rebutted to an extent) but I suspect that if done right, the benefits will outweigh the costs, in terms of generating substantial amounts of donations  (as well as bringing connections between people on both sides of the global divide, which may have additional benefits).
+
+**Why do I think it could be so effective at motivating donations?**
+
+Humans in general (including the global wealthy) devote huge shares of our income to ...
+- our family
+- people whom we interact with, and in our community
+- public goods that we can have a tangible impact on (e.g., fireworks, public art, gardens)
+
+If helping the worlds' poorest people can be made into something that is tangible, incremental, and more 'direct' I think it will leverage our innate desires...
+1. To help those we feel we have an 'obligation to' (because no one else will help them),
+2. To have a connection to people whom we can help, and
+3. To have agency and see the impact of our actions.
+
+You might object to the first point,  saying
+ "this is inaccurate ... how can you say 'no one else will help them'" or
+"how can you link a single donor to a single beneficiary and otherwise deny that beneficiary the opportunity?"
+
+But there is a sense in which the *standard* charity and aid does this anyways, only in a more probablistic sense. We don't give enough to provide for all the world's poor. Some are going to be denied opportunities, and an individual donation *does* make this difference. It's just that it is not completely traceable.
+
+By making it traceable and tangible we may unlock a vast "supply of generosity".
+
+```
+
+
 
 ### Corruption aversion (perhaps not 'quantitative'?)
 
@@ -803,13 +868,13 @@ This may be hard to swallow. We could also consider that the negative consequenc
 </div>
 
 *Intervention B (e.g., building wells in country B)*: Saves one life, on average, per 10000 USD donated and used.  No bribery is involved.
-  
-Clearly,  in this artificially constructed example, donations for intervention A are more effective. Even net of the bribes, this will save more lives on average. 
+
+Clearly,  in this artificially constructed example, donations for intervention A are more effective. Even net of the bribes, this will save more lives on average.
 
 However,  individuals may be particularly averse to knowing that their donation is used even in some small part to pay bribes, enriching someone unjustly, even though it has a much greater positive affect on others.
 
 This is not necessarily a *bias*,  it may be an inherent part of preferences, potentially embodying non-moral-utilitarian deontological concerns. Such a preference would nonetheless lead to 'inefficient donations'  from the point of view of  someone who does not have this concern.
 
 But there *might also* be a bias involved in some cases.  Some individuals  may not have this inherent distaste for bribery, or may have a distaste for it but still primarily value donating to the most (e.g.) lifesaving-per-dollar cause. However, the silence and visceral repugnance of corruption may cause these individuals to over-estimate its impact on efficiency. (This seems related to the [availibility](#availability) bias.)
-  
+
 ```

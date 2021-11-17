@@ -22,7 +22,7 @@ For an introduction to the field of effective altruism, see [this article](https
 Figure 7.1 is from original work by The World Bank. Views and opinions expressed in the present adaptation are the sole responsibility of the author or authors of the adaptation and are not endorsed by The World Bank.
 :::
 
-In contrast, charity-supported interventions such as providing guide dogs for the blind routinely cost over 5000 USD per dog per year, presumably yielding substantially less than a single DALY of benefit per year. Make-a-Wish 'wishes' for dying children [cost over 11,000 USD on average](https://wish.org/faq#:~:text=to%20the%20top%20%5E-,How%20much%20does%20granting%20a%20wish%20cost%3F,of%20a%20wish%20was%20%2411%2C161); the same money may be able to *save* as many as four children's lives (on average) if devoted to (e.g.) [seasonal preventative anti-malarial drugs](https://www.givewell.org/charities/malaria-consortium).\*
+In contrast, charity-supported interventions such as providing guide dogs for the blind routinely cost over 5000 USD per dog per year, presumably yielding substantially less than a single DALY of benefit per year. Make-a-Wish 'wishes' for dying children [cost over 11,0000 USD on average](https://wish.org/faq#:~:text=to%20the%20top%20%5E-,How%20much%20does%20granting%20a%20wish%20cost%3F,of%20a%20wish%20was%20%2411%2C161); the same money may be able to *save* as many as four children's lives (on average) if devoted to (e.g.) [seasonal preventative anti-malarial drugs](https://www.givewell.org/charities/malaria-consortium).\*
 
 ::: {.marginnote}
 \* See cell B-153 in the google sheet [here](https://docs.google.com/spreadsheets/d/16XOOB1oWse1ICbF0OVXUYtwWwpvG3mxAAQ6LYAAndQU/edit#gid=791021775) for the cost-per-life-saved estimate.
@@ -30,16 +30,13 @@ In contrast, charity-supported interventions such as providing guide dogs for th
 
 <!-- Another costly example ... around 50k per DALY -- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3402472/ -->
 
-In general, most charitable giving goes towards helping people in *wealthier* countries,\* even though it is widely accepted that far more lives can be saved and improved when funds are devoted towards more effective interventions in poor countries (see fold).
+In general, most charitable giving goes towards helping people in *wealthier* countries[^1], even though it is widely accepted that far more lives can be saved and improved when funds are devoted towards more effective interventions in poor countries (see fold).
 
-<div class="marginnote">
-\* See, e.g., evidence from a US nationally representative survey (self-reports) in @Reinstein2011a, or lists of the most popular charities in wealthy countries, e.g., [this YouGov poll for the UK.](https://yougov.co.uk/ratings/politics/popularity/charities-organisations/all)
-</div>
-
+[^1]: ref
 
 ```{block2,  type='fold'}
 
-> This range of cost-effectiveness values draws from the growing literature on health care opportunity costs, which suggests that a figure approximating half of gross domestic product (GDP) per capita per DALY averted is a realistic level of willingness-to-pay for health care interventions in [low to middle income countries] (Ochalek, Lomas, and Claxton 2015), cited in [@bundy2017], chapter 3, page 48.
+> This range of cost-effectiveness values draws from the growing literature on health care opportunity costs, which suggests that a figure approximating half of gross domestic product (GDP) per capita per DALY averted is a realistic level of willingness-to-pay for health care interventions in [low to middle income countries] (Ochalek, Lomas, and Claxton 2015) , cited in [@bundy2017], chapter 3, page 48.
 
 Similar calculations referring to the value of a statistical life as being proportional to GDP per capita are found throughout this volume and beyond. E.g., (a random example) [@cobiac2012] considers "a cost-effectiveness threshold of 50,000 AUSD/DALY" (just a bit below their GDP per capita in 2012.).
 
@@ -117,9 +114,7 @@ Some references (WIP, unfold)
 
 ```{block2,  type='fold'}
 
-- General giving statistics: @meerGenerosityIncomeWealth2020, @rooneyDynamicsAmericanGiving2019
-
-- Various references at IUPIU; see also Osili, Weipking, Bekkers work
+- General giving statistics: @meerGenerosityIncomeWealth2020, @rooneyDynamicsAmericanGiving2019 - Various references at IUPIU; see also Osili, Weipking, Bekkers work
 
 -   Sources of data: PSID, GVUSA, GINPS, [add the list here], Giving USA: The Annual Report on Philanthropy (raw data?), Study of High Net Worth Philanthropy
 
@@ -127,7 +122,7 @@ Some references (WIP, unfold)
 
 ## (Lack of) previous synthesis on this {#prevsurvey}
 
-While there have been some relevant prior reviews (particularly [Caviola et al, 2021]((https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0005)%20,%20as%20well%20as%20@loewensteinScarecrowTinMan2007,%20introduction%20to%20@Berman2018,%20@baron2011heuristics), and the introduction to [Caviola et al](http://journal.sjdm.org/19/190810/jdm190810.pdf)
+While there have been some relevant prior reviews (@loewensteinScarecrowTinMan2007, introduction to @Berman2018, @baron2011heuristics),
 
 ::: {.marginnote}
 There has also been some unpublished or non-academic work: 'Behavior and Charitable Giving' (Ideas42, 2016), 'Charitable Fundraising And Smart Giving' (Gertler, 2015), and 'The Psychology of Effective Altruism' (Miller, 2016, slides only).
@@ -145,6 +140,10 @@ iv. a rigorous, sceptical approach to evidence, and
 
 v.  advancing a research agenda while building tools that promote robust evidence.
 
+::: {.marginnote}
+Ideas42: "We did not find many field-based, experimental studies on the factors that encourage people to choose thoughtfully among charities or to plan ahead to give. "
+:::
+
 \
 
 *Note:* @greenhalghSystematicReviewBarriers2020 performed 'a systematic review of the barriers to and facilitators of the use of evidence by philanthropists when determining which charities (including health charities or programmes) to funds' using PRISMA guidelines.
@@ -161,33 +160,13 @@ I intend to look more closely at how they identified these studies, how they eli
 
 ### Effectiveness-specific work
 
--   [Caviola et al, 2021, "The Psychology of (In)Effective Altruism"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0005)
-
--   [Jaeger and van Vugt, 2021,Psychological barriers to effective altruism: An evolutionary perspective](https://www.sciencedirect.com/science/article/pii/S2352250X21001779?via%3Dihub)
-
-> outlines *ultimate* [rather than proximate] explanations for ineffective altruism ... evolutionary perspective ...;w three fundamental motives---parochialism, status, and conformity
+-   "[The many obstacles to effective giving](http://journal.sjdm.org/19/190810/jdm190810.pdf)" ... "on how both incorrect beliefs and preferences for ineffective charities contribute to ineffective giving." Mainly a series of MTurk experiments (and some with 'effective altruists' recruited through the EA Newsletter/Facebook) involving hypothetical donation choices, but also includes some literature review and conceptual breakdown
 
 -   @baron2011heuristics - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers
 
 -   Gertler, [Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf) (not peer-reviewed but very useful)
 
--   "[The many obstacles to effective giving](http://journal.sjdm.org/19/190810/jdm190810.pdf)" ... "on how both incorrect beliefs and preferences for ineffective charities contribute to ineffective giving." Mainly a series of MTurk experiments (and some with 'effective altruists' recruited through the EA Newsletter/Facebook) involving hypothetical donation choices, but also includes some literature review and conceptual breakdown
-
-\
-
-Caviola et al, 2021, is probably the strongest, most relevant, and most insightful (and has some connection to the structure we present below). From their abstract:
-
-> We review the motivational and epistemic causes of (in)effective giving. Many donors view charitable giving as a matter of personal preference, which favors decisions based on emotional appeal rather than effectiveness. In addition, while many donors are motivated to give effectively, they often have misconceptions and cognitive biases that reduce effective giving.
-
-Still, Caviola et al does not drill deeply into the strength of the evidence and the relative importance of each factor. However, this may stem from a small amount of available evidence to survey. Ideas42 (ibid) wrote:
-
-> We did not find many field-based, experimental studies on the factors that encourage people to choose thoughtfully among charities or to plan ahead to give. "
-
-In the sections below, we (intend to) compare and incorporate our outline and discussion with Caviola et al's work. In the folds below, we briefly compare the outlines and structure of the syntheses mentioned above.\
-
-<!-- Add outline from Caviola ea '21 here? -->
-
-**Comparison of other outlines: unfold**
+**Comparison of outlines: unfold**
 
 ```{block2,  type='fold'}
 
@@ -308,7 +287,7 @@ I assert that $B_j^\prime(G_j)$ is the quantity that GiveWell (and perhaps other
 
 \
 
-##### *We know (evidence cited in fold)u:* {#evidence_eff .unnumbered}
+##### *We know (evidence cited in fold):* {#evidence_eff .unnumbered}
 
 ```{block2,  type='fold'}
 
@@ -395,11 +374,6 @@ Much is left ambiguous in each model, as well as in other fairly prominent model
 
 # Breakdown of barriers {#barriers-breakdown}
 
-```{block2,  type='note'}
-
-To do: relate this breakdown to others' decompositions, especially that of Caviola et al (2021).
-```
-
 ## Conceptual breakdown of 'barriers' (first presentation) {#barriers-concept}
 
 We focus on the 'barriers' or 'hurdles to giving effectively' among individuals who *already* engage in some charitable giving and other-regarding acts. Loosely, a donor would need to "jump over all of these hurdles" and cross each of these barriers in order to be giving effectively.
@@ -420,22 +394,18 @@ Later chapters present the direct and indirect evidence for very specific barrie
 
 **A conceptual breakdown of barriers:**
 
-- Base values may be (non) utilitarian: People are optimising their own 'X', which does not coincide with impact $\rightarrow$ no puzzle?
+- Base values may be (non) utilitarian: People are optimising their own 'X', which  does not coincide with impact $\rightarrow$ no puzzle?
 
-- Avoiding information about effectiveness: Even if people want to optimise impact, they may specifically dislike and avoid gathering information about effectiveness in a charitable giving setting
 
-- Presenting effectiveness information may backfire: E.g., if it switches off the 'generous part of the brain', gets people to think in a more 'market' mode, or makes people indecisive
+- Judgement/cognition failures, information failure: People try but fail to optimize, and/or have persistent incorrect beliefs
 
-- Judgement/cognition failures, quantitative biases, information failure: People try but fail to optimize, and/or have persistent incorrect beliefs
 
 \
 
 - Emotion overrides cognition: Our brain serves two masters, those decisions are not consistent
-
-
 \
 
-- Identity and signalling: Effectiveness in giving clashes with our self-image/self-beliefs, or with how we want to appear to others
+- Identity and signalling: Effectiveness in giving clashes with our self-image/self-beliefs, or with  how we want to appear to others
 \
 
 - Systemic factors (and inertia): "It's society's fault, man" ... social systems leading to pressure and incentives from others to give to local or less-effective causes. Even if impact is a goal these systems take a long time to adjust.
@@ -618,7 +588,8 @@ Does one contribution crowd out another? If so, social pressure, systems enforci
 
 According to Mulesky (2020) “Charities routinely appeal to impact when soliciting donations”; However, the example she gives is not a clear measure of per dollar impact.
 
-However, a feature of philanthropy overlooked in published research is that nonprofit organizations rarely, if ever, support these claims with rigorous evidence
+However, a feature of philanthropy overlooked in published research is that nonprofit
+organizations rarely, if ever, support these claims with rigorous evidence
 -->
 ```
 -   **Section** \@ref(eval-aversion)**: [Barriers: Aversion/obstacles to doing (using) evaluations; effect of analytical information on generosity](#eval-aversion)**
