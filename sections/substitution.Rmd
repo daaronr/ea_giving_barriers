@@ -1,7 +1,3 @@
----
-bibliography: references.bib
----
-
 # Are charities in competition? Is the ineffective giving reducing effective giving? {#substitution}
 
 Are charitable gifts complements or substitutes; are charities rivals? Does one donation request (or donation itself) crowd out another, and if so when and by how much? This is critical to understanding the extent to which gains can be achieved by getting people to 'switch' from less to more effective charities. To the extent this crowding-out occurs, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressuring you to give to local organisations) themselves represent barriers to EA giving.
@@ -233,8 +229,7 @@ Vary choice sets/prices, shocks $\rightarrow$ crowd-out, esp. similar causes
 
 -   Vance-Mullen component of Reinstein et al
 
-\
-\#\# Field/natural experiments
+## Field/natural experiments
 
 Notes from previous paper (unfold)
 

@@ -306,41 +306,41 @@ answering these questions carefully?\]
 S1: "Undergraduate volunteers (n = 54) from two sections of an economics
 statistics course"
 
-\> Studies 1 and 2 found that an intervention saving a fixed number of
+> Studies 1 and 2 found that an intervention saving a fixed number of
 lives was judged significantly more beneficial when fewer lives were at
 risk o anverall. Study 3 found that respondents wanted the minimum
 number of lives a medical treatment would have to save to merit a fixed
 amount of funding to be much greater for a disease with a larger number
 of potential victims than for a disease with a smaller number.
 
-\> Study 1: Respondents evaluated the programs in pairs, one pair per
+> Study 1: Respondents evaluated the programs in pairs, one pair per
 page
 
 "imagine themselves as a government official of a small, developing
 country"
 
-\> We predicted that preference ratings would be greater for the
+> We predicted that preference ratings would be greater for the
 small-camp program than the large-camp program. Because these programs
 were never paired together, however, we compared respondents' ratings
 for the two Rwandan programs in pairings that shared a common
 non-Rwandan program
 
-\> Even though most respondents realized that the same number of
+> Even though most respondents realized that the same number of
 refugees could be saved in either camp, they preferred the small-camp
 program (M 5 .45) over the large-camp program (M 5 2.20) when paired
 with either the transportation or employment programs.
 
-\> Study 2 omitted dummy scenarios and had respondents evaluate Rwandan
+> Study 2 omitted dummy scenarios and had respondents evaluate Rwandan
 scenarios individually.
 
-\> \... manipulated three within-subjects variables: size of refugee
+> \... manipulated three within-subjects variables: size of refugee
 camp (11,000 or 250,000), amount of pure-water aid a camp was receiving
 before a water-purification plane was sent (low or high), and
 reliability of the plane (60% or 100%). \... eight different scenarios
 participants read\... 2 x 2 x 2 repeated-measures factorial design. All
 respondents evaluated the same eight scenarios
 
-\> two dependent variables: (1) the rated benefit of sending a plane,
+> two dependent variables: (1) the rated benefit of sending a plane,
 and (2) a yes/no decision on whether or not to send a plane.
 
 \> A 2 x 2 x 2 within-subjects ANOVA on respondents' benefit ratings

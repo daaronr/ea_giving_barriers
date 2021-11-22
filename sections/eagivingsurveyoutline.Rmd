@@ -1,3 +1,5 @@
+# INTRODUCTION & FUNDAMENTALS {-}
+
 # Introduction and outline {#outline}
 
 <center>
@@ -8,7 +10,10 @@
 
 <!-- #TODO: reconcile this with the outline in 'EA giving survey-working version'... -->
 
-**This outline links, and gives a brief description of each section**
+\
+
+
+*This outline links, and gives a brief description of each section*
 
 <!-- David Reinstein (drafted this version) with Nick Fitz and Ari Kagan -->
 
@@ -32,10 +37,10 @@
 
     <!-- -->
 
--   [Why (under which models) is this a puzzle?](#why-puzzle)\*\*\* 
+-   [Why (under which models) is this a puzzle?](#why-puzzle)\*\*\*
 
 <div class="marginnote">
-\*\*\*
+\*\*\* Briefly mapping outlining this...
 
 -   Do people *actually care about* impact? Does moral utilitarianism matter?
 
@@ -71,7 +76,7 @@ Here we also give a general ['conceptual' overview of these barriers](#barriers-
 
 \
 
-**Barriers** chapters; these are outlined under ['practical barriers'](#practical-barriers) 
+**Barriers** chapters; these are outlined under ['practical barriers'](#practical-barriers)
 
 
 **Section** \@ref(tools)**: [Tools for motivating EA giving](#tools)**
@@ -148,7 +153,7 @@ To do: In this subsection (or somewhere in this draft), we intend to discuss...
 
 See [innovationsinfundraising](https://innovationsinfundraising.org/doku.php?id=tools:meta-analysis_approach#references_and_discussion_of_specific_issues_in_meta-analysis) for some earlier discussion of this, as well as ["What works to increase charitable donations? A meta-review with meta-meta-analysis" by Noetel et al](https://psyarxiv.com/yxmva/)
 
- 
+
 
 ## Airtable organisation; contributing content {#airtable-contrib}
 
@@ -188,9 +193,13 @@ See [innovationsinfundraising](https://innovationsinfundraising.org/doku.php?id=
 
 \
 
-## Other practical considerations
+** Other practical considerations ** (unfold
 
-Consider on potential integration with (no-longer-maintained) PriorityWiki/Rethink Charity {-}
+
+
+```{block2,  type='fold'}
+
+Consider potential integration with (no-longer-maintained) PriorityWiki/Rethink Charity {-}
 
 How have EA orgs been brought together ...especially at universities?
 
@@ -199,6 +208,9 @@ How have EA orgs been brought together ...especially at universities?
 -   [EA hub](https://eahub.org/)
 
 -   [Facebook group](https://www.facebook.com/groups/effective.altruists/)
+
+```
+
 
 <html>
 
@@ -211,7 +223,7 @@ How have EA orgs been brought together ...especially at universities?
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());  
+  gtag('js', new Date());
 
   gtag('config', 'UA-148137970-4');
 </script>

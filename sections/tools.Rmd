@@ -1,6 +1,4 @@
----
-bibliography: references.bib
----
+# GOING FORWARD {-}
 
 # Tools for motivating EA giving {#tools}
 

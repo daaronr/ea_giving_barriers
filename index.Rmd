@@ -36,7 +36,7 @@ output:
 bookdown::pdf_book:
     keep_tex: yes
 always_allow_html: yes
-bibliography: ["references.bib", "sections/references.bib"]
+bibliography: ["reinstein_bibtex.bib", "references.bib", "sections/references.bib"] #covering all bases here ... should really sort it out some day
 biblio-style: apalike
 link-citations: yes
 github-repo: daaronr/ea_giving_barriers
@@ -44,7 +44,6 @@ description: "A broad project of  definition, discussion synthesis, and meta-ana
 #url: 'https\://daaronr.github.io//'
 tags: [Effective altruism, charitable giving, meta-analysis, literature survey, field experiments, lab experiments, experimental design, Psychology, Economics, moral circles, behavioral economics, quantitative biases]
 ---
-
 
 <!-- NOTE: you now should build this through running `main.R` in the root directory -->
 
@@ -69,7 +68,6 @@ try_download <- function(url, path) {
 }
 
 
-```{r }
 # automatically create a bib database for R packages
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
@@ -89,11 +87,10 @@ my_output <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 Can define text blocks here, refer to them again and again if desired
 -->
 ```
+
 # Abstract {#abstract .unnumbered}
 
-::: {.marginnote}
-Future work: present or link a more extensive abstract here.
-:::
+<!-- Future work: present or link a more extensive abstract here. -->
 
 [*David Reinstein, link to CV*](https://daaronr.github.io/markdown-cv/)
 
@@ -142,7 +139,7 @@ Drivers and barriers to effective giving are also drivers/barriers to effective 
 
 \
 
-In 2014, Ben Todd of 80,000 hours rated 'Promoting effective altruism' as [tied for first-place](https://80000hours.org/2014/01/which-cause-is-most-effective-300/) in Importance, Tractibility and "Uncrowdedness" among 11 ranked causes, noting that 'interventions within this area include advocacy of key ideas in effective altruism and network-building'. This is at least *adjacent* to promoting effective charitable giving.
+In 2014, Ben Todd of 80,000 hours rated 'Promoting effective altruism' as [tied for first-place](https://80000hours.org/2014/01/which-cause-is-most-effective-300/) in Importance, Tractibility and "Uncrowdedness" among 11 ranked causes, noting that "interventions within this area include advocacy of key ideas in effective altruism and network-building". This is at least *adjacent* to promoting effective charitable giving.
 
 \
 Relation to GPI research:
@@ -157,7 +154,7 @@ Relation to GPI research:
 
 \
 
-## Non-technical abstract (for mainstream audiences) {#pop-abstract .unnumbered}
+## Non-technical non-EA abstract (for mainstream audiences) {#pop-abstract .unnumbered}
 
 Hunger, homelessness, mental and physical illness, environmental degradation, the suffering of humans and animals, the risks of human extinction: the needs are boundless, but the resources to solve these problems are limited. Even with the best of intentions and impressive generosity ([Americans give roughly 2% of their income to charity](https://www.philanthropy.com/article/The-Stubborn-2-Giving-Rate/154691#:~:text=Americans%20gave%20%24316.2%2Dbillion%20to,the%20same%20as%20in%202011.)), donors often contribute to inefficient charities -- ones that spend more but accomplish less than others that may be competing for the same funds.\*\* Each dollar given to the most effective charities (like those rated by [Givewell.org](http://givewell.org)) benefits greater numbers of people in more significant ways than the least effective ones. However, donors do not always consider effectiveness when deciding how much to give and to which organizations.
 
@@ -165,9 +162,9 @@ Hunger, homelessness, mental and physical illness, environmental degradation, th
 \*\* This holds even for charities pursuing similar goals; some are clearly more impactful per-dollar, even (presumably) by the lights and standards of the donors.
 :::
 
-Academics (in Economics, Psychology, Biology, and Philosophy) have applied a range of theories to explain what drives "inefficient altruism." Evidence comes from a variety of studies, involving surveys, observational work, laboratory experiments, and, where feasible, natural field experiments. These have not been run as part of a systematic project addressing this issue; goals, contexts, and approaches have varied as opportunities presented. Given the disparate findings, we do not have a definitive picture of which factors impact effective giving.
+Academics (in Economics, Psychology, Biology, and Philosophy) have applied a range of theories to explain what drives "inefficient altruism". Evidence comes from a variety of studies, involving surveys, observational work, laboratory experiments, and, where feasible, natural field experiments. These have not been run as part of a systematic project addressing this issue; goals, contexts, and approaches have varied as opportunities presented. Given the disparate findings, we do not have a definitive picture of which factors impact effective giving.
 
-## Some links to presentations {#present-links}
+## Some links to presentations {-#present-links}
 
 -   [Introduction to the project: audio+slides](https://www.dropbox.com/s/i59imgi6tqmouj8/barriers_to_EA_overview_Screen%20Recording%202019-09-12%20at%2014.52.15.mov?dl=0)\*
 
@@ -177,7 +174,7 @@ Academics (in Economics, Psychology, Biology, and Philosophy) have applied a ran
 
 -   ['Revealjs' html slides of this project and associated field experiments: press 'o' to navigate](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/)
 
-## Discussions {#why-understand-reactions}
+## Discussions {-#why-understand-reactions}
 
 For 'Effective Altruists' ... (Why) do we care 'how people react to the presentation of charity-effectiveness information' from a practical point of view? (unfold discussion)
 
@@ -238,11 +235,13 @@ This also feels reminiscent of two posts:
 ```
 </html>
 
-## Notes on this format
+## Notes on this format {-}
 
 ```{block2,  type='note'}
 This project is presented in ['Bookdown' format](https://bookdown.org/); it is not only a single page!
 ```
+
+\
 
 Please be aware that the left sidebar expands into sections and subsections...
 
@@ -253,3 +252,8 @@ On the right sidebar you should see some icons...
 ![](images/paste-9053CDFD.png){width="100"}
 
 These are links to add and view comments using the tool [Hypothes.is](https://web.hypothes.is/start/). Please sign up (it only takes a moment) and get involved. I will try to respond to and acknowledge all comments (email me if I have overlooked yours.)
+
+```{block2,  type='note'}
+
+See further notes in the [technical appendix](#bookdown-appendix) on how this is built, and how to add content. If you like, we can also import and export the content from any section to a Google Doc to enable collaborative editing.
+```

@@ -19,16 +19,16 @@ students](https://daaronr.github.io/writing_econ_research/about-this-work.html).
 We aim to encourage others to participate in this collaborative work,
 and to spin off their own projects. If you would like to provide
 feedback or ask a question about these projects then using
-['hypothes.is'](https://web.hypothes.is/) is an easy way to do so (please write directly in the html and contact me at daaronr at gmail dot com to let me know you've done so.
+['hypothes.is'](https://web.hypothes.is/) is an easy way to do so (please write directly in the html and contact me at daaronr at gmail dot com to let me know you've done so).
 
 You can also contribute content through the Airtable forms (see
 [above](#airtable-contrib)).
 
 ```{block2,  type='note'}
 
-Update: There is now a tool 'trackdown' that allows decent integration with Google Docs. Please let me know if you would like me to make a 'collaborative Google doc' for any of these chapters. 
+Update: There is now a tool 'trackdown' that allows decent integration with Google Docs. Please let me know if you would like me to make a 'collaborative Google doc' for any of these chapters.
 
-```  
+```
 
 ```{block2,  type='note'}
 The template for my bookdown projects is maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template)
@@ -605,12 +605,12 @@ Click the addin "Insert Citations" under 'shortcuts', and enter a keyboard short
     `source(here("code", "baseoptions.R"))` line in index.Rmd
 
     -   knitr is a key package
-    
+
 ```{block2,  type='note'}
 
 17 Nov 2021 update: I'm re-working this to use the 'renv' tool for organizing packages
 
-```  
+```
 
 -   Click 'Build', 'Build all', or the shortcut key shift-cmd-b
 
@@ -623,10 +623,10 @@ the Rmd files and what that code does
 
 ```{block2,  type='note'}
 
-17 Nov 2021: I'm changing this so that this will be done through executing the root directory file `main.R`. 
+17 Nov 2021: I'm changing this so that this will be done through executing the root directory file `main.R`.
 
 This should be better structured and more consistent with how I do this in my other bookdowns.  s
-```  
+```
 
 -   It puts all the Rmd files specified in the \_bookdown.yml into a
     single file, here labeled barriers-to-effective-giving.knit.md (I
@@ -713,7 +713,7 @@ Note: Peter Hurford offers a very quick and practical introduction to Git and Gi
 [Happy Git and GitHub for the useR](https://happygitwithr.com/) is also recommended for those working with R (statistics/data)
 
 
-```  
+```
 
 -   Get a Github account, contact daaronr AT gmail.com and tell him your
     github account ID (or the email you used to join should probably
@@ -1021,7 +1021,7 @@ material mentioned above:
 
 #### [YaRrr! The Pirate's Guide to R](https://bookdown.org/ndphillips/YaRrr/){.unnumbered}
 
-\#\# Further misc notes
+## Further misc notes
 
 For 'unpublic unhosted' Github bookdowns (unlike this one...)
 

@@ -1,7 +1,3 @@
----
-bibliography: ../references.bib
----
-
 # Presenting the puzzle and challenge: Our ineffective giving {#present-puzzle}
 
 ::: {.marginnote}

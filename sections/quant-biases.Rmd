@@ -1,8 +1,4 @@
----
-bibliography: references.bib
----
-
-# Barriers: Quantitative biases (the 'distorted altruist') {#quant-biases}
+# Quantitative biases (the 'distorted altruist') {#quant-biases}
 
 Recapping the discussion from the [Conceptual breakdown of 'barriers'](#barriers-concept).
 
@@ -101,6 +97,8 @@ In addition, it might be argued that more effective interventions (e.g., targeti
 Key papers: Summarize findings and key takeaways, Short description of methods for relevant studies, Make sure to include both description of evidence and evaluation of evidence
 :::
 
+#### @fetherstonhaughInsensitivityValueHuman1997 
+
 @fetherstonhaughInsensitivityValueHuman1997 (notes [[HERE]{.ul}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#heading=h.8ax2rgfz70of))
 
 **Methods**
@@ -130,11 +128,17 @@ Mixed pro and con: highlight the difference in denominators/proportions, making 
 
 \
 
-Statistical tests (ANOVA) appear strong and highly significant in most cases, but further investigation warranted (e.g., pre-registration? Evidence of specification fishing and MHT?)\
+Statistical tests (ANOVA) appear strong and highly significant in most cases, but further investigation warranted (e.g., pre-registration? Evidence of specification fishing and MHT?)
 
-@erlandssonEmotionalReactionsPerceived2015
+\
 
-(Study 4)
+**Replication evidence**: Mixed, not strongly supported; see @zianoNumbingSensitizationReplications2021
+
+
+\
+
+
+#### @erlandssonEmotionalReactionsPerceived2015  (Study 4)
 
 > The PDE-ad was in part based on text from the homepage of a well-known global charity organization focusing on poverty in developing countries. Participants read about Polio and were told that if receiving the expected amount of private donations, it would be possible to vaccinate children so the death rate would decrease by approximately 500 children per year. In the large reference-group version, participants read that 60,000 children in Africa annually die from Polio so the project had a potential rescue proportion of 0.83%. In the small reference-group version, partici pants read that around 500 children in Botswana annually die from Polio so the project had a potential rescue proportion of more than 99%.
 >
@@ -150,9 +154,9 @@ Statistical tests (ANOVA) appear strong and highly significant in most cases, bu
 
 [Evaluation of evidence (Study 4):]{.ul}
 
-Strengths - Realistic charity frame, reasonable implementation of small/large "reference group" frames, outcomes record both intentional/attitudinal and actual (small) donation measures
+Strengths:  Realistic charity frame, reasonable implementation of small/large "reference group" frames, outcomes record both intentional/attitudinal and actual (small) donation measures
 
-Limitations - A choice *among* charities only
+Limitations:  A choice *among* charities only
 
 Statistical tests -
 
@@ -194,7 +198,7 @@ It is also detached from the charity realm, considering the domain of government
 
 -   "Lives-to-save"
 
-> "What is the minimum number of these (9,000/41,000) lives at risk ... saved each year before you... require consumers \> to pay for anti-lock brakes"
+> "What is the minimum number of these (9,000/41,000) lives at risk ... saved each year before you... require consumers to pay for anti-lock brakes"
 
 Treatments started with one size, then presented a "task force's new estimate" with the reverse.
 
@@ -281,7 +285,16 @@ In either case, we can still see the IVE as leading to inefficient giving. From 
 
 \
 
-### Evidence
+### Evidence: Meta-analysis and reviews/surveys
+
+@leeIdentifiableVictimEffect2016: Meta-analysis
+
+> A random-effects meta-analysis was conducted to determine the overall weighted effect of IVE. Overall, 41 studies were included. Results indicated an overall significant yet modest IVE (r = .05). In addition, findings showed that IVE appears reliable mainly when there is a single identified or a single unidentified victim, and/or when study characteristics include elements of the following: a photographed child suffering from poverty, bearing little responsibility for the need, and/or associated with monetary requests.
+
+See also, the discussion in @kogut2011identifiable
+
+
+#### Specific papers, discussion 
 
 <!-- TODO: more complete overview of the types of evidence as well as existing meta-analyses -->
 
@@ -303,7 +316,7 @@ In one of their studies, they used a version of the "dictator game". In dictator
 \*For more on dictator games see @kahneman1986fairness and @camerer1995anomalies.
 :::
 
-There were two conditions in the slightly-altered dictator game devised by \@@smallHelpingVictimHelping2003. In the 'determined' condition, allocators were given a number to link them with the recipient before they made their decision, while in the 'undetermined' condition they were linked after the decision. Their hypothesis, that an allocator would give more money to recipients in the determined condition, was supported. Subjects gave significantly more to those victims who had been determined before the allocation. The mean donation for an undetermined victim was USD 2.12, compared to USD 3.42 for determined victims.
+There were two conditions in the slightly-altered dictator game devised by @smallHelpingVictimHelping2003. In the 'determined' condition, allocators were given a number to link them with the recipient before they made their decision, while in the 'undetermined' condition they were linked after the decision. Their hypothesis, that an allocator would give more money to recipients in the determined condition, was supported. Subjects gave significantly more to those victims who had been determined before the allocation. The mean donation for an undetermined victim was USD 2.12, compared to USD 3.42 for determined victims.
 
 The second study from \@@smallHelpingVictimHelping2003 was a field experiment with the following methodology:
 
@@ -611,9 +624,9 @@ Hypothetical survey (vignettes, scenarios) "We constructed 960 scenarios in whic
 
 -   DonorsChoose platform involves plausibly exogenous variation in the providing (the same) goods to teachers across projects (varying sales taxes, fullfillment, payment processing fees, etc).[\^3] Fees are 'explicit and salient'.
 
--   Robust analysis (e.g., teacher fixed-effects) to address a potential \> endogeneity concern (saavy teachers economize on fees)
+-   Robust analysis (e.g., teacher fixed-effects) to address a potential  endogeneity concern (saavy teachers economize on fees)
 
--   An increased price of giving results in a lower likelihood of a \> project being funded. We also calculate the price elasticity of \> giving, finding estimates between −0.8 and −2.
+-   An increased price of giving results in a lower likelihood of a  project being funded. We also calculate the price elasticity of  giving, finding estimates between −0.8 and −2.
 
 However, this does *not* typify the overhead we are considering. Here, we see variation in the donot's *actual* costs of providing outputs; as in @gneezyAvoidingOverheadAversion2014 lab experiments, this is not "illusion". While donor responses to e.g., greater fixed costs of maintaining an office in Malawi, or greater costs of identifying legitimately poor families *might* be similar, we do not know.$^+$
 
@@ -627,7 +640,7 @@ Furthermore, DonorsChoose doesn't have clearly separate variation in effectivene
 
 -   "Seed donor covering overhead"
 
--   Simultaneous comparisons and evaluation of impact and overhead where \> relevant @Caviola2014
+-   Simultaneous comparisons and evaluation of impact and overhead where relevant @Caviola2014
 
 -   De-biasing?
 
@@ -789,7 +802,7 @@ However, an individual donor might:
 
 ### Bias towards tangibility (perhaps not 'quantitative'?)
 
-Incorporate notes from  [this comment](https://forum.effectivealtruism.org/posts/oYvmPnc72npdtFuPg/effects-of-being-able-to-see-effects-of-donation-first-hand?commentId=CyeKP5TsdeNhLCFd2).
+Incorporate notes from [this comment](https://forum.effectivealtruism.org/posts/oYvmPnc72npdtFuPg/effects-of-being-able-to-see-effects-of-donation-first-hand?commentId=CyeKP5TsdeNhLCFd2).
 
 Reprinted in fold.
 
@@ -851,8 +864,6 @@ But there is a sense in which the *standard* charity and aid does this anyways, 
 By making it traceable and tangible we may unlock a vast "supply of generosity".
 
 ```
-
-
 
 ### Corruption aversion (perhaps not 'quantitative'?)
 

@@ -17,4 +17,4 @@ StripTrailingWhitespace: Yes
 
 BuildType: Website
 
-ZoteroLibraries: "My Library","Rethink Priorities","reinstein_research_and_impact_collabs"
+ZoteroLibraries: "My Library"

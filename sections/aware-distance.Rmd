@@ -1,15 +1,11 @@
----
-bibliography: ../references.bib
----
-
-# Barriers: "Distance", awareness, and consideration {#aware-distance}
+# "Distance", awareness, and consideration {#aware-distance}
 
 ::: {.marginnote}
 This section was written by David Reinstein and Luke Arundel.
 :::
 
 ```{=html}
-<!-- 
+<!--
 Check inclusion -- (Info enhancing) social closeness of recipient:   @cuddy2007bias, [@Sudhir2016a]
 -->
 ```
@@ -19,7 +15,7 @@ If we focus on 'enhancing current human well-being and avoiding suffering', the 
 \*GiveWell focuses on charities that provide concrete interventions to help people alive today and soon-to be born, and focuses their evaluation on measurable outcomes such as ["QALY and DALY"](https://en.wikipedia.org/wiki/Disability-adjusted_life_year.
 </div>
   Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount [@macaskillDoingGoodBetter2015]. However, the large, social, cultural geographic distance between those in developed countries and those in developing countries may be an important barrier to giving and a reason why people prefer to give locally.
-  
+
 Similar issues of 'distance' also applies to other causes with strong arguments for being effective and impactful (see, e.g., ['EA funds'](https://funds.effectivealtruism.org/) recommendations), particularly supporting (farmed and wild) animal welfare and the preserving the long-term future of humanity. Most potential donors do not see inside of factory farms^[citation needed] and obviously no one can visit the far-future.
 
 
@@ -44,8 +40,8 @@ The importance of sympathy, which may be driven by distance and awareness...\*
 @loewensteinScarecrowTinMan2007 propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by @kahnemanThinkingFastSlow2011). This model distinguishes between System 1, which makes initial judgements (using 'affective cognition'); these are monitored by a more 'deliberative cognition' System 2 [@morewedge2010associative].(However, this model has been subjected to some criticism, @evans2013dual discuss the debate around dual system theories.)
 
 </div>
- 
-Jaeger and Vugt (2021) make an explicit connection to  evolutionary factors that may be driving parochialism: 
+
+Jaeger and Vugt (2021) make an explicit connection to  evolutionary factors that may be driving parochialism:
 
 > For much of their evolutionary history, humans lived in relatively small, close-knit groups. This has led to the emergence of prosocial emotions and intentions towards kin and other members of an individual’s ingroup, but not necessarily towards individuals who fall outside of the group boundaries. (Citing Aktipis et al, 2018; Greene, 2013)
 
@@ -53,7 +49,7 @@ Jaeger and Vugt (2021) make an explicit connection to  evolutionary factors that
 
 ## Overall evidence
 
-Ana Diez suggests: 
+Ana Diez suggests:
 
 > fMRI studies ... have shown that the MPFC [medial pre-frontal cortex] is active when we think about ourselves. If we think of a family member, it will activate less. And if we are thinking of an unknown person, it will be even less active (Qin & Northoff, 2011). And more interestingly, when we think about our future selves, there is less activation of the MPFC than when we think of our actual self (Hershfield, Hal. 2011), meaning we care little about that person in the future.
 
@@ -74,7 +70,7 @@ There is some evidence for this in charitable contexts. In a laboratory experime
 
 \
 
-Other potentially relevant work: 
+Other potentially relevant work:
 
 Kogut et al 2018:
 
@@ -291,9 +287,9 @@ Whether those in the future are indeed commonly percieved or treated as an out-g
 
 
 
-<!-- 
-Jaeger and Vugt: 
-. For example, geographically and socially distant others (e.g., people living in extreme poverty in Africa) evoke less empathic concern even though they often stand to benefit the most from charitable acts [13, 14∗, 15]. 
+<!--
+Jaeger and Vugt:
+. For example, geographically and socially distant others (e.g., people living in extreme poverty in Africa) evoke less empathic concern even though they often stand to benefit the most from charitable acts [13, 14∗, 15].
 
 Kogut et al 2018: Abstract: We are regularly told about people at various locations around the globe, both near and far, who are in distress or in dire need. In the present research, we examined how the prospective donorâ€™s psychological distance from a given victim may interact with the victimâ€™s identification to determine the donorâ€™s willingness to accede to requests for donations to help the victim in question. In three studies, we measured willingness to donate (Studies 1 and 2) and actual donations (Study 3) to identified or unidentified victims, while measuring (Study 1) or manipulating (Studies 2 and 3) the psychological distance between prospective donors and the recipients. Results indicate that increasing the psychological distance between prospective donors and victims decreases willingness to help â€” but only when the victims are unidentified, not when they are identified. This suggests that victimâ€™s identification mitigates the effect of distance on donorâ€™s willingness to help.
 
