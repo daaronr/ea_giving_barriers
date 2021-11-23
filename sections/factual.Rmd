@@ -1,4 +1,12 @@
-# Persistent and systematic incorrect empirical beliefs {#factual}
+# (Persistent and systematic incorrect empirical beliefs) {#factual}
+
+```{block2,  type='note'}
+
+**Connection to terms/concepts in other work**
+
+@caviola2020many (literature review) considers ["Epistemic Obstacles"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0060); this is one of their 2 'barriers' sections, the other being 'Motivational obstacles'. In that section, they consider some of the 'misconceptions' stated below, as well as  the 'overhead myth' (cf our ['overhead aversion'](#overhead-aversion)) and 'quantifiability skepticism', 'innumeracy', and 'ignorance about the most effective charities'
+
+```
 
 Recapping the discussion from the [Conceptual breakdown of 'barriers'](#barriers-concept).
 
@@ -16,10 +24,14 @@ Fundamentally there are systematic reasons why we might *not* expect 'incorrect 
 
 ## Some key misconceptions; evidence these may have an effect
 
--   Differences in effectiveness across charities (understated)
+-   Differences in effectiveness across charities (understated; see, e.g., @caviolaDonorsVastlyUnderestimate2020)
 
--   Cost of saving a life (understated)
+-   Cost of saving a life (understated, i.e., overoptimistic)
 
 -   Relative global affluence (understated): @nairMisperceptionsRelativeAffluence2018
 
-## Content to be filled in here
+(@caviola2020many also suggest 'ignorance about the most effective charities')
+
+```{block2,  type='note'}
+More content to be filled in here.
+```  

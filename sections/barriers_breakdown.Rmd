@@ -1,9 +1,8 @@
 # Breakdown of barriers {#barriers-breakdown}
 
-<div class="marginnote">
+::: {.marginnote}
 Future work: relate this breakdown to others' decompositions, especially that of [@caviolaPsychologyEffectiveAltruism2021] and [@jaegerPsychologicalBarriersEffective2021]
-
-</div>
+:::
 
 ## Conceptual breakdown of 'barriers' (first presentation) {#barriers-concept}
 
@@ -234,4 +233,9 @@ However, a feature of philanthropy overlooked in published research is that nonp
 
 -   **Section** \@ref(inertia)**: [Barriers: Inertia and systemic/institutional](#inertia)**\
 
-# BARRIERS: DEFINITION & EVIDENCE {-}
+# BARRIERS: DEFINITION & EVIDENCE {.unnumbered}
+
+```{block2,  type='note'}
+
+See the ['structure of each barriers section'](#structure-barriers) presented in the introduction, as well as  the ['consideration of eavh paper'](#paper-structure).
+```

@@ -427,7 +427,6 @@ to not care about the money once it has left their hands, at least when
 it is framed in terms of [money]{.underline}*
 -->
 ```
-####
 
 #### See also {.unnumbered}
 
@@ -437,9 +436,9 @@ it is framed in terms of [money]{.underline}*
 
 @Gordon2009
 
-#### Notes
+#### Notes {-}
 
-There is also evidence that people may dramatically *underestimate* the cost of saving lives.
+There is also (informal?) evidence that people may dramatically *underestimate* the cost of saving lives.
 
 ::: {.marginnote}
 DR: I am considering whether this should be seen as a relevant barrier. It is important to note in trying to *measure* the impact of effectiveness information. Evidence comes from Caviola et al 2019 and Greenberg et al 2017

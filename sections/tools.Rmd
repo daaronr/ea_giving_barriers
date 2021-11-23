@@ -17,10 +17,32 @@ We divide this into three categories:
 <!-- I.e., how can we best apply well-tested emotional and behavioral approaches (evidence-based fundraising tools like “gift exchange”) to effective charities. In applying these tools, what “superpowers” and weaknesses do the most effective charities have? -->
 
 ::: {.marginnote}
-Also see [here](https://www.effectivealtruism.org/articles/spencer-greenberg-effective-behavior-change/) for an article/talk on 'effective behaviour change' by Spencer Greenberg.
 :::
 
 In this section highlight a few other proposals that I (David Reinstein) find promising, giving a quick explanation from the blurb in the [Airtable database](https://airtable.com/invite/l?inviteId=invfxhuOkmvi1DOKh&inviteToken=cee3b07b80a8ec3d4a4ca146dfe5148cde17e637c156719822d8732fbff46e3c), which is also previewed at the bottom of this section.
+
+\
+
+### Other lists and categorizations of tools
+
+```{block2,  type='note'}
+
+ Other authors have tried to lay out sets of tools they deemed promising for addressing the lack of effective charitable giving. We intend to link/curate these here.
+
+E.g.,
+
+- ['Effective behavior change'](https://www.effectivealtruism.org/articles/spencer-greenberg-effective-behavior-change/)  an article/talk on 'effective behaviour change' by Spencer Greenberg.
+
+- ["Strategies to Increase Effective Giving"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0090) in [@caviolaPsychologyEffectiveAltruism2021]
+
+- [Innovationsinfundraising.org list of 'tools'](https://innovationsinfundraising.org/doku.php?id=tables:tools) (semi-focused on effective giving)
+
+- [Ideas42 report](https://www.ideas42.org/wp-content/uploads/2018/08/ideas42-Best-of-Intentions_Charitable-Giving.pdf) (somewhat effectiveness-oriented, funded by the Gates foundation)
+
+```
+
+
+
 
 ## Overcoming the "barriers and biases"
 

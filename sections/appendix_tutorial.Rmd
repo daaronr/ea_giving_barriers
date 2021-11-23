@@ -92,18 +92,6 @@ Markdown & Bookdown, linking more extensive further resources/tutorials.
     tutorial on installing Git, [which can be downloaded
     here](https://git-scm.com/).
 
-```{block2,  type='note'}
-Getting a Github account should take about XXX minutes.
-
-Here's a guide to exactly how to do it.
-```
-
-```{block2,  type='note'}
-Installing Git and the GitHub Desktop should take about XXX minutes.
-
-Here's a guide to exactly how to do it.
-```
-
 ### Some key things to know about Git and GitHub
 
 A brief overview of key functions inside Git (assuming a remote Github
@@ -647,6 +635,9 @@ This should be better structured and more consistent with how I do this in my ot
     the WWW
 
 ### Exporting Rmarkdown to Google Docs/Drive
+
+
+**Note:** the `trackdown` package also seems to be a particular useful extension to this.
 
 Suppose that we wish to share our work with collaborators who aren't
 familiar with Github or Rmarkdown. In this case we may find it useful to

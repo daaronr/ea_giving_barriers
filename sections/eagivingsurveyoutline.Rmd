@@ -1,5 +1,16 @@
 # INTRODUCTION & FUNDAMENTALS {-}
 
+
+```{block2,  type='note'}
+In this set of chapters:
+
+- What is this project about and how is it organised, outline of chapters
+- What is the main question or 'puzzle' and how do we know it 'real' and important?
+- Fundamental question: are charities in competitino
+- How do we *consider* 'barriers' and analyse the evidence (and organize this?)
+
+```
+
 # Introduction and outline {#outline}
 
 <center>
@@ -76,7 +87,7 @@ Here we also give a general ['conceptual' overview of these barriers](#barriers-
 
 \
 
-**Barriers** chapters; these are outlined under ['practical barriers'](#practical-barriers)
+**BARRIERS: DEFINITION & EVIDENCE** chapters; these are outlined under ['practical barriers'](#practical-barriers)
 
 
 **Section** \@ref(tools)**: [Tools for motivating EA giving](#tools)**
@@ -107,6 +118,22 @@ Next we consider the **Evidence**, with a third-level header preamble discussing
 
 Within this, we consider the **evidence for each specific empirical claim** supporting the case for this barrier's existence and importance.
 
+
+```{block2,  type='note'}
+
+We hope to 
+
+- 'operationalize' each claim with a falsifiable set of predictions
+   - justifying the connection to each prediction,
+
+- and carefully asses the strength of the evidence for each of these claims. 
+
+See, e.g., our work-in-progress on 'CBA avoidance' [here](#cba-evidence)
+
+This distinguishes the current project from broader reviews and literature surveys.
+
+```  
+
 \
 
 In considering the evidence for these claims, we generally consider one paper or project at a time (or a specific piece of independent evidence from this paper).\*
@@ -127,7 +154,7 @@ For each paper we focus on key elements, including:
 
 -   The **strength and credibility of the empirical results** (considering, e.g., limitations and confounds in the design, experimenter-demand effects, estimates' statistical strength and power, appropriateness of the statistical analysis, preregistration, signs of specification-fishing and multiple-testing without corrections, replications and citations, etc.)
 
-We (should) also link where to find the paper itself as well as the materials and the data collected.\
+- Link where to find the paper itself as well as the materials and the data collected.\
 
 ```{block2,  type='note'}
 For example, within the category **[Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity](#eval-aversion)** ...
@@ -142,10 +169,15 @@ coming from research papers/studies such as  @fongTruthGivingExperimental2010.
 ```
 
 
-## Evidence and meta-analysis: discussion
+## Evidence and meta-analysis: discussion {#evidence0meta}
 
 
-To do: In this subsection (or somewhere in this draft), we intend to discuss...
+We consider\*
+
+<div class="marginnote">
+\*Further discussion needed here
+</div>
+
 
 1. The nature of evidence for drivers of effective/ineffective giving, and how we might evaluate it
 
@@ -179,6 +211,8 @@ See [innovationsinfundraising](https://innovationsinfundraising.org/doku.php?id=
 
 </iframe>
 
+
+You can also engage in this project directly, helping us build this content in R/markdown or in a Google docs integration. See the ['tech for creating...' appendix](#bookdown-appendix).
 \
 
 **Did we leave out a paper or a source of evidence?** Please fill out the form below or [click the link HERE](https://airtable.com/embed/shr0fMY4izZX6Z0Hz?backgroundColor=purple) (or contact us otherwise, including via a hypothes.is comment):
@@ -193,7 +227,7 @@ See [innovationsinfundraising](https://innovationsinfundraising.org/doku.php?id=
 
 \
 
-** Other practical considerations ** (unfold
+** Other practical considerations** (unfold)
 
 
 

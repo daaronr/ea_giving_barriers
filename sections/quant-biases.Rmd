@@ -1,12 +1,22 @@
 # Quantitative biases (the 'distorted altruist') {#quant-biases}
 
+
+```{block2,  type='note'}
+
+**Connection to terms/concepts in other work**
+
+@caviola2020many (literature review) considers ["Epistemic Obstacles"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0060), including 'Innumeracy'. They give a few examples here, including 'psuedoinefficacy' ('drop in the bucket', ['proportional dominance'](#prop-dom)) here. (However, they consider 'scope neglect' a 'motivational obstacle'.)
+
+This is related to what [@Berman2018] refer to as "distorted altruists", and [@caviola2020many] call a "belief-based" explanation.
+
+```
+
+
+
 Recapping the discussion from the [Conceptual breakdown of 'barriers'](#barriers-concept).
 
 Even if people *want* to be effective givers, they may simply be bad at this, because they have quantitative limitations and biases. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the "production function for good outcomes", or to misjudge charities will lead me astray from effective giving.
 
-::: {.marginnote}
-This is related to what [@Berman2018] refer to as "distorted altruists", and [@caviola2020many] call a "belief-based" explanation.
-:::
 
 Furthermore, some biases may happen to be *particularly* harmful to those charities and causes that are most effective.
 
@@ -73,7 +83,7 @@ BG:  My thought was that people who do not value saving lives (or are in general
 
 To operationalize this, we need to define what the numerator and denominator represent. For the numerator, an (EA) impact-driven 'individualist' donor might consider the impact of her *own* contribution (per dollar or overall) relative to the size of the need. In contrast, a more collectivist/team-reasoning/communitarian thinker might consider the impact of the *total* expected donation relative to the size of the need. We also need to better define the denominator: how do individuals lump together different groups/problems to define the overall scale of the need, and how sensitive is this to the fundraisers' framing?
 
-### Mechanisms {.unnumbered}
+### Mechanisms 
 
 @fetherstonhaughInsensitivityValueHuman1997 highlight "Weber's law": Humans are sensitive to proportional changes/proportional differences in stimuli (loudness, brightness, etc); thus we are less sensitive to small changes relative to a larger baseline. There is evidence this also holds in assessing losses of life. ... the "subjective value of saving the specified number of lives is greater for a smaller tragedy than for a larger one" .
 
@@ -97,7 +107,7 @@ In addition, it might be argued that more effective interventions (e.g., targeti
 Key papers: Summarize findings and key takeaways, Short description of methods for relevant studies, Make sure to include both description of evidence and evaluation of evidence
 :::
 
-#### @fetherstonhaughInsensitivityValueHuman1997 
+#### @fetherstonhaughInsensitivityValueHuman1997 {-}
 
 @fetherstonhaughInsensitivityValueHuman1997 (notes [[HERE]{.ul}](https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#heading=h.8ax2rgfz70of))
 
@@ -138,7 +148,7 @@ Statistical tests (ANOVA) appear strong and highly significant in most cases, bu
 \
 
 
-#### @erlandssonEmotionalReactionsPerceived2015  (Study 4)
+#### @erlandssonEmotionalReactionsPerceived2015  (Study 4) {-}
 
 > The PDE-ad was in part based on text from the homepage of a well-known global charity organization focusing on poverty in developing countries. Participants read about Polio and were told that if receiving the expected amount of private donations, it would be possible to vaccinate children so the death rate would decrease by approximately 500 children per year. In the large reference-group version, participants read that 60,000 children in Africa annually die from Polio so the project had a potential rescue proportion of 0.83%. In the small reference-group version, partici pants read that around 500 children in Botswana annually die from Polio so the project had a potential rescue proportion of more than 99%.
 >
@@ -250,10 +260,15 @@ The identifiable victim effect (IVE) is credited as being first developed by @sc
 
 ### Relevance to effective giving
 
-@baron2011heuristics discuss how the IVE could pose a problem for effective altruism, suggesting two reasons that this could be considered a bias from the utilitarian perspective. Firstly, they suggest that when altruism is increased for identified victims, this could result in less altruism for those who are not identified,$^{(?)}$
+@baron2011heuristics discuss how the IVE could pose a problem for effective altruism, suggesting two reasons that this could be considered a bias.\*
+<div class="marginnote">
+\* At least narrowly speaking, this could be seen as a 'bias', not only from the utilitarian perspective, but more generally. Presumably, no moral theory would hold that the moral status of an individual, or one's obligation to them should depend on how that individual is *described*.  (Thanks to Jason Schukraft for this point).
+</div>
+
+Firstly, they suggest that when altruism is increased for identified victims, this could result in less altruism for those who are not identified,$^{(?)}$
 
 ::: {.marginnote}
-Why? Through which channel.
+(?) Why? Through which channel.
 :::
 
 The latter group may include those most in need of help (such as large groups of people who are severely deprived). @kogut2011identifiable similarly argued that the IVE could yield less efficiency given that it is improbable that the benefits to society will be maximized when more resources are given to victims who are identified than those who aren't. (This essentially restates [our general efficiency argument above](#quant-biases), in section \@ref(quant-biases)).
@@ -294,7 +309,7 @@ In either case, we can still see the IVE as leading to inefficient giving. From 
 See also, the discussion in @kogut2011identifiable
 
 
-#### Specific papers, discussion 
+#### Specific papers, discussion {-}
 
 <!-- TODO: more complete overview of the types of evidence as well as existing meta-analyses -->
 
@@ -522,7 +537,7 @@ Consider the probabilities that each dollar donated to a charity (leads to an in
 
 ### Evidence for diversification heuristic in charitable giving (to do) {.unnumbered}
 
-## Overhead aversion
+## Overhead aversion {#overhead-aversion}
 
 ### Related Terms {.unnumbered}
 
@@ -636,7 +651,7 @@ However, this does *not* typify the overhead we are considering. Here, we see va
 Furthermore, DonorsChoose doesn't have clearly separate variation in effectiveness of the outputs which we could compare to the differential prices of providing particular outputs (fees, etc.), to potentially detect oversensitivity to the former.
 :::
 
-#### Solutions (add section)
+#### Solutions (add section) {-}
 
 -   "Seed donor covering overhead"
 
@@ -763,7 +778,7 @@ Related terms: misunderstanding marginality, misunderstanding tractability, sunk
 General barrier to accurate assessment of effectiveness ergo a barrier to effective giving.
 ```
 
-## Scope insensitivity/embedding effect/part-whole effect
+## Scope insensitivity/embedding effect/part-whole effect {#scope-insens}
 
 ```{block2,  type='note'}
 

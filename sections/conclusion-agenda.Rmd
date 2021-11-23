@@ -1,5 +1,13 @@
 # Conclusion; a research agenda {#conclusion-agenda}
 
+
+```{block2,  type='note'}
+
+See also: ["EA Market Testing"](https://forum.effectivealtruism.org/posts/HboobjbDwc5KgpNWi/ea-market-testing), post on the EA forum
+        
+``` 
+
+
 ## A program and key principles for future research and action 
 
 <div class="marginnote">
@@ -36,7 +44,7 @@ This content comes in part from an open-ended letter of interest submitted to th
 
 - What is the interaction between private giving and (support for) government policies, and how can we boost the *net* effect?
 
-##A program and key principles for future research
+## Key principles
 
 - Building platforms to observe relevant giving behavior, and systematic experimentation to observe impact of approaches in many contexts
 

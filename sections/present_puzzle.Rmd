@@ -78,7 +78,6 @@ However, most donations go towards charities that are worthwhile but improve hum
 \* The latter figure is an extrapolation from the more conservative estimates in the Givewell Blog. Note that while the effectiveness of the trachoma interventions seem to have been [overstated in the past](https://forum.effectivealtruism.org/posts/SMRHnGXirRNpvB8LJ/fact-checking-comparison-between-trachoma-surgeries-and) by Peter Singer and others. Still, they appear to be at least an order of magnitude more effective at prevventing harm from blindness as do guide dogs.
 :::
 
-\
 
 Social science, biology and philosophy present a range of potential theoretical explanations of how values, preferences, and biases drive this 'inefficient altruism'. However, evidence (e.g., for 'availability bias', or for 'scope insensitivity') comes largely from small-scale experiments in domains outside of charitable-giving. It is difficult to distinguish robust, credible findings from one-off results that are vulnerable to hype, p-hacking and publication bias (echoing the 'replication crisis' in experimental social science [@shrout2018psychology]). Given the limited, scattered findings, we do not have a definitive picture of which factors substantially impact 'effective giving and support for policies that reduce extreme poverty'. (We give a review of papers surveying this evidence [below](#prevsurvey).)
 
@@ -110,17 +109,16 @@ Our main ‘policy’ audience includes both effective nonprofit organisations a
 
 ### Descriptives of giving (US, international) and how 'ineffective' it is. {#ea-depict}
 
-Who *does* give effectively? Potential global welfare gains to changing 'where we give'. Who does give effectively?
+```{block2,  type='note'}
 
-Fitz/Kagan: Understanding Effective Givers:
+This subsection section needs further work, outlining the existing evidence and basic 'world in data' picture for the questions below.
 
-> In this study we attempt to understand who is predisposed towards effective giving. After providing a description of the effective giving movement, we measure support for effective giving and measure a wide range of personality traits and demographics that may predict support for effective giving. We briefly define the EA movement as an important force "we" (economists, psychologists) need to discuss.
+```
 
-Some references (WIP, unfold)
+
+See also (unfold)
 
 ```{block2,  type='fold'}
-
-- General giving statistics: @meerGenerosityIncomeWealth2020, @rooneyDynamicsAmericanGiving2019
 
 - Various references at IUPIU; see also Osili, Weipking, Bekkers work
 
@@ -128,15 +126,69 @@ Some references (WIP, unfold)
 
 ```
 
+
+**Some relevant questions and issues**
+
+*Who makes up 'most of the giving'? What share of this comes from 'regular' (vs millionaire and billionaire) givers?*
+
+General giving statistics (academic work): @meerGenerosityIncomeWealth2020, @rooneyDynamicsAmericanGiving2019
+     - Meer's work finds roughly constant (about 2%)  shares of incomes are given, but (check?) this does not include the billionaires
+
+Popular work/curated sites\*
+
+<div class="marginnote">
+\* These numbers were gathered quickly for a timely answer. While the sources seem reputable, they should be examined more carefully.
+
+</div>
+
+- The 'Study of High Net Worth Philanthropy' reports that the wealthy give far higher shares ... around 10%
+- "Those in the top 1 percent of the income distribution (any family making 394,000 USD or more in 2015) provide about a third of all charitable dollars given in the U.S" (Source [philanthropy roundtable](https://www.philanthropyroundtable.org/almanac/statistics/who-gives)
+
+
+- Writeup answering key questions (needs checking) at [balancingeverything.com](https://balancingeverything.com/charitable-giving-statistics/)
+    - 'More than half of the US overseas assistance [43.9 billion, including charities, corporations, religious groups, etc] comes from private donations'
+    - 'Almost one-third of all 2019 money donations went to churches'
+     - Approximately 31% of people [globally] donate to countries other than their own. (But note the top 3 receiving countries are USA, Israel and Canada; and the US rate of giving abroad seems substantially lower than other countries.)
+
+
+\
+
+*Who DOES give effectively?*
+
+- EA Survey 'Donation data': [full 'bookdown writeup'](https://rethinkpriorities.github.io/ea_data_public/eas_donations.html), [forum post](https://forum.effectivealtruism.org/posts/nb6tQ5MRRpXydJQFq/ea-survey-2020-series-donation-data)
+
+Fitz/Kagan: Understanding Effective Givers:
+
+> In this study we attempt to understand who is predisposed towards effective giving. After providing a description of the effective giving movement, we measure support for effective giving and measure a wide range of personality traits and demographics that may predict support for effective giving. We briefly define the EA movement as an important force "we" (economists, psychologists) need to discuss.
+
+[@micklewrightGivingDevelopmentWho2007]
+
+[@Lewr2009] 
+
+
+\
+
+*What are the potential global welfare gains to changing 'where we give'?*
+
+See discussion in @singer2019life, @macaskill2016doing
+
+<div class="marginnote">
+
+This is a placeholder: we should present and discuss the numbers and arguments more carefully here.
+</div>
+
+\
+
+
 ## (Lack of) previous synthesis on this {#prevsurvey}
 
-While there have been some relevant prior reviews (particularly [Caviola et al, 2021]((https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0005)%20,%20as%20well%20as%20@loewensteinScarecrowTinMan2007,%20introduction%20to%20@Berman2018,%20@baron2011heuristics), and the introduction to [Caviola et al](http://journal.sjdm.org/19/190810/jdm190810.pdf)
+There have been some relevant prior reviews, such as [Caviola et al, 2021](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0005)).\*
 
 ::: {.marginnote}
 There has also been some unpublished or non-academic work: 'Behavior and Charitable Giving' (Ideas42, 2016), 'Charitable Fundraising And Smart Giving' (Gertler, 2015), and 'The Psychology of Effective Altruism' (Miller, 2016, slides only).
 :::
 
-The current project uniquely combines
+However, the current project uniquely\*\* combines (or at least, aims to combine)
 
 i.  A focus on effectiveness,
 
@@ -150,31 +202,32 @@ v.  advancing a research agenda while building tools that promote robust evidenc
 
 \
 
-*Note:* @greenhalghSystematicReviewBarriers2020 performed 'a systematic review of the barriers to and facilitators of the use of evidence by philanthropists when determining which charities (including health charities or programmes) to funds' using PRISMA guidelines.
+<div class="marginnote">
 
-```{block2,  type='fold'}
+\*\* @greenhalghSystematicReviewBarriers2020 performed 'a systematic review of the barriers to and facilitators of the use of evidence by philanthropists when determining which charities (including health charities or programmes) to funds' using PRISMA guidelines.
 
-19 Feb 2021, DR: I am looking into this in more detail. My impression is that their approach is distinct. They seem not to focus on psychological barriers, they focus more on large philanthropists and foundations, and they put greater weight on qualitative work and self-reports than we do here.
+However, their approach is distinct. They seem not to focus on psychological barriers, they focus more on large philanthropists and foundations, and they put greater weight on qualitative work and self-reports than we do here.
 
 I intend to look more closely at how they identified these studies, how they eliminated studies from consideration, and why many of the studies we discuss in the current project were not found or were excluded.
 
-```
+</div>
+
 
 <!--Wiepking2012 -->
 
 ### Effectiveness-specific work
 
--   [Caviola et al, 2021, "The Psychology of (In)Effective Altruism"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0005)
+1. [Caviola et al, 2021, "The Psychology of (In)Effective Altruism"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0005) (discussed below).
 
--  [@jaegerPsychologicalBarriersEffective2021] [Jaeger and van Vugt, 2021, "Psychological barriers to effective altruism: An evolutionary perspective"](https://www.sciencedirect.com/science/article/pii/S2352250X21001779?via%3Dihub)
+2. [@jaegerPsychologicalBarriersEffective2021] ["Psychological barriers to effective altruism: An evolutionary perspective"](https://www.sciencedirect.com/science/article/pii/S2352250X21001779?via%3Dihub)
 
 > outlines *ultimate* [rather than proximate] explanations for ineffective altruism ... evolutionary perspective ...; three fundamental motives---parochialism, status, and conformity
 
--   @baron2011heuristics - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers
+3. @baron2011heuristics - Heuristics and Biases in Charity: Largely conceptual, minimal survey of specific empirical/experimental papers
 
--   Gertler, [Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf) (not peer-reviewed but very useful)
+4. Gertler, [Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf) (not peer-reviewed but very useful)
 
--   [@caviola2020many]  "[The many obstacles to effective giving](http://journal.sjdm.org/19/190810/jdm190810.pdf)" ... "on how both incorrect beliefs and preferences for ineffective charities contribute to ineffective giving."\*
+5.  [@caviola2020many]  "[The many obstacles to effective giving](http://journal.sjdm.org/19/190810/jdm190810.pdf)" ... "on how both incorrect beliefs and preferences for ineffective charities contribute to ineffective giving."\*
 
 <div class="marginnote">
 \*Mainly a series of MTurk experiments (and some with 'effective altruists' recruited through the EA Newsletter/Facebook) involving hypothetical donation choices, but also includes some literature review and conceptual breakdown
@@ -182,7 +235,7 @@ I intend to look more closely at how they identified these studies, how they eli
 
 \
 
-[@caviola2020many] is highly relevant and insightful (and has some connection to the structure we present below). From their abstract:
+@caviola2020many is highly relevant and insightful (and has some connection to the structure we present below). From their abstract:
 
 > We review the motivational and epistemic causes of (in)effective giving. Many donors view charitable giving as a matter of personal preference, which favors decisions based on emotional appeal rather than effectiveness. In addition, while many donors are motivated to give effectively, they often have misconceptions and cognitive biases that reduce effective giving.
 
@@ -190,29 +243,83 @@ Still, Caviola et al does not drill deeply into the strength of the evidence and
 
 > We did not find many field-based, experimental studies on the factors that encourage people to choose thoughtfully among charities or to plan ahead to give.
 
-In the sections below, we (intend to) compare and incorporate our outline and discussion with Caviola et al's work. In the folds below, we briefly compare the outlines and structure of the syntheses mentioned above.\
+In the sections below, we (intend to) compare and incorporate our outline and discussion with Caviola et al's work, as well as the other outlines. In the folds below, we briefly compare the outlines and structure of the syntheses mentioned above.\*
+
+<div class="marginnote">
+\*  We (aim to) return to making some related comparisons, [comparing our 'breakdown of barriers'](#barriers-breakdown) in a later chapter to that of other papers.
+
+</div>
+
 
 <!-- Add outline from Caviola ea '21 here? -->
 
-**Comparison of other outlines: unfold**
+**Comparison of other outlines: unfold each**
+
+```{block2,  type='note'}
+
+We are working on incorporating a connection to the concepts defined in these outlines into our own sections, particularly the 'barriers'.
+
+```
+
+\
+
+@caviola2020many
 
 ```{block2,  type='fold'}
 
+1. The importance of effectiveness
+
+2. Motivational obstacles to effectiveness
+
+- (percieved) subjectivity (of giving)
+
+- "Narrow Affective Motivation" (warm glow, empathy, etc. not necessarily tied to effectiveness)
+  - personal connection,
+  - narrow moral circle
+  - Scope neglect 
+
+- Prioritization aversion (especially hate to choose between people)
+
+- Character and reputational benefit (people who deliberate are viewed less positively)
+
+3. Epistemic Obstacles to effectiveness
+
+- Overhead myth
+
+- Quantifiability Skepticism ('doubt that charity effectiveness can be quantified and compared')
+
+- Innumeracy (note, our ['quantitative biases'](#quant-biases) include some of these, as well as (essentially) scope neglect)
+  
+- Underestimation of effectiveness variance 
+
+4. Strategies to Increase Effective Giving
+
+```
+
 Gertler, "[Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf)\"
+
+
+```{block2,  type='fold'}
 
 - Substantial motivation
 - A broad picture of the evidence on what motivates and can be used to giving *in general*
 - "Strategies for Effective Charities" (pp 48-59) is most relevant to the current project
 
+```
+
+
 \
 
-**[@baron2011heuristics] (chapter) **
+@baron2011heuristics (chapter)
 
--   Introduction (with problem/puzzle)
+```{block2,  type='fold'}
+
+
+-  Introduction (with problem/puzzle)
 
 - Possible Nonutilitarian Heuristics
 
-> Evaluability (focus on attributes easy to evaluate e.g., > efficiency/overhead)
+> Evaluability (focus on attributes easy to evaluate e.g., efficiency/overhead)
 
 "instead, what is more evaluable than the  lives saved per dollar of contribution is the operating cost per dollar"
 
@@ -235,6 +342,7 @@ Gertler, "[Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-
 -   Discussion: Utilitarian Models of Altruism, Maximize Total Utility,  Limited Self-Sacrifice, Limited Altruism, Moral Education,  Implications
 
 ```
+
 
 #### Other (potentially) relevant work and examples
 
@@ -259,7 +367,7 @@ Thanks to Jason Schukraft for bringing up this point.
 :::
 
 ```{block2,  type='fold'}
-\* This discussion abstracts away from issues of empirical uncertainty. We obviously cannot be certain state of the world 'with or without' one's charitable giving. This we cannot be certain about the *impact* of a particular charitable gift. I aim to return to this issue in later sections.
+\* This discussion abstracts away from issues of empirical uncertainty. We obviously cannot be certain state of the world 'with or without' one's charitable giving. This we cannot be certain about the *impact* of a particular charitable gift. I aim to return to this issue in later sections. Both empirical and 'moral uncertainty' have been carefully considered by academic philosophers and the EA community (e.g., at the Global Priorities Institute).
 
 For the sake of the discussion below, we might assume that either:
 
@@ -315,7 +423,7 @@ I assert that $B_j^\prime(G_j)$ is the quantity that GiveWell (and perhaps other
 
 \
 
-##### *We know (evidence cited in fold)u:* {#evidence_eff .unnumbered}
+##### *We know (evidence cited in fold):* {#evidence_eff .unnumbered}
 
 ```{block2,  type='fold'}
 
