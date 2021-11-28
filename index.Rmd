@@ -257,3 +257,41 @@ These are links to add and view comments using the tool [Hypothes.is](https://we
 
 See further notes in the [technical appendix](#bookdown-appendix) on how this is built, and how to add content. If you like, we can also import and export the content from any section to a Google Doc to enable collaborative editing.
 ```
+
+### Types of content {-}
+
+(See further notes in the [technical appendix](#bookdown-appendix).)
+
+Folding boxes can be opened to hide/show extra content for a better overview...  I often move 'interesting conversations on the subject at hand' to these blocks.
+
+```{block2,  type='fold'}
+Nothing in here this time though. Surprise!
+```
+
+Code blocks (e.g., R-code analysing data and presenting results in-situ; we have few if any so far) will be folded by default.
+\
+
+'Note blocks' are used to present aside material or particular things we want to make prominent. 
+
+```{block2,  type='note'}
+
+Look how important I am!
+  
+```  
+
+\
+
+Margin notes take the place of footnotes, with asterisks connecting the relevant material.\*
+
+<div class="marginnote">
+\* This is the relevant material.... 
+</div>
+
+\
+
+We may occasionally use 'regular footnotes', but I don't find they make sense in this context. 
+
+\
+
+In citing papers and work, we ideally will give *both* a parenthetical reference and a one-click link to the content. (But at least one is a good start.)
+ 

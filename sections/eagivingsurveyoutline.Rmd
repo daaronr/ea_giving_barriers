@@ -46,9 +46,9 @@ In this set of chapters:
     \*\* Relevant to charity 'quality ratings', overhead aversion
     :::
 
-    <!-- -->
-
 -   [Why (under which models) is this a puzzle?](#why-puzzle)\*\*\*
+
+-   [Conceptual breakdown of 'barriers' (first presentation)](#barriers-concept)
 
 <div class="marginnote">
 \*\*\* Briefly mapping outlining this...
@@ -63,8 +63,6 @@ In this set of chapters:
 
 </div>
 
--   [Conceptual breakdown of 'barriers' (first presentation)](#barriers-concept)
-
 <!-- Economic and psych models conceptualizing this -->
 
 \
@@ -73,9 +71,9 @@ In this set of chapters:
 
 <!-- (Or put in section 2?) -->
 
-Are charitable gifts complements or substitutes; are charities are rivals? Does one donation request ask (or donation itself) crowd out another, and if so when and how much? This is critical to understanding the extent to which gains can be achieved by getting people to 'switch' from less to more effective charities.
+Are charitable gifts complements or substitutes; are charities rivals? Does one donation request ask (or donation itself) crowd out another, and if so when and how much? This is critical to understanding the extent to which gains can be achieved by getting people to 'switch' from less to more effective charities.
 
-To the extent this crowding-out is present, *all* factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors' pressuring you to give to local organisations) *themselves* represent barriers to EA giving.
+To the extent this crowding-out *is* present, *all* factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors' pressuring you to give to local organisations) *themselves* represent barriers to EA giving.
 
 \
 
@@ -87,7 +85,7 @@ Here we also give a general ['conceptual' overview of these barriers](#barriers-
 
 \
 
-**BARRIERS: DEFINITION & EVIDENCE** chapters; these are outlined under ['practical barriers'](#practical-barriers)
+**BARRIERS: DEFINITION & EVIDENCE** chapters; these are outlined under [' Practical breakdown'](#barriers-practical)
 
 
 **Section** \@ref(tools)**: [Tools for motivating EA giving](#tools)**
@@ -96,39 +94,37 @@ Here we also give a general ['conceptual' overview of these barriers](#barriers-
 
 ## Structure of each 'barriers' section {#structure-barriers}
 
-**In each 'barriers' section we consider:**
+**In each 'barriers' section we consider...** 
 
-**A category of barriers**; this is a first-level heading, e.g. '[Quantitative biases](#quant-biases)' is section \@ref(quant-biases).
+1. **A category of barriers**; this is a first-level heading, e.g. '[Quantitative biases](#quant-biases)' is section \@ref(quant-biases).
 
 Here we discuss this category in general, explaining its meaning and plausibility in terms of the underlying theories, models, and generalized observations.
 
-\
-**Each specific barrier in this category** gets a second-level heading, e.g., ["Proportional dominance effect"](#prop-dom) is section \@ref(prop-dom).
+2. **Each specific barrier in this category** gets a second-level heading, e.g., ["Proportional dominance effect"](#prop-dom) is section \@ref(prop-dom).
 
-\
 
-For each specific barrier we first present (third-level headings):
+3. For each specific barrier we first present (third-level headings):
 
 -   **Definition** of the barrier
 -   **Conceptual explanation of the barrier**, relating this to theory and generalized observation
--   **Relevance to the effective giving** (sometimes recapping what was stated above)
+-   **Relevance to effective giving** (sometimes recapping what was stated above)
 
 \
-Next we consider the **Evidence**, with a third-level header preamble discussing the nature of the evidence.
+4. Next we consider the **Evidence**, with a third-level header preamble discussing the nature of the evidence.
 
-Within this, we consider the **evidence for each specific empirical claim** supporting the case for this barrier's existence and importance.
+5. Within this, we consider the **evidence for each specific empirical claim** supporting the case for this barrier's existence and importance.
 
 
 ```{block2,  type='note'}
 
-We hope to 
+We hope to:
 
 - 'operationalize' each claim with a falsifiable set of predictions
    - justifying the connection to each prediction,
 
 - and carefully asses the strength of the evidence for each of these claims. 
 
-See, e.g., our work-in-progress on 'CBA avoidance' [here](#cba-evidence)
+See, e.g., our work-in-progress on 'CBA avoidance' [here](#cba-evidence).
 
 This distinguishes the current project from broader reviews and literature surveys.
 
@@ -139,7 +135,7 @@ This distinguishes the current project from broader reviews and literature surve
 In considering the evidence for these claims, we generally consider one paper or project at a time (or a specific piece of independent evidence from this paper).\*
 
 ::: {.marginnote}
-However, we are still thinking about the best narrative approach to presenting evidence from multiple papers/projects/analyses.
+\* However, we are still considering the best narrative approach to presenting evidence from multiple papers/projects/analyses.
 :::
 
 ### Consideration of each paper {#paper-structure}
