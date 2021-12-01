@@ -1,6 +1,5 @@
-fig:unnamed-chunk-24
-tab:unnamed-chunk-87
-fig:unnamed-chunk-97
+fig:unnamed-chunk-26
+fig:unnamed-chunk-103
 outline
 overview
 structure-barriers
@@ -56,8 +55,7 @@ subjectivity
 info-motivated
 analytical-grinch
 analytical-grinch-s
-presenting-effectiveness-and-other-types-of-analytical-efficiency-information
-karlaneffecteffectivenessdonor2017a-field-experiment
+outline-of-the-evidence
 bergh2020empathic-lab-and-field-experiments
 caviola
 mulesky2020demand---hypothetical-choices-realistic-versus-over-optimistic-impact-information

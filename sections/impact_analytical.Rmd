@@ -1,6 +1,19 @@
 # Effect of analytical (effectiveness) information on generosity {#analytical-grinch}
 
-Here we consider the impact of being presented with (or actively pursuing) effectiveness information (which is naturally *analytical* information) on generosity and the willingness to donate. (We also consider some work involving analytical information about charities that would not be seen as particular relevant to impact in the sense described above.)
+
+
+```{block2,  type='note'}
+
+Note: this relates to an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis underway
+
+Much of this project is being openly presented in the (in-progress) ["Impact of impact treatments on giving: field experiments and synthesis"](https://daaronr.github.io/dualprocess/index.html) bookdown,  a project organised in the [dualprocess repo](https://github.com/daaronr/dualprocess).
+
+An earlier set of presentation slides are hosted [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/) - press 'O' to see the fill multi-dimensional slide map; the outline slide is [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/2/2)
+s
+
+```
+
+Here we consider the impact of being presented with (or actively pursuing) effectiveness information (which is naturally *analytical* information) on generosity and the willingness to donate. (We also consider some work involving analytical information about charities that would not be seen as particularly relevant to impact in the sense described above.)
 
 ::: {.marginnote}
 Effectiveness information may also affect how donors perceive the *social signaling* value of their donation. We return to this in the [signaling and social pressures...](#social) section.
@@ -33,27 +46,63 @@ See also: @Linda2007
 
 <!--DR: A related memo-- https://www.dropbox.com/s/t4lq8x9lqeg6gt9/practicalpresentingimpactinfo.pdf?dl=0-->
 
-```{block2,  type='note'}
+### Outline of the evidence
 
 A subjective outline of the evidence (Reinstein):
 
-The evidence (from the Economics/Behavioral Economics literature) is largely mixed and indeterminate. I could only find a single large-scale field trial [@karlanEffectEffectivenessDonor2017a] in a particular context, which itself reported mixed (null overall, positive for some subgroups, negative for others), and some underpowered results.   @Small2007 (involving laboratory experiments with real donations)  find that giving to an identifiable victim is *reduced* when statistics are also presented and "priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime."  @bergh2020empathic's work (M-turk charitable giving, plus one small-scale field-ish context) mainly finds a near-zero effect (e.g., in pooled analysis across all six experiments, see [table 1 right column, table 2 bottom, and appendix page 51](https://ore.exeter.ac.uk/repository/bitstream/handle/10871/39550/SPPS%20R%26R_final%20edits-with_supplements.pdf?sequence=3&isAllowed=y).\*
+We consider a range published work (from a non-systematised literature review) including laboratory and hypothetical experiments, and non-experimental analysis of related questions (such as 'the impact of general charitable ratings). However, we focus on field and 'field-like' experiments involving truthful analytical 'impact-per-dollar' relevant information in settings involving substantial donations.
 
-Further evidence from lab experiments is mixed and limited, with some studies [@fongTruthGivingExperimental2010] *apparently* finding that exogenous information about recipients increases donations (although they do not report this).  There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies.
+The experimental evidence is limited, mixed and overall indeterminate.  We could only find a single large-scale field trial closely bearing on 'impact-per-dollar' information. [@karlanEffectEffectivenessDonor2017a] ran a field experiment on a charitable mailing campaign for Freedom From Hunger,  reporting mixed (null overall, positive for some subgroups, negative for others), and some underpowered results.  @Small2007 (involving laboratory experiments with real donations) find that giving to an identifiable victim is *reduced* when statistics are also presented and "priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime." @bergh2020empathic's work (M-turk charitable giving, plus one small-scale field-ish context) mainly finds a near-zero effect (e.g., in pooled analysis across all six experiments, see [table 1 right column, table 2 bottom, and appendix page 51](https://ore.exeter.ac.uk/repository/bitstream/handle/10871/39550/SPPS%20R%26R_final%20edits-with_supplements.pdf?sequence=3&isAllowed=y).  \*
 
+Further related evidence is also indeterminate (see fold).
+
+```{block2,  type='fold'}
+
+@trussel2007financial finds a positive impact of providing a particular type of analytical charity financial information on a subset of donors.
+
+There is also mixed evidence on the impact of real-world charity ratings (Yoruk 2016; Brown ea 2017; Gordon 'ea '19), and mixed evidence on 'excuse-driven information seeking' (Exley '16b; Fong & O, '10; Metzger & G '19).
+
+There is some further related evidence lab experiments, but the results are limited. @fongTruthGivingExperimental2010 *apparently* findd that exogenous information about recipients increases donations, but they do not report this specifically.  There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies. [Reference needed here]
 ```
 
-::: {.marginnote}
-\* We are planning more careful multilevel/meta-analysis of this work, as well as a more general meta-analysis.
-:::
+```{block2,  type='note'}
+We are planning more careful multilevel/meta-analysis of this work, incorporating 'new evidence' from a set of field experiments run by Reinstein and others involving two distinct charities and three campaigns.
 
-#### Presenting "Effectiveness" and other types of analytical efficiency information
+```
+```
 
-#### @karlanEffectEffectivenessDonor2017a (Field experiment)
 
-> While Karlan and Wood (2017) did find that those who had previously donated large amounts gave more when they received effectiveness information (and Parsons found similar effects for efficiency and prior donors), the reason for this effect is unclear. For example, large/frequent donors may experience a greater pressure to donate in light of any new positive information. - @bergh2020empathic
+#### Presenting "Effectiveness" and other types of analytical efficiency information {-}
 
-\
+@karlanEffectEffectivenessDonor2017a KW (2017) run a field experiment on a charitable mailing involving scientific impact information.  Their treatment involved adding scientific impact text to an appeal, while removing some emotional text:
+
+
+Effectiveness treatment language:
+
+> According to studies on our programs in Peru that used rigorous scientific methodologies, women who have received both loans and business education saw their profits grow, even when compared to women who just received loans for their businesses. But the real difference comes when times are slow. The study showed that women in Freedom from Hunger's Credit with Education program kept their profits strong–ensuring that their families would not suffer, but thrive.
+
+Control (emotional) treatment language:
+
+> Because of caring people like you, Freedom from Hunger was able to offer Sebastiana a self-help path toward achieving her dream of getting “a little land to farm” and pass down to her children. As Sebastiana's young son, Aurelio, runs up to hug her, she says, “I do whatever I can for my children.”
+
+They find a null effect overall with fairly tight bounds.  They report a near-0 impact on incidence (in table 2: column 1), and a standard error under 1\%, relative to a baseline incidence of 14\%. They estimate an impact on amount of donated +2.35 USD, with a standard error of 1.98; this is relative to a mean of 14.17 USD. (In their Winsorised results the point estimate is -0.074, the standard error is 0.82, and the mean is 11.30)
+
+When they differentiate this by an ex-post classification (not preregistered), they find positive effects of this information for 'prior large donors' and negative effects for 'prior small donors'.
+
+This is probably the most substantial and relevant study. We consider this further in our meta-analysis further below.
+
+Nonetheless, the study is presents only a single piece of evidence from a specific context. It also has some potential limitations in considering our main question.
+
+
+1. Their treatment changed two things changed at once: impact information was added which emotional information was removed
+
+2. It may have been entangled with a Yale/institution effect
+
+3. The nature of 'impact' information was not particularly quantative; it did not express a an 'impact per dollar'
+
+
+```{block2,  type='note'}
+
 
 **Design and results summary**:
 
@@ -63,32 +112,7 @@ $\rightarrow$ little net effect
 
 $\rightarrow$ reduced (increased) giving among small (large) prior donors `r format_with_col("(not a preregistered hypothesis)","grey")`
 
-<br>
-
-<aside class="notes">
-
-*Limitations of @karlanEffectEffectivenessDonor2017a*
-
-**Potential confounds, specificity**
-
--   Yale/institution effect (seemed negative)
-
--   Nature of 'impact' information (not entirely quantitative)
-
--   ex-post splitting
-
--   two things changed at once (impact in, emotional out)
-
-</aside>
-
-\
-
-**Details of Karlan first wave: SCIENCE vs EMOTION**
-
-> According to studies on our programs in Peru that used rigorous scientific methodologies, women who have received both loans and business education saw their profits grow, even when compared to women who just received loans for their businesses. But the real difference comes when times are slow. The study showed that women in Freedom from Hunger's Credit with Education program kept their profits strong--ensuring that their families would not suffer, but thrive.
-
-\
-> Because of caring people like you, Freedom from Hunger was able to offer Sebastiana a self-help path toward achieving her dream of getting "a little land to farm" and pass down to her children. As Sebastiana's young son, Aurelio, runs up to hug her, she says, "I do whatever I can for my children."
+```
 
 \
 

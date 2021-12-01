@@ -4,19 +4,8 @@
 ```{block2,  type='note'}
 
 **Connection to terms/concepts in other work**
-  
-- @caviola2020many (literature review), ["Motivational obstacles"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0020), "Prioritization aversion"; comes closest to our 'taboo tradeoffs' 
 
-```
-
-
-```{block2,  type='note'}
-
-Note: this relates to an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis underway
-
-Much of this project is being openly presented in the (in-progress) ["Impact of impact treatments on giving: field experiments and synthesis"](https://daaronr.github.io/dualprocess/index.html) bookdown,  a project organised in the [dualprocess repo](https://github.com/daaronr/dualprocess).
-
-An earlier set of presentation slides are hosted [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/) - press 'O' to see the fill multi-dimensional slide map; the outline slide is [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/2/2)
+- @caviola2020many (literature review), ["Motivational obstacles"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0020), "Prioritization aversion"; comes closest to our 'taboo tradeoffs'
 
 ```
 
@@ -76,7 +65,11 @@ Caveat: This is hard to label: 'aversion' may be the wrong word: people may find
 
 ### Description
 
-People may be reluctant to consider the cost and benefits of the actions they are funding through their charitable donations. They may find such 'cost benefit analysis', (aka 'CBA') not appropriate or 'not normal' in charitable domains (as distinct from consumption, investment, and public policy contexts). People may also avoid accessing, buying, or seeing information that is likely to make them feel compelled to give.
+People may be reluctant^\*^ to consider the cost and benefits of the actions they are funding through their charitable donations (or they find this less appropriate/normal). This contrasts with a much greater willingness to consider these and other domains such as consumption, investment, and public policy. People also seem to avoid accessing/buying/seeing information (particular information that may be likely to feel compelled to give.)
+
+::: {.marginnote}
+\* How is this 'reluctance' observed/manifested?
+:::
 
 ### Conceptual discussion
 
@@ -106,13 +99,13 @@ This 'CBA discomfort'\* can be connected to several (potentially overlapping) th
 
 -   Taboo Tradeoffs and Protected Values: to the extent that CBA requires making taboo tradeoffs (e.g., choosing between saving one life and saving another) that clash with protected values, people may be reticent to engage in CBA for prosocial purposes.
 
--   'Distorted Altruists': People care about welfare maximization, *but without clear information to make comparisons* they rely on their feelings to guide choice (@loewensteinScarecrowTinMan2007; @slovicPsychicNumbingGenocide2007). @Berman2018 build on this.
+-   'Distorted Altruists': People do care about welfare maximization, *but "without clear information to make comparisons* they rely on their feelings to guide their choice" @Berman2018, citing (@loewensteinScarecrowTinMan2007; and @slovicPsychicNumbingGenocide2007).
 
 ::: {.marginnote}
 \* We distinguish opposition to CBA from the inability to *conduct* CBA. The former is treated here while the latter involves a series of [quantitative biases discussed later](#quant-biases). (To do: Clarify the third bullet point on 'distorted altruists'. This seems to be the dominant view in the literature.
 :::
 
-#### Relevance to Effective Giving (restated in fold) {.unnumbered}
+### Relevance to Effective Giving (restated in fold) {.unnumbered}
 
 ```{block2,  type='fold'}
 
@@ -122,22 +115,30 @@ Stated more broadly, effective giving is predicated on conducting CBA for progra
 
 ```
 
-### Evidence: attitudes towards CBA in the charitable domain, CBA-avoidance {#cba-evidence}
+## Evidence: attitudes towards CBA in the charitable domain, CBA-avoidance {#cba-evidence}
 
 #### Evidence for claim: "People sometimes actively avoid information about charity effectiveness..." {#avoid_info_CBA .unnumbered}
 
-::: {.marginnote}
-[@dellavigna2012testing] provide evidence that people will pay costs to avoid being asked and avoid social pressure. However, for this same case *if* they are asked they then to respond by giving. While "avoiding the ask" is not avoiding cost-benefit analysis, it suggests that people are in fact strategic in avoiding things that may make them feel compelled to donate. Note: This evidence is only tangentially relevant.
-:::
+Tangentially related: many people tend to 'avoid being asked or pressured to donate' (@dellavigna2012testing, @andreoniAvoidingAskField2017).
 
-#### Evidence for: "People rarely seek out effectiveness information and are reluctant to purchase it" {.unnumbered}
+```{block2,  type='fold'}
 
-```{=html}
-<!-- TODO - Cite: That survey-based study where few people say that they have
-looked into the effectiveness information on the charities they donate
-to -->
+[@dellavigna2012testing] provide field experimental evidence that people will pay costs to avoid being asked and avoid social pressure. However, for this same case *if* they are asked they then to respond by giving. While "avoiding the ask" is not avoiding cost-benefit analysis, it suggests that people are in fact strategic in avoiding things that may make them feel compelled to donate.
+
+@andreoniAvoidingAskField2017 find a related result in a distinct field setting.
+
 ```
-In the final stage of an experiment from @Null2011b:
+Also somewhat tangentially, @danaExploitingMoralWiggle2007a find, in a modified laboratory dictator game, that about 40% of subjects choose not to learn (at no cost) about the payoffs of the recipient subjects, in a context where this affords them 'moral wiggle room' not to donate.
+
+
+
+### Evidence for: "People rarely seek out effectiveness information and are reluctant to purchase it" {.unnumbered}
+
+
+
+#### @Null2011b {-}
+
+In the final stage of an experiment from @Null2011b...
 
 > Subjects were given the option to spend USD 5 of their total gift to the development charities in order to find out which of the three would receive a matching rate of USD 3 (the other two would receive matching rates of USD 1.50). Altruistic subjects whose donation was at least USD 20 and gave to all three charities, or whose total gift is greater than USD 35 and gave to two charities, would find it profitable to purchase the information. ... (84%) met these criteria on gift size and number of charities supported.
 
@@ -148,39 +149,85 @@ In the final stage of an experiment from @Null2011b:
 Null attributes this failure to buy information either to subjects who "simply did not care about the potential to substitute into the charity with the highest matching rate", perhaps driven by some form of simplistic warm glow motive, or to simple misunderstanding or fatigue (in an incentivized elicitation, she found some evidence of incomplete comprehension). To the extent this is *not* a misunderstanding, it might be seen as evidence of CBA aversion; participants did not want to purchase evidence that would require them to do calculations in this domain.'\*
 
 ::: {.marginnote}
-In a related experiment, @Null2011b also concludes that people do not respond efficiently to adjustments to the charity matching rates. We return to this [below](#choice_response_info).
+\* In a related experiment, @Null2011b also concludes that people do not respond efficiently to adjustments to the charity matching rates. We return to this [below](#choice_response_info).
 :::
 
-\
-
-*Further discussion and proposed 'to do' in the fold*
-
-```{block2,  type='fold'}
 
 Null's result is interesting but it involves unique, somewhat unusual, and somewhat artificial contexts. The participants were aware that they were in an experiment.
 
-There is some other work in this area that should also be discussed here.
 
-To do: investigate these references and others following from these:
 
+\
+
+
+Other papers involving laboratory 'real charitable giving' experiments also find a relative lack of willingness to pay for effectiveness-related information.
+
+
+#### @metzgerMakingImpactRelevance2019 {-}
+
+@metzgerMakingImpactRelevance2019 run a laboratory experiment, where participants have the opportunity to donate (from their lab income) under
+
+> one of three information settings: aid impact, recipient type, or administrative costs... Within each information setting, participants were randomly assigned to a “high-” or “low-performing” NGO and randomly assigned to the control and treatment groups. Participants in the treatment group had the opportunity to buy detailed information about whether they were matched with
+the high- or low-performing NGO.
+
+In the most relevant 'aid impact' setting, the difference in impact was explained as
+
+> Depending on which project, the NGO will make the following impact:
+
+> Project  1  will  employ  an  additional  teacher,  which  would,  for  every  franc  donated,  enable  one  student to remain in school for 1 week longer.
+
+> Project  2  will  provide  a meal  to  students at  school,  which  would,  for  every  franc  donated,  enable one student to remain in school for 1.5 weeks longer.
+
+> Project 2 (providing a meal at school) is 50% more effective than project 1 (financing an additional teacher). The efficiency of an additional teacher and the efficiency of providing a meal at school has been assessed in several scientific studies.
+
+This does indeed, seem like the sort of 'real quantitative impact information' we are considering in this context, although the very sparse description might not make this as credible as we would like.\*
+
+<div class="marginnote">
+\* The participant might wonder 'is this a particular framing of the impact for experimental purposes? Can I really trust this information? If one program is known to be more effective than the other, why are both still being run? Still, many of those concerns might indeed come up in the relevant real-world settings of interest,
+</div>
+
+Overall, they find a relative lack of interest in purchasing this information.
+
+> Our main results are the following. First, while only 28.73% (se = 0.03) of the participants in the treatment group buy the offered information, 57.09% (se = 0.02) donate to charity. That means, about 28% of the participants make an uninformed donation. Second, demand varies considerably across information types. Demand for information on aid impact is the lowest with 22.33% (se = 0.04) and highest for information on the recipient type (37.81%, se = 0.05). ...
+
+
+> Last, we find that non-buyers do not respond to information: they hardly change their donation behavior when they receive information for free. This suggests that individuals, who decide against acquiring additional information do not understand, do not trust, or do not care about the information provided in this laboratory experiment.
+
+Does this demonstrate 'participants did not buy information because they don't care about effectiveness?' (Discussion in fold)
+
+```{block2,  type='fold'}
+
+The average donation of 'aid non-buyers' was about 2.5 Swiss franks (CHF). (Figure 6). The information costs 0.3 (CHF) If the information is reliable, it could increase the value of the actoin by 25% on average; the 50% more efficient charity is assigned half the time. If the individual prefers to donate only to the more efficient charity, the relative value might be worth about .625 CHF total, or 0.325 more than its cost.  Perhaps
+
+Note this may be an underestimate; this 'average donation' already reflects uncertainty about the value of the donation.
+
+(Note: I would need to think about this decision problem in more detail; this is an attempt at an order of magnitude.)
 
 ```
 
+The comparison to the purchases of information in the other context also seems overstated. The 'information on the recipient type' may itself be seen as (and may actually *be*, in this case) an important measure of impact. The 'recipient type' determines whether the charity 'focuses on promoting the education of children' versus whether it 'focuses on promoting the education of young artists'. As the authors admit, participants may believe "that donating to children will generally have a larger development impact than donating to artists, considering the recipient type as a proxy for the impact of a donation".
+
+<div class="marginnote">
+
+@metzgerMakingImpactRelevance2019 also considers the impact of *providing information* on the donation *amounts*. We will return to this in the next section, on the ["Effect of analytical (effectiveness) information on generosity"](#analytical-grinch)
+
+</div>
+
+
+@fongTruthGivingExperimental2010 also finds some loosely related evidence (see fold).
+
+```{block2,  type='fold'}
+
 @fongTruthGivingExperimental2010 run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh; each subject is matched with a particular recipient of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers."
 
-But this needs to be interpreted carefully: *those who decide not to buy information appear less generous than the average*!\*
+But this needs to be interpreted carefully: *those who decide not to buy information appear less generous than the average*!
+```
 
-\* To do: show or link this empirical point, which is not highlighted in the authors' paper.
 
-From @muleskyDemandLackThereof\
+<!-- To do: show or link this empirical point, which is not highlighted in the authors' paper. -->
 
-> While most donors say their primary motivation is to make a difference, few donors seek information about charities before deciding where to give (Camber Collective, 2015; Hope Consulting, 2010, 2011; Osili et al., 2016). When they do conduct research, data on impact ranks lower than other types of information, such as the charity's financial overhead and the demographics of the program recipients (Metzger & Günther, 2019)
 
-@metzgerMakingImpactRelevance2019
-
-> Our main results are the following. First, while only 28.73% (se = 0.03) of the participants in the treatment group buy the offered information, 57.09% (se = 0.02) donate to charity. That means, about 28% of the participants make an uninformed donation. Second, demand varies considerably across information types. Demand for information on aid impact is the lowest with 22.33% (se = 0.04) and highest for information on the recipient type (37.81%, se = 0.05). Furthermore, we find that the opportunity to buy information does not significantly change average donations in the aid impact group whereas average donations increase in response to information about the recipient and decrease in response to information about administrative costs. These results are mainly driven by individuals who buy information ("buyers"). Buyers in the aid impact group give less to the lower impact project and more to the higher impact project, resulting in a zero-net effect on donations levels. Buyers in the recipient type group focus on the positive outcome and reward the children, driving average donations up. Buyers in the administrative costs group focus on the negative outcome and donate little to the charity with high overheads, driving average donations down. Last, we find that non-buyers do not respond to information: they hardly change their donation behavior when they receive information for free. This suggests that individuals, who decide against acquiring additional information do not understand, do not trust, or do not care about the information provided in this laboratory experiment.
-
-#### Evidence for "people accept and value subjectivity in the charitable domain more so than for other choice domains" {#subjectivity}
+### Evidence for "people accept and value subjectivity in the charitable domain more so than for other choice domains" {#subjectivity}
 
 [@Berman2018] provide evidence from a series of five survey/vignette experiments; unlike those mentioned above, these (mostly) involve hypothetical choices among *multiple* causes. All experiments use standard subject pools (behavioral lab subjects or Mturkers) with reasonably large samples. All ask for hypothetical (Likert-scale) responses involving fictional charities, investments, and other scenarios; they mostly rely on between-subject responses, and their statistical analyses report reasonable tests on the relevant comparisons.
 
@@ -324,24 +371,7 @@ However (as they do note), the effectiveness information still has *some* (posit
 
 -   Specific context in vignettes allow alternative interpretations...
 
-```{=html}
-<!-- [^2]: DR: This could have been a very worthwhile study, but I think it
-    has a number of obvious flaws with its design and the potential to
-    interpret it in terms of willingness to pay for real effectiveness
-    information for doing a CBA. (For example, the artist versus poor
-    children recipients would also seem to be an effectiveness measure)
-    so I'm not sure it's worth reporting on.\]
--->
-```
-```{=html}
-<!-- ## Market versus social norms
 
-"People see charity as in the social 'domain' not the market one, and thus find it strange to apply CBA to it.
-"
-
-Commenting this out because it seems to be subsumed above
--->
-```
 
 ## Information as an 'excuse' not to give; information may allow motivated reasoning {#info-motivated}
 
@@ -355,7 +385,7 @@ This topic straddles the material in this section and the next section, and the 
 
 > "Dictators [charitable giving] who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers"\
 
-\*Limitations of @fongTruthGivingExperimental2010
+*Limitations of @fongTruthGivingExperimental2010
 
 -   Selection effects
 -   In their tables, exogenous provision of information seems to *increase* donations overall.\
@@ -372,51 +402,37 @@ This topic straddles the material in this section and the next section, and the 
 
     \
 
+<!--
+Move to next section
 @metzgerMakingImpactRelevance2019
 
 Laboratory experiment, donations to high/low-performing NGO
 
--  More purchasing of 'recipient type' information than 'impact' information
 
--  Mixed & weak evidence on excuse-driven information-seeking
+-  Mixed and  weak evidence on excuse-driven information-seeking
 
 `r format_with_col("Caveats...","blue")`
 
-</center>
 
-<aside class="notes">
+The opportunity to buy info on 'recipient type' increased giving, while the opportunity to buy information on 'administrated costs' decreased giving (marginal significance for both). They found no effect of the opportunity to buy information on 'aid impact', but this had wide condident intervals
 
-Opportunity to buy info on 'recipient type' increased giving, on 'admin costs' decreased giving (marginal significance for both), no effect of 'aid impact' but wide CI
+Providing 'free information' on each of these had insignificant effects, but they seem underpowered here
 
-'Free info' on each of these had insignificant effects (underpowered!)
 
-Lots of caveats; e.g., recipient type (artists vs children) may have been seen as a proxy for impact
 
-</aside>
+The 'lack of power...'
 
-```{=html}
-<!--
-In a laboratory experiment, we analyze individuals’ demand for information about a donation’s welfare impact, and compare it with demand for information on recipient types and administrative costs. We find the least demand for information about aid impact, indicating that individuals either do not understand, do not trust, or do not care about the specific information we provide. Average donations increase in response to information about the recipient type and decrease in response to information about administrative costs. Information about aid impact does not significantly change average donations: donors who demand information respond positively to high impact projects and negatively to low impact projects, resulting in a zero net effect on donation levels. Our results further show that information has the same effect on donation behavior regardless of whether it is provided for free or at a cost.
--->
-```
-```{=html}
-<!-- "Making an impact? The relevance of information on aid effectiveness for charitable giving. A laboratory experiment.":
 
->...the demand for information about aid impact is lowest, and it is highest for information about the recipient type.
+Looking at a clearer result, we see a lack of power.
 
-> ... exact information about aid impact did not lead to a significant change in average donation levels, while information about the exact recipient type and administrative costs led to a significant change in donation levels.
+Average don:    2.45 CHF
+
+'Aid impact group' coeficient: -.231 (.45)
+
+This looks like an underpowered study. They can perhaps rule out an effect greater than around half of the average donation, but no more precisely.
 
 > In the recipient type group, informed participants donated significantly more than uninformed participants because they "rewarded" the preferred recipient with higher-than-average transfers. In the administration costs group, informed participants donated significantly less than uninformed participants because they used the information to "punish" NGOs with high administration costs.
 
 DR: It is not clear to me when they are reporting on the self-selected groups and when they report on the sample overall, or in a way that deals with the self-selection.
 
-Looking at their one clearer result, we see a lack of power.
-
-Average don:    2.45 CHF
-
-Aid impact group coef: -.231 (.45)
-
-This looks like an underpowered study. They can perhaps rule out an effect greater than around half of the average donation, but no more precisely.
 -->
-```
-
