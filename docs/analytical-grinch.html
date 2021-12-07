@@ -24,7 +24,7 @@
 <meta name="author" content="David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and others. Comments from Jason Schukraft, Michael Aird, Robin Bergh, and others" />
 
 
-<meta name="date" content="2021-11-30" />
+<meta name="date" content="2021-12-07" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -1113,66 +1113,48 @@ There is some further related evidence lab experiments, but the results are limi
 <div class="note">
 <p>We are planning more careful multilevel/meta-analysis of this work, incorporating ‘new evidence’ from a set of field experiments run by Reinstein and others involving two distinct charities and three campaigns.</p>
 </div>
-<pre><code>
+<div id="presenting-effectiveness-and-other-types-of-analytical-efficiency-information" class="section level4 unnumbered">
+<h4>Presenting “Effectiveness” and other types of analytical efficiency information</h4>
+<p><span class="citation">Karlan and Wood (<a href="#ref-karlanEffectEffectivenessDonor2017a" role="doc-biblioref">2017</a>)</span> KW (2017) run a field experiment on a charitable mailing involving scientific impact information. Their treatment involved adding scientific impact text to an appeal, while removing some emotional text:</p>
+<p>Effectiveness treatment language:</p>
+<blockquote>
+<p>According to studies on our programs in Peru that used rigorous scientific methodologies, women who have received both loans and business education saw their profits grow, even when compared to women who just received loans for their businesses. But the real difference comes when times are slow. The study showed that women in Freedom from Hunger’s Credit with Education program kept their profits strong–ensuring that their families would not suffer, but thrive.</p>
+</blockquote>
+<p>Control (emotional) treatment language:</p>
+<blockquote>
+<p>Because of caring people like you, Freedom from Hunger was able to offer Sebastiana a self-help path toward achieving her dream of getting “a little land to farm” and pass down to her children. As Sebastiana’s young son, Aurelio, runs up to hug her, she says, “I do whatever I can for my children.”</p>
+</blockquote>
+<p>They find a null effect overall with fairly tight bounds. They report a near-0 impact on incidence (in table 2: column 1), and a standard error under 1%, relative to a baseline incidence of 14%. They estimate an impact on amount of donated +2.35 USD, with a standard error of 1.98; this is relative to a mean of 14.17 USD. (In their Winsorised results the point estimate is -0.074, the standard error is 0.82, and the mean is 11.30)</p>
+<p>When they differentiate this by an ex-post classification (not preregistered), they find positive effects of this information for ‘prior large donors’ and negative effects for ‘prior small donors’.</p>
+<p>This is probably the most substantial and relevant study. We consider this further in our meta-analysis further below.</p>
+<p>Nonetheless, the study is presents only a single piece of evidence from a specific context. It also has some potential limitations in considering our main question.</p>
+<ol style="list-style-type: decimal">
+<li><p>Their treatment changed two things changed at once: impact information was added which emotional information was removed</p></li>
+<li><p>It may have been entangled with a Yale/institution effect</p></li>
+<li><p>The nature of ‘impact’ information was not particularly quantative; it did not express a an ‘impact per dollar’</p></li>
+</ol>
 
-#### Presenting &quot;Effectiveness&quot; and other types of analytical efficiency information {-}
-
-@karlanEffectEffectivenessDonor2017a KW (2017) run a field experiment on a charitable mailing involving scientific impact information.  Their treatment involved adding scientific impact text to an appeal, while removing some emotional text:
-
-
-Effectiveness treatment language:
-
-&gt; According to studies on our programs in Peru that used rigorous scientific methodologies, women who have received both loans and business education saw their profits grow, even when compared to women who just received loans for their businesses. But the real difference comes when times are slow. The study showed that women in Freedom from Hunger&#39;s Credit with Education program kept their profits strong–ensuring that their families would not suffer, but thrive.
-
-Control (emotional) treatment language:
-
-&gt; Because of caring people like you, Freedom from Hunger was able to offer Sebastiana a self-help path toward achieving her dream of getting “a little land to farm” and pass down to her children. As Sebastiana&#39;s young son, Aurelio, runs up to hug her, she says, “I do whatever I can for my children.”
-
-They find a null effect overall with fairly tight bounds.  They report a near-0 impact on incidence (in table 2: column 1), and a standard error under 1\%, relative to a baseline incidence of 14\%. They estimate an impact on amount of donated +2.35 USD, with a standard error of 1.98; this is relative to a mean of 14.17 USD. (In their Winsorised results the point estimate is -0.074, the standard error is 0.82, and the mean is 11.30)
-
-When they differentiate this by an ex-post classification (not preregistered), they find positive effects of this information for &#39;prior large donors&#39; and negative effects for &#39;prior small donors&#39;.
-
-This is probably the most substantial and relevant study. We consider this further in our meta-analysis further below.
-
-Nonetheless, the study is presents only a single piece of evidence from a specific context. It also has some potential limitations in considering our main question.
-
-
-1. Their treatment changed two things changed at once: impact information was added which emotional information was removed
-
-2. It may have been entangled with a Yale/institution effect
-
-3. The nature of &#39;impact&#39; information was not particularly quantative; it did not express a an &#39;impact per dollar&#39;
-
-
-\BeginKnitrBlock{note}&lt;div class=&quot;note&quot;&gt;
-
-**Design and results summary**:
-
-Treatment(s): Add scientific impact text to base script (included a standard qualitative story about an individual beneficiary), while removing emotional text:
-
-$\rightarrow$ little net effect
-
-$\rightarrow$ reduced (increased) giving among small (large) prior donors `r format_with_col(&quot;(not a preregistered hypothesis)&quot;,&quot;grey&quot;)`
-&lt;/div&gt;\EndKnitrBlock{note}
-
-\
-
-@Linda2007
-
-2 x 2 mailing appeal for People with Aids Coalition-Houston, with several treatments:
-
--   adding &quot;service efforts and accomplishment info&quot;(SEA),
--   and adding favorable &quot;FINANCIAL&quot; spending/overhead ratio infos.
-
-The FINANCIAL treatment (alone) $\rightarrow$ 180% increase in odds of donating *among prior donors* ($p&lt;0.05$)
-
-(The other effects are mainly insignificant, with wide error margins, suggesting the study was underpowered)
-
-\
-
-
-```r
-knitr::include_graphics(&#39;picsfigs/parsons_fin_treat.png&#39;)</code></pre>
+<div class="note">
+<p><strong>Design and results summary</strong>:</p>
+<p>Treatment(s): Add scientific impact text to base script (included a standard qualitative story about an individual beneficiary), while removing emotional text:</p>
+<p><span class="math inline">\(\rightarrow\)</span> little net effect</p>
+<p><span class="math inline">\(\rightarrow\)</span> reduced (increased) giving among small (large) prior donors <code>r format_with_col("(not a preregistered hypothesis)","grey")</code></p>
+</div>
+<p><br />
+</p>
+</div>
+<div id="linda2007" class="section level4 unnumbered">
+<h4><span class="citation">Linda, Organizations, and Parsons (<a href="#ref-Linda2007" role="doc-biblioref">2007</a>)</span></h4>
+<p>2 x 2 mailing appeal for People with Aids Coalition-Houston, with several treatments:</p>
+<ul>
+<li>adding “service efforts and accomplishment info”(SEA),</li>
+<li>and adding favorable “FINANCIAL” spending/overhead ratio infos.</li>
+</ul>
+<p>The FINANCIAL treatment (alone) <span class="math inline">\(\rightarrow\)</span> 180% increase in odds of donating <em>among prior donors</em> (<span class="math inline">\(p&lt;0.05\)</span>)</p>
+<p>(The other effects are mainly insignificant, with wide error margins, suggesting the study was underpowered)</p>
+<p><br />
+</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="analytical-grinch.html#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;picsfigs/parsons_fin_treat.png&#39;</span>)</span></code></pre></div>
 <p><img src="picsfigs/parsons_fin_treat.png" width="85%" style="display: block; margin: auto;" /></p>
 <p><img src="picsfigs/parsons_logit.png" width="85%" style="display: block; margin: auto;" /></p>
 <p>Further details from Parsons (unfold, direct quotes from paper)</p>
@@ -1225,6 +1207,7 @@ Charity: People with Aids Coalition- Houston
 <li><p>Confidence intervals are not shown</p></li>
 </ul></li>
 </ul>
+</div>
 <div id="bergh2020empathic-lab-and-field-experiments" class="section level4" number="9.1.1.1">
 <h4><span class="header-section-number">9.1.1.1</span> <span class="citation">Bergh and Reinstein (<a href="#ref-bergh2020empathic" role="doc-biblioref">2020</a>)</span> (Lab and field experiments)</h4>
 <p>From Abstract:</p>
@@ -1398,7 +1381,10 @@ Study 6 had the most straightforward ‘impact information’ as per our definit
 </ul>
 <p><br />
 </p>
-<p><strong>Background mechanisms and related evidence:</strong> the role of consumer reviews and independent ratings in for-profit sectors, e.g. Luca (2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, <span class="citation">Jin and Sorensen (<a href="#ref-jin2006information" role="doc-biblioref">2006</a>)</span>: health plan ratings have a significant impact on individuals’ health plan choices, <span class="citation">David Reinstein and Snyder (<a href="#ref-reinsteinInfluenceExpertReviews2005" role="doc-biblioref">2005</a>)</span>: positive expert reviews have a significant effect on the box office revenue of movies.</p>
+<strong>Background mechanisms and related evidence:</strong> the role of consumer reviews and independent ratings in for-profit sectors.*
+<div class="marginnote">
+<p>* E.g. Luca (2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, <span class="citation">Jin and Sorensen (<a href="#ref-jin2006information" role="doc-biblioref">2006</a>)</span>: health plan ratings have a significant impact on individuals’ health plan choices, <span class="citation">David Reinstein and Snyder (<a href="#ref-reinsteinInfluenceExpertReviews2005" role="doc-biblioref">2005</a>)</span>: positive expert reviews have a significant effect on the box office revenue of movies.</p>
+</div>
 <p><br />
 </p>
 <p><strong>Key findings:</strong></p>

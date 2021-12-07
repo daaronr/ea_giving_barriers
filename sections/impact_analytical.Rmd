@@ -6,7 +6,7 @@
 
 Note: this relates to an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis underway
 
-Much of this project is being openly presented in the (in-progress) ["Impact of impact treatments on giving: field experiments and synthesis"](https://daaronr.github.io/dualprocess/index.html) bookdown,  a project organised in the [dualprocess repo](https://github.com/daaronr/dualprocess).
+Much of this project is being openly presented in the (in-progress) ["Impact of impact treatments on giving: field experiments and synthesis"](https://daaronr.github.io/dualprocess/index.html) bookdown, a project organised in the [dualprocess repo](https://github.com/daaronr/dualprocess).
 
 An earlier set of presentation slides are hosted [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/) - press 'O' to see the fill multi-dimensional slide map; the outline slide is [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/2/2)
 s
@@ -69,7 +69,6 @@ There is some further related evidence lab experiments, but the results are limi
 We are planning more careful multilevel/meta-analysis of this work, incorporating 'new evidence' from a set of field experiments run by Reinstein and others involving two distinct charities and three campaigns.
 
 ```
-```
 
 
 #### Presenting "Effectiveness" and other types of analytical efficiency information {-}
@@ -116,7 +115,7 @@ $\rightarrow$ reduced (increased) giving among small (large) prior donors `r for
 
 \
 
-@Linda2007
+#### @Linda2007 {-}
 
 2 x 2 mailing appeal for People with Aids Coalition-Houston, with several treatments:
 
@@ -407,8 +406,11 @@ One characterization, from @bergh2020empathic
 
 \
 
-**Background mechanisms and related evidence:** the role of consumer reviews and independent ratings in for-profit sectors, e.g. Luca (2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, @jin2006information: health plan ratings have a significant impact on individuals' health plan choices, @reinsteinInfluenceExpertReviews2005: positive expert reviews have a significant effect on the box office revenue of movies.
+**Background mechanisms and related evidence:** the role of consumer reviews and independent ratings in for-profit sectors.\*
+<div class="marginnote">
+\* E.g. Luca (2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, @jin2006information: health plan ratings have a significant impact on individuals' health plan choices, @reinsteinInfluenceExpertReviews2005: positive expert reviews have a significant effect on the box office revenue of movies.
 
+</div>
 \
 
 **Key findings:**
@@ -418,6 +420,7 @@ One characterization, from @bergh2020empathic
 \
 
 ### Evidence for "Charity choices do not respond 'efficiently' to information about costs and benefits of charity" {#choice_response_info}
+
 
 @Null2011b ran a set of experiments at Kiwanis/Rotary clubs and with "professional subjects" (presumably, university administrators) at the Berkeley X-lab. The former strictly involved allocations *among* charities, in the latter case what was not given away could be kept. For the main reported treatments, participants made a series of decisions under different incentives (mostly on the same page and thus simultaneously?). The "prize" was \$100; in each session only one decision from one subject was chosen for actual payment/donations.
 

@@ -115,7 +115,7 @@ The reluctance to engage in this evaluation process may relate to the aforementi
 (they cite: Imas paper?)
 :::
 
-Several papers$^\text{citation needed}$\^ find that people are reluctant to pay for---or actively seek to avoid--- certain information. However, these may reflect motives distinct from CBA, such as a self-serving bias.
+Several papers (@Null2011b, @fongTruthGivingExperimental2010, @metzgerMakingImpactRelevance2019) find evidence that (arguably) suggests that people are often reluctant to pay for (and may even actively avoid) certain information about charitable costs and benefits. People are also known to 'avoiding being asked' in general (@dellavigna2012testing, @andreoniAvoidingAskField2017). However, these may reflect motives distinct from CBA, such as a self-serving bias .
 
 ::: {.marginnote}
 On the other hand ... a majority ranked effectiveness [how highly?] as a crucial criterion to select a charity and reported greater happiness when the impact of their contribution was highlighted. [@Aknin2013; @vaniwaardenCharitiesHowImportant2009]
