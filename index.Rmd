@@ -1,6 +1,6 @@
 ---
 title: "Increasing effective charitable giving: The puzzle, what we know, what we need to know next"
-author: "David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and others. Comments from Jason Schukraft, Michael Aird, Robin Bergh, and others"
+author: "David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and others. Comments and contributions from Jason Schukraft, Michael Aird, Robin Bergh, Michel Justen and others"
 #cover-image: "images/cardcatalogue.JPG"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -271,27 +271,27 @@ Nothing in here this time though. Surprise!
 Code blocks (e.g., R-code analysing data and presenting results in-situ; we have few if any so far) will be folded by default.
 \
 
-'Note blocks' are used to present aside material or particular things we want to make prominent. 
+'Note blocks' are used to present aside material or particular things we want to make prominent.
 
 ```{block2,  type='note'}
 
 Look how important I am!
-  
-```  
+
+```
 
 \
 
 Margin notes take the place of footnotes, with asterisks connecting the relevant material.\*
 
 <div class="marginnote">
-\* This is the relevant material.... 
+\* This is the relevant material....
 </div>
 
 \
 
-We may occasionally use 'regular footnotes', but I don't find they make sense in this context. 
+We may occasionally use 'regular footnotes', but I don't find they make sense in this context.
 
 \
 
 In citing papers and work, we ideally will give *both* a parenthetical reference and a one-click link to the content. (But at least one is a good start.)
- 
+

@@ -11,46 +11,31 @@ In this set of chapters:
 
 ```
 
-# Project outline and parts {#outline}
+## Outline of key 'PARTS' (unfold) {-}
 
-<center>
+**INTRODUCTION & FUNDAMENTALS**
 
-**Increasing effective charitable giving: The puzzle, what we know, what we need to know next**
 
-</center>
+```{block2,  type='fold'}
 
-<!-- #TODO: reconcile this with the outline in 'EA giving survey-working version'... -->
+- [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle)**  Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
+
+-  [Definitions - "Efficiency" versus impact](#impact-definitions)\
+
+[Are charities in competition?](#substitution)
+
 
 \
 
-
-*This outline links, and gives a brief description of each "part"*
-
-<!-- David Reinstein (drafted this version) with Nick Fitz and Ari Kagan -->
-
-## Introduction & Fundamentals {-}
-
-**Section** \@ref(present-puzzle)**: [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle)** \*
-
-::: {.marginnote}
-\* Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
-:::
+- [Breakdown of Barriers](#barriers-breakdown)
 
 
--   [Motivation and descriptives](#motivate-puzzle)
+<!-- moved old classification to barriers_old_classification.Rmd -->
+ve a general ['conceptual' overview of these barriers](#barriers-concept). We dig into each barrier more carefully in subsequent chapters.
 
--   [Definitions - "Efficiency" versus impact](#impact-definitions)\*\*
+\
 
-    ::: {.marginnote}
-    \*\* Relevant to charity 'quality ratings', overhead aversion
-    :::
-
--   [Why (under which models) is this a puzzle?](#why-puzzle)\*\*\*
-
--   [Conceptual breakdown of 'barriers' (first presentation)](#barriers-concept)
-
-<div class="marginnote">
-\*\*\* Briefly mapping and outlining this...
+Briefly mapping and outlining this...
 
 -   Do people *actually care about* impact? Does moral utilitarianism matter?
 
@@ -60,27 +45,25 @@ In this set of chapters:
 
 -   Does impact map into the 'good feeling' from giving, can it do so?
 
-</div>
 
-<!-- Economic and psych models conceptualizing this -->
-
-\
-
-
-**Section** \@ref(barriers-concept)**: [Explaining the puzzle: Barriers to EA giving and potential responses, evidence](#barriers-concept)**
-
-<!-- moved old classification to barriers_old_classification.Rmd -->
-
-Here we also give a general ['conceptual' overview of these barriers](#barriers-concept). We dig into each barrier more carefully in subsequent chapters.
+```
 
 \
 
-**BARRIERS: DEFINITION & EVIDENCE** chapters; these are outlined under [' Practical breakdown'](#barriers-practical)
+**BARRIERS...**
+
+These parts clarify and operationalize each of the defined barriers (in sections), and assess the evidence (and argument) for each of these.
 
 
-**Section** \@ref(tools)**: [Tools for motivating EA giving](#tools)**
+\
 
-**Section** \@ref(conclusion-agenda)**: [Conclusion; a research agenda](#conclusion-agenda)**
+**GOING FORWARD...**
+
+Here we consider 'tools' for surmounting these barriers, and flesh out a research agenda.
+This is followed by appendices, including [one explaining the tech](#bookdown-appendix) behind this project, and how to work with it/work with us.
+
+
+# Evidence, empirical considerations, organization {#evidence}
 
 ## Structure of each 'barriers' section {#structure-barriers}
 
@@ -128,7 +111,7 @@ In considering the evidence for these claims, we generally consider one paper or
 \* However, we are still considering the best narrative approach to presenting evidence from multiple papers/projects/analyses.
 :::
 
-### Consideration of each paper {#paper-structure}
+## Consideration of each paper {#paper-structure}
 
 For each paper we focus on key elements, including:
 
@@ -153,7 +136,6 @@ weighing evidence  specific claims such as ["People sometimes actively avoid inf
 coming from research papers/studies such as  @fongTruthGivingExperimental2010.
 
 ```
-
 
 ## Evidence and meta-analysis: discussion {#evidence0meta}
 
@@ -213,8 +195,15 @@ You can also engage in this project directly, helping us build this content in R
 
 \
 
-** Other practical considerations** (unfold)
+## Other practical considerations, partnerships
 
+
+This project is informally connected with the [EA Market Testing team](https://effective-giving-marketing.gitbook.io/untitled/). However, this project is several years older, and the scope is not entirely overlapping. The present project focuses on giving, while EAMT has a broader agenda connected with the EA movement. The EAMT is mainly a practically-driven project, while the current synthesis also considers braoder and more theoretical issues.
+
+\
+
+
+Consider potential integration with...
 
 ```{block2,  type='fold'}
 
@@ -230,7 +219,7 @@ How have EA orgs been brought together ...especially at universities?
 
 ```
 
-
+<html>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 

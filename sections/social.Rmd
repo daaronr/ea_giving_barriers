@@ -3,7 +3,19 @@
 ## Signaling concern for effectiveness/impact versus other values {#signaling-empathy}
 
 
+
+
 ```{block2,  type='note'}
+
+
+Includes, e.g.,
+
+-   social perceptions and 'signaling empathy vs effectiveness' ([@caviola2020many])
+
+-   difficulty of coordinated signaling with a hard-to-coordinate measure such as 'effectiveness' @burumEvolutionaryExplanationIneffective2020
+
+\
+
 
 **Connection to terms/concepts in other work**
 
@@ -125,6 +137,8 @@ Across conditions, participants were presented with the general scenario and onl
 
 Deliberation: “John thought that donating to help Rokia might not be the most cost-effective way to use his money and that maybe he should donate to a charity doing something more cost-effective instead. He asked the charity fundraiser about the relevant statistics of the program and since the data suggested this charity was the most cost-effective John donated to the charity.”
 Empathy: “John was deeply moved by Rokia’s situation and about how terrible her situation must be for her. After hearing about her tragic story and imagining how his donation could help her John donated to the charity.”
+
+
 
 Robustness checks for: gender, stake size
 

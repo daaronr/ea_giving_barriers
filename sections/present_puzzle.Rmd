@@ -215,7 +215,7 @@ I intend to look more closely at how they identified these studies, how they eli
 
 <!--Wiepking2012 -->
 
-### Effectiveness-specific work
+### Effectiveness-specific work {#effectiveness-prev-work}
 
 1. [Caviola et al, 2021, "The Psychology of (In)Effective Altruism"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0005) (discussed below).
 
