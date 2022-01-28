@@ -2,16 +2,15 @@
 
 *"Barriers to Effective Giving" -- Project web-book and organisation*
 
- Produces [public web book here](https://daaronr.github.io/ea_giving_barriers/outline.html)
+Produces [public web book here](https://daaronr.github.io/ea_giving_barriers/outline.html)
 
- Additional content is in this repo but outside of that web book, some to be incorporated in.
+Additional content is in this repo but outside of that web book, some to be incorporated in.
 
 ## Folders (and key files)
 
 [sections](sections): Content (Rmd) for each section of the Bookdown web-book. The meat.
 
-[docs](docs): Where the html content is put for the web book
-
+[docs](docs): Where the html (and other) content is put for the web book
 
 [support](support): 'Support' and formatting files called in building the web-book
 
