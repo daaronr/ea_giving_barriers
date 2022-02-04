@@ -23,9 +23,8 @@ here <- here::here()
 
 #... Import setup for this project using template from dr-rstuff  ####
 
-
-devtools::install_github("rethinkpriorities/rp-r-package")
-library(rethinkpriorities)
+#devtools::install_github("rethinkpriorities/rp-r-package")
+#library(rethinkpriorities)
 
 dir.create(here::here("code"))
 
