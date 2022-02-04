@@ -196,7 +196,7 @@ liftedWilcox <- purrr::lift(wilcox.test2, .unnamed = TRUE)
 
 #(Coded By Scott Dickerson)
 
-bayesian_test_me <- function(g1, g1pos, g2, g2pos,i,j,a,b){
+bayesian_test_me <- function(g1, g1pos, g2, g2pos, a, b){
   #Function which takes the same inputs as the fishertestme function, turns them into a matrix
   #for a simple bayesian test, comparing the difference in proportions. Follows on from the work
   #by Andrew Gelman and Bob Carpenter (references below). This function returns the output to a list.
@@ -548,29 +548,6 @@ tabyl_ow_plus <- function(df, var, caption=NULL, title_case = FALSE) {
     kable_styling()
 }
 
-tabylme <- function(df = ADSX, rowvar = TreatFirstAsk, colvar = treat_second_ask,
-  adorn = "row") {
-    {{df}} %>%
-  tabyl({{rowvar}}, {{colvar}}) %>% adorn_percentages({{adorn}}) %>%
-    adorn_pct_formatting(digits = 2) %>% adorn_ns() %>% kable() %>%
-    kable_styling()
-}
-
-adornme <- function(atabyl, adorn = "row", digits = 2, cap = "",
-                    title = "") {
-  atabyl %>% adorn_totals("row") %>% # adorn_totals(c('row', 'col')) %>%
-    adorn_percentages(adorn) %>% adorn_pct_formatting(digits = digits) %>%
-    adorn_ns() %>% adorn_title(title, placement = "top") %>%
-    kable(caption = cap) %>% kable_styling()
-}
-
-adornme_not <- function(atabyl, adorn = "row", digits = 2, cap = "",
-                    title = "") {
-  atabyl %>% adorn_totals("row") %>% # adorn_totals(c('row', 'col')) %>%
-    adorn_percentages(adorn) %>% adorn_pct_formatting(digits = digits) %>%
-    adorn_ns() %>%
-    kable(caption = cap) %>% kable_styling()
-}
 tabylme <- function(df = ADSX, rowvar = TreatFirstAsk, colvar = treat_second_ask,
   adorn = "row") {
     {{df}} %>%
@@ -1039,3 +1016,6 @@ group_mean_conf_int <- function(df, var, groups = NULL, se_func = se, ...){
              "lower_ci_{{var}}" := .data[[stringr::str_c(var_s, "_mean")]] - 1.96*.data[[stringr::str_c(var_s, "_se")]])
 
 }
+
+
+

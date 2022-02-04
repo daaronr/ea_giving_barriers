@@ -32,6 +32,8 @@ Update: There is now a tool 'trackdown' that allows decent integration with Goog
 
 ```{block2,  type='note'}
 The template for my bookdown projects is maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template)
+
+28 Jan 2022 -- I may be changing this to [this template](https://rethinkpriorities.github.io/bookdown-template/) developed at Rethink Priorities.
 ```
 
 ```{block2,  type='note'}
@@ -252,7 +254,17 @@ docs: html output put here for web hosting
 
 - I further discuss the elements of the .Rmd (and associated) files, and how they translate into html output in the [video: rmarkdown content from template HERE](https://www.dropbox.com/s/p724socu1pmjous/rmarkdown-bookdown-content.mp4?dl=0)
 
+
+
 *My apologies*: In these videos my dumb head is blocking an important part of the screen share. It may help you to have the original files up to see the missing bits. I hope to redo these when I have a chance.
+
+\
+
+**2022 update**: The guides below (presented for Annabell Rayner) may be more watchable:
+  
+- [Adding content to project, github, git, and markdown](https://www.dropbox.com/s/3jhx4e0ic7j6w55/content_on_EA_barriers_github_git_markdown.mp4?dl=0)
+
+- [Editing Rmd/bookdown content, building it, pushing it to the 'remote' repo for publishing online](https://www.dropbox.com/s/qcjbp7tmecv7eu1/editing_rmd_bookdown_content_rstudio_push_to_remote.mp4?dl=0)
 
 *Note:* The key files and settings for my bookdown projects are maintained in my repo [here](https://github.com/daaronr/dr-rstuff/tree/master/bookdown_template), along with a minimal example. This is (or should be) synchronised with all the other repos.
 
@@ -846,6 +858,8 @@ organized, at least we hope.
 ```{block2,  type='note'}
 
 I discuss these features in  a video guide  [here](https://www.dropbox.com/s/kxa174tw6psno4s/git-github-commit-policy-theory-project.mp4?dl=0) starting at about 11:46.
+
+[2022 video presenting this to Annabell Rayner HERE)[https://www.dropbox.com/s/fdp2vycyanumgqa/github_project_boards_and_issues.mp4?dl=0]
 
 Note that the 'project board' and 'issues' are just tools on the Github web site for discussing and managing the project; these are not files or data, it's a built-in tool.
 

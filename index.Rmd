@@ -172,11 +172,13 @@ Academics (in Economics, Psychology, Biology, and Philosophy) have applied a ran
 \*Note: the first part of this is decent but there was a technical problem at the end.
 :::
 
+- [Another discussion in 2022- 'what is this project, what is it trying to do, how is it structured?]( https://www.dropbox.com/s/hm36ji9webukxdp/whats_EA_barriers_synthesis_tructure.mp4?dl=0)
+
 -   ['Revealjs' html slides of this project and associated field experiments: press 'o' to navigate](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/)
 
 ## Discussions {-#why-understand-reactions}
 
-For 'Effective Altruists' ... (Why) do we care 'how people react to the presentation of charity-effectiveness information' from a practical point of view? (unfold discussion)
+For 'Effective Altruists' ... (Why) do we care 'how people react to the presentation of charity-effectiveness information' from a practical point of view? (unfold discussion) 
 
 ```{block2,  type='fold'}
 
