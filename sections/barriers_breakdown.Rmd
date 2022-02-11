@@ -5,6 +5,7 @@
 Other authors have given related decompositions; see, e.g., [@caviolaPsychologyEffectiveAltruism2021] and [@jaegerPsychologicalBarriersEffective2021]. We provide some comparisons below; these outlines are separately discussed presented [above](#effectiveness-prev-work).
 
 ```  
+Hi
 
 ## Breakdown of 'barriers' (first presentation) {#barriers-concept}
 
