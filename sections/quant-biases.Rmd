@@ -11,9 +11,9 @@ This is related to what [@Berman2018] refer to as "distorted altruists", and [@c
 
 ```
 
-<!-- this comment means nothing, just testing --> 
 
-Recapping the discussion from the [Conceptual breakdown of 'barriers'](#barriers-concept) section.
+
+Recapping the discussion from the [Conceptual breakdown of 'barriers'](#barriers-concept).
 
 Even if people *want* to be effective givers, they may simply be bad at this, because they have quantitative limitations and biases. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the "production function for good outcomes", or to misjudge charities will lead me astray from effective giving.
 
