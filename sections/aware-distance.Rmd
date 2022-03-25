@@ -108,6 +108,11 @@ What we owe to family: The impact of special obligations on moral judgment
 Ref: small2007_friends small_loewenstein_07_scarecrow
 :::
 
+Experiential distance can be understood as the distance between experiencing something and imagining it. This could create a barrier to giving effectively as most giving is motivated by empathy or sympathy for victims. It is easier for an individual to feel empathy for a victim if they have personally experienced the ailment or someone close to them has. As a result, they do not have to imagine the suffering it may have caused because they personally (or someone close to them) have physically experienced it. In other words, the experiential gap is smaller. For example, people living in wealthy nations are more likely to be affected by cancer than malaria, leading to a greater support for that cause.
+
+This could be a form of availability bias. Availability bias is the notion that if something can be remembered more easily, then the individual perceives it as more likely as it is easier to imagine. This greatly affects how individuals perceive risk. An example of this is presented in the study by Lichenstein et al., (1978). They found that participants in their study were more likely to believe that an illness was more deadly death if someone they knew (indirect suffering) or they themselves (direct suffering) had experienced the illness.
+
+
 ## Evidence on determinants of scope of moral circle/moral expansiveness and its impact on giving and other-regarding behavior
 
 See: Crimston et al (year) and references cited within
