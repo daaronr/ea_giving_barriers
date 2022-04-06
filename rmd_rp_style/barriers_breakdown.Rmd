@@ -185,15 +185,15 @@ smallSympathyCallousnessImpact2007, gneezyAvoidingOverheadAversion2014, ein2013g
 
 **Notes on previous sections ([Are Charities in Competition](#substitution), [Inertia](#inertia)) (unfold)**
 
-::: {.callout-note collapse='true'}
- In a previous sections we presented a [long discussion of the evidence and theory](#substitution) on whether 'one contribution comes at the expense of another', 
+::: {.foldable} 
+ 
+
+In a previous sections we presented a [long discussion of the evidence and theory](#substitution) on whether 'one contribution comes at the expense of another', 
   
 In an [appendix chapter](#inertia) we give a short (and incomplete/WIP) discussion of the issue of 'inertia', and whether slow changes in social norms and individual behavior are inhibiting effective giving. 
 
 We do not present these explicitly as 'barriers'. To us, these seem like underlying factors that will *interact* with these barriers and make some things more or less salient. The nature of the evidence is also somewhat distinct. However, this is very much a judgement call, and we could have gone either way. It was also a judgement call to put the [discussion of underlying (non)-utilitarian values](#are_we_util) in the 'barriers' section. 
 
  
- 
 :::
-
 

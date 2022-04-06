@@ -64,9 +64,10 @@ This needs to be distinguished from scope insensitivity. Note that if people are
 
 Note (unfold)...
 
-::: {.callout-note collapse='true'}
- BG:  My thought was that people who do not value saving lives (or are in general unwilling to contribute to it or oppose policies spending money on foreign aid for some other reason, e.g. prejudice) exercise a form of motivated reasoning to justify this (perhaps in a nonstandard way). They choose to reason according to the 'proportional' standard in order to conclude that it is not worth mdonating to these causes because 'the scope of the problem is too large and they will never be completely solved'. I suggest that people apply this reasoning to problems specifically when they do not want to take action to address these problems. (In contrast, in domains where they do want to make a change, they may use a different, more marginal and \'consistent\' sort of reasoning.) E.g., (to be stereotypical) imagine a MAGA person who wants to end foreign aid because \"Africa will always have endless problems\" but who wants to impose restrictions on abortion (even knowing millions of abortions will continue to occur) because \"every unborn life matters.
+::: {.foldable} 
  
+
+BG:  My thought was that people who do not value saving lives (or are in general unwilling to contribute to it or oppose policies spending money on foreign aid for some other reason, e.g. prejudice) exercise a form of motivated reasoning to justify this (perhaps in a nonstandard way). They choose to reason according to the 'proportional' standard in order to conclude that it is not worth mdonating to these causes because 'the scope of the problem is too large and they will never be completely solved'. I suggest that people apply this reasoning to problems specifically when they do not want to take action to address these problems. (In contrast, in domains where they do want to make a change, they may use a different, more marginal and \'consistent\' sort of reasoning.) E.g., (to be stereotypical) imagine a MAGA person who wants to end foreign aid because \"Africa will always have endless problems\" but who wants to impose restrictions on abortion (even knowing millions of abortions will continue to occur) because \"every unborn life matters.
  
 :::
 
@@ -200,8 +201,10 @@ Treatments started with one size, then presented a "task force's new estimate" w
 
 ### Potential Solutions
 
-::: {.callout-note collapse='true'}
- 1.  Framing
+::: {.foldable} 
+ 
+
+1.  Framing
 
 a.  Frame down denominator (suggestive evidence from Fetherstonhaugh, etc)
 
@@ -225,7 +228,6 @@ d.  (Ari:) "Increase evaluability: putting interventions on same
    Effect in Helping Decisions" [@erlandsson2014perceived]*
 
 
- 
  
 :::
 
@@ -370,15 +372,16 @@ The availability heuristic could translate to more effective charities being neg
 
 @macaskillDoingGoodBetter2015 has also discussed how we should compare malaria and cancer as issues (unfold):
 
-::: {.callout-note collapse='true'}
- Macaskill:
+::: {.foldable} 
+ 
+
+Macaskill:
 
 > Every year cancer kills 8.2 million people and is responsible for 7.6 percent of all deaths and ill health worldwide (measured in terms of QALYs lost). USD 217 billion per year is spent on cancer treatment. Malaria is responsible for 3.3 percent of QALYs lost worldwide. In terms of its health impacts, cancer is about twice as bad as malaria, so if medical spending were in proportion to the scale of the problem, we would expect malaria treatment to receive about USD 100 billion per year. In reality only USD 1.6 billion per year is spent on malaria treatment: about sixty times less than we would expect.
 
 > Cancer treatment receives so much more funding than malaria treatment because malaria is such a cheap problem to solve that rich countries no longer suffer from it. (It was eliminated in the US in 1951.) The fact that cancer treatment receives so much more funding than malaria treatment means that, on the margin, each of us can provide a far greater benefit for other people by funding the most effective malaria treatments in the developing world than we can by funding the most effective cancer treatments in the developed world.
 
 
- 
  
 :::
 
@@ -612,8 +615,10 @@ Furthermore, DonorsChoose doesn't have clearly separate variation in effectivene
 
 Other papers to look into and incorporate (unfold)
 
-::: {.callout-note collapse='true'}
- Borgloh, S., Dannenberg, A., Aretz, B., 2013. Small is beautiful -
+::: {.foldable} 
+ 
+
+Borgloh, S., Dannenberg, A., Aretz, B., 2013. Small is beautiful -
 experimental evidence of donors' preferences for charities. Econ. Lett. 120 (2), 242--244.
 [@borgloh2013small]
 
@@ -703,7 +708,6 @@ Journal of Quality & Reliability Management, 26(1), 5-22.
 
 
  
- 
 :::^[Study finds 'no correlation' between overhead and effectiveness-- is it convincing? Does working abroad increase overhead? Most relevant tie: doing impact evaluation will itself increase overhead.
 ]
 
@@ -713,8 +717,11 @@ References: @gneezyAvoidingOverheadAversion2014, @portillo2018overhead, @kinsber
 
 ## Possible: Misunderstanding need (and misunderstanding marginality/tractability/sunk costs?)
 
-::: {.callout-note collapse='true'}
- Related terms: misunderstanding marginality, misunderstanding tractability, sunk cost fallacies
+::: {.foldable} 
+ 
+
+
+Related terms: misunderstanding marginality, misunderstanding tractability, sunk cost fallacies
 
 **Misperceiving tractability:**
 
@@ -723,7 +730,6 @@ References: @gneezyAvoidingOverheadAversion2014, @portillo2018overhead, @kinsber
 2) donations may respond to average cost per life saved, rather than marginal cost per life
 
 General barrier to accurate assessment of effectiveness ergo a barrier to effective giving.
- 
  
 :::
 
@@ -753,8 +759,11 @@ Ref: @hseeUnitAskingMethod2013
 
 Thoughts... (unfold)
 
-::: {.callout-note collapse='true'}
- "Risk aversion with respect to the impact that I make"
+::: {.foldable} 
+ 
+
+
+"Risk aversion with respect to the impact that I make"
 
 This would come out of (i.e., would be equivalent to) mazimising a utility function which included an 'impact term' with diminishing marginal returns to this impact. This would not in itself be a bias.
 
@@ -765,7 +774,6 @@ However, an individual donor might:
 - Fail to consider that other donors are giving to distinct causes, leading to some automatic diversification
 
  
- 
 :::
 
 ### Bias towards tangibility (perhaps not 'quantitative'?)
@@ -774,8 +782,10 @@ Incorporate notes from [this comment](https://forum.effectivealtruism.org/posts/
 
 Reprinted in fold.
 
-::: {.callout-note collapse='true'}
- to make donations sustainable in the large community one might need to think about *both*
+::: {.foldable} 
+ 
+
+to make donations sustainable in the large community one might need to think about *both*
 - **the gains to the 'beneficiaries', and**
 - **the internal emotional and social benefits for the donor.**
 
@@ -831,15 +841,15 @@ But there is a sense in which the *standard* charity and aid does this anyways, 
 By making it traceable and tangible we may unlock a vast "supply of generosity".
 
  
- 
 :::
 
 ### Corruption aversion (perhaps not 'quantitative'?)
 
 Basic idea: (Unfold)
 
-::: {.callout-note collapse='true'}
- A donor might overstate the importance of corruption in determining the effectiveness of a gift.  E.g., suppose...
+::: {.foldable} 
+ 
+A donor might overstate the importance of corruption in determining the effectiveness of a gift.  E.g., suppose...
 
 *Intervention A (e.g., bednets in country A)*: Saves one life, on average, per 5000 USD donated and used. However, for every 1 USD donated, 5 cents must be paid in bribes to enable the bednets to be distributed. Suppose--just for this example--that the paying these bribes has no other negative consequences in the short or long term.^[This may be hard to swallow. We could also consider that the negative consequences of these bribes has already been taken into account and considering the effectiveness.
 ]
@@ -855,7 +865,5 @@ This is not necessarily a *bias*,  it may be an inherent part of preferences, po
 But there *might also* be a bias involved in some cases.  Some individuals  may not have this inherent distaste for bribery, or may have a distaste for it but still primarily value donating to the most (e.g.) lifesaving-per-dollar cause. However, the silence and visceral repugnance of corruption may cause these individuals to over-estimate its impact on efficiency. (This seems related to the [availibility](#availability) bias.)
 
  
- 
 :::
-
 

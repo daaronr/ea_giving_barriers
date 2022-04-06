@@ -21,14 +21,15 @@ Here we consider the impact of being presented with (or actively pursuing) effec
 
 Further 'grant-worthy' motivation (unfold).
 
-::: {.callout-note collapse='true'}
- As noted above, scientific evidence suggesting that organizations’ “cost per outcome” differs substantially, perhaps by a factor of 1000 or more [@jamisonDeceiveNotDeceive2008]. This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like [GiveWell](http://givewell.org) now provide direct ratings on the basis of  per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors’ preferences for contributions “to be put to good use”—i.e., for direct interventions.
+::: {.foldable} 
+ 
+
+As noted above, scientific evidence suggesting that organizations’ “cost per outcome” differs substantially, perhaps by a factor of 1000 or more [@jamisonDeceiveNotDeceive2008]. This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like [GiveWell](http://givewell.org) now provide direct ratings on the basis of  per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors’ preferences for contributions “to be put to good use”—i.e., for direct interventions.
 
 E.g., In @Aknin2013  participants reported greater happiness when the impact of their contribution was highlighted. [@vaniwaardenCharitiesHowImportant2009; @Aknin2013].
 
 However, while we have rigorous evidence on what works and doesn’t work in anti-poverty and health interventions (acknowledged by the [2019 Economics Nobel Prize](https://www.nobelprize.org/prizes/economic-sciences/2019/press-release/)), we actually know very little about how potential donors react to this impact information!
 
- 
  
 :::
 
@@ -55,13 +56,14 @@ The experimental evidence is limited, mixed and overall indeterminate.  We could
 
 Further related evidence is also indeterminate (see fold).
 
-::: {.callout-note collapse='true'}
- @trussel2007financial finds a positive impact of providing a particular type of analytical charity financial information on a subset of donors.
+::: {.foldable} 
+ 
+
+@trussel2007financial finds a positive impact of providing a particular type of analytical charity financial information on a subset of donors.
 
 There is also mixed evidence on the impact of real-world charity ratings (Yoruk 2016; Brown ea 2017; Gordon 'ea '19), and mixed evidence on 'excuse-driven information seeking' (Exley '16b; Fong & O, '10; Metzger & G '19).
 
 There is some further related evidence lab experiments, but the results are limited. @fongTruthGivingExperimental2010 *apparently* findd that exogenous information about recipients increases donations, but they do not report this specifically.  There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies. [Reference needed here]
- 
  
 :::
 
@@ -146,8 +148,10 @@ knitr::include_graphics(c('picsfigs/parsons_logit.png'))
 
 Further details from Parsons (unfold, direct quotes from paper)
 
-::: {.callout-note collapse='true'}
- (This is all direct quotations:)
+::: {.foldable} 
+ 
+
+(This is all direct quotations:)
 
 Potential donors were sent, via a direct mail
 campaign, fundraising appeals containing varying amounts of financial and nonfinancial
@@ -186,7 +190,6 @@ The second manipulation is to include a voluntary disclosure of service efforts 
 
 Charity: People with Aids Coalition- Houston
  
- 
 :::
 
 *Limitations of \@Linda2007 (for the present question)*
@@ -222,11 +225,12 @@ knitr::include_graphics(c('picsfigs/bergh_pooled_regs.png'))
 
 Notes on above table:
 
-::: {.callout-note collapse='true'}
- (Note that in the above, all binary variables are 'effect coded')
+::: {.foldable} 
+ 
+
+(Note that in the above, all binary variables are 'effect coded')
 Considering 'Don share' (the share of the endowment contributed), as well as the linear probability model, we see that the pooled effect of the effectiveness information is fairly tightly bounded around zero. Even at the 95% lower bound, the effect is no more than an 11% reduction in the share donated (.04/0.35), and a 10% reduction in incidence (.06/.62).
 
- 
  
 :::
 
@@ -279,9 +283,10 @@ The wide confidence intervals of the odds ratios suggests that Study 6 had limit
 
 (Unfold key elements of abstract)
 
-::: {.callout-note collapse='true'}
- > ... investigates whether donor-driven market incentives can explain why nonprofit organizations routinely lack an evidentiary basis to justify their operations. Across three preregistered online survey experiments (N = 1,058), two domains (global health and human rights), and two types of interventions (medical care and issue-awareness), this paper finds that people do not reward exceptionally positive charitable impact, but they do punish charities that admit their programs were ineffective. Charities are only rewarded for revealing information about their impact when the results are unrealistic and unattainable. The results also demonstrate that donors are more sensitive to information about administrative overhead than they are to direct information about impact.
+::: {.foldable} 
  
+
+> ... investigates whether donor-driven market incentives can explain why nonprofit organizations routinely lack an evidentiary basis to justify their operations. Across three preregistered online survey experiments (N = 1,058), two domains (global health and human rights), and two types of interventions (medical care and issue-awareness), this paper finds that people do not reward exceptionally positive charitable impact, but they do punish charities that admit their programs were ineffective. Charities are only rewarded for revealing information about their impact when the results are unrealistic and unattainable. The results also demonstrate that donors are more sensitive to information about administrative overhead than they are to direct information about impact.
  
 :::
 
@@ -321,8 +326,10 @@ While the difference between Realistic and None was not significant by the stand
 
 Other comments (unfold)
 
-::: {.callout-note collapse='true'}
- Comments from Janek Kretschmer:
+::: {.foldable} 
+ 
+
+Comments from Janek Kretschmer:
 
 - The author considers three aspects of the 'problem' with beliefs: no-reward for actual high impact, punishment for low impact, and reward for unrealistic high impact. This might be reduced to the simple assumption that actual cost-effectiveness information can not live up to donors’ expectations [which] makes an investment into scientific evaluation unprofitable for NGOs.
 
@@ -336,7 +343,6 @@ Other comments (unfold)
 
 When the author wonders whether “active donors [...] differ from the general population,” she asks a relevant question (cf. Karlan and Woods, 2017). However, she simply provides the mean donation (M = 70.9 USD) to Human Health International among respondents who have donated in the past twelve months. Thus, it can be said that there is no statistical difference from the mean donation (M = 69.9 USD) among all respondents, including non-donors However,  the more interesting question “do large donors react differently to the four conditions?” remains answered.
 
- 
  
 :::
 
@@ -465,5 +471,4 @@ There is also (informal?) evidence that people may dramatically *underestimate* 
 ]
 
 <!-- two separate surveys, participants were asked how much they thought it would cost “a typical charity to prevent one child in a poor country from dying unnecessarily by improving access to medical care.” In one survey, their median estimate was $40, and in the other survey, it was $150. The surveys asked the same question about the most cost-effective charities, for which the median estimate was $25 in one survey and $100 in the other (Caviola -->
-
 

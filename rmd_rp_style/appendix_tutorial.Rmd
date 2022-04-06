@@ -106,8 +106,10 @@ A brief overview of key functions inside Git (assuming a remote Github
 repo) including commits, pushes & pulls, forks & branches and pull
 requests: (unfold)
 
-::: {.callout-note collapse='true'}
- * **Cloning** a Git repository copies an existing Git repository into your local file space.
+::: {.foldable} 
+ 
+
+* **Cloning** a Git repository copies an existing Git repository into your local file space.
 * A **commit** saves the changes made in the current document to the **local** repository. Specific changes to commit to the remote (online) repo must be specified. This process is made much easier using a program such as Github Desktop rather than the Git code itself (although they do the same thing, and the latter is more flexible).
 * A **push**, pushes all local commits to the online version of this repository, essentially updating the online version of the files, to the version which is stored locally on your device.
 * A **pull**, is used to pull the changes made to the online repository, into the local repository. Thus making the local repository up to date with the remote/online repository.
@@ -118,15 +120,16 @@ requests: (unfold)
 * Repos that are stored on Github can be accessed via a browser at [github.com](https://github.com/). The Github website itself provides a wide variety of tools, discussed further below under ['GitHub web page'](github_web),
 
  
- 
 :::
 
 \
 Git and GitHub can be a bit confusing. Here are some things that I wish
 I had known, that took my a while to figure out (unfold)
 
-::: {.callout-note collapse='true'}
- - Git and Github are not the same thing ... (explain)
+::: {.foldable} 
+ 
+
+- Git and Github are not the same thing ... (explain)
 
 - A 'commit' does not actually change the files in the shared (remote) Github repo; you need to 'push' to do that
 
@@ -136,7 +139,6 @@ I had known, that took my a while to figure out (unfold)
 
 - ... add some more
 
- 
  
 :::
 
@@ -914,8 +916,10 @@ browser or a web-driven app.
 
 
 How to think about Airtable, learning it without getting overwhelmed...
-::: {.callout-note collapse='true'}
- A good way of starting with Airtable/databases is to think
+::: {.foldable} 
+ 
+
+A good way of starting with Airtable/databases is to think
 
 - These are just a bunch of spreadsheets or individual ‘data sets’; I’ll treat them as separate for now
   - Nice, it’s a bit easier to quickly add entries if I choose single or multi-select field types , or chechkboxes
@@ -929,7 +933,6 @@ How to think about Airtable, learning it without getting overwhelmed...
 - Hmm, sheet A has stuff on it that is not relevant for our partner; let me create a simpler ‘view’ of sheet A filtering out rows hiding columns that are not relevant to our partner.
 
 
- 
  
 :::
 
@@ -1037,8 +1040,10 @@ material mentioned above:
 
 For 'unpublic unhosted' Github bookdowns (unlike this one...)
 
-::: {.callout-note collapse='true'}
- I keep updating and pushing the bookdown on the Github. As you know, if you have Github desktop it is automatically set to ‘background fetch’ every hour (I think), so you will regularly have the most recent update on your hard drive in your chosen folder.
+::: {.foldable} 
+ 
+
+I keep updating and pushing the bookdown on the Github. As you know, if you have Github desktop it is automatically set to ‘background fetch’ every hour (I think), so you will regularly have the most recent update on your hard drive in your chosen folder.
 Then all you need to do to ‘keep a tab on this’ is have the local location opened or bookmarked in a browser, and refresh when you want to see the new state of things.
 
 What if you want to take notes or comment on that? You can either do so on Github, on the files themselves (and then push them), or, perhaps easiest, with hypothes.is.
@@ -1046,7 +1051,5 @@ But how can you take notes on hypothesis on an unhosted document…?
 You can still use hypothesis in your browser, and then highlight and comment:
 But what’s the good of that? You can still search groups or tags on the hypothes.is search engine, and see new comments along with the highlighted text (but you don't see them in the full page context).
  
- 
 :::
-
 

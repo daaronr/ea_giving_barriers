@@ -1,18 +1,94 @@
-# Abstract {#abstract .unnumbered}
+---
+title: "Increasing effective charitable giving: The puzzle, what we know, what we need to know next"
+author: "David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and others. Comments and contributions from Jason Schukraft, Michael Aird, Robin Bergh, Michel Justen and others"
+#cover-image: "images/cardcatalogue.JPG"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    lib_dir: "book_assets"
+    includes:
+      in_header: support/header.html
+    css: support/tufte_plus.css
+    config:
+      toc:
+        after: |
+          <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+        collapse: section
+        scroll_highlight: yes
+      fontsettings:
+        family: sans
+        size: 2
+      sharing:
+        facebook: yes
+        twitter: yes
+        google: no
+        linkedin: yes
+        weibo: yes
+        instapaper: no
+        vk: no
+        all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
+    highlight: tango
+    download: [pdf, epub, mobi]
+    sharing:
+      github: yes
+      facebook: no
+bookdown::pdf_book:
+    keep_tex: yes
+always_allow_html: yes
+bibliography: ["reinstein_bibtex.bib", "references.bib", "sections/references.bib"] #covering all bases here ... should really sort it out some day
+biblio-style: apalike
+link-citations: yes
+github-repo: daaronr/ea_giving_barriers
+description: "A broad project of  definition, discussion synthesis, and meta-analysis"
+#url: 'https\://daaronr.github.io//'
+tags: [Effective altruism, charitable giving, meta-analysis, literature survey, field experiments, lab experiments, experimental design, Psychology, Economics, moral circles, behavioral economics, quantitative biases]
+---
+
+<!-- NOTE: you now should build this through running `main.R` in the root directory -->
+
+```{r setting-up-based-on-template-files-and-code}
+
+p_load(here)
+
+library(here)
+here <- here::here()
+
+try_download <- function(url, path) {
+  new_path <- gsub("[.]", "X.", path)
+  tryCatch({
+    download.file(url = url,
+                  destfile = new_path)
+  }, error = function(e) {
+    print("You are not online, so we can't download")
+  })
+  tryCatch(
+    file.rename(new_path, path)
+  )
+}
+
+
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+```{r html, echo=FALSE}
+# globally set chunk options
+knitr::opts_chunk$set(fig.align='center', out.width='80%')
+
+my_output <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+```
 
 ```{=html}
 <!--
 Can define text blocks here, refer to them again and again if desired
 -->
-
-
-<!-- 
-
-description: "A broad project of  definition, discussion synthesis, and meta-analysis"
-#url: 'https\://daaronr.github.io//'
-tags: [Effective altruism, charitable giving, meta-analysis, literature survey, field experiments, lab experiments, experimental design, Psychology, Economics, moral circles, behavioral economics, quantitative biases]
--->
 ```
+
+# Abstract {#abstract .unnumbered}
 
 <!-- Future work: present or link a more extensive abstract here. -->
 
@@ -38,8 +114,10 @@ Our collaborative and dynamic synthesis considers this 'puzzle'. We outline and 
 
 *Why should 'Effective Altruists' and those interested in long-term global priorities care about the effective/ineffective giving behavior of 'typical' individuals?* Notes for Global Priorities Institute presentation (unfold)
 
-::: {.callout-note collapse='true'}
- *Private 'small donor' donations are a substantial part of the global economy* (100s of Billions)...
+::: {.foldable} 
+ 
+
+*Private 'small donor' donations are a substantial part of the global economy* (100s of Billions)...
 
 ... but most/much seems orders of magnitude less effective by any reasonable (cosmopolitan) consideration. Bold research and action into global priorities is and will be largely funded by private giving.
 
@@ -67,8 +145,7 @@ Relation to GPI research:
 
 3. The 'enlightement project', which involves overcoming many of these barriers, may itself be a priority, e.g., in preventing existential risk.
 
-
-
+ 
 :::
 
 \
@@ -91,10 +168,13 @@ Academics (in Economics, Psychology, Biology, and Philosophy) have applied a ran
 
 ## Discussions {-#why-understand-reactions}
 
-For 'Effective Altruists' ... (Why) do we care 'how people react to the presentation of charity-effectiveness information' from a practical point of view? (unfold discussion)
+For 'Effective Altruists' ... (Why) do we care 'how people react to the presentation of charity-effectiveness information' from a practical point of view? (unfold discussion) 
 
-::: {.callout-note collapse='true'}
- *Jason Schukraft:*
+::: {.foldable} 
+ 
+
+
+*Jason Schukraft:*
 
 > Maybe. I suppose it depends on our goals. Do we want people to give to top charities for the right reason (i.e., because those charities are effective) or do we just want people to give to top charities, simpliciter? If the latter, then maybe it doesn't matter how people react to effectiveness information; we should just go with whatever marketing strategy maximizes donations.
 
@@ -126,8 +206,7 @@ This also feels reminiscent of two posts:
 [SlateStarCodex: guided-by-the-beauty-of-our-weapons](https://slatestarcodex.com/2017/03/24/guided-by-the-beauty-of-our-weapons/)
 
 
-
-
+ 
 :::
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -153,9 +232,9 @@ This also feels reminiscent of two posts:
 ## Notes on this format {-}
 
 ::: {.alert .alert-secondary}
-
+ 
 This project is presented in ['Bookdown' format](https://bookdown.org/); it is not only a single page!
-
+ 
 :::
 
 \
@@ -171,10 +250,10 @@ On the right sidebar you should see some icons...
 These are links to add and view comments using the tool [Hypothes.is](https://web.hypothes.is/start/). Please sign up (it only takes a moment) and get involved. I will try to respond to and acknowledge all comments (email me if I have overlooked yours.)
 
 ::: {.alert .alert-secondary}
-
+ 
 
 See further notes in the [technical appendix](#bookdown-appendix) on how this is built, and how to add content. If you like, we can also import and export the content from any section to a Google Doc to enable collaborative editing.
-
+ 
 :::
 
 ### Types of content {-}
@@ -183,10 +262,10 @@ See further notes in the [technical appendix](#bookdown-appendix) on how this is
 
 Folding boxes can be opened to hide/show extra content for a better overview...  I often move 'interesting conversations on the subject at hand' to these blocks.
 
-::: {.callout-note collapse='true'}
- Nothing in here this time though. Surprise!
-
-
+::: {.foldable} 
+ 
+Nothing in here this time though. Surprise!
+ 
 :::
 
 Code blocks (e.g., R-code analysing data and presenting results in-situ; we have few if any so far) will be folded by default.
@@ -195,11 +274,11 @@ Code blocks (e.g., R-code analysing data and presenting results in-situ; we have
 'Note blocks' are used to present aside material or particular things we want to make prominent.
 
 ::: {.alert .alert-secondary}
-
+ 
 
 Look how important I am!
 
-
+ 
 :::
 
 \
@@ -214,6 +293,5 @@ We may occasionally use 'regular footnotes', but I don't find they make sense in
 \
 
 In citing papers and work, we ideally will give *both* a parenthetical reference and a one-click link to the content. (But at least one is a good start.)
-
 
 

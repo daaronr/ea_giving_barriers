@@ -19,14 +19,15 @@ In contrast, charity-supported interventions such as providing guide dogs for th
 In general, most charitable giving goes towards helping people in *wealthier* countries,\* even though it is widely accepted that far more lives can be saved and improved when funds are devoted towards more effective interventions in poor countries (see fold).^[ See, e.g., evidence from a US nationally representative survey (self-reports) in @Reinstein2011a, or lists of the most popular charities in wealthy countries, e.g., [this YouGov poll for the UK.](https://yougov.co.uk/ratings/politics/popularity/charities-organisations/all)
 ]
 
-::: {.callout-note collapse='true'}
- > This range of cost-effectiveness values draws from the growing literature on health care opportunity costs, which suggests that a figure approximating half of gross domestic product (GDP) per capita per DALY averted is a realistic level of willingness-to-pay for health care interventions in [low to middle income countries] (Ochalek, Lomas, and Claxton 2015), cited in [@bundy2017], chapter 3, page 48.
+::: {.foldable} 
+ 
+
+> This range of cost-effectiveness values draws from the growing literature on health care opportunity costs, which suggests that a figure approximating half of gross domestic product (GDP) per capita per DALY averted is a realistic level of willingness-to-pay for health care interventions in [low to middle income countries] (Ochalek, Lomas, and Claxton 2015), cited in [@bundy2017], chapter 3, page 48.
 
 Similar calculations referring to the value of a statistical life as being proportional to GDP per capita are found throughout this volume and beyond. E.g., (a random example) [@cobiac2012] considers "a cost-effectiveness threshold of 50,000 AUSD/DALY" (just a bit below their GDP per capita in 2012.).
 
 As of 2021 the IMF reported ([wikipedia link, accessed 20 May 2021]([https://en.wikipedia.org/wiki/List_of_countries_by_GDP\_(nominal)\_per_capita\#cite_note-GDP_IMF-4](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita#cite_note-GDP_IMF-4)) a GDP-per-capita of over 60,000 USD in the wealthiest countries like the United States and Australia, and under 550 USD in the poorest countries, such as Madagascar and Mozambique, a ratio of roughly 100 to 1.
 
- 
  
 :::
 
@@ -56,8 +57,10 @@ Social science, biology and philosophy present a range of potential theoretical 
 
 A plain-language summary of key points, without references (unfold):
 
-::: {.callout-note collapse='true'}
- **Charities’ impact differs by an order of magnitude:** Some charities are much more effective at saving/improving lives (and achieving other goals such as those involving animals and the environment) than others are. While it is difficult to gain precise estimate on the measures such as “cost of a life saved” there is strong evidence that there are orders of magnitude difference between different categories of charities and different interventions within these categories.
+::: {.foldable} 
+ 
+
+**Charities’ impact differs by an order of magnitude:** Some charities are much more effective at saving/improving lives (and achieving other goals such as those involving animals and the environment) than others are. While it is difficult to gain precise estimate on the measures such as “cost of a life saved” there is strong evidence that there are orders of magnitude difference between different categories of charities and different interventions within these categories.
 
 **There are some very effective lifesaving charities:** Some interventions seem likely to save or vastly improve individual lives at a cost in the range of USD 2000 -  USD 10,000. When people are asked whether they would be willing to spend this amount or even a vastly larger amount to save a life in other contexts they typically will agree to do so.
 
@@ -73,7 +76,6 @@ A plain-language summary of key points, without references (unfold):
 
 Our main ‘policy’ audience includes both effective nonprofit organisations and ‘effective altruists’. The EA movement is highly-motivated, growing, and gaining funding. However, it represents a niche audience: the ‘hyper-analytic but morally-scrupulous’. EA organisations have focused on identifying effective causes and career paths, but have pursued neither extensive outreach nor ‘market research’ on a larger audience (see [Charity Science](http://www.charityscience.com/operations-details/scaling-down-charity-science-outreach), [Gates Foundation/Ideas42](http://www.ideas42.org/wp-content/uploads/2018/08/ideas42-Best-of-Intentions_Charitable-Giving-1.pdf)).
 
- 
  
 :::
 
@@ -92,12 +94,13 @@ This subsection section needs further work, outlining the existing evidence and 
 
 See also (unfold)
 
-::: {.callout-note collapse='true'}
- - Various references at IUPIU; see also Osili, Weipking, Bekkers work
+::: {.foldable} 
+ 
+
+- Various references at IUPIU; see also Osili, Weipking, Bekkers work
 
 -   Sources of data: PSID, GVUSA, GINPS, [add the list here], Giving USA: The Annual Report on Philanthropy (raw data?), Study of High Net Worth Philanthropy
 
- 
  
 :::
 
@@ -222,8 +225,10 @@ We are working on incorporating a connection to the concepts defined in these ou
 
 @caviola2020many
 
-::: {.callout-note collapse='true'}
- 1. The importance of effectiveness
+::: {.foldable} 
+ 
+
+1. The importance of effectiveness
 
 2. Motivational obstacles to effectiveness
 
@@ -251,18 +256,18 @@ We are working on incorporating a connection to the concepts defined in these ou
 4. Strategies to Increase Effective Giving
 
  
- 
 :::
 
 Gertler, "[Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-content/uploads/2018/01/Aaron-Gertler-Senior-Thesis-full-bibliography-1.pdf)\"
 
 
-::: {.callout-note collapse='true'}
- - Substantial motivation
+::: {.foldable} 
+ 
+
+- Substantial motivation
 - A broad picture of the evidence on what motivates and can be used to giving *in general*
 - "Strategies for Effective Charities" (pp 48-59) is most relevant to the current project
 
- 
  
 :::
 
@@ -271,8 +276,11 @@ Gertler, "[Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-
 
 @baron2011heuristics (chapter)
 
-::: {.callout-note collapse='true'}
- -  Introduction (with problem/puzzle)
+::: {.foldable} 
+ 
+
+
+-  Introduction (with problem/puzzle)
 
 - Possible Nonutilitarian Heuristics
 
@@ -299,7 +307,6 @@ Gertler, "[Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-
 -   Discussion: Utilitarian Models of Altruism, Maximize Total Utility,  Limited Self-Sacrifice, Limited Altruism, Moral Education,  Implications
 
  
- 
 :::
 
 
@@ -319,15 +326,15 @@ It is important to define the concept of talking about. What, precisely, is this
 *Aside: 'but what about uncertainty?*^[Thanks to Jason Schukraft for bringing up this point.
 ]
 
-::: {.callout-note collapse='true'}
- \* This discussion abstracts away from issues of empirical uncertainty. We obviously cannot be certain state of the world 'with or without' one's charitable giving. This we cannot be certain about the *impact* of a particular charitable gift. I aim to return to this issue in later sections. Both empirical and 'moral uncertainty' have been carefully considered by academic philosophers and the EA community (e.g., at the Global Priorities Institute).
+::: {.foldable} 
+ 
+\* This discussion abstracts away from issues of empirical uncertainty. We obviously cannot be certain state of the world 'with or without' one's charitable giving. This we cannot be certain about the *impact* of a particular charitable gift. I aim to return to this issue in later sections. Both empirical and 'moral uncertainty' have been carefully considered by academic philosophers and the EA community (e.g., at the Global Priorities Institute).
 
 For the sake of the discussion below, we might assume that either:
 
 - donors essentially only care about the *expected value* consequences of their choices *or*
 - to the extent that their is uncertainty over the 'impact' of donations and interventions, this uncertainty is similar across causes.
 
- 
  
 :::
 
@@ -373,14 +380,15 @@ I assert that $B_j^\prime(G_j)$ is the quantity that GiveWell (and perhaps other
 
 ##### *We know (evidence cited in fold):* {#evidence_eff .unnumbered}
 
-::: {.callout-note collapse='true'}
- There is abundant evidence for order-of-magnitude difference in the effectiveness of charities, and the most popular ones are far from the most effective. Some further links and references:
+::: {.foldable} 
+ 
+
+There is abundant evidence for order-of-magnitude difference in the effectiveness of charities, and the most popular ones are far from the most effective. Some further links and references:
 
 Ord, T. (2013, March 12). "The moral imperative toward cost-effectiveness in global health. Center for Global Development." Retrieved from www.cgdev.org/content/publications/detail/142701.
 
 ["Your dollar goes farther overseas"](http://www.givewell.org/giving101/Your-dollar-goes-further-overseas) (Givewell, 2016).
 
- 
  
 :::
 
@@ -398,15 +406,16 @@ B_k^\prime(G_k) = B_j^\prime(G_j)\forall j,k s.t. G_j>0, G_k>0
 ```
 Caveats (unfold):
 
-::: {.callout-note collapse='true'}
- This assumes a single impact goal, essentially 'cause neutrality'.
+::: {.foldable} 
+ 
+
+This assumes a single impact goal, essentially 'cause neutrality'.
 
 The idea that each donor gives only to a single charity essentially depends on the above 'Small donor assumption'. Still, allowing that the marginal-benefit-leading-charity may vary within the range of an individuals' donation simply implies that they should allocate among multiple charities each up to the point that the last dollar given yields the same marginal benefit as the other charities, yielding the above result. We can imagine an equilibrium in which all donors give to multiple charities, with each of these charities being virtually "tied" in their marginal effectiveness.
 
 
 See also this brief (EA Forum) on the ["Market efficiency of philanthropy"](https://forum.effectivealtruism.org/tag/market-efficiency-of-philanthropy). I hope to extend the discussion here, considering the  'efficient market hypothesis' applied to charitable donations, and the limitations of this.
 
- 
  
 :::
 
@@ -451,6 +460,5 @@ Much is left ambiguous in each model, as well as in other fairly prominent model
 -   or the thing the individual is maximizing
 
 ... in a way that drives donation choices?
-
 
 

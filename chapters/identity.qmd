@@ -3,8 +3,8 @@
 ## Self-interest/local public good (?) {#self-interest}
 
 ::: {.callout-note collapse='true'}
+ In the context of 'team reasoning' and cooperative equilibria, it may seem selfishly beneficial to give locally/ to a public good that your smaller group gains from. If there is ""competition"" ....diminishing empathic returns to giving or moral licensing this may lead to less EG.
  
-In the context of 'team reasoning' and cooperative equilibria, it may seem selfishly beneficial to give locally/ to a public good that your smaller group gains from. If there is ""competition"" ....diminishing empathic returns to giving or moral licensing this may lead to less EG.
  
 :::
 
@@ -12,19 +12,21 @@ In the context of 'team reasoning' and cooperative equilibria, it may seem selfi
 
 ## Cognitive dissonance
 
-```{block2,  type='note'}
+::: {.alert .alert-secondary}
+ 
 
 "Accepting EA would imply I was wasting my money/doing it wrong... $\rightarrow$  they try not to think about effectiveness or are averse to it or just consistency motive"
 
-```  
+ 
+:::  
 
 
 ## (Side note?) Volunteer experience unlocks emotion and giving
 
 ::: {.callout-note collapse='true'}
+ (Contemplating) Volunteering for a cause may make people care about it more, and be more likely to give to it. It is difficult for people to have volunteering experiences with most EA causes. People tend to volunteer for local and domestic  causes, and their  sympathy and giving may follow this (perhaps to avoid cognitive dissonance).    Alternatively/additionally, the volunteering for the local cause may substitute for EG (via moral licensing or a related channel): 'I volunteer for the Girl Scouts so I'm doing enough good,  but I don't need to donate to Against Malaria Foundation'
  
-
-(Contemplating) Volunteering for a cause may make people care about it more, and be more likely to give to it. It is difficult for people to have volunteering experiences with most EA causes. People tend to volunteer for local and domestic  causes, and their  sympathy and giving may follow this (perhaps to avoid cognitive dissonance).    Alternatively/additionally, the volunteering for the local cause may substitute for EG (via moral licensing or a related channel): 'I volunteer for the Girl Scouts so I'm doing enough good,  but I don't need to donate to Against Malaria Foundation'
  
 :::
+
 

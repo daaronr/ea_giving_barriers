@@ -16,8 +16,10 @@ ii. *A moral utilitarian* (consequentialist): The value she places on helping ot
 iii. *Agent-neutral* ('*universalist*'): In considering others' welfare, she values all others equally regardless of their identity. (Unfold for a precise example of this.)^[ I believe this corresponds to a 'symmetric' welfare function in Economics.
      ]
 
-::: {.callout-note collapse='true'}
- Agent-neutrality: a more precise example:
+::: {.foldable} 
+ 
+
+Agent-neutrality: a more precise example:
 
 Consider a world with three other people (B,C,D). Suppose each begin in a poor state. Consider outcomes such as:
 
@@ -27,7 +29,6 @@ Consider a world with three other people (B,C,D). Suppose each begin in a poor s
 
 A universalist, as I define it, would always prefer outcome 1 over outcome 2. She would also rather achieve outcome 1 over outcome 2 with her charity, *no  matter the identity of persons B, C, and D.*
 
- 
  
 :::
 
@@ -80,7 +81,6 @@ We consider the evidence that people 'are utilitarian' in this sense. However, i
 
 
 [@berman2018] suggest that charitable decisions are viewed as choices in which it is *not appropriate* to consider effectiveness.  See market versus social norms.
-
 
 
 

@@ -94,12 +94,13 @@ This 'CBA discomfort'\* can be connected to several (potentially overlapping) th
 
 ### Relevance to Effective Giving (restated in fold) {.unnumbered}
 
-::: {.callout-note collapse='true'}
- If *determining which charity is effective* requires CBA,  people may avoid doing so. If effective charities *force* people to consider CBA then people may avoid these charities in order to avoid having to do these evaluations.
+::: {.foldable} 
+ 
+
+If *determining which charity is effective* requires CBA,  people may avoid doing so. If effective charities *force* people to consider CBA then people may avoid these charities in order to avoid having to do these evaluations.
 
 Stated more broadly, effective giving is predicated on conducting CBA for programs and organizations. To the extent that people are uncomfortable with CBA in the charitable domain, they will be uncomfortable with giving effectively.
 
- 
  
 :::
 
@@ -109,12 +110,13 @@ Stated more broadly, effective giving is predicated on conducting CBA for progra
 
 Tangentially related: many people tend to 'avoid being asked or pressured to donate' (@dellavigna2012testing, @andreoniAvoidingAskField2017).
 
-::: {.callout-note collapse='true'}
- [@dellavigna2012testing] provide field experimental evidence that people will pay costs to avoid being asked and avoid social pressure. However, for this same case *if* they are asked they then to respond by giving. While "avoiding the ask" is not avoiding cost-benefit analysis, it suggests that people are in fact strategic in avoiding things that may make them feel compelled to donate.
+::: {.foldable} 
+ 
+
+[@dellavigna2012testing] provide field experimental evidence that people will pay costs to avoid being asked and avoid social pressure. However, for this same case *if* they are asked they then to respond by giving. While "avoiding the ask" is not avoiding cost-benefit analysis, it suggests that people are in fact strategic in avoiding things that may make them feel compelled to donate.
 
 @andreoniAvoidingAskField2017 find a related result in a distinct field setting.
 
- 
  
 :::
 
@@ -168,14 +170,15 @@ Overall, they find a relative lack of interest in purchasing this information.
 
 Does this demonstrate 'participants did not buy information because they don't care about effectiveness?' (Discussion in fold)
 
-::: {.callout-note collapse='true'}
- The average donation of 'aid non-buyers' was about 2.5 Swiss franks (CHF). (Figure 6). The information costs 0.3 (CHF) If the information is reliable, it could increase the value of the actoin by 25% on average; the 50% more efficient charity is assigned half the time. If the individual prefers to donate only to the more efficient charity, the relative value might be worth about .625 CHF total, or 0.325 more than its cost.  Perhaps
+::: {.foldable} 
+ 
+
+The average donation of 'aid non-buyers' was about 2.5 Swiss franks (CHF). (Figure 6). The information costs 0.3 (CHF) If the information is reliable, it could increase the value of the actoin by 25% on average; the 50% more efficient charity is assigned half the time. If the individual prefers to donate only to the more efficient charity, the relative value might be worth about .625 CHF total, or 0.325 more than its cost.  Perhaps
 
 Note this may be an underestimate; this 'average donation' already reflects uncertainty about the value of the donation.
 
 (Note: I would need to think about this decision problem in more detail; this is an attempt at an order of magnitude.)
 
- 
  
 :::
 
@@ -184,11 +187,12 @@ The comparison to the purchases of information in the other context also seems o
 
 @fongTruthGivingExperimental2010 also finds some loosely related evidence (see fold).
 
-::: {.callout-note collapse='true'}
- @fongTruthGivingExperimental2010 run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh; each subject is matched with a particular recipient of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers."
+::: {.foldable} 
+ 
+
+@fongTruthGivingExperimental2010 run dictator game experiments involving payments to real-life welfare recipients living in 178 public housing in Pittsburgh; each subject is matched with a particular recipient of their potential donation. In their *"Choice treatment",* a subject can choose to pay \$1 to learn about a recipient's drug use or disability, information meant to suggest the deservingness of the recipient. "We find that a third of the dictators are willing to pay money to learn more about their recipient. Dictators who acquire information mostly use it to withhold resources from less-preferred types, leading to a drastic decline in aggregate transfers."
 
 But this needs to be interpreted carefully: *those who decide not to buy information appear less generous than the average*!
- 
  
 :::
 
@@ -200,10 +204,11 @@ But this needs to be interpreted carefully: *those who decide not to buy informa
 
 (Unfold for a short summary from @Berman2018 on their findings):
 
-::: {.callout-note collapse='true'}
- > Study 1 showed that, relative to personal decisions, individuals view charity as being relatively subjective. Study 2 showed that individuals prioritize emotional connection over welfare maximization when comparing charity options. Study 3 examined choice processes and found that people are more likely to override welfare maximization when choosing a charity than when choosing a financial investment. The final two studies found that individuals are less likely to license themselves (Study 4) and others (Study 5) to select an ineffective option when a decision maker assumes a position of responsibility.
-
+::: {.foldable} 
  
+
+> Study 1 showed that, relative to personal decisions, individuals view charity as being relatively subjective. Study 2 showed that individuals prioritize emotional connection over welfare maximization when comparing charity options. Study 3 examined choice processes and found that people are more likely to override welfare maximization when choosing a charity than when choosing a financial investment. The final two studies found that individuals are less likely to license themselves (Study 4) and others (Study 5) to select an ineffective option when a decision maker assumes a position of responsibility.
+
  
 :::^[@Berman2018 also point to @goodwin2008psychology for an examination of 'objectivism' generally, and @spiller2017consumer for their discussion of objectivity in consumer decisions.
 ]
@@ -222,12 +227,13 @@ they found people agreed more with the *subjective/taste* approach when assigned
 
 (Unfold for the authors' description of this methodology)
 
-::: {.callout-note collapse='true'}
- Methodology from @Berman2018
+::: {.foldable} 
+ 
+
+Methodology from @Berman2018
 
 > Participants were asked to evaluate how they believe they should make decisions across six decision domains (choosing a charity, an investment, a cell phone, a restaurant, a piece of art, and a medical treatment). Specifically, they evaluated the extent to which they agreed with the following statements: “It is important that the _____ I choose reflects my personal tastes or values,” “It is more important to rely on objective measures rather than personal feelings when choosing _____,” and “Objective measures are the best way to choose _____.” Responses were made on a scale from 1 (*not at all*) to 7 (*very much so*).
 
- 
  
 :::
 
@@ -239,8 +245,10 @@ They were also asked: "Which option does the greatest good for the greatest numb
 
 (Unfold for the authors' description of this methodology and results...)
 
-::: {.callout-note collapse='true'}
- Methodology from @Berman2018
+::: {.foldable} 
+ 
+
+Methodology from @Berman2018
 
 > Participants read a scenario involving Mary, who was looking to donate money to one of two hypothetical charities. One charity, Hunger Care in Africa, was described as providing micronutrients for children in Africa, and for each USD 100 donated, this charity could feed five children for a month. A second charity, Jump Start Your Community, was described as training and educating the homeless in Mary’s community, and for every USD 100 donated, this charity could provide 2 hr of job training to one homeless person
 
@@ -253,7 +261,6 @@ They were also asked: "Which option does the greatest good for the greatest numb
 > When participants read that Mary felt an emotional connection with distant charities, they responded that she should donate to Hunger Care in Africa… and also evaluated it as being more effective… However, when Mary felt connected to local communities, they indicated that she should donate to Jump Start Your Community…, despite indicating that Hunger Care in Africa was more effective
 
  
- 
 :::^[Somewhat puzzlingly, Mary's connection to the charity also affected the stated "effectiveness" response! This may bear a closer examination. Is there a meaningful effect here, or does this suggest a confound?
 ]
 
@@ -261,8 +268,10 @@ In their "Study 3: Charity Versus Investment Choice", subjects were assigned cat
 
 (Unfold for further discussion of study 3...)
 
-::: {.callout-note collapse='true'}
- Study 3 built on the ideas from Study 1. Effective altruism suggests that to make the biggest difference, people should try to maximize welfare, analogously investors seeking maximize their financial returns. However, Study 1 suggested that individuals viewed objective information as more important in making *financial* decisions than in charitable decisions. The third study from @Berman2018 tries to more directly compare the two, using the following method:
+::: {.foldable} 
+ 
+
+Study 3 built on the ideas from Study 1. Effective altruism suggests that to make the biggest difference, people should try to maximize welfare, analogously investors seeking maximize their financial returns. However, Study 1 suggested that individuals viewed objective information as more important in making *financial* decisions than in charitable decisions. The third study from @Berman2018 tries to more directly compare the two, using the following method:
 
 > Participants were also told that the website organizes options into six different categories (alternative energy, cancer, education, food, housing, and international). These categories were chosen because they could plausibly represent groupings of either charities or investments.
 
@@ -270,7 +279,6 @@ In their "Study 3: Charity Versus Investment Choice", subjects were assigned cat
 
 They found that participants were significantly more likely to sort by effectiveness in the investment condition than in the charity condition. Furthermore, when the options were ranked, “participants chose a less effective charity... than investment”.
 
- 
  
 :::
 
@@ -282,8 +290,10 @@ In Study 4, they find that, in rating research departments for funding, particip
 
 (Unfold for further details of study 4...)
 
-::: {.callout-note collapse='true'}
- In Study 4, participants were assigned to a donor condition or a president condition, and then participants were either given information on effectiveness ratings, or there was no mention of effectiveness ratings.
+::: {.foldable} 
+ 
+
+In Study 4, participants were assigned to a donor condition or a president condition, and then participants were either given information on effectiveness ratings, or there was no mention of effectiveness ratings.
 
 > Participants assigned to the donor condition imagined that they lived near a local research center. Participants assigned to the president condition imagined that they were the president of a local medical research center. Participants in the donor condition were then told that “because the market has done well, you have more cash than usual. You would like to help by making a donation to medical research.” Participants in the president condition were told that “Because the stock market has done well, the research center has more cash than usual. As president, it is part of your job to allocate these funds to conduct additional medical research.”
 > Each participant was then given his or her choice between allocating funds to one of three departments, with effectiveness ratings provided for each department… These ratings were purposefully selected so that the most intuitively appealing choice was rated as the least effective (cancer), and the least appealing choice was rated as the most effective (arthritis), thereby creating a tension between the option that would be most personally gratifying and the option that would maximize welfare
@@ -293,15 +303,16 @@ Their results suggested that people paid more attention to the effectiveness rat
 > When the effectiveness ratings were absent, the assigned role did not significantly affect the option that participants chose… However, when the ratings were present, participants in the president condition were significantly more likely to select higher rated options than those in the donor condition… Although participants used effectiveness ratings when given this information, significantly more did so when placed in a position of responsibility
 
  
- 
 :::
 
 \
 
 Study 5 details (unfold)
 
-::: {.callout-note collapse='true'}
- Their fifth study used a similar methodology to Study 4, to examine “how individuals judge others who select either a relatively effective or an ineffective option”, using the following method:
+::: {.foldable} 
+ 
+
+Their fifth study used a similar methodology to Study 4, to examine “how individuals judge others who select either a relatively effective or an ineffective option”, using the following method:
 
 > The study has a 2 (role: donor vs. medical center president) x 2 (choice: most effective option vs. least effective option) between-subjects design. Participants read a scenario about Mr. Peterson, an individual who was allocating money to a local medical research center. In the donor condition, participants read that Mr. Peterson was looking to donate money from recent stock market gains to a department within the medical center. In the president condition, participants read that Mr. Peterson was the president of the medical research center and that he was looking to allocate surplus funds from recent stock market gains to a department within the medical center
 > In all conditions, participants then read about an independent research firm that evaluates the effectiveness of departments in the same fashion as the previous study
@@ -312,7 +323,6 @@ As with Study 4, the results suggested that people thought effectiveness informa
 > In both the president and the donor conditions, participants felt that Mr. Peterson’s decision was of lower quality when he selected the least effective option over the most effective option. However, the drop in decision quality was significantly greater when he was president… than when he was a donor
 > In both the president and the donor conditions, participants felt that Mr. Peterson’s decision was less altruistic when he selected the least effective option over the most effective option. However, this difference was greater when Mr. Peterson was president… than when he was a donor
 
- 
  
 :::
 
@@ -402,5 +412,4 @@ DR: It is not clear to me when they are reporting on the self-selected groups an
 
 -->
 ```
-
 

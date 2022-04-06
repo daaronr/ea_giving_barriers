@@ -18,8 +18,10 @@ In this set of chapters:
 **INTRODUCTION & FUNDAMENTALS**
 
 
-::: {.callout-note collapse='true'}
- - [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle)**  Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
+::: {.foldable} 
+ 
+
+- [Presenting the puzzle and challenge: Our ineffective giving](#present-puzzle)**  Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
 
 -  [Definitions - "Efficiency" versus impact](#impact-definitions)\
 
@@ -47,7 +49,6 @@ Briefly mapping and outlining this...
 -   Does impact map into the 'good feeling' from giving, can it do so?
 
 
- 
  
 :::
 
@@ -206,8 +207,10 @@ This project is informally connected with the [EA Market Testing team](https://e
 
 Consider potential integration with...
 
-::: {.callout-note collapse='true'}
- Consider potential integration with (no-longer-maintained) PriorityWiki/Rethink Charity {-}
+::: {.foldable} 
+ 
+
+Consider potential integration with (no-longer-maintained) PriorityWiki/Rethink Charity {-}
 
 How have EA orgs been brought together ...especially at universities?
 
@@ -217,7 +220,6 @@ How have EA orgs been brought together ...especially at universities?
 
 -   [Facebook group](https://www.facebook.com/groups/effective.altruists/)
 
- 
  
 :::
 
@@ -238,5 +240,4 @@ How have EA orgs been brought together ...especially at universities?
 </script>
 ```
 </html>
-
 

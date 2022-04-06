@@ -73,6 +73,11 @@ print("project_setup creates 'code' folder and downloads baseoptions.R, and func
 
 p_load("bettertrace") #better tracking after bugs
 
+
+### Build Quarto book ####
+
+system("quarto render")
+
 #### BUILD the bookdown ####
 #The line below should 'build the bookdown' in the order specified in `_bookdown.yml`
 
@@ -96,21 +101,36 @@ p_load("bettertrace") #better tracking after bugs
 
 # Moving to Quarto ####
 
+#... first the conversions to RP style ####
+
+# list of files taken from _bookdown.yml
+
+rmd_files <- c("outline_work.Rmd", "present_puzzle.Rmd",  "substitution.Rmd",  "barriers_breakdown.Rmd", "BARRIERS_FUNDAMENTAL.md", "doesimpactmatter.Rmd", "aware-distance.Rmd", "identity.Rmd", "social.Rmd", "BARRIERS_INFO.md", "eval-aversion.Rmd", "impact_analytical.Rmd",  "BARRIERS_JUDGEMENT.md",  "quant-biases.Rmd", "factual.Rmd", "PATH_FORWARD.md", "tools.Rmd", "conclusion-agenda.Rmd", "appendix_tutorial.Rmd", "inertia.Rmd", "references.Rmd")
+
+source_url("https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/parse_dr_to_ws.R")
+
+system("mkdir rmd_rp_style")
+
+map2(rmd_files, rmd_files,
+  ~ dr_to_bs4(here::here("sections", .x), here::here("rmd_rp_style", .y)))
+
+dr_to_bs4("index.Rmd", here::here("index_rp.Rmd"))
+
 # Parsing command
 p_load(rex)
 source_url("https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/parse_rp_bookdown_to_quarto.R")
 
-# list of files taken from _bookdown.yml
-rmd_files <- c("outline_work.Rmd", "present_puzzle.Rmd",  "substitution.Rmd",  "barriers_breakdown.Rmd", "BARRIERS_FUNDAMENTAL.md", "doesimpactmatter.Rmd", "aware-distance.Rmd", "identity.Rmd", "social.Rmd", "BARRIERS_INFO.md", "eval-aversion.Rmd", "impact_analytical.Rmd",  "BARRIERS_JUDGEMENT.md",  "quant-biases.Rmd", "factual.Rmd", "PATH_FORWARD.md", "tools.Rmd", "conclusion-agenda.Rmd", "appendix_tutorial.Rmd", "inertia.Rmd", "references.Rmd")
-
 # apply all parsing commands and put it into 'chapters' folder
 system("mkdir chapters")
 map2(rmd_files, rmd_files,
-  ~ rp_rmd_to_quarto(here::here("sections", .y), here::here("chapters", .y)))
+  ~ rp_rmd_to_quarto(here::here("rmd_rp_style", .y), here::here("chapters", .y)))
 
 newName <- sub(".Rmd", ".qmd", here::here("chapters", rmd_files))
-
 file.rename(here::here("chapters", rmd_files), newName)
+
+rp_rmd_to_quarto("index_rp.Rmd", "index.qmd")
+
+
 
 ##TODO:
 # - index.Rmd file needs will need adjusting,
