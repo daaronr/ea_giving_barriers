@@ -1,0 +1,2061 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>11 Quantitative biases (the ‘distorted altruist’) | Increasing effective charitable giving: The puzzle, what we know, what we need to know next</title>
+  <meta name="description" content="A broad project of definition, discussion synthesis, and meta-analysis" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="11 Quantitative biases (the ‘distorted altruist’) | Increasing effective charitable giving: The puzzle, what we know, what we need to know next" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A broad project of definition, discussion synthesis, and meta-analysis" />
+  <meta name="github-repo" content="daaronr/ea_giving_barriers" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="11 Quantitative biases (the ‘distorted altruist’) | Increasing effective charitable giving: The puzzle, what we know, what we need to know next" />
+  
+  <meta name="twitter:description" content="A broad project of definition, discussion synthesis, and meta-analysis" />
+  
+
+<meta name="author" content="David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and others. Comments and contributions from Jason Schukraft, Michael Aird, Robin Bergh, Michel Justen and others" />
+
+
+<meta name="date" content="2022-04-06" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="barriers-judgementcognition-failures-systematic-misperceptions.html"/>
+<link rel="next" href="factual.html"/>
+<script src="book_assets/header-attrs-2.11/header-attrs.js"></script>
+<script src="book_assets/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="book_assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="book_assets/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="book_assets/anchor-sections-1.0.1/anchor-sections.js"></script>
+<!-- font families -->
+
+<link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
+
+<!-- <script src="js/hideOutput.js"></script> -->
+
+<!-- Mathjax -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/default.js"></script>
+
+ <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js", "TeX/AMSmath.js"],
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+        jax: ["input/TeX","output/CommonHTML"]
+      });
+      MathJax.Hub.processSectionDelay = 0;
+  </script>
+
+
+
+
+<script async defer src="https://hypothes.is/embed.js"></script>
+
+<!-- Folding text box javascript thing -->
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $folds = $(".fold");
+  $folds.wrapInner("<div class=\"fold-blck\">"); // wrap a div container around content
+  $folds.prepend("<button class=\"fold-btn\">Unfold</button>");  // add a button
+  $(".fold-blck").toggle();  // fold all blocks
+  $(".fold-btn").on("click", function() {  // add onClick event
+    $(this).text($(this).text() === "Fold" ? "Unfold" : "Fold");  // if the text equals "Fold", change it to "Unfold"or else to "Fold"
+    $(this).next(".fold-blck").toggle("linear");  // "swing" is the default easing function. This can be further customized in its speed or the overall animation itself.
+  })
+});
+</script>
+
+<!--
+<script type="text/javascript">
+
+// toggle visibility of R source blocks in R Markdown output
+function toggle_R() {
+  var x = document.getElementsByClassName('r');
+  if (x.length == 0) return;
+  function toggle_vis(o) {
+    var d = o.style.display;
+    o.style.display = (d == 'block' || d == '') ? 'none':'block';
+  }
+
+  for (i = 0; i < x.length; i++) {
+    var y = x[i];
+    if (y.tagName.toLowerCase() === 'pre') toggle_vis(y);
+  }
+
+    var elem = document.getElementById("myButton1");
+    if (elem.value === "Hide Global") elem.value = "Show Global";
+    else elem.value = "Hide Global";
+}
+
+document.write('<input onclick="toggle_R();" type="button" value="Hide Global" id="myButton1" style="position: absolute; top: 10%; right: 2%; z-index: 200"></input>')
+
+</script> -->
+
+<!-- Global site tag (gtag.js) - Google Analytics
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148137970-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148137970-3');
+</script>
+-->
+
+<!-- FOLDING TEXT BOXES -->
+
+<script>
+/* ========================================================================
+ * Bootstrap: transition.js v3.3.7
+ * http://getbootstrap.com/javascript/#transitions
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+
++function ($) {
+  'use strict';
+
+  // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
+  // ============================================================
+
+  function transitionEnd() {
+    var el = document.createElement('bootstrap')
+
+    var transEndEventNames = {
+      WebkitTransition : 'webkitTransitionEnd',
+      MozTransition    : 'transitionend',
+      OTransition      : 'oTransitionEnd otransitionend',
+      transition       : 'transitionend'
+    }
+
+    for (var name in transEndEventNames) {
+      if (el.style[name] !== undefined) {
+        return { end: transEndEventNames[name] }
+      }
+    }
+
+    return false // explicit for ie8 (  ._.)
+  }
+
+  // http://blog.alexmaccaw.com/css-transitions
+  $.fn.emulateTransitionEnd = function (duration) {
+    var called = false
+    var $el = this
+    $(this).one('bsTransitionEnd', function () { called = true })
+    var callback = function () { if (!called) $($el).trigger($.support.transition.end) }
+    setTimeout(callback, duration)
+    return this
+  }
+
+  $(function () {
+    $.support.transition = transitionEnd()
+
+    if (!$.support.transition) return
+
+    $.event.special.bsTransitionEnd = {
+      bindType: $.support.transition.end,
+      delegateType: $.support.transition.end,
+      handle: function (e) {
+        if ($(e.target).is(this)) return e.handleObj.handler.apply(this, arguments)
+      }
+    }
+  })
+
+}(jQuery);
+</script>
+<script>
+/* ========================================================================
+ * Bootstrap: collapse.js v3.3.7
+ * http://getbootstrap.com/javascript/#collapse
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+/* jshint latedef: false */
+
++function ($) {
+  'use strict';
+
+  // COLLAPSE PUBLIC CLASS DEFINITION
+  // ================================
+
+  var Collapse = function (element, options) {
+    this.$element      = $(element)
+    this.options       = $.extend({}, Collapse.DEFAULTS, options)
+    this.$trigger      = $('[data-toggle="collapse"][href="#' + element.id + '"],' +
+                           '[data-toggle="collapse"][data-target="#' + element.id + '"]')
+    this.transitioning = null
+
+    if (this.options.parent) {
+      this.$parent = this.getParent()
+    } else {
+      this.addAriaAndCollapsedClass(this.$element, this.$trigger)
+    }
+
+    if (this.options.toggle) this.toggle()
+  }
+
+  Collapse.VERSION  = '3.3.7'
+
+  Collapse.TRANSITION_DURATION = 350
+
+  Collapse.DEFAULTS = {
+    toggle: true
+  }
+
+  Collapse.prototype.dimension = function () {
+    var hasWidth = this.$element.hasClass('width')
+    return hasWidth ? 'width' : 'height'
+  }
+
+  Collapse.prototype.show = function () {
+    if (this.transitioning || this.$element.hasClass('in')) return
+
+    var activesData
+    var actives = this.$parent && this.$parent.children('.panel').children('.in, .collapsing')
+
+    if (actives && actives.length) {
+      activesData = actives.data('bs.collapse')
+      if (activesData && activesData.transitioning) return
+    }
+
+    var startEvent = $.Event('show.bs.collapse')
+    this.$element.trigger(startEvent)
+    if (startEvent.isDefaultPrevented()) return
+
+    if (actives && actives.length) {
+      Plugin.call(actives, 'hide')
+      activesData || actives.data('bs.collapse', null)
+    }
+
+    var dimension = this.dimension()
+
+    this.$element
+      .removeClass('collapse')
+      .addClass('collapsing')[dimension](0)
+      .attr('aria-expanded', true)
+
+    this.$trigger
+      .removeClass('collapsed')
+      .attr('aria-expanded', true)
+
+    this.transitioning = 1
+
+    var complete = function () {
+      this.$element
+        .removeClass('collapsing')
+        .addClass('collapse in')[dimension]('')
+      this.transitioning = 0
+      this.$element
+        .trigger('shown.bs.collapse')
+    }
+
+    if (!$.support.transition) return complete.call(this)
+
+    var scrollSize = $.camelCase(['scroll', dimension].join('-'))
+
+    this.$element
+      .one('bsTransitionEnd', $.proxy(complete, this))
+      .emulateTransitionEnd(Collapse.TRANSITION_DURATION)[dimension](this.$element[0][scrollSize])
+  }
+
+  Collapse.prototype.hide = function () {
+    if (this.transitioning || !this.$element.hasClass('in')) return
+
+    var startEvent = $.Event('hide.bs.collapse')
+    this.$element.trigger(startEvent)
+    if (startEvent.isDefaultPrevented()) return
+
+    var dimension = this.dimension()
+
+    this.$element[dimension](this.$element[dimension]())[0].offsetHeight
+
+    this.$element
+      .addClass('collapsing')
+      .removeClass('collapse in')
+      .attr('aria-expanded', false)
+
+    this.$trigger
+      .addClass('collapsed')
+      .attr('aria-expanded', false)
+
+    this.transitioning = 1
+
+    var complete = function () {
+      this.transitioning = 0
+      this.$element
+        .removeClass('collapsing')
+        .addClass('collapse')
+        .trigger('hidden.bs.collapse')
+    }
+
+    if (!$.support.transition) return complete.call(this)
+
+    this.$element
+      [dimension](0)
+      .one('bsTransitionEnd', $.proxy(complete, this))
+      .emulateTransitionEnd(Collapse.TRANSITION_DURATION)
+  }
+
+  Collapse.prototype.toggle = function () {
+    this[this.$element.hasClass('in') ? 'hide' : 'show']()
+  }
+
+  Collapse.prototype.getParent = function () {
+    return $(this.options.parent)
+      .find('[data-toggle="collapse"][data-parent="' + this.options.parent + '"]')
+      .each($.proxy(function (i, element) {
+        var $element = $(element)
+        this.addAriaAndCollapsedClass(getTargetFromTrigger($element), $element)
+      }, this))
+      .end()
+  }
+
+  Collapse.prototype.addAriaAndCollapsedClass = function ($element, $trigger) {
+    var isOpen = $element.hasClass('in')
+
+    $element.attr('aria-expanded', isOpen)
+    $trigger
+      .toggleClass('collapsed', !isOpen)
+      .attr('aria-expanded', isOpen)
+  }
+
+  function getTargetFromTrigger($trigger) {
+    var href
+    var target = $trigger.attr('data-target')
+      || (href = $trigger.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '') // strip for ie7
+
+    return $(target)
+  }
+
+
+  // COLLAPSE PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this   = $(this)
+      var data    = $this.data('bs.collapse')
+      var options = $.extend({}, Collapse.DEFAULTS, $this.data(), typeof option == 'object' && option)
+
+      if (!data && options.toggle && /show|hide/.test(option)) options.toggle = false
+      if (!data) $this.data('bs.collapse', (data = new Collapse(this, options)))
+      if (typeof option == 'string') data[option]()
+    })
+  }
+
+  var old = $.fn.collapse
+
+  $.fn.collapse             = Plugin
+  $.fn.collapse.Constructor = Collapse
+
+
+  // COLLAPSE NO CONFLICT
+  // ====================
+
+  $.fn.collapse.noConflict = function () {
+    $.fn.collapse = old
+    return this
+  }
+
+
+  // COLLAPSE DATA-API
+  // =================
+
+  $(document).on('click.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) {
+    var $this   = $(this)
+
+    if (!$this.attr('data-target')) e.preventDefault()
+
+    var $target = getTargetFromTrigger($this)
+    var data    = $target.data('bs.collapse')
+    var option  = data ? 'toggle' : $this.data()
+
+    Plugin.call($target, option)
+  })
+
+}(jQuery);
+</script>
+<script>
+window.initializeCodeFolding = function(show) {
+
+  // handlers for show-all and hide all
+  $("#rmd-show-all-code").click(function() {
+    $('div.r-code-collapse').each(function() {
+      $(this).collapse('show');
+    });
+  });
+  $("#rmd-hide-all-code").click(function() {
+    $('div.r-code-collapse').each(function() {
+      $(this).collapse('hide');
+    });
+  });
+
+  // index for unique code element ids
+  var currentIndex = 1;
+
+  // select all R code blocks
+  var rCodeBlocks = $('pre.sourceCode, pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan, pre.js');
+  rCodeBlocks.each(function() {
+
+    // create a collapsable div to wrap the code in
+    var div = $('<div class="collapse r-code-collapse"></div>');
+    if (show)
+      div.addClass('in');
+    var id = 'rcode-643E0F36' + currentIndex++;
+    div.attr('id', id);
+    $(this).before(div);
+    $(this).detach().appendTo(div);
+
+    // add a show code button right above
+    var showCodeText = $('<span>' + (show ? 'Hide' : 'Code') + '</span>');
+    var showCodeButton = $('<button type="button" class="btn btn-default btn-xs code-folding-btn pull-right"></button>');
+    showCodeButton.append(showCodeText);
+    showCodeButton
+        .attr('data-toggle', 'collapse')
+        .attr('data-target', '#' + id)
+        .attr('aria-expanded', show)
+        .attr('aria-controls', id);
+
+    var buttonRow = $('<div class="row"></div>');
+    var buttonCol = $('<div class="col-md-12"></div>');
+
+    buttonCol.append(showCodeButton);
+    buttonRow.append(buttonCol);
+
+    div.before(buttonRow);
+
+    // update state of button on show/hide
+    div.on('hidden.bs.collapse', function () {
+      showCodeText.text('Code');
+    });
+    div.on('show.bs.collapse', function () {
+      showCodeText.text('Hide');
+    });
+  });
+
+}
+</script>
+<script>
+/* ========================================================================
+ * Bootstrap: dropdown.js v3.3.7
+ * http://getbootstrap.com/javascript/#dropdowns
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+
++function ($) {
+  'use strict';
+
+  // DROPDOWN CLASS DEFINITION
+  // =========================
+
+  var backdrop = '.dropdown-backdrop'
+  var toggle   = '[data-toggle="dropdown"]'
+  var Dropdown = function (element) {
+    $(element).on('click.bs.dropdown', this.toggle)
+  }
+
+  Dropdown.VERSION = '3.3.7'
+
+  function getParent($this) {
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && /#[A-Za-z]/.test(selector) && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    }
+
+    var $parent = selector && $(selector)
+
+    return $parent && $parent.length ? $parent : $this.parent()
+  }
+
+  function clearMenus(e) {
+    if (e && e.which === 3) return
+    $(backdrop).remove()
+    $(toggle).each(function () {
+      var $this         = $(this)
+      var $parent       = getParent($this)
+      var relatedTarget = { relatedTarget: this }
+
+      if (!$parent.hasClass('open')) return
+
+      if (e && e.type == 'click' && /input|textarea/i.test(e.target.tagName) && $.contains($parent[0], e.target)) return
+
+      $parent.trigger(e = $.Event('hide.bs.dropdown', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this.attr('aria-expanded', 'false')
+      $parent.removeClass('open').trigger($.Event('hidden.bs.dropdown', relatedTarget))
+    })
+  }
+
+  Dropdown.prototype.toggle = function (e) {
+    var $this = $(this)
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    clearMenus()
+
+    if (!isActive) {
+      if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
+        // if mobile we use a backdrop because click events don't delegate
+        $(document.createElement('div'))
+          .addClass('dropdown-backdrop')
+          .insertAfter($(this))
+          .on('click', clearMenus)
+      }
+
+      var relatedTarget = { relatedTarget: this }
+      $parent.trigger(e = $.Event('show.bs.dropdown', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this
+        .trigger('focus')
+        .attr('aria-expanded', 'true')
+
+      $parent
+        .toggleClass('open')
+        .trigger($.Event('shown.bs.dropdown', relatedTarget))
+    }
+
+    return false
+  }
+
+  Dropdown.prototype.keydown = function (e) {
+    if (!/(38|40|27|32)/.test(e.which) || /input|textarea/i.test(e.target.tagName)) return
+
+    var $this = $(this)
+
+    e.preventDefault()
+    e.stopPropagation()
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    if (!isActive && e.which != 27 || isActive && e.which == 27) {
+      if (e.which == 27) $parent.find(toggle).trigger('focus')
+      return $this.trigger('click')
+    }
+
+    var desc = ' li:not(.disabled):visible a'
+    var $items = $parent.find('.dropdown-menu' + desc)
+
+    if (!$items.length) return
+
+    var index = $items.index(e.target)
+
+    if (e.which == 38 && index > 0)                 index--         // up
+    if (e.which == 40 && index < $items.length - 1) index++         // down
+    if (!~index)                                    index = 0
+
+    $items.eq(index).trigger('focus')
+  }
+
+
+  // DROPDOWN PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.dropdown')
+
+      if (!data) $this.data('bs.dropdown', (data = new Dropdown(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  var old = $.fn.dropdown
+
+  $.fn.dropdown             = Plugin
+  $.fn.dropdown.Constructor = Dropdown
+
+
+  // DROPDOWN NO CONFLICT
+  // ====================
+
+  $.fn.dropdown.noConflict = function () {
+    $.fn.dropdown = old
+    return this
+  }
+
+
+  // APPLY TO STANDARD DROPDOWN ELEMENTS
+  // ===================================
+
+  $(document)
+    .on('click.bs.dropdown.data-api', clearMenus)
+    .on('click.bs.dropdown.data-api', '.dropdown form', function (e) { e.stopPropagation() })
+    .on('click.bs.dropdown.data-api', toggle, Dropdown.prototype.toggle)
+    .on('keydown.bs.dropdown.data-api', toggle, Dropdown.prototype.keydown)
+    .on('keydown.bs.dropdown.data-api', '.dropdown-menu', Dropdown.prototype.keydown)
+
+}(jQuery);
+</script>
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+.row { display: flex; }
+.collapse { display: none; }
+.in { display:block }
+.pull-right > .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+.open > .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+</style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("show" === "hide");
+});
+</script>
+
+
+<script>
+document.write('<div class="btn-group pull-right" style="position: absolute; top: 10%; right: 15%; z-index: 200"><button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-_extension-text-contrast=""><span>Code</span> <span class="caret"></span></button><ul class="dropdown-menu" style="min-width: 50px;"><li><a id="rmd-show-all-code" href="#">Show All Code</a></li><li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li></ul></div>')
+</script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="support/tufte_plus.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#pop-abstract"><i class="fa fa-check"></i>Non-technical non-EA abstract (for mainstream audiences)</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#present-links"><i class="fa fa-check"></i>Some links to presentations</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#why-understand-reactions"><i class="fa fa-check"></i>Discussions</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#notes-on-this-format"><i class="fa fa-check"></i>Notes on this format</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#types-of-content"><i class="fa fa-check"></i>Types of content</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="introduction-fundamentals.html"><a href="introduction-fundamentals.html"><i class="fa fa-check"></i>INTRODUCTION &amp; FUNDAMENTALS</a>
+<ul>
+<li class="chapter" data-level="" data-path="introduction-fundamentals.html"><a href="introduction-fundamentals.html#outline-of-key-parts-unfold"><i class="fa fa-check"></i>Outline of key ‘PARTS’ (unfold)</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="evidence.html"><a href="evidence.html"><i class="fa fa-check"></i><b>1</b> Evidence, empirical considerations, organization</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="evidence.html"><a href="evidence.html#structure-barriers"><i class="fa fa-check"></i><b>1.1</b> Structure of each ‘barriers’ section</a></li>
+<li class="chapter" data-level="1.2" data-path="evidence.html"><a href="evidence.html#paper-structure"><i class="fa fa-check"></i><b>1.2</b> Consideration of each paper</a></li>
+<li class="chapter" data-level="1.3" data-path="evidence.html"><a href="evidence.html#evidence0meta"><i class="fa fa-check"></i><b>1.3</b> Evidence and meta-analysis: discussion</a></li>
+<li class="chapter" data-level="1.4" data-path="evidence.html"><a href="evidence.html#airtable-contrib"><i class="fa fa-check"></i><b>1.4</b> Airtable organisation; contributing content</a></li>
+<li class="chapter" data-level="1.5" data-path="evidence.html"><a href="evidence.html#other-practical-considerations-partnerships"><i class="fa fa-check"></i><b>1.5</b> Other practical considerations, partnerships</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="present-puzzle.html"><a href="present-puzzle.html"><i class="fa fa-check"></i><b>2</b> Presenting the puzzle and challenge: Our ineffective giving</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="present-puzzle.html"><a href="present-puzzle.html#motivate-puzzle"><i class="fa fa-check"></i><b>2.1</b> Motivation and descriptives</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="present-puzzle.html"><a href="present-puzzle.html#ea-depict"><i class="fa fa-check"></i><b>2.1.1</b> Descriptives of giving (US, international) and how ‘ineffective’ it is.</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="present-puzzle.html"><a href="present-puzzle.html#prevsurvey"><i class="fa fa-check"></i><b>2.2</b> (Lack of) previous synthesis on this</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="present-puzzle.html"><a href="present-puzzle.html#effectiveness-prev-work"><i class="fa fa-check"></i><b>2.2.1</b> Effectiveness-specific work</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="present-puzzle.html"><a href="present-puzzle.html#def-impact"><i class="fa fa-check"></i><b>2.3</b> Definitions - “Efficiency” versus impact</a></li>
+<li class="chapter" data-level="2.4" data-path="present-puzzle.html"><a href="present-puzzle.html#why-puzzle"><i class="fa fa-check"></i><b>2.4</b> Why (under which models) is this a puzzle?</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="present-puzzle.html"><a href="present-puzzle.html#econ-models"><i class="fa fa-check"></i><b>2.4.1</b> Aside: Economic models of giving*</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="substitution.html"><a href="substitution.html"><i class="fa fa-check"></i><b>3</b> Are charities in competition? Is the ineffective giving reducing effective giving?</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="substitution.html"><a href="substitution.html#subst-framework"><i class="fa fa-check"></i><b>3.1</b> Theoretical framework and concerns</a>
+<ul>
+<li class="chapter" data-level="" data-path="substitution.html"><a href="substitution.html#expend-subst"><i class="fa fa-check"></i>Expenditure substitution maths</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="substitution.html"><a href="substitution.html#previous-approaches-and-evidence"><i class="fa fa-check"></i><b>3.2</b> Previous approaches and evidence</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="substitution.html"><a href="substitution.html#observational-work"><i class="fa fa-check"></i><b>3.2.1</b> Observational work</a></li>
+<li class="chapter" data-level="3.2.2" data-path="substitution.html"><a href="substitution.html#simultaneousproximate-lab-experiments"><i class="fa fa-check"></i><b>3.2.2</b> Simultaneous/proximate ‘lab’ experiments</a></li>
+<li class="chapter" data-level="3.2.3" data-path="substitution.html"><a href="substitution.html#labframed-experiments-with-time-gaps"><i class="fa fa-check"></i><b>3.2.3</b> Lab/framed experiments with time gaps</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="substitution.html"><a href="substitution.html#fieldnatural-experiments"><i class="fa fa-check"></i><b>3.3</b> Field/natural experiments</a></li>
+<li class="chapter" data-level="3.4" data-path="substitution.html"><a href="substitution.html#synthesis-emerging"><i class="fa fa-check"></i><b>3.4</b> Synthesis (emerging)</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="barriers-breakdown.html"><a href="barriers-breakdown.html"><i class="fa fa-check"></i><b>4</b> Breakdown of barriers</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="barriers-breakdown.html"><a href="barriers-breakdown.html#barriers-concept"><i class="fa fa-check"></i><b>4.1</b> Breakdown of ‘barriers’ (first presentation)</a></li>
+<li class="chapter" data-level="4.2" data-path="barriers-breakdown.html"><a href="barriers-breakdown.html#barriers-practical"><i class="fa fa-check"></i><b>4.2</b> “Practical breakdown (organizing this resource)</a>
+<ul>
+<li class="chapter" data-level="" data-path="barriers-breakdown.html"><a href="barriers-breakdown.html#fundamental-values-moral-circles-awareness-identity-and-signaling"><i class="fa fa-check"></i>Fundamental values, moral circles, awareness, identity, and signaling</a></li>
+<li class="chapter" data-level="" data-path="barriers-breakdown.html"><a href="barriers-breakdown.html#effectiveness-information-avoidance-motivated-reasoning-conflicts-between-analytic-and-empathetic-modes"><i class="fa fa-check"></i>Effectiveness information: Avoidance, motivated reasoning, conflicts between analytic and empathetic modes</a></li>
+<li class="chapter" data-level="" data-path="barriers-breakdown.html"><a href="barriers-breakdown.html#judgementcognition-failures-systematic-misperceptions"><i class="fa fa-check"></i>Judgement/cognition failures, systematic misperceptions</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="barriers-fundamental-values-moral-circles-awareness-identity-and-signaling.html"><a href="barriers-fundamental-values-moral-circles-awareness-identity-and-signaling.html"><i class="fa fa-check"></i>BARRIERS: Fundamental values, moral circles, awareness, identity, and signaling</a></li>
+<li class="chapter" data-level="5" data-path="doesimpactmatter.html"><a href="doesimpactmatter.html"><i class="fa fa-check"></i><b>5</b> (Do people actually care about impact? Does moral utilitarianism matter?)</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="doesimpactmatter.html"><a href="doesimpactmatter.html#are_we_util"><i class="fa fa-check"></i><b>5.1</b> Are people utilitarian?</a></li>
+<li class="chapter" data-level="5.2" data-path="doesimpactmatter.html"><a href="doesimpactmatter.html#evidence-1"><i class="fa fa-check"></i><b>5.2</b> (Evidence)</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="aware-distance.html"><a href="aware-distance.html"><i class="fa fa-check"></i><b>6</b> “Distance”, awareness, and consideration</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="aware-distance.html"><a href="aware-distance.html#description-and-relevance-to-effective-giving"><i class="fa fa-check"></i><b>6.1</b> Description and relevance to Effective Giving</a></li>
+<li class="chapter" data-level="6.2" data-path="aware-distance.html"><a href="aware-distance.html#theoretical-and-conceptual-underpinning"><i class="fa fa-check"></i><b>6.2</b> Theoretical and conceptual underpinning</a></li>
+<li class="chapter" data-level="6.3" data-path="aware-distance.html"><a href="aware-distance.html#overall-evidence"><i class="fa fa-check"></i><b>6.3</b> Overall evidence</a></li>
+<li class="chapter" data-level="6.4" data-path="aware-distance.html"><a href="aware-distance.html#in-group"><i class="fa fa-check"></i><b>6.4</b> Distance - Spatial/Physical, Social/Cultural: parochial altruism/in-group bias, interpersonal and identity e.g., race, gender, age, etc</a></li>
+<li class="chapter" data-level="6.5" data-path="aware-distance.html"><a href="aware-distance.html#distance-experiential-informational-emotionalaffective"><i class="fa fa-check"></i><b>6.5</b> Distance: Experiential, Informational, Emotional/Affective</a></li>
+<li class="chapter" data-level="6.6" data-path="aware-distance.html"><a href="aware-distance.html#evidence-on-determinants-of-scope-of-moral-circlemoral-expansiveness-and-its-impact-on-giving-and-other-regarding-behavior"><i class="fa fa-check"></i><b>6.6</b> Evidence on determinants of scope of moral circle/moral expansiveness and its impact on giving and other-regarding behavior</a></li>
+<li class="chapter" data-level="6.7" data-path="aware-distance.html"><a href="aware-distance.html#availability"><i class="fa fa-check"></i><b>6.7</b> Availability heuristic and media (also see ‘biases’)</a></li>
+<li class="chapter" data-level="6.8" data-path="aware-distance.html"><a href="aware-distance.html#reference-dependence"><i class="fa fa-check"></i><b>6.8</b> Reference dependence</a></li>
+<li class="chapter" data-level="6.9" data-path="aware-distance.html"><a href="aware-distance.html#future"><i class="fa fa-check"></i><b>6.9</b> Distance - Temporal (future problems/individuals) and Hypothetical (probability of occurance)</a>
+<ul>
+<li class="chapter" data-level="" data-path="aware-distance.html"><a href="aware-distance.html#overview"><i class="fa fa-check"></i>Overview</a></li>
+<li class="chapter" data-level="" data-path="aware-distance.html"><a href="aware-distance.html#discounting-future-payoffsassetswelfare"><i class="fa fa-check"></i>Discounting future payoffs/assets/welfare</a></li>
+<li class="chapter" data-level="" data-path="aware-distance.html"><a href="aware-distance.html#reasons-the-distant-future-may-be-neglected"><i class="fa fa-check"></i>Reasons the distant future may be neglected</a></li>
+<li class="chapter" data-level="" data-path="aware-distance.html"><a href="aware-distance.html#future-bias-ev"><i class="fa fa-check"></i>(Evidence ,,, work in progress)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="identity.html"><a href="identity.html"><i class="fa fa-check"></i><b>7</b> (Identity and cognitive dissonance)</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="identity.html"><a href="identity.html#self-interest"><i class="fa fa-check"></i><b>7.1</b> Self-interest/local public good (?)</a></li>
+<li class="chapter" data-level="7.2" data-path="identity.html"><a href="identity.html#cognitive-dissonance"><i class="fa fa-check"></i><b>7.2</b> Cognitive dissonance</a></li>
+<li class="chapter" data-level="7.3" data-path="identity.html"><a href="identity.html#side-note-volunteer-experience-unlocks-emotion-and-giving"><i class="fa fa-check"></i><b>7.3</b> (Side note?) Volunteer experience unlocks emotion and giving</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="social.html"><a href="social.html"><i class="fa fa-check"></i><b>8</b> Signaling and social pressures/social identity</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="social.html"><a href="social.html#signaling-empathy"><i class="fa fa-check"></i><b>8.1</b> Signaling concern for effectiveness/impact versus other values</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="social.html"><a href="social.html#theory-and-argument"><i class="fa fa-check"></i><b>8.1.1</b> Theory and argument</a></li>
+<li class="chapter" data-level="8.1.2" data-path="social.html"><a href="social.html#evidence-for-this-barrier"><i class="fa fa-check"></i><b>8.1.2</b> Evidence for this barrier</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="barriers-effectiveness-information---avoidance-and-conflict-with-empathy.html"><a href="barriers-effectiveness-information---avoidance-and-conflict-with-empathy.html"><i class="fa fa-check"></i>BARRIERS: EFFECTIVENESS INFORMATION - AVOIDANCE AND CONFLICT WITH EMPATHY</a></li>
+<li class="chapter" data-level="9" data-path="eval-aversion.html"><a href="eval-aversion.html"><i class="fa fa-check"></i><b>9</b> Evaluation-aversion and obstacles to considering charity impact</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="eval-aversion.html"><a href="eval-aversion.html#general-relevance-to-effective-giving"><i class="fa fa-check"></i><b>9.1</b> General relevance to effective giving</a></li>
+<li class="chapter" data-level="9.2" data-path="eval-aversion.html"><a href="eval-aversion.html#cba-aversion"><i class="fa fa-check"></i><b>9.2</b> General cost-benefit analysis (CBA)-aversion or reluctance</a>
+<ul>
+<li class="chapter" data-level="9.2.1" data-path="eval-aversion.html"><a href="eval-aversion.html#description"><i class="fa fa-check"></i><b>9.2.1</b> Description</a></li>
+<li class="chapter" data-level="9.2.2" data-path="eval-aversion.html"><a href="eval-aversion.html#conceptual-discussion"><i class="fa fa-check"></i><b>9.2.2</b> Conceptual discussion</a></li>
+<li class="chapter" data-level="" data-path="eval-aversion.html"><a href="eval-aversion.html#relevance-to-effective-giving-restated-in-fold"><i class="fa fa-check"></i>Relevance to Effective Giving (restated in fold)</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="eval-aversion.html"><a href="eval-aversion.html#cba-evidence"><i class="fa fa-check"></i><b>9.3</b> Evidence: attitudes towards CBA in the charitable domain, CBA-avoidance</a>
+<ul>
+<li class="chapter" data-level="" data-path="eval-aversion.html"><a href="eval-aversion.html#evidence-for-people-rarely-seek-out-effectiveness-information-and-are-reluctant-to-purchase-it"><i class="fa fa-check"></i>Evidence for: “People rarely seek out effectiveness information and are reluctant to purchase it”</a></li>
+<li class="chapter" data-level="9.3.1" data-path="eval-aversion.html"><a href="eval-aversion.html#subjectivity"><i class="fa fa-check"></i><b>9.3.1</b> Evidence for “people accept and value subjectivity in the charitable domain more so than for other choice domains”</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="eval-aversion.html"><a href="eval-aversion.html#info-motivated"><i class="fa fa-check"></i><b>9.4</b> Information as an ‘excuse’ not to give; information may allow motivated reasoning</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="analytical-grinch.html"><a href="analytical-grinch.html"><i class="fa fa-check"></i><b>10</b> Effect of analytical (effectiveness) information on generosity</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="analytical-grinch.html"><a href="analytical-grinch.html#analytical-grinch-s"><i class="fa fa-check"></i><b>10.1</b> Exposure to cost effectiveness and impact information (analytical information) might reduce generosity</a>
+<ul>
+<li class="chapter" data-level="10.1.1" data-path="analytical-grinch.html"><a href="analytical-grinch.html#outline-of-the-evidence"><i class="fa fa-check"></i><b>10.1.1</b> Outline of the evidence</a></li>
+</ul></li>
+<li class="chapter" data-level="10.2" data-path="analytical-grinch.html"><a href="analytical-grinch.html#ratings"><i class="fa fa-check"></i><b>10.2</b> Overall ‘net’ responses to charity ratings</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="analytical-grinch.html"><a href="analytical-grinch.html#evidence-on-responses-to-charity-ratings"><i class="fa fa-check"></i><b>10.2.1</b> Evidence on responses to charity ratings</a></li>
+<li class="chapter" data-level="10.2.2" data-path="analytical-grinch.html"><a href="analytical-grinch.html#choice_response_info"><i class="fa fa-check"></i><b>10.2.2</b> Evidence for “Charity choices do not respond ‘efficiently’ to information about costs and benefits of charity”</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="barriers-judgementcognition-failures-systematic-misperceptions.html"><a href="barriers-judgementcognition-failures-systematic-misperceptions.html"><i class="fa fa-check"></i>BARRIERS: Judgement/cognition failures, systematic misperceptions</a></li>
+<li class="chapter" data-level="11" data-path="quant-biases.html"><a href="quant-biases.html"><i class="fa fa-check"></i><b>11</b> Quantitative biases (the ‘distorted altruist’)</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="quant-biases.html"><a href="quant-biases.html#biases-in-perceiving-impact"><i class="fa fa-check"></i><b>11.1</b> Biases in perceiving impact</a></li>
+<li class="chapter" data-level="11.2" data-path="quant-biases.html"><a href="quant-biases.html#other-biases-driving-departures-from-efficiency"><i class="fa fa-check"></i><b>11.2</b> Other biases driving departures from efficiency</a></li>
+<li class="chapter" data-level="11.3" data-path="quant-biases.html"><a href="quant-biases.html#prop-dom"><i class="fa fa-check"></i><b>11.3</b> Proportional dominance effect</a>
+<ul>
+<li class="chapter" data-level="11.3.1" data-path="quant-biases.html"><a href="quant-biases.html#definition"><i class="fa fa-check"></i><b>11.3.1</b> Definition</a></li>
+<li class="chapter" data-level="11.3.2" data-path="quant-biases.html"><a href="quant-biases.html#conceptual-discussion-1"><i class="fa fa-check"></i><b>11.3.2</b> Conceptual Discussion</a></li>
+<li class="chapter" data-level="11.3.3" data-path="quant-biases.html"><a href="quant-biases.html#mechanisms"><i class="fa fa-check"></i><b>11.3.3</b> Mechanisms</a></li>
+<li class="chapter" data-level="11.3.4" data-path="quant-biases.html"><a href="quant-biases.html#eg-relevance"><i class="fa fa-check"></i><b>11.3.4</b> EG Relevance</a></li>
+<li class="chapter" data-level="11.3.5" data-path="quant-biases.html"><a href="quant-biases.html#state-of-evidence"><i class="fa fa-check"></i><b>11.3.5</b> State of Evidence</a></li>
+<li class="chapter" data-level="11.3.6" data-path="quant-biases.html"><a href="quant-biases.html#potential-solutions"><i class="fa fa-check"></i><b>11.3.6</b> Potential Solutions</a></li>
+</ul></li>
+<li class="chapter" data-level="11.4" data-path="quant-biases.html"><a href="quant-biases.html#statvictim"><i class="fa fa-check"></i><b>11.4</b> Statistical/identifiable victim effect</a>
+<ul>
+<li class="chapter" data-level="11.4.1" data-path="quant-biases.html"><a href="quant-biases.html#definition-1"><i class="fa fa-check"></i><b>11.4.1</b> Definition</a></li>
+<li class="chapter" data-level="11.4.2" data-path="quant-biases.html"><a href="quant-biases.html#relevance-to-effective-giving"><i class="fa fa-check"></i><b>11.4.2</b> Relevance to effective giving</a></li>
+<li class="chapter" data-level="11.4.3" data-path="quant-biases.html"><a href="quant-biases.html#evidence-meta-analysis-and-reviewssurveys"><i class="fa fa-check"></i><b>11.4.3</b> Evidence: Meta-analysis and reviews/surveys</a></li>
+</ul></li>
+<li class="chapter" data-level="11.5" data-path="quant-biases.html"><a href="quant-biases.html#availability-heuristic"><i class="fa fa-check"></i><b>11.5</b> Availability heuristic</a>
+<ul>
+<li class="chapter" data-level="11.5.1" data-path="quant-biases.html"><a href="quant-biases.html#definition-and-relevance"><i class="fa fa-check"></i><b>11.5.1</b> Definition and relevance</a></li>
+<li class="chapter" data-level="11.5.2" data-path="quant-biases.html"><a href="quant-biases.html#connection-to-other-biases"><i class="fa fa-check"></i><b>11.5.2</b> Connection to other biases</a></li>
+<li class="chapter" data-level="11.5.3" data-path="quant-biases.html"><a href="quant-biases.html#evidence-to-do"><i class="fa fa-check"></i><b>11.5.3</b> Evidence (to do)</a></li>
+</ul></li>
+<li class="chapter" data-level="11.6" data-path="quant-biases.html"><a href="quant-biases.html#diversification-heuristic"><i class="fa fa-check"></i><b>11.6</b> Diversification heuristic</a>
+<ul>
+<li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#implications-and-causes-of-diversification-heuristics-in-charitable-giving"><i class="fa fa-check"></i>Implications and causes of diversification heuristics in charitable giving</a></li>
+<li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#evidence-for-diversification-heuristic-in-charitable-giving-to-do"><i class="fa fa-check"></i>Evidence for diversification heuristic in charitable giving (to do)</a></li>
+</ul></li>
+<li class="chapter" data-level="11.7" data-path="quant-biases.html"><a href="quant-biases.html#overhead-aversion"><i class="fa fa-check"></i><b>11.7</b> Overhead aversion</a>
+<ul>
+<li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#related-terms"><i class="fa fa-check"></i>Related Terms</a></li>
+<li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#description-1"><i class="fa fa-check"></i>Description</a></li>
+<li class="chapter" data-level="11.7.1" data-path="quant-biases.html"><a href="quant-biases.html#overhead-evdc"><i class="fa fa-check"></i><b>11.7.1</b> Overview of Evidence</a></li>
+<li class="chapter" data-level="11.7.2" data-path="quant-biases.html"><a href="quant-biases.html#relevance-to-effective-giving-1"><i class="fa fa-check"></i><b>11.7.2</b> Relevance to effective giving</a></li>
+<li class="chapter" data-level="" data-path="quant-biases.html"><a href="quant-biases.html#state-of-evidence-key-papers"><i class="fa fa-check"></i>State of Evidence; key papers</a></li>
+</ul></li>
+<li class="chapter" data-level="11.8" data-path="quant-biases.html"><a href="quant-biases.html#possible-misunderstanding-need-and-misunderstanding-marginalitytractabilitysunk-costs"><i class="fa fa-check"></i><b>11.8</b> Possible: Misunderstanding need (and misunderstanding marginality/tractability/sunk costs?)</a></li>
+<li class="chapter" data-level="11.9" data-path="quant-biases.html"><a href="quant-biases.html#scope-insens"><i class="fa fa-check"></i><b>11.9</b> Scope insensitivity/embedding effect/part-whole effect</a></li>
+<li class="chapter" data-level="11.10" data-path="quant-biases.html"><a href="quant-biases.html#other_q_bias"><i class="fa fa-check"></i><b>11.10</b> Other quantitative biases</a>
+<ul>
+<li class="chapter" data-level="11.10.1" data-path="quant-biases.html"><a href="quant-biases.html#risk_a"><i class="fa fa-check"></i><b>11.10.1</b> “Mistaken Risk aversion or loss aversion”</a></li>
+<li class="chapter" data-level="11.10.2" data-path="quant-biases.html"><a href="quant-biases.html#bias-towards-tangibility-perhaps-not-quantitative"><i class="fa fa-check"></i><b>11.10.2</b> Bias towards tangibility (perhaps not ‘quantitative’?)</a></li>
+<li class="chapter" data-level="11.10.3" data-path="quant-biases.html"><a href="quant-biases.html#corruption-aversion-perhaps-not-quantitative"><i class="fa fa-check"></i><b>11.10.3</b> Corruption aversion (perhaps not ‘quantitative’?)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="factual.html"><a href="factual.html"><i class="fa fa-check"></i><b>12</b> (Persistent and systematic incorrect empirical beliefs)</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="factual.html"><a href="factual.html#some-key-misconceptions-evidence-these-may-have-an-effect"><i class="fa fa-check"></i><b>12.1</b> Some key misconceptions; evidence these may have an effect</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="paths-forward.html"><a href="paths-forward.html"><i class="fa fa-check"></i>PATHS FORWARD</a></li>
+<li class="chapter" data-level="13" data-path="tools.html"><a href="tools.html"><i class="fa fa-check"></i><b>13</b> Tools for motivating EA giving</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="tools.html"><a href="tools.html#introduction"><i class="fa fa-check"></i><b>13.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="13.1.1" data-path="tools.html"><a href="tools.html#other-lists-and-categorizations-of-tools"><i class="fa fa-check"></i><b>13.1.1</b> Other lists and categorizations of tools</a></li>
+</ul></li>
+<li class="chapter" data-level="13.2" data-path="tools.html"><a href="tools.html#overcoming-the-barriers-and-biases"><i class="fa fa-check"></i><b>13.2</b> Overcoming the “barriers and biases”</a>
+<ul>
+<li class="chapter" data-level="13.2.1" data-path="tools.html"><a href="tools.html#de-biasing-and-misperception-correction"><i class="fa fa-check"></i><b>13.2.1</b> De-biasing and misperception correction</a></li>
+<li class="chapter" data-level="" data-path="tools.html"><a href="tools.html#make-impact-more-comparable-by-allowing-joint-evaluation-evaluation-mode"><i class="fa fa-check"></i>Make impact more comparable by allowing joint evaluation (Evaluation mode)</a></li>
+<li class="chapter" data-level="13.2.2" data-path="tools.html"><a href="tools.html#efficacy-framings"><i class="fa fa-check"></i><b>13.2.2</b> Efficacy framings</a></li>
+</ul></li>
+<li class="chapter" data-level="13.3" data-path="tools.html"><a href="tools.html#psychologicalbehavioral-tools-applicability-to-ea-charities"><i class="fa fa-check"></i><b>13.3</b> Psychological/behavioral tools; applicability to EA charities</a>
+<ul>
+<li class="chapter" data-level="13.3.1" data-path="tools.html"><a href="tools.html#unit-asking"><i class="fa fa-check"></i><b>13.3.1</b> Unit asking</a></li>
+<li class="chapter" data-level="" data-path="tools.html"><a href="tools.html#info-enhancing-social-closeness-of-recipient"><i class="fa fa-check"></i>(Info enhancing) social closeness of recipient</a></li>
+</ul></li>
+<li class="chapter" data-level="13.4" data-path="tools.html"><a href="tools.html#mainstream-and-practical-fundraising-strategies-underused-by-effective-charities"><i class="fa fa-check"></i><b>13.4</b> Mainstream and practical fundraising strategies – underused by effective charities?</a>
+<ul>
+<li class="chapter" data-level="" data-path="tools.html"><a href="tools.html#percentage-donations-tied-to-purchases-especially-in-online-auctions"><i class="fa fa-check"></i>Percentage donations tied to purchases, especially in online auctions</a></li>
+<li class="chapter" data-level="" data-path="tools.html"><a href="tools.html#targeting"><i class="fa fa-check"></i>Psychometrics, profiling and targeting people likely to be responsive</a></li>
+</ul></li>
+<li class="chapter" data-level="13.5" data-path="tools.html"><a href="tools.html#ea-movement-approaches-successes-and-pitfalls"><i class="fa fa-check"></i><b>13.5</b> EA-movement approaches, successes and pitfalls</a></li>
+<li class="chapter" data-level="" data-path="tools.html"><a href="tools.html#airtable-list-of-proposals-links"><i class="fa fa-check"></i>Airtable: list of proposals, links:</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html"><i class="fa fa-check"></i><b>14</b> Conclusion; a research agenda</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#a-program-and-key-principles-for-future-research-and-action"><i class="fa fa-check"></i><b>14.1</b> A program and key principles for future research and action</a></li>
+<li class="chapter" data-level="14.2" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#key-practical-questions"><i class="fa fa-check"></i><b>14.2</b> Key practical questions</a></li>
+<li class="chapter" data-level="14.3" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#policy-issues"><i class="fa fa-check"></i><b>14.3</b> Policy issues</a></li>
+<li class="chapter" data-level="14.4" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#key-principles"><i class="fa fa-check"></i><b>14.4</b> Key principles</a></li>
+<li class="chapter" data-level="14.5" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#why-will-this-be-helpful-and-who-will-use-it-and-how"><i class="fa fa-check"></i><b>14.5</b> Why will this be helpful and who will use it and how?</a></li>
+<li class="chapter" data-level="14.6" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#research-infrastructure-and-methodology"><i class="fa fa-check"></i><b>14.6</b> Research infrastructure and methodology</a></li>
+<li class="chapter" data-level="14.7" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#targeting-1"><i class="fa fa-check"></i><b>14.7</b> Targeting</a></li>
+<li class="chapter" data-level="14.8" data-path="conclusion-agenda.html"><a href="conclusion-agenda.html#working-with-charities-and-organisations"><i class="fa fa-check"></i><b>14.8</b> Working with charities and organisations</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html"><i class="fa fa-check"></i><b>15</b> Appendix: Tech for creating, editing and collaborating on this ‘Bookdown’ web book/project (and starting your own)</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#introduction-1"><i class="fa fa-check"></i><b>15.1</b> Introduction</a></li>
+<li class="chapter" data-level="15.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#git-and-github"><i class="fa fa-check"></i><b>15.2</b> Git and Github</a>
+<ul>
+<li class="chapter" data-level="15.2.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#some-key-things-to-know-about-git-and-github"><i class="fa fa-check"></i><b>15.2.1</b> Some key things to know about Git and GitHub</a></li>
+</ul></li>
+<li class="chapter" data-level="15.3" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#r-and-rstudio"><i class="fa fa-check"></i><b>15.3</b> R and RStudio</a></li>
+<li class="chapter" data-level="15.4" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#markdown-and-bookdown"><i class="fa fa-check"></i><b>15.4</b> Markdown and Bookdown</a></li>
+<li class="chapter" data-level="15.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#the-code-and-folder-structure-in-this-repo-and-what-it-means"><i class="fa fa-check"></i><b>15.5</b> The code and folder structure in this repo, and what it means</a>
+<ul>
+<li class="chapter" data-level="15.5.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020"><i class="fa fa-check"></i><b>15.5.1</b> Writing_econ_book: Files-folders of interest (taken from readme March 2020)</a></li>
+</ul></li>
+<li class="chapter" data-level="15.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-the-main-content-the-code-in-a-single-.rmd-file"><i class="fa fa-check"></i><b>15.6</b> Adding the main content… the code in a single “.Rmd” file</a>
+<ul>
+<li class="chapter" data-level="15.6.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#basic-r-markdown"><i class="fa fa-check"></i><b>15.6.1</b> Basic (R-)Markdown</a></li>
+<li class="chapter" data-level="15.6.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#simple-md-rules"><i class="fa fa-check"></i><b>15.6.2</b> Some simple markdown rules</a></li>
+<li class="chapter" data-level="15.6.3" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#inline-code"><i class="fa fa-check"></i><b>15.6.3</b> Inline code</a></li>
+<li class="chapter" data-level="15.6.4" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#latexmaths"><i class="fa fa-check"></i><b>15.6.4</b> Latex/maths</a></li>
+<li class="chapter" data-level="15.6.5" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#custom-styles"><i class="fa fa-check"></i><b>15.6.5</b> Custom styles</a></li>
+<li class="chapter" data-level="15.6.6" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#adding-referencescitations"><i class="fa fa-check"></i><b>15.6.6</b> Adding references/citations</a></li>
+<li class="chapter" data-level="15.6.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#specific-system-for-adding-references-in-this-project"><i class="fa fa-check"></i><b>15.6.7</b> Specific system for adding references in this project</a></li>
+<li class="chapter" data-level="15.6.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#a-test-of-adding-references"><i class="fa fa-check"></i><b>15.6.8</b> A test of adding references</a></li>
+</ul></li>
+<li class="chapter" data-level="15.7" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#how-to-build-and-view-the-book"><i class="fa fa-check"></i><b>15.7</b> How to ‘build’ and view the book</a>
+<ul>
+<li class="chapter" data-level="15.7.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#exporting-rmarkdown-to-google-docsdrive"><i class="fa fa-check"></i><b>15.7.1</b> Exporting Rmarkdown to Google Docs/Drive</a></li>
+</ul></li>
+<li class="chapter" data-level="15.8" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#joining-this-project"><i class="fa fa-check"></i><b>15.8</b> Joining this project</a>
+<ul>
+<li class="chapter" data-level="15.8.1" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#creating-a-branch-and-a-pull-request"><i class="fa fa-check"></i><b>15.8.1</b> Creating a Branch and a ‘pull request’</a></li>
+<li class="chapter" data-level="15.8.2" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#github-web-page-content"><i class="fa fa-check"></i><b>15.8.2</b> GitHub web page content</a></li>
+</ul></li>
+<li class="chapter" data-level="15.9" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable-and-innovationsinfundraising.org"><i class="fa fa-check"></i><b>15.9</b> Airtable and innovationsinfundraising.org</a>
+<ul>
+<li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#airtable"><i class="fa fa-check"></i>Airtable</a></li>
+<li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#key-features-of-tables-in-airtables-quick-views"><i class="fa fa-check"></i>Key features of tables in Airtables (quick views)</a></li>
+<li class="chapter" data-level="" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#key-content"><i class="fa fa-check"></i>Key content</a></li>
+</ul></li>
+<li class="chapter" data-level="15.10" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#useful-resources"><i class="fa fa-check"></i><b>15.10</b> Useful resources</a></li>
+<li class="chapter" data-level="15.11" data-path="bookdown-appendix.html"><a href="bookdown-appendix.html#further-misc-notes"><i class="fa fa-check"></i><b>15.11</b> Further misc notes</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="inertia.html"><a href="inertia.html"><i class="fa fa-check"></i>Appendix: Inertia and systemic/institutional obstacles</a>
+<ul>
+<li class="chapter" data-level="15.12" data-path="inertia.html"><a href="inertia.html#social-norms"><i class="fa fa-check"></i><b>15.12</b> Social norms</a>
+<ul>
+<li class="chapter" data-level="15.12.1" data-path="inertia.html"><a href="inertia.html#subjectivity-in-the-charitable-domain--"><i class="fa fa-check"></i><b>15.12.1</b> Subjectivity in the charitable domain -</a></li>
+</ul></li>
+<li class="chapter" data-level="15.13" data-path="inertia.html"><a href="inertia.html#consider-inertia-and-obstacles-to-charities-collecting-evaluating-and-sharing-impact-information"><i class="fa fa-check"></i><b>15.13</b> Consider: inertia and obstacles to charities collecting, evaluating, and sharing impact information</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>List of references</a></li>
+<li class="divider"></li>
+<li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Increasing effective charitable giving: The puzzle, what we know, what we need to know next</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="quant-biases" class="section level1" number="11">
+<h1><span class="header-section-number">11</span> Quantitative biases (the ‘distorted altruist’)</h1>
+
+<div class="note">
+<p><strong>Connection to terms/concepts in other work</strong></p>
+<p><span class="citation">Caviola, Schubert, and Nemirow (<a href="#ref-caviola2020many" role="doc-biblioref">2020</a>)</span> (literature review) considers <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0060">“Epistemic Obstacles”</a>, including ‘Innumeracy’. They give a few examples here, including ‘psuedoinefficacy’ (‘drop in the bucket’, <a href="quant-biases.html#prop-dom">‘proportional dominance’</a>) here. (However, they consider ‘scope neglect’ a ‘motivational obstacle’.)</p>
+<p>This is related to what <span class="citation">(<a href="#ref-Berman2018" role="doc-biblioref">Berman et al. 2018</a>)</span> refer to as “distorted altruists”, and <span class="citation">(<a href="#ref-caviola2020many" role="doc-biblioref">Caviola, Schubert, and Nemirow 2020</a>)</span> call a “belief-based” explanation.</p>
+</div>
+<p>Recapping the discussion from the <a href="barriers-breakdown.html#barriers-concept">Conceptual breakdown of ‘barriers’</a>.</p>
+<p>Even if people <em>want</em> to be effective givers, they may simply be bad at this, because they have quantitative limitations and biases. Anything that causes me to misunderstand effectiveness, to misapprehend the nature of the “production function for good outcomes”, or to misjudge charities will lead me astray from effective giving.</p>
+<p>Furthermore, some biases may happen to be <em>particularly</em> harmful to those charities and causes that are most effective.</p>
+<div class="marginnote">
+<p>For more on the psychology of effective altruism, including cognitive biases, see <a href="https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-ea/">this article/talk</a> by Stefan Schubert</p>
+</div>
+<div class="marginnote">
+<p>Also see <a href="https://www.effectivealtruism.org/articles/mahendra-prasad-rational-group-decision-making/">here</a> for a discussion on effective altruism and <em>group</em> decision-making</p>
+</div>
+<div id="biases-in-perceiving-impact" class="section level2" number="11.1">
+<h2><span class="header-section-number">11.1</span> Biases in perceiving impact</h2>
+<p>Cognitive biases: Overweighting and underweighting probabilities, misunderstanding marginality, scope-insensitivity, Opportunity-cost Neglect. etc. Identifiable victims effect.</p>
+<!-- Responses: De-biasing, etc. -->
+<p>Some key references: <span class="citation">Small, Loewenstein, and Slovic (<a href="#ref-Small2007" role="doc-biblioref">2007</a>)</span>, <span class="citation">Gneezy, Keenan, and Gneezy (<a href="#ref-gneezyAvoidingOverheadAversion2014" role="doc-biblioref">2014</a>)</span>, <span class="citation">Kogut and Ritov (<a href="#ref-kogutIdentifiedVictimEffect2005" role="doc-biblioref">2005a</a>)</span>, <span class="citation">Kogut and Ritov (<a href="#ref-kogut2005singularity" role="doc-biblioref">2005b</a>)</span>, <span class="citation">Kinsbergen and Tolsma (<a href="#ref-kinsbergenExplainingMonetaryDonations2013" role="doc-biblioref">2013</a>)</span>, <span class="citation">Kinsbergen and Tolsma (<a href="#ref-kinsbergenExplainingMonetaryDonations2013" role="doc-biblioref">2013</a>)</span>, <span class="citation">Summers et al. (<a href="#ref-summers1994psychophysical" role="doc-biblioref">1994</a>)</span>, <span class="citation">Press (<a href="#ref-pressDirectMeasurementUtility2018" role="doc-biblioref">2018</a>)</span></p>
+</div>
+<div id="other-biases-driving-departures-from-efficiency" class="section level2" number="11.2">
+<h2><span class="header-section-number">11.2</span> Other biases driving departures from efficiency</h2>
+</div>
+<div id="prop-dom" class="section level2" number="11.3">
+<h2><span class="header-section-number">11.3</span> Proportional dominance effect</h2>
+<div class="marginnote">
+<p>AKA ‘drop in the bucket’, ‘psychosocial numbing’, ‘psychophysical numbing’; relates to<a href="https://www.arithmeticofcompassion.org/pseudoinefficacy">‘Pseudoinefficacy’</a></p>
+</div>
+<p>Proportional dominance effect/drop in bucket/psychosocial numbing/psychophysical numbing</p>
+<!-- See also (Ari's writeup
+[[HERE]{.underline}](https://docs.google.com/document/d/1zzGTkF5sZnDUtzE-NS3sYOHOLQw8eDxC5Qt3_Wy62wA/edit#heading=h.r4qi0rwohl6r)) -->
+<div id="definition" class="section level3" number="11.3.1">
+<h3><span class="header-section-number">11.3.1</span> Definition</h3>
+<p>Related Terms include: Drop in the bucket; mechanisms include “futility thinking” (Unger?), psychosocial numbing, quantitative confusion/innumeracy</p>
+<!-- *1-4 sentence description/definition of the barrier* -->
+<p>This claim can be summarized as follows:</p>
+<p>(For a given per-dollar impact on the outcome), people are be less willing to donate towards a cause when the magnitude of the underlying problem is (framed as) larger.</p>
+<p>Mechanism: Underlying this is the idea that a certain amount of impact (e.g., relieving suffering) is perceived as smaller and thus less valuable when the underlying problem is larger.</p>
+</div>
+<div id="conceptual-discussion-1" class="section level3" number="11.3.2">
+<h3><span class="header-section-number">11.3.2</span> Conceptual Discussion</h3>
+<div class="marginnote">
+<p>Overview of findings from papers, caveats, how the concept works, etc. Provides context for evidence section; Discussion of the relevant mechanisms at play; Discussion of the relevant established theories.</p>
+</div>
+<p><strong>Definitional issues and disambiguation</strong></p>
+<p>This needs to be distinguished from scope insensitivity. Note that if people are being analytical, they must <em>care</em> about scope in order to care about their impact, and thus (mistakenly) react to the perceived lower impact of donating when the needs are much greater. PD arguments may also be used as vehicle for motivated reasoning, and thus not be an important driver in itself: E.g., I don’t want to donate so I focus on my impact being a share of the overwhelming need (which I might opportunistically define broadly) to conclude that helping is futile.</p>
+<p>Note (unfold)…</p>
+
+<div class="fold">
+BG: My thought was that people who do not value saving lives (or are in general unwilling to contribute to it or oppose policies spending money on foreign aid for some other reason, e.g. prejudice) exercise a form of motivated reasoning to justify this (perhaps in a nonstandard way). They choose to reason according to the ‘proportional’ standard in order to conclude that it is not worth mdonating to these causes because ‘the scope of the problem is too large and they will never be completely solved’. I suggest that people apply this reasoning to problems specifically when they do not want to take action to address these problems. (In contrast, in domains where they do want to make a change, they may use a different, more marginal and 'consistent' sort of reasoning.) E.g., (to be stereotypical) imagine a MAGA person who wants to end foreign aid because "Africa will always have endless problems" but who wants to impose restrictions on abortion (even knowing millions of abortions will continue to occur) because "every unborn life matters.
+</div>
+<p><br />
+</p>
+<p>To operationalize this, we need to define what the numerator and denominator represent. For the numerator, an (EA) impact-driven ‘individualist’ donor might consider the impact of her <em>own</em> contribution (per dollar or overall) relative to the size of the need. In contrast, a more collectivist/team-reasoning/communitarian thinker might consider the impact of the <em>total</em> expected donation relative to the size of the need. We also need to better define the denominator: how do individuals lump together different groups/problems to define the overall scale of the need, and how sensitive is this to the fundraisers’ framing?</p>
+</div>
+<div id="mechanisms" class="section level3" number="11.3.3">
+<h3><span class="header-section-number">11.3.3</span> Mechanisms</h3>
+<p><span class="citation">Fetherstonhaugh et al. (<a href="#ref-fetherstonhaughInsensitivityValueHuman1997" role="doc-biblioref">1997</a>)</span> highlight “Weber’s law”: Humans are sensitive to proportional changes/proportional differences in stimuli (loudness, brightness, etc); thus we are less sensitive to small changes relative to a larger baseline. There is evidence this also holds in assessing losses of life. … the “subjective value of saving the specified number of lives is greater for a smaller tragedy than for a larger one” .</p>
+<p><span class="citation">Baron (<a href="#ref-Baron1997" role="doc-biblioref">1997</a>)</span> attributes PD to quantity confusion and classifies this as “contamination by an irrelevant factor”; more generally, this could be seen in terms of <em>innumeracy</em>.</p>
+<p>This may lead to a lower willingness to contribute to a problem when the apparent scale (or “denominator”) of the problem is larger (e.g., more lives at risk), holding constant the benefit per dollar contributed (cost per life saved). The <em>perceived</em> scale of the problem may depend on how it is framed by fundraisers, charities, and the media. However, this may not be completely manipulable: e.g., massive global problems may not be easy to “frame down.” “<span class="citation">Loewenstein and Small (<a href="#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref">2007</a>)</span> suggested that the PDE is driven by increased sympathy towards the victims when one can help a large proportion of the victim reference-group.” – <span class="citation">A. Erlandsson et al. (<a href="#ref-erlandssonArgumentinconsistencyCharityAppeals" role="doc-biblioref">n.d.</a>)</span></p>
+</div>
+<div id="eg-relevance" class="section level3" number="11.3.4">
+<h3><span class="header-section-number">11.3.4</span> EG Relevance</h3>
+<div class="marginnote">
+<p>How this particular barrier proves problematic for effective giving.</p>
+</div>
+<p>This effect represents a general departure from appropriate assessment of the marginal benefit (per cost) of a particular charity/intervention. Thus, this is a general barrier to accurate assessment of effectiveness ergo a barrier to effective giving.</p>
+<p>In addition, it might be argued that more effective interventions (e.g., targeting poor Africans versus US poverty) may tend to address problems that are inherently larger in scale and magnitude. These may be intrinsically harder to “frame down”, implying EG will suffer more from this bias.</p>
+</div>
+<div id="state-of-evidence" class="section level3" number="11.3.5">
+<h3><span class="header-section-number">11.3.5</span> State of Evidence</h3>
+<div class="marginnote">
+<p>Key papers: Summarize findings and key takeaways, Short description of methods for relevant studies, Make sure to include both description of evidence and evaluation of evidence</p>
+</div>
+<div id="fetherstonhaughinsensitivityvaluehuman1997" class="section level4 unnumbered">
+<h4><span class="citation">Fetherstonhaugh et al. (<a href="#ref-fetherstonhaughInsensitivityValueHuman1997" role="doc-biblioref">1997</a>)</span></h4>
+<p><span class="citation">Fetherstonhaugh et al. (<a href="#ref-fetherstonhaughInsensitivityValueHuman1997" role="doc-biblioref">1997</a>)</span> (notes <a href="https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#heading=h.8ax2rgfz70of"><u>HERE</u></a>)</p>
+<p><strong>Methods</strong></p>
+<p>Range of hypothetical scenariae and evaluations, within-subject manipulations only (with clear contrasts), framed as aid/targeting not charitable donations, standard (mostly Economics) student subject pools.</p>
+<p>These authors conducted survey experiments on standard (fairly small sample?) student participants. They presented a variety of hypothetical scenariae (e.g., “imagine themselves as a government official of a small, developing country”…), asking for ratings, rankings, etc.</p>
+<p><br />
+<strong>Findings</strong></p>
+<blockquote>
+<p>Studies 1 and 2 found that an intervention saving a fixed number of lives was judged significantly more beneficial when fewer lives were at risk overall. Study 3 found that respondents wanted the minimum number of lives a medical treatment would have to save to merit a fixed amount of funding to be much greater for a disease with a larger number of potential victims than for a disease with a smaller number.</p>
+</blockquote>
+<p><strong>Evaluation of paper’s evidence:</strong></p>
+<p><em>Strengths</em>: Reasonably realistic frames, (mostly) consistent results across a variety of frames<br />
+</p>
+<p><em>Limitations</em>: Hypothetical, framed, nonrepresentative, and does not directly address <em>own</em> contributions</p>
+<p><br />
+</p>
+<p>Within-subject treatments here:</p>
+<p>Benefit: allow estimation of heterogeneous responses,</p>
+<p>Mixed pro and con: highlight the difference in denominators/proportions, making them salient; but this might also be expected to be an inhibitor of this (seemingly non-rational) effect, especially for the Economics-trained sample</p>
+<p><br />
+</p>
+<p>Statistical tests (ANOVA) appear strong and highly significant in most cases, but further investigation warranted (e.g., pre-registration? Evidence of specification fishing and MHT?)</p>
+<p><br />
+</p>
+<p><strong>Replication evidence</strong>: Mixed, not strongly supported; see <span class="citation">Ziano et al. (<a href="#ref-zianoNumbingSensitizationReplications2021" role="doc-biblioref">2021</a>)</span></p>
+<p><br />
+</p>
+</div>
+<div id="erlandssonemotionalreactionsperceived2015-study-4" class="section level4 unnumbered">
+<h4><span class="citation">Arvid Erlandsson, Björklund, and Bäckström (<a href="#ref-erlandssonEmotionalReactionsPerceived2015" role="doc-biblioref">2015</a>)</span> (Study 4)</h4>
+<blockquote>
+<p>The PDE-ad was in part based on text from the homepage of a well-known global charity organization focusing on poverty in developing countries. Participants read about Polio and were told that if receiving the expected amount of private donations, it would be possible to vaccinate children so the death rate would decrease by approximately 500 children per year. In the large reference-group version, participants read that 60,000 children in Africa annually die from Polio so the project had a potential rescue proportion of 0.83%. In the small reference-group version, partici pants read that around 500 children in Botswana annually die from Polio so the project had a potential rescue proportion of more than 99%.</p>
+<p>…followed by eight questions about participants’ reactions towards the advertisement. The suggested mediators (distress, sympathy, perceived impact and perceived responsibility) were measured with two questions each</p>
+<p>…after reading and responding to the three ads, participants were told that thanks to their participation, 10 Swedish Kronor (SEK) (1.50 USD) would be donated to charity. The participants were asked to allocate the money between the three organizations by writing an amount (0–10) after each ad and the sum had to be 10 SEK</p>
+<p>…All participants read either one ad from the low end of the effects (statistical victim, large reference-group, out-group victims) plus two ads from the high end of the effects (identified victim, small reference-group, in-group victims) or two ads from the low end plus one ad from the high end.</p>
+<p>[Results]</p>
+<p>Participants who read the PDE-ad in the small reference-group version had higher helping intentions (M = 3.77, SD = 1.64) than participants who read the large reference-group version, M = 3.46, SD = 1.57; t(430) = 2.01, p = .045. However, participants who read the small reference-group version did not write that they would donate more money if asked (Mean rank = 213.68) than participants who read the large reference-group version (Mean rank = 218.31; Mann–Whitney U = 22720.50, Z = 0.40, p = .686). Despite this, participants who read the small reference-group version allocated more money to the organization distributing Polio- vaccines (M = 4.30 SEK, SD = 2.85) than the participants who read the large reference-group version, M = 3.50 SEK, SD = 2.87; t(430) = 2.91, p = .004. Although not perfectly consistent between the different outcome variables, the results suggest that we replicated the PDE.</p>
+</blockquote>
+<p><u>Evaluation of evidence (Study 4):</u></p>
+<p>Strengths: Realistic charity frame, reasonable implementation of small/large “reference group” frames, outcomes record both intentional/attitudinal and actual (small) donation measures</p>
+<p>Limitations: A choice <em>among</em> charities only</p>
+<p>Statistical tests -</p>
+<p><u><strong>Brief on tangential papers (non charity) and papers supporting the mechanism</strong></u></p>
+<p><span class="citation">Baron (<a href="#ref-Baron1997" role="doc-biblioref">1997</a>)</span><strong>:</strong> <strong>“Confusion of Relative and Absolute Risk in Valuation”</strong></p>
+<p><u>Methods</u></p>
+<p>Hypothetical willingness to pay (wtp) questions. Within-subject manipulations only; standard student subject pools, small samples.</p>
+<div class="marginnote">
+<p>They do reverse order of presentations for half the participants. They report a lack of significant order effects, but fail to discuss the power of such tests or examine first-presented choices in isolation.</p>
+</div>
+<p>S1: Questions about (hypothetical wtp for components of government government health insurance. “[Denominator] people die from this disease each year. Their average age is 60. How much are you willing to pay to cover a treatment that will save the lives of [Numerator] of these people?”… (Numerator=90 or 900; Denominator=100, 1000, or 10,000), all combinations presented to all participants.</p>
+<p>S2: Set of causes, each gave wtp for a government program for a 5% reduction in that cause of death and for saving 2,600 lives, also rating prevalence and importance. He reports a very high correlation between wtp by these two measures, an “insensitivity to quantity”, and both wtp measures are higher when subjects report a higher prevalence (even controlling for stated importance).</p>
+<p><u>Evaluation of paper’s evidence</u>: This evidence appears highly limited. There is some evidence that denominators matter when they (arguably) should not, and participants show confusion between proportions and absolute amounts. The second experiment is highly cognitively demanding and participants have no strong incentive to “get this right.” The first experiment has arguable confounds: e.g., one might question the scientific credibility of the treatment that (claims to) save only a small number of lives out of a very large population. The evidence does not seem to offer much strength over and above the Fetherstonhaugh paper. I also found much of the statistical reporting to be incomplete or unclear, especially for study two. In general, this is, at its best, evidence of quantitative confusion which may go in either direction in any given context.</p>
+<p>It is also detached from the charity realm, considering the domain of government expenditure and benefits that will accrue to the participant him or herself. For this reason, I listed it is tangential evidence and not charity specific evidence.</p>
+<p><span class="citation">Jenni and Loewenstein (<a href="#ref-jenniExplainingIdentifiableVictim1997" role="doc-biblioref">1997</a>)</span> Provides support for the “reference group effect” (proportional dominance) as an explanation for the identifiable victims bias. (notes <a href="https://docs.google.com/document/d/1YHaF4phpqthCEwwNdgd_QBZp5np0pHwHEJm3U2G1cxA/edit#"><u>HERE</u></a>)</p>
+<p><span class="citation">Friedrich et al. (<a href="#ref-friedrichPsychophysicalNumbingWhen1999" role="doc-biblioref">1999</a>)</span></p>
+<blockquote>
+<p>PN was investigated by varying the supposed number of brak- ing-related traffic fatalities each year as a within-subjects variable and then obtain- ingjudgments of support for a new antilock brake requirement.</p>
+</blockquote>
+<blockquote>
+<p>Experiment 1 manipulated respondents’ accountability [“…the experimenter will ask you at this time to explain the reasoning behind your decisions and to justify how you arrived at your recommendations”] as a way of exploring whether PN responding is the result of careless or heuristic processing. Extensive work with accountability manipulations has shown them to be effective in debiasing… [other stuff]. … when they expect to have to justify their reason- ing to others, should also be revealing in terms of what they believe constitutes a defensible, normative strategy.</p>
+</blockquote>
+<blockquote>
+<p><a href="social.html#also">also</a> a manipulation designed to highlight the salience of the individual lives at risk … [a] description of a preventable, fatal accident with named individuals…</p>
+</blockquote>
+<blockquote>
+<p>, par- ticipants read that the “Federal Transportation Board” estimated annual fatalities due to driver error in the use of conventional braking systems to be approximately 41,000 (“large problem”) or 9,000 (“small problem”).<br />
+</p>
+</blockquote>
+<p><strong>Outcome measures:</strong></p>
+<ul>
+<li><p>“support-for-intervention”, 7-point scale</p></li>
+<li><p>“Lives-to-save”</p></li>
+</ul>
+<blockquote>
+<p>“What is the minimum number of these (9,000/41,000) lives at risk … saved each year before you… require consumers to pay for anti-lock brakes”</p>
+</blockquote>
+<p>Treatments started with one size, then presented a “task force’s new estimate” with the reverse.</p>
+<p><u><strong><em>Overall evaluation of evidence</em></strong></u></p>
+<p><u><strong><em>Evidence gap and suggestions for future work and approaches</em></strong></u></p>
+</div>
+</div>
+<div id="potential-solutions" class="section level3" number="11.3.6">
+<h3><span class="header-section-number">11.3.6</span> Potential Solutions</h3>
+
+<div class="fold">
+<ol style="list-style-type: decimal">
+<li>Framing</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Frame down denominator (suggestive evidence from Fetherstonhaugh, etc)</p></li>
+<li><p>Report absolute or proportional number of lives that could be
+saved by an intervention depending on which suggests a smaller
+denominator (how do you know?)</p></li>
+<li><p>Highlight numerator (impact) (evidence?)</p></li>
+<li><p>(Ari:) “Increase evaluability: putting interventions on same
+page instead of separate pages”</p></li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>De-biasing (discussed further in <span class="citation">Friedrich et al. (<a href="#ref-friedrichPsychophysicalNumbingWhen1999" role="doc-biblioref">1999</a>)</span> - expand)</li>
+</ol>
+<p><em>Consider:</em></p>
+<ul>
+<li><p><em>“The proportion dominance effect was primarily mediated by
+perceived impact.” (<span class="citation">Arvid Erlandsson, Björklund, and Bäckström (<a href="#ref-erlandssonEmotionalReactionsPerceived2015" role="doc-biblioref">2015</a>)</span>, OBHDP)</em></p></li>
+<li><p><em>“Perceived Utility (not Sympathy) Mediates the Proportion Dominance
+Effect in Helping Decisions” <span class="citation">(<a href="#ref-erlandsson2014perceived" role="doc-biblioref">Arvid Erlandsson, Björklund, and Bäckström 2014</a>)</span></em></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="statvictim" class="section level2" number="11.4">
+<h2><span class="header-section-number">11.4</span> Statistical/identifiable victim effect</h2>
+<div class="marginnote">
+<p>Cite: Hsee13, small2003helping, kogut2011identifiable, <span class="citation">Small, Loewenstein, and Slovic (<a href="#ref-Small2007" role="doc-biblioref">2007</a>)</span> (studies 3-4)</p>
+</div>
+<div id="definition-1" class="section level3" number="11.4.1">
+<h3><span class="header-section-number">11.4.1</span> Definition</h3>
+<p>The identifiable victim effect (IVE) is credited as being first developed by <span class="citation">Schelling (<a href="#ref-schelling1968life" role="doc-biblioref">1968</a>)</span>, who argue “there is a distinction between an individual and a statistical life”. People may react differently towards victims when these victims are <em>identified</em> rather than anonymous <span class="citation">(<a href="#ref-smallHelpingVictimHelping2003" role="doc-biblioref">Small and Loewenstein 2003</a>)</span>. As a result, resources may be more likely to be devoted to causes where individual victims are more prominent and identifiable (rather than cases where we only see large, unidentified groups) <span class="citation">(<a href="#ref-small2010reference" role="doc-biblioref">Small 2010</a>)</span>. <span class="citation">Slovic (<a href="#ref-slovicPsychicNumbingGenocide2007" role="doc-biblioref">2007</a>)</span> also discussed this effect; this paper derives its title from a quote from Mother Teresa:<br />
+</p>
+<blockquote>
+<p>If I look at the mass I will never act. If I look at the <em>one</em> I will.</p>
+</blockquote>
+</div>
+<div id="relevance-to-effective-giving" class="section level3" number="11.4.2">
+<h3><span class="header-section-number">11.4.2</span> Relevance to effective giving</h3>
+<span class="citation">Baron and Szymanska (<a href="#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> discuss how the IVE could pose a problem for effective altruism, suggesting two reasons that this could be considered a bias.*
+<div class="marginnote">
+<p>* At least narrowly speaking, this could be seen as a ‘bias’, not only from the utilitarian perspective, but more generally. Presumably, no moral theory would hold that the moral status of an individual, or one’s obligation to them should depend on how that individual is <em>described</em>. (Thanks to Jason Schukraft for this point).</p>
+</div>
+<p>Firstly, they suggest that when altruism is increased for identified victims, this could result in less altruism for those who are not identified,<span class="math inline">\(^{(?)}\)</span></p>
+<div class="marginnote">
+<p>(?) Why? Through which channel.</p>
+</div>
+<p>The latter group may include those most in need of help (such as large groups of people who are severely deprived). <span class="citation">Kogut and Ritov (<a href="#ref-kogut2011identifiable" role="doc-biblioref">2011</a>)</span> similarly argued that the IVE could yield less efficiency given that it is improbable that the benefits to society will be maximized when more resources are given to victims who are identified than those who aren’t. (This essentially restates <a href="quant-biases.html#quant-biases">our general efficiency argument above</a>, in section <a href="quant-biases.html#quant-biases">11</a>).</p>
+
+<div class="note">
+<p><span class="citation">Baron and Szymanska (<a href="#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> offer a counter-argument:</p>
+<blockquote>
+<p>Perhaps, though, the emotion changes the benefit/cost threshold for altruism, meaning that people are willing to incur a greater personal cost of helping, even when the amount of benefit to others does not change. This shift in the benefit/cost threshold might possibly even increase overall altruism.</p>
+</blockquote>
+<p><br />
+</p>
+<p>This could be interpreted as</p>
+<ol style="list-style-type: decimal">
+<li><p>‘Those internal factors that cause a bias towards identified victims also lead to greater regard for others and thus more giving (’donation bundle Y’), even if it is less efficient. In net this could potential yield a greater good.’ OR</p></li>
+<li><p>“Presenting and depicting identified victims leads to … potential yielding a greater good”</p></li>
+</ol>
+<p>In either case, we can still see the IVE as leading to inefficient giving. From the point of view of the individual before he/she has been ‘triggered by identifiability’, ‘donation bundle Y’ is excessive as well as inefficient (the same benefit could be achieved at less expense or more good at the same expense). Ex-post, after she has been ‘triggered’ to be more generous, we can still see that more social good could have been done given her expenditure.</p>
+</div>
+<p><span class="citation">Baron and Szymanska (<a href="#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> also argue that the IVE could be viewed as a framing effect: the choices the donors make are influenced by how the information is <em>presented</em>, holding reality constant. This is about <em>presentation</em>: all victims <em>could</em> be identified, with names, ethnicities and ages. This leads <span class="citation">Baron and Szymanska (<a href="#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> to suggest that “the identifiability effect may fail a simpler test of rationality”.*</p>
+<div class="marginnote">
+<p>* What test? To do: clarify.</p>
+</div>
+<p><br />
+</p>
+</div>
+<div id="evidence-meta-analysis-and-reviewssurveys" class="section level3" number="11.4.3">
+<h3><span class="header-section-number">11.4.3</span> Evidence: Meta-analysis and reviews/surveys</h3>
+<p><span class="citation">Lee and Feeley (<a href="#ref-leeIdentifiableVictimEffect2016" role="doc-biblioref">2016a</a>)</span>: Meta-analysis</p>
+<blockquote>
+<p>A random-effects meta-analysis was conducted to determine the overall weighted effect of IVE. Overall, 41 studies were included. Results indicated an overall significant yet modest IVE (r = .05). In addition, findings showed that IVE appears reliable mainly when there is a single identified or a single unidentified victim, and/or when study characteristics include elements of the following: a photographed child suffering from poverty, bearing little responsibility for the need, and/or associated with monetary requests.</p>
+</blockquote>
+<p>See also, the discussion in <span class="citation">Kogut and Ritov (<a href="#ref-kogut2011identifiable" role="doc-biblioref">2011</a>)</span></p>
+<div id="specific-papers-discussion" class="section level4 unnumbered">
+<h4>Specific papers, discussion</h4>
+<!-- TODO: more complete overview of the types of evidence as well as existing meta-analyses -->
+<p>One of the potential reasons that <em>identified victims</em> could elicit greater generosity is that their stories can involve more sympathy-inducing information.**</p>
+<div>
+<p>**See <span class="citation">Jenni and Loewenstein (<a href="#ref-jenniExplainingIdentifiableVictim1997" role="doc-biblioref">1997</a>)</span> and <span class="citation">Loewenstein and Small (<a href="#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref">2007</a>)</span> for more on the causes of the identifiable victim effect and more on sympathy biases.</p>
+</div>
+<p>However, while sympathy-inducing information may contribute to the impact of the identifiable victim effect, some evidence suggests that it may not be the sole factor driving this. <span class="citation">Small and Loewenstein (<a href="#ref-smallHelpingVictimHelping2003" role="doc-biblioref">2003</a>)</span> designed studies to separate the effect of the <em>identification</em> of a victim from the effect of <em>information being provided</em> about a victim. They outlined this distinction as follows:</p>
+<blockquote>
+<p>Although it has been claimed that people care about identifiable more than statistical victims, demonstrating this “identifiable victim effect” has proven difficult because identification usually provides information about a victim, and people may respond to the information rather than to identification <em>per se</em>. We show that a very weak form of identifiability - determining the victim without providing any personalizing information - increases caring.</p>
+</blockquote>
+<p>In one of their studies, they used a version of the “dictator game”. In dictator games, the first player, known as the ‘allocator’ is given an endowment. They then make a unilateral decision on how they should split this endowment. The second player, known as the ‘recipient’, has to accept this split.*</p>
+<div class="marginnote">
+<p>*For more on dictator games see <span class="citation">Kahneman, Knetsch, and Thaler (<a href="#ref-kahneman1986fairness" role="doc-biblioref">1986</a>)</span> and <span class="citation">Camerer and Thaler (<a href="#ref-camerer1995anomalies" role="doc-biblioref">1995</a>)</span>.</p>
+</div>
+<p>There were two conditions in the slightly-altered dictator game devised by <span class="citation">Small and Loewenstein (<a href="#ref-smallHelpingVictimHelping2003" role="doc-biblioref">2003</a>)</span>. In the ‘determined’ condition, allocators were given a number to link them with the recipient before they made their decision, while in the ‘undetermined’ condition they were linked after the decision. Their hypothesis, that an allocator would give more money to recipients in the determined condition, was supported. Subjects gave significantly more to those victims who had been determined before the allocation. The mean donation for an undetermined victim was USD 2.12, compared to USD 3.42 for determined victims.</p>
+<p>The second study from @<span class="citation">Small and Loewenstein (<a href="#ref-smallHelpingVictimHelping2003" role="doc-biblioref">2003</a>)</span> was a field experiment with the following methodology:</p>
+<blockquote>
+<p>… potential donors were presented with a letter requesting money to buy materials for a house that was to be built for a needy family through the Habit for Humanity organization. The letter described several families on the waiting list to move into homes. Identifiability was manipulated by informing respondents that the family either “<em>has been selected</em>” or “<em>will be selected</em>” from the list. In neither condition were respondents told which family had been or would be selected; the only difference between conditions was in whether the decision had already been made.</p>
+</blockquote>
+<p>As in their first study, they found evidence supporting their hypothesis that contributions would be larger when the recipients had already been determined. Mean, median and modal donations were all larger in the determined condition, with a mean of USD 2.93 given in the determined family condition, and a mean of USD 2.33 given in the undetermined family condition. This study could arguably provide stronger support for the identifiable victim effect impacting altruism, as <span class="citation">Small and Loewenstein (<a href="#ref-smallHelpingVictimHelping2003" role="doc-biblioref">2003</a>)</span> suggest:</p>
+<blockquote>
+<p>By moving out of the laboratory, we eliminated potential artifacts such as the concern that students might have felt of being “found out” by their peers or other non-empathatic motives. By collecting money for a real charity to help people truly in need, we illustrate the real world implications of this effect.</p>
+</blockquote>
+<p>Both of these studies from <span class="citation">Small and Loewenstein (<a href="#ref-smallHelpingVictimHelping2003" role="doc-biblioref">2003</a>)</span> suggest that identifying a victim, even without providing additional information, can potentially increase giving.</p>
+<p>Results from <span class="citation">Charness and Gneezy (<a href="#ref-charnessWhatNameAnonymity2008" role="doc-biblioref">2008</a>)</span> similarly offer support for the IVE from dictator games. In their dictator game, they found that when the family name of the recipient was revealed, the allocator gave a significantly larger portion (50 percent more) of their endowment.</p>
+<p><span class="citation">Kogut and Ritov (<a href="#ref-kogutIdentifiedVictimEffect2005" role="doc-biblioref">2005a</a>)</span> also studied the IVE with the following design for participants:</p>
+<blockquote>
+<p>They were randomly assigned to one of eight conditions. Two factors were varied between subjects in a 2 x 4 factorial design: the singularity of the victim (single vs. a group of eight individuals) and the identifying information (unidentified; age only; age &amp; name; age, name, &amp; picture)</p>
+</blockquote>
+<p>Participants were given the same story, describing either a sick child, or a group of eight sick children. They were then asked if they would donate, and if so, how much they would donate.</p>
+<p>Their first finding was that “the effect of identification may be largely restricted to single victims”, as the impact of being identified was significantly less for the group of eight children than for the single child. Secondly, they found that “the identification of the single victim is more effective the more vivid the representation”, with willingness to donate at its highest when the victims were identified by age, name, and picture.</p>
+<div class="marginnote">
+<p>I’d like to check the robustness of this ‘interaction’ effect; such effects may be confounded with non-linearity. See discussion <a href="https://daaronr.github.io/metrics_discussion/introduction.html#basic-regression-and-statistical-inference-common-mistakes-and-issues">here, section 1.3.7</a></p>
+</div>
+<p><span class="citation">Sudhir, Roy, and Cherian (<a href="#ref-Sudhir2016a" role="doc-biblioref">2016</a>)</span> also found support for the IVE. They randomized advertising content in a large-scale experiment with charitable mailings across India. In the ‘individual’ condition, they described an individual along with her photograph. On the ‘group’ condition they described the victims as a group of four women and used a photo collage. They found an average donation rate of 0.24% in the individual condition, compared to 0.09% for the group condition. They also found that the IVE contributed both to a higher rate of giving, and higher amounts given.</p>
+<p>Linked to the identifiable victim effect is the notion that people are sensitive to the <em>proportion</em> of lives saved, rather than absolute lives (as discussed in more detail <a href="quant-biases.html#prop-dom">above</a>) <span class="citation">(<a href="#ref-Baron1997" role="doc-biblioref">Baron 1997</a>; <a href="#ref-fetherstonhaughInsensitivityValueHuman1997" role="doc-biblioref">Fetherstonhaugh et al. 1997</a>; <a href="#ref-Small2007" role="doc-biblioref">Small, Loewenstein, and Slovic 2007</a>)</span>. <span class="citation">Loewenstein and Small (<a href="#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref">2007</a>)</span> suggest that if the proportion of lives saved is higher, then the lives could be more identifiable, resulting in more sympathy. They claim that, for example, “Ten lives out of a group of 100 is a high proportion and thus more sympathy inducing than 10 lives out of 1,000,000”. <span class="citation">Loewenstein and Small (<a href="#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref">2007</a>)</span> also argue that the IVE represents one extreme on a continuum. If a single victim is identified, this victim becomes part of one’s own reference group; thus one might experience higher levels of sympathy. At the opposite end of the continuum we find the ‘drop-in-the-bucket’ effect, where “there are so many victims in the reference group that the individual victims are hidden among the masses”.</p>
+<p><span class="citation">Lee and Feeley (<a href="#ref-lee2016identifiable" role="doc-biblioref">2016b</a>)</span> present a random-effects meta-analysis of the IVE, including 41 studies. They find*</p>
+<div>
+<p>To do: check the extent to which these studies surround charitable giving.</p>
+</div>
+<blockquote>
+<p>an overall significant yet modest IVE (<em>r</em> = .05) … reliable mainly when there is a single identified or a single unidentified victim, and/or when study characteristics include elements of the following: a photographed child suffering from poverty, bearing little responsibility for the need, and/or associated with monetary requests.</p>
+</blockquote>
+</div>
+</div>
+</div>
+<div id="availability-heuristic" class="section level2" number="11.5">
+<h2><span class="header-section-number">11.5</span> Availability heuristic</h2>
+<div id="definition-and-relevance" class="section level3" number="11.5.1">
+<h3><span class="header-section-number">11.5.1</span> Definition and relevance</h3>
+<p>The availability heuristic suggests that people judge the frequency of classes, or the probability of events, by the ease with which they come to mind <span class="citation">(<a href="#ref-tversky1973availability" role="doc-biblioref">Amos Tversky and Kahneman 1973</a>)</span>. I.e., people may treat an event <em>a</em> as more likely than an event <em>b</em>, if <em>a</em> comes to mind more easily than <em>b</em> <span class="citation">(<a href="#ref-angner2012course" role="doc-biblioref">Angner 2012</a>)</span>.</p>
+<p>As a result of people using the availability heuristic, they may underestimate the prevalence of–and place less value on–problems such as extreme poverty. These problems may be less salient than issues people in developed countries regularly encounter. For example, many of us have personal experiences with cancer. As well as potentially inducing more sympathy (see <a href="aware-distance.html#aware-distance">here</a> for more on sympathy biases), this could lead us to that people place disproportionately high value on curing cancer relative to, e.g., preventing malaria. <span class="citation">Amos Tversky and Kahneman (<a href="#ref-tversky1973availability" role="doc-biblioref">1973</a>)</span> discussed how personal experience can influence judgments of probability in their original paper on the availability heuristic:</p>
+<blockquote>
+<p>Perhaps the most obvious demonstration of availability in real life is the impact of the fortuitous availability of incidents of scenarios. Many readers must have experienced the temporary rise in the subjective probability of an accident after seeing a car overturned by the side of the road… Continued preoccupation with an outcome may increase its availability, and hence its perceived likelihood.</p>
+</blockquote>
+
+<div class="note">
+<p><span class="citation">Kahneman (<a href="#ref-kahnemanThinkingFastSlow2011" role="doc-biblioref">2011</a>)</span> also looks at studies from <span class="citation">Slovic, Fischhoff, and Lichtenstein (<a href="#ref-slovic1981rating" role="doc-biblioref">1981b</a>)</span>, <span class="citation">Slovic, Fischhoff, and Lichtenstein (<a href="#ref-slovic1981perceived" role="doc-biblioref">1981a</a>)</span>, and <span class="citation">Lichtenstein et al. (<a href="#ref-lichtenstein1978judged" role="doc-biblioref">1978</a>)</span>, summarising:</p>
+<blockquote>
+<p>Strokes cause almost twice as many deaths as all accidents combined, but 80% of respondents judged accidental deaths to be more likely
+Tornadoes were seen as more frequent killers than asthma, although the latter cause 20 times more deaths
+Death by disease is 18 times more likely as accidental death, but the two were judged about equally likely</p>
+</blockquote>
+<p><span class="citation">Kahneman (<a href="#ref-kahnemanThinkingFastSlow2011" role="doc-biblioref">2011</a>)</span> concludes:</p>
+<blockquote>
+<p>The lesson is clear: estimates of death are warped by media coverage. The coverage itself is biased toward novelty and poignancy. The media do not just shape what the public is interested in, but are also shaped by it</p>
+</blockquote>
+</div>
+<p>The availability heuristic could translate to more effective charities being neglected. For example, in the UK, cancer is a very prominent charitable cause, and Cancer Research UK is <a href="https://yougov.co.uk/ratings/politics/fame/charities-organisations/all">one of the UK’s most popular charities</a>. This is in spite of the fact, per-dollar, Cancer Research is appears significantly less effective than several anti-malaria charities <span class="citation">Macaskill (<a href="#ref-macaskillDoingGoodBetter2015" role="doc-biblioref">2015</a>)</span>.</p>
+<div class="marginnote">
+<p>E.g., the <a href="https://www.againstmalaria.com/">Against Malaria Foundation</a> is ranked highly by <a href="https://www.givewell.org/">GiveWell</a>, but receives relatively little attention, and is not among the most popular charities in the UK.</p>
+</div>
+<p><span class="citation">Macaskill (<a href="#ref-macaskillDoingGoodBetter2015" role="doc-biblioref">2015</a>)</span> has also discussed how we should compare malaria and cancer as issues (unfold):</p>
+
+<div class="fold">
+<p>Macaskill:</p>
+<blockquote>
+<p>Every year cancer kills 8.2 million people and is responsible for 7.6 percent of all deaths and ill health worldwide (measured in terms of QALYs lost). USD 217 billion per year is spent on cancer treatment. Malaria is responsible for 3.3 percent of QALYs lost worldwide. In terms of its health impacts, cancer is about twice as bad as malaria, so if medical spending were in proportion to the scale of the problem, we would expect malaria treatment to receive about USD 100 billion per year. In reality only USD 1.6 billion per year is spent on malaria treatment: about sixty times less than we would expect.</p>
+</blockquote>
+<blockquote>
+<p>Cancer treatment receives so much more funding than malaria treatment because malaria is such a cheap problem to solve that rich countries no longer suffer from it. (It was eliminated in the US in 1951.) The fact that cancer treatment receives so much more funding than malaria treatment means that, on the margin, each of us can provide a far greater benefit for other people by funding the most effective malaria treatments in the developing world than we can by funding the most effective cancer treatments in the developed world.</p>
+</blockquote>
+</div>
+<p>Most people in developed countries like the US and the UK will have an experience with cancer over their lifetime, either personally or through a loved one.</p>
+<div class="marginnote">
+<p>It is estimated that roughly <a href="https://www.cancer.gov/about-cancer/understanding/statistics#:~:text=Approximately%2038.4%25%20of%20men%20and,1%2C790%20died%20of%20the%20disease.">38% of men and women</a> will be diagnosed with cancer at some point over their lifetime.</p>
+</div>
+<p>In contrast, while malaria it receives some international coverage, was <a href="https://www.npr.org/sections/goatsandsoda/2017/04/24/525405956/malaria-wiped-out-in-u-s-but-still-plagues-u-s-hospitals?t=1596537819296">eliminated in the US in the 1950s</a>.</p>
+<p>If cancer is more <em>visible</em>, it could be more <em>salient</em>,leading people to overestimate its importance through their use of the availability heuristic.</p>
+<div class="marginnote">
+<p>Note that none of the ‘barriers’ we mention are mutually exclusive. There may be many other factors driving the popularity of cancer research charities.</p>
+</div>
+</div>
+<div id="connection-to-other-biases" class="section level3" number="11.5.2">
+<h3><span class="header-section-number">11.5.2</span> Connection to other biases</h3>
+<p>This ‘availability’ bias is distinct from the idea that are more likely to donate to cancer research out of self-interest (i.e. thinking that it may help them personally); the latter <a href="identity.html#self-interest">is discussed in</a> section <a href="identity.html#self-interest">7.1</a>.</p>
+<p>Availability has some links to other biases we consider. Salience contributes to probability estimations, and events that come to mind more easily can be judged as more likely. Thus, this could be a mechanism behind other biases, such as the <a href="quant-biases.html#statvictim">identifiable victim effect</a> and the lack of attention given to <a href="aware-distance.html#future">distant future</a> causes. <span class="citation">Angner (<a href="#ref-angner2012course" role="doc-biblioref">2012</a>)</span> discusses the link between the availability heuristic and vivid stories (with vividness discussed as a potential contributor to both the IVE and distant future issues):</p>
+<blockquote>
+<p>The availability heuristic sheds light on the power of storytelling. As every writer knows, stories are often far more compelling than scientific data. If you doubt that, just ask a wolf. Wolves pose a trivial danger to humans: the number of verifiable, fatal attacks by wolves on humans is exceedingly low. And yet, fear of wolves runs deep. Part of the explanation is certainly that there are so many stories about big, bad wolves eating, e.g., little girls’ grandmothers. As a result of these stories, the idea of wolves attacking humans is highly salient, which means that people treat it as likely – even though the data establish it is not. Far more dangerous organisms, such as the <em>Salmonella</em> bacterium that kills some 400 people each year in the US alone, do not figure in the public imagination in the same way and consequently are not as feared as they probably should be. The power of storytelling can be harnessed to communicate risk communication very effectively, but it can also do immense harm. A single story about an illegal immigrant committing a heinous crime can generate strong anti-immigration sentiments in spite of evidence of the beneficial welfare effects of immigration.</p>
+</blockquote>
+<p><br />
+</p>
+</div>
+<div id="evidence-to-do" class="section level3" number="11.5.3">
+<h3><span class="header-section-number">11.5.3</span> Evidence (to do)</h3>
+</div>
+</div>
+<div id="diversification-heuristic" class="section level2" number="11.6">
+<h2><span class="header-section-number">11.6</span> Diversification heuristic</h2>
+<p><span class="citation">Baron and Szymanska (<a href="#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> suggest that, in many contexts, diversification can often be beneficial. For example, when it comes to experiences, diversification can mean variety, helping to reduce the likelihood of adaption and things being repeated. This comes from the idea of diminishing marginal utility, and <span class="citation">Read and Loewenstein (<a href="#ref-read1995diversification" role="doc-biblioref">1995</a>)</span> explain the classical model of variety seeking as follows:</p>
+<blockquote>
+<p>According to the classical model, variety seeking arises from object-specific satiation or the <em>diminishing rate of marginal return to consumption</em> [of an individual good]. According to this view, the optimal bundle of goods contains variety because the benefit from an additional unit of a specific good (i.e., its marginal return) decreases as a function of the number of units of that good one already possesses.</p>
+</blockquote>
+<p><br />
+</p>
+
+<div class="note">
+<p>David Reinstein: The classical economics model does not assert a diminishing rate of marginal return to consumption as a general <em>universal</em> property. It is recognized that this may not hold over all goods for all quantities and all individuals.</p>
+<p><br />
+However, this (as well as the more rigorous concepts of ‘convex’ preferences or ‘quasi-concave’ upper-contour sets) are</p>
+<ol style="list-style-type: decimal">
+<li><p>Convenient for the maths/proofs, allowing continuous responses to prices, etc.</p></li>
+<li><p>Intuitively (and perhaps empirically) justified in many contexts.</p></li>
+<li><p>A reasonable way of explaining why individuals do not ‘spend their money on a single good’.</p></li>
+</ol>
+</div>
+<p><br />
+</p>
+<p>Diversification can particularly have value in investing, where it can reduce the exposure to risk (variance) for a given expected return (or increase the expected return for a given expected variance of the return. (See ‘diversification’, ‘asset pricing’ and the CAPM model, in standard textbooks.)</p>
+<p><br />
+</p>
+<p>However, people may continue to diversify even in domains where this no longer makes sense, as they use <em>diversification heuristics</em>. The causes of diversification heuristics more broadly are discussed in detail by <span class="citation">Read and Loewenstein (<a href="#ref-read1995diversification" role="doc-biblioref">1995</a>)</span>. A study by <span class="citation">Benartzi and Thaler (<a href="#ref-Benartzi2007" role="doc-biblioref">2007</a>)</span> is also useful for examining the evidence of diversification heuristics more widely, particularly for establishing what they refer to as the “<span class="math inline">\(1/n\)</span> rule”. The <span class="math inline">\(1/n\)</span> rule was inspired by the tendency for people to sometimes split allocations evenly across their options:</p>
+<blockquote>
+<p>Nobel laureate Harry Markowitz, one of the founders of modern portfolio theory, confessed: “I should have computed the historic covariances of the asset classes and drawn an efficient frontier. Instead, . . . I split my contributions fifty–fifty between bonds and equities” <span class="citation">(<a href="#ref-zweig1998five" role="doc-biblioref">Zweig 1998</a>)</span>. Markowitz was not alone. During the period when TIAA-CREF had only two options—TIAA invests in fixed income securities and CREF invests in equities—more than half the participants had selected a fifty–fifty split. Markowitz’s strategy can be viewed as naive diversification: when faced with “n” options, divide assets evenly across the options. We have dubbed this heuristic the “1/n rule.”</p>
+</blockquote>
+<div class="marginnote">
+<p>The study from <span class="citation">Benartzi and Thaler (<a href="#ref-Benartzi2007" role="doc-biblioref">2007</a>)</span> was focused on heuristics and biases in retirement savings,</p>
+</div>
+<!-- [TIAA-CREF](https://www.tiaainstitute.org/sites/default/files/presentations/2017-02/ti_differ0210.pdf) is a retirement plan
+-->
+<div id="implications-and-causes-of-diversification-heuristics-in-charitable-giving" class="section level3 unnumbered">
+<h3>Implications and causes of diversification heuristics in charitable giving</h3>
+<p>For the rest of this section, we will focus on the implications and causes of diversification heuristics as they relates to charitable giving specifically, but the above studies are valuable for further examining the underlying causes behind diversification heuristics in general.</p>
+<p>One study that offers some evidence for people diversifying when this is no longer effective comes from a study examining how people chose to distribute screening tests for colon cancer, by <span class="citation">Ubel et al. (<a href="#ref-ubel1996cost" role="doc-biblioref">1996</a>)</span>, who used the following method:</p>
+<blockquote>
+<p>We asked prospective jurors, medical ethicists, and experts in medical decision making to choose between two screening tests for a population at low risk for colon cancer. One test was more cost effective than the other but because of budget constraints was too expensive to be given to everyone in the population. With the use of the more effective test for only half the population, 1100 lives could be saved at the same cost as that of saving 1000 lives with the use of the less effective test for the entire population.</p>
+</blockquote>
+<p>They found that 56 percent of the prospective jurors, 53 percent of the medical ethicists, and 41 percent of the experts chose the less effective test. The authors report that most defended this choice on the basis of valuing equity, leading <span class="citation">Ubel et al. (<a href="#ref-ubel1996cost" role="doc-biblioref">1996</a>)</span> to conclude that “People place greater emphasis on equity than is reflected by cost-effectiveness analysis”. While this study is not on charitable giving directly, it may have implications in understanding how people may view trade-offs in equity and efficiency, particularly where real human lives are at stake.</p>
+<p><span class="citation">Fox, Ratner, and Lieb (<a href="#ref-fox2005subjective" role="doc-biblioref">2005</a>)</span> also expanded on a problem linked to diversification, which they refer to as partition dependence. This builds on the finding that people can often split allocations evenly across options <span class="citation">(<a href="#ref-Benartzi2007" role="doc-biblioref">Benartzi and Thaler 2007</a>)</span>. They discuss the distinction between the two ideas:</p>
+<blockquote>
+<p>If a decision maker subjectively partitions the option set in different ways on different occasions, then choices and allocations will vary systematically with these partitions. We refer to this phenomenon as partition dependence. To illustrate, suppose that a philanthropist intent on donating to an array of children’s charities is presented with a set of organizations that are grouped by whether they are domestic or international. She may decide to diversify fully across these two categories by allocating half of her donation to domestic charities and half to international charities. However, suppose instead that she is presented with the same set of organizations, grouped into local charities, national charities, and international charities. In this case, the philanthropist may allocate two thirds to domestic charities (one third to local, one third to national) and one third to international charities. Note that partition dependence differs from diversification heuristics such as the “1/n rule,” documented by <span class="citation">Benartzi and Thaler (<a href="#ref-Benartzi2007" role="doc-biblioref">2007</a>)</span>, in which people spread their retirement savings evenly across the n investment instruments that were offered (e.g., stock fund, bond fund.) The 1/n rule refers to the tendency to spread savings evenly among investment options with little regard to the particular investments that are offered; partition dependence refers to the tendency to make different allocations among the same set of options as a function of the way those options are subjectively grouped.</p>
+</blockquote>
+<p>In one of their studies to examine partition dependence, <span class="citation">Fox, Ratner, and Lieb (<a href="#ref-fox2005subjective" role="doc-biblioref">2005</a>)</span> recruited participants and told them that the researchers would donate $2 on behalf of each participant to United Way charities (a charity which includes funds that benefit both international projects and local communities). The participants could choose how to allocate the funds, and were told the following:</p>
+<blockquote>
+<p>In particular, you can allocate the United Way donation into international funds (which the United Way would then allocate to more specific funds abroad) and/or Durham County funds (including programs benefiting seniors, programs nurturing our young children, programs promoting health and wellness, and programs strengthening our families).</p>
+</blockquote>
+<p>The study had two conditions in order to examine the potential impacts of partition dependence, non-hierarchical and hierarchical:</p>
+<blockquote>
+<p>Participants in the nonhierarchical partition condition (n = 15) were then asked to indicate their proposed allocation to international funds and each of four Durham County funds, with the order identical to that listed in the preceding paragraph. Respondents were asked to indicate percentages and were reminded to make sure that their allocation summed to 100%. Participants in the hierarchical partition condition (n = 16) were told, “Below we will ask you to first allocate geographically, then to more specific funds.” Next they were asked to indicate how much of the money they would donate to (superordinate categories of) international funds versus Durham County funds and were reminded to make sure that their allocation summed to 100%. Finally, these participants were asked to indicate how they would allocate their Durham County donation among each of the four possibilities.</p>
+</blockquote>
+<p>Their results suggested that there was evidence for partition dependence in participants:</p>
+<blockquote>
+<p>The mean donation to the international fund was 55% in the hierarchical condition (n = 16) but only 21% in the nonhierarchical condition (n = 15), t(29) = 3.73, p = .0004, one-tailed. In fact, median donations were 50% in the hierarchical condition and 20% in the nonhierarchical condition—the precise proportions one would expect if participants applied pure partition-dependent diversification without adjustment.</p>
+</blockquote>
+<p>If people do use diversification heuristics in charitable domains, as these studies from <span class="citation">Ubel et al. (<a href="#ref-ubel1996cost" role="doc-biblioref">1996</a>)</span> and <span class="citation">Fox, Ratner, and Lieb (<a href="#ref-fox2005subjective" role="doc-biblioref">2005</a>)</span> suggest, this could have significant implications for the extent to which people give effectively. While diversifying could have some value, and may make some sense if people are uncertain about the outcomes of their giving, <span class="citation">Baron and Szymanska (<a href="#ref-baron2011heuristics" role="doc-biblioref">2011</a>)</span> outline ‘why the usual arguments for diversification are less likely to apply for charitable giving’:</p>
+<blockquote>
+<p>The marginal benefit per dollar (recall the difference between the average vs. marginal benefit) of some support is usually much higher than the marginal benefit of support in addition to some other previous support. In the context of charitable donations, however, a single donor does not have much influence over the total level of the charity’s income (unless the donor is a major philanthropist). Thus, the usual arguments that favour diversification in investments do not necessarily apply to donations by typical donors. For charities, the focus should be on maximizing the expected increase in the economic welfare per dollar of every contribution… In reality, however, more often than not, each contributor has only a tiny effect on the total funding required by a charitable organization, so the argument based on the principle of declining marginal utility is unlikely to apply. We should, therefore, identify a charity with the highest expected benefit per dollar, and make our entire contribution to that one charity.</p>
+</blockquote>
+<blockquote>
+<p>In other words, a donor may err by thinking and acting as if she were the only donor to the charities that she supports. If she were, then it would make sense to diversify because of the principle of declining marginal utility just described. In reality, however, more often than not, each contributor has only a tiny effect on the total funding required by a charitable organization, so the argument based on the principle of declining marginal utility is unlikely to apply.</p>
+</blockquote>
+<blockquote>
+<p>We should, therefore, identify a charity with the highest expected benefit per dollar, and make our entire contribution to that one charity.</p>
+</blockquote>
+
+<div class="note">
+<p>DR: There are some perspectives under which a certain amount diversification in charitable giving, motivated by a form of risk-aversion, may be optimising, at least for an individual with particular other-regarding preferences. For example, suppose:</p>
+<ul>
+<li><p>… an individual donor values the impact that <em>she actually has in terms of realized outcomes</em> (rather than valuing her ‘expected value impact’), and …</p></li>
+<li><p>she gains diminishing returns to this impact (making her, in a sense ‘risk-averse’)</p></li>
+</ul>
+<p>This would imply that, if she is maximising her expected utility (a standard assumption in Economics):</p>
+<ul>
+<li><p>she would strictly prefer to have (e.g.) a 100% chance of saving one life over a 50% chance of saving two lives, and</p></li>
+<li><p>she would strictly prefer to have a 10% chance of saving one life over a 5% chance of saving two lives, and</p></li>
+<li><p>she <em>might</em> strictly prefer to have a 10% chance of saving 100 lives over a 5% chance of saving 201 lives.</p></li>
+</ul>
+<p>Consider the probabilities that each dollar donated to a charity (leads to an intervention that) saves a life (or achieves a particular outcome). Suppose these outcomes (the lives saved) are not perfectly correlated across charities. In such a case, this an individual would find it optimal to diversify her giving across equally-impactful charities, and potentially even to include some ‘slightly less impactful’ charities in her ‘giving bundle.’</p>
+</div>
+</div>
+<div id="evidence-for-diversification-heuristic-in-charitable-giving-to-do" class="section level3 unnumbered">
+<h3>Evidence for diversification heuristic in charitable giving (to do)</h3>
+</div>
+</div>
+<div id="overhead-aversion" class="section level2" number="11.7">
+<h2><span class="header-section-number">11.7</span> Overhead aversion</h2>
+<div id="related-terms" class="section level3 unnumbered">
+<h3>Related Terms</h3>
+<ul>
+<li><p>Similar terms: Overhead bias</p></li>
+<li><p>Possible mechanisms: waste aversion, perfectionism; evaluability bias (for this versus other metrics); excuse-driven/motivated reasoning</p></li>
+<li><p>Distinct but related: corruption aversion</p></li>
+</ul>
+</div>
+<div id="description-1" class="section level3 unnumbered">
+<h3>Description</h3>
+<p>Potential donors may have a negative feeling towards a charity’s costs that are considered “overhead” rather than “direct spending on program activities.” This may make them reluctant to donate to charities that express a high “overhead ratio” and/or when they believe their donation will go to “pay for overhead”, and to favor instead charities that report low “overhead ratios”.</p>
+<p>Discussion: There are some clear flaws in this logic (thus we may call it “overhead bias”): many things considered overhead are fixed or sunk costs which will not be changed by the amounts donated; thus, at the <em>margin</em> the donation may not actually go towards this overhead.</p>
+<p>Marginal overhead is also possible. Suppose, e.g., the cost of an additional year of school tuition fees for a child are £200, but this requires an additional administrative cost of £50 to vet the student and her family, pay money transfer fees, fill out additional forms, etc. A donation of £200 earmarked for “tuition only” would require an additional £50 of these costs, which might be labled “overhead”. However, as this example suggests, many such “overhead” expenses are necessary parts of the mission, an increase its effectiveness (e.g., training employees, auditing, evaluating and targeting programs). On the other hand, we cannot rule out that in some cases high overhead might be a signal of inefficient practices. Where organizations have bloated annual operating expenses it might be more efficient for them to close down in the medium term and for that money to be used for leaner charities. (Several theoretical papers <span class="citation">(ref: <a href="#ref-steinbergShouldDonorsCare1986" role="doc-biblioref">Steinberg 1986</a> and later work)</span> discuss whether or not the overhead ratios are a sign of efficiency.)</p>
+<p><br />
+</p>
+</div>
+<div id="overhead-evdc" class="section level3" number="11.7.1">
+<h3><span class="header-section-number">11.7.1</span> Overview of Evidence</h3>
+<p>Survey and observational evidence suggests that donors focus on potentially misleading measures of overhead. <span class="citation">Gneezy, Keenan, and Gneezy (<a href="#ref-gneezyAvoidingOverheadAversion2014" role="doc-biblioref">2014</a>)</span> present a credible piece of field-experimental evidence suggesting that having a “lead donor” and framing this as “covering overhead” may increase donations. <span class="citation">Metzger and Günther (<a href="#ref-Metzger2019" role="doc-biblioref">2019b</a>)</span> lab participants donate (marginally) significantly less when presented with (the option to buy) information about a NGO’s administrative costs (perhaps because such costs were made salient). <span class="citation">Caviola et al. (<a href="#ref-Caviola2014" role="doc-biblioref">2014</a>)</span> (hypothetical?) experiments suggest that <em>evaluability</em> may drive the focus on overhead rather than effectiveness. <span class="citation">Portillo and Stinn (<a href="#ref-portillo2018overhead" role="doc-biblioref">2018</a>)</span> lab participants favored overhead-free charities and preferred fundraising-related to salary-related overhead. <span class="citation">Kinsbergen and Tolsma (<a href="#ref-kinsbergenExplainingMonetaryDonations2013" role="doc-biblioref">2013</a>)</span> representative (Dutch) survey participants “have a strong aversion regarding overhead costs, [but]… seem to value the capacities of paid staff members and are, to a certain extent, willing to pay a price for these.”</p>
+</div>
+<div id="relevance-to-effective-giving-1" class="section level3" number="11.7.2">
+<h3><span class="header-section-number">11.7.2</span> Relevance to effective giving</h3>
+<ul>
+<li>How this particular barrier proves problematic for effective giving?</li>
+</ul>
+<p>Studies finds ‘no correlation’ between overhead and effectiveness– are these convincing?</p>
+<div class="marginnote">
+<p>Check claims made in “BBB Wise Giving Alliance”; Caviola et al., 2014; Gregory &amp; Howard, 2009; Karlan, 2014; Pallotta, 2008; Sellers, 2018</p>
+</div>
+<p>As noted above, overhead is an important input to the charity’s production function, enabing it to be effective. A biases against overhead therefore distort’s the donor choice of charity away from effectiveness. The other side of this coin: in an efficient market firms provide the services consumers demand. If consumers have a preference for firms that use a lower share of some input, this will “distort” the production process away from this input, making it seem artificially costly [ref: Reinstein and Song, others]. Similarly, if donors punish charities for excessive overhead, charities will use “too little” of inputs deemed to be overhead.</p>
+<p>Note that doing impact evaluation will itself increase overhead. I.e., aversion to overhead will lead people to be biased against evidence-based charities that evaluate their own programs.</p>
+<p>While the above concerns do not necessarily tilt against charities targeting overeas or lower-profile causes, it nonetheless represents a departure from efficiency in choice/provision of charitable services.</p>
+<p>Furthermore, there is a reasonable case [todo: get evidence] that working in poor countries, countries that are further from the charity’s headquarters, and countries more distant from legal, financial, and other services <em>will</em> lead to a greater overhead ratio. This may be accentuated if the <em>basic</em> service (e.g., food, housing, or education) is cheaper in poor countries. E.g., sending a poor child in Chicago to a summer enrichment program might cost £4000 in fees and £500 to administer the scholarship, roughly 11% “overhead share” . Sending a poor Ghanaian child for a year might cost £300 plus £100 in administration, a 25% share.</p>
+</div>
+<div id="state-of-evidence-key-papers" class="section level3 unnumbered">
+<h3>State of Evidence; key papers</h3>
+<p><strong>Methodological issues</strong></p>
+<ul>
+<li><p>Observational (correlational) studies: Overhead varies across charities in non-random ways; may be correlated to unobservable characteristics. There may also be reverse causality – fundraising expenses both increase reported overhead and (presumably) drive donations.</p></li>
+<li><p><span class="citation">Jonathan Meer (<a href="#ref-meerDoesFundraisingCreate2017" role="doc-biblioref">2017</a>)</span> identified plausibly exogenous variation; but this pertained to <em>actual</em> incremental costs/prices, rather than the “overhead” costs at issue</p></li>
+<li><p>Field experiments can vary <em>presentation</em> or <em>framing</em> of overhead but not (typically) a charity’ <em>actual</em> administration processes (thus “overhead”)</p></li>
+<li><p>Lab experiments can vary the actual price of giving but this doesn’t represent the real-world “overhead” issue; others</p></li>
+<li><p>In contrast, <span class="citation">Metzger and Günther (<a href="#ref-Metzger2019" role="doc-biblioref">2019b</a>)</span> varied the charity the subjects could donate to, but imposed a strong framing of the administrative costs as a marginal price).</p></li>
+<li><p>Survey and hypothetical vignette evidence (usual issues)</p></li>
+</ul>
+<div id="gneezy-uri-elizabeth-a.-keenan-and-ayelet-gneezy.-avoiding-overhead-aversion-in-charity.-science-346.6209-2014-632-635." class="section level4 unnumbered">
+<h4>Gneezy, Uri, Elizabeth A. Keenan, and Ayelet Gneezy. “Avoiding overhead aversion in charity.” Science 346.6209 (2014): 632-635.|</h4>
+<p><span class="citation">Gneezy, Keenan, and Gneezy (<a href="#ref-gneezyAvoidingOverheadAversion2014" role="doc-biblioref">2014</a>)</span> ran a large-scale (N=40,000 [check]) mail solicitation on behalf of an organization seeking to fund as many US educational projects (each costing <code>$20,000</code> US) as possible. Recipients were asked to give 20/50/100 USD. They found that framing a lead donation as “covering[ing] all the overhead costs associated with raising the needed donations” lead to a significantly greater share donating and amount raised than either the control condition (no lead donation?) or a seed (“has given this campaign seed money”) or matching frame (“will match every dollar given… up to a total of <code>$10,000</code>”).</p>
+<div class="marginnote">
+<p>Results</p>
+<p>Share donating: Overhead (8.5%) <span class="math inline">\(&gt;\)</span> *** <span class="math inline">\(\geq\)</span> Match <span class="math inline">\(&gt;\)</span> Control (3.4%)</p>
+<p>Amount raised: Overhead (<code>$</code>2.31) &gt; ** Seed, Match &gt; *** Control (<code>$0.80</code>)</p>
+</div>
+<p>Note that while the framing differed, the <em>actual</em> treatment of the seed money in each case was the same; unless the charity could change the way it <em>administered</em> its programs between treatment, there is no clear way to experimentally vary the <em>actual</em> overhead.</p>
+<p>This amounts to a clear piece of evidence that in such contexts <em>framing</em> overhead as being “covered” in this way may increase donations. However, it doesn’t reveal donors’ reaction to the reported measure of overhead <em>itself</em>. The effect may come from the particular salience of the way the lead donor’s (particularly selfless) act is portrayed, or it may be specific to overhead “<em>associated with raising … donations”</em> rather than administrative overhead, salaries, etc.</p>
+<p>The same authors ran a <em>lab</em> experiment where they were able to vary the share of the subjects’ donation that actually went to the charity, labeling the difference (donation - amount passed) as “overhead”, and in a second treatment arm, whether this “overhead” was covered by a third party. The results were similar to the field experiment [CHECK, go into more detail]. However, this transparent “donation reduction” has little in common with the real-world costs usually depicted as “overhead”. In this lab experiment, a donor who cares about her marginal impact <em>should</em> consider the pass-through rate or “price”; this is not “overhead illusion”.</p>
+<div class="marginnote">
+<p>Other standard critiques of lab experiments in this domain apply here.</p>
+</div>
+</div>
+<div id="portillo-javier-e.-stinn-joseph-2018.-overhead-aversion-do-some-types-of-overhead-matter-more-than-others.-journal-of-behavioral-and-experimental-economics-72-4050." class="section level4 unnumbered">
+<h4>Portillo, Javier E.; Stinn, Joseph, (2018). “Overhead Aversion: Do Some Types Of Overhead Matter More Than Others?”. Journal Of Behavioral And Experimental Economics, 72, , 40–50.</h4>
+<p><span class="citation">Portillo and Stinn (<a href="#ref-portillo2018overhead" role="doc-biblioref">2018</a>)</span> Lab experiment</p>
+<blockquote>
+<p>If an overhead-free donation is readily available, then the average donor in our experiment (70–80% of subjects) prefers that charity to receive the donation. However, if donations are not overhead-free, most (approximately two-thirds of subjects) prefer the donation go toward fundraising efforts instead of salary-related expenditures.</p>
+</blockquote>
+<p><br />
+</p>
+</div>
+<div id="kinsbergen-sara-tolsma-jochem-2013" class="section level4 unnumbered">
+<h4>Kinsbergen, Sara; Tolsma, Jochem, (2013)</h4>
+<p><span class="citation">Kinsbergen and Tolsma (<a href="#ref-kinsbergenExplainingMonetaryDonations2013" role="doc-biblioref">2013</a>)</span></p>
+<p>Hypothetical survey (vignettes, scenarios) “We constructed 960 scenarios in which a fictive international development organisation was described. … A large representative sample of the Dutch population (N = 2,758) received six randomly allocated scenarios and had to decide if, and if so, how much they would donate to the depicted (fictive) organisation…. Although donors have a strong aversion regarding overhead costs, we find that donors seem to value the capacities of paid staff members and are, to a certain extent, willing to pay a price for these.</p>
+<p><br />
+</p>
+</div>
+<div id="meer-jonathan-2017" class="section level4 unnumbered">
+<h4>Meer, Jonathan, 2017</h4>
+<p><span class="citation">Jonathan Meer (<a href="#ref-meerDoesFundraisingCreate2017" role="doc-biblioref">2017</a>)</span> “Effects of the price of charitable giving: Evidence from an online crowdfunding platform”</p>
+<ul>
+<li><p>DonorsChoose platform involves plausibly exogenous variation in the providing (the same) goods to teachers across projects (varying sales taxes, fullfillment, payment processing fees, etc).[^3] Fees are ‘explicit and salient’.</p></li>
+<li><p>Robust analysis (e.g., teacher fixed-effects) to address a potential endogeneity concern (saavy teachers economize on fees)</p></li>
+<li><p>An increased price of giving results in a lower likelihood of a project being funded. We also calculate the price elasticity of giving, finding estimates between −0.8 and −2.</p></li>
+</ul>
+<p>However, this does <em>not</em> typify the overhead we are considering. Here, we see variation in the donot’s <em>actual</em> costs of providing outputs; as in <span class="citation">Gneezy, Keenan, and Gneezy (<a href="#ref-gneezyAvoidingOverheadAversion2014" role="doc-biblioref">2014</a>)</span> lab experiments, this is not “illusion”. While donor responses to e.g., greater fixed costs of maintaining an office in Malawi, or greater costs of identifying legitimately poor families <em>might</em> be similar, we do not know.<span class="math inline">\(^+\)</span></p>
+<div class="marginnote">
+<p>“…variation in the payment processing, optional support, and fulfillment fees described above; along with sales taxes and shipping fees charged by vendors. … the optional support fee changed twice over the course of our data and the payment processing fee changed once. The fulfillment fee, a fixed amount, changed three times in the time covered by the data. In addition, this fee affects the efficiency price of different-sized projects differently. The changes affected only newly posted projects; therefore, for nearly half a year after each change was implemented, active projects that might be otherwise identical had different fee levels.”</p>
+<p>Furthermore, DonorsChoose doesn’t have clearly separate variation in effectiveness of the outputs which we could compare to the differential prices of providing particular outputs (fees, etc.), to potentially detect oversensitivity to the former.</p>
+</div>
+</div>
+<div id="solutions-add-section" class="section level4 unnumbered">
+<h4>Solutions (add section)</h4>
+<ul>
+<li><p>“Seed donor covering overhead”</p></li>
+<li><p>Simultaneous comparisons and evaluation of impact and overhead where relevant <span class="citation">Caviola et al. (<a href="#ref-Caviola2014" role="doc-biblioref">2014</a>)</span></p></li>
+<li><p>De-biasing?</p></li>
+</ul>
+<p>Other papers to look into and incorporate (unfold)</p>
+
+<div class="fold">
+<p>Borgloh, S., Dannenberg, A., Aretz, B., 2013. Small is beautiful -
+experimental evidence of donors’ preferences for charities. Econ. Lett. 120 (2), 242–244.
+<span class="citation">(<a href="#ref-borgloh2013small" role="doc-biblioref">Borgloh, Dannenberg, and Aretz 2013</a>)</span></p>
+<p>Hope Consulting Survey:</p>
+<p>“a recent survey found that only 35 percent of donors do any research
+before giving (Hope Consulting, 2012), this is a valid concern – though
+among those who did research, the most commonly sought information was
+some type of overhead ratio, and two-thirds were seeking some sort of
+information related to efficiency.”-Meer</p>
+<p>“Making an impact? The relevance of information on aid effectiveness for charitable giving. A laboratory experiment” Metzger L Günther, <em>Journal of Development Economics (2019) 136</em>
+<span class="citation">(<a href="#ref-metzger2019making" role="doc-biblioref">Metzger and Günther 2019c</a>)</span></p>
+<p><strong>“</strong>We thus clarified that a decrease in administrative costs from 40%
+to 10% is equivalent to a 50% increase in net transfers to the
+recipient, in an attempt to make the administration costs group as
+comparable to the aid impact group as possible.” -- this oversimplified
+framing may be driving their results.</p>
+<p>“A. a relatively small share of people makes a well-informed donation
+decision. B. the demand for information about aid impact is lowest, and
+it is highest for information about the recipient type. C. impact info
+didn't affect average donation, while information about the exact
+recipient type and administrative costs led to a significant change in
+donation levels.”</p>
+<p>“In the recipient type group, informed participants donated
+significantly more than uninformed participants because they”rewarded”
+the preferred recipient with higher-than- average transfers. In the
+administration costs group, informed participants donated significantly
+less than uninformed participants because they used the information to
+“punish” NGOs with high administration costs.”</p>
+<p>“only 28% of the participants in the bought ANY information (impact, who
+benefits overhead). Within that, highest demand for beneficiary, lowest
+for impact. Impact info no effect on giving. Knowing who benefits info
+increased giving. Overhead info decreased giving.”</p>
+<p><strong>Caviola, L., Faulmüller, N., Everett, J. A., Savulescu, J., &amp; Kahane,
+G. (2014). The evaluability bias in charitable giving: Saving
+administration costs or saving lives?. Judgment and decision making,
+9(4), 303.</strong>
+<span class="citation">(<a href="#ref-Caviola2014" role="doc-biblioref">Caviola et al. 2014</a>)</span></p>
+<p>“When presented with a single charity, people are willing to donate more
+to a charity with low overhead ratio, regardless of cost-effectiveness.
+When presented with two charities simultaneously, they base their
+donation behavior on cost-effectiveness”</p>
+<p><strong>Bowman, W., 2006. Should donors care about overhead costs? Do they
+care? Nonprofit Volunt. Sect. Q. 35 (June (2)), 288–310.</strong>
+<span class="citation">(<a href="#ref-bowman2006should" role="doc-biblioref">Bowman 2006</a>)</span></p>
+<p>Meer… Are overhead costs a good guide for charitable giving?</p>
+<p>Trussel, J. M., &amp; Parsons, L. M. (2007). Financial reporting factors
+affecting donations to charitable organizations. Advances in Accounting,
+23, 263-285.
+<span class="citation">(<a href="#ref-trussel2007financial" role="doc-biblioref">Trussel and Parsons 2007</a>)</span></p>
+<p>Tinkelman, D. (1998). Differences in sensitivity of financial statement
+users to joint cost allocations: The case of nonprofit organizations.
+Journal of Accounting, Auditing &amp; Finance, 13(4), 377-393.
+<span class="citation">(<a href="#ref-tinkelman1998differences" role="doc-biblioref">Tinkelman 1998</a>)</span></p>
+<p>Parsons, L. M. (2007). The impact of financial information and voluntary
+disclosures on contributions to not-for-profit organizations. Behavioral
+research in accounting, 19(1), 179-196.
+<span class="citation">(<a href="#ref-Linda2007" role="doc-biblioref">Linda, Organizations, and Parsons 2007</a>)</span></p>
+<p>Yörük, B.K. (2013). Charity ratings [this literature is not
+specifically on ‘overhead’; I should check how Charity Navigator factors
+this in]
+<span class="citation">(<a href="#ref-Yoruk2016" role="doc-biblioref">B. K. Yörük 2016</a>)</span></p>
+<p>Frumkin, P., &amp; Kim, M. T. (2001). Strategic positioning and the
+financing of nonprofit organizations: Is efficiency rewarded in the
+contributions marketplace?. Public administration review, 61(3),
+266-275.
+<span class="citation">(<a href="#ref-frumkin2001strategic" role="doc-biblioref">Frumkin and Kim 2001</a>)</span></p>
+<p>van Iwaarden, J., Van Der Wiele, T., Williams, R., &amp; Moxham, C. (2009).
+Charities: how important is performance to donors?. International
+Journal of Quality &amp; Reliability Management, 26(1), 5-22.
+<span class="citation">(<a href="#ref-vaniwaardenCharitiesHowImportant2009" role="doc-biblioref">van Iwaarden et al. 2009</a>)</span></p>
+</div>
+<div class="marginnote">
+<p>Study finds ‘no correlation’ between overhead and effectiveness– is it convincing? Does working abroad increase overhead? Most relevant tie: doing impact evaluation will itself increase overhead.</p>
+</div>
+<p>References: <span class="citation">Gneezy, Keenan, and Gneezy (<a href="#ref-gneezyAvoidingOverheadAversion2014" role="doc-biblioref">2014</a>)</span>, <span class="citation">Portillo and Stinn (<a href="#ref-portillo2018overhead" role="doc-biblioref">2018</a>)</span>, <span class="citation">Kinsbergen and Tolsma (<a href="#ref-kinsbergenExplainingMonetaryDonations2013" role="doc-biblioref">2013</a>)</span>, <span class="citation">Mayo and Tinsley (<a href="#ref-Mayo2009" role="doc-biblioref">2009</a>)</span>, <span class="citation">Jonathan Meer (<a href="#ref-meerDoesFundraisingCreate2017" role="doc-biblioref">2017</a>)</span>, <span class="citation">Chhaochharia, Ghosh, et al. (<a href="#ref-chhaochharia2008charity" role="doc-biblioref">2008</a>)</span>, and <span class="citation">Caviola et al. (<a href="#ref-Caviola2014" role="doc-biblioref">2014</a>)</span></p>
+<!-- ## Possible: Altruistic opportunity cost neglect -->
+</div>
+</div>
+</div>
+<div id="possible-misunderstanding-need-and-misunderstanding-marginalitytractabilitysunk-costs" class="section level2" number="11.8">
+<h2><span class="header-section-number">11.8</span> Possible: Misunderstanding need (and misunderstanding marginality/tractability/sunk costs?)</h2>
+
+<div class="fold">
+<p>Related terms: misunderstanding marginality, misunderstanding tractability, sunk cost fallacies</p>
+<p><strong>Misperceiving tractability:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>donations may respond to number of <em>deaths</em> from a disaster rather than to the scale of the need of <em>survivors</em> (sunk losses)</p></li>
+<li><p>donations may respond to average cost per life saved, rather than marginal cost per life</p></li>
+</ol>
+General barrier to accurate assessment of effectiveness ergo a barrier to effective giving.
+</div>
+</div>
+<div id="scope-insens" class="section level2" number="11.9">
+<h2><span class="header-section-number">11.9</span> Scope insensitivity/embedding effect/part-whole effect</h2>
+
+<div class="note">
+<p>“People’s stated valuation or”willingness to pay” for an outcome seems not to strongly increase in the magnitude of that outcome. For example, when asked in isolation people might say they are willing to pay 50 USD to save 100 eagles. Other people asked in isolation may say they are willing to pay 50 USD to save 5000 eagles.</p>
+Kahneman1992 (Part I: Embedding effect):
+the expressed willingness of Toronto residents to pay increased taxes to prevent the drop in fish populations in all Ontario lakes was only slightly higher than the willingness to pay to preserve the fish stocks in only a small area of the province.”
+</div>
+
+<div class="note">
+When assessing effectiveness in determining which charity to donate to (and how much), a utilitarian should be very sensitive to the scale of the impact (essentially the benefit per cost). If people are scope insensitive they will be bad at making these judgments (particularly when presented in isolation).
+</div>
+<p>Ref: <span class="citation">Hsee et al. (<a href="#ref-hseeUnitAskingMethod2013" role="doc-biblioref">2013a</a>)</span></p>
+</div>
+<div id="other_q_bias" class="section level2" number="11.10">
+<h2><span class="header-section-number">11.10</span> Other quantitative biases</h2>
+<div id="risk_a" class="section level3" number="11.10.1">
+<h3><span class="header-section-number">11.10.1</span> “Mistaken Risk aversion or loss aversion”</h3>
+<p>Thoughts… (unfold)</p>
+
+<div class="fold">
+<p>“Risk aversion with respect to the impact that I make”</p>
+<p>This would come out of (i.e., would be equivalent to) mazimising a utility function which included an ‘impact term’ with diminishing marginal returns to this impact. This would not in itself be a bias.</p>
+<p>However, an individual donor might:</p>
+<ul>
+<li>Misunderstand what ‘risk’ means in this context</li>
+<li>Mis-percieve the risks/probabilities</li>
+<li>Fail to consider that other donors are giving to distinct causes, leading to some automatic diversification</li>
+</ul>
+</div>
+</div>
+<div id="bias-towards-tangibility-perhaps-not-quantitative" class="section level3" number="11.10.2">
+<h3><span class="header-section-number">11.10.2</span> Bias towards tangibility (perhaps not ‘quantitative’?)</h3>
+<p>Incorporate notes from <a href="https://forum.effectivealtruism.org/posts/oYvmPnc72npdtFuPg/effects-of-being-able-to-see-effects-of-donation-first-hand?commentId=CyeKP5TsdeNhLCFd2">this comment</a>.</p>
+<p>Reprinted in fold.</p>
+
+<div class="fold">
+<p>to make donations sustainable in the large community one might need to think about <em>both</em>
+- <strong>the gains to the ‘beneficiaries’, and</strong>
+- <strong>the internal emotional and social benefits for the donor.</strong></p>
+<p>I.e., a <strong>‘two-sided market’.</strong> One needs to consider the ‘donor as consumer’. … we might want to consider some reduction in former if it greatly increases the latter.</p>
+<p>The latter certainly involves tangibility, the feeling of having done something that you can see changes the world in a visible way, ‘agency’, and the feeling of having a particular attachment to somebody you can help. People buy fireworks because they get more pleasure from “lighting fireworks and controlling their direction” than from “seeing a display”.</p>
+<p>The problem is that the forms of generosity that you can more easily ‘control and see the tangible effects of’ tend to be more local to the wealthy (by global standards) donors, less neglected, and thus less effective at the margin.</p>
+<p>Furthermore, ensuring and enabling this “specific donation” can itself be costly in terms of administration and communication. It can also lead to some departure from ‘giving to the most needy’ if the ‘most needy person’ is harder to communicate with.</p>
+<p>But I think there is <strong>potential to try to harness tangibility and incrementally in the effective giving space</strong>.</p>
+<p>There is the idea of “sponsor an individual child or family or village”. My impression is that many charities in fact do this in their marketing and communication but the actual donations are not directly tied to a particular beneficiaries. And I expect donors realize this. When I spoke with these charities they say that there are both practical and ethical issues making this undoable (see below).</p>
+<p><strong>My proposal, which seems to overlap what you’re saying,</strong> was something like telling people</p>
+<blockquote>
+<p>We are linking each potential donor to a particular household (or village etc). You are linked to the ZJHGUH household in SHMZPLA.</p>
+</blockquote>
+<blockquote>
+<p>Do you want to donate to provide the ZJHGUH household with education, medicine, and clean water? You are the only potential donor linked to ZJHGUH by our organization.</p>
+</blockquote>
+<blockquote>
+<p>If you donate to build a new sanitary facility, you will be able to choose which color it is painted, and we’ll send photos</p>
+</blockquote>
+<p>The idea is close to what are you are suggesting. Furthermore, technology could allow us now to provide some pictures and feedback directly linked to the beneficiary household.</p>
+<p><strong>The very strong objections to this I have heard:</strong></p>
+<ol style="list-style-type: decimal">
+<li>“This is unethical/unfair to the beneficiary households not targeted”</li>
+<li>“This is too manipulative of potential donors”</li>
+<li>“This would be impossible to implement”</li>
+<li>“This is too ‘white-saviour vs victim’-ish”</li>
+</ol>
+<p>These objections are somewhat reasonable (but some could also be rebutted to an extent) but I suspect that if done right, the benefits will outweigh the costs, in terms of generating substantial amounts of donations (as well as bringing connections between people on both sides of the global divide, which may have additional benefits).</p>
+<p><strong>Why do I think it could be so effective at motivating donations?</strong></p>
+<p>Humans in general (including the global wealthy) devote huge shares of our income to …
+- our family
+- people whom we interact with, and in our community
+- public goods that we can have a tangible impact on (e.g., fireworks, public art, gardens)</p>
+<p>If helping the worlds’ poorest people can be made into something that is tangible, incremental, and more ‘direct’ I think it will leverage our innate desires…
+1. To help those we feel we have an ‘obligation to’ (because no one else will help them),
+2. To have a connection to people whom we can help, and
+3. To have agency and see the impact of our actions.</p>
+<p>You might object to the first point, saying
+“this is inaccurate … how can you say ‘no one else will help them’” or
+“how can you link a single donor to a single beneficiary and otherwise deny that beneficiary the opportunity?”</p>
+<p>But there is a sense in which the <em>standard</em> charity and aid does this anyways, only in a more probablistic sense. We don’t give enough to provide for all the world’s poor. Some are going to be denied opportunities, and an individual donation <em>does</em> make this difference. It’s just that it is not completely traceable.</p>
+<p>By making it traceable and tangible we may unlock a vast “supply of generosity”.</p>
+</div>
+</div>
+<div id="corruption-aversion-perhaps-not-quantitative" class="section level3" number="11.10.3">
+<h3><span class="header-section-number">11.10.3</span> Corruption aversion (perhaps not ‘quantitative’?)</h3>
+<p>Basic idea: (Unfold)</p>
+
+<div class="fold">
+<p>A donor might overstate the importance of corruption in determining the effectiveness of a gift. E.g., suppose…</p>
+<p><em>Intervention A (e.g., bednets in country A)</em>: Saves one life, on average, per 5000 USD donated and used. However, for every 1 USD donated, 5 cents must be paid in bribes to enable the bednets to be distributed. Suppose–just for this example–that the paying these bribes has no other negative consequences in the short or long term.</p>
+<div class="marginnote">
+<p>This may be hard to swallow. We could also consider that the negative consequences of these bribes has already been taken into account and considering the effectiveness.</p>
+</div>
+<p><em>Intervention B (e.g., building wells in country B)</em>: Saves one life, on average, per 10000 USD donated and used. No bribery is involved.</p>
+<p>Clearly, in this artificially constructed example, donations for intervention A are more effective. Even net of the bribes, this will save more lives on average.</p>
+<p>However, individuals may be particularly averse to knowing that their donation is used even in some small part to pay bribes, enriching someone unjustly, even though it has a much greater positive affect on others.</p>
+<p>This is not necessarily a <em>bias</em>, it may be an inherent part of preferences, potentially embodying non-moral-utilitarian deontological concerns. Such a preference would nonetheless lead to ‘inefficient donations’ from the point of view of someone who does not have this concern.</p>
+<p>But there <em>might also</em> be a bias involved in some cases. Some individuals may not have this inherent distaste for bribery, or may have a distaste for it but still primarily value donating to the most (e.g.) lifesaving-per-dollar cause. However, the silence and visceral repugnance of corruption may cause these individuals to over-estimate its impact on efficiency. (This seems related to the <a href="aware-distance.html#availability">availibility</a> bias.)</p>
+</div>
+
+</div>
+</div>
+</div>
+<h3>List of references</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-angner2012course" class="csl-entry">
+Angner, Erik. 2012. <em>A Course in Behavioral Economics</em>. <span>Macmillan International Higher Education</span>.
+</div>
+<div id="ref-Baron1997" class="csl-entry">
+Baron, Jonathan. 1997. <span>“Confusion of Relative and Absolute Risk in Valuation.”</span> <em>Journal of Risk and Uncertainty</em> 14 (3): 301–9. <a href="https://doi.org/10.1023/A:1007796310463">https://doi.org/10.1023/A:1007796310463</a>.
+</div>
+<div id="ref-baron2011heuristics" class="csl-entry">
+Baron, Jonathan, and Ewa Szymanska. 2011. <span>“Heuristics and Biases in Charity.”</span>
+</div>
+<div id="ref-Benartzi2007" class="csl-entry">
+Benartzi, Shlomo, and Richard H Thaler. 2007. <span>“Heuristics and Biases in Retirement Savings Behavior.”</span> <em>The Journal of Economic Perspectives</em>, 81–104.
+</div>
+<div id="ref-Berman2018" class="csl-entry">
+Berman, Jonathan Z., Alixandra Barasch, Emma E. Levine, and Deborah A. Small. 2018. <span>“Impediments to Effective Altruism: <span>The</span> Role of Subjective Preferences in Charitable Giving.”</span> <em>Psychological Science</em>, 095679761774764. <a href="https://doi.org/10.1177/0956797617747648">https://doi.org/10.1177/0956797617747648</a>.
+</div>
+<div id="ref-borgloh2013small" class="csl-entry">
+Borgloh, Sarah, Astrid Dannenberg, and Bodo Aretz. 2013. <span>“Small Is Beautiful—<span>Experimental</span> Evidence of Donors’ Preferences for Charities.”</span> <em>Economics Letters</em> 120 (2): 242–44.
+</div>
+<div id="ref-bowman2006should" class="csl-entry">
+Bowman, Woods. 2006. <span>“Should Donors Care about Overhead Costs? <span>Do</span> They Care?”</span> <em>Nonprofit and Voluntary Sector Quarterly</em> 35 (2): 288–310.
+</div>
+<div id="ref-camerer1995anomalies" class="csl-entry">
+Camerer, Colin F, and Richard H Thaler. 1995. <span>“Anomalies: <span>Ultimatums</span>, Dictators and Manners.”</span> <em>Journal of Economic Perspectives</em> 9 (2): 209–19.
+</div>
+<div id="ref-Caviola2014" class="csl-entry">
+Caviola, Lucius, Nadira Faulmüller, Jim. A C Everett, and Julian Savulescu. 2014. <span>“The Evaluability Bias in Charitable Giving: <span>Saving</span> Administration Costs or Saving Lives?”</span> <em>Judgment and Decision Making</em> 9 (4): 303–15. <a href="https://doi.org/None">https://doi.org/None</a>.
+</div>
+<div id="ref-caviola2020many" class="csl-entry">
+Caviola, Lucius, Stefan Schubert, and Jason Nemirow. 2020. <span>“The Many Obstacles to Effective Giving.”</span> <em>Judgment and Decision Making</em> 15 (2): 159.
+</div>
+<div id="ref-charnessWhatNameAnonymity2008" class="csl-entry">
+Charness, G, and U Gneezy. 2008. <span>“What’s in a Name? <span>Anonymity</span> and Social Distance in Dictator and Ultimatum Games.”</span> <em>Journal of Economic Behavior and Organization</em>. <a href="https://doi.org/10.1016/j.jebo.2008.03.001">https://doi.org/10.1016/j.jebo.2008.03.001</a>.
+</div>
+<div id="ref-chhaochharia2008charity" class="csl-entry">
+Chhaochharia, Vidhi, Suman Ghosh, et al. 2008. <span>“Do Charity Ratings Matter.”</span> <em>Unpublished Manuscript, Florida Atlantic University</em>.
+</div>
+<div id="ref-erlandsson2014perceived" class="csl-entry">
+Erlandsson, Arvid, Fredrik Björklund, and Martin Bäckström. 2014. <span>“Perceived Utility (Not Sympathy) Mediates the Proportion Dominance Effect in Helping Decisions.”</span> <em>Journal of Behavioral Decision Making</em> 27 (1): 37–47.
+</div>
+<div id="ref-erlandssonEmotionalReactionsPerceived2015" class="csl-entry">
+———. 2015. <span>“Emotional Reactions, Perceived Impact and Perceived Responsibility Mediate the Identifiable Victim Effect, Proportion Dominance Effect and in-Group Effect Respectively.”</span> <em>Organizational Behavior and Human Decision Processes</em> 127: 1–14. <a href="https://doi.org/10.1016/j.obhdp.2014.11.003">https://doi.org/10.1016/j.obhdp.2014.11.003</a>.
+</div>
+<div id="ref-erlandssonArgumentinconsistencyCharityAppeals" class="csl-entry">
+Erlandsson, A, D Västfjäll, O Sundfelt, P Slovic - Journal of Economic, and undefined 2016. n.d. <span>“Argument-Inconsistency in Charity Appeals: <span>Statistical</span> Information about the Scope of the Problem Decrease Helping Toward a Single Identified Victim but Not Helping.”</span> <em>Elsevier</em>. <a href="https://www.sciencedirect.com/science/article/pii/S0167487016300538">https://www.sciencedirect.com/science/article/pii/S0167487016300538</a>.
+</div>
+<div id="ref-fetherstonhaughInsensitivityValueHuman1997" class="csl-entry">
+Fetherstonhaugh, David, Paul Slovic, Stephen Johnson, and James Friedrich. 1997. <span>“Insensitivity to the Value of Human Life: <span>A</span> Study of Psychophysical Numbing.”</span> <em>Journal of Risk and Uncertainty</em> 14 (3): 283–300. <a href="https://doi.org/10.1023/A:1007744326393">https://doi.org/10.1023/A:1007744326393</a>.
+</div>
+<div id="ref-fox2005subjective" class="csl-entry">
+Fox, Craig R, Rebecca K Ratner, and Daniel S Lieb. 2005. <span>“How Subjective Grouping of Options Influences Choice and Allocation: Diversification Bias and the Phenomenon of Partition Dependence.”</span> <em>Journal of Experimental Psychology: General</em> 134 (4): 538.
+</div>
+<div id="ref-friedrichPsychophysicalNumbingWhen1999" class="csl-entry">
+Friedrich, James, Paul Barnes, Kathryn Chapin, Ian Dawson, Valerie Garst, and David Kerr. 1999. <span>“Psychophysical Numbing: <span>When</span> Lives Are Valued Less as the Lives at Risk Increase.”</span> <em>Journal of Consumer Psychology</em> 8 (3): 277–99. <a href="https://doi.org/10.1207/s15327663jcp0803_05">https://doi.org/10.1207/s15327663jcp0803_05</a>.
+</div>
+<div id="ref-frumkin2001strategic" class="csl-entry">
+Frumkin, Peter, and Mark T Kim. 2001. <span>“Strategic Positioning and the Financing of Nonprofit Organizations: <span>Is</span> Efficiency Rewarded in the Contributions Marketplace?”</span> <em>Public Administration Review</em> 61 (3): 266–75.
+</div>
+<div id="ref-gneezyAvoidingOverheadAversion2014" class="csl-entry">
+Gneezy, Uri, Elizabeth A. Keenan, and Ayelet Gneezy. 2014. <span>“Avoiding Overhead Aversion in Charity.”</span> <em>Science</em>. <a href="https://doi.org/10.1126/science.1253932">https://doi.org/10.1126/science.1253932</a>.
+</div>
+<div id="ref-hseeUnitAskingMethod2013" class="csl-entry">
+———. 2013a. <span>“Unit <span>Asking</span> : <span>A Method</span> to <span>Boost Donations</span> and <span>Beyond</span>.”</span> <a href="https://doi.org/10.1177/0956797613482947">https://doi.org/10.1177/0956797613482947</a>.
+</div>
+<div id="ref-vaniwaardenCharitiesHowImportant2009" class="csl-entry">
+Iwaarden, Jos van, Ton Van Der Wiele, Roger Williams, and Claire Moxham. 2009. <span>“Charities: How Important Is Performance to Donors?”</span> <em>International Journal of Quality &amp; Reliability Management</em>.
+</div>
+<div id="ref-jenniExplainingIdentifiableVictim1997" class="csl-entry">
+Jenni, Karen, and George Loewenstein. 1997. <span>“Explaining the Identifiable Victim Effect.”</span> <em>Journal of Risk and Uncertainty</em> 14 (3): 235–57. <a href="https://doi.org/10.1023/A:1007740225484">https://doi.org/10.1023/A:1007740225484</a>.
+</div>
+<div id="ref-kahnemanThinkingFastSlow2011" class="csl-entry">
+Kahneman, Daniel. 2011. <em>Thinking, <span>Fast</span> and <span>Slow</span></em>. <span>Penguin Books</span>.
+</div>
+<div id="ref-kahneman1986fairness" class="csl-entry">
+Kahneman, Daniel, Jack L Knetsch, and Richard H Thaler. 1986. <span>“Fairness and the Assumptions of Economics.”</span> <em>Journal of Business</em>, S285–300.
+</div>
+<div id="ref-kinsbergenExplainingMonetaryDonations2013" class="csl-entry">
+Kinsbergen, Sara, and Jochem Tolsma. 2013. <span>“Explaining Monetary Donations to International Development Organisations: <span>A</span> Factorial Survey Approach.”</span> <em>Social Science Research</em> 42 (6): 1571–86. <a href="https://doi.org/10.1016/j.ssresearch.2013.06.011">https://doi.org/10.1016/j.ssresearch.2013.06.011</a>.
+</div>
+<div id="ref-kogutIdentifiedVictimEffect2005" class="csl-entry">
+Kogut, Tehila, and Ilana Ritov. 2005a. <span>“The <span>‘Identified Victim’</span> Effect: <span>An</span> Identified Group, or Just a Single Individual?”</span> <em>Journal of Behavioral Decision Making</em> 18 (3): 157–67. <a href="https://doi.org/10.1002/bdm.492">https://doi.org/10.1002/bdm.492</a>.
+</div>
+<div id="ref-kogut2005singularity" class="csl-entry">
+———. 2005b. <span>“The Singularity Effect of Identified Victims in Separate and Joint Evaluations.”</span> <em>Organizational Behavior and Human Decision Processes</em> 97 (2): 106–16.
+</div>
+<div id="ref-kogut2011identifiable" class="csl-entry">
+———. 2011. <span>“The Identifiable Victim Effect: <span>Causes</span> and Boundary Conditions.”</span> <em>The Science of Giving: Experimental Approaches to the Study of Charity</em>, 133–45.
+</div>
+<div id="ref-leeIdentifiableVictimEffect2016" class="csl-entry">
+Lee, Seyoung, and Thomas Hugh Feeley. 2016a. <span>“The Identifiable Victim Effect: A Meta-Analytic Review.”</span> <em>Social Influence</em> 11 (3): 199–215. <a href="https://doi.org/10.1080/15534510.2016.1216891">https://doi.org/10.1080/15534510.2016.1216891</a>.
+</div>
+<div id="ref-lee2016identifiable" class="csl-entry">
+———. 2016b. <span>“The Identifiable Victim Effect: A Meta-Analytic Review.”</span> <em>Social Influence</em> 11 (3): 199215. <a href="https://doi.org/10.1080/15534510.2016.1216891">https://doi.org/10.1080/15534510.2016.1216891</a>.
+</div>
+<div id="ref-lichtenstein1978judged" class="csl-entry">
+Lichtenstein, Sarah, Paul Slovic, Baruch Fischhoff, Mark Layman, and Barbara Combs. 1978. <span>“Judged Frequency of Lethal Events.”</span> <em>Journal of Experimental Psychology: Human Learning and Memory</em> 4 (6): 551.
+</div>
+<div id="ref-Linda2007" class="csl-entry">
+Linda, M, Not-for-profit Organizations, and Linda M Parsons. 2007. <span>“The Impact of Financial Information and Voluntary Disclosures on Contributions to Not-for-Profit Organizations,”</span> 179–96.
+</div>
+<div id="ref-loewensteinScarecrowTinMan2007" class="csl-entry">
+Loewenstein, George, and Deborah A Small. 2007. <span>“The <span>Scarecrow</span> and the <span>Tin Man</span> : <span>The Vicissitudes</span> of <span>Human Sympathy</span> and <span>Caring</span>”</span> 11 (2): 112–26. <a href="https://doi.org/10.1037/1089-2680.11.2.112">https://doi.org/10.1037/1089-2680.11.2.112</a>.
+</div>
+<div id="ref-macaskillDoingGoodBetter2015" class="csl-entry">
+Macaskill, William. 2015. <em>Doing <span>Good Better</span></em>. <span>Guardian Books</span>.
+</div>
+<div id="ref-Mayo2009" class="csl-entry">
+Mayo, and Tinsley. 2009. <span>“<span>‘<span>Warm</span> Glow and Charitable Giving: Why the Wealthy Do Not Give More to Charity?’</span>”</span>
+</div>
+<div id="ref-meerDoesFundraisingCreate2017" class="csl-entry">
+Meer, Jonathan. 2017. <span>“Does Fundraising Create New Giving?”</span> <em>Journal of Public Economics</em> 145: 82–93. <a href="https://doi.org/10.1016/j.jpubeco.2016.11.009">https://doi.org/10.1016/j.jpubeco.2016.11.009</a>.
+</div>
+<div id="ref-Metzger2019" class="csl-entry">
+Metzger, Laura, and Isabel Günther. 2019b. <span>“Making an Impact ? <span>The</span> Relevance of Information on Aid e Ff Ectiveness for Charitable Giving . <span>A</span> Laboratory Experiment.”</span> <em>Journal of Development Economics</em> 136: 18–33. <a href="https://doi.org/10.1016/j.jdeveco.2018.08.015">https://doi.org/10.1016/j.jdeveco.2018.08.015</a>.
+</div>
+<div id="ref-metzger2019making" class="csl-entry">
+———. 2019c. <span>“Making an Impact? <span>The</span> Relevance of Information on Aid Effectiveness for Charitable Giving. <span>A</span> Laboratory Experiment.”</span> <em>Journal of Development Economics</em> 136: 18–33.
+</div>
+<div id="ref-portillo2018overhead" class="csl-entry">
+Portillo, Javier E, and Joseph Stinn. 2018. <span>“Overhead Aversion: <span>Do</span> Some Types of Overhead Matter More Than Others?”</span> <em>Journal of Behavioral and Experimental Economics</em> 72: 40–50.
+</div>
+<div id="ref-pressDirectMeasurementUtility2018" class="csl-entry">
+Press, Illinois. 2018. <span>“The <span>Direct Measurement</span> of <span>Utility</span> and <span>Subjective Probability Author</span> ( s ): <span>Eugene Galanter Source</span> : <span>The American Journal</span> of <span>Psychology</span> , <span>Vol</span> . 75 , <span>No</span> . 2 ( <span>Jun</span> ., 1962 ), Pp . 208-220 <span>Published</span> by : <span>University</span> of <span>Illinois Press Stable URL</span> : <span class="nocase">http://www.js</span>”</span> 75 (2): 208–20.
+</div>
+<div id="ref-read1995diversification" class="csl-entry">
+Read, Daniel, and George Loewenstein. 1995. <span>“Diversification Bias: <span>Explaining</span> the Discrepancy in Variety Seeking Between Combined and Separated Choices.”</span> <em>Journal of Experimental Psychology: Applied</em> 1 (1): 34.
+</div>
+<div id="ref-schelling1968life" class="csl-entry">
+Schelling, Thomas C. 1968. <span>“The Life You Save May Be Your Own.”</span> <em>Problems in Public Expenditure</em>, 127–62.
+</div>
+<div id="ref-slovicPsychicNumbingGenocide2007" class="csl-entry">
+Slovic, Paul. 2007. <span>“Psychic <span>Numbing</span> and <span>Genocide</span>: (718332007-003).”</span> <span>American Psychological Association</span>. <a href="https://doi.org/10.1037/e718332007-003">https://doi.org/10.1037/e718332007-003</a>.
+</div>
+<div id="ref-slovic1981perceived" class="csl-entry">
+Slovic, Paul, Baruch Fischhoff, and Sarah Lichtenstein. 1981a. <span>“Perceived Risk: Psychological Factors and Social Implications.”</span> <em>Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences</em> 376 (1764): 17–34.
+</div>
+<div id="ref-slovic1981rating" class="csl-entry">
+———. 1981b. <span>“Rating the Risks.”</span> In <em>Risk/Benefit Analysis in Water Resources Planning and Management</em>, 193–217. <span>Springer</span>.
+</div>
+<div id="ref-small2010reference" class="csl-entry">
+Small, Deborah A. 2010. <span>“Reference-Dependent Sympathy.”</span> <em>Organizational Behavior and Human Decision Processes</em> 112 (2): 151–60.
+</div>
+<div id="ref-smallHelpingVictimHelping2003" class="csl-entry">
+Small, Deborah A, and George Loewenstein. 2003. <span>“Helping a Victim or Helping the Victim: <span>Altrusim</span> and Identifiability.”</span> <em>Journal of Risk and Uncertainty</em> 26 (1): 5–16. <a href="https://doi.org/10.1023/A:1022299422219">https://doi.org/10.1023/A:1022299422219</a>.
+</div>
+<div id="ref-Small2007" class="csl-entry">
+Small, Deborah A, George Loewenstein, and Paul Slovic. 2007. <span>“Sympathy and Callousness: <span>The</span> Impact of Deliberative Thought on Donations to Identifiable and Statistical Victims.”</span> <em>Organizational Behavior and Human Decision Processes</em> 102 (2): 143–53.
+</div>
+<div id="ref-steinbergShouldDonorsCare1986" class="csl-entry">
+Steinberg. 1986. <span>“"<span>Should Donors Care About Fundraising</span>.".”</span>
+</div>
+<div id="ref-Sudhir2016a" class="csl-entry">
+Sudhir, K, Subroto Roy, and Mathew Cherian. 2016. <span>“Do Sympathy Biases Induce Charitable Giving? <span>The</span> Effects of Advertising Content.”</span> <em>Marketing Science</em> 35 (6): 849–69. <a href="https://doi.org/10.1287/mksc.2016.0989">https://doi.org/10.1287/mksc.2016.0989</a>.
+</div>
+<div id="ref-summers1994psychophysical" class="csl-entry">
+Summers, C, P Slovic, D Hine, and D Zuliani. 1994. <span>“<span>‘<span>Psychophysical</span> Numbing’</span>: <span>An</span> Empirical Basis for Perceptions of Collective Violence.”</span> <em>Collective Violence: Harmful Behavior in Groups and Governments</em>.
+</div>
+<div id="ref-tinkelman1998differences" class="csl-entry">
+Tinkelman, Daniel. 1998. <span>“Differences in Sensitivity of Financial Statement Users to Joint Cost Allocations: <span>The</span> Case of Nonprofit Organizations.”</span> <em>Journal of Accounting, Auditing &amp; Finance</em> 13 (4): 377–93.
+</div>
+<div id="ref-trussel2007financial" class="csl-entry">
+Trussel, John M, and Linda M Parsons. 2007. <span>“Financial Reporting Factors Affecting Donations to Charitable Organizations.”</span> <em>Advances in Accounting</em> 23: 263–85.
+</div>
+<div id="ref-tversky1973availability" class="csl-entry">
+Tversky, Amos, and Daniel Kahneman. 1973. <span>“Availability: <span>A</span> Heuristic for Judging Frequency and Probability.”</span> <em>Cognitive Psychology</em> 5 (2): 207–32.
+</div>
+<div id="ref-ubel1996cost" class="csl-entry">
+Ubel, Peter A, Michael L DeKay, Jonathan Baron, and David A Asch. 1996. <span>“Cost-Effectiveness Analysis in a Setting of Budget Constraints—Is It Equitable?”</span> <em>New England Journal of Medicine</em> 334 (18): 1174–77.
+</div>
+<div id="ref-Yoruk2016" class="csl-entry">
+Yörük, B K. 2016. <span>“Charity Ratings.”</span> <em>Journal of Economics &amp; Management Strategy</em>. <a href="https://doi.org/10.1111/jems.12139">https://doi.org/10.1111/jems.12139</a>.
+</div>
+<div id="ref-zianoNumbingSensitizationReplications2021" class="csl-entry">
+Ziano, Ignazio, Qinyu Xiao, Siu Kit Yeung, Cho Yan Wong, Mei Yee Cheung, Chung Yi Joey Lo, Ho Ching Yan, et al. 2021. <span>“Numbing or Sensitization? Replications and Extensions of <span>Fetherstonhaugh</span> Et Al. (1997)’s <span>‘<span>Insensitivity</span> to the <span>Value</span> of <span>Human Life</span>’</span>.”</span> <em>Journal of Experimental Social Psychology</em> 97 (November): 104222. <a href="https://doi.org/10.1016/j.jesp.2021.104222">https://doi.org/10.1016/j.jesp.2021.104222</a>.
+</div>
+<div id="ref-zweig1998five" class="csl-entry">
+Zweig, Jason. 1998. <span>“Five Investing Lessons from <span>America</span>’s Top Pension Fund.”</span> <em>Money</em> 27 (1): 115–88.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="barriers-judgementcognition-failures-systematic-misperceptions.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="factual.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="book_assets/gitbook-2.6.7/js/app.min.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": true,
+"weibo": true,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"],
+"google": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
