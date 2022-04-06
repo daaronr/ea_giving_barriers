@@ -19,7 +19,7 @@ Check inclusion -- (Info enhancing) social closeness of recipient:   @cuddy2007b
 ```
 ## Description and relevance to Effective Giving
 
-If we focus on 'enhancing current human well-being and avoiding suffering', the evidence strongly suggests that the most effective charities operate in developing countries. All but one of [GiveWell's top charities](https://www.givewell.org/charities/top-charities) support people in sub-Saharan Africa [@TopCharities].[^aware-distance-2] Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount [@macaskillDoingGoodBetter2015]. However, the large, social, cultural geographic distance between those in developed countries and those in developing countries may be an important barrier to giving and a reason why people prefer to give locally.
+If we focus on 'enhancing current human well-being and avoiding suffering', the evidence strongly suggests that the most effective charities operate in developing countries. All but one of [GiveWell's top charities](https://www.givewell.org/charities/top-charities) support people in sub-Saharan Africa [@TopCharities].[^aware-distance-2] Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount [@macaskillDoingGoodBetter2015]. However, the large cultural and physical distance between those in developed countries and those in developing countries may be an important barrier to giving and a reason why people prefer to give locally.
 
 [^aware-distance-2]: GiveWell focuses on charities that provide concrete interventions to help people alive today and soon-to be born, and focuses their evaluation on measurable outcomes such as \["QALY and DALY"\](https://en.wikipedia.org/wiki/Disability-adjusted_life_year.
 
@@ -64,6 +64,17 @@ Ana Diez suggests...
 :::
 
 ## Distance - Spatial/Physical, Social/Cultural: parochial altruism/in-group bias, interpersonal and identity e.g., race, gender, age, etc {#in-group}
+
+
+<!-- 
+JS: Anecdotally, I've found that people are often skeptical that we can be confident that charities that operate in geographically distant areas can be held accountable as easily as local charities (eg, "if those international charities are just wasting my money, how would I ever know?")
+
+DR: 
+There may be something 'real' there but I suspect its often a justification rather than a cause. 
+
+I also considered including 'corruption aversion' as a bias... people hate if even a small percentage is wasted or taken by corrupt actors, even if it ends up being far more impact/$ anyways.
+
+-->
 
 Consider:
 
@@ -172,7 +183,18 @@ When considering how we can reduce suffering through effective altruism, immedia
 
 This consideration of future people and future problems includes well-known issues such as climate change. It also includes less-discussed) lower-probability or more distant events such as nuclear war, bioterrorism and AI related issues [@macaskillDoingGoodBetter2015]. Individuals such as @ord2020precipice and institutions like the [Future of Humanity Institute](https://www.fhi.ox.ac.uk) have argued that these problems are important and neglected.
 
-However, even motivating 'giving for current issues' [presents many challenges](#present-puzzle); encouraging giving for (e.g.) 'individuals who are yet to be' born could prove even more difficult.^\[See\ [80000\ hours\ podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/)\ with\ Toby\ Ord\ and\ the\ articles\ and\ books\ linked\ (especially\ 'The\ Precipice')\ for\ a\ more\ comprehensive\ introduction\ to\ the\ long-term\ future.\]^\[See also these resources from [effectivealtruism.org](https://www.effectivealtruism.org/), see [here](https://www.effectivealtruism.org/articles/tyler-john-representing-future-generations/) for a talk on the importance of future generations, and [here](https://www.effectivealtruism.org/articles/cause-profile-long-run-future/) for an overview of the long-run future as an issue.\]
+However, even motivating 'giving for current issues' [presents many challenges](#present-puzzle); encouraging giving for (e.g.) 'individuals who are yet to be' born could prove even more difficult.^[However, Jason Schukraft notes: There may be cases where for some individuals longtermist causes are less "distant," all-things-considered, than neartermist causes. If you're a wealthy Silicon Valley tech entrepreneur, donating to an AI Safety group might be psychologically easier than donating to Give Directly.]
+
+::: {.callout-note collapse="true"}
+
+## Further resources and discussion 
+
+See [80000 hours podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/) with Toby Ord and the articles and books linked (especially 'The Precipice') for a more comprehensive introduction to the long-term future. 
+
+See also these resources from [effectivealtruism.org](https://www.effectivealtruism.org/), see [here](https://www.effectivealtruism.org/articles/tyler-john-representing-future-generations/) for a talk on the importance of future generations, and [here](https://www.effectivealtruism.org/articles/cause-profile-long-run-future/) for an overview of the long-run future as an issue.
+
+:::
+
 
 \
 
@@ -232,9 +254,7 @@ This is not the same as discounting future utility or welfare. There's no clear 
 
 ### Reasons the distant future may be neglected {.unnumbered}
 
-Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020 outlines a few reasons why the distant future may receive less attention and action.[^aware-distance-12]
-
-[^aware-distance-12]: Stefan Schubert also discusses the psychology of long-termism and existential risk [here](https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-existential-risk/)
+Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020 outlines a few reasons why the distant future may receive less attention and action.^[Schubert also discusses the psychology of long-termism and existential risk [here](https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-existential-risk/)] 
 
 He argues:
 
@@ -248,11 +268,23 @@ While uncertainty could pose a problem for encouraging giving for distant future
 
 The other barriers in this section also link to a potential lack of future-focused giving. For example, when it comes to the [availability bias](#availability), we suggested that vividness and salience of events may influence how people estimate probabilities. Future events may be hard to picture, particularly more abstract risks like the [dangers of artificial intelligence](https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/)
 
-We also discussed the [identifiable victim effect](#statvictim). It could be significantly harder to create a story around a single victim if victims affected by that issue do not yet exist. Victims of the distant future may have to be statistical victims only, potentially eliciting less sympathy and consequently less donations. Charities that focus on the distant future may also have issues demonstrating evidence of their impact to donors, which can help to encourage donations (Karlan and Wood, 2017). However, the influence of demonstrating impact is mixed, as we further discuss [here](#eval-aversion).
+
+::: {.callout-note collapse="true"}
+
+## But what is the 'distant future'?
+
+Jason Schukraft:
+
+> Whenever longtermism is the subject, I always prefer to be specific about times. Some people reasonably consider 2070 to be "the distant future." Other people would reserve the term for dates 10,000 years in the future or later. The former is obviously much less neglected than the latter.
+
+:::
+
+
+We also discussed the [identifiable victim effect](#statvictim). It could be significantly harder to create a story around a single victim if victims affected by that issue do not yet exist. Victims in the distant future may have to be statistical victims only, potentially eliciting less sympathy and consequently less donations. Charities that focus on the distant future may also have issues demonstrating evidence of their impact to donors, which can help to encourage donations (Karlan and Wood, 2017). However, the influence of demonstrating impact is mixed, as we further discuss [here](#eval-aversion).
 
 <!-- #TODO -- recover ref (Karlan and Wood, 2017) -->
 
-\
+
 
 The impact of people being categorised into [in-groups and out-groups](#in-group) could also be considered in analysing potential donations to distant-future causes. In their review of the literature, @Sudhir2016a suggest social identity works as follows:
 

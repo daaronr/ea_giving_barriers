@@ -7,7 +7,7 @@
 
 \
 
-While hundreds of billions of dollars are donated to charity each year, the effectiveness of these charities differs by orders of magnitude, even within similar categories. Furthermore, many individuals do not donate substantially even though they believe that the cost of saving a life is small.^[ In an [exploratory survey](https://80000hours.org/2017/05/most-people-report-believing-its-incredibly-cheap-to-save-lives-in-the-developing-world/), the median belief was that a life could be saved for under \$40.
+While hundreds of billions of dollars are donated to charity each year, the effectiveness of these charities differs by orders of magnitude, even within similar categories. Furthermore, many individuals do not donate substantially even though they believe that the cost of saving a life is small.^[ In an [exploratory survey](https://80000hours.org/2017/05/most-people-report-believing-its-incredibly-cheap-to-save-lives-in-the-developing-world/), the median stated belief was that a life could be saved for under \$40.
 ]
 
 This raises two related questions:
@@ -62,8 +62,7 @@ Relation to GPI research:
 
 ## Non-technical non-EA abstract (for mainstream audiences) {#pop-abstract .unnumbered}
 
-Hunger, homelessness, mental and physical illness, environmental degradation, the suffering of humans and animals, the risks of human extinction: the needs are boundless, but the resources to solve these problems are limited. Even with the best of intentions and impressive generosity ([Americans give roughly 2% of their income to charity](https://www.philanthropy.com/article/The-Stubborn-2-Giving-Rate/154691#:~:text=Americans%20gave%20%24316.2%2Dbillion%20to,the%20same%20as%20in%202011.)), donors often contribute to inefficient charities -- ones that spend more but accomplish less than others that may be competing for the same funds.\*\* Each dollar given to the most effective charities (like those rated by [Givewell.org](http://givewell.org)) benefits greater numbers of people in more significant ways than the least effective ones. However, donors do not always consider effectiveness when deciding how much to give and to which organizations.^[ This holds even for charities pursuing similar goals; some are clearly more impactful per-dollar, even (presumably) by the lights and standards of the donors.
-]
+Hunger, homelessness, mental and physical illness, environmental degradation, the suffering of humans and animals, the risks of human extinction: the needs are boundless, but the resources to solve these problems are limited. Even with the best of intentions and impressive generosity ([Americans give roughly 2% of their income to charity](https://www.philanthropy.com/article/The-Stubborn-2-Giving-Rate/154691#:~:text=Americans%20gave%20%24316.2%2Dbillion%20to,the%20same%20as%20in%202011.)), donors often contribute to inefficient charities -- ones that spend more but accomplish less than others that may be competing for the same funds.^[This holds even for charities pursuing similar goals; some are clearly more impactful per-dollar, even (presumably) by the lights and standards of the donors.] Each dollar given to the most effective charities (like those rated by [Givewell.org](http://givewell.org)) benefits greater numbers of people in more significant ways than the least effective ones. However, donors do not always consider effectiveness when deciding how much to give and to which organizations.
 
 Academics (in Economics, Psychology, Biology, and Philosophy) have applied a range of theories to explain what drives "inefficient altruism". Evidence comes from a variety of studies, involving surveys, observational work, laboratory experiments, and, where feasible, natural field experiments. These have not been run as part of a systematic project addressing this issue; goals, contexts, and approaches have varied as opportunities presented. Given the disparate findings, we do not have a definitive picture of which factors impact effective giving.
 
@@ -78,19 +77,21 @@ Academics (in Economics, Psychology, Biology, and Philosophy) have applied a ran
 
 ## Discussions {-#why-understand-reactions}
 
-For 'Effective Altruists' ... (Why) do we care 'how people react to the presentation of charity-effectiveness information' from a practical point of view? (unfold discussion)
+For 'Effective Altruists' ... 
 
 ::: {.callout-note collapse='true'}
+
+## (Why) do we care 'how people react to the presentation of charity-effectiveness information' from a practical point of view?
+
  *Jason Schukraft:*
 
 > Maybe. I suppose it depends on our goals. Do we want people to give to top charities for the right reason (i.e., because those charities are effective) or do we just want people to give to top charities, simpliciter? If the latter, then maybe it doesn't matter how people react to effectiveness information; we should just go with whatever marketing strategy maximizes donations.
-
 
 \
 
 *David Reinstein:*
 
-> Imho only the latter matters. Your argument makes sense but a typical marketing tool we find could equally be used by any charity. If we are ever to get people to systematically prioritise the effective charities, we need to a strategy that is tied to the effectiveness of the charities; the competitive advantage of the effective charities. The standard business argument is that 'to get people to buy a product based on characteristic A, we need to advertise characteristic A'.
+> Imho only the latter matters. [I revised this opinion below.] Your argument makes sense but a typical marketing tool we find could equally be used by any charity. If we are ever to get people to systematically prioritise the effective charities, we need to a strategy that is tied to the effectiveness of the charities; the competitive advantage of the effective charities. The standard business argument is that 'to get people to buy a product based on characteristic A, we need to advertise characteristic A'.
 
 \
 
@@ -113,13 +114,21 @@ This also feels reminiscent of two posts:
 [SlateStarCodex: guided-by-the-beauty-of-our-weapons](https://slatestarcodex.com/2017/03/24/guided-by-the-beauty-of-our-weapons/)
 
 
+*David Reinstein:*
 
+> Good points, I'm coming around to to 'the reason matters', at least in terms of how we interpret these results. 
 
+*Jason Schukraft*: 
+
+> Is giving to effective charities a decent proxy for having the right values and acting on those values? If so, then figuring out how to get people to give to effective charities might give us a lot of insight into the sort of moral circle expansion that EAs from many different corners of the community (e.g., both longtermists and animal welfare folks) care about.
+
+*David Reinstein:*
+
+> Also a good point, and I should dig into this point further. I see 'effective giving' as jumping over several 'hurdles'. 1. Empathy, 2. Willingness to sacrifice one's own wealth to help others, 3. Having a wide moral circle, and 4. Being informed and clever enough to choose effectively
 :::
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<html>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -135,7 +144,6 @@ This also feels reminiscent of two posts:
   gtag('config', 'UA-148137970-4');
 </script>
 ```
-</html>
 
 ## Notes on this format {-}
 

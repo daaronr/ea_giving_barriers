@@ -21,11 +21,29 @@ If we *could* shift the 'meaningful giving' $\rightarrow$ we could use theory of
 
 What we *can* measure in a straightforward way (in principle), is :
 
-> Does a promotion for a less-effective charity (such as Cancer Research UK) cause more or less giving to a presumably more-effective charity (such as Oxfam)? Most of the work discussed below focuses on this sort of estimate.
+> Does a promotion for a less-effective charity (such as Cancer Research UK) cause more or less giving to a presumably more-effective charity (such as Doctors Without Borders)? Most of the work discussed below focuses on this sort of estimate.
+
+^[I use DWB/MSF in the example here rather than a GiveWell charity like AMF because it is hard to discuss a massive 'crowding out' of giving to charities like AMF when there is little giving to these charities to begin with. ... Certainly true from the PoV of a national policymaker.]
+
 
 But this raises a more difficult question:
 
--   Is the causality CRUK promo $\rightarrow$ give more to CRUK $\rightarrow$ give less (more) to Oxfam?
+-   Is the causality: Cancer Research UK (CRUK) promo $\rightarrow$ give more to CRUK $\rightarrow$ give less (more) to Oxfam? (see discussion in fold)
+
+
+::: {.callout-note collapse="true"}
+
+Jason Schukraft: 
+
+> t For a "seasoned donor" (ie, someone who consistently donates a fixed percentage of their income every year), it seems plausible that donating to A would reduce donations to B. But for a new donor, who has never or only sporadically donated in the past, learning about charity A might be the gateway to more regular donations in the future, which could increase giving to both A and B.
+
+David Reinstein: This is also plausible and something that has been posited. (Although it might be argued that the channel of "learning about charity A" should not be the included in this effect. Still, for most practical purposes, these are inseparable).
+
+Some of my own and others previous work loosely suggests that for the more occasional donors there is no real crowding out (or in). If I am a person who doesn't feel constant internal pressure to give but only responds (e.g.) to temporary social pressure and in-my-face asks or the pull of my heart-strings in response to tragic events. 
+
+My sensitivity to these may be more or less unaffected by previously having donated.
+
+:::
 
 -   Can we rule out *direct* effects of the first promotion? (CRUK promo $\rightarrow$ donations to Oxfam; see [@Heckman2015a] on "mediators")
 

@@ -18,6 +18,7 @@ In this set of chapters:
 **INTRODUCTION & FUNDAMENTALS**
 
 ::: {.callout-note collapse='true'}
+
  - [The puzzle and challenge: Our ineffective giving](#present-puzzle)**  Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
 
 -  [Definitions - "Efficiency" versus impact](#impact-definitions)\

@@ -27,25 +27,20 @@ Considering a charitable donation as a 'product purchased by the donor', it seem
 ]
 
 \
+
 A typical charitable donor, particularly one who donates towards a geographically-distant intervention, will never directly see or experience the consequences of her donation. Thus, for people to systematically choose to donate to the most effective charities, presumably...
 
 1.  They must understand and value the idea of effectiveness.
 
 2.  They must either:
 
--   
+- A.  already know *how effective* charities are relative to one another,
 
-    a.  know how effective charities are relative to one another,
+- B.  have reliable information on this presented to them by the charities (or other entities),
 
--   
+-  C.  or they must want to and find it appropriate to seek information on this, and be able to obtain reliable information.
 
-    b.  have reliable information on this presented to them by the charities (or other entities),
-
--   
-
-    c.  or they must want to and find it appropriate to seek information on this, and be able to obtain reliable information.
-
-3.  (For b or c to have the desired effect...) The act of learning about effectiveness must not substantially decrease their willingness to donate.
+3.  (For B or C to have the desired effect...) The act of learning about effectiveness must not substantially decrease their willingness to donate.
 
 \
 In this section we consider the evidence for
@@ -63,19 +58,23 @@ and other obstacles tied to this.
 
 ### Description
 
-People may be reluctant^\*^ to consider the cost and benefits of the actions they are funding through their charitable donations (or they find this less appropriate/normal). This contrasts with a much greater willingness to consider these and other domains such as consumption, investment, and public policy. People also seem to avoid accessing/buying/seeing information (particular information that may be likely to feel compelled to give.)^[ How is this 'reluctance' observed/manifested?
-]
+People may be reluctant^[To clarify: How is this 'reluctance' observed/manifested?] to consider the cost and benefits of the actions they are funding through their charitable donations (or they find this less appropriate/normal). This contrasts with a much greater willingness to consider these and other domains such as consumption, investment, and public policy. People also seem to avoid accessing/buying/seeing information (particularly information that may be likely to make them feel compelled to give.)
+
 
 ### Conceptual discussion
 
-For this to be considered a *bias*, the relevant individuals must intrinsically value the usefulness of their charitable activity at least to some extent. I.e., they must be *moral utilitarians*, at least in part, or for some of the time. However, they may consider it very costly or distasteful to actually *do* this evaluation, or it may clash with other motivations and tendencies.
+For this to be considered a *bias*, the relevant individuals must intrinsically value the usefulness of their charitable activity at least to some extent.^[A *Utilitarian* would certainly do this. Jason Schukraft notes that "one can reject utilitarianism and still consistently believe that, all else equal, saving 10 lives is 10x better than saving 1 life."] However, they may consider it very costly or distasteful to actually *do* this evaluation, or it may clash with other motivations and tendencies.
 
 This aversion also must be distinguished from a lack of *ability* to do CBA in the charity domain; the latter would instead be considered a [quantitative bias](#quant-biases).
 
-The reluctance to engage in this evaluation process may relate to the idea of <!-- where? --> "taboo trade-offs"; if these tradeoffs are taboo, considering them may involve great emotional distress.
+The reluctance to engage in this evaluation process may relate to the idea of "taboo trade-offs"; if these tradeoffs are taboo, considering them may involve great emotional distress.^[Todo: get a reference for this term.]
 
-[@Berman2018] refer to the idea that "believing that charity is a subjective decision licenses individuals to donate in personally gratifying ways." This perspective plausibly combines partial and conflicted utililitarian preferences with the presence of moral licensing. As these authors note, the belief that *CBA is not a natural part of the charitable domain* may stem from the lack of direct feedback one gets from donating (in Economics terms, a "credence" good) relative to consumption and investment goods.^[(they cite: Imas paper?)
-]
+[@Berman2018] refer to the idea that "believing that charity is a subjective decision licenses individuals to donate in personally gratifying ways." This perspective plausibly combines partial and conflicted utililitarian preferences with the presence of moral licensing. As these authors note, the belief that *CBA is not a natural part of the charitable domain* may stem from the lack of direct feedback one gets from donating (in Economics terms, a "credence" good) relative to consumption and investment goods.^[(they cite: Imas paper?)]
+
+
+<!-- 
+JS: What does "subjective decision" mean in this context. Does it mean "supererogatory?"
+--> 
 
 Several papers (@Null2011b, @fongTruthGivingExperimental2010, @metzgerMakingImpactRelevance2019) find evidence that (arguably) suggests that people are often reluctant to pay for (and may even actively avoid) certain information about charitable costs and benefits. People are also known to 'avoiding being asked' in general (@dellavigna2012testing, @andreoniAvoidingAskField2017). However, these may reflect motives distinct from CBA, such as a self-serving bias .^[On the other hand ... a majority ranked effectiveness [how highly?] as a crucial criterion to select a charity and reported greater happiness when the impact of their contribution was highlighted. [@Aknin2013 ; @vaniwaardenCharitiesHowImportant2009]
 ]
@@ -91,14 +90,13 @@ This 'CBA discomfort'\* can be connected to several (potentially overlapping) th
 -   'Distorted Altruists': People do care about welfare maximization, *but "without clear information to make comparisons* they rely on their feelings to guide their choice" @Berman2018, citing (@loewensteinScarecrowTinMan2007; and @slovicPsychicNumbingGenocide2007).^[ We distinguish opposition to CBA from the inability to *conduct* CBA. The former is treated here while the latter involves a series of [quantitative biases discussed later](#quant-biases). (To do: Clarify the third bullet point on 'distorted altruists'. This seems to be the dominant view in the literature.
 ]
 
-### Relevance to Effective Giving (restated in fold) {.unnumbered}
-
 ::: {.callout-note collapse='true'}
- If *determining which charity is effective* requires CBA,  people may avoid doing so. If effective charities *force* people to consider CBA then people may avoid these charities in order to avoid having to do these evaluations.
 
-Stated more broadly, effective giving is predicated on conducting CBA for programs and organizations. To the extent that people are uncomfortable with CBA in the charitable domain, they will be uncomfortable with giving effectively.
+## Relevance to Effective Giving (restated)
 
- 
+If *determining which charity is effective* requires cost-benefit analysis (CBA), people may avoid doing so. If effective charities *force* people to consider CBA then people may avoid these charities in order to avoid having to do these evaluations.
+
+Stated more broadly, effective giving is predicated on CBAs for programs and organizations. Donors must engage with these CBAs  and carefully evaluating which sources are trustworthy and meaningful. To the extent that people are uncomfortable with doing this in the charitable domain, it will be difficult for them to give effectively.
  
 :::
 
@@ -227,8 +225,14 @@ they found people agreed more with the *subjective/taste* approach when assigned
 > Participants were asked to evaluate how they believe they should make decisions across six decision domains (choosing a charity, an investment, a cell phone, a restaurant, a piece of art, and a medical treatment). Specifically, they evaluated the extent to which they agreed with the following statements: “It is important that the _____ I choose reflects my personal tastes or values,” “It is more important to rely on objective measures rather than personal feelings when choosing _____,” and “Objective measures are the best way to choose _____.” Responses were made on a scale from 1 (*not at all*) to 7 (*very much so*).
 
  
- 
 :::
+
+<!-- 
+
+JS: This seems like a weird disjunction. Taste is subjective but values need not be considered subjective.
+
+Then the second option introduces "personal feelings." But feelings are neither values nor tastes! I'm not sure at all how I would choose between these options. I want a charity that does objectively well according to the values I believe are objectively true.
+--> 
 
 Their "Study 2: Personal Feelings Versus Welfare Gains" presented participants with "Mary" and a pairing of fictional domestic (homelessness) and international (micronutrient) charities, presenting effectiveness information on both (clearly favoring the latter).
 

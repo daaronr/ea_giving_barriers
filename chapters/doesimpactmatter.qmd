@@ -10,7 +10,17 @@ Most of our discussion largely assumes that an individual is, at least to some e
 
 i.  *Other-regarding/pro-social:* Her preferences or the "utility function she is maximizing" incorporates the well-being of others, at least to some extent
 
-ii. *A moral utilitarian* (consequentialist): The value she places on helping others (or on others' outcomes) is principally increasing in some measure of the *amount* of good they have done for others, or in others' welfare. For a given personal sacrifice, she will always prefer to have made more people more well-off than to have made fewer people less well-off. In Economics terms, she strictly prefers and values *Pareto-improvements*.[^doesimpactmatter-1]
+ii. *A moral utilitarian* (or otherwise consequentialist; but see fold below): The value she places on helping others (or on others' outcomes) is principally increasing in some measure of the *amount* of good they have done for others, or in others' welfare. For a given personal sacrifice, she will always prefer to have made more people more well-off than to have made fewer people less well-off. In Economics terms, she strictly prefers and values *Pareto-improvements*.[^doesimpactmatter-1]
+
+::: {.callout-note collapse="true"}
+
+## Non-consequentialists still care about consequences ...?
+
+Jason Schukraft: 
+
+> Non-consequentialists still care about the consequences of their actions (they just think other things matter, too). As far as I can tell, effective giving is required by every plausible moral theory.
+
+:::
 
 iii. *Agent-neutral* ('*universalist*'): In considering others' welfare, she values all others equally regardless of their identity. (Unfold for a precise example of this.)[^doesimpactmatter-2]
 

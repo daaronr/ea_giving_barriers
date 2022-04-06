@@ -3,11 +3,8 @@
 ## Signaling concern for effectiveness/impact versus other values {#signaling-empathy}
 
 
-
-
 ::: {.alert .alert-secondary}
  
-
 
 Includes, e.g.,
 
@@ -26,11 +23,24 @@ Includes, e.g.,
 :::
 
 
+::: {.callout-note collapse="true"}
+
+## An ethic of 'social obligation'...
+
+> Jason Schukraft: Considering all the talk of deontology in this section, I'm surprised you didn't bring up obligations. I think it's plausible that many people believe (rightly or wrongly) that they have much stronger moral obligations to their friends/neighbors/community than they do to distant strangers. You can't discharge your duty to your community by donating to AMF but you can through volunteering at the local soup kitchen.
+
+David Reinstein: This may also drive local giving, however, I don't see this as a 'barrier' or bias. this is simply a particular non-utilitarian ethic. 
+
+:::
+
+
+
+
 ### Theory and argument
 
 @simler2017elephant argue that social signaling is a major driver of human behavior, particularly in the charitable domain. Essentially, we may make choices that we would not have otherwise made in order to boost our reputation among our peers, colleagues, etc.. Reputation may be valued for its own sake or instrumentally, as a means  to inducing others to act more favorably to us. Game theory (see esp. [@spenceJobMarketSignaling1973]) offers a precise conception of this signaling as a costly way to demonstrate one's positive "type"  in a context with asymmetric information.
 
-Several authors (can be interpreted to) suggest that valuing ''effectiveness in generosity'', i.e., moral-utilitarianism, is seen as a negative signal by peers and lowers fitness in the cooperation market, at least in comparison to signaling compared to deontological or ‘sacred values’. The exchange below captures the basic argument... (unfold)
+Several authors (can be interpreted to) suggest that valuing ''effectiveness in generosity'', i.e., moral-utilitarianism, is seen as a negative signal by peers and lowers fitness in the cooperation market, at least in comparison to signaling other empathic pro-social responses, perhaps involving a 'virtue ethic'. The exchange below captures the basic argument... (unfold)
 
 ::: {.callout-note collapse='true'}
  *From Robin Hanson and Rob Wiblin exchange on 80000 hours podcast; see Chapter 12 of   “The Elephant in the Brain” (Hanson)*
@@ -58,8 +68,7 @@ Hanson: Right, but at least if I want your help and I’m your friend it will be
  
 :::
 
-
-[@everettInferenceTrustworthinessIntuitive2016] argue that deontological ethics signal stable cooperative behavior to others, which enhances fitness in mutualistic partner choice models. The basic argument is "An individual who claims [and believes] that stealing is always morally wrong ... seems much less likely to steal from me than an individual who believes that the stealing is sometimes morally acceptable depending on the consequences."
+[@everettInferenceTrustworthinessIntuitive2016] argue that deontological ethics signal stable cooperative behavior to others, which enhances fitness in mutualistic partner choice models.^[Jason Schukraft: I think the consequentialism vs deontology framing is a bit misleading. I think there's an implicit virtue ethics at work here. Volunteering at the soup kitchen demonstrates the possession of certain virtues, and these virtues can't be adequately signalled by donating to effective charities. (Donating to effective charities evidences other virtues, of course.)] The basic argument is "An individual who claims [and believes] that stealing is always morally wrong ... seems much less likely to steal from me than an individual who believes that the stealing is sometimes morally acceptable depending on the consequences."
 
 
 Background and further discussion ... in fold
@@ -103,7 +112,7 @@ Citing: Burum et al, 2020; Montealegre et al, 2020; Yudkin et al, 2019
 
 @everettInferenceTrustworthinessIntuitive2016 ran a series of experiments on the Mturk platform, involving hypothetical dilemmas paired with low-stakes (or no) Trust games.
 
-In each, participants were asked to make and justify their judgement in a moral dillemma such as the famous 'trolley dillemma.' In each case, this was a (hypothetical) choice between inaction and taking an action that sacrifices a small number of lives to save a larger number of lives.^[Would you "push a man off a footbridge to stop an oncoming train from hitting five"?
+In each, participants were asked to make and justify their judgement in a moral dilemma such as the famous ['trolley dillemma'](https://theconversation.com/the-trolley-dilemma-would-you-kill-one-person-to-save-five-57111). In each case, this was a (hypothetical) choice between inaction and taking an action that sacrifices a small number of lives to save a larger number of lives.^[Would you "push a man off a footbridge to stop an oncoming train from hitting five"?
 ]
 
 > We then had our participants rate the morality and trustworthiness of each agent on a scale (Study 1a), play a hypothetical trust game (TG) with the agents (Study 1b), and, finally, play a TG involving real monetary stakes with the agents (Study
@@ -131,11 +140,12 @@ Scenarios (including within and between subjects approaches):
 > Empathic: I would try to put myself in the shoes of people who are going through difficult situations, and donate to a charity that helped them.
 
 (ii) John was approached by a charity fundraiser and was asked whether he would be interested in donating to help Rokia, a 7-year-old girl from Mali, Africa who was desperately poor and faced the threat of severe hunger or even starvation. The charity fundraiser showed John a picture of Rokia (also presented to participants) and then asked John whether he would be interested in supporting her.
+
 Across conditions, participants were presented with the general scenario and only the potential donor’s actions differed depending on the condition:
 
 Deliberation: “John thought that donating to help Rokia might not be the most cost-effective way to use his money and that maybe he should donate to a charity doing something more cost-effective instead. He asked the charity fundraiser about the relevant statistics of the program and since the data suggested this charity was the most cost-effective John donated to the charity.”
-Empathy: “John was deeply moved by Rokia’s situation and about how terrible her situation must be for her. After hearing about her tragic story and imagining how his donation could help her John donated to the charity.”
 
+Empathy: “John was deeply moved by Rokia’s situation and about how terrible her situation must be for her. After hearing about her tragic story and imagining how his donation could help her John donated to the charity.”
 
 
 Robustness checks for: gender, stake size
@@ -143,6 +153,17 @@ Robustness checks for: gender, stake size
 Background mechanism:  donors’ failure to prioritize cost-effectiveness can be explained by signaling concerns, since people who favor deontological over consequentialist decisions are preferred as social partners [@Everett2016]
 
 Key findings:  Across six studies, donors who deliberated were perceived as having worse moral character, were rated as less desirable as social partners, and were judged to be less guided by moral motives. On the other hand, those who deliberated were also seen as more reasonable and competent, and were judged to be more guided by pragmatic motives. Thus, there may be reputational benefits associated with deliberating. However, since deliberators are less preferred as social partners the authors believe the overall effect one reputation is negative. They do not find any differences in trustworthiness. Exhibiting empathy before deliberating reduced most negative reputational effects. People how do not give at all are seen as the worst. Surprisingly, participants judge the empathy donors as more wasteful.
+
+
+::: {.callout-note collapse="true"}
+
+A critique (Jason Schukraft): 
+
+> This set-up seems misleading to me because in the first case it appears to be left uncertain whether John would donate to a different (more effective) charity if the data didn't pan out.
+
+> It also might imply a false dichotomy: in the first case, readers might imagine that John doesn't experience an empathetic response? In my view, EA is successful because it combines empathy with deliberation. I would be very suspicious of an EA who wasn't empathetic.
+
+:::
 
 
 ##### Burum et al, '20 {-}
@@ -173,6 +194,8 @@ Even if we accept the above evidence (that those who make consequentialist activ
 #### Indirect evidence {-}
 
 (@kahane2018beyond; @Jordan2016b; @Hoffman2015)
+
+
 
 
 
