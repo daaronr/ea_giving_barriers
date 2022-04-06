@@ -69,12 +69,14 @@ Jaeger and Vugt (2021) make an explicit connection to  evolutionary factors that
 
 Some FMRI evidence...
 
-```{block2,  type='fold'}
+::: {.callout-note collapse='true'}
+ 
 
 Ana Diez suggests...
 
 > fMRI studies ... have shown that the MPFC [medial pre-frontal cortex] is active when we think about ourselves. If we think of a family member, it will activate less. And if we are thinking of an unknown person, it will be even less active (Qin & Northoff, 2011). And more interestingly, when we think about our future selves, there is less activation of the MPFC than when we think of our actual self (Hershfield, Hal. 2011), meaning we care little about that person in the future.
-```
+ 
+:::
 
 
 ## Distance - Spatial/Physical, Social/Cultural: parochial altruism/in-group bias, interpersonal and identity e.g., race, gender, age, etc {#in-group}
@@ -222,14 +224,16 @@ See also these resources from [effectivealtruism.org](https://www.effectivealtru
 
 Considering how heavily we should weigh the future is a subject that has been raised frequently in the field of Economics (perhaps most notably climate economics in recent times), leading us to the idea (and various conceptions) of 'discount rates' [@ackerman2008]. Greaves (2017) outlines how discount rates can work as follows (unfold)
 
-```{block2,  type='fold'}
+::: {.callout-note collapse='true'}
+ 
 
 > Suppose we have an opportunity to undertake an investment project, sacrificing *k* \< 1 units of consumption today in order to secure an increase of 1 unit in consumption a time interval *t* later. Our basic question is: what is the threshold value of k at which the status quo becomes socially preferable to such a sacrifice? The answer to this question is the *social discount factor* for consumption at time t, *R(t)*. (One also has a *private* discount factor, corresponding to private as opposed to social preferences; in the remainder of this article, the focus is on the social version.) One generally expects *R* to decline with time --- we are willing to sacrifice more today to gain an increase in one unit of consumption tomorrow than to gain an increase of one unit of consumption next year. The decline, however, may be faster or slower, and for current purposes the rate of the decline is crucial.
 
 > The choice of discount rate is crucial in the evaluation of projects some of whose important effects are long-term. Analyses that use a higher discount rate will tend to favour the short term: projects requiring sacrifices in the short term for the sake of benefits in the further future will be more likely to fail cost-benefit tests.
 
 <!-- #TODO: recover reference greaves2017discounting -->
-```
+ 
+:::
 
 ::: {.marginnote}
 For further reading on discount rates see @weitzman1998far, @ebert2007fragility, @farmer2009hyperbolic
@@ -239,7 +243,8 @@ For further reading on discount rates see @weitzman1998far, @ebert2007fragility,
 
 **An informal discussion from David Reinstein** (unfold)
 
-```{block2,  type='fold'}
+::: {.callout-note collapse='true'}
+ 
 
 
 In considering whether there is a *bias* against helping people in the future we need to establish a baseline: At what rate (if at all) *should* an effective altruist weigh (far) future lives/pleasure/suffering as less-valuable as current or near-future lives?  At what rate should we 'discount', if at all?
@@ -278,7 +283,8 @@ This should be true for growing societies as well, i.e., where there is real-GDP
 
 This is not the same as discounting future utility or welfare. There's no clear reason we should do this.
 
-```
+ 
+:::
 
 ### Reasons the distant future may be neglected {.unnumbered}
 
@@ -338,3 +344,4 @@ P. Bloom
 Empathy and its discontents
 Trends Cogn Sci, 21 (1) (2017),
 -->
+

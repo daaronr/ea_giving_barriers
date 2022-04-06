@@ -1,0 +1,38 @@
+# (Persistent and systematic incorrect empirical beliefs) {#factual}
+
+```{block2,  type='note'}
+
+**Connection to terms/concepts in other work**
+
+@caviola2020many (literature review) considers ["Epistemic Obstacles"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0060); this is one of their 2 'barriers' sections, the other being 'Motivational obstacles'. In that section, they consider some of the 'misconceptions' stated below, as well as  the 'overhead myth' (cf our ['overhead aversion'](#overhead-aversion)) and 'quantifiability skepticism', 'innumeracy', and 'ignorance about the most effective charities'
+
+```
+
+Recapping the discussion from the [Conceptual breakdown of 'barriers'](#barriers-concept).
+
+There is abundant evidence that people are misinformed (or at least *state* incorrect beliefs) about the true state of the world, in systematic ways, And that misconceptions persist over time. Some of these misconceptions may prove particularly pernicious to effective charitable giving; others may simply lead to "departure from optimization" in giving choices.
+
+We considered whether to present these as 'fundamental barriers', rather than the results of other fundamental biases and norms. For example:
+
+-   People may make statements about the effectiveness of humanitarian aid and charity that are clearly too pessimistic. However, these statements may come from a desire to *justify* one's lack of support for this, rather than being a deeply-held belief. (ref: that 'Elephant in the Brain' discussion)
+
+-   Limited knowledge about the welfare/suffering/poverty of people and animals, and about long-term existential risks may result from [*distance*](#aware-distance): physical, experiential, cultural, etc.
+
+-   Common [quantitative biases](#quant-biases) may foster and enhance these misconceptions
+
+Fundamentally there are systematic reasons why we might *not* expect 'incorrect beliefs that are relevant to charitable donation choices' to be corrected. The incentives and the information-feedback is not clearly present. Charitable giving is a *credence* good for the donor. Charitable organizations may often raise more money by *not* correcting these misconceptions, and even by enhancing them.\
+
+## Some key misconceptions; evidence these may have an effect
+
+-   Differences in effectiveness across charities (understated; see, e.g., @caviolaDonorsVastlyUnderestimate2020)
+
+-   Cost of saving a life (understated, i.e., overoptimistic)
+
+-   Relative global affluence (understated): @nairMisperceptionsRelativeAffluence2018
+
+(@caviola2020many also suggest 'ignorance about the most effective charities')
+
+```{block2,  type='note'}
+More content to be filled in here.
+```  
+

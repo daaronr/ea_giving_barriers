@@ -1,0 +1,53 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Increasing effective charitable giving: The puzzle, what we know, what we need to know next"
+  author: "David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and others. Comments and contributions from Jason Schukraft, Michael Aird, Robin Bergh, Michel Justen, Annabel Rayner, and others"
+  repo-url: https://github.com/daaronr/ea_giving_barriers
+  repo-actions: [edit, issue]
+  date: today
+  chapters:
+    - index.qmd
+    - sections/outline_work.qmd
+    - sections/present_puzzle.qmd
+    - sections/substitution.qmd
+    - sections/barriers_breakdown.qmd
+    - sections/BARRIERS_FUNDAMENTAL.md
+    - sections/doesimpactmatter.qmd
+    - sections/aware-distance.qmd
+    - sections/identity.qmd
+    - sections/social.qmd
+    - sections/BARRIERS_INFO.md
+    - sections/eval-aversion.qmd
+    - sections/impact_analytical.qmd
+    - sections/BARRIERS_JUDGEMENT.md
+    - sections/quant-biases.qmd
+    - sections/factual.qmd
+    - sections/PATH_FORWARD.md
+    - sections/tools.qmd
+    - sections/conclusion-agenda.qmd
+    - sections/appendix_tutorial.qmd
+    - sections/inertia.qmd
+    - sections/references.qmd
+  reader-mode: true
+
+comments:
+    hypothesis: true
+
+bibliography: [references.bib, reinstein_bibtex.bib, packages.bib]
+
+format:
+  html:
+    code-fold: true
+    code-link: true #note: this isn't working for me
+    code-tools: true
+    theme: cosmo
+    citations-hover: true
+    footnotes-hover: true
+ # pdf:
+  #  documentclass: scrreprt
+
+#editor: visual
+

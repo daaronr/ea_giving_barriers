@@ -94,5 +94,28 @@ p_load("bettertrace") #better tracking after bugs
 #   shared_drive = "Research", #this works -- name looked up with googledrive::shared_drive_find()
 #   hide_code = FALSE) #hide_code=TRUE is usually better but I want to see it for now
 
+# Moving to Quarto ####
+
+# Parsing command
+p_load(rex)
+source_url("https://raw.githubusercontent.com/daaronr/dr-rstuff/master/functions/parse_rp_bookdown_to_quarto.R")
+
+# list of files taken from _bookdown.yml
+rmd_files <- c("outline_work.Rmd", "present_puzzle.Rmd",  "substitution.Rmd",  "barriers_breakdown.Rmd", "BARRIERS_FUNDAMENTAL.md", "doesimpactmatter.Rmd", "aware-distance.Rmd", "identity.Rmd", "social.Rmd", "BARRIERS_INFO.md", "eval-aversion.Rmd", "impact_analytical.Rmd",  "BARRIERS_JUDGEMENT.md",  "quant-biases.Rmd", "factual.Rmd", "PATH_FORWARD.md", "tools.Rmd", "conclusion-agenda.Rmd", "appendix_tutorial.Rmd", "inertia.Rmd", "references.Rmd")
+
+# apply all parsing commands and put it into 'chapters' folder
+system("mkdir chapters")
+map2(rmd_files, rmd_files,
+  ~ rp_rmd_to_quarto(here::here("sections", .y), here::here("chapters", .y)))
+
+newName <- sub(".Rmd", ".qmd", here::here("chapters", rmd_files))
+
+file.rename(here::here("chapters", rmd_files), newName)
+
+##TODO:
+# - index.Rmd file needs will need adjusting,
+# - you need to create a _quarto.yml file
+
+
 
 
