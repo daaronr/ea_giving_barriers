@@ -1,0 +1,65 @@
+# INTRODUCTION  {-}
+
+
+::: {.alert .alert-secondary}
+ 
+In this set of chapters:
+
+- What is this project about and how is it organised, outline of chapters
+- What is the main question or 'puzzle' and how do we know it 'real' and important?
+- Fundamental question: are charities in competition
+- How do we *consider* 'barriers' and analyse the evidence (and organize this?)
+
+ 
+:::
+
+## Outline of key 'PARTS' of full book (unfold) {-}
+
+**INTRODUCTION & FUNDAMENTALS**
+
+::: {.callout-note collapse='true'}
+ - [The puzzle and challenge: Our ineffective giving](#present-puzzle)**  Why should you care about this? Descriptives of giving (US, international) and how 'ineffective' it is. Potential global welfare gains to changing 'where we give'. Lack of previous evidence/synthesis
+
+-  [Definitions - "Efficiency" versus impact](#impact-definitions)\
+
+[Are charities in competition?](#substitution)
+
+
+\
+
+- [Breakdown of Barriers](#barriers-breakdown)
+
+
+<!-- moved old classification to barriers_old_classification.Rmd -->
+ve a general ['conceptual' overview of these barriers](#barriers-concept). We dig into each barrier more carefully in subsequent chapters.
+
+\
+
+Briefly mapping and outlining this...
+
+-   Do people *actually care about* impact? Does moral utilitarianism matter?
+
+-   Economics and psych models $\rightarrow$ puzzle?
+
+-   Models where people care about the impact of their gift or just 'amount sacrificed' (naive warm glow).
+
+-   Does impact map into the 'good feeling' from giving, can it do so?
+
+
+ 
+:::
+
+\
+
+**BARRIERS...**
+
+These parts clarify and operationalize each of the defined barriers (in sections), and assess the evidence (and argument) for each of these.
+
+
+\
+
+**GOING FORWARD...**
+
+Here we consider 'tools' for surmounting these barriers, and flesh out a research agenda.
+This is followed by appendices, including [one explaining the tech](#bookdown-appendix) behind this project, and how to work with it/work with us.
+

@@ -1,4 +1,5 @@
-# BARRIERS: EFFECTIVENESS INFORMATION - AVOIDANCE AND CONFLICT WITH EMPATHY {.unnumbered}
+# **BARRIERS:** EFFECTIVENESS INFORMATION {.unnumbered}
 
+Avoidance of effectiveness information
 
-
+Conflict with empathy

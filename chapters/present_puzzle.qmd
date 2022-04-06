@@ -1,5 +1,8 @@
-# Presenting the puzzle and challenge: Our ineffective giving {#present-puzzle}^[Overview of research question/problem: Why don't people give in an evidence-based way?
-]^[For an introduction to the field of effective altruism, see [this article](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/) from [effectivealtruism.org](https://www.effectivealtruism.org/), as well as [here](https://www.effectivealtruism.org/resources/) for an introductory resource list.
+# The puzzle and challenge: Our ineffective giving {#present-puzzle}
+
+^[Overview of research question/problem: Why don't people give in an evidence-based way?]
+
+^[For an introduction to the field of effective altruism, see [this article](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/) from [effectivealtruism.org](https://www.effectivealtruism.org/), as well as [here](https://www.effectivealtruism.org/resources/) for an introductory resource list.
 ]
 
 **(I) Limited giving to those most in need:** When faced with the ["girl drowning in the pond"](https://www.youtube.com/watch?v=rBMZiaD-OYo) we are willing to sacrifice substantial wealth to save a life. However, [most people don't make large donations to the very poor](https://givingusa.org/giving-usa-2017-total-charitable-donations-rise-to-new-high-of-390-05-billion/) (see, e.g., @meerGenerosityIncomeWealth2020), in spite of evidence suggesting that lives can be saved [for less than 5,000 USD](https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness) in expectation (and people's apparent belief that it is even cheaper).^[This does not seem to be for a lack of *overall* generosity. As a prominent example,  US Americans give roughly 2\% of their income to charities (and 'give far more' if we include transfers to children and other family). However, giving mostly goes to local and domestic charities which are far less effective per dollar than the ones recommended GiveWell.org.  G

@@ -1,4 +1,4 @@
-# BARRIERS: Judgement/cognition failures, systematic misperceptions {.unnumbered}
+# **BARRIERS:** JUDGEMENT/COGNITION FAILURES, SYSTEMATIC MISPERCEPTIONS {.unnumbered}
 
 
 

@@ -1,37 +1,28 @@
 # Effect of analytical (effectiveness) information on generosity {#analytical-grinch}
 
-
 ::: {.alert .alert-secondary}
- 
-
 Note: this relates to an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis underway
 
 Much of this project is being openly presented in the (in-progress) ["Impact of impact treatments on giving: field experiments and synthesis"](https://daaronr.github.io/dualprocess/index.html) bookdown, a project organised in the [dualprocess repo](https://github.com/daaronr/dualprocess).
 
-An earlier set of presentation slides are hosted [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/) - press 'O' to see the fill multi-dimensional slide map; the outline slide is [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/2/2)
-s
-
- 
+An earlier set of presentation slides are hosted [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/) - press 'O' to see the fill multi-dimensional slide map; the outline slide is [here](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/2/2) s
 :::
 
-Here we consider the impact of being presented with (or actively pursuing) effectiveness information (which is naturally *analytical* information) on generosity and the willingness to donate. (We also consider some work involving analytical information about charities that would not be seen as particularly relevant to impact in the sense described above.)^[Effectiveness information may also affect how donors perceive the *social signaling* value of their donation. We return to this in the [signaling and social pressures...](#social) section.
-]
+Here we consider the impact of being presented with (or actively pursuing) effectiveness information (which is naturally *analytical* information) on generosity and the willingness to donate. (We also consider some work involving analytical information about charities that would not be seen as particularly relevant to impact in the sense described above.)[^impact_analytical-1]
+
+[^impact_analytical-1]: Effectiveness information may also affect how donors perceive the *social signaling* value of their donation. We return to this in the [signaling and social pressures...](#social) section.
 
 \
 
 Further 'grant-worthy' motivation (unfold).
 
-::: {.callout-note collapse='true'}
- As noted above, scientific evidence suggesting that organizations’ “cost per outcome” differs substantially, perhaps by a factor of 1000 or more [@jamisonDeceiveNotDeceive2008]. This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like [GiveWell](http://givewell.org) now provide direct ratings on the basis of  per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors’ preferences for contributions “to be put to good use”—i.e., for direct interventions.
+::: {.callout-note collapse="true"}
+As noted above, scientific evidence suggesting that organizations' "cost per outcome" differs substantially, perhaps by a factor of 1000 or more [@jamisonDeceiveNotDeceive2008]. This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like [GiveWell](http://givewell.org) now provide direct ratings on the basis of per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors' preferences for contributions "to be put to good use"---i.e., for direct interventions.
 
-E.g., In @Aknin2013  participants reported greater happiness when the impact of their contribution was highlighted. [@vaniwaardenCharitiesHowImportant2009; @Aknin2013].
+E.g., In @Aknin2013 participants reported greater happiness when the impact of their contribution was highlighted. [@vaniwaardenCharitiesHowImportant2009; @Aknin2013].
 
-However, while we have rigorous evidence on what works and doesn’t work in anti-poverty and health interventions (acknowledged by the [2019 Economics Nobel Prize](https://www.nobelprize.org/prizes/economic-sciences/2019/press-release/)), we actually know very little about how potential donors react to this impact information!
-
- 
- 
+However, while we have rigorous evidence on what works and doesn't work in anti-poverty and health interventions (acknowledged by the [2019 Economics Nobel Prize](https://www.nobelprize.org/prizes/economic-sciences/2019/press-release/)), we actually know very little about how potential donors react to this impact information!
 :::
-
 
 ## Exposure to cost effectiveness and impact information (analytical information) might reduce generosity {#analytical-grinch-s}
 
@@ -51,42 +42,35 @@ A subjective outline of the evidence (Reinstein):
 
 We consider a range published work (from a non-systematised literature review) including laboratory and hypothetical experiments, and non-experimental analysis of related questions (such as 'the impact of general charitable ratings). However, we focus on field and 'field-like' experiments involving truthful analytical 'impact-per-dollar' relevant information in settings involving substantial donations.
 
-The experimental evidence is limited, mixed and overall indeterminate.  We could only find a single large-scale field trial closely bearing on 'impact-per-dollar' information. [@karlanEffectEffectivenessDonor2017a] ran a field experiment on a charitable mailing campaign for Freedom From Hunger,  reporting mixed (null overall, positive for some subgroups, negative for others), and some underpowered results.  @Small2007 (involving laboratory experiments with real donations) find that giving to an identifiable victim is *reduced* when statistics are also presented and "priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime." @bergh2020empathic's work (M-turk charitable giving, plus one small-scale field-ish context) mainly finds a near-zero effect (e.g., in pooled analysis across all six experiments, see [table 1 right column, table 2 bottom, and appendix page 51](https://ore.exeter.ac.uk/repository/bitstream/handle/10871/39550/SPPS%20R%26R_final%20edits-with_supplements.pdf?sequence=3&isAllowed=y).  \*
+The experimental evidence is limited, mixed and overall indeterminate. We could only find a single large-scale field trial closely bearing on 'impact-per-dollar' information. [@karlanEffectEffectivenessDonor2017a] ran a field experiment on a charitable mailing campaign for Freedom From Hunger, reporting mixed (null overall, positive for some subgroups, negative for others), and some underpowered results. @Small2007 (involving laboratory experiments with real donations) find that giving to an identifiable victim is *reduced* when statistics are also presented and "priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime." @bergh2020empathic's work (M-turk charitable giving, plus one small-scale field-ish context) mainly finds a near-zero effect (e.g., in pooled analysis across all six experiments, see [table 1 right column, table 2 bottom, and appendix page 51](https://ore.exeter.ac.uk/repository/bitstream/handle/10871/39550/SPPS%20R%26R_final%20edits-with_supplements.pdf?sequence=3&isAllowed=y). \*
 
 Further related evidence is also indeterminate (see fold).
 
-::: {.callout-note collapse='true'}
- @trussel2007financial finds a positive impact of providing a particular type of analytical charity financial information on a subset of donors.
+::: {.callout-note collapse="true"}
+@trussel2007financial finds a positive impact of providing a particular type of analytical charity financial information on a subset of donors.
 
 There is also mixed evidence on the impact of real-world charity ratings (Yoruk 2016; Brown ea 2017; Gordon 'ea '19), and mixed evidence on 'excuse-driven information seeking' (Exley '16b; Fong & O, '10; Metzger & G '19).
 
-There is some further related evidence lab experiments, but the results are limited. @fongTruthGivingExperimental2010 *apparently* findd that exogenous information about recipients increases donations, but they do not report this specifically.  There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies. [Reference needed here]
- 
- 
+There is some further related evidence lab experiments, but the results are limited. @fongTruthGivingExperimental2010 *apparently* findd that exogenous information about recipients increases donations, but they do not report this specifically. There is some speculation, but again, mixed evidence, that individuals already in a "system 2" (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between "output information" (how the donation is used) and "impact information"; the former is seen to increase generosity in several studies. \[Reference needed here\]
 :::
 
 ::: {.alert .alert-secondary}
- 
 We are planning more careful multilevel/meta-analysis of this work, incorporating 'new evidence' from a set of field experiments run by Reinstein and others involving two distinct charities and three campaigns.
-
- 
 :::
 
+#### Presenting "Effectiveness" and other types of analytical efficiency information {.unnumbered}
 
-#### Presenting "Effectiveness" and other types of analytical efficiency information {-}
-
-@karlanEffectEffectivenessDonor2017a KW (2017) run a field experiment on a charitable mailing involving scientific impact information.  Their treatment involved adding scientific impact text to an appeal, while removing some emotional text:
-
+@karlanEffectEffectivenessDonor2017a KW (2017) run a field experiment on a charitable mailing involving scientific impact information. Their treatment involved adding scientific impact text to an appeal, while removing some emotional text:
 
 Effectiveness treatment language:
 
-> According to studies on our programs in Peru that used rigorous scientific methodologies, women who have received both loans and business education saw their profits grow, even when compared to women who just received loans for their businesses. But the real difference comes when times are slow. The study showed that women in Freedom from Hunger's Credit with Education program kept their profits strong–ensuring that their families would not suffer, but thrive.
+> According to studies on our programs in Peru that used rigorous scientific methodologies, women who have received both loans and business education saw their profits grow, even when compared to women who just received loans for their businesses. But the real difference comes when times are slow. The study showed that women in Freedom from Hunger's Credit with Education program kept their profits strong--ensuring that their families would not suffer, but thrive.
 
 Control (emotional) treatment language:
 
-> Because of caring people like you, Freedom from Hunger was able to offer Sebastiana a self-help path toward achieving her dream of getting “a little land to farm” and pass down to her children. As Sebastiana's young son, Aurelio, runs up to hug her, she says, “I do whatever I can for my children.”
+> Because of caring people like you, Freedom from Hunger was able to offer Sebastiana a self-help path toward achieving her dream of getting "a little land to farm" and pass down to her children. As Sebastiana's young son, Aurelio, runs up to hug her, she says, "I do whatever I can for my children."
 
-They find a null effect overall with fairly tight bounds.  They report a near-0 impact on incidence (in table 2: column 1), and a standard error under 1\%, relative to a baseline incidence of 14\%. They estimate an impact on amount of donated +2.35 USD, with a standard error of 1.98; this is relative to a mean of 14.17 USD. (In their Winsorised results the point estimate is -0.074, the standard error is 0.82, and the mean is 11.30)
+They find a null effect overall with fairly tight bounds. They report a near-0 impact on incidence (in table 2: column 1), and a standard error under 1%, relative to a baseline incidence of 14%. They estimate an impact on amount of donated +2.35 USD, with a standard error of 1.98; this is relative to a mean of 14.17 USD. (In their Winsorised results the point estimate is -0.074, the standard error is 0.82, and the mean is 11.30)
 
 When they differentiate this by an ex-post classification (not preregistered), they find positive effects of this information for 'prior large donors' and negative effects for 'prior small donors'.
 
@@ -94,32 +78,29 @@ This is probably the most substantial and relevant study. We consider this furth
 
 Nonetheless, the study is presents only a single piece of evidence from a specific context. It also has some potential limitations in considering our main question.
 
+1.  Their treatment changed two things changed at once: impact information was added which emotional information was removed
 
-1. Their treatment changed two things changed at once: impact information was added which emotional information was removed
+2.  It may have been entangled with a Yale/institution effect
 
-2. It may have been entangled with a Yale/institution effect
-
-3. The nature of 'impact' information was not particularly quantative; it did not express a an 'impact per dollar'
-
+3.  The nature of 'impact' information was not particularly quantative; it did not express a an 'impact per dollar'
 
 ::: {.alert .alert-secondary}
- 
-
-
 **Design and results summary**:
 
 Treatment(s): Add scientific impact text to base script (included a standard qualitative story about an individual beneficiary), while removing emotional text:
 
 $\rightarrow$ little net effect
 
-$\rightarrow$ reduced (increased) giving among small (large) prior donors `r format_with_col("(not a preregistered hypothesis)","grey")`
+<div>
 
- 
+$\rightarrow$ reduced (increased) giving among small (large) prior donors *(not a preregistered hypothesis)*
+
+</div>
 :::
 
 \
 
-#### @Linda2007 {-}
+#### @Linda2007 {.unnumbered}
 
 2 x 2 mailing appeal for People with Aids Coalition-Houston, with several treatments:
 
@@ -134,59 +115,41 @@ The FINANCIAL treatment (alone) $\rightarrow$ 180% increase in odds of donating 
 
 ```{r, out.width='85%', fig.align='center'}
 
-knitr::include_graphics('picsfigs/parsons_fin_treat.png')
+knitr::include_graphics('../picsfigs/parsons_fin_treat.png')
 
 ```
 
 ```{r parsons_logit, out.width='85%', fig.align='center', echo=FALSE}
 
-knitr::include_graphics(c('picsfigs/parsons_logit.png'))
+knitr::include_graphics(c('../picsfigs/parsons_logit.png'))
 
 ```
 
 Further details from Parsons (unfold, direct quotes from paper)
 
-::: {.callout-note collapse='true'}
- (This is all direct quotations:)
+::: {.callout-note collapse="true"}
+(This is all direct quotations:)
 
-Potential donors were sent, via a direct mail
-campaign, fundraising appeals containing varying amounts of financial and nonfinancial
-information in order to determine whether individual donors are more likely to contribute
-when accounting information or voluntary disclosures are provided ...
+Potential donors were sent, via a direct mail campaign, fundraising appeals containing varying amounts of financial and nonfinancial information in order to determine whether individual donors are more likely to contribute when accounting information or voluntary disclosures are provided ...
 
 \
 
-A logistic regression provides evidence that some donors who have previously
-donated use financial accounting information when making a donation decision. The
-results are inconclusive regarding whether donors use nonfinancial service efforts and
-accomplishments disclosures to determine whether and how much to give, but participants in the lab experiment judged the nonfinancial disclosures to be useful for making
-a giving decision
+A logistic regression provides evidence that some donors who have previously donated use financial accounting information when making a donation decision. The results are inconclusive regarding whether donors use nonfinancial service efforts and accomplishments disclosures to determine whether and how much to give, but participants in the lab experiment judged the nonfinancial disclosures to be useful for making a giving decision
 
 \
 
-Both experiments use a two-by-two design to manipulate the direct provision of (1)
-financial information (derived from mandatory informational tax filings which are available
-only if requested by the donor) and (2) voluntary disclosure of nonfinancial accounting
-information (not otherwise available to the donor). By analyzing actual cash receipts from
-the fundraising appeal, I find that donors who had previously contributed to the organization
-are more likely to donate when financial accounting information is directly provided. New
-prospective donors make larger contributions when either financial information or voluntary,
-nonfinancial accounting information is included with a basic fundraising appeal, but differences are not statistically significant.
+Both experiments use a two-by-two design to manipulate the direct provision of (1) financial information (derived from mandatory informational tax filings which are available only if requested by the donor) and (2) voluntary disclosure of nonfinancial accounting information (not otherwise available to the donor). By analyzing actual cash receipts from the fundraising appeal, I find that donors who had previously contributed to the organization are more likely to donate when financial accounting information is directly provided. New prospective donors make larger contributions when either financial information or voluntary, nonfinancial accounting information is included with a basic fundraising appeal, but differences are not statistically significant.
 
 \
 
-The first manipulation is to include financial information drawn from the audited financial statements with the basic fundraising appeal. Summary charts and graphs, instead of full financial statements complete with footnotes, are used to
-highlight the efficiency measures typically emphasized in previous literature. The financial information indicates that 92.5 percent of the entity's expenditures were directed to program expenses in the prior year. This figure compares favorably with the 60 percent suggested minimum level recommended by the National Charities Information Bureau
+The first manipulation is to include financial information drawn from the audited financial statements with the basic fundraising appeal. Summary charts and graphs, instead of full financial statements complete with footnotes, are used to highlight the efficiency measures typically emphasized in previous literature. The financial information indicates that 92.5 percent of the entity's expenditures were directed to program expenses in the prior year. This figure compares favorably with the 60 percent suggested minimum level recommended by the National Charities Information Bureau
 
 \
-The second manipulation is to include a voluntary disclosure of service efforts and accomplishments (SEA) that describes the organization's past efforts to serve its beneficiaries and gives specific information about the success of its programs (see Appendix C). This information is in narrative form and written in lay terms. 3 It provides both output
-(quantity of product or service produced) and outcomes (results) information as defined in Hatry et al. (1990).
+The second manipulation is to include a voluntary disclosure of service efforts and accomplishments (SEA) that describes the organization's past efforts to serve its beneficiaries and gives specific information about the success of its programs (see Appendix C). This information is in narrative form and written in lay terms. 3 It provides both output (quantity of product or service produced) and outcomes (results) information as defined in Hatry et al. (1990).
 
 \
 
 Charity: People with Aids Coalition- Houston
- 
- 
 :::
 
 *Limitations of \@Linda2007 (for the present question)*
@@ -209,25 +172,22 @@ Charity: People with Aids Coalition- Houston
 
 From Abstract:
 
-> Across six experiments we examined how images of identified victims interact with information about charity efficiency (money toward program) and effectiveness (program outcome). We further examined if the images primarily get people to donate (yes/no), while efficiency/effectiveness might provide a tuning mechanism for how much to give. Results showed that images influenced the propensity to donate and induced participants donate their full bonuses, indicating heuristic effects. Efficiency and effectiveness information had no effects on donations.^[Need to delve into this further: tight null effects or underpowered studies? Consider confidence intervals of effects reported, as in tables below. These need some clarification and improved formatting.
-]
+> Across six experiments we examined how images of identified victims interact with information about charity efficiency (money toward program) and effectiveness (program outcome). We further examined if the images primarily get people to donate (yes/no), while efficiency/effectiveness might provide a tuning mechanism for how much to give. Results showed that images influenced the propensity to donate and induced participants donate their full bonuses, indicating heuristic effects. Efficiency and effectiveness information had no effects on donations.[^impact_analytical-2]
+
+[^impact_analytical-2]: Need to delve into this further: tight null effects or underpowered studies? Consider confidence intervals of effects reported, as in tables below. These need some clarification and improved formatting.
 
 \
 
 ```{r bergh_pooled, out.width='85%', fig.align='center', caption='Reinstein and Bergh, pooled regressions, with confidence intervals', echo=FALSE}
 
-knitr::include_graphics(c('picsfigs/bergh_pooled_regs.png'))
+knitr::include_graphics(c('../picsfigs/bergh_pooled_regs.png'))
 
 ```
 
 Notes on above table:
 
-::: {.callout-note collapse='true'}
- (Note that in the above, all binary variables are 'effect coded')
-Considering 'Don share' (the share of the endowment contributed), as well as the linear probability model, we see that the pooled effect of the effectiveness information is fairly tightly bounded around zero. Even at the 95% lower bound, the effect is no more than an 11% reduction in the share donated (.04/0.35), and a 10% reduction in incidence (.06/.62).
-
- 
- 
+::: {.callout-note collapse="true"}
+(Note that in the above, all binary variables are 'effect coded') Considering 'Don share' (the share of the endowment contributed), as well as the linear probability model, we see that the pooled effect of the effectiveness information is fairly tightly bounded around zero. Even at the 95% lower bound, the effect is no more than an 11% reduction in the share donated (.04/0.35), and a 10% reduction in incidence (.06/.62).
 :::
 
 \
@@ -235,7 +195,7 @@ Study 6 had the most straightforward 'impact information' as per our definitions
 
 ```{r bergh_fisher, out.width='85%', fig.align='center', caption='Reinstein and Bergh, Study 6, Fisher tests of donation incidence, with confidence intervals', echo=FALSE}
 
-knitr::include_graphics(c('picsfigs/study_6_fisher_cis.png'))
+knitr::include_graphics(c('../picsfigs/study_6_fisher_cis.png'))
 
 ```
 
@@ -243,19 +203,19 @@ knitr::include_graphics(c('picsfigs/study_6_fisher_cis.png'))
 
 The wide confidence intervals of the odds ratios suggests that Study 6 had limited statstical power.
 
-#### [@caviola2020many] (Hypothetical/intentional experiments; Information treatments, debunking/debiasing) {#caviola}^[CONSIDER: This paper/result may not inform 'evaluation aversion' should we move it to another section or subsection?
-]
+#### [@caviola2020many] (Hypothetical/intentional experiments; Information treatments, debunking/debiasing) {#caviola}[^impact_analytical-3]
+
+[^impact_analytical-3]: CONSIDER: This paper/result may not inform 'evaluation aversion' should we move it to another section or subsection?
 
 -   Series of four hypothetical experiments, mainly on M-Turk
 
-> Abstract: ... Across six tasks (Studies 1a, 1b), we found support for both explanations. Among lay donors, we observed multiple misconceptions---regarding disaster relief, overhead costs, donation splitting, and the relative effectiveness of local and foreign charities---that reduced the effectiveness of their giving. [\*]
+> Abstract: ... Across six tasks (Studies 1a, 1b), we found support for both explanations. Among lay donors, we observed multiple misconceptions---regarding disaster relief, overhead costs, donation splitting, and the relative effectiveness of local and foreign charities---that reduced the effectiveness of their giving. \[\*\]
 
-> Similarly, we found that they were unfamiliar with the most effective charities (Studies 2a, 2b). Debunking these misconceptions and informing people about effectiveness boosted effective donations [\*]; however, a portion of lay donors continued to give ineffectively to satisfy their personal preferences.
+> Similarly, we found that they were unfamiliar with the most effective charities (Studies 2a, 2b). Debunking these misconceptions and informing people about effectiveness boosted effective donations \[\*\]; however, a portion of lay donors continued to give ineffectively to satisfy their personal preferences.
 
-> By contrast, a sample of self-identified effective altruists gave [\*] effectively across all tasks.^[Notes on this paper are adapted from Janek Kretschmer's work.
+> By contrast, a sample of self-identified effective altruists gave \[\*\] effectively across all tasks.\^\[Notes on this paper are adapted from Janek Kretschmer's work.
 
-\* All experiments in this paper involved hypothetical (stated) giving 'choices'.
-]
+\* All experiments in this paper involved hypothetical (stated) giving 'choices'. \]
 
 \
 
@@ -265,7 +225,7 @@ The wide confidence intervals of the odds ratios suggests that Study 6 had limit
 
 -   It is important to understand the (ambivalent) relationship between the desire to do the most good and 'knowing about the best option' and 'actually giving to the most effective charities'
 
--   There are huge difference between 'EA donors' and the general population [?] (lay people) in term of knowledge and preferences
+-   There are huge difference between 'EA donors' and the general population \[?\] (lay people) in term of knowledge and preferences
 
 -   Study 2 finds strong effects of informing participants about GiveWell's top-recommended charities:
 
@@ -279,17 +239,15 @@ The wide confidence intervals of the odds ratios suggests that Study 6 had limit
 
 (Unfold key elements of abstract)
 
-::: {.callout-note collapse='true'}
- > ... investigates whether donor-driven market incentives can explain why nonprofit organizations routinely lack an evidentiary basis to justify their operations. Across three preregistered online survey experiments (N = 1,058), two domains (global health and human rights), and two types of interventions (medical care and issue-awareness), this paper finds that people do not reward exceptionally positive charitable impact, but they do punish charities that admit their programs were ineffective. Charities are only rewarded for revealing information about their impact when the results are unrealistic and unattainable. The results also demonstrate that donors are more sensitive to information about administrative overhead than they are to direct information about impact.
- 
- 
+::: {.callout-note collapse="true"}
+> ... investigates whether donor-driven market incentives can explain why nonprofit organizations routinely lack an evidentiary basis to justify their operations. Across three preregistered online survey experiments (N = 1,058), two domains (global health and human rights), and two types of interventions (medical care and issue-awareness), this paper finds that people do not reward exceptionally positive charitable impact, but they do punish charities that admit their programs were ineffective. Charities are only rewarded for revealing information about their impact when the results are unrealistic and unattainable. The results also demonstrate that donors are more sensitive to information about administrative overhead than they are to direct information about impact.
 :::
 
 **Setup**
 
 -   Participants "recruited through Positly, an online study recruiter that solicits high quality participants from Amazon's M-Turk"
 
--   Series of experiments giving participants a *hypothetical* choice: "you have the opportunity to donate 100 USD to i. [described charity] or ii. Some other international health charity." They needed to hypothetically allocate the 100USD completely between these two.
+-   Series of experiments giving participants a *hypothetical* choice: "you have the opportunity to donate 100 USD to i. \[described charity\] or ii. Some other international health charity." They needed to hypothetically allocate the 100USD completely between these two.
 
 \
 
@@ -297,13 +255,14 @@ The wide confidence intervals of the odds ratios suggests that Study 6 had limit
 
 -   No Impact information
 -   Null Impact information ("study found that Human Rights International did not have the desired impact, suggesting that reform is needed to increase effectiveness'.)
--   Realistic impact information ... "results of the study suggest ... [HHI} saves the life of one person for each 2000 USD spent"
+-   Realistic impact information ... "results of the study suggest ... \[HHI} saves the life of one person for each 2000 USD spent"
 -   Unrealistic impact information "... for each 150 USD spent"
 
 \
 
-*Study 2: Similar to Study 1, but for preventing HIV infections*^[The third study revolves around the addition of overhead information, in with what might be seen as a fairly negative presentation. I do not discuss it here
-]
+*Study 2: Similar to Study 1, but for preventing HIV infections*[^impact_analytical-4]
+
+[^impact_analytical-4]: The third study revolves around the addition of overhead information, in with what might be seen as a fairly negative presentation. I do not discuss it here
 
 \
 
@@ -321,23 +280,20 @@ While the difference between Realistic and None was not significant by the stand
 
 Other comments (unfold)
 
-::: {.callout-note collapse='true'}
- Comments from Janek Kretschmer:
+::: {.callout-note collapse="true"}
+Comments from Janek Kretschmer:
 
-- The author considers three aspects of the 'problem' with beliefs: no-reward for actual high impact, punishment for low impact, and reward for unrealistic high impact. This might be reduced to the simple assumption that actual cost-effectiveness information can not live up to donors’ expectations [which] makes an investment into scientific evaluation unprofitable for NGOs.
+-   The author considers three aspects of the 'problem' with beliefs: no-reward for actual high impact, punishment for low impact, and reward for unrealistic high impact. This might be reduced to the simple assumption that actual cost-effectiveness information can not live up to donors' expectations \[which\] makes an investment into scientific evaluation unprofitable for NGOs.
 
-- The results may largely be explained by the evaluation bias (Caviola et al. 2014). This could be emphasized further.
+-   The results may largely be explained by the evaluation bias (Caviola et al. 2014). This could be emphasized further.
 
-- In study 3, the presentation of possible overhead spending is potentially too negative.
+-   In study 3, the presentation of possible overhead spending is potentially too negative.
 
-- Also,  after accounting for overhead the difference between both scenarios is small 2000 USD vs. 1800 USD, and more mental resources are required to obtain this conclusion
+-   Also, after accounting for overhead the difference between both scenarios is small 2000 USD vs. 1800 USD, and more mental resources are required to obtain this conclusion
 
-- More information about the “another charity option” would be helpful. Ideally, the author would provide the participants’ decision screen in the appendix.
+-   More information about the "another charity option" would be helpful. Ideally, the author would provide the participants' decision screen in the appendix.
 
-When the author wonders whether “active donors [...] differ from the general population,” she asks a relevant question (cf. Karlan and Woods, 2017). However, she simply provides the mean donation (M = 70.9 USD) to Human Health International among respondents who have donated in the past twelve months. Thus, it can be said that there is no statistical difference from the mean donation (M = 69.9 USD) among all respondents, including non-donors However,  the more interesting question “do large donors react differently to the four conditions?” remains answered.
-
- 
- 
+When the author wonders whether "active donors \[...\] differ from the general population," she asks a relevant question (cf. Karlan and Woods, 2017). However, she simply provides the mean donation (M = 70.9 USD) to Human Health International among respondents who have donated in the past twelve months. Thus, it can be said that there is no statistical difference from the mean donation (M = 69.9 USD) among all respondents, including non-donors However, the more interesting question "do large donors react differently to the four conditions?" remains answered.
 :::
 
 #### Evidence: Analytical information $\times$ emotional information and 'identifiable victim'
@@ -354,7 +310,7 @@ Study 3:
 
 \
 
-> Study 4: "Priming analytic thinking [math problems] reduced donations to an identifiable victim relative to a feeling-based thinking prime ["impression questionnaire"]. Yet, the primes had no distinct effect on donations to statistical victims, which is symptomatic of the difficulty in generating feelings for these victims."
+> Study 4: "Priming analytic thinking \[math problems\] reduced donations to an identifiable victim relative to a feeling-based thinking prime \["impression questionnaire"\]. Yet, the primes had no distinct effect on donations to statistical victims, which is symptomatic of the difficulty in generating feelings for these victims."
 
 \
 
@@ -365,13 +321,9 @@ Basic design has key strengths: Double-blind, real donations, distractors, caref
 Primes: Note, the latter non-effect appears tightly bounded; but this could simply be driven by nonlinearity. If people gave little to statistical victims, there is less room for this to decrease further. A classic problem when considering interactions.
 
 ::: {.alert .alert-secondary}
- 
-
 Ideas42 Summary:
 
-Researchers gave study participants the opportunity to donate $0-5 to famine relief efforts at Save the Children (n = 159). One group received letters that included a picture and brief description of a little girl. A second group received letters describing factual information about food security, and a third group received letters with both the little girl’s profile and factual information. The photo and description prompted an emotion-based response, raising more than twice as much money as the factual solicitation. Including factual information with the girl’s profile reduced this effect, with no significant difference in giving between those who received both pieces and those who received factual information only
-
- 
+Researchers gave study participants the opportunity to donate \$0-5 to famine relief efforts at Save the Children (n = 159). One group received letters that included a picture and brief description of a little girl. A second group received letters describing factual information about food security, and a third group received letters with both the little girl's profile and factual information. The photo and description prompted an emotion-based response, raising more than twice as much money as the factual solicitation. Including factual information with the girl's profile reduced this effect, with no significant difference in giving between those who received both pieces and those who received factual information only
 :::
 
 \
@@ -404,10 +356,9 @@ One characterization, from @bergh2020empathic
 
 \
 
-**Background mechanisms and related evidence:** the role of consumer reviews and independent ratings in for-profit sectors.^[ E.g. Luca (2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, @jin2006information: health plan ratings have a significant impact on individuals' health plan choices, @reinsteinInfluenceExpertReviews2005: positive expert reviews have a significant effect on the box office revenue of movies.
+**Background mechanisms and related evidence:** the role of consumer reviews and independent ratings in for-profit sectors.[^impact_analytical-5]\
 
-]
-\
+[^impact_analytical-5]: E.g. Luca (2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, @jin2006information: health plan ratings have a significant impact on individuals' health plan choices, @reinsteinInfluenceExpertReviews2005: positive expert reviews have a significant effect on the box office revenue of movies.
 
 **Key findings:**
 
@@ -416,7 +367,6 @@ One characterization, from @bergh2020empathic
 \
 
 ### Evidence for "Charity choices do not respond 'efficiently' to information about costs and benefits of charity" {#choice_response_info}
-
 
 @Null2011b ran a set of experiments at Kiwanis/Rotary clubs and with "professional subjects" (presumably, university administrators) at the Berkeley X-lab. The former strictly involved allocations *among* charities, in the latter case what was not given away could be kept. For the main reported treatments, participants made a series of decisions under different incentives (mostly on the same page and thus simultaneously?). The "prize" was \$100; in each session only one decision from one subject was chosen for actual payment/donations.
 
@@ -450,7 +400,6 @@ to not care about the money once it has left their hands, at least when
 it is framed in terms of [money]{.underline}*
 -->
 ```
-
 #### See also {.unnumbered}
 
 @Vesterlund2003a @chhaochharia2008charity, @landry2010donor, @Brown2016
@@ -459,11 +408,10 @@ it is framed in terms of [money]{.underline}*
 
 @Gordon2009
 
-#### Notes {-}
+#### Notes {.unnumbered}
 
-There is also (informal?) evidence that people may dramatically *underestimate* the cost of saving lives.^[DR: I am considering whether this should be seen as a relevant barrier. It is important to note in trying to *measure* the impact of effectiveness information. Evidence comes from Caviola et al 2019 and Greenberg et al 2017
-]
+There is also (informal?) evidence that people may dramatically *underestimate* the cost of saving lives.[^impact_analytical-6]
+
+[^impact_analytical-6]: DR: I am considering whether this should be seen as a relevant barrier. It is important to note in trying to *measure* the impact of effectiveness information. Evidence comes from Caviola et al 2019 and Greenberg et al 2017
 
 <!-- two separate surveys, participants were asked how much they thought it would cost “a typical charity to prevent one child in a poor country from dying unnecessarily by improving access to medical care.” In one survey, their median estimate was $40, and in the other survey, it was $150. The surveys asked the same question about the most cost-effective charities, for which the median estimate was $25 in one survey and $100 in the other (Caviola -->
-
-

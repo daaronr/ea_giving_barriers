@@ -10,27 +10,33 @@ book:
   date: today
   chapters:
     - index.qmd
-    - sections/outline_work.qmd
-    - sections/present_puzzle.qmd
-    - sections/substitution.qmd
-    - sections/barriers_breakdown.qmd
-    - sections/BARRIERS_FUNDAMENTAL.md
-    - sections/doesimpactmatter.qmd
-    - sections/aware-distance.qmd
-    - sections/identity.qmd
-    - sections/social.qmd
-    - sections/BARRIERS_INFO.md
-    - sections/eval-aversion.qmd
-    - sections/impact_analytical.qmd
-    - sections/BARRIERS_JUDGEMENT.md
-    - sections/quant-biases.qmd
-    - sections/factual.qmd
-    - sections/PATH_FORWARD.md
-    - sections/tools.qmd
-    - sections/conclusion-agenda.qmd
-    - sections/appendix_tutorial.qmd
-    - sections/inertia.qmd
-    - sections/references.qmd
+    - part: chapters/introduction.qmd
+      chapters:
+      - chapters/outline_work.qmd
+      - chapters/present_puzzle.qmd
+      - chapters/substitution.qmd
+    - part: "BARRIERS"
+      chapters:
+        - chapters/barriers_breakdown.qmd
+        - chapters/BARRIERS_FUNDAMENTAL.md
+        - chapters/doesimpactmatter.qmd
+        - chapters/aware-distance.qmd
+        - chapters/identity.qmd
+        - chapters/social.qmd
+        - chapters/BARRIERS_INFO.md
+        - chapters/eval-aversion.qmd
+        - chapters/impact_analytical.qmd
+        - chapters/BARRIERS_JUDGEMENT.md
+        - chapters/quant-biases.qmd
+        - chapters/factual.qmd
+    - part: "PATHS FORWARD"
+      chapters:
+        - chapters/tools.qmd
+        - chapters/conclusion-agenda.qmd
+    - chapters/references.qmd
+  appendices:
+    - chapters/appendix_tutorial.qmd
+    - chapters/inertia.qmd
   reader-mode: true
 
 comments:
@@ -40,9 +46,9 @@ bibliography: [references.bib, reinstein_bibtex.bib, packages.bib]
 
 format:
   html:
-    code-fold: true
-    code-link: true #note: this isn't working for me
-    code-tools: true
+    #code-fold: true
+    #code-link: true #note: this isn't working for me
+    #code-tools: true
     theme: cosmo
     citations-hover: true
     footnotes-hover: true

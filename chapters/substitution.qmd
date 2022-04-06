@@ -1,4 +1,6 @@
-# Are charities in competition? Is the ineffective giving reducing effective giving? {#substitution}
+# Are charities in competition? {#substitution}
+
+**Is the ineffective giving reducing effective giving?**
 
 Are charitable gifts complements or substitutes; are charities rivals? Does one donation request (or donation itself) crowd out another, and if so when and by how much? This is critical to understanding the extent to which gains can be achieved by getting people to 'switch' from less to more effective charities. To the extent this crowding-out occurs, factors driving giving to the non-EA charities, especially local obligations (e.g., neighbors pressuring you to give to local organisations) themselves represent barriers to EA giving.
 
@@ -62,8 +64,9 @@ These models do not explicitly differentiate between gifts to different charitab
 From an economics perspective, treating charitable giving like 'any other good' purchased by a donor (as a consumer), does not yield a clear prediction. Economists speak of goods being 'complements and substitutes', depending on how the price of one affects the number of units consumed of the other good. We can also consider how 'expenditures on one good vary with shocks to expenditures on another', referred to 'expenditure substitution' in @reinsteinDoesOneCharitable. Here again, the prediction is ambiguous, but essentially it depends on the extent to which consumption of good (or charity) A satiates the desire for (diminishes the marginal utility of) good/charity B.\^[[@scharfLiftShiftEffect2017] consider the intertemporal elasticity of a 'warm glow' component.
 ]
 
-### Expenditure substitution maths {#expend-subst .unnumbered}^[This is largely drawn from the appendix of [@reinsteinSubstitutionMotivationsCharitable2011]
-]
+### Expenditure substitution math {#expend-subst .unnumbered}
+
+^[This is largely drawn from the appendix of [@reinsteinSubstitutionMotivationsCharitable2011]]
 
 Assuming that utility is separable in own consumption and charitable gifts, and assuming an additive specific shock ($\alpha$), we can express utility as: $$U=f(x)+V(g_{1},g_{2}-\alpha )$$ *where* the functions $V$ and $f$ are functions that represent utility from own-consumption and from charitable giving, repectively.
 
@@ -251,7 +254,7 @@ Reinstein et al, 2020: First field-experiment to ask (or not ask) on multiple se
 
 ```{r, out.width='85%', fig.align='center', fig.cap='Papers on substitution; database'}
 
-knitr::include_graphics('picsfigs/subst_meta_cut.png')
+knitr::include_graphics('../picsfigs/subst_meta_cut.png')
 
 ```
 

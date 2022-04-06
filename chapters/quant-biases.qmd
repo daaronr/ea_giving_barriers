@@ -291,7 +291,7 @@ One of the potential reasons that *identified victims* could elicit greater gene
 
 <div>
 
-\*\*See @jenniExplainingIdentifiableVictim1997 and @loewensteinScarecrowTinMan2007 for more on the causes of the identifiable victim effect and more on sympathy biases.
+^[See @jenniExplainingIdentifiableVictim1997 and @loewensteinScarecrowTinMan2007 for more on the causes of the identifiable victim effect and more on sympathy biases.]
 
 </div>
 
@@ -701,10 +701,9 @@ Charities: how important is performance to donors?. International
 Journal of Quality & Reliability Management, 26(1), 5-22.
 [@vaniwaardenCharitiesHowImportant2009]
 
+:::
 
- 
- 
-:::^[Study finds 'no correlation' between overhead and effectiveness-- is it convincing? Does working abroad increase overhead? Most relevant tie: doing impact evaluation will itself increase overhead.
+^[Study finds 'no correlation' between overhead and effectiveness-- is it convincing? Does working abroad increase overhead? Most relevant tie: doing impact evaluation will itself increase overhead.
 ]
 
 References: @gneezyAvoidingOverheadAversion2014, @portillo2018overhead, @kinsbergenExplainingMonetaryDonations2013, @Mayo2009, @meerDoesFundraisingCreate2017, @chhaochharia2008charity, and @Caviola2014

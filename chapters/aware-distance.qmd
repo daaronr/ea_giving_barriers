@@ -1,58 +1,55 @@
-# "Distance", awareness, and consideration {#aware-distance}^[This section was written by David Reinstein and Luke Arundel.
-]
+# "Distance", awareness, and consideration {#aware-distance}
 
+[^aware-distance-1]
+
+[^aware-distance-1]: This section was written by David Reinstein and Luke Arundel, with contributions from Annabel Rayner.
 
 ::: {.alert .alert-secondary}
- 
-
 **Connection to terms/concepts in other work**
-  
-- @caviola2020many (literature review): [Motivational obstacles](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0020), especially...
-  - 'personal connection', 
-  - 'narrow moral circle' 
-  
- 
-:::  
+
+-   @caviola2020many (literature review): [Motivational obstacles](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0020), especially...
+    -   'personal connection',
+    -   'narrow moral circle'
+:::
 
 ```{=html}
 <!--
 Check inclusion -- (Info enhancing) social closeness of recipient:   @cuddy2007bias, [@Sudhir2016a]
 -->
 ```
-
 ## Description and relevance to Effective Giving
 
-If we focus on 'enhancing current human well-being and avoiding suffering', the evidence strongly suggests that the most effective charities operate in developing countries. All but one of [GiveWell's top charities](https://www.givewell.org/charities/top-charities) support people in sub-Saharan Africa [@TopCharities].^[GiveWell focuses on charities that provide concrete interventions to help people alive today and soon-to be born, and focuses their evaluation on measurable outcomes such as ["QALY and DALY"](https://en.wikipedia.org/wiki/Disability-adjusted_life_year.
-]
-  Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount [@macaskillDoingGoodBetter2015]. However, the large, social, cultural geographic distance between those in developed countries and those in developing countries may be an important barrier to giving and a reason why people prefer to give locally.
+If we focus on 'enhancing current human well-being and avoiding suffering', the evidence strongly suggests that the most effective charities operate in developing countries. All but one of [GiveWell's top charities](https://www.givewell.org/charities/top-charities) support people in sub-Saharan Africa [@TopCharities].[^aware-distance-2] Moreover, people in wealthy developed countries are more likely to be in a position to give a significant amount [@macaskillDoingGoodBetter2015]. However, the large, social, cultural geographic distance between those in developed countries and those in developing countries may be an important barrier to giving and a reason why people prefer to give locally.
 
-Similar issues of 'distance' also applies to other causes with strong arguments for being effective and impactful (see, e.g., ['EA funds'](https://funds.effectivealtruism.org/) recommendations), particularly supporting (farmed and wild) animal welfare and the preserving the long-term future of humanity. Most potential donors do not see inside of factory farms^[citation needed] and obviously no one can visit the far-future.
+[^aware-distance-2]: GiveWell focuses on charities that provide concrete interventions to help people alive today and soon-to be born, and focuses their evaluation on measurable outcomes such as \["QALY and DALY"\](https://en.wikipedia.org/wiki/Disability-adjusted_life_year.
 
+Similar issues of 'distance' also applies to other causes with strong arguments for being effective and impactful (see, e.g., ['EA funds'](https://funds.effectivealtruism.org/) recommendations), particularly supporting (farmed and wild) animal welfare and the preserving the long-term future of humanity. Most potential donors do not see inside of factory farms[^aware-distance-3] and obviously no one can visit the far-future.
+
+[^aware-distance-3]: citation needed
 
 ## Theoretical and conceptual underpinning
 
 ::: {.alert .alert-secondary}
- 
-
 This section may be considered an 'aside' for now, but we do want some discussion of the definition and underpinnings for each barrier.
-
- 
-:::  
+:::
 
 Construal theory, psychological distance, moral distance/moral circles, parochialism and its evolutinoary underpinnings
 
-"Moral expansiveness scale"^[ Crimston's (2016) 'moral expansiveness scale' aims to capture *breadth* (a 'representative spread of human and nonhuman entities') as well as *depth* (four defined boundaries expressing degree of obligation and moral standing). It expands earlier models and scales
-]^[Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychological distance" (PDF). Psychological Review. 117 (2): 440--463. <doi:10.1037/a0018963> @crimstonPsychologyMoralExpansiveness2018
-]
+"Moral expansiveness scale" [^aware-distance-4]
 
+[^aware-distance-4]: Crimston's (2016) 'moral expansiveness scale' aims to capture *breadth* (a 'representative spread of human and nonhuman entities') as well as *depth* (four defined boundaries expressing degree of obligation and moral standing). It expands earlier models and scales
 
-The importance of sympathy, which may be driven by distance and awareness...^[@loewensteinScarecrowTinMan2007 propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by @kahnemanThinkingFastSlow2011). This model distinguishes between System 1, which makes initial judgements (using 'affective cognition'); these are monitored by a more 'deliberative cognition' System 2 [@morewedge2010associative].(However, this model has been subjected to some criticism, @evans2013dual discuss the debate around dual system theories.)
+[^aware-distance-5]
 
-]
+[^aware-distance-5]: Ref: Trope, Yaacov; Liberman, Nira (2010). "Construal-level theory of psychological distance" (PDF). Psychological Review. 117 (2): 440--463. <doi:10.1037/a0018963> @crimstonPsychologyMoralExpansiveness2018
 
-Jaeger and Vugt (2021) make an explicit connection to  evolutionary factors that may be driving parochialism:
+The importance of sympathy, which may be driven by distance and awareness...[^aware-distance-6]
 
-> For much of their evolutionary history, humans lived in relatively small, close-knit groups. This has led to the emergence of prosocial emotions and intentions towards kin and other members of an individual’s ingroup, but not necessarily towards individuals who fall outside of the group boundaries. (Citing Aktipis et al, 2018; Greene, 2013)
+[^aware-distance-6]: @loewensteinScarecrowTinMan2007 propose a relationship between sympathy and helping behaviour, drawing on experimental findings from Psychology and Economics. This in turn relates to the dual system model (as discussed by @kahnemanThinkingFastSlow2011). This model distinguishes between System 1, which makes initial judgements (using 'affective cognition'); these are monitored by a more 'deliberative cognition' System 2 [@morewedge2010associative].(However, this model has been subjected to some criticism, @evans2013dual discuss the debate around dual system theories.)
+
+Jaeger and Vugt (2021) make an explicit connection to evolutionary factors that may be driving parochialism:
+
+> For much of their evolutionary history, humans lived in relatively small, close-knit groups. This has led to the emergence of prosocial emotions and intentions towards kin and other members of an individual's ingroup, but not necessarily towards individuals who fall outside of the group boundaries. (Citing Aktipis et al, 2018; Greene, 2013)
 
 <!-- ?cuddy\_ea\_2007 (Sudhir ea, \'16) -->
 
@@ -60,14 +57,11 @@ Jaeger and Vugt (2021) make an explicit connection to  evolutionary factors that
 
 Some FMRI evidence...
 
-::: {.callout-note collapse='true'}
- Ana Diez suggests...
+::: {.callout-note collapse="true"}
+Ana Diez suggests...
 
-> fMRI studies ... have shown that the MPFC [medial pre-frontal cortex] is active when we think about ourselves. If we think of a family member, it will activate less. And if we are thinking of an unknown person, it will be even less active (Qin & Northoff, 2011). And more interestingly, when we think about our future selves, there is less activation of the MPFC than when we think of our actual self (Hershfield, Hal. 2011), meaning we care little about that person in the future.
- 
- 
+> fMRI studies ... have shown that the MPFC \[medial pre-frontal cortex\] is active when we think about ourselves. If we think of a family member, it will activate less. And if we are thinking of an unknown person, it will be even less active (Qin & Northoff, 2011). And more interestingly, when we think about our future selves, there is less activation of the MPFC than when we think of our actual self (Hershfield, Hal. 2011), meaning we care little about that person in the future.
 :::
-
 
 ## Distance - Spatial/Physical, Social/Cultural: parochial altruism/in-group bias, interpersonal and identity e.g., race, gender, age, etc {#in-group}
 
@@ -89,42 +83,40 @@ Other potentially relevant work:
 
 Kogut et al 2018:
 
-> Abstract: In the present research, we examined how the prospective donorâ's psychological distance from a given victim may interact with the victim's identification to determine the donor's willingness to accede to requests for donations to help the victim in question. In three studies, we measured willingness to donate (Studies 1 and 2) and actual donations (Study 3) to identified or unidentified victims, while measuring (Study 1) or manipulating (Studies 2 and 3) the psychological distance between prospective donors and the recipients. Results indicate that increasing the psychological distance between prospective donors and victims decreases willingness to help  but only when the victims are unidentified, not when they are identified. This suggests that victim's identification mitigates the effect of distance on donor's willingness to help.
+> Abstract: In the present research, we examined how the prospective donorâ's psychological distance from a given victim may interact with the victim's identification to determine the donor's willingness to accede to requests for donations to help the victim in question. In three studies, we measured willingness to donate (Studies 1 and 2) and actual donations (Study 3) to identified or unidentified victims, while measuring (Study 1) or manipulating (Studies 2 and 3) the psychological distance between prospective donors and the recipients. Results indicate that increasing the psychological distance between prospective donors and victims decreases willingness to help but only when the victims are unidentified, not when they are identified. This suggests that victim's identification mitigates the effect of distance on donor's willingness to help.
 
-K.F. Law, D. Campbell, B. Gaesser:  Biased benevolence: The perceived morality of effective altruism across social distance
+K.F. Law, D. Campbell, B. Gaesser: Biased benevolence: The perceived morality of effective altruism across social distance
 
 > Across four studies, the authors demonstrate that donating money to socially distant others (where donations usually have the largest impact) is perceived as less morally acceptable. Actors who helped a distant stranger rather than socially closer others (e.g., family or friends) were also judged more negatively and trusted less in an economic game.
 
-
+```{=html}
 <!-- mabe
 R.M. McManus, M. Kleiman-Weiner, L. Young
 What we owe to family: The impact of special obligations on moral judgment
 
 -->
+```
+## Distance: Experiential, Informational, Emotional/Affective[^aware-distance-7]
 
-
-
-
-## Distance: Experiential, Informational, Emotional/Affective^[Ref: small2007_friends small_loewenstein_07_scarecrow
-]
+[^aware-distance-7]: Ref: small2007_friends small_loewenstein_07_scarecrow
 
 Experiential distance describes one's proximity to a particular situation or feeling as a result of having seen something or been a part of it. In particular, a greater experiential distance is seen to make it more difficult to imagine a particular situation or feeling, therefore making it harder to empathize with someone going through it. This could create a barrier to giving effectively as most charitable giving is motivated by empathy and sympathy for victims (Lowenstein & Small, 2007). Experiential distance explains why it is easier for an individual to feel empathy for a victim if they have personally experienced the ailment or someone close to them has. As a result, they do not have to imagine the suffering it may have caused because they have directly or indirectly physically experienced it. In other words, the experiential gap is smaller. For example, people living in wealthy nations are more likely to be affected by cancer than malaria, leading to a greater support for that cause.
 
 This could reflect a form of availability bias, specifically availability-by-recall. This is defined by Pachur et al., (2012): "Recall instances of Risk A and Risk B, respectively, from your social network (encompassing family, friends, and acquaintances), and infer that risk to be more prevalent in the population for which more such instances can be recalled." An example of this is presented in the study by Lichenstein et al., (1978). They found that participants in their study were more likely to believe that an illness was more deadly if someone they knew (indirect suffering) or they themselves (direct suffering) had experienced the illness.
 
-
 ## Evidence on determinants of scope of moral circle/moral expansiveness and its impact on giving and other-regarding behavior
 
-See: Crimston et al (2016?) and references cited within
+See: @crimston2018 and references cited within
 
-> From abstract of this paper: "Moral expansiveness was related (but not reducible) to existing moral constructs (moral foundations, moral identity, “moral” universalism values), predictors of moral standing (moral patiency and warmth), and other constructs associated with concern for others (empathy, identification with humanity, connectedness to nature, and social responsibility)."
+> From abstract of this paper: "Moral expansiveness was related (but not reducible) to existing moral constructs (moral foundations, moral identity, "moral" universalism values), predictors of moral standing (moral patiency and warmth), and other constructs associated with concern for others (empathy, identification with humanity, connectedness to nature, and social responsibility)."
 
 ## Availability heuristic and media (also see 'biases') {#availability}
 
 Rare events such as natural disasters are particularly vivid and salient, and the availability bias suggests that people will overestimate the probability and value of events if they come to mind more easily [@tversky1973availability]. For example, people might overestimate the probability of airplane crashes due to their salience.
 
-@loewensteinScarecrowTinMan2007 argue that vividness is also one of the key determinants of sympathy, and one of the most important demonstrations of this is the identifiable victim effect. Their research suggests that victims who are 'determined' received higher levels of aid compared with indeterminate victims, as without identifying them people struggle to empathise, and are as a result less likely to help [@smallHelpingVictimHelping2003].^[This effect is discussed further under the ['statistical/identifiable victims'](#statvictims) quantitative bias.
-]
+@loewensteinScarecrowTinMan2007 argue that vividness is also one of the key determinants of sympathy, and one of the most important demonstrations of this is the identifiable victim effect. Their research suggests that victims who are 'determined' received higher levels of aid compared with indeterminate victims, as without identifying them people struggle to empathise, and are as a result less likely to help [@smallHelpingVictimHelping2003].[^aware-distance-8]
+
+[^aware-distance-8]: This effect is discussed further under the ['statistical/identifiable victims'](#statvictims) quantitative bias.
 
 <!-- TODO: can we figure out a way to dynamically cite section numbers? -->
 
@@ -134,9 +126,7 @@ Even when it comes to relief from the government, @eisenseeNewsFloodsNews2007 su
 
 Using data on natural disasters from the Emergency Disaster Database (EM-DAT), and disaster responses from the Office of Foreign Disaster Assistance (OFDA), they explored the relationship between news coverage and relief for natural disasters. To examine whether news had a causal effect on relief, they used two instrumental variables. These variables served the purpose of constructing "meaningful and operational measures of the availability of newsworthy material". First, they used 'news pressure', by measuring the median number of minutes news broadcasts devoted to the top three news stories of the day. Secondly, they used the Olympics, chosen as a large media event that isn't directly related to politics.
 
-They concluded that U.S. disaster relief decisions were dependent on "the availability of other newsworthy material at the time of the disaster". Their explanation of this effect is that "relief decisions are driven by news coverage of disasters and that this news coverage is crowded out by other newsworthy material". This potentially poses an issue for effective giving, as the authors suggest that the levels of relief shouldn't be driven by factors that are not related to the effectiveness of the relief.^[They use a very interesting methodology; we might describe it a bit more.
-]^[(Are there similar results for charitable giving?)
-]
+They concluded that U.S. disaster relief decisions were dependent on "the availability of other newsworthy material at the time of the disaster". Their explanation of this effect is that "relief decisions are driven by news coverage of disasters and that this news coverage is crowded out by other newsworthy material". This potentially poses an issue for effective giving, as the authors suggest that the levels of relief shouldn't be driven by factors that are not related to the effectiveness of the relief.^\[They\ use\ a\ very\ interesting\ methodology;\ we\ might\ describe\ it\ a\ bit\ more.\]^\[(Are there similar results for charitable giving?)\]
 
 <!-- Consistent problems aren't as noticable (reflected in media also) - availability heuristic [separate from 'repeated exposure makes it more relevant ... opposite implication] -->
 
@@ -162,15 +152,17 @@ In a study from @Sudhir2016a, where they randomized charitable marketing content
 
 These reference dependence effects may only be significant when the target is an identified victim. In another study from @small2010reference, she examined whether the affective quality of the victim moderates the reference dependence effect. She found, consistent with her other studies, that identified *loss* victims elicited more sympathy than identified *constant-state* victims. However, when this effect was examined with statistical victims, the effect was reversed, with the constant state victims getting more sympathy than the loss victims. Small suggests that this could be because when judgements are less emotion-based, as in the evaluation of statistical victims, people are more likely to account for the duration of the hardship. She evaluated the significance of this result as follows:
 
-> "This finding lends support to the key theoretical claim that reference-dependent aid judgements are driven by emotion-based thought; when the victim description is unemotional, the effect does not persist"^[Here we should distinguish individual's *own* response to shocks from their sympathetic/empathetic and other-regarding-response to learning about *others'* shocks. I would also distinguish reference points a bit more carefully; there are all sorts of effects involving reference points.
-]
+> "This finding lends support to the key theoretical claim that reference-dependent aid judgements are driven by emotion-based thought; when the victim description is unemotional, the effect does not persist"[^aware-distance-9]
+
+[^aware-distance-9]: Here we should distinguish individual's *own* response to shocks from their sympathetic/empathetic and other-regarding-response to learning about *others'* shocks. I would also distinguish reference points a bit more carefully; there are all sorts of effects involving reference points.
 
 ```{=html}
 <!-- LS -it's improving but lets focus more on the *evidence* for these things. It will help to look at the previous literature review and synthesis work on these (see section 2.2 for a start). We can even incorporate material from this work, carefully citing it
 -->
 ```
-## Distance - Temporal (future problems/individuals) and Hypothetical (probability of occurance) {#future}^[This is particularly relevant to causes and charities dealing with the medium-term and long-term future.
-]
+## Distance - Temporal (future problems/individuals) and Hypothetical (probability of occurance) {#future}
+
+^[This is particularly relevant to causes and charities dealing with the medium-term and long-term future.]
 
 ### Overview {.unnumbered}
 
@@ -180,9 +172,7 @@ When considering how we can reduce suffering through effective altruism, immedia
 
 This consideration of future people and future problems includes well-known issues such as climate change. It also includes less-discussed) lower-probability or more distant events such as nuclear war, bioterrorism and AI related issues [@macaskillDoingGoodBetter2015]. Individuals such as @ord2020precipice and institutions like the [Future of Humanity Institute](https://www.fhi.ox.ac.uk) have argued that these problems are important and neglected.
 
-However, even motivating 'giving for current issues' [presents many challenges](#present-puzzle); encouraging giving for (e.g.) 'individuals who are yet to be' born could prove even more difficult.^[See [80000 hours podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/) with Toby Ord and the articles and books linked (especially 'The Precipice') for a more comprehensive introduction to the long-term future.
-]^[See also these resources from [effectivealtruism.org](https://www.effectivealtruism.org/), see [here](https://www.effectivealtruism.org/articles/tyler-john-representing-future-generations/) for a talk on the importance of future generations, and [here](https://www.effectivealtruism.org/articles/cause-profile-long-run-future/) for an overview of the long-run future as an issue.
-]
+However, even motivating 'giving for current issues' [presents many challenges](#present-puzzle); encouraging giving for (e.g.) 'individuals who are yet to be' born could prove even more difficult.^\[See\ [80000\ hours\ podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/)\ with\ Toby\ Ord\ and\ the\ articles\ and\ books\ linked\ (especially\ 'The\ Precipice')\ for\ a\ more\ comprehensive\ introduction\ to\ the\ long-term\ future.\]^\[See also these resources from [effectivealtruism.org](https://www.effectivealtruism.org/), see [here](https://www.effectivealtruism.org/articles/tyler-john-representing-future-generations/) for a talk on the importance of future generations, and [here](https://www.effectivealtruism.org/articles/cause-profile-long-run-future/) for an overview of the long-run future as an issue.\]
 
 \
 
@@ -190,23 +180,22 @@ However, even motivating 'giving for current issues' [presents many challenges](
 
 Considering how heavily we should weigh the future is a subject that has been raised frequently in the field of Economics (perhaps most notably climate economics in recent times), leading us to the idea (and various conceptions) of 'discount rates' [@ackerman2008]. Greaves (2017) outlines how discount rates can work as follows (unfold)
 
-::: {.callout-note collapse='true'}
- > Suppose we have an opportunity to undertake an investment project, sacrificing *k* \< 1 units of consumption today in order to secure an increase of 1 unit in consumption a time interval *t* later. Our basic question is: what is the threshold value of k at which the status quo becomes socially preferable to such a sacrifice? The answer to this question is the *social discount factor* for consumption at time t, *R(t)*. (One also has a *private* discount factor, corresponding to private as opposed to social preferences; in the remainder of this article, the focus is on the social version.) One generally expects *R* to decline with time --- we are willing to sacrifice more today to gain an increase in one unit of consumption tomorrow than to gain an increase of one unit of consumption next year. The decline, however, may be faster or slower, and for current purposes the rate of the decline is crucial.
+::: {.callout-note collapse='true'} \> Suppose we have an opportunity to undertake an investment project, sacrificing *k* \< 1 units of consumption today in order to secure an increase of 1 unit in consumption a time interval *t* later. Our basic question is: what is the threshold value of k at which the status quo becomes socially preferable to such a sacrifice? The answer to this question is the *social discount factor* for consumption at time t, *R(t)*. (One also has a *private* discount factor, corresponding to private as opposed to social preferences; in the remainder of this article, the focus is on the social version.) One generally expects *R* to decline with time --- we are willing to sacrifice more today to gain an increase in one unit of consumption tomorrow than to gain an increase of one unit of consumption next year. The decline, however, may be faster or slower, and for current purposes the rate of the decline is crucial.
 
 > The choice of discount rate is crucial in the evaluation of projects some of whose important effects are long-term. Analyses that use a higher discount rate will tend to favour the short term: projects requiring sacrifices in the short term for the sake of benefits in the further future will be more likely to fail cost-benefit tests.
 
 <!-- #TODO: recover reference greaves2017discounting -->
- 
- 
-:::^[For further reading on discount rates see @weitzman1998far, @ebert2007fragility, @farmer2009hyperbolic
-]
+
+:::[^aware-distance-11]
+
+[^aware-distance-11]: For further reading on discount rates see @weitzman1998far, @ebert2007fragility, @farmer2009hyperbolic
 
 \
 
 **An informal discussion from David Reinstein** (unfold)
 
-::: {.callout-note collapse='true'}
- In considering whether there is a *bias* against helping people in the future we need to establish a baseline: At what rate (if at all) *should* an effective altruist weigh (far) future lives/pleasure/suffering as less-valuable as current or near-future lives?  At what rate should we 'discount', if at all?
+::: {.callout-note collapse="true"}
+In considering whether there is a *bias* against helping people in the future we need to establish a baseline: At what rate (if at all) *should* an effective altruist weigh (far) future lives/pleasure/suffering as less-valuable as current or near-future lives? At what rate should we 'discount', if at all?
 
 \
 
@@ -216,40 +205,36 @@ I think it's actually not clear that we, as a society, should be discounting at 
 
 Individuals might discount future "pleasure":
 
-- because they might not survive to the future (although this should enter in as a 'survival discount' tied to the probability of surviving)
+-   because they might not survive to the future (although this should enter in as a 'survival discount' tied to the probability of surviving)
 
-- because they are impatient (but this is potentially not in their own interest)
+-   because they are impatient (but this is potentially not in their own interest)
 
 \
 
 Individuals may discount future 'income' (in currency, inflation-adjusted) or 'physical consumption'
 
-- If we think the 'future me' will be wealthier than the present me (consumption smoothing)
+-   If we think the 'future me' will be wealthier than the present me (consumption smoothing)
 
-- Or if we think I will be less sensitive to pleasure/pain
-
+-   Or if we think I will be less sensitive to pleasure/pain
 
 \
 
 Businesses/investors may discount future earnings (again, inflation adjusted)
 
-- If they think that there are other opportunities for 'returns above inflation' ... because 'returns to capital exceeds the rental cost of capital'
+-   If they think that there are other opportunities for 'returns above inflation' ... because 'returns to capital exceeds the rental cost of capital'
 
 This should be true for growing societies as well, i.e., where there is real-GDP/capita growth (I'm being a bit loose here)
-
 
 \
 
 This is not the same as discounting future utility or welfare. There's no clear reason we should do this.
-
- 
- 
 :::
 
 ### Reasons the distant future may be neglected {.unnumbered}
 
-Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020 outlines a few reasons why the distant future may receive less attention and action.^[Stefan Schubert also discusses the psychology of long-termism and existential risk [here](https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-existential-risk/)
-]
+Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020 outlines a few reasons why the distant future may receive less attention and action.[^aware-distance-12]
+
+[^aware-distance-12]: Stefan Schubert also discusses the psychology of long-termism and existential risk [here](https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-existential-risk/)
 
 He argues:
 
@@ -273,17 +258,17 @@ The impact of people being categorised into [in-groups and out-groups](#in-group
 
 > Social identity has three major components: categorization, identification and comparison. Categorization is the process of putting people, including ourselves, into categories; for example, labelling a person as Chinese, black, female, or a lawyer are all different ways of categorization. Categorization also defines our self-image. Identification is the process by which we associate or identify ourselves with certain groups. We identify with in-groups, and we do not identify with out-groups. Finally, comparison is the process by which we compare in-groups with out-groups, creating a favourable bias toward the in-group. Overall, categorization of others as belonging to an in-group arouses feelings of greater closeness and responsibility and augments emotional response to their misfortune through greater sympathy (@brewer1996we, @dovidio1997nature) and willingness to help (@dovidio1984helping, @dovidio1997nature).
 
-Distant-future generations might be mentally placed in their own category (considered separated from near-future and present generations). This categorical distance could mean that people identify with distant-future generations less. If they *are* seen as an out-group, this could pose a barrier for giving to distant future generations.^[Whether those in the future are indeed commonly percieved or treated as an out-group may be an interesting research direction. This is something we need to look into more for this present survey.
-]
+Distant-future generations might be mentally placed in their own category (considered separated from near-future and present generations). This categorical distance could mean that people identify with distant-future generations less. If they *are* seen as an out-group, this could pose a barrier for giving to distant future generations.[^aware-distance-13]
 
-### (Evidence ,,, work in progress) {-#future-bias-ev}
+[^aware-distance-13]: Whether those in the future are indeed commonly percieved or treated as an out-group may be an interesting research direction. This is something we need to look into more for this present survey.
+
+### (Evidence ... work in progress) {#future-bias-ev .unnumbered}
 
 -   **What is the evidence** that they are actually doing this (taking into account the 'uncertainty' issue (we know less about how to help the far-future).
 
 -   What factors drive this bias or mitigate it?
 
-
-
+```{=html}
 <!--
 Jaeger and Vugt:
 . For example, geographically and socially distant others (e.g., people living in extreme poverty in Africa) evoke less empathic concern even though they often stand to benefit the most from charitable acts [13, 14∗, 15].
@@ -298,5 +283,4 @@ P. Bloom
 Empathy and its discontents
 Trends Cogn Sci, 21 (1) (2017),
 -->
-
-
+```

@@ -1,2 +1,0 @@
-# PATHS FORWARD {.unnumbered}
-

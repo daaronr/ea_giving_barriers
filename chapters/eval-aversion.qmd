@@ -2,7 +2,6 @@
 
 ::: {.alert .alert-secondary}
  
-
 **Connection to terms/concepts in other work**
 
 - @caviola2020many (literature review), ["Motivational obstacles"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0020), "Prioritization aversion"; comes closest to our 'taboo tradeoffs'
@@ -376,7 +375,7 @@ Laboratory experiment, donations to high/low-performing NGO
 
 -  Mixed and  weak evidence on excuse-driven information-seeking
 
-`r format_with_col("Caveats...","blue")`
+**Caveats**
 
 
 The opportunity to buy info on 'recipient type' increased giving, while the opportunity to buy information on 'administrated costs' decreased giving (marginal significance for both). They found no effect of the opportunity to buy information on 'aid impact', but this had wide condident intervals

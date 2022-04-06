@@ -1,18 +1,5 @@
+
 # Abstract {#abstract .unnumbered}
-
-```{=html}
-<!--
-Can define text blocks here, refer to them again and again if desired
--->
-
-
-<!-- 
-
-description: "A broad project of  definition, discussion synthesis, and meta-analysis"
-#url: 'https\://daaronr.github.io//'
-tags: [Effective altruism, charitable giving, meta-analysis, literature survey, field experiments, lab experiments, experimental design, Psychology, Economics, moral circles, behavioral economics, quantitative biases]
--->
-```
 
 <!-- Future work: present or link a more extensive abstract here. -->
 
