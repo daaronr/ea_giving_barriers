@@ -234,9 +234,16 @@ d.  (Ari:) "Increase evaluability: putting interventions on same
 
 ### Definition
 
-The identifiable victim effect (IVE) is credited as being first developed by @schelling1968life, who argue "there is a distinction between an individual and a statistical life". People may react differently towards victims when these victims are *identified* rather than anonymous [@smallHelpingVictimHelping2003]. As a result, resources may be more likely to be devoted to causes where individual victims are more prominent and identifiable (rather than cases where we only see large, unidentified groups) [@small2010reference]. @slovicPsychicNumbingGenocide2007 also discussed this effect; this paper derives its title from a quote from Mother Teresa:\
+The identifiable victim effect (IVE) is credited as being first developed by @schelling1968life, who argue "there is a distinction between an individual and a statistical life". People may react differently towards victims when these victims are *identified* rather than anonymous [@smallHelpingVictimHelping2003]. As a result, resources may be more likely to be devoted to causes where individual victims are more prominent and identifiable (rather than cases where we only see large, unidentified groups) [@small2010reference]. @slovicPsychicNumbingGenocide2007 also discussed this effect; this paper derives its title from a quote attributed to Mother Teresa:
 
 > If I look at the mass I will never act. If I look at the *one* I will.
+
+^[Jason Schukraft notes:
+> In contrast, Bertrand Russell is alleged to have said "The mark of a civilized human is the ability to look at a column of numbers, and weep."
+
+(Aside: it's probably a misattribution, though it's often repeated. At the very least Russell endorsed the claim.)
+]
+
 
 ### Relevance to effective giving
 
@@ -472,6 +479,8 @@ If people do use diversification heuristics in charitable domains, as these stud
 
 > The marginal benefit per dollar (recall the difference between the average vs. marginal benefit) of some support is usually much higher than the marginal benefit of support in addition to some other previous support. In the context of charitable donations, however, a single donor does not have much influence over the total level of the charity's income (unless the donor is a major philanthropist). Thus, the usual arguments that favour diversification in investments do not necessarily apply to donations by typical donors. For charities, the focus should be on maximizing the expected increase in the economic welfare per dollar of every contribution... In reality, however, more often than not, each contributor has only a tiny effect on the total funding required by a charitable organization, so the argument based on the principle of declining marginal utility is unlikely to apply. We should, therefore, identify a charity with the highest expected benefit per dollar, and make our entire contribution to that one charity.
 
+<!-- JS:  But what if you are uncertain which charity this is? Personally, I donate to multiple cause areas because I'm uncertain which cause area is best. Is that form of diversification irrational? -->
+
 > In other words, a donor may err by thinking and acting as if she were the only donor to the charities that she supports. If she were, then it would make sense to diversify because of the principle of declining marginal utility just described. In reality, however, more often than not, each contributor has only a tiny effect on the total funding required by a charitable organization, so the argument based on the principle of declining marginal utility is unlikely to apply.
 
 > We should, therefore, identify a charity with the highest expected benefit per dollar, and make our entire contribution to that one charity.
@@ -494,9 +503,26 @@ This would imply that, if she is maximising her expected utility (a standard ass
 - she *might* strictly prefer to have a 10\% chance of saving 100 lives over a 5\% chance of saving 201 lives.
 
 Consider the probabilities that each dollar donated to a charity (leads to an intervention that) saves a life (or achieves a particular outcome). Suppose these outcomes (the lives saved) are not perfectly correlated across charities. In such a case, this an individual would find it optimal to diversify her giving across equally-impactful charities, and potentially even to include some 'slightly less impactful' charities in her 'giving bundle.'
-
  
 :::
+
+
+<!-- 
+
+Schukraft: Is there any evidence about how people actually partition charities? It seems like for partition dependence to be a barrier to effective giving, we have to assume that people are going to more finely individuate non-effective charities than effective charities. (That's plausible, but I'd like to see some evidence to support it.) If the opposite is true, then partition dependence would actually lead to more effective giving.
+
+DR: thinking about it. The case could be:
+
+To optimize, I should choose charities without any regard to these irrelevant concerns. Thus any 'noise' that enters in will take me away from efficiency.
+
+If people who would otherwise choose efficiently are diversifying to mix in more of what the majority do, this will tend to make them less efficient.
+
+But I see your point, and 'adding noise' to people who are already suboptimal could make them more optimal
+
+
+--> 
+
+
 
 ### Evidence for diversification heuristic in charitable giving (to do) {.unnumbered}
 
@@ -531,7 +557,11 @@ Survey and observational evidence suggests that donors focus on potentially misl
 Studies finds 'no correlation' between overhead and effectiveness-- are these convincing?^[Check claims made in "BBB Wise Giving Alliance"; Caviola et al., 2014; Gregory & Howard, 2009; Karlan, 2014; Pallotta, 2008; Sellers, 2018
 ]
 
-As noted above, overhead is an important input to the charity's production function, enabing it to be effective. A biases against overhead therefore distort's the donor choice of charity away from effectiveness. The other side of this coin: in an efficient market firms provide the services consumers demand. If consumers have a preference for firms that use a lower share of some input, this will "distort" the production process away from this input, making it seem artificially costly [ref: Reinstein and Song, others]. Similarly, if donors punish charities for excessive overhead, charities will use "too little" of inputs deemed to be overhead.
+As noted above, overhead is an important input to the charity's production function, enabing it to be effective. A biases against overhead therefore distort's the donor choice of charity away from effectiveness. The other side of this coin: in an efficient market firms provide the services consumers demand. If consumers have a preference for firms that use a lower share of some input, this will "distort" the production process away from this input, making it seem artificially costly <!-- [ref: Reinstein and Song, others]-->. Similarly, if donors punish charities for excessive overhead, charities will use "too little" of inputs deemed to be overhead.
+
+
+<!-- JS: I grant this theoretical argument, but as a matter of empirical fact, do effective charities have abnormally high overhead? Seems like something that could be reasonably checked via Charity Navigator.
+-->
 
 Note that doing impact evaluation will itself increase overhead. I.e., aversion to overhead will lead people to be biased against evidence-based charities that evaluate their own programs.
 
@@ -604,7 +634,10 @@ Furthermore, DonorsChoose doesn't have clearly separate variation in effectivene
 
 #### Solutions (add section) {-}
 
--   "Seed donor covering overhead"
+-   "Seed donor covering overhead" 
+
+<!-- JS: Anecdotally, my impression is that this already happens for most major charities, both effective and ineffective. (Obviously would be good to have actual empirical evidence to support this impression, though.) --> 
+
 
 -   Simultaneous comparisons and evaluation of impact and overhead where relevant @Caviola2014
 
@@ -719,6 +752,8 @@ References: @gneezyAvoidingOverheadAversion2014, @portillo2018overhead, @kinsber
 
 1) donations may respond to number of *deaths* from a disaster rather than to the scale of the need of *survivors* (sunk losses)
 
+<!-- JS:  Agreed that this is technically a sunk cost, but number of deaths might be a decent proxy for the magnitude of the disaster and the magnitude of the disaster might correlate pretty well with the needs of the survivors. -->
+
 2) donations may respond to average cost per life saved, rather than marginal cost per life
 
 General barrier to accurate assessment of effectiveness ergo a barrier to effective giving.
@@ -728,6 +763,9 @@ General barrier to accurate assessment of effectiveness ergo a barrier to effect
 
 ## Scope insensitivity/embedding effect/part-whole effect {#scope-insens}
 
+
+<!-- JS: Surprised this section is so short! My naïve impression is that this is one of the biggest (maybe the biggest) barrier to effective giving!
+--> 
 ::: {.alert .alert-secondary}
  
 
@@ -835,10 +873,13 @@ By making it traceable and tangible we may unlock a vast "supply of generosity".
 
 ### Corruption aversion (perhaps not 'quantitative'?)
 
-Basic idea: (Unfold)
+
 
 ::: {.callout-note collapse='true'}
- A donor might overstate the importance of corruption in determining the effectiveness of a gift.  E.g., suppose...
+
+## Basic idea
+
+A donor might overstate the importance of corruption in determining the effectiveness of a gift.  E.g., suppose...
 
 *Intervention A (e.g., bednets in country A)*: Saves one life, on average, per 5000 USD donated and used. However, for every 1 USD donated, 5 cents must be paid in bribes to enable the bednets to be distributed. Suppose--just for this example--that the paying these bribes has no other negative consequences in the short or long term.^[This may be hard to swallow. We could also consider that the negative consequences of these bribes has already been taken into account and considering the effectiveness.
 ]
@@ -852,9 +893,9 @@ However,  individuals may be particularly averse to knowing that their donation 
 This is not necessarily a *bias*,  it may be an inherent part of preferences, potentially embodying non-moral-utilitarian deontological concerns. Such a preference would nonetheless lead to 'inefficient donations'  from the point of view of  someone who does not have this concern.
 
 But there *might also* be a bias involved in some cases.  Some individuals  may not have this inherent distaste for bribery, or may have a distaste for it but still primarily value donating to the most (e.g.) lifesaving-per-dollar cause. However, the silence and visceral repugnance of corruption may cause these individuals to over-estimate its impact on efficiency. (This seems related to the [availibility](#availability) bias.)
-
  
  
+Note: this may be difficult to disentangle from motivated reasoning.  
 :::
 
 

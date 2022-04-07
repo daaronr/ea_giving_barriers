@@ -61,6 +61,17 @@ and other obstacles tied to this.
 People may be reluctant^[To clarify: How is this 'reluctance' observed/manifested?] to consider the cost and benefits of the actions they are funding through their charitable donations (or they find this less appropriate/normal). This contrasts with a much greater willingness to consider these and other domains such as consumption, investment, and public policy. People also seem to avoid accessing/buying/seeing information (particularly information that may be likely to make them feel compelled to give.)
 
 
+<!-- 
+JS: 
+
+I suppose one model of charitable giving is that most folks are just blindly pulling the name of a charity out of a hat, and since there are many more ineffective charities than effective charities, they are more likely to donate to an ineffective charity. If the average donor gets the same warm glow no matter where she donates and she is only motivated by feelings of warm glow, then pulling names out of a hat isn't a bad strategy.
+
+DR: 
+True. But it can't be just 'throw your money at anything' ... because if so we'd have even less effectiveness than we do, and I can't imagine people happy knowing their donation was literally 'thrown in a whole with no impact at all'.
+
+--> 
+
+
 ### Conceptual discussion
 
 For this to be considered a *bias*, the relevant individuals must intrinsically value the usefulness of their charitable activity at least to some extent.^[A *Utilitarian* would certainly do this. Jason Schukraft notes that "one can reject utilitarianism and still consistently believe that, all else equal, saving 10 lives is 10x better than saving 1 life."] However, they may consider it very costly or distasteful to actually *do* this evaluation, or it may clash with other motivations and tendencies.
@@ -280,6 +291,14 @@ They found that participants were significantly more likely to sort by effective
 Study 4 and 5 both examined how responsibility changes people's perception of how important objective information is. @Berman2018 hypothesized that "when individuals assume a role of responsibility, they may feel obligated to act in accordance with the welfare of the entire group and will discount their personal preferences to do so".
 
 In Study 4, they find that, in rating research departments for funding, participants pay more attention to charity effectiveness ratings when the are given the "role" of a "president of a local medical research center" rather than a donor. Similarly, in Study 5 participants assess someone who allocates funds to a research department; participants respond to the effectiveness of the department chosen more when rating the decision quality and altruism/selfishness of a "president..." than rating a "donor".
+
+<!--
+
+JS: This seems like a really important result. How can we get people to adopt a similar viewpoint when making real donation decisions?
+
+DR: I didn't find this so compelling. Mainly because it seemed sort of obvious to me the way it was phrased. But maybe there is a way this can be adapted to get people to think of their donations as they would assess a 'leader decisionmaker'
+
+-->
 
 \
 
