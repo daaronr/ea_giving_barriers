@@ -36,7 +36,7 @@ David Reinstein: This may also drive local giving, however, I don't see this as 
 
 
 
-### Theory and argument
+## Theory and argument
 
 @simler2017elephant argue that social signaling is a major driver of human behavior, particularly in the charitable domain. Essentially, we may make choices that we would not have otherwise made in order to boost our reputation among our peers, colleagues, etc.. Reputation may be valued for its own sake or instrumentally, as a means  to inducing others to act more favorably to us. Game theory (see esp. [@spenceJobMarketSignaling1973]) offers a precise conception of this signaling as a costly way to demonstrate one's positive "type"  in a context with asymmetric information.
 
@@ -97,7 +97,7 @@ They provide conditions under which 'cooperating without looking' (CWOL) is part
 However, the analogy to effective versus ineffective giving is not clear. Perhaps a connection could be made *if considering the charity effectiveness tended to provide a motivation to give less*, but this is not obviously the case.  In general, an 'excuse not to do something' is not the same as a 'choice to be effective'.
 
 
-### Evidence for this barrier
+## Evidence for this barrier
 
 *We consider specific empirical claims that could be interpreted as evidence that this is an important barrier*.
 
