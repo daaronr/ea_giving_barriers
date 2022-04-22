@@ -12,9 +12,9 @@ book:
     - index.qmd
     - part: chapters/introduction.qmd
       chapters:
-      - chapters/outline_work.qmd
-      - chapters/present_puzzle.qmd
-      - chapters/substitution.qmd
+        - chapters/outline_work.qmd
+        - chapters/present_puzzle.qmd
+        - chapters/substitution.qmd
     - part: "BARRIERS"
       chapters:
         - chapters/barriers_breakdown.qmd

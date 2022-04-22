@@ -1,4 +1,4 @@
-# **BARRIERS:** EFFECTIVENESS INFORMATION {.unnumbered}
+# EFFECTIVENESS INFORMATION {.unnumbered}
 
 Avoidance of effectiveness information
 
