@@ -45,7 +45,7 @@ E.g.,
 
 ### De-biasing and misperception correction
 
-**Barrier(s):**
+**Barrier(s):** 
 
 **Proposed response:**
 
@@ -54,6 +54,13 @@ E.g.,
 See, e.g., [@caviola2020]:
 
 > We found that lay people estimated that among charities helping the global poor, the most effective charities are 1.5 times more effective than the average charity (Studies 1 and 2). Effective altruists, in contrast, estimated the difference to be factor 30 (Study 3) and experts estimated the factor to be 100 (Study 4). We found that participants donated more to the most effective charity, and less to an average charity, when informed about the large difference in cost-effectiveness (Study 5).
+>
+> One possibility is that people conflate overhead with effectiveness, and (probably correctly) think that the difference between charities’ overhead expenditures are relatively modest.
+>
+> Another possibility is that people make a mistaken analogy between charities and for-profits. The difference in price for two similar products is rarely higher than factor 1.5, because market pressures usually lead to cost-effectiveness optimization (Mankiw, 2011).
+>
+> Yet another possibility is that the misconception about differences in effectiveness between charities is related to another misconception: people’s overestimation of how effective charities are in absolute terms, which we observed in Study 1. Since they believe that an average charity is already extremely effective at saving lives, they might believe that it is simply not possible for the most effective charities to be substantially more effective. This leads to a suppressed estimate of the difference in effectiveness between charities.
+
 
 ### Make impact more comparable by allowing joint evaluation (Evaluation mode) {.unnumbered}
 
