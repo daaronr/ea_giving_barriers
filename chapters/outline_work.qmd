@@ -22,11 +22,11 @@ Here we discuss this category in general, explaining its meaning and plausibilit
 
 5. Within this, we consider the **evidence for each specific empirical claim** supporting the case for this barrier's existence and importance.
 
-The following link outlines how closely the presented structure is currently followed in the document
-https://docs.google.com/spreadsheets/d/14CE4FsS4uc0nBJ4bRJSl8poa3Bd4GNBi-6TR-6NpAbA/edit#gid=0
+[The linked doc](https://docs.google.com/spreadsheets/d/14CE4FsS4uc0nBJ4bRJSl8poa3Bd4GNBi-6TR-6NpAbA/edit#gid=0) outlines how closely the presented structure is currently followed in the document
+
 
 ::: {.alert .alert-secondary}
- 
+
 
 We hope to:
 
@@ -39,7 +39,7 @@ See, e.g., our work-in-progress on 'CBA avoidance' [here](#cba-evidence).
 
 This distinguishes the current project from broader reviews and literature surveys.
 
- 
+
 :::
 
 \
@@ -62,7 +62,7 @@ For each paper we focus on key elements, including:
 - Link where to find the paper itself as well as the materials and the data collected.\
 
 ::: {.alert .alert-secondary}
- 
+
 For example, within the category **[Barriers: Aversion/obstacles to *doing* (using) evaluations; effect of analytical information on generosity](#eval-aversion)** ...
 
 we consider the barrier ["General cost-benefit analysis (CBA)-aversion or reluctance"](#cba-aversion)...
@@ -72,7 +72,7 @@ weighing evidence  specific claims such as ["People sometimes actively avoid inf
 
 coming from research papers/studies such as  @fongTruthGivingExperimental2010.
 
- 
+
 :::
 
 ## Evidence and meta-analysis: discussion {#evidence0meta}
@@ -151,8 +151,8 @@ How have EA orgs been brought together ...especially at universities?
 
 -   [Facebook group](https://www.facebook.com/groups/effective.altruists/)
 
- 
- 
+
+
 :::
 
 <html>

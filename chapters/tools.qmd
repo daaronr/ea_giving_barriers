@@ -21,7 +21,7 @@ In this section, I highlight a few other proposals that I (David Reinstein) find
  Other lists and categorizations of tools
 
 ::: {.alert .alert-secondary}
- 
+
 
  Other authors have tried to lay out sets of tools they deemed promising for addressing the lack of effective charitable giving. We intend to link/curate these here.
 
@@ -35,7 +35,7 @@ E.g.,
 
 - [Ideas42 report](https://www.ideas42.org/wp-content/uploads/2018/08/ideas42-Best-of-Intentions_Charitable-Giving.pdf) (somewhat effectiveness-oriented, funded by the Gates foundation)
 
- 
+
 :::
 
 
@@ -43,13 +43,13 @@ E.g.,
 
 ## Overcoming the "barriers and biases"
 
-*In this section, we intend to:*\ 
+*In this section, we intend to:*\
 1. Discuss responses to any barriers presented in previous chapters. Not all barriers have researched solutions, therefore only barriers with responses will be addressed.
 2. Outline how the response overcomes this barrier.
 
 ### De-biasing and misperception correction
 
-**Barrier(s):** 
+**Barrier(s):**
 
 **Proposed response:**
 
@@ -71,25 +71,28 @@ See, e.g., [@caviola2020]:
 
 Relevant work: Gneezy et al., 2014 https://rady.ucsd.edu/docs/faculty/aGneezy/Published%20Papers/Overhead_Science_2014.pdf
 
+<!--
 **Barrier(s):** Biases in perceiving impact
 
 **Proposed Response:** Presenting an individual beneficiary rather than a large group. This raises more than conveying the total number of people affected. It also raises more than portraying multiple individuals.
 
 **How does this solution address the barrier?:**
 
+-->
+
 **Barriers(s):** Scope insensitivity
 
 **Proposed Response:** Unit Asking
 
-**How does this solution address the barrier?:** 
+**How does this solution address the barrier?:**
 
 ### Make impact more comparable by allowing joint evaluation (Evaluation mode) {.unnumbered}
 
 **Barrier(s):** Effect of analytical (effectiveness) information on generosity and evaluation aversion
 
-**Proposed response:** Make impact more comparable by allowing joint evaluation. Effective charities could present their (e.g. lifesaving) statistics relative to average or popular charities. Although caution should be taken not to demonize certain charities. 
+**Proposed response:** Make impact more comparable by allowing joint evaluation. Effective charities could present their (e.g. lifesaving) statistics relative to average or popular charities. Although caution should be taken not to demonize certain charities.
 
-**How does this response address the barrier?:** 
+**How does this response address the barrier?:**
 
 Theory: Evaluability bias
 
@@ -119,7 +122,7 @@ Reinstein:
 
 **Proposed response:** Information Enhancing
 
-**How does this response address the barrier?:** A fundraiser could give information about the potential beneficiaries. This might be used to make them seem socially close, and trigger empathy or the feeling of obligation or community. This could be further developed using VR, which could enable a more visceral reaction. One study found that VR increased donations by between 20% and 62% (Kristofferson et al., 2022). 
+**How does this response address the barrier?:** A fundraiser could give information about the potential beneficiaries. This might be used to make them seem socially close, and trigger empathy or the feeling of obligation or community. This could be further developed using VR, which could enable a more visceral reaction. One study found that VR increased donations by between 20% and 62% (Kristofferson et al., 2022).
 
 > This may be a 'superpower' because distances mean people perceive lack of closeness, but recent tech enables more visceral and interactive presentation (Skype, VR...) [for effective humanitarian charities]
 
@@ -153,13 +156,13 @@ Michael Justen writes:
 ### Information enhancing {.unnumbered}
 
 
-### Mainstream pproaches which may be not be as suitable for EA charities 
+### Mainstream pproaches which may be not be as suitable for EA charities
 
 ### Making donations visible to others {.unnumbered}
 
 There is varied evidence that people sometimes donate more when donations are visible. This is an example of reputation-seeking behavior. However, in the barrier "signaling concern for effectiveness/impact versus other values", evidence is presented that demonstrates that effective altruism may be rewarded. It finds that consequentialist choices lead to less favorable treatment relative to emotionally intuitive choices. Therefore, making donations visible to others may have the opposite effect of virtue signaling, instead damaging an individual's reputation.
 
-### 
+###
 
 ## Mainstream and practical fundraising strategies that have historically been underused by effective charities
 
