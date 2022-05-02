@@ -6,19 +6,19 @@ What "tools" and approaches may help to increase effective giving?
 
 We divide this into three categories:
 
-1.  Approaches to overcoming the barriers and biases discussed in previous chapters.
+1.  **Approaches to overcoming the barriers and biases** discussed in previous chapters.
 
-2.  Fundraising approaches and innovations that will be *particularly* suitable for more effective charities, perhaps because these approaches themselves are directly tied to effectiveness. We call these "superpowers" for effective charities.
+2.  **Fundraising approaches and innovations that are *particularly* suitable for more effective charities**, perhaps because these approaches themselves are directly tied to effectiveness. We call these "superpowers" for effective charities.
 
-3.  Fundraising strategies that have historically been underused by effective charities.
+3.  **Mainstream and practical fundraising strategies that have historically been underused by effective charities**.
 
 <!-- I.e., how can we best apply well-tested emotional and behavioral approaches (evidence-based fundraising tools like “gift exchange”) to effective charities. In applying these tools, what “superpowers” and weaknesses do the most effective charities have? -->^[]
 
-In this section highlight a few other proposals that I (David Reinstein) find promising, giving a quick explanation from the blurb in the [Airtable database](https://airtable.com/invite/l?inviteId=invfxhuOkmvi1DOKh&inviteToken=cee3b07b80a8ec3d4a4ca146dfe5148cde17e637c156719822d8732fbff46e3c), which is also previewed at the bottom of this section.
+In this section, I highlight a few other proposals that I (David Reinstein) find promising, giving a quick explanation from the blurb in the [Airtable database](https://airtable.com/invite/l?inviteId=invfxhuOkmvi1DOKh&inviteToken=cee3b07b80a8ec3d4a4ca146dfe5148cde17e637c156719822d8732fbff46e3c), which is also previewed at the bottom of this section.
 
 \
 
-### Other lists and categorizations of tools
+ Other lists and categorizations of tools
 
 ::: {.alert .alert-secondary}
  
@@ -43,6 +43,10 @@ E.g.,
 
 ## Overcoming the "barriers and biases"
 
+*In this section, we intend to:*\ 
+1. Discuss responses to any barriers presented in previous chapters. Not all barriers have researched solutions, therefore only barriers with responses will be addressed.
+2. Outline how the response overcomes this barrier.
+
 ### De-biasing and misperception correction
 
 **Barrier(s):** 
@@ -61,16 +65,31 @@ See, e.g., [@caviola2020]:
 >
 > Yet another possibility is that the misconception about differences in effectiveness between charities is related to another misconception: people’s overestimation of how effective charities are in absolute terms, which we observed in Study 1. Since they believe that an average charity is already extremely effective at saving lives, they might believe that it is simply not possible for the most effective charities to be substantially more effective. This leads to a suppressed estimate of the difference in effectiveness between charities.
 
+**Barrier(s):** Overhead aversion
+
+**Proposed Response:** Pre-cover overhead costs. Lead donor funds could be used to "cover overhead", this increases donation incidence and amounts. (This response is from the tools_public_sample Airtable)
+
+Relevant work: Gneezy et al., 2014 https://rady.ucsd.edu/docs/faculty/aGneezy/Published%20Papers/Overhead_Science_2014.pdf
+
+**Barrier(s):** Biases in perceiving impact
+
+**Proposed Response:** Presenting an individual beneficiary rather than a large group. This raises more than conveying the total number of people affected. It also raises more than portraying multiple individuals.
+
+**How does this solution address the barrier?:**
+
+**Barriers(s):** Scope insensitivity
+
+**Proposed Response:** Unit Asking
+
+**How does this solution address the barrier?:** 
 
 ### Make impact more comparable by allowing joint evaluation (Evaluation mode) {.unnumbered}
 
-**Barrier(s):**
+**Barrier(s):** Effect of analytical (effectiveness) information on generosity and evaluation aversion
 
-**Proposed response:**
+**Proposed response:** Make impact more comparable by allowing joint evaluation. Effective charities could present their (e.g. lifesaving) statistics relative to average or popular charities. Although caution should be taken not to demonize certain charities. 
 
-**:**
-
-> Effective charities could present their (e.g., lifesaving) statistics *relative* to average/popular charities (but be careful about demonizing particular ones)
+**How does this response address the barrier?:** 
 
 Theory: Evaluability bias
 
@@ -78,9 +97,11 @@ relevant work: [@Caviola2014; @kogut2005singularity; @kogutIdentifiedVictimEffec
 
 ### Efficacy framings
 
-**Barrier(s):**
+**Barrier(s):** Proportional Dominance Effect
 
-**Proposed response:**
+**Proposed response:** Efficacy framing
+
+**How does this response address the barrier?:** The proportional dominance effect means that individuals will be less willing to donate if the magnitude of the problem is larger. More colloquially, they feel that their donation may be a "drop in the bucket". Efficacy framing involves helping people to understand that their donations are valuable and do have an impact.
 
 Michael Justen writes:
 
@@ -92,7 +113,20 @@ Reinstein:
 
 > The EA movement's (perhaps strongly grounded) has recently emphasized the far-future, the vast scope of potential humanity, and the expansion of moral circles to potentially-sentient beings. Although the arguments presented are careful and strong, this may be particularly unhelpful in making individual donation decisions feel like a futile "drop-in-the-ocean".\
 
-## Psychological/behavioral tools; applicability to EA charities
+### Information enhacing to improve the social closeness of the recipient
+
+**Barrier(s):** Distance (physical and cultural)
+
+**Proposed response:** Information Enhancing
+
+**How does this response address the barrier?:** A fundraiser could give information about the potential beneficiaries. This might be used to make them seem socially close, and trigger empathy or the feeling of obligation or community. This could be further developed using VR, which could enable a more visceral reaction. One study found that VR increased donations by between 20% and 62% (Kristofferson et al., 2022). 
+
+> This may be a 'superpower' because distances mean people perceive lack of closeness, but recent tech enables more visceral and interactive presentation (Skype, VR...) [for effective humanitarian charities]
+
+Relevant evidence: @sudhir2016\ Kristofferson et al., (2022) https://link.springer.com/article/10.1007/s11002-021-09601-8
+
+
+## Fundraising approaches and innovations that are *particularly* suitable for more effective charities
 
 Do the standard collection of psych/behavioral tools "work" for effective charities (aka 'EA charities'), or can they be made to do so? Do effective causes have any 'superpowers' for any of these? E.g., do such charities and causes have advantages in presenting identifiable victims, offering emotional stimuli, incorporating gift exchange motivations, etc.?
 
@@ -104,7 +138,9 @@ DR: Indeed targeted marketing and profiling is a very promising approach. I now 
 
 2\. Consider which tools present particular challenges or opportunities for EA charities
 
-### Unit asking
+### Approaches which are particularly suitable for more effective charities
+
+### Unit asking {.unnumbered}
 
 Michael Justen writes:
 
@@ -114,13 +150,20 @@ Michael Justen writes:
 
 [@abramowicz2004]
 
-### (Info enhancing) social closeness of recipient {.unnumbered}
+### Information enhancing {.unnumbered}
 
-> This may be a 'superpower' because distances mean people perceive lack of closeness, but recent tech enables more visceral and interactive presentation (Skype, VR...) [for effective humanitarian charities]
 
-Relevant evidence: @sudhir2016\
+### Mainstream pproaches which may be not be as suitable for EA charities 
 
-## Mainstream and practical fundraising strategies -- underused by effective charities?
+### Making donations visible to others {.unnumbered}
+
+There is varied evidence that people sometimes donate more when donations are visible. This is an example of reputation-seeking behavior. However, in the barrier "signaling concern for effectiveness/impact versus other values", evidence is presented that demonstrates that effective altruism may be rewarded. It finds that consequentialist choices lead to less favorable treatment relative to emotionally intuitive choices. Therefore, making donations visible to others may have the opposite effect of virtue signaling, instead damaging an individual's reputation.
+
+### 
+
+## Mainstream and practical fundraising strategies that have historically been underused by effective charities
+
+This section focuses on strategies that are commonly used among large, mainstream charities but not commonly used by effective charities. They will be examined to understand whether they would also be a suitable fundraising strategy for effective charities.
 
 ### Percentage donations tied to purchases, especially in online auctions {.unnumbered}
 
