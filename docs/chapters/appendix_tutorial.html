@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
   <meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.153">
+  <meta name="generator" content="quarto-0.9.243">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <title>Increasing effective charitable giving: The puzzle, what we know, what we need to know next - Appendix A — Tech</title>
   <style>
@@ -327,45 +327,45 @@
         <nav id="TOC" role="doc-toc">
 <h2 id="toc-title">Table of contents</h2>
 <ul>
-<li><a href="#introduction" class="nav-link active" data-scroll-target="#introduction"> <span class="header-section-number">A.1</span> Introduction</a></li>
-<li><a href="#git-and-github" class="nav-link" data-scroll-target="#git-and-github"> <span class="header-section-number">A.2</span> Git and Github</a>
+<li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"> <span class="header-section-number">A.1</span> Introduction</a></li>
+<li><a href="#git-and-github" id="toc-git-and-github" class="nav-link" data-scroll-target="#git-and-github"> <span class="header-section-number">A.2</span> Git and Github</a>
 <ul class="collapse">
-<li><a href="#some-key-things-to-know-about-git-and-github" class="nav-link" data-scroll-target="#some-key-things-to-know-about-git-and-github"> <span class="header-section-number">A.2.1</span> Some key things to know about Git and GitHub</a></li>
+<li><a href="#some-key-things-to-know-about-git-and-github" id="toc-some-key-things-to-know-about-git-and-github" class="nav-link" data-scroll-target="#some-key-things-to-know-about-git-and-github"> <span class="header-section-number">A.2.1</span> Some key things to know about Git and GitHub</a></li>
 </ul></li>
-<li><a href="#r-and-rstudio" class="nav-link" data-scroll-target="#r-and-rstudio"> <span class="header-section-number">A.3</span> R and RStudio</a></li>
-<li><a href="#markdown-and-bookdown" class="nav-link" data-scroll-target="#markdown-and-bookdown"> <span class="header-section-number">A.4</span> Markdown and Bookdown</a></li>
-<li><a href="#the-code-and-folder-structure-in-this-repo-and-what-it-means" class="nav-link" data-scroll-target="#the-code-and-folder-structure-in-this-repo-and-what-it-means"> <span class="header-section-number">A.5</span> The code and folder structure in this repo, and what it means</a>
+<li><a href="#r-and-rstudio" id="toc-r-and-rstudio" class="nav-link" data-scroll-target="#r-and-rstudio"> <span class="header-section-number">A.3</span> R and RStudio</a></li>
+<li><a href="#markdown-and-bookdown" id="toc-markdown-and-bookdown" class="nav-link" data-scroll-target="#markdown-and-bookdown"> <span class="header-section-number">A.4</span> Markdown and Bookdown</a></li>
+<li><a href="#the-code-and-folder-structure-in-this-repo-and-what-it-means" id="toc-the-code-and-folder-structure-in-this-repo-and-what-it-means" class="nav-link" data-scroll-target="#the-code-and-folder-structure-in-this-repo-and-what-it-means"> <span class="header-section-number">A.5</span> The code and folder structure in this repo, and what it means</a>
 <ul class="collapse">
-<li><a href="#writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020" class="nav-link" data-scroll-target="#writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020"> <span class="header-section-number">A.5.1</span> Writing_econ_book: Files-folders of interest (taken from readme March 2020)</a></li>
+<li><a href="#writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020" id="toc-writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020" class="nav-link" data-scroll-target="#writing_econ_book-files-folders-of-interest-taken-from-readme-march-2020"> <span class="header-section-number">A.5.1</span> Writing_econ_book: Files-folders of interest (taken from readme March 2020)</a></li>
 </ul></li>
-<li><a href="#adding-the-main-content-the-code-in-a-single-.rmd-file" class="nav-link" data-scroll-target="#adding-the-main-content-the-code-in-a-single-.rmd-file"> <span class="header-section-number">A.6</span> Adding the main content… the code in a single “.Rmd” file</a>
+<li><a href="#adding-the-main-content-the-code-in-a-single-.rmd-file" id="toc-adding-the-main-content-the-code-in-a-single-.rmd-file" class="nav-link" data-scroll-target="#adding-the-main-content-the-code-in-a-single-.rmd-file"> <span class="header-section-number">A.6</span> Adding the main content… the code in a single “.Rmd” file</a>
 <ul class="collapse">
-<li><a href="#basic-r-markdown" class="nav-link" data-scroll-target="#basic-r-markdown"> <span class="header-section-number">A.6.1</span> Basic (R-)Markdown</a></li>
-<li><a href="#simple-md-rules" class="nav-link" data-scroll-target="#simple-md-rules"> <span class="header-section-number">A.6.2</span> Some simple markdown rules</a></li>
-<li><a href="#inline-code" class="nav-link" data-scroll-target="#inline-code"> <span class="header-section-number">A.6.3</span> Inline code</a></li>
-<li><a href="#latexmaths" class="nav-link" data-scroll-target="#latexmaths"> <span class="header-section-number">A.6.4</span> Latex/maths</a></li>
-<li><a href="#custom-styles" class="nav-link" data-scroll-target="#custom-styles"> <span class="header-section-number">A.6.5</span> Custom styles</a></li>
-<li><a href="#adding-referencescitations" class="nav-link" data-scroll-target="#adding-referencescitations"> <span class="header-section-number">A.6.6</span> Adding references/citations</a></li>
-<li><a href="#specific-system-for-adding-references-in-this-project" class="nav-link" data-scroll-target="#specific-system-for-adding-references-in-this-project"> <span class="header-section-number">A.6.7</span> Specific system for adding references in this project</a></li>
-<li><a href="#a-test-of-adding-references" class="nav-link" data-scroll-target="#a-test-of-adding-references"> <span class="header-section-number">A.6.8</span> A test of adding references</a></li>
+<li><a href="#basic-r-markdown" id="toc-basic-r-markdown" class="nav-link" data-scroll-target="#basic-r-markdown"> <span class="header-section-number">A.6.1</span> Basic (R-)Markdown</a></li>
+<li><a href="#simple-md-rules" id="toc-simple-md-rules" class="nav-link" data-scroll-target="#simple-md-rules"> <span class="header-section-number">A.6.2</span> Some simple markdown rules</a></li>
+<li><a href="#inline-code" id="toc-inline-code" class="nav-link" data-scroll-target="#inline-code"> <span class="header-section-number">A.6.3</span> Inline code</a></li>
+<li><a href="#latexmaths" id="toc-latexmaths" class="nav-link" data-scroll-target="#latexmaths"> <span class="header-section-number">A.6.4</span> Latex/maths</a></li>
+<li><a href="#custom-styles" id="toc-custom-styles" class="nav-link" data-scroll-target="#custom-styles"> <span class="header-section-number">A.6.5</span> Custom styles</a></li>
+<li><a href="#adding-referencescitations" id="toc-adding-referencescitations" class="nav-link" data-scroll-target="#adding-referencescitations"> <span class="header-section-number">A.6.6</span> Adding references/citations</a></li>
+<li><a href="#specific-system-for-adding-references-in-this-project" id="toc-specific-system-for-adding-references-in-this-project" class="nav-link" data-scroll-target="#specific-system-for-adding-references-in-this-project"> <span class="header-section-number">A.6.7</span> Specific system for adding references in this project</a></li>
+<li><a href="#a-test-of-adding-references" id="toc-a-test-of-adding-references" class="nav-link" data-scroll-target="#a-test-of-adding-references"> <span class="header-section-number">A.6.8</span> A test of adding references</a></li>
 </ul></li>
-<li><a href="#how-to-build-and-view-the-book" class="nav-link" data-scroll-target="#how-to-build-and-view-the-book"> <span class="header-section-number">A.7</span> How to ‘build’ and view the book</a>
+<li><a href="#how-to-build-and-view-the-book" id="toc-how-to-build-and-view-the-book" class="nav-link" data-scroll-target="#how-to-build-and-view-the-book"> <span class="header-section-number">A.7</span> How to ‘build’ and view the book</a>
 <ul class="collapse">
-<li><a href="#exporting-rmarkdown-to-google-docsdrive" class="nav-link" data-scroll-target="#exporting-rmarkdown-to-google-docsdrive"> <span class="header-section-number">A.7.1</span> Exporting Rmarkdown to Google Docs/Drive</a></li>
+<li><a href="#exporting-rmarkdown-to-google-docsdrive" id="toc-exporting-rmarkdown-to-google-docsdrive" class="nav-link" data-scroll-target="#exporting-rmarkdown-to-google-docsdrive"> <span class="header-section-number">A.7.1</span> Exporting Rmarkdown to Google Docs/Drive</a></li>
 </ul></li>
-<li><a href="#joining-this-project" class="nav-link" data-scroll-target="#joining-this-project"> <span class="header-section-number">A.8</span> Joining this project</a>
+<li><a href="#joining-this-project" id="toc-joining-this-project" class="nav-link" data-scroll-target="#joining-this-project"> <span class="header-section-number">A.8</span> Joining this project</a>
 <ul class="collapse">
-<li><a href="#creating-a-branch-and-a-pull-request" class="nav-link" data-scroll-target="#creating-a-branch-and-a-pull-request"> <span class="header-section-number">A.8.1</span> Creating a Branch and a ‘pull request’</a></li>
-<li><a href="#github-web-page-content" class="nav-link" data-scroll-target="#github-web-page-content"> <span class="header-section-number">A.8.2</span> GitHub web page content</a></li>
+<li><a href="#creating-a-branch-and-a-pull-request" id="toc-creating-a-branch-and-a-pull-request" class="nav-link" data-scroll-target="#creating-a-branch-and-a-pull-request"> <span class="header-section-number">A.8.1</span> Creating a Branch and a ‘pull request’</a></li>
+<li><a href="#github-web-page-content" id="toc-github-web-page-content" class="nav-link" data-scroll-target="#github-web-page-content"> <span class="header-section-number">A.8.2</span> GitHub web page content</a></li>
 </ul></li>
-<li><a href="#airtable-and-innovationsinfundraising.org" class="nav-link" data-scroll-target="#airtable-and-innovationsinfundraising.org"> <span class="header-section-number">A.9</span> Airtable and innovationsinfundraising.org</a>
+<li><a href="#airtable-and-innovationsinfundraising.org" id="toc-airtable-and-innovationsinfundraising.org" class="nav-link" data-scroll-target="#airtable-and-innovationsinfundraising.org"> <span class="header-section-number">A.9</span> Airtable and innovationsinfundraising.org</a>
 <ul class="collapse">
-<li><a href="#airtable" class="nav-link" data-scroll-target="#airtable">Airtable</a></li>
-<li><a href="#key-features-of-tables-in-airtables-quick-views" class="nav-link" data-scroll-target="#key-features-of-tables-in-airtables-quick-views">Key features of tables in Airtables (quick views)</a></li>
-<li><a href="#key-content" class="nav-link" data-scroll-target="#key-content">Key content</a></li>
+<li><a href="#airtable" id="toc-airtable" class="nav-link" data-scroll-target="#airtable">Airtable</a></li>
+<li><a href="#key-features-of-tables-in-airtables-quick-views" id="toc-key-features-of-tables-in-airtables-quick-views" class="nav-link" data-scroll-target="#key-features-of-tables-in-airtables-quick-views">Key features of tables in Airtables (quick views)</a></li>
+<li><a href="#key-content" id="toc-key-content" class="nav-link" data-scroll-target="#key-content">Key content</a></li>
 </ul></li>
-<li><a href="#useful-resources" class="nav-link" data-scroll-target="#useful-resources"> <span class="header-section-number">A.10</span> Useful resources</a></li>
-<li><a href="#further-misc-notes" class="nav-link" data-scroll-target="#further-misc-notes"> <span class="header-section-number">A.11</span> Further misc notes</a></li>
+<li><a href="#useful-resources" id="toc-useful-resources" class="nav-link" data-scroll-target="#useful-resources"> <span class="header-section-number">A.10</span> Useful resources</a></li>
+<li><a href="#further-misc-notes" id="toc-further-misc-notes" class="nav-link" data-scroll-target="#further-misc-notes"> <span class="header-section-number">A.11</span> Further misc notes</a></li>
 </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/daaronr/ea_giving_barriers/edit/main/chapters/appendix_tutorial.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/daaronr/ea_giving_barriers/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -615,7 +615,7 @@ Note
 </ul>
 <p>Code chunks provide an easy way to embed code into your R Markdown files. The code language is not just limited to R either, as other languages can be used. This means that there is a wide variety of content which can be displayed in a chunk. Such as tables of data:</p>
 <div class="cell">
-<div class="cell-output-stdout">
+<div class="cell-output cell-output-stdout">
 <pre><code>  Sepal.Length Sepal.Width Petal.Length Petal.Width Species
 1          5.1         3.5          1.4         0.2  setosa
 2          4.9         3.0          1.4         0.2  setosa
@@ -762,7 +762,7 @@ Note
 <p><strong>Note:</strong> the <code>trackdown</code> package also seems to be a particular useful extension to this.</p>
 <p>Suppose that we wish to share our work with collaborators who aren’t familiar with Github or Rmarkdown. In this case we may find it useful to export work to Google Drive. This process is easy in R as we can use the <a href="https://googledrive.tidyverse.org/">googledrive package</a> and <a href="https://github.com/MilesMcBain/markdrive">markdrive packages</a>. Below we will outline a basic workflow for rendering Rmarkdown and uploading these files to Google Drive. During this process files are rendered and converted to Google Docs.</p>
 <div class="cell">
-<div class="sourceCode" id="cb4"><pre class="sourceCode r cell-code code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(markdrive)</span>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(markdrive)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Render and upload Rmarkdown file</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">gdoc_render</span>(<span class="at">filename=</span><span class="st">"sections/barriers_old_classification.Rmd"</span>,</span>
@@ -773,7 +773,7 @@ Note
 <p>One drawback of this method is that rendering and uploading files multiple times will result in <em>multiple</em> files. That is, duplicate files are not identified and removed automatically. This is possible when uploading files to Google Drive using the <code>googledrive</code> package, however, due to the need to render and convert our Rmarkdown file we must make use of the <code>markdrive</code> commands which do not support this. We now consider a workflow which identifies existing files and moves these to trash. This ensures that we do not create duplicates when uploading.</p>
 <p><strong>Warning</strong>: Make sure that you <strong>do not</strong> already have files with duplicate labels inside your <code>gdoc_path</code>. Otherwise these files will be deleted.</p>
 <div class="cell">
-<div class="sourceCode" id="cb5"><pre class="sourceCode r cell-code code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googledrive)</span>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googledrive)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(markdrive)</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Define files and folders for simplicity</span></span>
