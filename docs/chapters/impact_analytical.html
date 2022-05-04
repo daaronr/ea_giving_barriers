@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="generator" content="quarto-0.9.243">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Increasing effective charitable giving: The puzzle, what we know, what we need to know next - 10&nbsp; Effect of analytical (effectiveness) information on generosity</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+
+  <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+  <script src="../site_libs/quarto-nav/headroom.min.js"></script>
+  <script src="../site_libs/clipboard/clipboard.min.js"></script>
+  <meta name="quarto:offset" content="../">
+  <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+  <script src="../site_libs/quarto-search/fuse.min.js"></script>
+  <script src="../site_libs/quarto-search/quarto-search.js"></script>
+  <link href="../chapters/BARRIERS_JUDGEMENT.html" rel="next">
+  <link href="../chapters/eval-aversion.html" rel="prev">
+  <script src="../site_libs/quarto-html/quarto.js"></script>
+  <script src="../site_libs/quarto-html/popper.min.js"></script>
+  <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+  <script src="../site_libs/quarto-html/anchor.min.js"></script>
+  <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+  <link id="quarto-text-highlighting-styles" href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+  <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+  <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+  <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <script id="quarto-search-options" type="application/json">{
+    "location": "sidebar",
+    "copy-button": false,
+    "collapse-after": 3,
+    "panel-placement": "start",
+    "type": "textbox",
+    "limit": 20,
+    "language": {
+      "search-no-results-text": "No results",
+      "search-matching-documents-text": "matching documents",
+      "search-copy-link-title": "Copy link to search",
+      "search-hide-matches-text": "Hide additional matches",
+      "search-more-match-text": "more match in this document",
+      "search-more-matches-text": "more matches in this document",
+      "search-clear-button-title": "Clear",
+      "search-detached-cancel-button-title": "Cancel",
+      "search-submit-button-title": "Submit"
+    }
+  }</script>
+  <script async="" src="https://hypothes.is/embed.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body class="floating">
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Effect of analytical (effectiveness) information on generosity</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Increasing effective charitable giving: The puzzle, what we know, what we need to know next</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/daaronr/ea_giving_barriers" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Abstract</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a href="../chapters/introduction.html" class="sidebar-item-text sidebar-link">INTRODUCTION</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/outline_work.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Evidence, empirical considerations, organization</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/present_puzzle.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The puzzle and challenge: Our ineffective giving</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/substitution.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Are charities in competition?</span></a>
+  </div>
+</li>
+    </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">BARRIERS</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/barriers_breakdown.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Breakdown of barriers</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/BARRIERS_FUNDAMENTAL.html" class="sidebar-item-text sidebar-link">VALUES, MORAL CIRCLES, AWARENESS, IDENTITY, SIGNALING</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/doesimpactmatter.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Does impact/utilitarianism matter?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/aware-distance.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">“Distance”, awareness, and consideration</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/identity.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">(Identity, cognitive dissonance)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/social.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Signaling and social pressures/social identity</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/BARRIERS_INFO.html" class="sidebar-item-text sidebar-link">EFFECTIVENESS INFORMATION</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/eval-aversion.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Evaluation-aversion and obstacles to considering charity impact</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/impact_analytical.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Effect of analytical (effectiveness) information on generosity</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/BARRIERS_JUDGEMENT.html" class="sidebar-item-text sidebar-link">JUDGEMENT/COGNITION FAILURES, SYSTEMATIC MISPERCEPTIONS</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/quant-biases.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Quantitative biases (the ‘distorted altruist’)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/factual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">(Persistent and systematic incorrect empirical beliefs)</span></a>
+  </div>
+</li>
+    </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">PATHS FORWARD</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/tools.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tools for motivating EA giving</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/conclusion-agenda.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Conclusion; a research agenda</span></a>
+  </div>
+</li>
+    </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/references.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">List of references</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Appendices</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/appendix_tutorial.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Tech</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/inertia.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Inertia, systemic obstacles</span></a>
+  </div>
+</li>
+    </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+<h2 id="toc-title">Table of contents</h2>
+<ul>
+<li><a href="#analytical-grinch-s" id="toc-analytical-grinch-s" class="nav-link active" data-scroll-target="#analytical-grinch-s"> <span class="header-section-number">10.1</span> Exposure to cost effectiveness and impact information (analytical information) might reduce generosity</a>
+<ul class="collapse">
+<li><a href="#outline-of-the-evidence" id="toc-outline-of-the-evidence" class="nav-link" data-scroll-target="#outline-of-the-evidence"> <span class="header-section-number">10.1.1</span> Outline of the evidence</a></li>
+</ul></li>
+<li><a href="#ratings" id="toc-ratings" class="nav-link" data-scroll-target="#ratings"> <span class="header-section-number">10.2</span> Overall ‘net’ responses to charity ratings</a>
+<ul class="collapse">
+<li><a href="#evidence-on-responses-to-charity-ratings" id="toc-evidence-on-responses-to-charity-ratings" class="nav-link" data-scroll-target="#evidence-on-responses-to-charity-ratings"> <span class="header-section-number">10.2.1</span> Evidence on responses to charity ratings</a></li>
+<li><a href="#choice_response_info" id="toc-choice_response_info" class="nav-link" data-scroll-target="#choice_response_info"> <span class="header-section-number">10.2.2</span> Evidence for “Charity choices do not respond ‘efficiently’ to information about costs and benefits of charity”</a></li>
+</ul></li>
+</ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/daaronr/ea_giving_barriers/edit/main/chapters/impact_analytical.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/daaronr/ea_giving_barriers/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<header id="title-block-header" class="quarto-title-block default">
+
+<div class="quarto-title"><h1 class="title display-7"><span id="analytical-grinch" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Effect of analytical (effectiveness) information on generosity</span></span></h1></div></header>
+
+<div class="alert alert-secondary">
+<p>Note: this relates to an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis underway</p>
+<p>Much of this project is being openly presented in the (in-progress) <a href="https://daaronr.github.io/dualprocess/index.html">“Impact of impact treatments on giving: field experiments and synthesis”</a> bookdown, a project organised in the <a href="https://github.com/daaronr/dualprocess">dualprocess repo</a>.</p>
+<p>An earlier set of presentation slides are hosted <a href="https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/">here</a> - press ‘O’ to see the fill multi-dimensional slide map; the outline slide is <a href="https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/2/2">here</a> s</p>
+</div>
+<p>Here we consider the impact of being presented with (or actively pursuing) effectiveness information (which is naturally <em>analytical</em> information) on generosity and the willingness to donate. (We also consider some work involving analytical information about charities that would not be seen as particularly relevant to impact in the sense described above.)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p><br>
+</p>
+<p>Further ‘grant-worthy’ motivation (unfold).</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target="#callout-1" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>As noted above, scientific evidence suggesting that organizations’ “cost per outcome” differs substantially, perhaps by a factor of 1000 or more <span class="citation" data-cites="jamisonDeceiveNotDeceive2008">(<a href="references.html#ref-jamisonDeceiveNotDeceive2008" role="doc-biblioref">Jamison, Karlan, and Schechter 2008</a>)</span>. This has motivated an increasing focus on charity effectiveness, spearheaded by initiatives from the Rockefeller and Gates foundations. Furthermore, organizations like <a href="http://givewell.org">GiveWell</a> now provide direct ratings on the basis of per-dollar impact (e.g., cost per life saved), and are reaching out to larger audiences. This approach might boost giving, by leveraging donors’ preferences for contributions “to be put to good use”—i.e., for direct interventions.</p>
+<p>E.g., In <span class="citation" data-cites="Aknin2013">Aknin et al. (<a href="references.html#ref-Aknin2013" role="doc-biblioref">2013</a>)</span> participants reported greater happiness when the impact of their contribution was highlighted. <span class="citation" data-cites="vaniwaardenCharitiesHowImportant2009 Aknin2013">(<a href="references.html#ref-vaniwaardenCharitiesHowImportant2009" role="doc-biblioref">van Iwaarden et al. 2009</a>; <a href="references.html#ref-Aknin2013" role="doc-biblioref">Aknin et al. 2013</a>)</span>.</p>
+<p>However, while we have rigorous evidence on what works and doesn’t work in anti-poverty and health interventions (acknowledged by the <a href="https://www.nobelprize.org/prizes/economic-sciences/2019/press-release/">2019 Economics Nobel Prize</a>), we actually know very little about how potential donors react to this impact information!</p>
+</div>
+</div>
+</div>
+<section id="analytical-grinch-s" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="analytical-grinch-s"><span class="header-section-number">10.1</span> Exposure to cost effectiveness and impact information (analytical information) might reduce generosity</h2>
+<ul>
+<li><p>May turn off System-1 and reduce giving</p></li>
+<li><p>Statistics diminish impact of ‘identifiable victim’</p></li>
+</ul>
+<p>References: <span class="citation" data-cites="Small2007">Small, Loewenstein, and Slovic (<a href="references.html#ref-Small2007" role="doc-biblioref">2007</a>)</span>, @(Karlan and Wood, 2017), <span class="citation" data-cites="bergh2020empathic">Bergh and Reinstein (<a href="references.html#ref-bergh2020empathic" role="doc-biblioref">2020</a>)</span>, <span class="citation" data-cites="smeets2015giving">Smeets, Bauer, and Gneezy (<a href="references.html#ref-smeets2015giving" role="doc-biblioref">2015</a>)</span></p>
+<p>See also: <span class="citation" data-cites="Linda2007">Linda, Organizations, and Parsons (<a href="references.html#ref-Linda2007" role="doc-biblioref">2007</a>)</span></p>
+<!--DR: A related memo-- https://www.dropbox.com/s/t4lq8x9lqeg6gt9/practicalpresentingimpactinfo.pdf?dl=0-->
+<section id="outline-of-the-evidence" class="level3" data-number="10.1.1">
+<h3 data-number="10.1.1" class="anchored" data-anchor-id="outline-of-the-evidence"><span class="header-section-number">10.1.1</span> Outline of the evidence</h3>
+<p>A subjective outline of the evidence (Reinstein):</p>
+<p>We consider a range published work (from a non-systematised literature review) including laboratory and hypothetical experiments, and non-experimental analysis of related questions (such as ‘the impact of general charitable ratings). However, we focus on field and ’field-like’ experiments involving truthful analytical ‘impact-per-dollar’ relevant information in settings involving substantial donations.</p>
+<p>The experimental evidence is limited, mixed and overall indeterminate. We could only find a single large-scale field trial closely bearing on ‘impact-per-dollar’ information. <span class="citation" data-cites="karlanEffectEffectivenessDonor2017a">(<a href="references.html#ref-karlanEffectEffectivenessDonor2017a" role="doc-biblioref">Karlan and Wood 2017</a>)</span> ran a field experiment on a charitable mailing campaign for Freedom From Hunger, reporting mixed (null overall, positive for some subgroups, negative for others), and some underpowered results. <span class="citation" data-cites="Small2007">Small, Loewenstein, and Slovic (<a href="references.html#ref-Small2007" role="doc-biblioref">2007</a>)</span> (involving laboratory experiments with real donations) find that giving to an identifiable victim is <em>reduced</em> when statistics are also presented and “priming analytic thinking reduced donations to an identifiable victim relative to a feeling-based thinking prime.” <span class="citation" data-cites="bergh2020empathic">Bergh and Reinstein (<a href="references.html#ref-bergh2020empathic" role="doc-biblioref">2020</a>)</span>’s work (M-turk charitable giving, plus one small-scale field-ish context) mainly finds a near-zero effect (e.g., in pooled analysis across all six experiments, see <a href="https://ore.exeter.ac.uk/repository/bitstream/handle/10871/39550/SPPS%20R%26R_final%20edits-with_supplements.pdf?sequence=3&amp;isAllowed=y">table 1 right column, table 2 bottom, and appendix page 51</a>. *</p>
+<p>Further related evidence is also indeterminate (see fold).</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target="#callout-2" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><span class="citation" data-cites="trussel2007financial">Trussel and Parsons (<a href="references.html#ref-trussel2007financial" role="doc-biblioref">2007</a>)</span> finds a positive impact of providing a particular type of analytical charity financial information on a subset of donors.</p>
+<p>There is also mixed evidence on the impact of real-world charity ratings (Yoruk 2016; Brown ea 2017; Gordon ‘ea ’19), and mixed evidence on ’excuse-driven information seeking’ (Exley ’16b; Fong &amp; O, ’10; Metzger &amp; G ’19).</p>
+<p>There is some further related evidence lab experiments, but the results are limited. <span class="citation" data-cites="fongTruthGivingExperimental2010">Fong and Oberholzer-Gee (<a href="references.html#ref-fongTruthGivingExperimental2010" role="doc-biblioref">2010</a>)</span> <em>apparently</em> findd that exogenous information about recipients increases donations, but they do not report this specifically. There is some speculation, but again, mixed evidence, that individuals already in a “system 2” (deliberative) frame are more likely to be positively affected by impact information. There is also a distinction to be further explored between “output information” (how the donation is used) and “impact information”; the former is seen to increase generosity in several studies. [Reference needed here]</p>
+</div>
+</div>
+</div>
+<div class="alert alert-secondary">
+<p>We are planning more careful multilevel/meta-analysis of this work, incorporating ‘new evidence’ from a set of field experiments run by Reinstein and others involving two distinct charities and three campaigns.</p>
+</div>
+<section id="presenting-effectiveness-and-other-types-of-analytical-efficiency-information" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="presenting-effectiveness-and-other-types-of-analytical-efficiency-information">Presenting “Effectiveness” and other types of analytical efficiency information</h4>
+<p><span class="citation" data-cites="karlanEffectEffectivenessDonor2017a">Karlan and Wood (<a href="references.html#ref-karlanEffectEffectivenessDonor2017a" role="doc-biblioref">2017</a>)</span> KW (2017) run a field experiment on a charitable mailing involving scientific impact information. Their treatment involved adding scientific impact text to an appeal, while removing some emotional text:</p>
+<p>Effectiveness treatment language:</p>
+<blockquote class="blockquote">
+<p>According to studies on our programs in Peru that used rigorous scientific methodologies, women who have received both loans and business education saw their profits grow, even when compared to women who just received loans for their businesses. But the real difference comes when times are slow. The study showed that women in Freedom from Hunger’s Credit with Education program kept their profits strong–ensuring that their families would not suffer, but thrive.</p>
+</blockquote>
+<p>Control (emotional) treatment language:</p>
+<blockquote class="blockquote">
+<p>Because of caring people like you, Freedom from Hunger was able to offer Sebastiana a self-help path toward achieving her dream of getting “a little land to farm” and pass down to her children. As Sebastiana’s young son, Aurelio, runs up to hug her, she says, “I do whatever I can for my children.”</p>
+</blockquote>
+<p>They find a null effect overall with fairly tight bounds. They report a near-0 impact on incidence (in table 2: column 1), and a standard error under 1%, relative to a baseline incidence of 14%. They estimate an impact on amount of donated +2.35 USD, with a standard error of 1.98; this is relative to a mean of 14.17 USD. (In their Winsorised results the point estimate is -0.074, the standard error is 0.82, and the mean is 11.30)</p>
+<p>When they differentiate this by an ex-post classification (not preregistered), they find positive effects of this information for ‘prior large donors’ and negative effects for ‘prior small donors’.</p>
+<p>This is probably the most substantial and relevant study. We consider this further in our meta-analysis further below.</p>
+<p>Nonetheless, the study is presents only a single piece of evidence from a specific context. It also has some potential limitations in considering our main question.</p>
+<ol type="1">
+<li><p>Their treatment changed two things changed at once: impact information was added which emotional information was removed</p></li>
+<li><p>It may have been entangled with a Yale/institution effect</p></li>
+<li><p>The nature of ‘impact’ information was not particularly quantative; it did not express a an ‘impact per dollar’</p></li>
+</ol>
+<div class="alert alert-secondary">
+<p><strong>Design and results summary</strong>:</p>
+<p>Treatment(s): Add scientific impact text to base script (included a standard qualitative story about an individual beneficiary), while removing emotional text:</p>
+<p><span class="math inline">\(\rightarrow\)</span> little net effect</p>
+<div>
+<p><span class="math inline">\(\rightarrow\)</span> reduced (increased) giving among small (large) prior donors <em>(not a preregistered hypothesis)</em></p>
+</div>
+</div>
+<p><br>
+</p>
+</section>
+<section id="linda2007" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="linda2007"><span class="citation" data-cites="Linda2007">Linda, Organizations, and Parsons (<a href="references.html#ref-Linda2007" role="doc-biblioref">2007</a>)</span></h4>
+<p>2 x 2 mailing appeal for People with Aids Coalition-Houston, with several treatments:</p>
+<ul>
+<li>adding “service efforts and accomplishment info”(SEA),</li>
+<li>and adding favorable “FINANCIAL” spending/overhead ratio infos.</li>
+</ul>
+<p>The FINANCIAL treatment (alone) <span class="math inline">\(\rightarrow\)</span> 180% increase in odds of donating <em>among prior donors</em> (<span class="math inline">\(p&lt;0.05\)</span>)</p>
+<p>(The other effects are mainly insignificant, with wide error margins, suggesting the study was underpowered)</p>
+<p><br>
+</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'../picsfigs/parsons_fin_treat.png'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../picsfigs/parsons_fin_treat.png" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../picsfigs/parsons_logit.png" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Further details from Parsons (unfold, direct quotes from paper)</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target="#callout-3" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>(This is all direct quotations:)</p>
+<p>Potential donors were sent, via a direct mail campaign, fundraising appeals containing varying amounts of financial and nonfinancial information in order to determine whether individual donors are more likely to contribute when accounting information or voluntary disclosures are provided …</p>
+<p><br>
+</p>
+<p>A logistic regression provides evidence that some donors who have previously donated use financial accounting information when making a donation decision. The results are inconclusive regarding whether donors use nonfinancial service efforts and accomplishments disclosures to determine whether and how much to give, but participants in the lab experiment judged the nonfinancial disclosures to be useful for making a giving decision</p>
+<p><br>
+</p>
+<p>Both experiments use a two-by-two design to manipulate the direct provision of (1) financial information (derived from mandatory informational tax filings which are available only if requested by the donor) and (2) voluntary disclosure of nonfinancial accounting information (not otherwise available to the donor). By analyzing actual cash receipts from the fundraising appeal, I find that donors who had previously contributed to the organization are more likely to donate when financial accounting information is directly provided. New prospective donors make larger contributions when either financial information or voluntary, nonfinancial accounting information is included with a basic fundraising appeal, but differences are not statistically significant.</p>
+<p><br>
+</p>
+<p>The first manipulation is to include financial information drawn from the audited financial statements with the basic fundraising appeal. Summary charts and graphs, instead of full financial statements complete with footnotes, are used to highlight the efficiency measures typically emphasized in previous literature. The financial information indicates that 92.5 percent of the entity’s expenditures were directed to program expenses in the prior year. This figure compares favorably with the 60 percent suggested minimum level recommended by the National Charities Information Bureau</p>
+<p><br>
+The second manipulation is to include a voluntary disclosure of service efforts and accomplishments (SEA) that describes the organization’s past efforts to serve its beneficiaries and gives specific information about the success of its programs (see Appendix C). This information is in narrative form and written in lay terms. 3 It provides both output (quantity of product or service produced) and outcomes (results) information as defined in Hatry et al.&nbsp;(1990).</p>
+<p><br>
+</p>
+<p>Charity: People with Aids Coalition- Houston</p>
+</div>
+</div>
+</div>
+<p><em>Limitations of @Linda2007 (for the present question)</em></p>
+<ul>
+<li><p>The efficiency measures they use, while largely <em>analytical</em> (thus, helpfully, potentially triggering dual-process shifts), is not meaningful ‘impact-per=dollar’ or ‘output-per-dollar’ information</p></li>
+<li><p>They highlight a differentiated treatment effect, but this may be an ex-post comparison. They don’t report pre-registration.</p></li>
+</ul>
+<!-- -->
+<ul>
+<li><p>Unclear at times, missing some important information:</p>
+<ul>
+<li><p>Is the model a logit or LPM?</p></li>
+<li><p>Not effect-coded; no measure of <em>overall</em> impact of FINANCIAL across both SEA treatments.</p></li>
+<li><p>Confidence intervals are not shown</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="bergh2020empathic-lab-and-field-experiments" class="level4" data-number="10.1.1.1">
+<h4 data-number="10.1.1.1" class="anchored" data-anchor-id="bergh2020empathic-lab-and-field-experiments"><span class="header-section-number">10.1.1.1</span> <span class="citation" data-cites="bergh2020empathic">Bergh and Reinstein (<a href="references.html#ref-bergh2020empathic" role="doc-biblioref">2020</a>)</span> (Lab and field experiments)</h4>
+<p>From Abstract:</p>
+<blockquote class="blockquote">
+<p>Across six experiments we examined how images of identified victims interact with information about charity efficiency (money toward program) and effectiveness (program outcome). We further examined if the images primarily get people to donate (yes/no), while efficiency/effectiveness might provide a tuning mechanism for how much to give. Results showed that images influenced the propensity to donate and induced participants donate their full bonuses, indicating heuristic effects. Efficiency and effectiveness information had no effects on donations.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</blockquote>
+<p><br>
+</p>
+<div class="cell" data-layout-align="center" data-caption="Reinstein and Bergh, pooled regressions, with confidence intervals">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../picsfigs/bergh_pooled_regs.png" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Notes on above table:</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target="#callout-4" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>(Note that in the above, all binary variables are ‘effect coded’) Considering ‘Don share’ (the share of the endowment contributed), as well as the linear probability model, we see that the pooled effect of the effectiveness information is fairly tightly bounded around zero. Even at the 95% lower bound, the effect is no more than an 11% reduction in the share donated (.04/0.35), and a 10% reduction in incidence (.06/.62).</p>
+</div>
+</div>
+</div>
+<p><br>
+Study 6 had the most straightforward ‘impact information’ as per our definitions.<br>
+</p>
+<div class="cell" data-layout-align="center" data-caption="Reinstein and Bergh, Study 6, Fisher tests of donation incidence, with confidence intervals">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../picsfigs/study_6_fisher_cis.png" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>Above we see estimated of odds ratios, relative to the control group, of the incidence of donating to RB (Carter Center: the river-blindness charity) and GD (Guide Dogs for the blind). Confidence intervals reveal a lack of power. However, there is suggestive evidence (p=0.09 and p=0.16, respectively) that the image lead people to be less-likely to donate to GD and more likely to donate to RB. This may have been driven by the African appearance of the blind girl depicted.</p>
+</blockquote>
+<p>The wide confidence intervals of the odds ratios suggests that Study 6 had limited statstical power.</p>
+</section>
+<section id="caviola2020many-hypotheticalintentional-experiments-information-treatments-debunkingdebiasing-caviolaimpact_analytical-3" class="level4" data-number="10.1.1.2">
+<h4 data-number="10.1.1.2" class="anchored" data-anchor-id="caviola2020many-hypotheticalintentional-experiments-information-treatments-debunkingdebiasing-caviolaimpact_analytical-3"><span class="header-section-number">10.1.1.2</span> <span class="citation" data-cites="caviola2020many">(<a href="references.html#ref-caviola2020many" role="doc-biblioref">Caviola, Schubert, and Nemirow 2020</a>)</span> (Hypothetical/intentional experiments; Information treatments, debunking/debiasing) {#caviola}<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></h4>
+<ul>
+<li>Series of four hypothetical experiments, mainly on M-Turk</li>
+</ul>
+<blockquote class="blockquote">
+<p>Abstract: … Across six tasks (Studies 1a, 1b), we found support for both explanations. Among lay donors, we observed multiple misconceptions—regarding disaster relief, overhead costs, donation splitting, and the relative effectiveness of local and foreign charities—that reduced the effectiveness of their giving. [*]</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Similarly, we found that they were unfamiliar with the most effective charities (Studies 2a, 2b). Debunking these misconceptions and informing people about effectiveness boosted effective donations [*]; however, a portion of lay donors continued to give ineffectively to satisfy their personal preferences.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>By contrast, a sample of self-identified effective altruists gave [*] effectively across all tasks.^[Notes on this paper are adapted from Janek Kretschmer’s work.</p>
+</blockquote>
+<p>* All experiments in this paper involved hypothetical (stated) giving ‘choices’. ]</p>
+<p><br>
+</p>
+<p><strong>Summarised findings (as reported by authors) and main points</strong>:</p>
+<ul>
+<li><p>Both ‘lack of knowledge’ and preferences impede effective giving</p></li>
+<li><p>It is important to understand the (ambivalent) relationship between the desire to do the most good and ‘knowing about the best option’ and ‘actually giving to the most effective charities’</p></li>
+<li><p>There are huge difference between ‘EA donors’ and the general population [?] (lay people) in term of knowledge and preferences</p></li>
+<li><p>Study 2 finds strong effects of informing participants about GiveWell’s top-recommended charities:</p>
+<ul>
+<li>e.g., in Study 2a, it resulted in 41% of participants expressing an interest in donating to one of them.</li>
+</ul></li>
+<li><p>Misconceptions about charities and preferences for ineffective options were closely linked</p></li>
+</ul>
+<p><br>
+</p>
+</section>
+<section id="mulesky2020demand---hypothetical-choices-realistic-versus-over-optimistic-impact-information" class="level4" data-number="10.1.1.3">
+<h4 data-number="10.1.1.3" class="anchored" data-anchor-id="mulesky2020demand---hypothetical-choices-realistic-versus-over-optimistic-impact-information"><span class="header-section-number">10.1.1.3</span> <span class="citation" data-cites="mulesky2020demand">(<a href="references.html#ref-mulesky2020demand" role="doc-biblioref">Mulesky 2020</a>)</span> - Hypothetical choices, realistic versus over-optimistic impact information</h4>
+<p>(Unfold key elements of abstract)</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target="#callout-5" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<blockquote class="blockquote">
+<p>… investigates whether donor-driven market incentives can explain why nonprofit organizations routinely lack an evidentiary basis to justify their operations. Across three preregistered online survey experiments (N = 1,058), two domains (global health and human rights), and two types of interventions (medical care and issue-awareness), this paper finds that people do not reward exceptionally positive charitable impact, but they do punish charities that admit their programs were ineffective. Charities are only rewarded for revealing information about their impact when the results are unrealistic and unattainable. The results also demonstrate that donors are more sensitive to information about administrative overhead than they are to direct information about impact.</p>
+</blockquote>
+</div>
+</div>
+</div>
+<p><strong>Setup</strong></p>
+<ul>
+<li><p>Participants “recruited through Positly, an online study recruiter that solicits high quality participants from Amazon’s M-Turk”</p></li>
+<li><p>Series of experiments giving participants a <em>hypothetical</em> choice: “you have the opportunity to donate 100 USD to i. [described charity] or ii. Some other international health charity.” They needed to hypothetically allocate the 100USD completely between these two.</p></li>
+</ul>
+<p><br>
+</p>
+<p><em>Study 1 treatments:</em></p>
+<ul>
+<li>No Impact information</li>
+<li>Null Impact information (“study found that Human Rights International did not have the desired impact, suggesting that reform is needed to increase effectiveness’.)</li>
+<li>Realistic impact information … “results of the study suggest … [HHI} saves the life of one person for each 2000 USD spent”</li>
+<li>Unrealistic impact information “… for each 150 USD spent”</li>
+</ul>
+<p><br>
+</p>
+<p><em>Study 2: Similar to Study 1, but for preventing HIV infections</em><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p><br>
+</p>
+<p><strong>Results considered</strong></p>
+<p>Stated finding:</p>
+<blockquote class="blockquote">
+<p>Charities are only rewarded for revealing information about their impact when the results are unrealistic and unattainable.</p>
+</blockquote>
+<p>In fact, the mean donations were ordered: Unrealistic (Impact information) <span class="math inline">\(&gt;\)</span> Realistic <span class="math inline">\(&gt;\)</span> No(ne) <span class="math inline">\(&gt;\)</span> Null.</p>
+<p>While the difference between Realistic and None was not significant by the standard tests, the confidence interval does not rule out an affect of up to almost 15 percentage points.</p>
+<!--  Third, donors may reward unrealistic impact information, creating a financial incentive for charities to deceive the public into thinking they are more effective than is realistically achievable. -->
+<p>Other comments (unfold)</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target="#callout-6" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Comments from Janek Kretschmer:</p>
+<ul>
+<li><p>The author considers three aspects of the ‘problem’ with beliefs: no-reward for actual high impact, punishment for low impact, and reward for unrealistic high impact. This might be reduced to the simple assumption that actual cost-effectiveness information can not live up to donors’ expectations [which] makes an investment into scientific evaluation unprofitable for NGOs.</p></li>
+<li><p>The results may largely be explained by the evaluation bias (Caviola et al.&nbsp;2014). This could be emphasized further.</p></li>
+<li><p>In study 3, the presentation of possible overhead spending is potentially too negative.</p></li>
+<li><p>Also, after accounting for overhead the difference between both scenarios is small 2000 USD vs.&nbsp;1800 USD, and more mental resources are required to obtain this conclusion</p></li>
+<li><p>More information about the “another charity option” would be helpful. Ideally, the author would provide the participants’ decision screen in the appendix.</p></li>
+</ul>
+<p>When the author wonders whether “active donors […] differ from the general population,” she asks a relevant question (cf.&nbsp;Karlan and Woods, 2017). However, she simply provides the mean donation (M = 70.9 USD) to Human Health International among respondents who have donated in the past twelve months. Thus, it can be said that there is no statistical difference from the mean donation (M = 69.9 USD) among all respondents, including non-donors However, the more interesting question “do large donors react differently to the four conditions?” remains answered.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="evidence-analytical-information-times-emotional-information-and-identifiable-victim" class="level4" data-number="10.1.1.4">
+<h4 data-number="10.1.1.4" class="anchored" data-anchor-id="evidence-analytical-information-times-emotional-information-and-identifiable-victim"><span class="header-section-number">10.1.1.4</span> Evidence: Analytical information <span class="math inline">\(\times\)</span> emotional information and ‘identifiable victim’</h4>
+<p><span class="citation" data-cites="kogut2011identifiable loewensteinScarecrowTinMan2007 Small2007">(<a href="references.html#ref-kogut2011identifiable" role="doc-biblioref">Kogut and Ritov 2011</a>; <a href="references.html#ref-loewensteinScarecrowTinMan2007" role="doc-biblioref">Loewenstein and Small 2007</a>; <a href="references.html#ref-Small2007" role="doc-biblioref">Small, Loewenstein, and Slovic 2007</a>)</span> <span class="citation" data-cites="Drouvelis2016">(<a href="references.html#ref-Drouvelis2016" role="doc-biblioref">Drouvelis and Grosskopf 2016</a>)</span>, <span class="citation" data-cites="Caviola2014">(<a href="references.html#ref-Caviola2014" role="doc-biblioref">Caviola et al. 2014</a>)</span></p>
+</section>
+<section id="small2007-studies-3-4" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="small2007-studies-3-4"><span class="citation" data-cites="Small2007">(<a href="references.html#ref-Small2007" role="doc-biblioref">Small, Loewenstein, and Slovic 2007</a>)</span>, studies 3-4</h4>
+<p>Study 3:</p>
+<blockquote class="blockquote">
+<p>individuals who faced an identifiable victim donated more than those who faced victim statistics, p &lt; .01, and also donated more than those who faced an identifiable victim in conjunction with statistics, p &lt; .05.</p>
+</blockquote>
+<p>(They interpret the statistics as possibly ‘debiasing’ the IVE)</p>
+<p><br>
+</p>
+<blockquote class="blockquote">
+<p>Study 4: “Priming analytic thinking [math problems] reduced donations to an identifiable victim relative to a feeling-based thinking prime [”impression questionnaire”]. Yet, the primes had no distinct effect on donations to statistical victims, which is symptomatic of the difficulty in generating feelings for these victims.”</p>
+</blockquote>
+<p><br>
+</p>
+<p><strong>Considerations</strong></p>
+<p>Basic design has key strengths: Double-blind, real donations, distractors, careful use of language.</p>
+<p>Primes: Note, the latter non-effect appears tightly bounded; but this could simply be driven by nonlinearity. If people gave little to statistical victims, there is less room for this to decrease further. A classic problem when considering interactions.</p>
+<div class="alert alert-secondary">
+<p>Ideas42 Summary:</p>
+<p>Researchers gave study participants the opportunity to donate $0-5 to famine relief efforts at Save the Children (n = 159). One group received letters that included a picture and brief description of a little girl. A second group received letters describing factual information about food security, and a third group received letters with both the little girl’s profile and factual information. The photo and description prompted an emotion-based response, raising more than twice as much money as the factual solicitation. Including factual information with the girl’s profile reduced this effect, with no significant difference in giving between those who received both pieces and those who received factual information only</p>
+</div>
+<p><br>
+</p>
+</section>
+<section id="bergh-and-reinstein-2020-spss" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="bergh-and-reinstein-2020-spss">Bergh and Reinstein, 2020, SPSS</h4>
+</section>
+</section>
+</section>
+<section id="ratings" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="ratings"><span class="header-section-number">10.2</span> Overall ‘net’ responses to charity ratings</h2>
+<p>There is a small body of evidence on how charity quality ratings (which are not typically ‘impact’ ratings as we have defined it) affect, or at least correlate with a charity’s fundraising success. The effect of these ratings presumably relates both to individual’s willingness to seek out and process this information (<a href="#cba-aversion">as in our discussion of CBA</a>), and to the impact of this information on an individual’s generosity… .</p>
+<section id="evidence-on-responses-to-charity-ratings" class="level3" data-number="10.2.1">
+<h3 data-number="10.2.1" class="anchored" data-anchor-id="evidence-on-responses-to-charity-ratings"><span class="header-section-number">10.2.1</span> Evidence on responses to charity ratings</h3>
+<p>One characterization, from <span class="citation" data-cites="bergh2020empathic">Bergh and Reinstein (<a href="references.html#ref-bergh2020empathic" role="doc-biblioref">2020</a>)</span></p>
+<blockquote class="blockquote">
+<p>Some work further suggests that changes in charity ratings lead to changes in charity revenues (e.g., <span class="citation" data-cites="Gordon2009">Gordon, Knock, and Neely (<a href="references.html#ref-Gordon2009" role="doc-biblioref">2009</a>)</span>; <span class="citation" data-cites="Yoruk2016">Yörük (<a href="references.html#ref-Yoruk2016" role="doc-biblioref">2016</a>)</span>), but it is unclear if this is driven by efficiency evaluations per se. For instance, people might respond to the number of stars given to a charity without deeply considering what these stars represent.</p>
+</blockquote>
+<section id="yoruk2016." class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="yoruk2016."><span class="citation" data-cites="Yoruk2016">Yörük (<a href="references.html#ref-Yoruk2016" role="doc-biblioref">2016</a>)</span>.</h4>
+<p><strong>“Charity ratings” Journal of Economics &amp; Management Strategy, 25(1), 195-219.</strong></p>
+<p><br>
+<strong>Relevance</strong>: Reasonably strong causal evidence that in general, charity ratings may boost a charity’s fundraising, at least for some types of charities. However, this is based on Charity Navigator ratings, which do not generally agree with our measures of impact.</p>
+<p>&nbsp;</p>
+<p><strong>Type of evidence:</strong> Observational, claiming causality through a regression discontinuity framework</p>
+<ul>
+<li>Charity Navigator stars are based on a continuous score across categories</li>
+<li>Identification via RD: Impact of crossing a ‘star’ threshold on amounts raised</li>
+</ul>
+<p><br>
+</p>
+<p><strong>Background mechanisms and related evidence:</strong> the role of consumer reviews and independent ratings in for-profit sectors.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a><br>
+</p>
+<p><strong>Key findings:</strong></p>
+<ul>
+<li>For relatively smaller and unknown charities one star increase in ratings is (causally) associated with a 19.5 percent increase in the amount of charitable contributions received</li>
+</ul>
+<p><br>
+</p>
+</section>
+</section>
+<section id="choice_response_info" class="level3" data-number="10.2.2">
+<h3 data-number="10.2.2" class="anchored" data-anchor-id="choice_response_info"><span class="header-section-number">10.2.2</span> Evidence for “Charity choices do not respond ‘efficiently’ to information about costs and benefits of charity”</h3>
+<p><span class="citation" data-cites="Null2011b">Null (<a href="references.html#ref-Null2011b" role="doc-biblioref">2011</a>)</span> ran a set of experiments at Kiwanis/Rotary clubs and with “professional subjects” (presumably, university administrators) at the Berkeley X-lab. The former strictly involved allocations <em>among</em> charities, in the latter case what was not given away could be kept. For the main reported treatments, participants made a series of decisions under different incentives (mostly on the same page and thus simultaneously?). The “prize” was $100; in each session only one decision from one subject was chosen for actual payment/donations.</p>
+<p>Many participants who choose to donate positive amounts to multiple charities in earlier (?stages) continue to donate to multiple charities when one charity is given a better match rate; they only “imperfectly substitute” (and some even substitute away from the now “lower-priced” charity). She attributes this to both risk aversion (diminishing utility in to each charity’s actual impact, along with uncertainty about this impact) as well to as a version of “warm glow” with a diminishing marginal benefit in the amount given to each charity.</p>
+<p>She also introduces exogenous risks over matching rates, and notes that roughly 2/3 of those that choose to shift only imperfectly are not measured to be “risk averse”.</p>
+<p>However, this could also be attributed to a simple failure to make these cost-benefit calculations (as she also found some evidence suggesting misunderstanding of the nature of these incentives).</p>
+<p><em>Note: There is a great deal of other evidence on this point that should be incorporated. The Null experiment makes this particular explicit, but I believe there is substantial additional work, both involving experiments that participants were</em> aware* of, and in more natural contexts.*</p>
+<p>* Consider also <span class="citation" data-cites="metzgerMakingImpactRelevance2019">(<a href="references.html#ref-metzgerMakingImpactRelevance2019" role="doc-biblioref">Metzger and Günther 2019</a>)</span>.</p>
+<!--
+> ***\[Cut?*** [^2]***Metzger and Gunther (2015)*** ran an (Economics)
+> lab experiment where (some) participants had the opportunity to buy
+> information about a real (but unnamed) NGO and then to make a real
+> donation to it (from their lab earnings). They vary whether the
+> information pertains to the effectiveness of the program (number of
+> years of education it provides per Swiss franc), the organizations'
+> administrative cost rate, and the recipient type (children in
+> impoverished countries versus young Swiss artists). They find that a
+> reasonable minority of people choose to purchase this information; 41%
+> in the " recipient type" treatment, 28.3% in the "administrative
+> costs" treatment, and 18.5% in the "aid impact treatment" (only the
+> largest difference is significant). **\]**
+
+*Additional interpretation of the above: some people fundamentally seem
+to not care about the money once it has left their hands, at least when
+it is framed in terms of [money]{.underline}*
+-->
+<section id="see-also" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="see-also">See also</h4>
+<p><span class="citation" data-cites="Vesterlund2003a">Vesterlund (<a href="references.html#ref-Vesterlund2003a" role="doc-biblioref">2003</a>)</span> <span class="citation" data-cites="chhaochharia2008charity">Chhaochharia, Ghosh, et al. (<a href="references.html#ref-chhaochharia2008charity" role="doc-biblioref">2008</a>)</span>, <span class="citation" data-cites="landry2010donor">Landry et al. (<a href="references.html#ref-landry2010donor" role="doc-biblioref">2010</a>)</span>, <span class="citation" data-cites="Brown2016">Brown, Meer, and Williams (<a href="references.html#ref-Brown2016" role="doc-biblioref">2016</a>)</span></p>
+<!-- https://www.emerald.com/insight/content/doi/10.1108/02656710910924143/full/html -->
+<p><span class="citation" data-cites="Gordon2009">Gordon, Knock, and Neely (<a href="references.html#ref-Gordon2009" role="doc-biblioref">2009</a>)</span></p>
+</section>
+<section id="notes" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="notes">Notes</h4>
+<p>There is also (informal?) evidence that people may dramatically <em>underestimate</em> the cost of saving lives.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<!-- two separate surveys, participants were asked how much they thought it would cost “a typical charity to prevent one child in a poor country from dying unnecessarily by improving access to medical care.” In one survey, their median estimate was $40, and in the other survey, it was $150. The surveys asked the same question about the most cost-effective charities, for which the median estimate was $25 in one survey and $100 in the other (Caviola -->
+
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-Aknin2013" class="csl-entry" role="doc-biblioentry">
+Aknin, Lara B, Elizabeth W Dunn, Ashley V Whillans, Adam M Grant, and Michael I Norton. 2013. <span>“Making a Difference Matters: Impact Unlocks the Emotional Benefits of Prosocial Spending.”</span> <em>Journal of Economic Behavior &amp; Organization</em>. <a href="https://doi.org/10.1016/j.jebo.2013.01.008">https://doi.org/10.1016/j.jebo.2013.01.008</a>.
+</div>
+<div id="ref-bergh2020empathic" class="csl-entry" role="doc-biblioentry">
+Bergh, Robin, and David Reinstein. 2020. <span>“Empathic and Numerate Giving: The Joint Effects of Victim Images and Charity Evaluations.”</span> <em>Social Psychological and Personality Science</em>, 1948550619893968.
+</div>
+<div id="ref-Brown2016" class="csl-entry" role="doc-biblioentry">
+Brown, A L, J Meer, and J F Williams. 2016. <span>“Social Distance and Quality Ratings in Charity Choice.”</span> <em>Journal of Behavioral and Experimental</em>.
+</div>
+<div id="ref-Caviola2014" class="csl-entry" role="doc-biblioentry">
+Caviola, Lucius, Nadira Faulmüller, Jim. A C Everett, and Julian Savulescu. 2014. <span>“The Evaluability Bias in Charitable Giving: Saving Administration Costs or Saving Lives?”</span> <em>Judgment and Decision Making</em> 9 (4): 303–15. <a href="https://doi.org/None">https://doi.org/None</a>.
+</div>
+<div id="ref-caviola2020many" class="csl-entry" role="doc-biblioentry">
+Caviola, Lucius, Stefan Schubert, and Jason Nemirow. 2020. <span>“The Many Obstacles to Effective Giving.”</span> <em>Judgment and Decision Making</em> 15 (2): 159.
+</div>
+<div id="ref-chhaochharia2008charity" class="csl-entry" role="doc-biblioentry">
+Chhaochharia, Vidhi, Suman Ghosh, et al. 2008. <span>“Do Charity Ratings Matter.”</span> <em>Unpublished Manuscript, Florida Atlantic University</em>.
+</div>
+<div id="ref-Drouvelis2016" class="csl-entry" role="doc-biblioentry">
+Drouvelis, Michalis, and Brit Grosskopf. 2016. <span>“The Effects of Induced Emotions on Pro-Social Behaviour.”</span> <em>Journal of Public Economics</em> 134: 1–8.
+</div>
+<div id="ref-fongTruthGivingExperimental2010" class="csl-entry" role="doc-biblioentry">
+Fong, Christina, and Felix Oberholzer-Gee. 2010. <span>“Truth in Giving: Experimental Evidence on the Welfare Effects of Informed Giving to the Poor.”</span> <em>Journal of Public Economics</em>.
+</div>
+<div id="ref-Gordon2009" class="csl-entry" role="doc-biblioentry">
+Gordon, Teresa P, Cathryn L Knock, and Daniel G Neely. 2009. <span>“The Role of Rating Agencies in the Market for Charitable Contributions: An Empirical Test.”</span> <em>Journal of Accounting and Public Policy</em> 28 (6): 469–84. <a href="https://doi.org/10.1016/j.jaccpubpol.2009.08.001">https://doi.org/10.1016/j.jaccpubpol.2009.08.001</a>.
+</div>
+<div id="ref-jamisonDeceiveNotDeceive2008" class="csl-entry" role="doc-biblioentry">
+Jamison, Julian, Dean Karlan, and Laura Schechter. 2008. <span>“To Deceive or Not to Deceive: The Effect of Deception on Behavior in Future Laboratory Experiments.”</span> <em>Journal of Economic Behavior &amp; Organization</em> 68 (3): 477–88.
+</div>
+<div id="ref-jin2006information" class="csl-entry" role="doc-biblioentry">
+Jin, Ginger Zhe, and Alan T Sorensen. 2006. <span>“Information and Consumer Choice: The Value of Publicized Health Plan Ratings.”</span> <em>Journal of Health Economics</em> 25 (2): 248–75.
+</div>
+<div id="ref-karlanEffectEffectivenessDonor2017a" class="csl-entry" role="doc-biblioentry">
+Karlan, Dean, and Daniel H. Wood. 2017. <span>“The Effect of Effectiveness: Donor Response to Aid Effectiveness in a Direct Mail Fundraising Experiment.”</span> <em>Journal of Behavioral and Experimental Economics</em> 66: 1–8. <a href="https://doi.org/10.1016/j.socec.2016.05.005">https://doi.org/10.1016/j.socec.2016.05.005</a>.
+</div>
+<div id="ref-kogut2011identifiable" class="csl-entry" role="doc-biblioentry">
+Kogut, Tehila, and Ilana Ritov. 2011. <span>“The Identifiable Victim Effect: Causes and Boundary Conditions.”</span> <em>The Science of Giving: Experimental Approaches to the Study of Charity</em>, 133–45.
+</div>
+<div id="ref-landry2010donor" class="csl-entry" role="doc-biblioentry">
+Landry, Craig E, Andreas Lange, John A List, Michael K Price, and Nicholas G Rupp. 2010. <span>“Is a Donor in Hand Better Than Two in the Bush? Evidence from a Natural Field Experiment.”</span> <em>American Economic Review</em> 100 (3): 958–83.
+</div>
+<div id="ref-Linda2007" class="csl-entry" role="doc-biblioentry">
+Linda, M, Not-for-profit Organizations, and Linda M Parsons. 2007. <span>“The Impact of Financial Information and Voluntary Disclosures on Contributions to Not-for-Profit Organizations,”</span> 179–96.
+</div>
+<div id="ref-loewensteinScarecrowTinMan2007" class="csl-entry" role="doc-biblioentry">
+Loewenstein, George, and Deborah A Small. 2007. <span>“The <span>Scarecrow</span> and the <span>Tin Man</span> : The <span>Vicissitudes</span> of <span>Human Sympathy</span> and <span>Caring</span>”</span> 11 (2): 112–26. <a href="https://doi.org/10.1037/1089-2680.11.2.112">https://doi.org/10.1037/1089-2680.11.2.112</a>.
+</div>
+<div id="ref-metzgerMakingImpactRelevance2019" class="csl-entry" role="doc-biblioentry">
+Metzger, Laura, and Isabel Günther. 2019. <span>“Making an Impact ? The Relevance of Information on Aid e Ff Ectiveness for Charitable Giving . <span>A</span> Laboratory Experiment.”</span> <em>Journal of Development Economics</em> 136 (September 2018): 18–33. <a href="https://doi.org/10.1016/j.jdeveco.2018.08.015">https://doi.org/10.1016/j.jdeveco.2018.08.015</a>.
+</div>
+<div id="ref-mulesky2020demand" class="csl-entry" role="doc-biblioentry">
+Mulesky, Suzie. 2020. <span>“The Demand (or Lack Thereof) for Honest, Rigorous Impact Information in Charity.”</span> <em>Rigorous Impact Information in Charity (March 16, 2020)</em>.
+</div>
+<div id="ref-Null2011b" class="csl-entry" role="doc-biblioentry">
+Null, C. 2011. <span>“Warm Glow, Information, and Inefficient Charitable Giving.”</span> <em>Journal of Public Economics</em> 95 (5-6): 455–65. <a href="https://doi.org/10.1016/j.jpubeco.2010.06.018">https://doi.org/10.1016/j.jpubeco.2010.06.018</a>.
+</div>
+<div id="ref-reinsteinInfluenceExpertReviews2005" class="csl-entry" role="doc-biblioentry">
+Reinstein, David, and Christopher J Snyder. 2005. <span>“The <span>Influence</span> of <span>Expert Reviews</span> on <span>Consumer Demand</span> for <span>Experience Goods</span>: A <span>Case Study</span> of <span>Movie Critics</span>.”</span> <em>Journal of Industrial Economics</em>. <a href="https://doi.org/10.1111/j.0022-1821.2005.00244.x">https://doi.org/10.1111/j.0022-1821.2005.00244.x</a>.
+</div>
+<div id="ref-Small2007" class="csl-entry" role="doc-biblioentry">
+Small, Deborah A, George Loewenstein, and Paul Slovic. 2007. <span>“Sympathy and Callousness: The Impact of Deliberative Thought on Donations to Identifiable and Statistical Victims.”</span> <em>Organizational Behavior and Human Decision Processes</em> 102 (2): 143–53.
+</div>
+<div id="ref-smeets2015giving" class="csl-entry" role="doc-biblioentry">
+Smeets, Paul, Rob Bauer, and Uri Gneezy. 2015. <span>“Giving Behavior of Millionaires.”</span> <em>Proceedings of the National Academy of Sciences</em> 112 (34): 10641–44.
+</div>
+<div id="ref-trussel2007financial" class="csl-entry" role="doc-biblioentry">
+Trussel, John M, and Linda M Parsons. 2007. <span>“Financial Reporting Factors Affecting Donations to Charitable Organizations.”</span> <em>Advances in Accounting</em> 23: 263–85.
+</div>
+<div id="ref-vaniwaardenCharitiesHowImportant2009" class="csl-entry" role="doc-biblioentry">
+van Iwaarden, Jos, Ton Van Der Wiele, Roger Williams, and Claire Moxham. 2009. <span>“Charities: How Important Is Performance to Donors?”</span> <em>International Journal of Quality &amp; Reliability Management</em>.
+</div>
+<div id="ref-Vesterlund2003a" class="csl-entry" role="doc-biblioentry">
+Vesterlund, L. 2003. <span>“The Informational Value of Sequential Fundraising.”</span> <em>Journal of Public Economics</em>.
+</div>
+<div id="ref-Yoruk2016" class="csl-entry" role="doc-biblioentry">
+Yörük, B K. 2016. <span>“Charity Ratings.”</span> <em>Journal of Economics &amp; Management Strategy</em>. <a href="https://doi.org/10.1111/jems.12139">https://doi.org/10.1111/jems.12139</a>.
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1" role="doc-endnote"><p>Effectiveness information may also affect how donors perceive the <em>social signaling</em> value of their donation. We return to this in the <a href="social.html">signaling and social pressures…</a> section.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Need to delve into this further: tight null effects or underpowered studies? Consider confidence intervals of effects reported, as in tables below. These need some clarification and improved formatting.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>CONSIDER: This paper/result may not inform ‘evaluation aversion’ should we move it to another section or subsection?<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>The third study revolves around the addition of overhead information, in with what might be seen as a fairly negative presentation. I do not discuss it here<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>E.g. Luca (2011): one star increase in online rating leads to a 5 to 9 percent increase in revenue, <span class="citation" data-cites="jin2006information">Jin and Sorensen (<a href="references.html#ref-jin2006information" role="doc-biblioref">2006</a>)</span>: health plan ratings have a significant impact on individuals’ health plan choices, <span class="citation" data-cites="reinsteinInfluenceExpertReviews2005">Reinstein and Snyder (<a href="references.html#ref-reinsteinInfluenceExpertReviews2005" role="doc-biblioref">2005</a>)</span>: positive expert reviews have a significant effect on the box office revenue of movies.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>DR: I am considering whether this should be seen as a relevant barrier. It is important to note in trying to <em>measure</em> the impact of effectiveness information. Evidence comes from Caviola et al 2019 and Greenberg et al 2017<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    setTimeout(function() {
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/eval-aversion.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Evaluation-aversion and obstacles to considering charity impact</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/BARRIERS_JUDGEMENT.html" class="pagination-link">
+        <span class="nav-page-text">JUDGEMENT/COGNITION FAILURES, SYSTEMATIC MISPERCEPTIONS</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+</body></html>
