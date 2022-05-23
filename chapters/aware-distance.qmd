@@ -1,4 +1,4 @@
-# "Distance", awareness, and consideration {#aware-distance}
+# Distance, awareness/consideration {#aware-distance}
 
 [^aware-distance-1]
 
@@ -66,11 +66,11 @@ Ana Diez suggests...
 ## Distance - Spatial/Physical, Social/Cultural: parochial altruism/in-group bias, interpersonal and identity e.g., race, gender, age, etc {#in-group}
 
 
-<!-- 
+<!--
 JS: Anecdotally, I've found that people are often skeptical that we can be confident that charities that operate in geographically distant areas can be held accountable as easily as local charities (eg, "if those international charities are just wasting my money, how would I ever know?")
 
-DR: 
-There may be something 'real' there but I suspect its often a justification rather than a cause. 
+DR:
+There may be something 'real' there but I suspect its often a justification rather than a cause.
 
 I also considered including 'corruption aversion' as a bias... people hate if even a small percentage is wasted or taken by corrupt actors, even if it ends up being far more impact/$ anyways.
 
@@ -187,9 +187,9 @@ However, even motivating 'giving for current issues' [presents many challenges](
 
 ::: {.callout-note collapse="true"}
 
-## Further resources and discussion 
+## Further resources and discussion
 
-See [80000 hours podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/) with Toby Ord and the articles and books linked (especially 'The Precipice') for a more comprehensive introduction to the long-term future. 
+See [80000 hours podcast](https://80000hours.org/podcast/episodes/why-the-long-run-future-matters-more-than-anything-else-and-what-we-should-do-about-it/) with Toby Ord and the articles and books linked (especially 'The Precipice') for a more comprehensive introduction to the long-term future.
 
 See also these resources from [effectivealtruism.org](https://www.effectivealtruism.org/), see [here](https://www.effectivealtruism.org/articles/tyler-john-representing-future-generations/) for a talk on the importance of future generations, and [here](https://www.effectivealtruism.org/articles/cause-profile-long-run-future/) for an overview of the long-run future as an issue.
 
@@ -254,7 +254,7 @@ This is not the same as discounting future utility or welfare. There's no clear 
 
 ### Reasons the distant future may be neglected {.unnumbered}
 
-Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020 outlines a few reasons why the distant future may receive less attention and action.^[Schubert also discusses the psychology of long-termism and existential risk [here](https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-existential-risk/)] 
+Beyond the technical analysis of "at what rates people might discount the future", @schubertFocusCollectiveAttention2020 outlines a few reasons why the distant future may receive less attention and action.^[Schubert also discusses the psychology of long-termism and existential risk [here](https://www.effectivealtruism.org/articles/ea-global-2018-psychology-of-existential-risk/)]
 
 He argues:
 

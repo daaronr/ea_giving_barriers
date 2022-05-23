@@ -1,4 +1,4 @@
-# Does impact/utilitarianism matter? {#doesimpactmatter}
+# Do people care about 'impact'? {#doesimpactmatter}
 
 **Do people care about impact? Does utilitarianism matter?**s
 
@@ -16,7 +16,7 @@ ii. *A moral utilitarian* (or otherwise consequentialist; but see fold below): T
 
 ## Non-consequentialists still care about consequences ...?
 
-Jason Schukraft: 
+Jason Schukraft:
 
 > Non-consequentialists still care about the consequences of their actions (they just think other things matter, too). As far as I can tell, effective giving is required by every plausible moral theory.
 

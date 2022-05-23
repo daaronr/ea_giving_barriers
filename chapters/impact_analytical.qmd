@@ -1,4 +1,4 @@
-# Effect of analytical (effectiveness) information on generosity {#analytical-grinch}
+# Analytical (impact) information $\rightarrow$ generosity {#analytical-grinch}
 
 ::: {.alert .alert-secondary}
 Note: this relates to an ongoing project of David Reinstein with several co-authors, including ongoing field experiments as well as meta-analysis underway

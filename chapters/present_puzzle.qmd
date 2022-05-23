@@ -305,7 +305,9 @@ Gertler, "[Charitable Fundraising and Smart Giving](https://aarongertler.net/wp-
 
 -   Stefan Schubert's ongoing work and book in progress
 
-## Definitions - "Efficiency" versus impact {#def-impact}[^present_puzzle-17]
+## Definitions - "Efficiency" versus impact {#def-impact}
+
+[^present_puzzle-17]
 
 [^present_puzzle-17]: Consider: The measures used are relevant to how we consider issues such as charity 'quality ratings' and 'overhead aversion.'
 
@@ -342,7 +344,7 @@ Jason Schukraft:
 
 > Of course, if you're a value pluralist, there will be multiple outcome-types that are non-instrumentally valuable, and it's unclear how to compare different types of non-instrumental values. (e.g., It's tempting to say that people donating to art museums are engaged in ineffective giving, but if art has non-instrumental value, then it's difficult to straightforwardly make this case).
 
-David Reinstein: 
+David Reinstein:
 
 > Perhaps. I suppose that the empirical claims I make above probably do not apply to this measure over all domains.
 

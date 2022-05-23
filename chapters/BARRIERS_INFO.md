@@ -1,5 +1,5 @@
 # EFFECTIVENESS INFORMATION {.unnumbered}
 
-Avoidance of effectiveness information
+1. Avoidance of effectiveness information
 
-Conflict with empathy
+2. Conflict with empathy

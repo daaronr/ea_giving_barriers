@@ -1,22 +1,22 @@
-# Conclusion; a research agenda {#conclusion-agenda}
+# Conclusion, agenda {#conclusion-agenda}
 
 
 ::: {.alert .alert-secondary}
- 
+
 
 See also: ["EA Market Testing"](https://forum.effectivealtruism.org/posts/HboobjbDwc5KgpNWi/ea-market-testing), post on the EA forum
-        
- 
-::: 
+
+
+:::
 
 
 ## A program and key principles for future research and action^[This content comes in part from an open-ended letter of interest submitted to the Gates foundation.
 ]
- 
+
 
 > Our research program aims to provide practical methods to increasing the level and impact of *effective, impactful* private giving. We are building a database of evidence on "what works", with a particular focus on the questions below. We will assess, evaluate, and present this information in several ways, including an interactive database, a wiki, and a meta-analysis and survey paper. Each of these will be carefully linked and integrated. For example, the analysis and discussion in the survey paper will be mirrored on the wiki, providing a platform for discussion and continuous updating. Each element of the surveyed evidence will be provided as a database entry, cross-referencing relevant papers, theories, use-cases, and available raw data. The meta-analysis will be presented in the database and Wiki, as well as in an web app (e.g., R Shiny Rstudio), to permit users to consider alternate statistical assumptions and focus on separate domains, as relevant to their own use-case. All of this will be provided in multiple formats (without confusing overlap), allowing users to choose a more technical, or a more descriptive presentation.
 
- 
+
 ## Key practical questions
 
 - Who is giving to effective charities, and can we predict who is likely to be convinced to do so?
@@ -39,7 +39,7 @@ See also: ["EA Market Testing"](https://forum.effectivealtruism.org/posts/Hboobj
 
 ## Policy issues
 
-- Will these same tools help motivate support for foreign aid and other pro-poor policies? 
+- Will these same tools help motivate support for foreign aid and other pro-poor policies?
 
 - What is the interaction between private giving and (support for) government policies, and how can we boost the *net* effect?
 
@@ -95,13 +95,13 @@ Our project will encourage and foster future work...
 ]
 
 
-## Targeting 
+## Targeting
 - Who gives to the *truly* most effective international charities?
 
 - Who is most likely to be convinced, and which arguments/presentations work in the SR and LR, and for whom (heterogeneity)?
      Statistical learning-based analyses
-     
-     
+
+
 - Practicable techniques in a range of higher-stakes real-world environments
 
 ## Working with charities and organisations
