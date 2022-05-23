@@ -202,15 +202,18 @@ See also these resources from [effectivealtruism.org](https://www.effectivealtru
 
 Considering how heavily we should weigh the future is a subject that has been raised frequently in the field of Economics (perhaps most notably climate economics in recent times), leading us to the idea (and various conceptions) of 'discount rates' [@ackerman2008]. Greaves (2017) outlines how discount rates can work as follows (unfold)
 
-::: {.callout-note collapse='true'} \> Suppose we have an opportunity to undertake an investment project, sacrificing *k* \< 1 units of consumption today in order to secure an increase of 1 unit in consumption a time interval *t* later. Our basic question is: what is the threshold value of k at which the status quo becomes socially preferable to such a sacrifice? The answer to this question is the *social discount factor* for consumption at time t, *R(t)*. (One also has a *private* discount factor, corresponding to private as opposed to social preferences; in the remainder of this article, the focus is on the social version.) One generally expects *R* to decline with time --- we are willing to sacrifice more today to gain an increase in one unit of consumption tomorrow than to gain an increase of one unit of consumption next year. The decline, however, may be faster or slower, and for current purposes the rate of the decline is crucial.
+
+::: {.callout-note collapse='true'}
+
+> Suppose we have an opportunity to undertake an investment project, sacrificing *k* \< 1 units of consumption today in order to secure an increase of 1 unit in consumption a time interval *t* later. Our basic question is: what is the threshold value of k at which the status quo becomes socially preferable to such a sacrifice? The answer to this question is the *social discount factor* for consumption at time t, *R(t)*. (One also has a *private* discount factor, corresponding to private as opposed to social preferences; in the remainder of this article, the focus is on the social version.) One generally expects *R* to decline with time --- we are willing to sacrifice more today to gain an increase in one unit of consumption tomorrow than to gain an increase of one unit of consumption next year. The decline, however, may be faster or slower, and for current purposes the rate of the decline is crucial.
 
 > The choice of discount rate is crucial in the evaluation of projects some of whose important effects are long-term. Analyses that use a higher discount rate will tend to favour the short term: projects requiring sacrifices in the short term for the sake of benefits in the further future will be more likely to fail cost-benefit tests.
 
 <!-- #TODO: recover reference greaves2017discounting -->
 
-:::[^aware-distance-11]
+:::
 
-[^aware-distance-11]: For further reading on discount rates see @weitzman1998far, @ebert2007fragility, @farmer2009hyperbolic
+^[For further reading on discount rates see @weitzman1998far, @ebert2007fragility, @farmer2009hyperbolic]
 
 \
 

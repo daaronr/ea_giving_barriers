@@ -4,7 +4,7 @@
 
 
 ::: {.alert .alert-secondary}
- 
+
 
 Includes, e.g.,
 
@@ -19,7 +19,7 @@ Includes, e.g.,
 
 -  @caviola2020many (literature review): [Motivational obstacles](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0020), 'Character and reputational benefit'.
 
- 
+
 :::
 
 
@@ -29,7 +29,7 @@ Includes, e.g.,
 
 > Jason Schukraft: Considering all the talk of deontology in this section, I'm surprised you didn't bring up obligations. I think it's plausible that many people believe (rightly or wrongly) that they have much stronger moral obligations to their friends/neighbors/community than they do to distant strangers. You can't discharge your duty to your community by donating to AMF but you can through volunteering at the local soup kitchen.
 
-David Reinstein: This may also drive local giving, however, I don't see this as a 'barrier' or bias. this is simply a particular non-utilitarian ethic. 
+David Reinstein: This may also drive local giving, however, I don't see this as a 'barrier' or bias. this is simply a particular non-utilitarian ethic.
 
 :::
 
@@ -64,15 +64,18 @@ Wiblin: So why is it more important to show the people that you’re the kind of
 \
 Hanson: Right, but at least if I want your help and I’m your friend it will be my job to put myself in your face and to tell you about my problem. And maybe I figure I coul successfully get myself in front of your face and make you pay attention to my problem and help you understand what I think is effective and then you would just do what I say, and that’s maybe what I’m mostly hoping for. And if you were this person who thinks carefully about how to help the best person in the world who needs help, well I’m plausibly not going to be that best person in the world who needs help so I’m not going to win out in that contest so it’s not actually going to be that useful to know you as the sort of person who will help the person in the world who needs the most help.
 
- 
- 
+
+
 :::
 
 [@everettInferenceTrustworthinessIntuitive2016] argue that deontological ethics signal stable cooperative behavior to others, which enhances fitness in mutualistic partner choice models.^[Jason Schukraft: I think the consequentialism vs deontology framing is a bit misleading. I think there's an implicit virtue ethics at work here. Volunteering at the soup kitchen demonstrates the possession of certain virtues, and these virtues can't be adequately signalled by donating to effective charities. (Donating to effective charities evidences other virtues, of course.)] The basic argument is "An individual who claims [and believes] that stealing is always morally wrong ... seems much less likely to steal from me than an individual who believes that the stealing is sometimes morally acceptable depending on the consequences."
 
 
 Background and further discussion ... in fold
+
+
 ::: {.callout-note collapse='true'}
+
  The authors' motivation is to explore why "intuitive moral judgments often "share characteristics with deontological theories while  "consequentialist judgments are often the result of slow, deliberative cognitive processes". Their key theoretical argument cites "mutualistic partner choice models of the evolution of morality", which...
 
 > posit a cooperation market such that agents who can be relied upon to act in a mutually beneficial way are more likely to be chosen as cooperation partners, thus increasing their own fitness
@@ -81,8 +84,7 @@ Background and further discussion ... in fold
 
 > And recent theoretical work has demonstrated that -"cooperating without looking”—that is, without considering the costs and benefits of cooperation—is a subgame perfect equilibrium [@Hoffman2015]. Therefore, expressing characteristically deontological judgments could constitute a behavior that enhances individual fitness in a cooperation market because these judgments are seen as reliable indicators of a specific valued behavior-cooperation.
 
- 
- 
+
 :::
 
 @Hoffman2015 present an evolutionary game theoretic analysis of an indefinitely repeated game where^[Here the analogy to effective versus ineffective giving is not clear...
@@ -157,7 +159,7 @@ Key findings:  Across six studies, donors who deliberated were perceived as havi
 
 ::: {.callout-note collapse="true"}
 
-A critique (Jason Schukraft): 
+A critique (Jason Schukraft):
 
 > This set-up seems misleading to me because in the first case it appears to be left uncertain whether John would donate to a different (more effective) charity if the data didn't pan out.
 

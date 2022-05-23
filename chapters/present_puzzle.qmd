@@ -360,7 +360,9 @@ The 'production function' is (perhaps tautologically) the product of two terms:
 
 (Total or marginal) impact per dollar = output per dollar $\times$ impact per output
 
-:::[^present_puzzle-20]
+:::
+
+[^present_puzzle-20]
 
 [^present_puzzle-20]: This is obviously an oversimplification. To achieve the beneficial outcome the charity will require many intermediate inputs (or "outputs" as noted above), including 'management' and 'careful targetting of programs'. Some charities may be able to acquire these inputs at better prices than others, and some may also use a more efficient mix of inputs.
 
@@ -424,7 +426,7 @@ But we do *not* seem to be doing this. Again: billions are given to charity, and
 
 Does the set of facts mentioned above constitute a "puzzle" for our Economics and Psychology models, or are there obvious existing explanations? In Economics terms, are donors mysteriously ''leaving money on the table'' or are they simply optimizing given their their preferences and constraints? What could explain this?
 
-*We return to this in the [next section](barriers-breakdown), while classifying potential 'barriers' to effective giving*.[^present_puzzle-22]
+*We return to this in a [later section](#barriers-breakdown), while classifying potential 'barriers' to effective giving*.[^present_puzzle-22]
 
 [^present_puzzle-22]: Economists love when we can say that something is officially a *Puzzle*. It is an achievement in itself to be the researcher who first discovered a *Puzzle*, even if we have no clue how to resolve it.
 

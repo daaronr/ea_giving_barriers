@@ -1,39 +1,34 @@
 # Breakdown of barriers {#barriers-breakdown}
 
 ::: {.alert .alert-secondary}
- 
+
 
 Other authors have given related decompositions; see, e.g., [@caviolaPsychologyEffectiveAltruism2021] and [@jaegerPsychologicalBarriersEffective2021]. We provide some comparisons below; these outlines are separately discussed presented [above](#effectiveness-prev-work).
 
- 
+
 :::
 
 ## Breakdown of 'barriers' (first presentation) {#barriers-concept}
 
-We focus on the 'barriers' or 'hurdles to giving effectively' among individuals who *already* engage in some charitable giving and other-regarding acts.\* Loosely, a donor would need to "jump over all of these hurdles" in order to make it to 'giving effectively'.\*\*
+We focus on the 'barriers' or 'hurdles to giving effectively' among individuals who *already* engage in some charitable giving and other-regarding acts.\* Loosely, a donor would need to "jump over all of these hurdles" in order to make it to 'giving effectively'.^[We do not focus on other barriers to 'generous intentions or actions' in general.]
 
-::: marginnote
-\* We do not focus on other barriers to 'generous intentions or actions' in general.
+<!-- Consider: is there a well-known psychological framework for these sorts of multiple-hurdle choices? -->
 
-\*\* Consider: is there a well-known psychological framework for these sorts of multiple-hurdle choices?
-:::
 
-::: marginnote
-Later chapters present the direct and indirect evidence for very specific barriers, with real-world examples, and proposed 'tools' for surmounting these. In doing this, the conceptual breakdown proved difficult, as most of the real-world cases fell into multiple theoretical categories.
-:::
 
 We began by thinking about a fairly *conceptual* breakdown:
+^[Later chapters present the direct and indirect evidence for very specific barriers, with real-world examples, and proposed 'tools' for surmounting these. In doing this, the conceptual breakdown proved difficult, as most of the real-world cases fell into multiple theoretical categories.]
 
 ::: {.alert .alert-secondary}
- 
+
 
 **A conceptual breakdown of barriers:**
-  
-  
+
+
 *Values:*
-  
-Base values may be (non) utilitarian: People are optimising their own 'X', which does not coincide with impact $\rightarrow$ no puzzle? We discuss this, and consider the 'evidence', to the extent this is possible, in the (WIP) section [Do people actually care about impact? Does moral utilitarianism matter?](#doesimpactmatter). 
- 
+
+Base values may be (non) utilitarian: People are optimising their own 'X', which does not coincide with impact $\rightarrow$ no puzzle? We discuss this, and consider the 'evidence', to the extent this is possible, in the (WIP) section [Do people actually care about impact? Does moral utilitarianism matter?](#doesimpactmatter).
+
 
 \
 
@@ -50,7 +45,7 @@ Base values may be (non) utilitarian: People are optimising their own 'X', which
 
 
 *Other internal factors and motivations:*
-  
+
 - Emotion overrides cognition: Our brain serves two masters, those decisions are not consistent
 
 - Identity and signalling: Effectiveness in giving clashes with our self-image/self-beliefs, or with how we want to appear to others
@@ -63,7 +58,7 @@ Base values may be (non) utilitarian: People are optimising their own 'X', which
 
 - Systemic factors (and inertia): "It's society's fault, man" ... social systems leading to pressure and incentives from others to give to local or less-effective causes. Even if impact is a goal, these systems take a long time to adjust.
 
- 
+
 :::
 
 ## "Practical breakdown (organizing this resource) {#barriers-practical}
@@ -109,7 +104,7 @@ Considering effectiveness in giving (and publicizing this concern) may conflict 
 <!-- Volunteer experience unlocks emotion and giving -->
 
 ```{=html}
--   social obligations to give locally (and 'crowding out'/moral licencing) (see, e.g., [@meerBrotherCanYou2011])
+-   social obligations to give locally (and 'crowding out'/moral licencing) (see, e.g., @meerBrotherCanYou2011)
 
 Does one contribution crowd out another? If so, social pressure, systems enforcing 'local public goods' and inertial factors may limit effective (non-local) giving.
 ```
@@ -186,14 +181,14 @@ smallSympathyCallousnessImpact2007, gneezyAvoidingOverheadAversion2014, ein2013g
 **Notes on previous sections ([Are Charities in Competition](#substitution), [Inertia](#inertia)) (unfold)**
 
 ::: {.callout-note collapse='true'}
- In a previous sections we presented a [long discussion of the evidence and theory](#substitution) on whether 'one contribution comes at the expense of another', 
-  
-In an [appendix chapter](#inertia) we give a short (and incomplete/WIP) discussion of the issue of 'inertia', and whether slow changes in social norms and individual behavior are inhibiting effective giving. 
+ In a previous sections we presented a [long discussion of the evidence and theory](#substitution) on whether 'one contribution comes at the expense of another',
 
-We do not present these explicitly as 'barriers'. To us, these seem like underlying factors that will *interact* with these barriers and make some things more or less salient. The nature of the evidence is also somewhat distinct. However, this is very much a judgement call, and we could have gone either way. It was also a judgement call to put the [discussion of underlying (non)-utilitarian values](#are_we_util) in the 'barriers' section. 
+In an [appendix chapter](#inertia) we give a short (and incomplete/WIP) discussion of the issue of 'inertia', and whether slow changes in social norms and individual behavior are inhibiting effective giving.
 
- 
- 
+We do not present these explicitly as 'barriers'. To us, these seem like underlying factors that will *interact* with these barriers and make some things more or less salient. The nature of the evidence is also somewhat distinct. However, this is very much a judgement call, and we could have gone either way. It was also a judgement call to put the [discussion of underlying (non)-utilitarian values](#are_we_util) in the 'barriers' section.
+
+
+
 :::
 
 
