@@ -18,8 +18,8 @@ book:
     - part: "BARRIERS"
       chapters:
         - chapters/barriers_breakdown.qmd
-        - chapters/BARRIERS_FUNDAMENTAL.md
         - chapters/doesimpactmatter.qmd
+        - chapters/BARRIERS_FUNDAMENTAL.md
         - chapters/aware-distance.qmd
         - chapters/identity.qmd
         - chapters/social.qmd
