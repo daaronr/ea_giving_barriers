@@ -1,0 +1,612 @@
+# Results
+
+```{r read_and_clean, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(janitor)
+library(tidyverse)
+d <- read.csv("Charity Effect Size Extraction - Effect Size Extraction.csv")
+d <- janitor::clean_names(d) %>%
+  janitor::remove_empty(which = c("rows", "cols"))
+d <- filter(d, apa_citation != "")
+d <- select(d, -mean_centred_in_ci)
+
+d <- rename(d,
+  k = k_number_of_effects,
+  n = n_total_number_of_participants_intervention_control
+)
+
+d$author <- stringr::str_remove(d$apa_citation, "\\s[0-9][0-9][0-9][0-9]")
+d$year <- stringr::word(d$apa_citation, -1)
+# hist(d$k)
+d$n <- as.numeric(gsub(",", "", d$n))
+# hist(d$n)
+
+# Many n's are missing but are important for calculating
+# variances from confidence intervals
+# so impute the missing ns using the median
+complete_n_k <- select(d, n, k) %>% na.omit()
+observed_n_per_study <- complete_n_k$n / complete_n_k$k
+# hist(observed_n_per_study)
+min_n <- min(observed_n_per_study, na.rm = T)
+d$n[is.na(d$n) & !is.na(d$k)] <- d$k[is.na(d$n) & !is.na(d$k)] * min_n
+
+d$lower_is_better <- !is.na(d$lower_is_better)
+
+# Before factoring moderators (etc) re-cat a few things
+# tabyl(d$moderator_level)
+d$outcome[d$outcome == ""] <- "Overall"
+
+d$moderation_type[d$moderation_type == ""] <- "Overall"
+d[, 2:5] <- lapply(d[, 2:5], as.factor)
+
+library(msemtools)
+library(english)
+in_text <- function(num) {
+  if (num < 10) {
+    num <- as.english(num)
+  } else {
+    num <- format(num, big.mark = ",")
+  }
+  num
+}
+
+result <- d %>%
+  group_by(intervention) %>%
+  filter(n == max(n)) %>%
+  select(intervention, n, k) %>%
+  distinct()
+
+#str(d)
+
+## convert effect sizes to a common metric
+#glimpse(d)
+library(compute.es)
+library(ggtext)
+#get variances from confidence intervals
+ci_to_variance = function(ciub, cilb, n){
+  # https://handbook-5-1.cochrane.org/chapter_7/7_7_3_2_obtaining_standard_deviations_from_standard_errors_and.htm
+  # CI = mean ± t * sem
+  # CI width = 2 * t * sem
+  # upper - lower = 2 * t * sem
+  
+  # SD = (sqrt(n) * (upper limit - lower limit) / tinv(1-.95, N - 1)
+  # SEM = (upper limit - lower limit) / tinv(1-.95, N - 1)
+  sem <- (ciub - cilb) / (qt(.975, n)*2)
+  sd <- sem * sqrt(n)
+  # variance = SD squared 
+  var <- sd^2
+  var
+}
+
+#conversion formula from 10.1037/0021-9010.90.1.175
+beta_to_r <- function(beta){
+  #beta = -.02
+  
+  if(beta >= 0){
+    r <- beta * .98 + .05
+  } else {
+    r <- beta * .98
+  }
+  r
+}
+
+d$r[!is.na(d$beta)] <- sapply(d$beta[!is.na(d$beta)], beta_to_r)
+#d$rvar[!is.na(d$beta_se)] <- d$beta_se[!is.na(d$beta_se)] ^ 2
+
+#g
+var_to_sampling_variance <- function(variance, n){
+  sem <- sqrt(variance)/sqrt(n)
+  sampling_variance <- sem^2
+  sampling_variance
+}
+d$var[!is.na(d$g)] <- var_to_sampling_variance(ci_to_variance(d$g95ciuper[!is.na(d$g)],
+                                                              d$g95cilower[!is.na(d$g)],
+                                                              d$n[!is.na(d$g)]),
+                                               d$n[!is.na(d$g)])
+#d
+d$var[!is.na(d$d)] <- var_to_sampling_variance(ci_to_variance(d$d95ciupper[!is.na(d$d)],
+                                                              d$d95cilower[!is.na(d$d)],
+                                                              d$n[!is.na(d$d)]),
+                                               d$n[!is.na(d$d)])
+#r
+d$rvar[!is.na(d$r95ciupper)] <- var_to_sampling_variance(ci_to_variance(d$r95ciupper[!is.na(d$r95ciupper)],
+                                                                        d$r95cilower[!is.na(d$r95ciupper)],
+                                                                        d$n[!is.na(d$r95ciupper)]),
+                                                         d$n[!is.na(d$r95ciupper)])
+# convert the ds
+d_not_r <- !is.na(d$d) & is.na(d$r)
+get_r_from_d <- compute.es::des(d = d$d[d_not_r],
+                                d$n[d_not_r]/2, d$n[d_not_r]/2,
+                                dig = 10, verbose = F)
+d$r[d_not_r] <- get_r_from_d$r
+d$rvar[d_not_r] <- get_r_from_d$var.r
+d$r95cilower[d_not_r] <- get_r_from_d$l.r
+d$r95ciupper[d_not_r] <- get_r_from_d$u.r
+
+
+# convert the gs
+g_not_r <- !is.na(d$g) & is.na(d$r)
+get_r_from_g <- compute.es::des(d = d$g[g_not_r],
+                                d$n[g_not_r]/2, d$n[g_not_r]/2,
+                                dig = 10, verbose = F)
+d$r[g_not_r] <- get_r_from_g$r
+d$rvar[g_not_r] <- get_r_from_g$var.r
+d$r95cilower[g_not_r] <- get_r_from_g$l.r
+d$r95ciupper[g_not_r] <- get_r_from_g$u.r
+
+# convert the odds ratios
+d$var[!is.na(d$or95cilower)] <- var_to_sampling_variance(ci_to_variance(log(d$or95cilower[!is.na(d$or95cilower)]),
+                                                                        log(d$or95ciupper[!is.na(d$or95cilower)]),
+                                                                        d$n[!is.na(d$or95cilower)]),
+                                                         d$n[!is.na(d$or95cilower)])
+get_ci_from_lor <- compute.es::lores(log(d$or[!is.na(d$or95cilower)]),
+                                      d$var[!is.na(d$or95cilower)],
+                                      d$n[!is.na(d$or95cilower)]/2,
+                                      d$n[!is.na(d$or95cilower)]/2, verbose = FALSE, dig = 10)
+d$r[!is.na(d$or95cilower)] <- get_ci_from_lor$r
+d$rvar[!is.na(d$or95cilower)] <- get_ci_from_lor$var.r
+d$r95cilower[!is.na(d$or95cilower)] <- get_ci_from_lor$l.r
+d$r95ciupper[!is.na(d$or95cilower)] <- get_ci_from_lor$u.r
+
+## missing rvar (esimate via sample size)
+beta_se <- !is.na(d$beta_se) & is.na(d$rvar)
+d$rvar[beta_se] <- d$beta_se[beta_se] ^ 2
+d$r95cilower[beta_se] <- d$r[beta_se] - 2 * d$beta_se[beta_se]
+d$r95ciupper[beta_se] <- d$r[beta_se] + 2 * d$beta_se[beta_se]
+
+r_var_n <- is.na(d$rvar)
+rvars <- compute.es::res(r = d$r[r_var_n],
+                         n = d$n[r_var_n],
+                         dig = 10,
+                         verbose = F)
+d$rvar[r_var_n] <- rvars$var.r
+d$r95cilower[r_var_n] <- rvars$l.r
+d$r95ciupper[r_var_n] <- rvars$u.r
+
+d <- filter(d, !is.na(r))
+d <- d[!grepl("overnment",d$intervention), ] #crowding out studies not comparable to others
+#View(d)
+#reverse sign of other 'lower is better' effects
+d$r[d$lower_is_better == TRUE] <- d$r[d$lower_is_better == TRUE] * -1
+d$r95cilower[d$lower_is_better == TRUE] <- d$r95cilower[d$lower_is_better == TRUE] * -1
+d$r95ciupper[d$lower_is_better == TRUE] <- d$r95ciupper[d$lower_is_better == TRUE] * -1
+#swaps CIs when upper and lower are reversed
+which_rev <- d$r95ciupper<d$r95cilower
+temp <- d$r95ciupper[which_rev]
+d$r95ciupper[which_rev] <- d$r95cilower[which_rev]
+d$r95cilower[which_rev] <- temp
+
+
+```
+
+```{r}
+
+library(metafor)
+library(tidyMB)
+library(viridis)
+
+d$rci <- paste(format(round(d$r, 2), nsmall = 2),
+        " [",
+        format(round(d$r95cilower, 2), nsmall = 2),
+        ", ",
+        format(round(d$r95ciupper, 2), nsmall = 2),
+        "]", sep = "")
+#tabyl(d$outcome)
+donation_size <- filter(d, outcome %in% c("Donation size"),
+                        #apa_citation != "Engel, 2011",
+                  moderation_type=="Overall") %>%
+  group_by(intervention) %>% slice_max(k)
+
+donation_size_model <- meta3(
+  y = r,
+  v = rvar,
+  cluster = apa_citation,
+  data = donation_size,
+  model.name = "Overall model"
+) %>% moderate(intervention)
+#format_nicely(donation_size_model, hide.insig = F)
+#summary(donation_size_model)
+
+donation_size <- within(donation_size, 
+                        intervention <- factor(intervention, 
+                                          levels=intervention[order(r)]))
+donation_size <- rbind(donation_size,donation_size[1, ])
+donation_size[dim(donation_size)[1],] <- NA
+donation_size$k[dim(donation_size)[1]] <- "**k**"
+donation_size$rci[dim(donation_size)[1]] <- "**r [95% CI]**"
+donation_size$apa_citation[dim(donation_size)[1]] <- "**Citation**"
+levels <- levels(donation_size$intervention)
+levels[length(levels)+1] <- " "
+donation_size$intervention <- factor(donation_size$intervention, levels = levels)
+donation_size$intervention[dim(donation_size)[1]] <- " "
+pooled_intervention <- ggplot(data = donation_size, aes(x = intervention,
+                           y = r,
+                           ymin = r95cilower,
+                           ymax = r95ciupper,
+                           colour = r,
+                           label = apa_citation)) + 
+    geom_pointrange() + coord_flip(ylim = c(-.3,1.2)) + theme_mb() %+replace%
+    theme(panel.grid.major.y = element_blank(),
+          strip.text = element_text(hjust = 0.3, vjust = 1, face = "bold"),
+          axis.title.x = element_text(hjust = 0.1, vjust = 0, face = "bold")) + xlab(NULL) + 
+    scale_y_continuous(breaks=c(-.4, -.2, 0, .2, .4)) + 
+    ylab("Effect on donation size with 95% CI") +
+    scale_colour_viridis() + geom_hline(yintercept = 0) +
+    geom_richtext(aes(y = .8), colour = "black",
+                  hjust = 0, vjust = .5, size = 2.5, family = "Times", label.size = NA)+
+    geom_richtext(aes(label = rci, y = .6), colour = "black",
+                  hjust = 0.5, vjust = .5, size = 2.5, family = "Times", label.size = NA)+
+    geom_richtext(aes(label = k, y = .75), colour = "black",
+                  hjust = 0.5, vjust = .5, size = 2.5, family = "Times", label.size = NA)
+
+
+
+ggsave("figures/Figure 2 Summary Forest Plot of Donation Size.png", pooled_intervention,
+       height = 5, width = 9)  
+```
+
+```{r}
+
+compliance <- filter(d, outcome %in% c("Compliance"),
+                        #apa_citation != "Engel, 2011",
+                  moderation_type=="Overall") %>%
+  group_by(intervention) %>% slice_max(k)
+
+compliance_model <- meta3(
+  y = r,
+  v = rvar,
+  cluster = apa_citation,
+  data = compliance,
+  model.name = "Overall model"
+) %>% moderate(intervention)
+#format_nicely(compliance_model, hide.insig = F)
+#summary(compliance_model)
+
+compliance <- within(compliance, 
+                        intervention <- factor(intervention, 
+                                          levels=intervention[order(r)]))
+compliance <- rbind(compliance,compliance[1, ])
+compliance[dim(compliance)[1],] <- NA
+compliance$k[dim(compliance)[1]] <- "**k**"
+compliance$rci[dim(compliance)[1]] <- "**r [95% CI]**"
+compliance$apa_citation[dim(compliance)[1]] <- "**Citation**"
+levels <- levels(compliance$intervention)
+levels[length(levels)+1] <- " "
+compliance$intervention <- factor(compliance$intervention, levels = levels)
+compliance$intervention[dim(compliance)[1]] <- " "
+pooled_compliance <- ggplot(data = compliance, aes(x = intervention,
+                           y = r,
+                           ymin = r95cilower,
+                           ymax = r95ciupper,
+                           colour = r,
+                           label = apa_citation)) + 
+    geom_pointrange() + coord_flip(ylim = c(-.3,1.2)) + theme_mb() %+replace%
+    theme(panel.grid.major.y = element_blank(),
+          strip.text = element_text(hjust = 0.3, vjust = 1, face = "bold"),
+          axis.title.x = element_text(hjust = 0.1, vjust = 0, face = "bold")) + xlab(NULL) + 
+    scale_y_continuous(breaks=c(-.4, -.2, 0, .2, .4)) + 
+    ylab("Effect on compliance with 95% CI") +
+    scale_colour_viridis() + geom_hline(yintercept = 0) +
+    geom_richtext(aes(y = .8), colour = "black",
+                  hjust = 0, vjust = .5, size = 2.5, family = "Times", label.size = NA)+
+    geom_richtext(aes(label = rci, y = .6), colour = "black",
+                  hjust = 0.5, vjust = .5, size = 2.5, family = "Times", label.size = NA)+
+    geom_richtext(aes(label = k, y = .75), colour = "black",
+                  hjust = 0.5, vjust = .5, size = 2.5, family = "Times", label.size = NA)
+
+for(i in 1:dim(d)[1]){
+  d$es[i] <-   paste(c("(r = ",
+                    format(round(d$r[i], 2), nsmall = 2),
+                    ", 95% CI [",
+                    format(round(d$r95cilower[i], 2), nsmall = 2),
+                    ", ",
+                    format(round(d$r95ciupper[i], 2), nsmall = 2),
+                    "], k = ",
+                    d$k[i],"; ",
+                    d$apa_citation[i],")"), collapse = "")  
+}
+
+d %>% select(1:7, es) %>% write.csv("effects_with_apa.csv")
+
+ ggsave("figures/Figure 3 Summary Forest Plot of Compliance.png", pooled_compliance,
+       height = 3, width = 8)  
+```
+
+```{r}
+d$flipped <- "black"
+mechanism <- filter(d, outcome %in% c("Donation size"),
+                        #apa_citation != "Engel, 2011",
+                  moderation_type=="Overall") %>%
+  group_by(intervention) %>% slice_max(k)
+
+flip_negatives <- mechanism$proposed_direction_of_intervention_on_outcome == "Negative"
+
+flip_these <- function(df, these_rows){
+  df$r[these_rows] <- df$r[these_rows] * -1
+  df$r95cilower[these_rows] <- df$r95cilower[these_rows] * -1
+  df$r95ciupper[these_rows] <- df$r95ciupper[these_rows] * -1
+  #swaps CIs when upper and lower are reversed
+  which_rev <- df$r95ciupper<df$r95cilower
+  temp <- df$r95ciupper[which_rev]
+  df$r95ciupper[which_rev] <- df$r95cilower[which_rev]
+  df$r95cilower[which_rev] <- temp
+  df$rci <- paste(format(round(df$r, 2), nsmall = 2),
+        " [",
+        format(round(df$r95cilower, 2), nsmall = 2),
+        ", ",
+        format(round(df$r95ciupper, 2), nsmall = 2),
+        "]", sep = "")
+  df$flipped[these_rows] <- "#0abab5"
+  df
+}
+
+mechanism <- flip_these(mechanism, flip_negatives)
+
+mechanism$rci <- paste(format(round(mechanism$r, 2), nsmall = 2),
+        " [",
+        format(round(mechanism$r95cilower, 2), nsmall = 2),
+        ", ",
+        format(round(mechanism$r95ciupper, 2), nsmall = 2),
+        "]", sep = "")
+
+by_mechanism <- meta3(
+  y = r,
+  v = rvar,
+  cluster = intervention,
+  data = mechanism,
+  model.name = "Overall model"
+) %>% moderate(mechanism)
+##format_nicely(by_mechanism, hide.insig = F)
+
+mechanism$rvar
+
+get_estimates_for_plot <- function(moderation_results){
+  #moderation_results <- by_outcome
+  moderation_results <- moderation_results$table
+  moderation_results <- filter(moderation_results, moderation != "Baseline" & !is.na(estimate))
+  moderation_results$moderation <- "Pooled Effect Size"
+  moderation_results$intervention <- "Pooled Effect Size"
+  moderation_results$moderator_level <- moderation_results$model.name
+  moderation_results$outcome <- moderation_results$model.name
+  moderation_results <- rename(moderation_results,
+                               r = estimate,
+                               r95cilower = lbound,
+                               r95ciupper = ubound,
+                               apa_citation = moderation,
+                               mechanism = model.name)
+  moderation_results$sdt_need <- moderation_results$mechanism
+  moderation_results$rci <- paste(format(round(moderation_results$r, 2), nsmall = 2),
+                                  " [",
+                                  format(round(moderation_results$r95cilower, 2), nsmall = 2),
+                                  ", ",
+                                  format(round(moderation_results$r95ciupper, 2), nsmall = 2),
+                                  "]", sep = "")
+  moderation_results$k <- NA
+  moderation_results$apa_citation <- NA
+  moderation_results$flipped <- "black"
+  moderation_results
+}
+
+mechanism <- dplyr::bind_rows(mechanism, get_estimates_for_plot(by_mechanism))
+
+mechanism <- within(mechanism, 
+                   intervention <- factor(intervention, 
+                                      levels=unique(intervention[order(r)])))
+
+# review; effect size; CI all on the right hand side
+
+
+plot_template <- function(data_to_plot, variable_for_facet, variable_for_y_axis){
+  data_to_plot <- rbind(as.data.frame(data_to_plot),NA)
+  last <- dim(data_to_plot)[1]
+  data_to_plot$k[last] <- "**k**"
+  data_to_plot$rci[last] <- "**r [95% CI]**"
+  data_to_plot$apa_citation[last] <- "**Citation**"
+  data_to_plot$flipped[last] <- "black"
+  levels <- levels(data_to_plot[, variable_for_y_axis])
+  levels[length(levels)+1] <- " "
+  data_to_plot[, variable_for_y_axis] <- factor(data_to_plot[, variable_for_y_axis], levels = unique(levels))
+  data_to_plot[, variable_for_y_axis] <- forcats::fct_reorder(data_to_plot[, variable_for_y_axis],
+                                                              data_to_plot$r)
+  data_to_plot[, variable_for_y_axis] <- forcats::fct_relevel(data_to_plot[, variable_for_y_axis],
+                                                              "Pooled Effect Size")
+  data_to_plot[last, variable_for_facet] <- sort(unique(data_to_plot[, variable_for_facet]))[1]
+  data_to_plot[last, variable_for_y_axis] <- " "
+  #data_to_plot <- mechanism
+  #variable_for_facet <- "mechanism"
+  #variable_for_y_axis <- "intervention"
+  facet_formula <- as.formula(paste(".~",variable_for_facet))
+  plot_object <- ggplot(data = data_to_plot, aes(x = UQ(as.name(variable_for_y_axis)),
+                                                        y = r,
+                                                        ymin = r95cilower,
+                                                        ymax = r95ciupper,
+                                                        colour = flipped,
+                                                        label = apa_citation)) + 
+    geom_pointrange(size = 0.1) + coord_flip(ylim = c(-.3,1.2)) + theme_mb() %+replace%
+    theme(panel.grid.major.y = element_blank(),
+          strip.text = element_text(hjust = 0.3, vjust = 1, face = "bold"),
+          axis.title.x = element_text(hjust = 0.2, vjust = 0, face = "bold")) + xlab(NULL) + 
+    scale_y_continuous(breaks=c(-.4, -.2, 0, .2, .4)) + 
+    ylab("Effect size with 95% CI") +
+    geom_hline(yintercept = 0) +
+    scale_color_manual(values = unique(data_to_plot$flipped))+
+    geom_pointrange(data=subset(data_to_plot, is.na(k)), color='black', shape=18, size=1)+
+    geom_richtext(aes(y = .8), colour = data_to_plot$flipped,
+                  hjust = 0, vjust = .5, size = 2.5, family = "Times", label.size = NA)+
+    geom_richtext(aes(label = rci, y = .6), colour = data_to_plot$flipped,
+                  hjust = 0.5, vjust = .5, size = 2.5, family = "Times", label.size = NA)+
+    geom_richtext(aes(label = k, y = .75), colour = data_to_plot$flipped,
+                  hjust = 0.5, vjust = .5, size = 2.5, family = "Times", label.size = NA)+
+    facet_wrap(facet_formula, ncol = 1, scales = "free", shrink = T)
+  plot_object
+}
+mechanism$mechanism <- factor(mechanism$mechanism, levels = c("Awareness",
+                                                                 "Costs and benefits",
+                                                                 "Efficacy",
+                                                                 "Reputation",
+                                                                 "Other"))
+
+by_mechanism_plot <- plot_template(mechanism, "mechanism", "intervention")
+ggsave("figures/Figure 3 Summary Forest Plot by Mechanism.png", by_mechanism_plot,
+       height = 10, width = 9)  
+```
+
+```{r}
+
+outcome <- filter(d, outcome %in% c("Donation size", "Compliance"),
+                        #apa_citation != "Engel, 2011",
+                  moderation_type=="Overall") %>%
+  group_by(intervention, outcome) %>% slice_max(k)
+tabyl(outcome$outcome)
+flip_negatives <- outcome$proposed_direction_of_intervention_on_outcome == "Negative"
+
+outcome <- flip_these(outcome, flip_negatives)
+
+by_outcome <- meta3(
+  y = r,
+  v = rvar,
+  cluster = intervention,
+  data = outcome,
+  model.name = "Overall model"
+  
+) %>% moderate(outcome)
+#format_nicely(by_outcome, hide.insig = F)
+
+outcome <- dplyr::bind_rows(outcome, get_estimates_for_plot(by_outcome))
+
+outcome <- within(outcome, 
+                   intervention <- factor(intervention, 
+                                      levels=unique(intervention[order(r)])))
+outcome$outcome <- factor(outcome$outcome, levels = c("Donation size", "Compliance"))
+
+
+data_to_plot <- outcome
+data_to_plot <- rbind(as.data.frame(data_to_plot),NA)
+variable_for_facet <- "outcome"
+variable_for_y_axis <- "intervention"
+last <- dim(data_to_plot)[1]
+data_to_plot$k[last] <- "**k**"
+data_to_plot$rci[last] <- "**r [95% CI]**"
+data_to_plot$apa_citation[last] <- "**Citation**"
+data_to_plot$flipped[last] <- "black"
+levels <- levels(data_to_plot[, variable_for_y_axis])
+levels[length(levels)+1] <- " "
+data_to_plot[, variable_for_y_axis] <- factor(data_to_plot[, variable_for_y_axis], levels = unique(levels))
+data_to_plot[, variable_for_y_axis] <- forcats::fct_reorder(data_to_plot[, variable_for_y_axis],
+                                                            .fun = min,
+                                                            data_to_plot$r)
+data_to_plot[, variable_for_y_axis] <- forcats::fct_relevel(data_to_plot[, variable_for_y_axis],
+                                                            "Pooled Effect Size")
+data_to_plot[last, variable_for_facet] <- sort(unique(data_to_plot[, variable_for_facet]))[1]
+data_to_plot[last, variable_for_y_axis] <- " "
+
+plot_object <- ggplot(data = data_to_plot, aes(x = intervention,
+                                                        y = r,
+                                                        ymin = r95cilower,
+                                                        ymax = r95ciupper,
+                                                        colour = flipped,
+                                                        label = apa_citation)) + 
+    geom_pointrange(size = 0.1) + coord_flip(ylim = c(-.3,1)) + theme_mb() %+replace%
+    theme(panel.grid.major.y = element_blank(),
+          strip.text = element_text(hjust = 0.5, vjust = 0.5, face = "bold"),
+          axis.title.x = element_text(hjust = 0.2, vjust = 0, face = "bold")) + xlab(NULL) + 
+    facet_grid(rows = vars(outcome),
+               space = "free",
+               scales = "free",
+               shrink = T,
+               switch = "y") +
+    scale_y_continuous(breaks=c(-.4, -.2, 0, .2, .4)) + 
+    ylab("Effect size with 95% CI") +
+    geom_hline(yintercept = 0) +
+    scale_color_manual(values = unique(data_to_plot$flipped))+
+    geom_pointrange(data=subset(data_to_plot, is.na(k)), color='black', shape=18, size=1)+
+    geom_richtext(aes(y = .8), colour = data_to_plot$flipped,
+                  hjust = 0, vjust = .5, size = 2.5, family = "Times", label.size = NA)+
+    geom_richtext(aes(label = rci, y = .6), colour = data_to_plot$flipped,
+                  hjust = 0.5, vjust = .5, size = 2.5, family = "Times", label.size = NA)+
+    geom_richtext(aes(label = k, y = .75), colour = data_to_plot$flipped,
+                  hjust = 0.5, vjust = .5, size = 2.5, family = "Times", label.size = NA)
+
+#plot_object
+ggsave("figures/Figure 2 Summary Forest Plot by Outcome.png", plot_object,
+       height = 5, width = 10) 
+
+```
+
+
+```{r}
+##within each mechanism test whether intervention is homogeneous
+flip_negatives <- d$proposed_direction_of_intervention_on_outcome == "Negative"
+r <- flip_these(d, flip_negatives)
+tabyl(r$mechanism)
+
+##awareness
+x <- filter(r, outcome %in% c("Donation size"), mechanism == "Awareness", moderation_type=="Overall") %>%
+  group_by(intervention) %>% slice_max(k)
+awareness <- meta3(data = x, y = r, v = rvar, cluster = apa_citation, model.name = "Overall model") %>% moderate(intervention)
+format_nicely(awareness)
+
+x <- filter(r, outcome %in% c("Donation size"), mechanism == "Costs and benefits", moderation_type=="Overall") %>%
+  group_by(intervention) %>% slice_max(k)
+cost_benefit <- meta3(data = x, y = r, v = rvar, cluster = apa_citation, model.name = "Overall model") %>% moderate(intervention)
+format_nicely(cost_benefit)
+
+x <- filter(r, outcome %in% c("Donation size"), mechanism == "Efficacy", moderation_type=="Overall") %>%
+  group_by(intervention) %>% slice_max(k)
+efficacy <- meta3(data = x, y = r, v = rvar, cluster = apa_citation, model.name = "Overall model") %>% moderate(intervention)
+format_nicely(efficacy)
+
+x <- filter(r, outcome %in% c("Donation size"), mechanism == "Reputation", moderation_type=="Overall") %>%
+  group_by(intervention) %>% slice_max(k)
+reputation <- meta3(data = x, y = r, v = rvar, cluster = apa_citation, model.name = "Overall model") %>% moderate(intervention)
+format_nicely(reputation)
+
+```
+
+```{r}
+
+
+need_s <- filter(d, outcome %in% c("Donation size"),
+                        #apa_citation != "Engel, 2011",
+                  moderation_type=="Overall") %>%
+  group_by(intervention) %>% slice_max(k)
+
+flip_negatives <- grepl("thwarting", need_s$sdt_need)
+
+need_s <- flip_these(need_s, flip_negatives)
+
+need_s$rci <- paste(format(round(need_s$r, 2), nsmall = 2),
+        " [",
+        format(round(need_s$r95cilower, 2), nsmall = 2),
+        ", ",
+        format(round(need_s$r95ciupper, 2), nsmall = 2),
+        "]", sep = "")
+
+need_s$sdt_need <- gsub(" thwarting| supportive", "", need_s$sdt_need)
+
+by_need <- meta3(
+  y = r,
+  v = rvar,
+  cluster = intervention,
+  data = need_s,
+  model.name = "Overall model"
+) %>% moderate(sdt_need)
+##format_nicely(by_need, hide.insig = F)
+
+need_s <- dplyr::bind_rows(need_s, get_estimates_for_plot(by_need))
+
+need_s <- within(need_s, 
+                   intervention <- factor(intervention, 
+                                      levels=unique(intervention[order(r)])))
+
+# review; effect size; CI all on the right hand side
+need_s$sdt_need <- factor(need_s$sdt_need, levels = c("Autonomy",
+                                                      "Competence",
+                                                      "Relatedness",
+                                                      "No psychological need"))
+
+need_s_plot <- plot_template(need_s, "sdt_need", "intervention")
+ggsave("figures/Figure 4 Summary Forest Plot by SDT Need.png", need_s_plot,
+       height = 10, width = 9)  
+
+```

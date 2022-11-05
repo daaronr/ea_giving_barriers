@@ -1,13 +1,13 @@
-# (Persistent and systematic incorrect empirical beliefs) {#factual}
+# Persistent and systematic incorrect empirical beliefs {#factual}
 
 ::: {.alert .alert-secondary}
- 
+
 
 **Connection to terms/concepts in other work**
 
 @caviola2020many (literature review) considers ["Epistemic Obstacles"](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(21)00090-5#secst0060); this is one of their 2 'barriers' sections, the other being 'Motivational obstacles'. In that section, they consider some of the 'misconceptions' stated below, as well as  the 'overhead myth' (cf our ['overhead aversion'](#overhead-aversion)) and 'quantifiability skepticism', 'innumeracy', and 'ignorance about the most effective charities'
 
- 
+
 :::
 
 Recapping the discussion from the [Conceptual breakdown of 'barriers'](#barriers-concept).
@@ -26,18 +26,44 @@ Fundamentally there are systematic reasons why we might *not* expect 'incorrect 
 
 ## Some key misconceptions; evidence these may have an effect
 
--   Differences in effectiveness across charities (understated; see, e.g., @caviolaDonorsVastlyUnderestimate2020)
+-   Differences in effectiveness across charities (understated; see, e.g., @caviola2020)
 
 -   Cost of saving a life (understated, i.e., overoptimistic)
 
--   Relative global affluence (understated): @nairMisperceptionsRelativeAffluence2018
+-   Relative global affluence (understated); possibly conflicting evidence on this below
 
-(@caviola2020many also suggest 'ignorance about the most effective charities')
+<!--
+    - @nairMisperceptionsRelativeAffluence2018
+    -  Fehr et al, 2019 <!-- @fehr2019your
+
+-->
+
+::: {.callout-note collapse="true"}
+
+## Misperceptions of Relative Affluence and Support for International Redistribution (Nair, 2018)
+
+> Respondents who were randomly assigned to information on the global income distribution supported higher spending on foreign aid and cuts in agricultural trade protections at larger rates. A behavioral measure validates these survey data—donations to charities abroad rise by 55% relative to the control group.
+
+:::
+
+
+::: {.callout-note collapse="true"}
+
+## Your Place in the World: Relative Income and Global Inequality (Fehr et al, 2019)
+
+> Tied to German Socio-Economic Panel (SOEP), a representative longitudinal study of German households. The SOEP contains an innovation sample (SOEP-IS) allowing researchers to implement tailor-made survey experiments. A two-year, face-to-face survey experiment on a representative sample of Germans. We measure how individuals form perceptions of their ranks in the national and global income distributions, and how those perceptions relate to their national and global policy preferences.
+
+Their main result: "We find that Germans systematically underestimate their true place in the world’s income distribution, but that correcting those misperceptions does not affect their support for policies related to global inequality."
+
+:::
+
+
+- @caviola2020many also suggest 'ignorance about the most effective charities'
 
 ::: {.alert .alert-secondary}
- 
+
 More content to be filled in here.
- 
-:::  
+
+:::
 
 
