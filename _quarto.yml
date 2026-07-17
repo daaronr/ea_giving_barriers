@@ -4,7 +4,7 @@ project:
 
 book:
   title: "Increasing effective giving (& action): The puzzle, what we (need to) know"
-  author: "David Reinstein, Nick Fitz, Ari Kagan, Janek Kretschmer, Luke Arundel and others. Comments and contributions from Jason Schukraft, Michael Aird, Robin Bergh, Michel Justen, Annabel Rayner, and others"
+  author: "David Reinstein, Nick Fitz, Janek Kretschmer, Luke Arundel and others. Comments and contributions from Jason Schukraft, Michael Aird, Robin Bergh, Michel Justen, Annabel Rayner, and others"
   repo-url: https://github.com/daaronr/ea_giving_barriers
   repo-actions: [edit, issue]
   date: today
