@@ -38,6 +38,8 @@ book:
     - chapters/appendix_tutorial.qmd
     - chapters/inertia.qmd
   reader-mode: true
+  page-footer:
+    center: "[More projects by David Reinstein](https://projects.davidreinstein.org/)"
 
 comments:
     hypothesis: true
