@@ -39,7 +39,7 @@ book:
     - chapters/inertia.qmd
   reader-mode: true
   page-footer:
-    center: "[More projects by David Reinstein](https://projects.davidreinstein.org/)"
+    center: "**Comments welcome.** Select any passage to annotate it with Hypothes.is, or open the panel at the right edge. Or email [daaronr@gmail.com](mailto:daaronr@gmail.com).<br>[More projects by David Reinstein](https://projects.davidreinstein.org/)"
 
 comments:
     hypothesis: true
